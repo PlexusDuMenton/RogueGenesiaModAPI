@@ -1,0 +1,727 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue:Genesia API" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Rogue: Genesia API" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.GameManager.BlackSmith Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_game_manager_1_1_black_smith.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="class_rogue_genesia_1_1_game_manager_1_1_black_smith-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.GameManager.BlackSmith Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.GameManager.BlackSmith:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:abc8bbb57c5004fdce07b242627471166"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_black_smith.html#abc8bbb57c5004fdce07b242627471166">OnCardSelection</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a> SelectedBonus)</td></tr>
+<tr class="separator:abc8bbb57c5004fdce07b242627471166"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add78b34ca6f118339ad1c968959a9b27"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_black_smith.html#add78b34ca6f118339ad1c968959a9b27">AddCardSelection</a> ()</td></tr>
+<tr class="separator:add78b34ca6f118339ad1c968959a9b27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a6d77ca6d1dfa0674c6bcc02b98ad71"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_black_smith.html#a2a6d77ca6d1dfa0674c6bcc02b98ad71">AddAdditionalReroll</a> ()</td></tr>
+<tr class="separator:a2a6d77ca6d1dfa0674c6bcc02b98ad71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9190ff7952898f250ae6cf928bc2e04a"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_black_smith.html#a9190ff7952898f250ae6cf928bc2e04a">AddAdditionalRarityReroll</a> ()</td></tr>
+<tr class="separator:a9190ff7952898f250ae6cf928bc2e04a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ad4eea26ebe4e9d43a7b3d758ba42f2"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_black_smith.html#a3ad4eea26ebe4e9d43a7b3d758ba42f2">AddAdditionalBannish</a> ()</td></tr>
+<tr class="separator:a3ad4eea26ebe4e9d43a7b3d758ba42f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83a874365e24f0ac524432734ff5a6c9"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_black_smith.html#a83a874365e24f0ac524432734ff5a6c9">AddCardSelectionOvercap</a> ()</td></tr>
+<tr class="separator:a83a874365e24f0ac524432734ff5a6c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d84f7a74823adf5eb6bc4a437f2b930"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_black_smith.html#a2d84f7a74823adf5eb6bc4a437f2b930">AddCard</a> (ref List&lt; int &gt; alreadyGeneratedID)</td></tr>
+<tr class="separator:a2d84f7a74823adf5eb6bc4a437f2b930"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38895b383858559ef57dc00daba324ac"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_black_smith.html#a38895b383858559ef57dc00daba324ac">AddEvolution</a> (ref List&lt; int &gt; alreadyGeneratedID)</td></tr>
+<tr class="separator:a38895b383858559ef57dc00daba324ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a143ddfcc538c5a5c95e8b6c6e483e9d2"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_black_smith.html#a143ddfcc538c5a5c95e8b6c6e483e9d2">Start</a> ()</td></tr>
+<tr class="separator:a143ddfcc538c5a5c95e8b6c6e483e9d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3e508bbc34314863e73afafdf173a0b"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_black_smith.html#ac3e508bbc34314863e73afafdf173a0b">CardSelection</a> (GameObject button, float goldPrice)</td></tr>
+<tr class="separator:ac3e508bbc34314863e73afafdf173a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f99490ed0bd898287703417966ebe2f"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_black_smith.html#a4f99490ed0bd898287703417966ebe2f">CardSelectionOverCaped</a> (GameObject button, float goldPrice)</td></tr>
+<tr class="separator:a4f99490ed0bd898287703417966ebe2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html">RogueGenesia.GameManager.NormalShop</a></td></tr>
+<tr class="memitem:a4eff891f6939000e979b3ae4cb909b99 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html#a4eff891f6939000e979b3ae4cb909b99">OnCardSelection</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a> SelectedBonus)</td></tr>
+<tr class="separator:a4eff891f6939000e979b3ae4cb909b99 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a141e65717170a577beacfbcfb8694f65 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html#a141e65717170a577beacfbcfb8694f65">AddCardSelection</a> ()</td></tr>
+<tr class="separator:a141e65717170a577beacfbcfb8694f65 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6da4d6e54194b7e85d809a3018d3c7bd inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html#a6da4d6e54194b7e85d809a3018d3c7bd">AddAdditionalReroll</a> ()</td></tr>
+<tr class="separator:a6da4d6e54194b7e85d809a3018d3c7bd inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8bc55f2f36560c31c81c4c10a2e625d inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html#ac8bc55f2f36560c31c81c4c10a2e625d">AddAdditionalRarityReroll</a> ()</td></tr>
+<tr class="separator:ac8bc55f2f36560c31c81c4c10a2e625d inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97dc7ea411e064210501933fd3bec366 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html#a97dc7ea411e064210501933fd3bec366">AddAdditionalBannish</a> ()</td></tr>
+<tr class="separator:a97dc7ea411e064210501933fd3bec366 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94ab5789d67fdd7365ee2e9b8dd1da9a inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html#a94ab5789d67fdd7365ee2e9b8dd1da9a">AddCardSelectionOvercap</a> ()</td></tr>
+<tr class="separator:a94ab5789d67fdd7365ee2e9b8dd1da9a inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec5d74a1f601ef38627f4992a38a9760 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html#aec5d74a1f601ef38627f4992a38a9760">AddCard</a> (ref List&lt; int &gt; alreadyGeneratedID)</td></tr>
+<tr class="separator:aec5d74a1f601ef38627f4992a38a9760 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4457a28fb09b2d178276a5cee6407c1d inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html#a4457a28fb09b2d178276a5cee6407c1d">AddEvolution</a> (ref List&lt; int &gt; alreadyGeneratedID)</td></tr>
+<tr class="separator:a4457a28fb09b2d178276a5cee6407c1d inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a741cee95686a2a85e3ccdaf3ff4f5d7e inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html#a741cee95686a2a85e3ccdaf3ff4f5d7e">Start</a> ()</td></tr>
+<tr class="separator:a741cee95686a2a85e3ccdaf3ff4f5d7e inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50870ac983455c6d745580addcb6554e inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html#a50870ac983455c6d745580addcb6554e">UpdateRewardPosition</a> ()</td></tr>
+<tr class="separator:a50870ac983455c6d745580addcb6554e inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35bd0479e8ea7c210ad265525500cb82 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html#a35bd0479e8ea7c210ad265525500cb82">CardSelection</a> (GameObject button, float goldPrice)</td></tr>
+<tr class="separator:a35bd0479e8ea7c210ad265525500cb82 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36bcb6f50a617ef678fd066998f4f4fe inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html#a36bcb6f50a617ef678fd066998f4f4fe">CardSelectionOverCaped</a> (GameObject button, float goldPrice)</td></tr>
+<tr class="separator:a36bcb6f50a617ef678fd066998f4f4fe inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html">RogueGenesia.GameManager.ShopManager</a></td></tr>
+<tr class="memitem:ac7b30531fb0ff4207599c208f711f118 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#ac7b30531fb0ff4207599c208f711f118">ResetSelection</a> ()</td></tr>
+<tr class="separator:ac7b30531fb0ff4207599c208f711f118 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34bdd102e9ef13d8ba0f8d98308217c4 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a34bdd102e9ef13d8ba0f8d98308217c4">OnCardSelection</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a> SelectedBonus)</td></tr>
+<tr class="separator:a34bdd102e9ef13d8ba0f8d98308217c4 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60ba8de1f67422f9267ca90b34c7e673 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a60ba8de1f67422f9267ca90b34c7e673">OnPause</a> ()</td></tr>
+<tr class="separator:a60ba8de1f67422f9267ca90b34c7e673 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d20c92d5077b0586087d7d306b58b45 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a6d20c92d5077b0586087d7d306b58b45">AddHeal</a> ()</td></tr>
+<tr class="separator:a6d20c92d5077b0586087d7d306b58b45 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23827fde69695305c8ff92e5d31f6d26 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a23827fde69695305c8ff92e5d31f6d26">AddCardSelection</a> ()</td></tr>
+<tr class="separator:a23827fde69695305c8ff92e5d31f6d26 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a51ca49475f062665bff807cf06cdb6 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a4a51ca49475f062665bff807cf06cdb6">AddAdditionalReroll</a> ()</td></tr>
+<tr class="separator:a4a51ca49475f062665bff807cf06cdb6 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab56f4320385a810c3f33087822754111 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#ab56f4320385a810c3f33087822754111">AddAdditionalRarityReroll</a> ()</td></tr>
+<tr class="separator:ab56f4320385a810c3f33087822754111 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa77e802bad23b424a6b6616fb0a8873b inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#aa77e802bad23b424a6b6616fb0a8873b">AddAdditionalBannish</a> ()</td></tr>
+<tr class="separator:aa77e802bad23b424a6b6616fb0a8873b inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38a0941deba7a05782db50e9231e5555 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a38a0941deba7a05782db50e9231e5555">AddCardSelectionOvercap</a> ()</td></tr>
+<tr class="separator:a38a0941deba7a05782db50e9231e5555 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d99dbb23997d3cd34633c7f8c11e9a8 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a5d99dbb23997d3cd34633c7f8c11e9a8">AddCard</a> (ref List&lt; int &gt; alreadyGeneratedID)</td></tr>
+<tr class="separator:a5d99dbb23997d3cd34633c7f8c11e9a8 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26668bd468aa16589fb6476c70469101 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a26668bd468aa16589fb6476c70469101">AddEvolution</a> (ref List&lt; int &gt; alreadyGeneratedID)</td></tr>
+<tr class="separator:a26668bd468aa16589fb6476c70469101 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac43eca9ff413768a3789f93095aded54 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#ac43eca9ff413768a3789f93095aded54">AddArtefact</a> (ref List&lt; string &gt; alreadyGeneratedArtifact)</td></tr>
+<tr class="separator:ac43eca9ff413768a3789f93095aded54 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89200e9c60b83e6910a32ecaa917101f inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a89200e9c60b83e6910a32ecaa917101f">CalculateDiscount</a> ()</td></tr>
+<tr class="separator:a89200e9c60b83e6910a32ecaa917101f inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5137d8d31bec41bf3e5a7689a56e9ea4 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a5137d8d31bec41bf3e5a7689a56e9ea4">Start</a> ()</td></tr>
+<tr class="separator:a5137d8d31bec41bf3e5a7689a56e9ea4 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40728714b5a9d275ca08cd8c09c8bfc5 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a40728714b5a9d275ca08cd8c09c8bfc5">UpdateButton</a> (GameObject button)</td></tr>
+<tr class="separator:a40728714b5a9d275ca08cd8c09c8bfc5 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0da91380f1907a6a9459e76627c9ca26 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a0da91380f1907a6a9459e76627c9ca26">DestroyButton</a> (GameObject button, BuyButton buyButton)</td></tr>
+<tr class="separator:a0da91380f1907a6a9459e76627c9ca26 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dd1884ddca342b9efeed33f862abc5a inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a1dd1884ddca342b9efeed33f862abc5a">DisableButton</a> (GameObject button, BuyButton buyButton)</td></tr>
+<tr class="separator:a1dd1884ddca342b9efeed33f862abc5a inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34c8fb617ea3d55f90793de449d3168b inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a34c8fb617ea3d55f90793de449d3168b">UpdateRewardPosition</a> ()</td></tr>
+<tr class="separator:a34c8fb617ea3d55f90793de449d3168b inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a109721e3d22bf1ca12c60db66d536a3f inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a109721e3d22bf1ca12c60db66d536a3f">BuyReroll</a> (GameObject button, float goldPrice, int type)</td></tr>
+<tr class="separator:a109721e3d22bf1ca12c60db66d536a3f inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a362692d6a95a82fc0781db1cf046213e inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a362692d6a95a82fc0781db1cf046213e">CardSelection</a> (GameObject button, float goldPrice)</td></tr>
+<tr class="separator:a362692d6a95a82fc0781db1cf046213e inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf708b36a983d894a823436b69725a96 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#acf708b36a983d894a823436b69725a96">CardSelectionOverCaped</a> (GameObject button, float goldPrice)</td></tr>
+<tr class="separator:acf708b36a983d894a823436b69725a96 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4256910109fad97efa139fcbec5a54d inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#ac4256910109fad97efa139fcbec5a54d">GetArtifact</a> (GameObject button, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html">Artifact</a> artifact, float goldPrice)</td></tr>
+<tr class="separator:ac4256910109fad97efa139fcbec5a54d inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a196c247e8c489c03a6e8576dd7fb3c70 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a196c247e8c489c03a6e8576dd7fb3c70">RerollShop</a> (GameObject button, float goldPrice)</td></tr>
+<tr class="separator:a196c247e8c489c03a6e8576dd7fb3c70 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37a3c7fa1e461fb2160532dd01ef5df9 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a37a3c7fa1e461fb2160532dd01ef5df9">GetCard</a> (GameObject button, <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a> soulCard, float goldPrice)</td></tr>
+<tr class="separator:a37a3c7fa1e461fb2160532dd01ef5df9 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7ac3fc23721971482bfac077f73217f inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#ad7ac3fc23721971482bfac077f73217f">GetHeal</a> (GameObject button, float goldPrice)</td></tr>
+<tr class="separator:ad7ac3fc23721971482bfac077f73217f inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac34672ff39bb32f0e047ab6a9019acb5 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#ac34672ff39bb32f0e047ab6a9019acb5">SellHeal</a> (GameObject button, float goldPrice)</td></tr>
+<tr class="separator:ac34672ff39bb32f0e047ab6a9019acb5 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae566e040aa08e376f6a91f2c0df09e35 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#ae566e040aa08e376f6a91f2c0df09e35">OnBuySomething</a> (GameObject button)</td></tr>
+<tr class="separator:ae566e040aa08e376f6a91f2c0df09e35 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac213585a3b56019f89e7be9ffa8da34b inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#ac213585a3b56019f89e7be9ffa8da34b">ExitGame</a> ()</td></tr>
+<tr class="separator:ac213585a3b56019f89e7be9ffa8da34b inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dce7cbe774f0735eaa09462e6172d68 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a7dce7cbe774f0735eaa09462e6172d68">Next_Stage</a> ()</td></tr>
+<tr class="separator:a7dce7cbe774f0735eaa09462e6172d68 inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a638002a7c459f3a7d3507a4b7833ebba"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_special_manager.html#a638002a7c459f3a7d3507a4b7833ebba">OnCardSelection</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a> SelectedBonus)</td></tr>
+<tr class="separator:a638002a7c459f3a7d3507a4b7833ebba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ab88006138f60bd0d0d0789a83ffae78b"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_black_smith.html#ab88006138f60bd0d0d0789a83ffae78b">AddReroll</a> ()</td></tr>
+<tr class="separator:ab88006138f60bd0d0d0789a83ffae78b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ac3a4040bdd4b53e8586f622e86f95b"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_black_smith.html#a6ac3a4040bdd4b53e8586f622e86f95b">RollShop</a> ()</td></tr>
+<tr class="separator:a6ac3a4040bdd4b53e8586f622e86f95b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html">RogueGenesia.GameManager.NormalShop</a></td></tr>
+<tr class="memitem:aa747a9f52fde24277c6c51641f378f4d inherit pro_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html#aa747a9f52fde24277c6c51641f378f4d">Awake</a> ()</td></tr>
+<tr class="separator:aa747a9f52fde24277c6c51641f378f4d inherit pro_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8db88a9ca76c775954338272af23b713 inherit pro_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html#a8db88a9ca76c775954338272af23b713">AddReroll</a> ()</td></tr>
+<tr class="separator:a8db88a9ca76c775954338272af23b713 inherit pro_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16ba619eff2a827d08ee73785f442119 inherit pro_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html#a16ba619eff2a827d08ee73785f442119">RollShop</a> ()</td></tr>
+<tr class="separator:a16ba619eff2a827d08ee73785f442119 inherit pro_methods_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html">RogueGenesia.GameManager.ShopManager</a></td></tr>
+<tr class="memitem:a718b68ddfe365fba7dfacffafc95488b inherit pro_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a718b68ddfe365fba7dfacffafc95488b">Awake</a> ()</td></tr>
+<tr class="separator:a718b68ddfe365fba7dfacffafc95488b inherit pro_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3960283118b6838cbe777d3b7000f91c inherit pro_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a3960283118b6838cbe777d3b7000f91c">Update</a> ()</td></tr>
+<tr class="separator:a3960283118b6838cbe777d3b7000f91c inherit pro_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fbc6df55aa37189d58fefa375e0bf71 inherit pro_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a9fbc6df55aa37189d58fefa375e0bf71">AddReroll</a> ()</td></tr>
+<tr class="separator:a9fbc6df55aa37189d58fefa375e0bf71 inherit pro_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ad4a7050c14ade07204b5225d8b0d8d inherit pro_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_generation_info.html">ShopGenerationInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a3ad4a7050c14ade07204b5225d8b0d8d">GenerateShop</a> (string shopType)</td></tr>
+<tr class="separator:a3ad4a7050c14ade07204b5225d8b0d8d inherit pro_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75999101371c8de9554ddd253df1f5cd inherit pro_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a75999101371c8de9554ddd253df1f5cd">RollShop</a> ()</td></tr>
+<tr class="separator:a75999101371c8de9554ddd253df1f5cd inherit pro_methods_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_normal_shop')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html">RogueGenesia.GameManager.NormalShop</a></td></tr>
+<tr class="memitem:aec25520309acf4df132cdad286c125d6 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html#aec25520309acf4df132cdad286c125d6">FloorText</a></td></tr>
+<tr class="separator:aec25520309acf4df132cdad286c125d6 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c4427bd4c3968f03162c7ad8a127872 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html#a5c4427bd4c3968f03162c7ad8a127872">zoneText</a></td></tr>
+<tr class="separator:a5c4427bd4c3968f03162c7ad8a127872 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_normal_shop"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html">RogueGenesia.GameManager.ShopManager</a></td></tr>
+<tr class="memitem:a2fbd8ab8cfc23c9eed31980dfe18e438 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">RectTransform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a2fbd8ab8cfc23c9eed31980dfe18e438">ScrollContent</a></td></tr>
+<tr class="separator:a2fbd8ab8cfc23c9eed31980dfe18e438 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84567e69ffe0304515a3172686a8ae63 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a84567e69ffe0304515a3172686a8ae63">ButtonPrefab</a></td></tr>
+<tr class="separator:a84567e69ffe0304515a3172686a8ae63 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d5ccdab9f3684e44f3896b74493cb14 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a9d5ccdab9f3684e44f3896b74493cb14">ShopScreen</a></td></tr>
+<tr class="separator:a9d5ccdab9f3684e44f3896b74493cb14 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84660e2869f1b2986d4f8a028e16cbe7 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">ArtifactDetail&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a84660e2869f1b2986d4f8a028e16cbe7">artifactDetail</a></td></tr>
+<tr class="separator:a84660e2869f1b2986d4f8a028e16cbe7 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5b128ce52a4e2cb1978f76a5f04ef80 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">SoulCardUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#ab5b128ce52a4e2cb1978f76a5f04ef80">CardDetail</a></td></tr>
+<tr class="separator:ab5b128ce52a4e2cb1978f76a5f04ef80 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40f0db1539dfbbc8f06ebd151a9f12f3 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a40f0db1539dfbbc8f06ebd151a9f12f3">GoldCount</a></td></tr>
+<tr class="separator:a40f0db1539dfbbc8f06ebd151a9f12f3 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13ab8317a2bc3f962eeaa6e0f90c7002 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a13ab8317a2bc3f962eeaa6e0f90c7002">Continue</a></td></tr>
+<tr class="separator:a13ab8317a2bc3f962eeaa6e0f90c7002 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3af03364d3cbd7ccf21517f1647f732 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">List&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#ac3af03364d3cbd7ccf21517f1647f732">BuyButtonList</a> = new List&lt;GameObject&gt;()</td></tr>
+<tr class="separator:ac3af03364d3cbd7ccf21517f1647f732 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbafff0810c7fe52d2839df189f69fbd inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#abbafff0810c7fe52d2839df189f69fbd">Stage</a> = 0</td></tr>
+<tr class="separator:abbafff0810c7fe52d2839df189f69fbd inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32b28afbe8754ecf371be510ada3c66c inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a32b28afbe8754ecf371be510ada3c66c">Zone</a> = 0</td></tr>
+<tr class="separator:a32b28afbe8754ecf371be510ada3c66c inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_special_manager"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_special_manager')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_special_manager.html">RogueGenesia.GameManager.SpecialManager</a></td></tr>
+<tr class="memitem:a8aab6bf5b510d69472c953daa61896f0 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_special_manager"><td class="memItemLeft" align="right" valign="top">UILevelUp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_special_manager.html#a8aab6bf5b510d69472c953daa61896f0">uILevelUp</a></td></tr>
+<tr class="separator:a8aab6bf5b510d69472c953daa61896f0 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_special_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a037efe83c207b3c9854db04791b2e962 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_special_manager"><td class="memItemLeft" align="right" valign="top">PauseMenu&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_special_manager.html#a037efe83c207b3c9854db04791b2e962">pauseMenu</a></td></tr>
+<tr class="separator:a037efe83c207b3c9854db04791b2e962 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_special_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html">RogueGenesia.GameManager.ShopManager</a></td></tr>
+<tr class="memitem:a9d81bbddd5e5889f06a32fd4e179072a inherit pub_static_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html">ShopManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a9d81bbddd5e5889f06a32fd4e179072a">instance</a></td></tr>
+<tr class="separator:a9d81bbddd5e5889f06a32fd4e179072a inherit pub_static_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html">RogueGenesia.GameManager.ShopManager</a></td></tr>
+<tr class="memitem:a9a073f0a5d4a9521bd2bf99cb2c2d909 inherit pro_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a9a073f0a5d4a9521bd2bf99cb2c2d909">_priceMultiplier</a> = 1f</td></tr>
+<tr class="separator:a9a073f0a5d4a9521bd2bf99cb2c2d909 inherit pro_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aceebc592c8c90f2f948847683df603f8 inherit pro_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#aceebc592c8c90f2f948847683df603f8">_gamePause</a></td></tr>
+<tr class="separator:aceebc592c8c90f2f948847683df603f8 inherit pro_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46fd0c4622679d268405e6448af27ea9 inherit pro_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a46fd0c4622679d268405e6448af27ea9">_loading</a></td></tr>
+<tr class="separator:a46fd0c4622679d268405e6448af27ea9 inherit pro_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a093badb8e22031b853992c1a787fe6e8 inherit pro_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a093badb8e22031b853992c1a787fe6e8">_rerollCount</a> = 0</td></tr>
+<tr class="separator:a093badb8e22031b853992c1a787fe6e8 inherit pro_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14860965089e9526c74ff0438d75eaa1 inherit pro_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a14860965089e9526c74ff0438d75eaa1">_isBlackSmith</a></td></tr>
+<tr class="separator:a14860965089e9526c74ff0438d75eaa1 inherit pro_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c0870e7c196a2a625613e7891805740 inherit pro_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a9c0870e7c196a2a625613e7891805740">_alreadyRolledOvercap</a> = false</td></tr>
+<tr class="separator:a9c0870e7c196a2a625613e7891805740 inherit pro_attribs_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td colspan="2" onclick="javascript:toggleInherit('properties_class_rogue_genesia_1_1_game_manager_1_1_shop_manager')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html">RogueGenesia.GameManager.ShopManager</a></td></tr>
+<tr class="memitem:a40a539defe8d00782f7be9f15e5b01b3 inherit properties_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a40a539defe8d00782f7be9f15e5b01b3">PriceMultiplier</a><code> [get]</code></td></tr>
+<tr class="separator:a40a539defe8d00782f7be9f15e5b01b3 inherit properties_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b063235ebe4290b4210ca53cea52652 inherit properties_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a5b063235ebe4290b4210ca53cea52652">RerollCount</a><code> [get]</code></td></tr>
+<tr class="separator:a5b063235ebe4290b4210ca53cea52652 inherit properties_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c9f881d670922ffa8b1aa52d1921d31 inherit properties_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a0c9f881d670922ffa8b1aa52d1921d31">IsBlackSmith</a><code> [get]</code></td></tr>
+<tr class="separator:a0c9f881d670922ffa8b1aa52d1921d31 inherit properties_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a2b18421575cd55ca64edc4d97594f7 inherit properties_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a5a2b18421575cd55ca64edc4d97594f7">AlreadyRolledOvercap</a><code> [get]</code></td></tr>
+<tr class="separator:a5a2b18421575cd55ca64edc4d97594f7 inherit properties_class_rogue_genesia_1_1_game_manager_1_1_shop_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_rogue_genesia_1_1_game_manager_1_1_special_manager"><td colspan="2" onclick="javascript:toggleInherit('properties_class_rogue_genesia_1_1_game_manager_1_1_special_manager')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_special_manager.html">RogueGenesia.GameManager.SpecialManager</a></td></tr>
+<tr class="memitem:a5f7fa08c54f18e07feaa4bfabf37e7f0 inherit properties_class_rogue_genesia_1_1_game_manager_1_1_special_manager"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_special_manager.html#a5f7fa08c54f18e07feaa4bfabf37e7f0">pd</a><code> [get]</code></td></tr>
+<tr class="separator:a5f7fa08c54f18e07feaa4bfabf37e7f0 inherit properties_class_rogue_genesia_1_1_game_manager_1_1_special_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3ad4eea26ebe4e9d43a7b3d758ba42f2" name="a3ad4eea26ebe4e9d43a7b3d758ba42f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ad4eea26ebe4e9d43a7b3d758ba42f2">&#9670;&#160;</a></span>AddAdditionalBannish()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.GameManager.BlackSmith.AddAdditionalBannish </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#aa77e802bad23b424a6b6616fb0a8873b">RogueGenesia.GameManager.ShopManager</a>.</p>
+
+</div>
+</div>
+<a id="a9190ff7952898f250ae6cf928bc2e04a" name="a9190ff7952898f250ae6cf928bc2e04a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9190ff7952898f250ae6cf928bc2e04a">&#9670;&#160;</a></span>AddAdditionalRarityReroll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.GameManager.BlackSmith.AddAdditionalRarityReroll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#ab56f4320385a810c3f33087822754111">RogueGenesia.GameManager.ShopManager</a>.</p>
+
+</div>
+</div>
+<a id="a2a6d77ca6d1dfa0674c6bcc02b98ad71" name="a2a6d77ca6d1dfa0674c6bcc02b98ad71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a6d77ca6d1dfa0674c6bcc02b98ad71">&#9670;&#160;</a></span>AddAdditionalReroll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.GameManager.BlackSmith.AddAdditionalReroll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a4a51ca49475f062665bff807cf06cdb6">RogueGenesia.GameManager.ShopManager</a>.</p>
+
+</div>
+</div>
+<a id="a2d84f7a74823adf5eb6bc4a437f2b930" name="a2d84f7a74823adf5eb6bc4a437f2b930"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d84f7a74823adf5eb6bc4a437f2b930">&#9670;&#160;</a></span>AddCard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.GameManager.BlackSmith.AddCard </td>
+          <td>(</td>
+          <td class="paramtype">ref List&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>alreadyGeneratedID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a5d99dbb23997d3cd34633c7f8c11e9a8">RogueGenesia.GameManager.ShopManager</a>.</p>
+
+</div>
+</div>
+<a id="add78b34ca6f118339ad1c968959a9b27" name="add78b34ca6f118339ad1c968959a9b27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add78b34ca6f118339ad1c968959a9b27">&#9670;&#160;</a></span>AddCardSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.GameManager.BlackSmith.AddCardSelection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a23827fde69695305c8ff92e5d31f6d26">RogueGenesia.GameManager.ShopManager</a>.</p>
+
+</div>
+</div>
+<a id="a83a874365e24f0ac524432734ff5a6c9" name="a83a874365e24f0ac524432734ff5a6c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83a874365e24f0ac524432734ff5a6c9">&#9670;&#160;</a></span>AddCardSelectionOvercap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.GameManager.BlackSmith.AddCardSelectionOvercap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a38a0941deba7a05782db50e9231e5555">RogueGenesia.GameManager.ShopManager</a>.</p>
+
+</div>
+</div>
+<a id="a38895b383858559ef57dc00daba324ac" name="a38895b383858559ef57dc00daba324ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38895b383858559ef57dc00daba324ac">&#9670;&#160;</a></span>AddEvolution()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.GameManager.BlackSmith.AddEvolution </td>
+          <td>(</td>
+          <td class="paramtype">ref List&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>alreadyGeneratedID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a26668bd468aa16589fb6476c70469101">RogueGenesia.GameManager.ShopManager</a>.</p>
+
+</div>
+</div>
+<a id="ab88006138f60bd0d0d0789a83ffae78b" name="ab88006138f60bd0d0d0789a83ffae78b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab88006138f60bd0d0d0789a83ffae78b">&#9670;&#160;</a></span>AddReroll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.GameManager.BlackSmith.AddReroll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a9fbc6df55aa37189d58fefa375e0bf71">RogueGenesia.GameManager.ShopManager</a>.</p>
+
+</div>
+</div>
+<a id="ac3e508bbc34314863e73afafdf173a0b" name="ac3e508bbc34314863e73afafdf173a0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3e508bbc34314863e73afafdf173a0b">&#9670;&#160;</a></span>CardSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.GameManager.BlackSmith.CardSelection </td>
+          <td>(</td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>button</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>goldPrice</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a362692d6a95a82fc0781db1cf046213e">RogueGenesia.GameManager.ShopManager</a>.</p>
+
+</div>
+</div>
+<a id="a4f99490ed0bd898287703417966ebe2f" name="a4f99490ed0bd898287703417966ebe2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f99490ed0bd898287703417966ebe2f">&#9670;&#160;</a></span>CardSelectionOverCaped()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.GameManager.BlackSmith.CardSelectionOverCaped </td>
+          <td>(</td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>button</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>goldPrice</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#acf708b36a983d894a823436b69725a96">RogueGenesia.GameManager.ShopManager</a>.</p>
+
+</div>
+</div>
+<a id="abc8bbb57c5004fdce07b242627471166" name="abc8bbb57c5004fdce07b242627471166"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc8bbb57c5004fdce07b242627471166">&#9670;&#160;</a></span>OnCardSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.GameManager.BlackSmith.OnCardSelection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a>&#160;</td>
+          <td class="paramname"><em>SelectedBonus</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_special_manager.html#a638002a7c459f3a7d3507a4b7833ebba">RogueGenesia.GameManager.SpecialManager</a>.</p>
+
+</div>
+</div>
+<a id="a6ac3a4040bdd4b53e8586f622e86f95b" name="a6ac3a4040bdd4b53e8586f622e86f95b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ac3a4040bdd4b53e8586f622e86f95b">&#9670;&#160;</a></span>RollShop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.GameManager.BlackSmith.RollShop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a75999101371c8de9554ddd253df1f5cd">RogueGenesia.GameManager.ShopManager</a>.</p>
+
+</div>
+</div>
+<a id="a143ddfcc538c5a5c95e8b6c6e483e9d2" name="a143ddfcc538c5a5c95e8b6c6e483e9d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a143ddfcc538c5a5c95e8b6c6e483e9d2">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.GameManager.BlackSmith.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/GameManager/Shop/BlackSmith.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_game_manager.html">GameManager</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_black_smith.html">BlackSmith</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+var namespace_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm =
+[
+    [ "DashWormAbility", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_dash_worm_ability.html", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_dash_worm_ability" ],
+    [ "SpitWormAbility", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_spit_worm_ability.html", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_spit_worm_ability" ],
+    [ "SummonWormAbility", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_summon_worm_ability.html", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_summon_worm_ability" ]
+];

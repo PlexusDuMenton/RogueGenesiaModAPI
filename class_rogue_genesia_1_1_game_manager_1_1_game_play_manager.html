@@ -1,0 +1,736 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue:Genesia API" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Rogue: Genesia API" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.GameManager.GamePlayManager Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.GameManager.GamePlayManager Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.GameManager.GamePlayManager:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a022f2dfe658ef80890504578dec3e110"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a022f2dfe658ef80890504578dec3e110">DoRumbling</a> (float rumbleDuration, float lowFrequency, float highFrequency, bool Easeout)</td></tr>
+<tr class="separator:a022f2dfe658ef80890504578dec3e110"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a5578016afadbf77b38b3bf81dcc3a466"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a5578016afadbf77b38b3bf81dcc3a466">TimeText</a></td></tr>
+<tr class="separator:a5578016afadbf77b38b3bf81dcc3a466"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a180aacc904dc91dea53cde1a1928068d"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a180aacc904dc91dea53cde1a1928068d">KillCount</a></td></tr>
+<tr class="separator:a180aacc904dc91dea53cde1a1928068d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ba9054f662188c9199cc2c6c4fe9ba1"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a8ba9054f662188c9199cc2c6c4fe9ba1">BlessingText</a></td></tr>
+<tr class="separator:a8ba9054f662188c9199cc2c6c4fe9ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca9562f297cb000aed1b5c801fa12d0f"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#aca9562f297cb000aed1b5c801fa12d0f">BlessingTextDescription</a></td></tr>
+<tr class="separator:aca9562f297cb000aed1b5c801fa12d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad66ec4e7baca24c2bb96d18b1b17a6b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_survival_module_time.html">SurvivalModuleTime</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#ad66ec4e7baca24c2bb96d18b1b17a6b9">activeModuleList</a></td></tr>
+<tr class="separator:ad66ec4e7baca24c2bb96d18b1b17a6b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ba4f5733cc2fbe393aac0395a4fb439"><td class="memItemLeft" align="right" valign="top">ArtifactSelectionManager&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a9ba4f5733cc2fbe393aac0395a4fb439">ArtifactSelection</a></td></tr>
+<tr class="separator:a9ba4f5733cc2fbe393aac0395a4fb439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a406c8bb4054ba66d2b6fb8ddbfecc932"><td class="memItemLeft" align="right" valign="top">RectTransform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a406c8bb4054ba66d2b6fb8ddbfecc932">DashPannel</a></td></tr>
+<tr class="separator:a406c8bb4054ba66d2b6fb8ddbfecc932"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4e351e47fdfe2aa4216f66f3be891b4"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#aa4e351e47fdfe2aa4216f66f3be891b4">DashPrefab</a></td></tr>
+<tr class="separator:aa4e351e47fdfe2aa4216f66f3be891b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b33837d83fcad7d0288a5d6ccab29fa"><td class="memItemLeft" align="right" valign="top">List&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a6b33837d83fcad7d0288a5d6ccab29fa">DashList</a></td></tr>
+<tr class="separator:a6b33837d83fcad7d0288a5d6ccab29fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af20aed2d425fd1216869a12e98d8cf65"><td class="memItemLeft" align="right" valign="top">RectTransform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#af20aed2d425fd1216869a12e98d8cf65">SmallIndicatorBar</a></td></tr>
+<tr class="separator:af20aed2d425fd1216869a12e98d8cf65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a578d2def7b4e23642d009dffee1948d9"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a578d2def7b4e23642d009dffee1948d9">SmallIndicatorPrefab</a></td></tr>
+<tr class="separator:a578d2def7b4e23642d009dffee1948d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a923d5992dfe0cfb87d70044bbddbe280"><td class="memItemLeft" align="right" valign="top">VisualEffect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a923d5992dfe0cfb87d70044bbddbe280">LevelUpEffectScreen</a></td></tr>
+<tr class="separator:a923d5992dfe0cfb87d70044bbddbe280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd0e79c487f3d3d9ffaca15682b46f12"><td class="memItemLeft" align="right" valign="top">UnityEngine.Localization.Settings.LocalizationSettings&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#afd0e79c487f3d3d9ffaca15682b46f12">LocalizationSettings</a></td></tr>
+<tr class="separator:afd0e79c487f3d3d9ffaca15682b46f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aaa7119f561746763242f57523d2bb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a7aaa7119f561746763242f57523d2bb1">player</a></td></tr>
+<tr class="separator:a7aaa7119f561746763242f57523d2bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc1e63b54bff39a281bd0f5daea9ba63"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#acc1e63b54bff39a281bd0f5daea9ba63">LevelUpUI</a></td></tr>
+<tr class="separator:acc1e63b54bff39a281bd0f5daea9ba63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e53195a36e46c9b27f0d694d2031045"><td class="memItemLeft" align="right" valign="top">UILevelUp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a5e53195a36e46c9b27f0d694d2031045">uILevelUp</a></td></tr>
+<tr class="separator:a5e53195a36e46c9b27f0d694d2031045"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a291e854ef0610175eb5191a7f122bda5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_keeper_shop_manager.html">ShopKeeperShopManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a291e854ef0610175eb5191a7f122bda5">shopKeeperUI</a></td></tr>
+<tr class="separator:a291e854ef0610175eb5191a7f122bda5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad639a84f96a70bd0362e23c085cad297"><td class="memItemLeft" align="right" valign="top">PauseMenu&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#ad639a84f96a70bd0362e23c085cad297">PauseMenu</a></td></tr>
+<tr class="separator:ad639a84f96a70bd0362e23c085cad297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a204d190f8fba3459272da121c9d6f860"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a204d190f8fba3459272da121c9d6f860">DashButton</a></td></tr>
+<tr class="separator:a204d190f8fba3459272da121c9d6f860"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab81484c158efb58bd3bd16f940aaa9b8"><td class="memItemLeft" align="right" valign="top">VisualEffect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#ab81484c158efb58bd3bd16f940aaa9b8">InfinityFX</a></td></tr>
+<tr class="separator:ab81484c158efb58bd3bd16f940aaa9b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e587a26e63b434a24489a41c3f7cd2d"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a4e587a26e63b434a24489a41c3f7cd2d">PlayerInfoGlow</a></td></tr>
+<tr class="separator:a4e587a26e63b434a24489a41c3f7cd2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54dee456a2f8c559388e2f3f004ed14a"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a54dee456a2f8c559388e2f3f004ed14a">PlayerInfoUI</a></td></tr>
+<tr class="separator:a54dee456a2f8c559388e2f3f004ed14a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cba21edca56afde3b827acacb8b8f43"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a8cba21edca56afde3b827acacb8b8f43">CardLeftToPick</a></td></tr>
+<tr class="separator:a8cba21edca56afde3b827acacb8b8f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbb057df368e05d4ed58cbd96cd7a254"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#afbb057df368e05d4ed58cbd96cd7a254">CardLeftToPickText</a></td></tr>
+<tr class="separator:afbb057df368e05d4ed58cbd96cd7a254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a566178b756e7cab81c4b7d3d5edbf529"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a566178b756e7cab81c4b7d3d5edbf529">CardLeftToPickKeyText</a></td></tr>
+<tr class="separator:a566178b756e7cab81c4b7d3d5edbf529"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac36ffb3863812318cf6bb7122971d7d7"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#ac36ffb3863812318cf6bb7122971d7d7">zoneText</a></td></tr>
+<tr class="separator:ac36ffb3863812318cf6bb7122971d7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa150615ec79f9804d0e7b8a6927ed933"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#aa150615ec79f9804d0e7b8a6927ed933">floorText</a></td></tr>
+<tr class="separator:aa150615ec79f9804d0e7b8a6927ed933"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab247f9a022f8111fb98b8eb1ac32f39a"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#ab247f9a022f8111fb98b8eb1ac32f39a">goldText</a></td></tr>
+<tr class="separator:ab247f9a022f8111fb98b8eb1ac32f39a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96396f8973b467c48d3524f23526ad3d"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a96396f8973b467c48d3524f23526ad3d">ObjectiveText</a></td></tr>
+<tr class="separator:a96396f8973b467c48d3524f23526ad3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a290c8e6f7a28a987d19cf4ebc61b0094"><td class="memItemLeft" align="right" valign="top">InputActionAsset&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a290c8e6f7a28a987d19cf4ebc61b0094">actions</a></td></tr>
+<tr class="separator:a290c8e6f7a28a987d19cf4ebc61b0094"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7bd55f384af62aa0af6885b33b4a557"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_manager_fight.html">GameManagerFight</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#ab7bd55f384af62aa0af6885b33b4a557">GameManagerFight</a></td></tr>
+<tr class="separator:ab7bd55f384af62aa0af6885b33b4a557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a5c05b5dc9ef7ed9ee06f2f6566aa98e0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html">GamePlayManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a5c05b5dc9ef7ed9ee06f2f6566aa98e0">instance</a></td></tr>
+<tr class="separator:a5c05b5dc9ef7ed9ee06f2f6566aa98e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a022f2dfe658ef80890504578dec3e110" name="a022f2dfe658ef80890504578dec3e110"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a022f2dfe658ef80890504578dec3e110">&#9670;&#160;</a></span>DoRumbling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.GamePlayManager.DoRumbling </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rumbleDuration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>lowFrequency</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>highFrequency</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>Easeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a290c8e6f7a28a987d19cf4ebc61b0094" name="a290c8e6f7a28a987d19cf4ebc61b0094"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a290c8e6f7a28a987d19cf4ebc61b0094">&#9670;&#160;</a></span>actions</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">InputActionAsset RogueGenesia.GameManager.GamePlayManager.actions</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad66ec4e7baca24c2bb96d18b1b17a6b9" name="ad66ec4e7baca24c2bb96d18b1b17a6b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad66ec4e7baca24c2bb96d18b1b17a6b9">&#9670;&#160;</a></span>activeModuleList</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_survival_module_time.html">SurvivalModuleTime</a> [] RogueGenesia.GameManager.GamePlayManager.activeModuleList</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ba4f5733cc2fbe393aac0395a4fb439" name="a9ba4f5733cc2fbe393aac0395a4fb439"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ba4f5733cc2fbe393aac0395a4fb439">&#9670;&#160;</a></span>ArtifactSelection</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArtifactSelectionManager RogueGenesia.GameManager.GamePlayManager.ArtifactSelection</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8ba9054f662188c9199cc2c6c4fe9ba1" name="a8ba9054f662188c9199cc2c6c4fe9ba1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ba9054f662188c9199cc2c6c4fe9ba1">&#9670;&#160;</a></span>BlessingText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI RogueGenesia.GameManager.GamePlayManager.BlessingText</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca9562f297cb000aed1b5c801fa12d0f" name="aca9562f297cb000aed1b5c801fa12d0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca9562f297cb000aed1b5c801fa12d0f">&#9670;&#160;</a></span>BlessingTextDescription</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI RogueGenesia.GameManager.GamePlayManager.BlessingTextDescription</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8cba21edca56afde3b827acacb8b8f43" name="a8cba21edca56afde3b827acacb8b8f43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cba21edca56afde3b827acacb8b8f43">&#9670;&#160;</a></span>CardLeftToPick</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.GameManager.GamePlayManager.CardLeftToPick</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a566178b756e7cab81c4b7d3d5edbf529" name="a566178b756e7cab81c4b7d3d5edbf529"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a566178b756e7cab81c4b7d3d5edbf529">&#9670;&#160;</a></span>CardLeftToPickKeyText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.GameManager.GamePlayManager.CardLeftToPickKeyText</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afbb057df368e05d4ed58cbd96cd7a254" name="afbb057df368e05d4ed58cbd96cd7a254"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbb057df368e05d4ed58cbd96cd7a254">&#9670;&#160;</a></span>CardLeftToPickText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.GameManager.GamePlayManager.CardLeftToPickText</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a204d190f8fba3459272da121c9d6f860" name="a204d190f8fba3459272da121c9d6f860"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a204d190f8fba3459272da121c9d6f860">&#9670;&#160;</a></span>DashButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Image RogueGenesia.GameManager.GamePlayManager.DashButton</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6b33837d83fcad7d0288a5d6ccab29fa" name="a6b33837d83fcad7d0288a5d6ccab29fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b33837d83fcad7d0288a5d6ccab29fa">&#9670;&#160;</a></span>DashList</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;GameObject&gt; RogueGenesia.GameManager.GamePlayManager.DashList</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a406c8bb4054ba66d2b6fb8ddbfecc932" name="a406c8bb4054ba66d2b6fb8ddbfecc932"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a406c8bb4054ba66d2b6fb8ddbfecc932">&#9670;&#160;</a></span>DashPannel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RectTransform RogueGenesia.GameManager.GamePlayManager.DashPannel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa4e351e47fdfe2aa4216f66f3be891b4" name="aa4e351e47fdfe2aa4216f66f3be891b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4e351e47fdfe2aa4216f66f3be891b4">&#9670;&#160;</a></span>DashPrefab</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.GameManager.GamePlayManager.DashPrefab</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa150615ec79f9804d0e7b8a6927ed933" name="aa150615ec79f9804d0e7b8a6927ed933"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa150615ec79f9804d0e7b8a6927ed933">&#9670;&#160;</a></span>floorText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.GameManager.GamePlayManager.floorText</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab7bd55f384af62aa0af6885b33b4a557" name="ab7bd55f384af62aa0af6885b33b4a557"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7bd55f384af62aa0af6885b33b4a557">&#9670;&#160;</a></span>GameManagerFight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_manager_fight.html">GameManagerFight</a> RogueGenesia.GameManager.GamePlayManager.GameManagerFight</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab247f9a022f8111fb98b8eb1ac32f39a" name="ab247f9a022f8111fb98b8eb1ac32f39a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab247f9a022f8111fb98b8eb1ac32f39a">&#9670;&#160;</a></span>goldText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.GameManager.GamePlayManager.goldText</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab81484c158efb58bd3bd16f940aaa9b8" name="ab81484c158efb58bd3bd16f940aaa9b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab81484c158efb58bd3bd16f940aaa9b8">&#9670;&#160;</a></span>InfinityFX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VisualEffect RogueGenesia.GameManager.GamePlayManager.InfinityFX</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c05b5dc9ef7ed9ee06f2f6566aa98e0" name="a5c05b5dc9ef7ed9ee06f2f6566aa98e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c05b5dc9ef7ed9ee06f2f6566aa98e0">&#9670;&#160;</a></span>instance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html">GamePlayManager</a> RogueGenesia.GameManager.GamePlayManager.instance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a180aacc904dc91dea53cde1a1928068d" name="a180aacc904dc91dea53cde1a1928068d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a180aacc904dc91dea53cde1a1928068d">&#9670;&#160;</a></span>KillCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.GameManager.GamePlayManager.KillCount</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a923d5992dfe0cfb87d70044bbddbe280" name="a923d5992dfe0cfb87d70044bbddbe280"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a923d5992dfe0cfb87d70044bbddbe280">&#9670;&#160;</a></span>LevelUpEffectScreen</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VisualEffect RogueGenesia.GameManager.GamePlayManager.LevelUpEffectScreen</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acc1e63b54bff39a281bd0f5daea9ba63" name="acc1e63b54bff39a281bd0f5daea9ba63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc1e63b54bff39a281bd0f5daea9ba63">&#9670;&#160;</a></span>LevelUpUI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.GameManager.GamePlayManager.LevelUpUI</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd0e79c487f3d3d9ffaca15682b46f12" name="afd0e79c487f3d3d9ffaca15682b46f12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd0e79c487f3d3d9ffaca15682b46f12">&#9670;&#160;</a></span>LocalizationSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UnityEngine.Localization.Settings.LocalizationSettings RogueGenesia.GameManager.GamePlayManager.LocalizationSettings</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96396f8973b467c48d3524f23526ad3d" name="a96396f8973b467c48d3524f23526ad3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96396f8973b467c48d3524f23526ad3d">&#9670;&#160;</a></span>ObjectiveText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.GameManager.GamePlayManager.ObjectiveText</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad639a84f96a70bd0362e23c085cad297" name="ad639a84f96a70bd0362e23c085cad297"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad639a84f96a70bd0362e23c085cad297">&#9670;&#160;</a></span>PauseMenu</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PauseMenu RogueGenesia.GameManager.GamePlayManager.PauseMenu</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7aaa7119f561746763242f57523d2bb1" name="a7aaa7119f561746763242f57523d2bb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aaa7119f561746763242f57523d2bb1">&#9670;&#160;</a></span>player</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a> RogueGenesia.GameManager.GamePlayManager.player</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e587a26e63b434a24489a41c3f7cd2d" name="a4e587a26e63b434a24489a41c3f7cd2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e587a26e63b434a24489a41c3f7cd2d">&#9670;&#160;</a></span>PlayerInfoGlow</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Image RogueGenesia.GameManager.GamePlayManager.PlayerInfoGlow</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a54dee456a2f8c559388e2f3f004ed14a" name="a54dee456a2f8c559388e2f3f004ed14a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54dee456a2f8c559388e2f3f004ed14a">&#9670;&#160;</a></span>PlayerInfoUI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Image RogueGenesia.GameManager.GamePlayManager.PlayerInfoUI</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a291e854ef0610175eb5191a7f122bda5" name="a291e854ef0610175eb5191a7f122bda5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a291e854ef0610175eb5191a7f122bda5">&#9670;&#160;</a></span>shopKeeperUI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_shop_keeper_shop_manager.html">ShopKeeperShopManager</a> RogueGenesia.GameManager.GamePlayManager.shopKeeperUI</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af20aed2d425fd1216869a12e98d8cf65" name="af20aed2d425fd1216869a12e98d8cf65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af20aed2d425fd1216869a12e98d8cf65">&#9670;&#160;</a></span>SmallIndicatorBar</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RectTransform RogueGenesia.GameManager.GamePlayManager.SmallIndicatorBar</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a578d2def7b4e23642d009dffee1948d9" name="a578d2def7b4e23642d009dffee1948d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a578d2def7b4e23642d009dffee1948d9">&#9670;&#160;</a></span>SmallIndicatorPrefab</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.GameManager.GamePlayManager.SmallIndicatorPrefab</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5578016afadbf77b38b3bf81dcc3a466" name="a5578016afadbf77b38b3bf81dcc3a466"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5578016afadbf77b38b3bf81dcc3a466">&#9670;&#160;</a></span>TimeText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.GameManager.GamePlayManager.TimeText</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5e53195a36e46c9b27f0d694d2031045" name="a5e53195a36e46c9b27f0d694d2031045"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e53195a36e46c9b27f0d694d2031045">&#9670;&#160;</a></span>uILevelUp</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UILevelUp RogueGenesia.GameManager.GamePlayManager.uILevelUp</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac36ffb3863812318cf6bb7122971d7d7" name="ac36ffb3863812318cf6bb7122971d7d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac36ffb3863812318cf6bb7122971d7d7">&#9670;&#160;</a></span>zoneText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.GameManager.GamePlayManager.zoneText</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/GameManager/GamePlay/GamePlayManager.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_game_manager.html">GameManager</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html">GamePlayManager</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

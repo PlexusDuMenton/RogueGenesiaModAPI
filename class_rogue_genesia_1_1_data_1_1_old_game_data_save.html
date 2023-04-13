@@ -1,0 +1,684 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue:Genesia API" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Rogue: Genesia API" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.Data.OldGameDataSave Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_data_1_1_old_game_data_save.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
+<a href="class_rogue_genesia_1_1_data_1_1_old_game_data_save-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.Data.OldGameDataSave Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a6b01b15f6630174c72bf9fd9a73ef956"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_type_save.html">MonsterTypeSave</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#a6b01b15f6630174c72bf9fd9a73ef956">monsterList</a></td></tr>
+<tr class="separator:a6b01b15f6630174c72bf9fd9a73ef956"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9deb88db7737b45d9737c0ba388afef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_save.html">SoulShopUpgradeSave</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#ab9deb88db7737b45d9737c0ba388afef">soulShopUpgradeSave</a></td></tr>
+<tr class="separator:ab9deb88db7737b45d9737c0ba388afef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca544aa61ba2f24f08c611af3a3598b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_save.html">ChallengeSave</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#aca544aa61ba2f24f08c611af3a3598b2">Challenges</a></td></tr>
+<tr class="separator:aca544aa61ba2f24f08c611af3a3598b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6eb0b0619080ff2f8aa4d488034aceab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_previous_player_stats.html">PreviousPlayerStats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#a6eb0b0619080ff2f8aa4d488034aceab">highestReachedStats</a></td></tr>
+<tr class="separator:a6eb0b0619080ff2f8aa4d488034aceab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add8f2668978ba8f0e5bb9ef329037d8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_previous_player_stats.html">PreviousPlayerStats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#add8f2668978ba8f0e5bb9ef329037d8f">lowestReachedStats</a></td></tr>
+<tr class="separator:add8f2668978ba8f0e5bb9ef329037d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09110695cb8306f0b6263c05a7a0f9b4"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390d">WeaponType</a>, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#a09110695cb8306f0b6263c05a7a0f9b4">TotalDamageSource</a> = new Dictionary&lt;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390d">WeaponType</a>, double&gt;()</td></tr>
+<tr class="separator:a09110695cb8306f0b6263c05a7a0f9b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39f0ea774833dd346067a59d6d093c60"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390d">WeaponType</a>, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#a39f0ea774833dd346067a59d6d093c60">TotalDamageSourceSurvivors</a> = new Dictionary&lt;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390d">WeaponType</a>, double&gt;()</td></tr>
+<tr class="separator:a39f0ea774833dd346067a59d6d093c60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c2b7e01cf11c6b0ac819892a9e09d95"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390d">WeaponType</a>, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#a7c2b7e01cf11c6b0ac819892a9e09d95">TotalKillSource</a> = new Dictionary&lt;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390d">WeaponType</a>, int&gt;()</td></tr>
+<tr class="separator:a7c2b7e01cf11c6b0ac819892a9e09d95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af739648b67096aeefedf38e4201d461e"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390d">WeaponType</a>, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#af739648b67096aeefedf38e4201d461e">TotalKillSourceSurvivors</a> = new Dictionary&lt;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390d">WeaponType</a>, int&gt;()</td></tr>
+<tr class="separator:af739648b67096aeefedf38e4201d461e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a0315ef55467d7e2c5e26fcdc6a86f8cc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#a0315ef55467d7e2c5e26fcdc6a86f8cc">DeathCount</a><code> [get, set]</code></td></tr>
+<tr class="separator:a0315ef55467d7e2c5e26fcdc6a86f8cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05ffb8e40b4b7f24be16a85dfd847b2c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#a05ffb8e40b4b7f24be16a85dfd847b2c">GameCount</a><code> [get, set]</code></td></tr>
+<tr class="separator:a05ffb8e40b4b7f24be16a85dfd847b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b7b4bc24f92a60276fd213f81612d50"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#a8b7b4bc24f92a60276fd213f81612d50">TotalEnemyKilled</a><code> [get, set]</code></td></tr>
+<tr class="separator:a8b7b4bc24f92a60276fd213f81612d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac97bd72c1e47c803cb1af3b505ca471e"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#ac97bd72c1e47c803cb1af3b505ca471e">TotalEliteKilled</a><code> [get, set]</code></td></tr>
+<tr class="separator:ac97bd72c1e47c803cb1af3b505ca471e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae886fc33313282a4fb8bbb0c8bc862b9"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#ae886fc33313282a4fb8bbb0c8bc862b9">TotalBossKilled</a><code> [get, set]</code></td></tr>
+<tr class="separator:ae886fc33313282a4fb8bbb0c8bc862b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9425df7dd0fa4ada871f0394e4090e3f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#a9425df7dd0fa4ada871f0394e4090e3f">TotalDamage</a><code> [get, set]</code></td></tr>
+<tr class="separator:a9425df7dd0fa4ada871f0394e4090e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19a646a7664a1c02f948182005a4fe45"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#a19a646a7664a1c02f948182005a4fe45">TotalTimeSurvived</a><code> [get, set]</code></td></tr>
+<tr class="separator:a19a646a7664a1c02f948182005a4fe45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02958914eb67110979f5aa0993090b48"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#a02958914eb67110979f5aa0993090b48">TotalStageCompleted</a><code> [get, set]</code></td></tr>
+<tr class="separator:a02958914eb67110979f5aa0993090b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee6d00e0ee5623a5896a8a504412af12"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#aee6d00e0ee5623a5896a8a504412af12">TotalGold</a><code> [get, set]</code></td></tr>
+<tr class="separator:aee6d00e0ee5623a5896a8a504412af12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd31005e8086cc620f3cfc31eb730a28"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#abd31005e8086cc620f3cfc31eb730a28">VoidPickedUp</a><code> [get, set]</code></td></tr>
+<tr class="separator:abd31005e8086cc620f3cfc31eb730a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace94e72c3071cb82fb5a6063dd5ba09d"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#ace94e72c3071cb82fb5a6063dd5ba09d">SoulGemPickedUp</a><code> [get, set]</code></td></tr>
+<tr class="separator:ace94e72c3071cb82fb5a6063dd5ba09d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad82af6bb84be8883047f8cead4e21d75"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#ad82af6bb84be8883047f8cead4e21d75">FoodPickedUp</a><code> [get, set]</code></td></tr>
+<tr class="separator:ad82af6bb84be8883047f8cead4e21d75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23310aa8a81cb1b21bbd0c4b3e972062"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#a23310aa8a81cb1b21bbd0c4b3e972062">GoldPickedUp</a><code> [get, set]</code></td></tr>
+<tr class="separator:a23310aa8a81cb1b21bbd0c4b3e972062"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd385eedea7a2f560e88f77d23089d1b"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#acd385eedea7a2f560e88f77d23089d1b">ChestPickUp</a><code> [get, set]</code></td></tr>
+<tr class="separator:acd385eedea7a2f560e88f77d23089d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b74379ffabcbd2f45628173b381a447"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#a3b74379ffabcbd2f45628173b381a447">SoulCoin</a><code> [get, set]</code></td></tr>
+<tr class="separator:a3b74379ffabcbd2f45628173b381a447"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c19723bc0f1d227157408edbe928f22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a4672bf4cb9055d9a2f5d678cdee4eba6">EDifficulty</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html#a1c19723bc0f1d227157408edbe928f22">HiggerCompletedDifficulty</a><code> [get, set]</code></td></tr>
+<tr class="separator:a1c19723bc0f1d227157408edbe928f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aca544aa61ba2f24f08c611af3a3598b2" name="aca544aa61ba2f24f08c611af3a3598b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca544aa61ba2f24f08c611af3a3598b2">&#9670;&#160;</a></span>Challenges</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_save.html">ChallengeSave</a> [] RogueGenesia.Data.OldGameDataSave.Challenges</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6eb0b0619080ff2f8aa4d488034aceab" name="a6eb0b0619080ff2f8aa4d488034aceab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6eb0b0619080ff2f8aa4d488034aceab">&#9670;&#160;</a></span>highestReachedStats</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_previous_player_stats.html">PreviousPlayerStats</a> RogueGenesia.Data.OldGameDataSave.highestReachedStats</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add8f2668978ba8f0e5bb9ef329037d8f" name="add8f2668978ba8f0e5bb9ef329037d8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add8f2668978ba8f0e5bb9ef329037d8f">&#9670;&#160;</a></span>lowestReachedStats</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_previous_player_stats.html">PreviousPlayerStats</a> RogueGenesia.Data.OldGameDataSave.lowestReachedStats</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6b01b15f6630174c72bf9fd9a73ef956" name="a6b01b15f6630174c72bf9fd9a73ef956"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b01b15f6630174c72bf9fd9a73ef956">&#9670;&#160;</a></span>monsterList</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_type_save.html">MonsterTypeSave</a> [] RogueGenesia.Data.OldGameDataSave.monsterList</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab9deb88db7737b45d9737c0ba388afef" name="ab9deb88db7737b45d9737c0ba388afef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9deb88db7737b45d9737c0ba388afef">&#9670;&#160;</a></span>soulShopUpgradeSave</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_save.html">SoulShopUpgradeSave</a> [] RogueGenesia.Data.OldGameDataSave.soulShopUpgradeSave</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a09110695cb8306f0b6263c05a7a0f9b4" name="a09110695cb8306f0b6263c05a7a0f9b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09110695cb8306f0b6263c05a7a0f9b4">&#9670;&#160;</a></span>TotalDamageSource</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390d">WeaponType</a>, double&gt; RogueGenesia.Data.OldGameDataSave.TotalDamageSource = new Dictionary&lt;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390d">WeaponType</a>, double&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a39f0ea774833dd346067a59d6d093c60" name="a39f0ea774833dd346067a59d6d093c60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39f0ea774833dd346067a59d6d093c60">&#9670;&#160;</a></span>TotalDamageSourceSurvivors</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390d">WeaponType</a>, double&gt; RogueGenesia.Data.OldGameDataSave.TotalDamageSourceSurvivors = new Dictionary&lt;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390d">WeaponType</a>, double&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c2b7e01cf11c6b0ac819892a9e09d95" name="a7c2b7e01cf11c6b0ac819892a9e09d95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c2b7e01cf11c6b0ac819892a9e09d95">&#9670;&#160;</a></span>TotalKillSource</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390d">WeaponType</a>, int&gt; RogueGenesia.Data.OldGameDataSave.TotalKillSource = new Dictionary&lt;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390d">WeaponType</a>, int&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af739648b67096aeefedf38e4201d461e" name="af739648b67096aeefedf38e4201d461e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af739648b67096aeefedf38e4201d461e">&#9670;&#160;</a></span>TotalKillSourceSurvivors</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390d">WeaponType</a>, int&gt; RogueGenesia.Data.OldGameDataSave.TotalKillSourceSurvivors = new Dictionary&lt;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390d">WeaponType</a>, int&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="acd385eedea7a2f560e88f77d23089d1b" name="acd385eedea7a2f560e88f77d23089d1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd385eedea7a2f560e88f77d23089d1b">&#9670;&#160;</a></span>ChestPickUp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long RogueGenesia.Data.OldGameDataSave.ChestPickUp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0315ef55467d7e2c5e26fcdc6a86f8cc" name="a0315ef55467d7e2c5e26fcdc6a86f8cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0315ef55467d7e2c5e26fcdc6a86f8cc">&#9670;&#160;</a></span>DeathCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.OldGameDataSave.DeathCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad82af6bb84be8883047f8cead4e21d75" name="ad82af6bb84be8883047f8cead4e21d75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad82af6bb84be8883047f8cead4e21d75">&#9670;&#160;</a></span>FoodPickedUp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.OldGameDataSave.FoodPickedUp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a05ffb8e40b4b7f24be16a85dfd847b2c" name="a05ffb8e40b4b7f24be16a85dfd847b2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05ffb8e40b4b7f24be16a85dfd847b2c">&#9670;&#160;</a></span>GameCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.OldGameDataSave.GameCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a23310aa8a81cb1b21bbd0c4b3e972062" name="a23310aa8a81cb1b21bbd0c4b3e972062"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23310aa8a81cb1b21bbd0c4b3e972062">&#9670;&#160;</a></span>GoldPickedUp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.OldGameDataSave.GoldPickedUp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1c19723bc0f1d227157408edbe928f22" name="a1c19723bc0f1d227157408edbe928f22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c19723bc0f1d227157408edbe928f22">&#9670;&#160;</a></span>HiggerCompletedDifficulty</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a4672bf4cb9055d9a2f5d678cdee4eba6">EDifficulty</a> RogueGenesia.Data.OldGameDataSave.HiggerCompletedDifficulty</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3b74379ffabcbd2f45628173b381a447" name="a3b74379ffabcbd2f45628173b381a447"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b74379ffabcbd2f45628173b381a447">&#9670;&#160;</a></span>SoulCoin</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double RogueGenesia.Data.OldGameDataSave.SoulCoin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ace94e72c3071cb82fb5a6063dd5ba09d" name="ace94e72c3071cb82fb5a6063dd5ba09d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace94e72c3071cb82fb5a6063dd5ba09d">&#9670;&#160;</a></span>SoulGemPickedUp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long RogueGenesia.Data.OldGameDataSave.SoulGemPickedUp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae886fc33313282a4fb8bbb0c8bc862b9" name="ae886fc33313282a4fb8bbb0c8bc862b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae886fc33313282a4fb8bbb0c8bc862b9">&#9670;&#160;</a></span>TotalBossKilled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long RogueGenesia.Data.OldGameDataSave.TotalBossKilled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9425df7dd0fa4ada871f0394e4090e3f" name="a9425df7dd0fa4ada871f0394e4090e3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9425df7dd0fa4ada871f0394e4090e3f">&#9670;&#160;</a></span>TotalDamage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double RogueGenesia.Data.OldGameDataSave.TotalDamage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac97bd72c1e47c803cb1af3b505ca471e" name="ac97bd72c1e47c803cb1af3b505ca471e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac97bd72c1e47c803cb1af3b505ca471e">&#9670;&#160;</a></span>TotalEliteKilled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long RogueGenesia.Data.OldGameDataSave.TotalEliteKilled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8b7b4bc24f92a60276fd213f81612d50" name="a8b7b4bc24f92a60276fd213f81612d50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b7b4bc24f92a60276fd213f81612d50">&#9670;&#160;</a></span>TotalEnemyKilled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long RogueGenesia.Data.OldGameDataSave.TotalEnemyKilled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aee6d00e0ee5623a5896a8a504412af12" name="aee6d00e0ee5623a5896a8a504412af12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee6d00e0ee5623a5896a8a504412af12">&#9670;&#160;</a></span>TotalGold</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double RogueGenesia.Data.OldGameDataSave.TotalGold</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a02958914eb67110979f5aa0993090b48" name="a02958914eb67110979f5aa0993090b48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02958914eb67110979f5aa0993090b48">&#9670;&#160;</a></span>TotalStageCompleted</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double RogueGenesia.Data.OldGameDataSave.TotalStageCompleted</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a19a646a7664a1c02f948182005a4fe45" name="a19a646a7664a1c02f948182005a4fe45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19a646a7664a1c02f948182005a4fe45">&#9670;&#160;</a></span>TotalTimeSurvived</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double RogueGenesia.Data.OldGameDataSave.TotalTimeSurvived</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd31005e8086cc620f3cfc31eb730a28" name="abd31005e8086cc620f3cfc31eb730a28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd31005e8086cc620f3cfc31eb730a28">&#9670;&#160;</a></span>VoidPickedUp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.OldGameDataSave.VoidPickedUp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/GameManager/Stats/PersistantGameStats.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_data.html">Data</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_data_1_1_old_game_data_save.html">OldGameDataSave</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

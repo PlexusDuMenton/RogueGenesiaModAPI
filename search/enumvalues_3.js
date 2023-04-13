@@ -1,4 +1,30 @@
 var searchData=
 [
-  ['victory_0',['Victory',['../class_mod_genesia_1_1_avatar_a_p_i.html#a983909dbea99f2a0d52834125d4266faa1f5c647d9066bc9e350b70aa2d16aec4',1,'ModGenesia::AvatarAPI']]]
+  ['d_0',['D',['../class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acda6fffa3a458f99fbc59a754c20180caf623e75af30e62bbd73d6df5b50bb7b5',1,'RogueGenesia.Data.SoulShopUpgradeSO.D()'],['../namespace_rogue_genesia_1_1_data.html#a4672bf4cb9055d9a2f5d678cdee4eba6af623e75af30e62bbd73d6df5b50bb7b5',1,'RogueGenesia.Data.D()']]],
+  ['d1_1',['D1',['../namespace_rogue_genesia_1_1_data.html#a160e6ab93945a7b89abdd0b08198be94a4a4079e06eb2f7ba7a12821c7c58a3f6',1,'RogueGenesia::Data']]],
+  ['d2_2',['D2',['../namespace_rogue_genesia_1_1_data.html#a160e6ab93945a7b89abdd0b08198be94ac4d62b6dcca08e5caf06c01889282859',1,'RogueGenesia::Data']]],
+  ['d3_3',['D3',['../namespace_rogue_genesia_1_1_data.html#a160e6ab93945a7b89abdd0b08198be94aa3deb6e481689f1d3303caecb8a6c401',1,'RogueGenesia::Data']]],
+  ['damage_4',['Damage',['../namespace_rogue_genesia_1_1_data.html#ade1c39d4a8007da6d58244c2df291e4cab9f24e83531326204197015b2f43a93f',1,'RogueGenesia.Data.Damage()'],['../namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4dab9f24e83531326204197015b2f43a93f',1,'RogueGenesia.Data.Damage()']]],
+  ['damagemitigation_5',['DamageMitigation',['../namespace_rogue_genesia.html#a08e147a553a0e3cd2fd9a832fe37f95ca1fa31a1bad4b4318e2cabd41614f4f09',1,'RogueGenesia.DamageMitigation()'],['../namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4da1fa31a1bad4b4318e2cabd41614f4f09',1,'RogueGenesia.Data.DamageMitigation()']]],
+  ['dark_6',['Dark',['../namespace_rogue_genesia_1_1_data.html#abd1862bbeed96cf5d434cf1d2cfd4f55aa18366b217ebf811ad1886e4f4f865b2',1,'RogueGenesia::Data']]],
+  ['dash_7',['Dash',['../namespace_rogue_genesia_1_1_actors_1_1_survival.html#a812aa5033e32de6604d74146283fb72ea3663598d5c5858b5a6040b1bbed4f187',1,'RogueGenesia::Actors::Survival']]],
+  ['dashcharge_8',['DashCharge',['../namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4dac34cc4ab52a958cf251e284bff2b997e',1,'RogueGenesia::Data']]],
+  ['dashchargepercooldown_9',['DashChargePerCoolDown',['../namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4daaaf1a38e86c160ee372cb71060b4bc2c',1,'RogueGenesia::Data']]],
+  ['dashcooldown_10',['DashCoolDown',['../namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4da55029c54883c0b7da844a96426f0a627',1,'RogueGenesia::Data']]],
+  ['dashdelay_11',['DashDelay',['../namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4daab8b0cf8296d5794441938ed25c844ae',1,'RogueGenesia::Data']]],
+  ['dashduration_12',['DashDuration',['../namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4da8fc4afef6bf7368e98d496f383f606b1',1,'RogueGenesia::Data']]],
+  ['dashrefill_13',['DashRefill',['../namespace_rogue_genesia_1_1_data.html#aef4b698ecb1935357f0258cd8122149aa8a9fa0d7c0cc21b20e369ff74603c439',1,'RogueGenesia::Data']]],
+  ['dashspeed_14',['DashSpeed',['../namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4da1e528f1ff3083abce150c9d9ceb770a2',1,'RogueGenesia::Data']]],
+  ['deathcount_15',['deathCount',['../class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html#ada4b91b89aafa1701f9b7b4b1838cb27a7419a85ffe75643eb3fab28554b1169c',1,'RogueGenesia::Data::AchievementScriptableObject']]],
+  ['deathscythe_16',['DeathScythe',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da4e789a4bf90bab1e82bb19aaa71bc675',1,'RogueGenesia::Data']]],
+  ['deathscythe_5finstantkill_17',['DeathScythe_InstantKill',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da2cd4d13a93b7ef960408b67e79ab3d08',1,'RogueGenesia::Data']]],
+  ['debugtag_18',['DebugTag',['../namespace_rogue_genesia_1_1_data.html#a5725faea36749393828a4bef4454c115a32d2bfb83be8ee5803a5ed7b76f56b61',1,'RogueGenesia::Data']]],
+  ['default_19',['Default',['../class_rogue_genesia_1_1_data_1_1_avatar_data.html#a21a4a80a22fb0b3220889945b93d5684a7a1920d61156abc05a60135aefe8bc67',1,'RogueGenesia.Data.AvatarData.Default()'],['../namespace_rogue_genesia.html#a08e147a553a0e3cd2fd9a832fe37f95ca7a1920d61156abc05a60135aefe8bc67',1,'RogueGenesia.Default()']]],
+  ['defence_20',['Defence',['../namespace_rogue_genesia_1_1_data.html#ade1c39d4a8007da6d58244c2df291e4ca128343c7abc14c26dbe868808b5dc658',1,'RogueGenesia.Data.Defence()'],['../namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4da128343c7abc14c26dbe868808b5dc658',1,'RogueGenesia.Data.Defence()']]],
+  ['defencepiercing_21',['DefencePiercing',['../namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4dadfa52f660cee8695f2db7413d5c42219',1,'RogueGenesia::Data']]],
+  ['dice_22',['Dice',['../namespace_rogue_genesia_1_1_data.html#aaa9105a962017dc70f16a695f4a394b5aa5b6cdb9de0f896d38fbfd5a5f044841',1,'RogueGenesia::Data']]],
+  ['displaynormalstagerequirement_23',['DisplayNormalStageRequirement',['../class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc34381676ecd99288db3111ac3263eca416acf1fdd217fe14f5d25bee8cf69ae',1,'RogueGenesia::Data::SoulShopUpgradeSO']]],
+  ['distance_24',['Distance',['../namespace_rogue_genesia_1_1_data.html#a5725faea36749393828a4bef4454c115a0aa6f4210bf373c95eda00232e93cd98',1,'RogueGenesia::Data']]],
+  ['doublingondeath8_25',['DoublingOnDeath8',['../namespace_rogue_genesia_1_1_data.html#adb76f445ee1b5f0678fdd5d1c67b48bfabaa80bb8bcb2b571e7f5128903789d37',1,'RogueGenesia::Data']]],
+  ['duplicationchest_26',['DuplicationChest',['../namespace_rogue_genesia_1_1_data.html#aaa9105a962017dc70f16a695f4a394b5acafffdf6c74bb153e28a27538cbcfd73',1,'RogueGenesia::Data']]]
 ];

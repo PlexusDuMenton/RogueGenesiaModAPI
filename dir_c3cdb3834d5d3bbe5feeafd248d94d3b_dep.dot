@@ -1,0 +1,18 @@
+digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/Monster/AI/BossAbility"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_befd5c0ec8b1e2fefcf5dc2dd2093e48 {
+    graph [ bgcolor="#daedff", pencolor="grey50", label="AI", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_befd5c0ec8b1e2fefcf5dc2dd2093e48.html",tooltip=""]
+  subgraph clusterdir_c3cdb3834d5d3bbe5feeafd248d94d3b {
+    graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_c3cdb3834d5d3bbe5feeafd248d94d3b.html",tooltip=""]
+    dir_c3cdb3834d5d3bbe5feeafd248d94d3b [shape=plaintext, label="BossAbility"];
+  dir_ab4ca7eccdad56827a35a43090489d4a [label="NecroMancer", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_ab4ca7eccdad56827a35a43090489d4a.html",tooltip=""];
+  dir_53de8ac55b41e18b43a2d721cf97aa08 [label="Shaman", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_53de8ac55b41e18b43a2d721cf97aa08.html",tooltip=""];
+  dir_badc001985ec04516ecd24134b8013a5 [label="Worm", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_badc001985ec04516ecd24134b8013a5.html",tooltip=""];
+  }
+  }
+}

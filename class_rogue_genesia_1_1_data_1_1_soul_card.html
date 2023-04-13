@@ -1,0 +1,1234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue:Genesia API" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Rogue: Genesia API" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.Data.SoulCard Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_data_1_1_soul_card.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
+<a href="class_rogue_genesia_1_1_data_1_1_soul_card-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.Data.SoulCard Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.Data.SoulCard:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aef7fed606291cdf3fe32d3ccce89775b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#aef7fed606291cdf3fe32d3ccce89775b">InitData</a> (string name, int ID, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aa">CardRarity</a> rarity=<a class="el" href="namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aaaca1d36b689ff205441f6a2ca78a86fb5">CardRarity.Tainted</a>, double dropWeight=1, int level=1, <a class="el" href="namespace_rogue_genesia_1_1_data.html#afaec252bb0335013ba7cab942f28c663">CardType</a> cardType=<a class="el" href="namespace_rogue_genesia_1_1_data.html#afaec252bb0335013ba7cab942f28c663a0db45d2a4141101bdfe48e3314cfbca3">CardType.UNDEFINED</a>)</td></tr>
+<tr class="separator:aef7fed606291cdf3fe32d3ccce89775b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1186cfa63f80740ee1b2693a6a13e0f5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a1186cfa63f80740ee1b2693a6a13e0f5">SetLevel</a> (int level)</td></tr>
+<tr class="separator:a1186cfa63f80740ee1b2693a6a13e0f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae774d2ae521b71efaf73414681e0ffd0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#ae774d2ae521b71efaf73414681e0ffd0">LevelUp</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> owner)</td></tr>
+<tr class="separator:ae774d2ae521b71efaf73414681e0ffd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a7fd003fe95b8288665a06cb184467f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a1a7fd003fe95b8288665a06cb184467f">Init</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> owner)</td></tr>
+<tr class="separator:a1a7fd003fe95b8288665a06cb184467f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a729da5c53bc4a46fa62034af0f60d7b0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a729da5c53bc4a46fa62034af0f60d7b0">OnUpdate</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">Actors.Survival.PlayerEntity</a> owner)</td></tr>
+<tr class="separator:a729da5c53bc4a46fa62034af0f60d7b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9e989433cc981a3c6a06a595183fd72"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#ad9e989433cc981a3c6a06a595183fd72">OnDash</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">Actors.Survival.PlayerEntity</a> owner)</td></tr>
+<tr class="separator:ad9e989433cc981a3c6a06a595183fd72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a232435ac6479dfc9909686198b7b7914"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a232435ac6479dfc9909686198b7b7914">OnFlatStatUpdate</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> owner, ref <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a> actualStats, bool fakeStats=false, bool baseState=false)</td></tr>
+<tr class="separator:a232435ac6479dfc9909686198b7b7914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc8ea87dbef4cd41d828c8b0348549b4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#afc8ea87dbef4cd41d828c8b0348549b4">OnMultiplierStatUpdate</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> owner, ref <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a> actualStats, bool fakeStats=false, bool baseState=false)</td></tr>
+<tr class="separator:afc8ea87dbef4cd41d828c8b0348549b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39fa09b65a6f5040404968bc00e05c24"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a39fa09b65a6f5040404968bc00e05c24">OnPostStatUpdate</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> owner, ref <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a> actualStats, bool fakeStats=false, bool baseState=false)</td></tr>
+<tr class="separator:a39fa09b65a6f5040404968bc00e05c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64ecd357389e7b640566f0814f4fe395"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a64ecd357389e7b640566f0814f4fe395">OnAttack</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">Actors.Survival.PlayerEntity</a> owner)</td></tr>
+<tr class="separator:a64ecd357389e7b640566f0814f4fe395"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f6161b0ff7277f0a79f985333546f4b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a0f6161b0ff7277f0a79f985333546f4b">OnKill</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> owner, <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">Actors.Survival.IEntity</a> killedEntity)</td></tr>
+<tr class="separator:a0f6161b0ff7277f0a79f985333546f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a5e4e3142c4c17203f076997dc4dc74"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a3a5e4e3142c4c17203f076997dc4dc74">OnTakeDamagePreDefence</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">Actors.Survival.PlayerEntity</a> owner, <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">Actors.Survival.IEntity</a> damageOwner, ref float modifierDamageValue, float damageValue)</td></tr>
+<tr class="separator:a3a5e4e3142c4c17203f076997dc4dc74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adef112cd54392a7887bd60065b546d0d"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#adef112cd54392a7887bd60065b546d0d">GetName</a> ()</td></tr>
+<tr class="separator:adef112cd54392a7887bd60065b546d0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dbbde973b90e57b76cf77d6890dd5cf"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a7dbbde973b90e57b76cf77d6890dd5cf">GetDescription</a> (bool achievement, bool hover)</td></tr>
+<tr class="separator:a7dbbde973b90e57b76cf77d6890dd5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cdb8f6a1234af7e6727d67e0840df19"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a5cdb8f6a1234af7e6727d67e0840df19">GetDescriptionOnLevelUp</a> (bool levelUpDetail)</td></tr>
+<tr class="separator:a5cdb8f6a1234af7e6727d67e0840df19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01c3114001cb41ec34e62fdcf281deac"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a01c3114001cb41ec34e62fdcf281deac">OnRemove</a> ()</td></tr>
+<tr class="separator:a01c3114001cb41ec34e62fdcf281deac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae29888580b3199e16bcd26840bed0b59"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#ae29888580b3199e16bcd26840bed0b59">Equals</a> (object obj)</td></tr>
+<tr class="separator:ae29888580b3199e16bcd26840bed0b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8993c8c9804399ff6a0498855ccbf34"><td class="memItemLeft" align="right" valign="top">override int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#af8993c8c9804399ff6a0498855ccbf34">GetHashCode</a> ()</td></tr>
+<tr class="separator:af8993c8c9804399ff6a0498855ccbf34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7209898648ce833b16cb11aacd997e21"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#a7209898648ce833b16cb11aacd997e21">OnUpdate</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">Actors.Survival.PlayerEntity</a> owner)</td></tr>
+<tr class="separator:a7209898648ce833b16cb11aacd997e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1038f8ec182337b037af5218b7fc46f8"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#a1038f8ec182337b037af5218b7fc46f8">OnDash</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">Actors.Survival.PlayerEntity</a> owner)</td></tr>
+<tr class="separator:a1038f8ec182337b037af5218b7fc46f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04a3f967c201fe797810cac80dfdaa2a"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#a04a3f967c201fe797810cac80dfdaa2a">OnFlatStatUpdate</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> owner, ref <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a> actualStats, bool fakeStats=false, bool baseState=false)</td></tr>
+<tr class="separator:a04a3f967c201fe797810cac80dfdaa2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f2bee1a49c7235dce7a678e18f65bd7"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#a6f2bee1a49c7235dce7a678e18f65bd7">OnMultiplierStatUpdate</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> owner, ref <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a> actualStats, bool fakeStats=false, bool baseState=false)</td></tr>
+<tr class="separator:a6f2bee1a49c7235dce7a678e18f65bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a123e9217eefd7442a92d17a8b467d8f5"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#a123e9217eefd7442a92d17a8b467d8f5">OnPostStatUpdate</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> owner, ref <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a> actualStats, bool fakeStats=false, bool baseState=false)</td></tr>
+<tr class="separator:a123e9217eefd7442a92d17a8b467d8f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a272fed602a381d3c38ad0a09c451a173"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#a272fed602a381d3c38ad0a09c451a173">OnAttack</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">Actors.Survival.PlayerEntity</a> owner)</td></tr>
+<tr class="separator:a272fed602a381d3c38ad0a09c451a173"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4ccff10ab0ca83c1be0e264717d576a"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#ad4ccff10ab0ca83c1be0e264717d576a">OnKill</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> owner, <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">Actors.Survival.IEntity</a> killedEntity)</td></tr>
+<tr class="separator:ad4ccff10ab0ca83c1be0e264717d576a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27c9c02cf801e5e51721099383fc4a53"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#a27c9c02cf801e5e51721099383fc4a53">OnTakeDamagePreDefence</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">Actors.Survival.PlayerEntity</a> owner, <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">Actors.Survival.IEntity</a> damageOwner, ref float modifierDamageValue, float damageValue)</td></tr>
+<tr class="separator:a27c9c02cf801e5e51721099383fc4a53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a57d5db21f20d1e249baadfafa53b732e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a57d5db21f20d1e249baadfafa53b732e">operator==</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">SoulCard</a> _sb1, <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">SoulCard</a> _sb2)</td></tr>
+<tr class="separator:a57d5db21f20d1e249baadfafa53b732e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04246df3aacb3e188ce5d3a8fc5b6992"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a04246df3aacb3e188ce5d3a8fc5b6992">operator!=</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">SoulCard</a> _sb1, <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">SoulCard</a> _sb2)</td></tr>
+<tr class="separator:a04246df3aacb3e188ce5d3a8fc5b6992"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a797341852ee1416dcc3854b05e8c530f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a797341852ee1416dcc3854b05e8c530f">CardSO</a></td></tr>
+<tr class="separator:a797341852ee1416dcc3854b05e8c530f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a142f8e6c1d18e7e81913a17e3abf581d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a142f8e6c1d18e7e81913a17e3abf581d">editStats</a> = false</td></tr>
+<tr class="separator:a142f8e6c1d18e7e81913a17e3abf581d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc4675b6371c087fd04820322e529ec5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stats_modifier.html">StatsModifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#acc4675b6371c087fd04820322e529ec5">StatsModifier</a></td></tr>
+<tr class="separator:acc4675b6371c087fd04820322e529ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:af88f55d7d79d7c219f896201f8715b3a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#af88f55d7d79d7c219f896201f8715b3a">_soulBonusID</a> = 0</td></tr>
+<tr class="separator:af88f55d7d79d7c219f896201f8715b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a624d8872e93a8f2b00c39be66c661090"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a624d8872e93a8f2b00c39be66c661090">_level</a> = 1</td></tr>
+<tr class="separator:a624d8872e93a8f2b00c39be66c661090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05363f4990bb36f4a82cf5e6cfd98ca1"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a05363f4990bb36f4a82cf5e6cfd98ca1">_name</a> = &quot;Test&quot;</td></tr>
+<tr class="separator:a05363f4990bb36f4a82cf5e6cfd98ca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7159488701814c37c263bd3995af88ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aa">CardRarity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a7159488701814c37c263bd3995af88ef">_soulRarity</a> = <a class="el" href="namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aaaca1d36b689ff205441f6a2ca78a86fb5">CardRarity.Tainted</a></td></tr>
+<tr class="separator:a7159488701814c37c263bd3995af88ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93e8eb3a1b720a0a5d49953530da30e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_rogue_genesia_1_1_data.html#afaec252bb0335013ba7cab942f28c663">CardType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a93e8eb3a1b720a0a5d49953530da30e7">_cardType</a> = <a class="el" href="namespace_rogue_genesia_1_1_data.html#afaec252bb0335013ba7cab942f28c663a0db45d2a4141101bdfe48e3314cfbca3">CardType.UNDEFINED</a></td></tr>
+<tr class="separator:a93e8eb3a1b720a0a5d49953530da30e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa4d5fba7410368d8981be1c302d5ccb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#afa4d5fba7410368d8981be1c302d5ccb">_dropWeight</a> = 1</td></tr>
+<tr class="separator:afa4d5fba7410368d8981be1c302d5ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:aeb4f04ad9cf023615ee77ada0ebf7742"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_rogue_genesia_1_1_data.html#afaec252bb0335013ba7cab942f28c663">CardType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#aeb4f04ad9cf023615ee77ada0ebf7742">CardType</a><code> [get]</code></td></tr>
+<tr class="separator:aeb4f04ad9cf023615ee77ada0ebf7742"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d578e06b9da5388e3672a0104760b2d"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a0d578e06b9da5388e3672a0104760b2d">GetLevel</a><code> [get]</code></td></tr>
+<tr class="separator:a0d578e06b9da5388e3672a0104760b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44c922631ed7c9bf6825df4d0078bd65"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a44c922631ed7c9bf6825df4d0078bd65">GetID</a><code> [get]</code></td></tr>
+<tr class="separator:a44c922631ed7c9bf6825df4d0078bd65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6d202e7ba29c85e66b80e0dc3f341af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aa">CardRarity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#ab6d202e7ba29c85e66b80e0dc3f341af">GetRarity</a><code> [get]</code></td></tr>
+<tr class="separator:ab6d202e7ba29c85e66b80e0dc3f341af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae29888580b3199e16bcd26840bed0b59" name="ae29888580b3199e16bcd26840bed0b59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae29888580b3199e16bcd26840bed0b59">&#9670;&#160;</a></span>Equals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override bool RogueGenesia.Data.SoulCard.Equals </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7dbbde973b90e57b76cf77d6890dd5cf" name="a7dbbde973b90e57b76cf77d6890dd5cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dbbde973b90e57b76cf77d6890dd5cf">&#9670;&#160;</a></span>GetDescription()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string RogueGenesia.Data.SoulCard.GetDescription </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>achievement</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>hover</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5cdb8f6a1234af7e6727d67e0840df19" name="a5cdb8f6a1234af7e6727d67e0840df19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cdb8f6a1234af7e6727d67e0840df19">&#9670;&#160;</a></span>GetDescriptionOnLevelUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string RogueGenesia.Data.SoulCard.GetDescriptionOnLevelUp </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>levelUpDetail</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af8993c8c9804399ff6a0498855ccbf34" name="af8993c8c9804399ff6a0498855ccbf34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8993c8c9804399ff6a0498855ccbf34">&#9670;&#160;</a></span>GetHashCode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override int RogueGenesia.Data.SoulCard.GetHashCode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adef112cd54392a7887bd60065b546d0d" name="adef112cd54392a7887bd60065b546d0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adef112cd54392a7887bd60065b546d0d">&#9670;&#160;</a></span>GetName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string RogueGenesia.Data.SoulCard.GetName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a7fd003fe95b8288665a06cb184467f" name="a1a7fd003fe95b8288665a06cb184467f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a7fd003fe95b8288665a06cb184467f">&#9670;&#160;</a></span>Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.SoulCard.Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a>&#160;</td>
+          <td class="paramname"><em>owner</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_damage_on_reload.html#a52c0386ee660446328d2564e7a210d4b">RogueGenesia.Data.DamageOnReload</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_dash_charge_on_reload.html#abfd79931249a5aaa4ed41086c1c152f3">RogueGenesia.Data.DashChargeOnReload</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_split_projectile_on_reload.html#a55f4158b3c98702fd08e3bc8caa75639">RogueGenesia.Data.SplitProjectileOnReload</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_envy.html#a4fdd0150086a138c0fe5e3016442e245">RogueGenesia.Data.Envy</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_gluttony.html#a741a04b8a228cb655d7ca034f50f9ede">RogueGenesia.Data.Gluttony</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_greed.html#ac5a001fa9784af88714978ed269ec8fb">RogueGenesia.Data.Greed</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_sloth.html#a15a936e3f45339606bbdd9812901e35f">RogueGenesia.Data.Sloth</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_wrath.html#a9013c77882782128132d85b2cdf5af25">RogueGenesia.Data.Wrath</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_void_spirit_effect.html#a33f8438d14cd1e9bb6de4f5cdce0fd5c">RogueGenesia.Data.VoidSpiritEffect</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_soul_card.html#ae7914421c74b3532fa0171441f771d86">RogueGenesia.Data.WeaponSoulCard</a>.</p>
+
+</div>
+</div>
+<a id="aef7fed606291cdf3fe32d3ccce89775b" name="aef7fed606291cdf3fe32d3ccce89775b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef7fed606291cdf3fe32d3ccce89775b">&#9670;&#160;</a></span>InitData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.SoulCard.InitData </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aa">CardRarity</a>&#160;</td>
+          <td class="paramname"><em>rarity</em> = <code><a class="el" href="namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aaaca1d36b689ff205441f6a2ca78a86fb5">CardRarity::Tainted</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dropWeight</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_rogue_genesia_1_1_data.html#afaec252bb0335013ba7cab942f28c663">CardType</a>&#160;</td>
+          <td class="paramname"><em>cardType</em> = <code><a class="el" href="namespace_rogue_genesia_1_1_data.html#afaec252bb0335013ba7cab942f28c663a0db45d2a4141101bdfe48e3314cfbca3">CardType::UNDEFINED</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae774d2ae521b71efaf73414681e0ffd0" name="ae774d2ae521b71efaf73414681e0ffd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae774d2ae521b71efaf73414681e0ffd0">&#9670;&#160;</a></span>LevelUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.SoulCard.LevelUp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a>&#160;</td>
+          <td class="paramname"><em>owner</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_soul_card.html#a4a61b0ee80f02294546e18129f54ca37">RogueGenesia.Data.WeaponSoulCard</a>.</p>
+
+</div>
+</div>
+<a id="a64ecd357389e7b640566f0814f4fe395" name="a64ecd357389e7b640566f0814f4fe395"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64ecd357389e7b640566f0814f4fe395">&#9670;&#160;</a></span>OnAttack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.SoulCard.OnAttack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">Actors::Survival::PlayerEntity</a>&#160;</td>
+          <td class="paramname"><em>owner</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#a272fed602a381d3c38ad0a09c451a173">RogueGenesia.Data.IStatEffector</a>.</p>
+
+</div>
+</div>
+<a id="ad9e989433cc981a3c6a06a595183fd72" name="ad9e989433cc981a3c6a06a595183fd72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9e989433cc981a3c6a06a595183fd72">&#9670;&#160;</a></span>OnDash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.SoulCard.OnDash </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">Actors::Survival::PlayerEntity</a>&#160;</td>
+          <td class="paramname"><em>owner</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#a1038f8ec182337b037af5218b7fc46f8">RogueGenesia.Data.IStatEffector</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_dash_quick_reloading.html#ad7e7d2b8c4cbc8318ac96e99d4760998">RogueGenesia.Data.DashQuickReloading</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_dash_reloading.html#a34f27eaa2ba346c725f0095f9fb50725">RogueGenesia.Data.DashReloading</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_attack_speed_on_dash.html#a662412f1ba8b0640c9360e58c199d709">RogueGenesia.Data.AttackSpeedOnDash</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_fire_on_dash.html#af29363b44266953d4fd0d593130e20de">RogueGenesia.Data.FireOnDash</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_speed_on_dash.html#a8fd8a3cdca42e6c3a63ef4add2eaec5c">RogueGenesia.Data.SpeedOnDash</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_spike_boots.html#a99f192f970ce3ade5f36294645f655cc">RogueGenesia.Data.SpikeBoots</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_trigger_amulet.html#ac2e0a3fc50e5f50e7828d4fc6311adb9">RogueGenesia.Data.TriggerAmulet</a>.</p>
+
+</div>
+</div>
+<a id="a232435ac6479dfc9909686198b7b7914" name="a232435ac6479dfc9909686198b7b7914"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a232435ac6479dfc9909686198b7b7914">&#9670;&#160;</a></span>OnFlatStatUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.SoulCard.OnFlatStatUpdate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a>&#160;</td>
+          <td class="paramname"><em>owner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a>&#160;</td>
+          <td class="paramname"><em>actualStats</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fakeStats</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>baseState</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#a04a3f967c201fe797810cac80dfdaa2a">RogueGenesia.Data.IStatEffector</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_projectile_modifier_soul_card.html#a7e6bb4b1299622fe20b48dadb4883515">RogueGenesia.Data.ProjectileModifierSoulCard</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_modifier_soul_card.html#a9aa63288fc02982baef5ac7799ea7c9e">RogueGenesia.Data.PlayerModifierSoulCard</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_stat_soul_card.html#acab14514da1219405b77cb0ea8b94df0">RogueGenesia.Data.StatSoulCard</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_soul_card.html#a5f966b1c4520c35f58e012563cd1bddb">RogueGenesia.Data.WeaponSoulCard</a>.</p>
+
+</div>
+</div>
+<a id="a0f6161b0ff7277f0a79f985333546f4b" name="a0f6161b0ff7277f0a79f985333546f4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f6161b0ff7277f0a79f985333546f4b">&#9670;&#160;</a></span>OnKill()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.SoulCard.OnKill </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a>&#160;</td>
+          <td class="paramname"><em>owner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">Actors::Survival::IEntity</a>&#160;</td>
+          <td class="paramname"><em>killedEntity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#ad4ccff10ab0ca83c1be0e264717d576a">RogueGenesia.Data.IStatEffector</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_berserker.html#a3beca71e512be1fee18a5a6cf2f91d4e">RogueGenesia.Data.Berserker</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_pyromaniac.html#a9bda2b6b1733194bb9b38018e9fc6e07">RogueGenesia.Data.Pyromaniac</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_ammo_on_kill.html#ac214e94c1f0d5f3add99e4143d4bc53f">RogueGenesia.Data.AmmoOnKill</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_pride.html#a91c11a625b9e8a98f45618dd53c7ed27">RogueGenesia.Data.Pride</a>.</p>
+
+</div>
+</div>
+<a id="afc8ea87dbef4cd41d828c8b0348549b4" name="afc8ea87dbef4cd41d828c8b0348549b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc8ea87dbef4cd41d828c8b0348549b4">&#9670;&#160;</a></span>OnMultiplierStatUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.SoulCard.OnMultiplierStatUpdate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a>&#160;</td>
+          <td class="paramname"><em>owner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a>&#160;</td>
+          <td class="paramname"><em>actualStats</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fakeStats</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>baseState</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#a6f2bee1a49c7235dce7a678e18f65bd7">RogueGenesia.Data.IStatEffector</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_fight_and_flight.html#a82bc90cf93e92c0461dbbae5de1bc1cc">RogueGenesia.Data.FightAndFlight</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_immovable.html#a96dd7339c4e0926e2c1580358f38f157">RogueGenesia.Data.Immovable</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_greed.html#afbea170cc6abdd0c451f664e90209933">RogueGenesia.Data.Greed</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_stat_soul_card.html#aa7ccadbbf2dd111619a7638459f5189f">RogueGenesia.Data.StatSoulCard</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_soul_card.html#ac7440220e9d6a24d39bdc9fb960ef2a0">RogueGenesia.Data.WeaponSoulCard</a>.</p>
+
+</div>
+</div>
+<a id="a39fa09b65a6f5040404968bc00e05c24" name="a39fa09b65a6f5040404968bc00e05c24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39fa09b65a6f5040404968bc00e05c24">&#9670;&#160;</a></span>OnPostStatUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.SoulCard.OnPostStatUpdate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a>&#160;</td>
+          <td class="paramname"><em>owner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a>&#160;</td>
+          <td class="paramname"><em>actualStats</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fakeStats</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>baseState</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#a123e9217eefd7442a92d17a8b467d8f5">RogueGenesia.Data.IStatEffector</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_aura_conversion.html#a142c6571078e23ab02984965f3aeca47">RogueGenesia.Data.AuraConversion</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_defence_to_damage_soul_card.html#a9033de5dcc59627e268bb758625e1296">RogueGenesia.Data.DefenceToDamageSoulCard</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_health_to_damage_soul_card.html#a6dd4fd8491a23175177af4a7bc309410">RogueGenesia.Data.HealthToDamageSoulCard</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_negative_armor_is_damage.html#a1be70143bef6f3a7c08c1d54a922bf2d">RogueGenesia.Data.NegativeArmorIsDamage</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_soul_card.html#ace4fc8bec4057ce35230f55bd358684e">RogueGenesia.Data.WeaponSoulCard</a>.</p>
+
+</div>
+</div>
+<a id="a01c3114001cb41ec34e62fdcf281deac" name="a01c3114001cb41ec34e62fdcf281deac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01c3114001cb41ec34e62fdcf281deac">&#9670;&#160;</a></span>OnRemove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.SoulCard.OnRemove </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_envy.html#ae95aac410f617d6cdab770958c08610b">RogueGenesia.Data.Envy</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_gluttony.html#a63f0bd069f4944a5c70e2021668a317a">RogueGenesia.Data.Gluttony</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_greed.html#a3bec4ea6c03975fa23d2913050030344">RogueGenesia.Data.Greed</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_sloth.html#aa316a0046d7b3bedfab6fd2f05be550d">RogueGenesia.Data.Sloth</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_wrath.html#af64f1e3d28686fc9b69489599108e61f">RogueGenesia.Data.Wrath</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_void_spirit_effect.html#a34b0845bef639bc1e7ed9568b305e5f9">RogueGenesia.Data.VoidSpiritEffect</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_soul_card.html#a0ed06ae1bfc645e86835747167c8fc30">RogueGenesia.Data.WeaponSoulCard</a>.</p>
+
+</div>
+</div>
+<a id="a3a5e4e3142c4c17203f076997dc4dc74" name="a3a5e4e3142c4c17203f076997dc4dc74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a5e4e3142c4c17203f076997dc4dc74">&#9670;&#160;</a></span>OnTakeDamagePreDefence()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.SoulCard.OnTakeDamagePreDefence </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">Actors::Survival::PlayerEntity</a>&#160;</td>
+          <td class="paramname"><em>owner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">Actors::Survival::IEntity</a>&#160;</td>
+          <td class="paramname"><em>damageOwner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref float&#160;</td>
+          <td class="paramname"><em>modifierDamageValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>damageValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#a27c9c02cf801e5e51721099383fc4a53">RogueGenesia.Data.IStatEffector</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_pyromaniac.html#a836006cd0e545e429df6ec71745a816d">RogueGenesia.Data.Pyromaniac</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_benediction.html#abc4f620d1380da4f29a1deba4c3ecca6">RogueGenesia.Data.Benediction</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_projectile_shield.html#a33b5814cfabc30dd025339808188b5bf">RogueGenesia.Data.ProjectileShield</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_reactive_trigger.html#af98620ba718a5482e745a5c3d632b2d9">RogueGenesia.Data.ReactiveTrigger</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rift.html#a3f23d14bd91da55bced73227af1bf668">RogueGenesia.Data.Rift</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_lust.html#a1b325400f8338ff0d0f886c369d011a0">RogueGenesia.Data.Lust</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_soul_card.html#af967d006a2108fdbfec76a6696bcf26f">RogueGenesia.Data.WeaponSoulCard</a>.</p>
+
+</div>
+</div>
+<a id="a729da5c53bc4a46fa62034af0f60d7b0" name="a729da5c53bc4a46fa62034af0f60d7b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a729da5c53bc4a46fa62034af0f60d7b0">&#9670;&#160;</a></span>OnUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.SoulCard.OnUpdate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">Actors::Survival::PlayerEntity</a>&#160;</td>
+          <td class="paramname"><em>owner</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#a7209898648ce833b16cb11aacd997e21">RogueGenesia.Data.IStatEffector</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_fight_and_flight.html#a7d2473726806a82d6f77215e41486994">RogueGenesia.Data.FightAndFlight</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_immovable.html#a1186da7d9c1c084d5d72186d96989217">RogueGenesia.Data.Immovable</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_projectile_shield.html#aaea1173f31f3f30b64ea64feeb2d70d6">RogueGenesia.Data.ProjectileShield</a>.</p>
+
+</div>
+</div>
+<a id="a04246df3aacb3e188ce5d3a8fc5b6992" name="a04246df3aacb3e188ce5d3a8fc5b6992"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04246df3aacb3e188ce5d3a8fc5b6992">&#9670;&#160;</a></span>operator!=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool RogueGenesia.Data.SoulCard.operator!= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">SoulCard</a>&#160;</td>
+          <td class="paramname"><em>_sb1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">SoulCard</a>&#160;</td>
+          <td class="paramname"><em>_sb2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a57d5db21f20d1e249baadfafa53b732e" name="a57d5db21f20d1e249baadfafa53b732e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57d5db21f20d1e249baadfafa53b732e">&#9670;&#160;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool RogueGenesia.Data.SoulCard.operator== </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">SoulCard</a>&#160;</td>
+          <td class="paramname"><em>_sb1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">SoulCard</a>&#160;</td>
+          <td class="paramname"><em>_sb2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1186cfa63f80740ee1b2693a6a13e0f5" name="a1186cfa63f80740ee1b2693a6a13e0f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1186cfa63f80740ee1b2693a6a13e0f5">&#9670;&#160;</a></span>SetLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.SoulCard.SetLevel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a93e8eb3a1b720a0a5d49953530da30e7" name="a93e8eb3a1b720a0a5d49953530da30e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93e8eb3a1b720a0a5d49953530da30e7">&#9670;&#160;</a></span>_cardType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_rogue_genesia_1_1_data.html#afaec252bb0335013ba7cab942f28c663">CardType</a> RogueGenesia.Data.SoulCard._cardType = <a class="el" href="namespace_rogue_genesia_1_1_data.html#afaec252bb0335013ba7cab942f28c663a0db45d2a4141101bdfe48e3314cfbca3">CardType.UNDEFINED</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa4d5fba7410368d8981be1c302d5ccb" name="afa4d5fba7410368d8981be1c302d5ccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa4d5fba7410368d8981be1c302d5ccb">&#9670;&#160;</a></span>_dropWeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double RogueGenesia.Data.SoulCard._dropWeight = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a624d8872e93a8f2b00c39be66c661090" name="a624d8872e93a8f2b00c39be66c661090"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a624d8872e93a8f2b00c39be66c661090">&#9670;&#160;</a></span>_level</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.SoulCard._level = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a05363f4990bb36f4a82cf5e6cfd98ca1" name="a05363f4990bb36f4a82cf5e6cfd98ca1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05363f4990bb36f4a82cf5e6cfd98ca1">&#9670;&#160;</a></span>_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RogueGenesia.Data.SoulCard._name = &quot;Test&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af88f55d7d79d7c219f896201f8715b3a" name="af88f55d7d79d7c219f896201f8715b3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af88f55d7d79d7c219f896201f8715b3a">&#9670;&#160;</a></span>_soulBonusID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.SoulCard._soulBonusID = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7159488701814c37c263bd3995af88ef" name="a7159488701814c37c263bd3995af88ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7159488701814c37c263bd3995af88ef">&#9670;&#160;</a></span>_soulRarity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aa">CardRarity</a> RogueGenesia.Data.SoulCard._soulRarity = <a class="el" href="namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aaaca1d36b689ff205441f6a2ca78a86fb5">CardRarity.Tainted</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a797341852ee1416dcc3854b05e8c530f" name="a797341852ee1416dcc3854b05e8c530f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a797341852ee1416dcc3854b05e8c530f">&#9670;&#160;</a></span>CardSO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a> RogueGenesia.Data.SoulCard.CardSO</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a142f8e6c1d18e7e81913a17e3abf581d" name="a142f8e6c1d18e7e81913a17e3abf581d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a142f8e6c1d18e7e81913a17e3abf581d">&#9670;&#160;</a></span>editStats</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.SoulCard.editStats = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acc4675b6371c087fd04820322e529ec5" name="acc4675b6371c087fd04820322e529ec5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc4675b6371c087fd04820322e529ec5">&#9670;&#160;</a></span>StatsModifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stats_modifier.html">StatsModifier</a> RogueGenesia.Data.SoulCard.StatsModifier</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="aeb4f04ad9cf023615ee77ada0ebf7742" name="aeb4f04ad9cf023615ee77ada0ebf7742"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb4f04ad9cf023615ee77ada0ebf7742">&#9670;&#160;</a></span>CardType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_rogue_genesia_1_1_data.html#afaec252bb0335013ba7cab942f28c663">CardType</a> RogueGenesia.Data.SoulCard.CardType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44c922631ed7c9bf6825df4d0078bd65" name="a44c922631ed7c9bf6825df4d0078bd65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44c922631ed7c9bf6825df4d0078bd65">&#9670;&#160;</a></span>GetID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int RogueGenesia.Data.SoulCard.GetID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d578e06b9da5388e3672a0104760b2d" name="a0d578e06b9da5388e3672a0104760b2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d578e06b9da5388e3672a0104760b2d">&#9670;&#160;</a></span>GetLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int RogueGenesia.Data.SoulCard.GetLevel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6d202e7ba29c85e66b80e0dc3f341af" name="ab6d202e7ba29c85e66b80e0dc3f341af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6d202e7ba29c85e66b80e0dc3f341af">&#9670;&#160;</a></span>GetRarity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aa">CardRarity</a> RogueGenesia.Data.SoulCard.GetRarity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/SoulLevel/SoulCard.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_data.html">Data</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">SoulCard</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

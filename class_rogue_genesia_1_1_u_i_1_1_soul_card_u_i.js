@@ -1,0 +1,25 @@
+var class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i =
+[
+    [ "AddTag", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#a72f11f110cc0bec6134f996756ce7463", null ],
+    [ "AddTags", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#a7a3fb4fe9393d8e4ac7373fa58c41e62", null ],
+    [ "CleanTags", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#ac13956ce8d3a214c038f9252f10b82ea", null ],
+    [ "DisplayDetails", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#a9e680ec05c5a337288baebde4b33019f", null ],
+    [ "InitCard", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#a39dbec1faeb71f4f5d5ba20747fa12ba", null ],
+    [ "SetCardColour", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#a3a94c0e9770188dee42cd7af58476902", null ],
+    [ "UpdateLanguage", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#a5d12b2ac50a47b723fe64b95876a43dd", null ],
+    [ "BackGround", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#a511779d121675dff21cb26e51a96c478", null ],
+    [ "CardDescription", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#a2df74566b15045e6cff43442d796aebc", null ],
+    [ "CardImage", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#aea0072945c4a795143654dbe7edb3e48", null ],
+    [ "CardLevel", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#acb40311ef59cf98225b187d3ba9eee8e", null ],
+    [ "CardName", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#ad60f552cbeb5836fa242cb0ab8cfdc3c", null ],
+    [ "CardRarity", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#a61bea28d1b012757e364fbbde963f620", null ],
+    [ "Glow", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#a75d58de78a9b4db77077c2664af4b9ae", null ],
+    [ "IsDetail", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#a2eed8a940ac13f74a77f22bb17205255", null ],
+    [ "IsMenu", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#a8f25495245ad3fb6d2c8888214a00857", null ],
+    [ "Level", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#a5f98e48ba89d59843583b44c45a88b06", null ],
+    [ "ModSource", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#ae68919695f17007d6762658e6bb4cb6c", null ],
+    [ "ScrollView", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#aa6efebb60d1467414b2591e8eb1c8b51", null ],
+    [ "SoulBonusID", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#ab77022070dbb8e01425ac09f0ba307b3", null ],
+    [ "SoulBonusRef", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#aed4a84d8add5270dea81b8424a58fa5c", null ],
+    [ "TagPannel", "class_rogue_genesia_1_1_u_i_1_1_soul_card_u_i.html#a454674917c6a817689d30b9dc681305c", null ]
+];

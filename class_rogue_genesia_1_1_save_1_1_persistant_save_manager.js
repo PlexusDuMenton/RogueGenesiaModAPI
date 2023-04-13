@@ -1,0 +1,25 @@
+var class_rogue_genesia_1_1_save_1_1_persistant_save_manager =
+[
+    [ "Base64Decode", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#adc39a75913a8f55148c4295eb62f46f1", null ],
+    [ "Base64Decode", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#ac93fd194f01bec7a4c49edf1881411e1", null ],
+    [ "Base64Encode", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#aa8648db1e678eddb2861174fc97f1359", null ],
+    [ "GetBackUpPath", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#ab4284860c9b98ddaef137f74616f91b8", null ],
+    [ "GetProfileDirectory", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#ad8c339df67bc034c86b159736c245f8a", null ],
+    [ "GetProfiles", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#aa47c7953d4bd32e3a03be81c2cdced01", null ],
+    [ "GetProfilesName", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#aadd08fe6cd1bba65fd5f75b366a211d2", null ],
+    [ "GetSave", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#ab63bf37e372bbeff48ee18bac84cfd60", null ],
+    [ "GetSaveUsingStream", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#a88ae74cd670a7b22aecfe7ab2eded8c6", null ],
+    [ "IsProfileNameValid", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#a61a7cbef7e45f1194685b28b6a50494f", null ],
+    [ "LoadPersitentData", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#a65d1665f183605414deb61d3c076d0ed", null ],
+    [ "NeedToPortOldSave", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#ac53e085a18b45cd84bd12658fcd964ac", null ],
+    [ "OnChangeProfile", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#a687938bdf6bf97f90e12c16e6a213d12", null ],
+    [ "OnNewProfileCreate", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#a0078ae2f5f2ce6f0bac45fbfc0ec714e", null ],
+    [ "SavePersistentData", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#aa40cf8f72a567e3470490cb603bb0339", null ],
+    [ "UpdateStatsRecord", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#a373bc914b13b344e9cdecacdd890f299", null ],
+    [ "getBackUpPath", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#ad5f201761811ee8d5b2b34b49aa18fbe", null ],
+    [ "getCurrentProfileDirectory", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#a00c6cd2dd5b401d6e1d81519ba8607f9", null ],
+    [ "getSaveDirectory", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#a9aebc72fc070f2fb9b18f2a53e8b4355", null ],
+    [ "getSavePath", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#abe9a654b90b21b0c4af1b130eccc9bb1", null ],
+    [ "oldSaveDirectory", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#a432aa2a4fd6e821e2363f52c0d76cef3", null ],
+    [ "oldSavePath", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html#adf075a18bea4b2197f06aea88378b902", null ]
+];

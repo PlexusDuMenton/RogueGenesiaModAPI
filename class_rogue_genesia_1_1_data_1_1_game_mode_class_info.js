@@ -1,0 +1,25 @@
+var class_rogue_genesia_1_1_data_1_1_game_mode_class_info =
+[
+    [ "CalculateMasteryGain", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#a0b79e2f24e0b817ba2da14f6cb497310", null ],
+    [ "CalculateSoulCoinGain", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#a709619dd55498db01c78031c793782be", null ],
+    [ "ClearSave", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#af5ebd1f41369b631640a11567570fa11", null ],
+    [ "GetCorruptionPerStage", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#a8f3bf26bf746b62f42ad9cf4809dd81e", null ],
+    [ "GetCorruptionPerZone", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#a5040d3a41a8b378372ffc8bc792a0c8d", null ],
+    [ "GetDefaultMap", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#a72812ed185b6cf4ff4a73ca5b4a6545b", null ],
+    [ "GetDefaultVisualMap", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#af09052f1ac9966d801614ccc27ebbba0", null ],
+    [ "GetEnemyList", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#a37baf0fb103f8b82799274d2813699a2", null ],
+    [ "GetEnemyPatternList", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#ac2eec9758bbc397aee5c3f5554d6d964", null ],
+    [ "GetEnvironementName", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#ac372e4598b548758304e25f7340b81ae", null ],
+    [ "GetRunEndText", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#ac350c9cf01fe6fc124d852cb6f977760", null ],
+    [ "GetSaveName", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#adfce0bf0ad3a000e400990ae8f50cd54", null ],
+    [ "GetTotalDamage", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#abf7acfd91010c98bda66e54093d485fd", null ],
+    [ "getZoneMusic", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#a74b8350ab6e29366b818d30a15f30a6c", null ],
+    [ "HasSave", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#aa38a33087eb910e48e93ba4147c8bbaf", null ],
+    [ "LoadSave", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#a7bbeec1fe9a455b33aa05f64b5d7b6bc", null ],
+    [ "Localize", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#af4b87bbea55b5367e4f5870e5fcea2dd", null ],
+    [ "OnRunEnd", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#ae95217c38cb34e097082b5083a001f2d", null ],
+    [ "OnSave", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#a9b789784b7c09d5ae82b9284136007de", null ],
+    [ "RequireLight", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#ac227b1d506185f27db5f79c68889ad49", null ],
+    [ "CorruptionPerStage", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#a2ac4149aaeebb87274e9674e1957afe2", null ],
+    [ "CorruptionPerZone", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#aef675708ef5fea0767c1165fa0969722", null ]
+];

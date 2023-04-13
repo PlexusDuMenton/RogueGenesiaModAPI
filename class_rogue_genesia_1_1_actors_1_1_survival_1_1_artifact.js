@@ -1,0 +1,28 @@
+var class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact =
+[
+    [ "GetArtifact", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#aeafdb5861049e48f092dae6443e35bb8", null ],
+    [ "GetArtifactNoPool", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#a05353d63ff5a91d290494dfc05859b52", null ],
+    [ "GetArtifactSoFromArtifact", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#a7dc5e321a36a987e2bdc6a1a2b4351af", null ],
+    [ "GetArtifactWeight", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#a219f977436636db796a239488358541f", null ],
+    [ "GetDescription", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#adc9bcf42f0c7b462970f8c895be7c307", null ],
+    [ "GetName", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#aa636cabd0eab75c580639960c96094a4", null ],
+    [ "GetRandomArtifact", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#a64b8c3d483db19c3a10c9c5b3c541f4b", null ],
+    [ "Init", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#a7585b9bd89edaf9b6b58119010d47266", null ],
+    [ "OnAttack", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#a7ef09222edfdbbf640ec5da7cf273d49", null ],
+    [ "OnDash", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#a8b149dfc755cac1a2276d5dec7686f50", null ],
+    [ "OnFlatStatUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#a834c7d95998fc60c3a9a600945175e47", null ],
+    [ "OnKill", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#a436fee280591fb79eef2b631bc00d5e6", null ],
+    [ "OnLateStatUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#ac8b52dc63715c3b89e8f0563f417b696", null ],
+    [ "OnMultiplierStatUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#a1e400b088869f31e42f96230a3926a18", null ],
+    [ "OnOtherWeaponAttack", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#a58a6e3e606f5c9ded873563d55ce4736", null ],
+    [ "OnPostStatUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#a54ad181eec01da1b72016fcdd704eff1", null ],
+    [ "OnRemove", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#ac4e61bcdb25d576b0e1b33e946a92a93", null ],
+    [ "OnTakeDamagePreDefence", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#a13b5f3c75dcf67f398616676f38c9c01", null ],
+    [ "OnUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#a5fca31834bbf2468310ebcb7289e0aa7", null ],
+    [ "_artifactType", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#af41977a79220fd0829de2796d39b5b53", null ],
+    [ "count", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#ab632476008252e33f0312389ac81f76b", null ],
+    [ "scriptableObject", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#ae5f4055ccabde9a62b1ecf1f45ee7486", null ],
+    [ "Texture", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#aef43dd6cc0f1c4fd5d3492d4beef1ed2", null ],
+    [ "GetArtifactType", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#a13c453e4353529a2db593d5d1ec08655", null ],
+    [ "LocalizationName", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#ab3f956584c9a20dbea1408e6f48a3cf8", null ]
+];

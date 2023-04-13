@@ -1,0 +1,1112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue:Genesia API" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Rogue: Genesia API" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.AchievementManager Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_achievement_manager.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
+<a href="class_rogue_genesia_1_1_achievement_manager-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.AchievementManager Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.AchievementManager:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ae625828acc15dea5ac6ca2678e3d7b78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#ae625828acc15dea5ac6ca2678e3d7b78">ReInit</a> ()</td></tr>
+<tr class="separator:ae625828acc15dea5ac6ca2678e3d7b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27442f17eb0a028571212c6ac7715511"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a27442f17eb0a028571212c6ac7715511">Awake</a> ()</td></tr>
+<tr class="separator:a27442f17eb0a028571212c6ac7715511"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45f351a52150f205eba5b4693ccc5f72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a45f351a52150f205eba5b4693ccc5f72">Update</a> ()</td></tr>
+<tr class="separator:a45f351a52150f205eba5b4693ccc5f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a7c8d8c96b632d801213b2e49118b1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a0a7c8d8c96b632d801213b2e49118b1c">UpdateNotification</a> ()</td></tr>
+<tr class="separator:a0a7c8d8c96b632d801213b2e49118b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6de1e18827bc02c2c635164503dcd90f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a6de1e18827bc02c2c635164503dcd90f">StartAchievementNotification</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a> achievement)</td></tr>
+<tr class="separator:a6de1e18827bc02c2c635164503dcd90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:afe803850145d44ab73a89f16ccc2089c"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#afe803850145d44ab73a89f16ccc2089c">Base64Encode</a> (string plainText)</td></tr>
+<tr class="separator:afe803850145d44ab73a89f16ccc2089c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac15c1e64a74cfb01938e8b6b98087c4"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#aac15c1e64a74cfb01938e8b6b98087c4">Base64Decode</a> (string base64EncodedData)</td></tr>
+<tr class="separator:aac15c1e64a74cfb01938e8b6b98087c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6bffcdc49f85faac02ae457e206ae69"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#ae6bffcdc49f85faac02ae457e206ae69">Base64Encode</a> (Stream input, Stream Output)</td></tr>
+<tr class="separator:ae6bffcdc49f85faac02ae457e206ae69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f9a1726021d607efd4c3b95cf176b34"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a8f9a1726021d607efd4c3b95cf176b34">Base64Decode</a> (Stream input, Stream Output)</td></tr>
+<tr class="separator:a8f9a1726021d607efd4c3b95cf176b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9308343a513fef99664f119cefe15d0"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#af9308343a513fef99664f119cefe15d0">GetBackUpPath</a> ()</td></tr>
+<tr class="separator:af9308343a513fef99664f119cefe15d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f39beb44719186c218fb8d0dfd588f2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a3f39beb44719186c218fb8d0dfd588f2">SaveAchievements</a> ()</td></tr>
+<tr class="separator:a3f39beb44719186c218fb8d0dfd588f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acca497adaee1ed8e7bf93619e5b4e69d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_achievement_save_data.html">AchievementSaveData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#acca497adaee1ed8e7bf93619e5b4e69d">GetSave</a> (string path)</td></tr>
+<tr class="separator:acca497adaee1ed8e7bf93619e5b4e69d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65a331754738eed499e7932004887021"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_achievement_save_data.html">AchievementSaveData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a65a331754738eed499e7932004887021">GetSaveUsingStream</a> (string path)</td></tr>
+<tr class="separator:a65a331754738eed499e7932004887021"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02d4133194fbe67988da241b6cb275bc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a02d4133194fbe67988da241b6cb275bc">ResendAllAchievementToSteam</a> ()</td></tr>
+<tr class="separator:a02d4133194fbe67988da241b6cb275bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcd968b86288bed0f1d13d9490299c87"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#abcd968b86288bed0f1d13d9490299c87">LoadAchievement</a> ()</td></tr>
+<tr class="separator:abcd968b86288bed0f1d13d9490299c87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a475f098cfcfccef2c30e31e9e0e7c052"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a475f098cfcfccef2c30e31e9e0e7c052">LockLockable</a> ()</td></tr>
+<tr class="separator:a475f098cfcfccef2c30e31e9e0e7c052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd6e4db654227fe9a42a2e9b5b912ca8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#afd6e4db654227fe9a42a2e9b5b912ca8">CheckUnlockable</a> ()</td></tr>
+<tr class="separator:afd6e4db654227fe9a42a2e9b5b912ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43eb41dffd5a3b50509f2255986d409f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a43eb41dffd5a3b50509f2255986d409f">GetAchievementByID</a> (string ID)</td></tr>
+<tr class="separator:a43eb41dffd5a3b50509f2255986d409f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e7c41bb6cf24dc8e684dd09de19de49"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a2e7c41bb6cf24dc8e684dd09de19de49">InitAchievementsList</a> ()</td></tr>
+<tr class="separator:a2e7c41bb6cf24dc8e684dd09de19de49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa5f9c9e3234b712ec1c6a122f527cba"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#afa5f9c9e3234b712ec1c6a122f527cba">GetAllAchievements</a> ()</td></tr>
+<tr class="separator:afa5f9c9e3234b712ec1c6a122f527cba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade13db9b0a2df4257325c120142771e6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#ade13db9b0a2df4257325c120142771e6">UnlockAchievement</a> (string AchievementID)</td></tr>
+<tr class="separator:ade13db9b0a2df4257325c120142771e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2931e4d4f9c14d150290dd39bda8080d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a2931e4d4f9c14d150290dd39bda8080d">HasAchievement</a> (string AchievementID)</td></tr>
+<tr class="separator:a2931e4d4f9c14d150290dd39bda8080d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e5378ebf9f91b19a2f3f256a31bc22e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a2e5378ebf9f91b19a2f3f256a31bc22e">GetAchievement</a> (string AchievementID)</td></tr>
+<tr class="separator:a2e5378ebf9f91b19a2f3f256a31bc22e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa72d764221cdb4ce42f52c19981a9d45"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#aa72d764221cdb4ce42f52c19981a9d45">InitAchievements</a> ()</td></tr>
+<tr class="separator:aa72d764221cdb4ce42f52c19981a9d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1c9468ff11146f27fe0f7d72e773a92"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#ae1c9468ff11146f27fe0f7d72e773a92">CheckSurvivorsAchievements</a> ()</td></tr>
+<tr class="separator:ae1c9468ff11146f27fe0f7d72e773a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d8ecbf3d32c9c7a3ca6975e36b43e4c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a9d8ecbf3d32c9c7a3ca6975e36b43e4c">CheckEndOfGameAchievements</a> (bool GameOver)</td></tr>
+<tr class="separator:a9d8ecbf3d32c9c7a3ca6975e36b43e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19a2673f0d09d13e4a6cdd327f1526e3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a19a2673f0d09d13e4a6cdd327f1526e3">CheckAchievements</a> ()</td></tr>
+<tr class="separator:a19a2673f0d09d13e4a6cdd327f1526e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a039b71674668d51c7d38ab7bfcb7c06f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a039b71674668d51c7d38ab7bfcb7c06f">OnAchievementUnlocked</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a> achievement)</td></tr>
+<tr class="separator:a039b71674668d51c7d38ab7bfcb7c06f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a2a409c6c05a248fa1954a4f0e19f44aa"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a2a409c6c05a248fa1954a4f0e19f44aa">AchievementList</a> = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a>&gt;()</td></tr>
+<tr class="separator:a2a409c6c05a248fa1954a4f0e19f44aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a8ff17e9fd8a3186c8b3d1852d1d04848"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a8ff17e9fd8a3186c8b3d1852d1d04848">m_bInitialized</a> = false</td></tr>
+<tr class="separator:a8ff17e9fd8a3186c8b3d1852d1d04848"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:a77a6cc6bb96bd6d5a607d11d004f501b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a77a6cc6bb96bd6d5a607d11d004f501b">s_EverInitialized</a> = false</td></tr>
+<tr class="separator:a77a6cc6bb96bd6d5a607d11d004f501b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fdb6102cddecf29e34370ee0c7d2bfa"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_achievement_manager.html">AchievementManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a4fdb6102cddecf29e34370ee0c7d2bfa">s_instance</a></td></tr>
+<tr class="separator:a4fdb6102cddecf29e34370ee0c7d2bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a3588ee5634cb97589f9e5e3c873d2cc0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_achievement_manager.html">AchievementManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a3588ee5634cb97589f9e5e3c873d2cc0">Instance</a><code> [get]</code></td></tr>
+<tr class="separator:a3588ee5634cb97589f9e5e3c873d2cc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c28e8a27df2f711a8bf892983516082"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html#a9c28e8a27df2f711a8bf892983516082">Initialized</a><code> [get]</code></td></tr>
+<tr class="separator:a9c28e8a27df2f711a8bf892983516082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a27442f17eb0a028571212c6ac7715511" name="a27442f17eb0a028571212c6ac7715511"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27442f17eb0a028571212c6ac7715511">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.AchievementManager.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f9a1726021d607efd4c3b95cf176b34" name="a8f9a1726021d607efd4c3b95cf176b34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f9a1726021d607efd4c3b95cf176b34">&#9670;&#160;</a></span>Base64Decode() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.AchievementManager.Base64Decode </td>
+          <td>(</td>
+          <td class="paramtype">Stream&#160;</td>
+          <td class="paramname"><em>input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Stream&#160;</td>
+          <td class="paramname"><em>Output</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac15c1e64a74cfb01938e8b6b98087c4" name="aac15c1e64a74cfb01938e8b6b98087c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac15c1e64a74cfb01938e8b6b98087c4">&#9670;&#160;</a></span>Base64Decode() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string RogueGenesia.AchievementManager.Base64Decode </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>base64EncodedData</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6bffcdc49f85faac02ae457e206ae69" name="ae6bffcdc49f85faac02ae457e206ae69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6bffcdc49f85faac02ae457e206ae69">&#9670;&#160;</a></span>Base64Encode() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.AchievementManager.Base64Encode </td>
+          <td>(</td>
+          <td class="paramtype">Stream&#160;</td>
+          <td class="paramname"><em>input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Stream&#160;</td>
+          <td class="paramname"><em>Output</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe803850145d44ab73a89f16ccc2089c" name="afe803850145d44ab73a89f16ccc2089c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe803850145d44ab73a89f16ccc2089c">&#9670;&#160;</a></span>Base64Encode() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string RogueGenesia.AchievementManager.Base64Encode </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>plainText</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a19a2673f0d09d13e4a6cdd327f1526e3" name="a19a2673f0d09d13e4a6cdd327f1526e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19a2673f0d09d13e4a6cdd327f1526e3">&#9670;&#160;</a></span>CheckAchievements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.AchievementManager.CheckAchievements </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9d8ecbf3d32c9c7a3ca6975e36b43e4c" name="a9d8ecbf3d32c9c7a3ca6975e36b43e4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d8ecbf3d32c9c7a3ca6975e36b43e4c">&#9670;&#160;</a></span>CheckEndOfGameAchievements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.AchievementManager.CheckEndOfGameAchievements </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>GameOver</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae1c9468ff11146f27fe0f7d72e773a92" name="ae1c9468ff11146f27fe0f7d72e773a92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1c9468ff11146f27fe0f7d72e773a92">&#9670;&#160;</a></span>CheckSurvivorsAchievements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.AchievementManager.CheckSurvivorsAchievements </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd6e4db654227fe9a42a2e9b5b912ca8" name="afd6e4db654227fe9a42a2e9b5b912ca8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd6e4db654227fe9a42a2e9b5b912ca8">&#9670;&#160;</a></span>CheckUnlockable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.AchievementManager.CheckUnlockable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2e5378ebf9f91b19a2f3f256a31bc22e" name="a2e5378ebf9f91b19a2f3f256a31bc22e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e5378ebf9f91b19a2f3f256a31bc22e">&#9670;&#160;</a></span>GetAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a> RogueGenesia.AchievementManager.GetAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>AchievementID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a43eb41dffd5a3b50509f2255986d409f" name="a43eb41dffd5a3b50509f2255986d409f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43eb41dffd5a3b50509f2255986d409f">&#9670;&#160;</a></span>GetAchievementByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a> RogueGenesia.AchievementManager.GetAchievementByID </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>ID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa5f9c9e3234b712ec1c6a122f527cba" name="afa5f9c9e3234b712ec1c6a122f527cba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa5f9c9e3234b712ec1c6a122f527cba">&#9670;&#160;</a></span>GetAllAchievements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a> &gt; RogueGenesia.AchievementManager.GetAllAchievements </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9308343a513fef99664f119cefe15d0" name="af9308343a513fef99664f119cefe15d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9308343a513fef99664f119cefe15d0">&#9670;&#160;</a></span>GetBackUpPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string RogueGenesia.AchievementManager.GetBackUpPath </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acca497adaee1ed8e7bf93619e5b4e69d" name="acca497adaee1ed8e7bf93619e5b4e69d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acca497adaee1ed8e7bf93619e5b4e69d">&#9670;&#160;</a></span>GetSave()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_achievement_save_data.html">AchievementSaveData</a> RogueGenesia.AchievementManager.GetSave </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65a331754738eed499e7932004887021" name="a65a331754738eed499e7932004887021"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65a331754738eed499e7932004887021">&#9670;&#160;</a></span>GetSaveUsingStream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_achievement_save_data.html">AchievementSaveData</a> RogueGenesia.AchievementManager.GetSaveUsingStream </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2931e4d4f9c14d150290dd39bda8080d" name="a2931e4d4f9c14d150290dd39bda8080d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2931e4d4f9c14d150290dd39bda8080d">&#9670;&#160;</a></span>HasAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool RogueGenesia.AchievementManager.HasAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>AchievementID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa72d764221cdb4ce42f52c19981a9d45" name="aa72d764221cdb4ce42f52c19981a9d45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa72d764221cdb4ce42f52c19981a9d45">&#9670;&#160;</a></span>InitAchievements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.AchievementManager.InitAchievements </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2e7c41bb6cf24dc8e684dd09de19de49" name="a2e7c41bb6cf24dc8e684dd09de19de49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e7c41bb6cf24dc8e684dd09de19de49">&#9670;&#160;</a></span>InitAchievementsList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a> &gt; RogueGenesia.AchievementManager.InitAchievementsList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abcd968b86288bed0f1d13d9490299c87" name="abcd968b86288bed0f1d13d9490299c87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcd968b86288bed0f1d13d9490299c87">&#9670;&#160;</a></span>LoadAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.AchievementManager.LoadAchievement </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a475f098cfcfccef2c30e31e9e0e7c052" name="a475f098cfcfccef2c30e31e9e0e7c052"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a475f098cfcfccef2c30e31e9e0e7c052">&#9670;&#160;</a></span>LockLockable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.AchievementManager.LockLockable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a039b71674668d51c7d38ab7bfcb7c06f" name="a039b71674668d51c7d38ab7bfcb7c06f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a039b71674668d51c7d38ab7bfcb7c06f">&#9670;&#160;</a></span>OnAchievementUnlocked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.AchievementManager.OnAchievementUnlocked </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a>&#160;</td>
+          <td class="paramname"><em>achievement</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae625828acc15dea5ac6ca2678e3d7b78" name="ae625828acc15dea5ac6ca2678e3d7b78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae625828acc15dea5ac6ca2678e3d7b78">&#9670;&#160;</a></span>ReInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.AchievementManager.ReInit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a02d4133194fbe67988da241b6cb275bc" name="a02d4133194fbe67988da241b6cb275bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02d4133194fbe67988da241b6cb275bc">&#9670;&#160;</a></span>ResendAllAchievementToSteam()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.AchievementManager.ResendAllAchievementToSteam </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3f39beb44719186c218fb8d0dfd588f2" name="a3f39beb44719186c218fb8d0dfd588f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f39beb44719186c218fb8d0dfd588f2">&#9670;&#160;</a></span>SaveAchievements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.AchievementManager.SaveAchievements </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6de1e18827bc02c2c635164503dcd90f" name="a6de1e18827bc02c2c635164503dcd90f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6de1e18827bc02c2c635164503dcd90f">&#9670;&#160;</a></span>StartAchievementNotification()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.AchievementManager.StartAchievementNotification </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a>&#160;</td>
+          <td class="paramname"><em>achievement</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ade13db9b0a2df4257325c120142771e6" name="ade13db9b0a2df4257325c120142771e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade13db9b0a2df4257325c120142771e6">&#9670;&#160;</a></span>UnlockAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.AchievementManager.UnlockAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>AchievementID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a45f351a52150f205eba5b4693ccc5f72" name="a45f351a52150f205eba5b4693ccc5f72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45f351a52150f205eba5b4693ccc5f72">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.AchievementManager.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a7c8d8c96b632d801213b2e49118b1c" name="a0a7c8d8c96b632d801213b2e49118b1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a7c8d8c96b632d801213b2e49118b1c">&#9670;&#160;</a></span>UpdateNotification()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.AchievementManager.UpdateNotification </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a2a409c6c05a248fa1954a4f0e19f44aa" name="a2a409c6c05a248fa1954a4f0e19f44aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a409c6c05a248fa1954a4f0e19f44aa">&#9670;&#160;</a></span>AchievementList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a>&gt; RogueGenesia.AchievementManager.AchievementList = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8ff17e9fd8a3186c8b3d1852d1d04848" name="a8ff17e9fd8a3186c8b3d1852d1d04848"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ff17e9fd8a3186c8b3d1852d1d04848">&#9670;&#160;</a></span>m_bInitialized</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.AchievementManager.m_bInitialized = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a77a6cc6bb96bd6d5a607d11d004f501b" name="a77a6cc6bb96bd6d5a607d11d004f501b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77a6cc6bb96bd6d5a607d11d004f501b">&#9670;&#160;</a></span>s_EverInitialized</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.AchievementManager.s_EverInitialized = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4fdb6102cddecf29e34370ee0c7d2bfa" name="a4fdb6102cddecf29e34370ee0c7d2bfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fdb6102cddecf29e34370ee0c7d2bfa">&#9670;&#160;</a></span>s_instance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html">AchievementManager</a> RogueGenesia.AchievementManager.s_instance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a9c28e8a27df2f711a8bf892983516082" name="a9c28e8a27df2f711a8bf892983516082"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c28e8a27df2f711a8bf892983516082">&#9670;&#160;</a></span>Initialized</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.AchievementManager.Initialized</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3588ee5634cb97589f9e5e3c873d2cc0" name="a3588ee5634cb97589f9e5e3c873d2cc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3588ee5634cb97589f9e5e3c873d2cc0">&#9670;&#160;</a></span>Instance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html">AchievementManager</a> RogueGenesia.AchievementManager.Instance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/GameManager/GlobalManager/AchievementManager.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_achievement_manager.html">AchievementManager</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

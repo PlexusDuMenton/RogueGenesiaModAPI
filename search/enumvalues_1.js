@@ -1,5 +1,24 @@
 var searchData=
 [
-  ['idle_0',['Idle',['../class_mod_genesia_1_1_avatar_a_p_i.html#a983909dbea99f2a0d52834125d4266faae599161956d626eda4cb0a5ffb85271c',1,'ModGenesia::AvatarAPI']]],
-  ['idlehd_1',['IdleHD',['../class_mod_genesia_1_1_avatar_a_p_i.html#a983909dbea99f2a0d52834125d4266faa5d0d2f0b2b3b7617d719a02f835b7246',1,'ModGenesia::AvatarAPI']]]
+  ['b_0',['B',['../class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acda6fffa3a458f99fbc59a754c20180ca9d5ed678fe57bcca610140957afab571',1,'RogueGenesia.Data.SoulShopUpgradeSO.B()'],['../namespace_rogue_genesia_1_1_data.html#a4672bf4cb9055d9a2f5d678cdee4eba6a9d5ed678fe57bcca610140957afab571',1,'RogueGenesia.Data.B()']]],
+  ['banishcount_1',['BanishCount',['../class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc34381676ecd99288db3111ac3263eca325d81b9570e91ba9b0250ac757876d6',1,'RogueGenesia::Data::SoulShopUpgradeSO']]],
+  ['baseonly_2',['BaseOnly',['../class_rogue_genesia_1_1_data_1_1_avatar_data.html#a21a4a80a22fb0b3220889945b93d5684aee89ba7dde5d165a88c9dcd8f2526bc0',1,'RogueGenesia::Data::AvatarData']]],
+  ['battleruby_3',['BattleRuby',['../namespace_rogue_genesia_1_1_data.html#aaa9105a962017dc70f16a695f4a394b5a96c1f6d3fa5d2e1c577cf7f9ea0b2c55',1,'RogueGenesia::Data']]],
+  ['beefstatue_4',['BeefStatue',['../namespace_rogue_genesia_1_1_data.html#aaa9105a962017dc70f16a695f4a394b5a06514cc129c3a84ffeaad30d29bc212d',1,'RogueGenesia::Data']]],
+  ['berserk_5',['Berserk',['../namespace_rogue_genesia_1_1_data.html#aaf6c5beac4445404d491da316e85b7f6a41c71f8fbc23d3cd1fa6045d4ee0c391',1,'RogueGenesia::Data']]],
+  ['berserker_6',['Berserker',['../namespace_rogue_genesia_1_1_data.html#adb76f445ee1b5f0678fdd5d1c67b48bfa5ee5ec9d8e6b181960c2be1df5f1ad81',1,'RogueGenesia::Data']]],
+  ['bhikkhupearl_7',['BhikkhuPearl',['../namespace_rogue_genesia_1_1_data.html#aaa9105a962017dc70f16a695f4a394b5a9c99e4a094e13c9677509d5572f690e4',1,'RogueGenesia::Data']]],
+  ['bigmonsterwave_8',['BigMonsterWave',['../namespace_rogue_genesia_1_1_data.html#aed6d7e32fad8e3504c7f3081b9faa71ba9585f4a7e59c818c9918a7d9c4592718',1,'RogueGenesia::Data']]],
+  ['blacklist_9',['BlackList',['../namespace_rogue_genesia_1_1_data.html#a68049f6749401cf80c06cc4f87b5fea9a1cdc4983907e999bb78ed6f504414328',1,'RogueGenesia::Data']]],
+  ['blacksmith_10',['BlackSmith',['../namespace_rogue_genesia_1_1_data.html#a49b0b2c935ceb05180cbdbaf983a74e3abcbe7074bd5bbc0af3b7c786df049b88',1,'RogueGenesia::Data']]],
+  ['blackspherestatue_11',['BlackSphereStatue',['../namespace_rogue_genesia_1_1_data.html#aaa9105a962017dc70f16a695f4a394b5a1af4bbd61940ac01e32d83d47f599d85',1,'RogueGenesia::Data']]],
+  ['blue_12',['Blue',['../class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html#a682e4813451262d5b4cf9b14da788822a9594eec95be70e7b1710f730fdda33d9',1,'RogueGenesia::Data::AchievementScriptableObject']]],
+  ['boltaction_13',['BoltAction',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da90cab377c0384a774d45cd45f676b91b',1,'RogueGenesia::Data']]],
+  ['bonusammo_14',['BonusAmmo',['../namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4da3136e2430b56ff2a1ca12a6a94ceed7c',1,'RogueGenesia::Data']]],
+  ['bonustalentslot_15',['BonusTalentSlot',['../class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc34381676ecd99288db3111ac3263eca6bbe90c7d237b878bffc05bdb2f9df4a',1,'RogueGenesia::Data::SoulShopUpgradeSO']]],
+  ['boss_16',['Boss',['../class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893da5859831e2b3db23528c710b1451e13fc',1,'RogueGenesia.Data.ArtifactScriptableObject.Boss()'],['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html#ab16f99bfd90d0bf51402fc58123ea3efa5859831e2b3db23528c710b1451e13fc',1,'RogueGenesia.Actors.Survival.Monster.Boss()'],['../namespace_rogue_genesia_1_1_data.html#aa2874d11f1bb6952757a9b633f0f504ea5859831e2b3db23528c710b1451e13fc',1,'RogueGenesia.Data.Boss()'],['../namespace_rogue_genesia_1_1_data.html#a49b0b2c935ceb05180cbdbaf983a74e3a5859831e2b3db23528c710b1451e13fc',1,'RogueGenesia.Data.Boss()']]],
+  ['bossslain_17',['BossSlain',['../namespace_rogue_genesia_1_1_data.html#ac3b13fe0c3ea6a8275da1fe79b44d724a839ea83f6eadb00a1ba5f6c155b20908',1,'RogueGenesia::Data']]],
+  ['bow_18',['Bow',['../namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5da48fce5d02f6935e50f256d5dedac4437',1,'RogueGenesia.Data.Bow()'],['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da48fce5d02f6935e50f256d5dedac4437',1,'RogueGenesia.Data.Bow()']]],
+  ['brokenstatuette_19',['BrokenStatuette',['../namespace_rogue_genesia_1_1_data.html#aaa9105a962017dc70f16a695f4a394b5a88f624dd95d1ba17a9927d25d7e7a4ef',1,'RogueGenesia::Data']]],
+  ['buildcount_20',['BuildCount',['../namespace_rogue_genesia_1_1_data.html#ade1c39d4a8007da6d58244c2df291e4ca5d2be8d66e0c9e75a222533ba9a473f8',1,'RogueGenesia::Data']]]
 ];

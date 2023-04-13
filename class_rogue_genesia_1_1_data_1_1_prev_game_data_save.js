@@ -1,0 +1,28 @@
+var class_rogue_genesia_1_1_data_1_1_prev_game_data_save =
+[
+    [ "Challenges", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#aa60b71c38fd76ee45a49dbb73de06a7e", null ],
+    [ "highestReachedStats", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#ae27548153ce578e673619b4a50c60d4c", null ],
+    [ "lowestReachedStats", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#a9b678ec2d99b34f7291b10a845e1521c", null ],
+    [ "monsterList", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#accbecc5d3b793f54a813caf86e21168f", null ],
+    [ "soulShopUpgradeSave", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#a319c8412682204dd653b3c17d069a8af", null ],
+    [ "TotalDamageSource", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#af3fb836cd5f6df5dac42a61d7172450e", null ],
+    [ "TotalDamageSourceSurvivors", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#a6b51d9005f2e4b96d6179cd781f76368", null ],
+    [ "TotalKillSource", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#a1257fa4184cc9148ddbd0c717195b39c", null ],
+    [ "TotalKillSourceSurvivors", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#a6767942e2bb6fe4060263fc8ca588b6e", null ],
+    [ "ChestPickUp", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#abccea9b31ea9e5193785a8ef4f08e621", null ],
+    [ "DeathCount", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#acddc692e0410d776213e23723102baac", null ],
+    [ "FoodPickedUp", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#a8dab3670f855536b02c034f0a801fad9", null ],
+    [ "GameCount", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#aa3e9d01daef2a6fcbcf110fe93d39978", null ],
+    [ "GoldPickedUp", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#a21526f22ad3d3878c9a3e064fbe51ca2", null ],
+    [ "HiggerCompletedDifficulty", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#a70bbfdb41b85436c447bc056f5bf65f4", null ],
+    [ "SoulCoin", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#a6dafd3734a348888dcd81711ba8b41d0", null ],
+    [ "SoulGemPickedUp", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#a3213fe3cba603415dd113a2cf5eefdab", null ],
+    [ "TotalBossKilled", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#a14fbff423166200e00bccc0f9ac979f0", null ],
+    [ "TotalDamage", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#a9b585adadfc19e9075c99985296b2038", null ],
+    [ "TotalEliteKilled", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#a365865e01690ad5bb024339c16625382", null ],
+    [ "TotalEnemyKilled", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#a91ad1550c3547020413d0454bbb04eaa", null ],
+    [ "TotalGold", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#aa7c5bf29bb17f2b3e112c23bcbf0f55d", null ],
+    [ "TotalStageCompleted", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#a05f4aa752b8da8e545477646a97be782", null ],
+    [ "TotalTimeSurvived", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#ade608e651efe6a75ed668ed0264e09ed", null ],
+    [ "VoidPickedUp", "class_rogue_genesia_1_1_data_1_1_prev_game_data_save.html#a7a59298daa8935f8f6eee71a7807e6e9", null ]
+];

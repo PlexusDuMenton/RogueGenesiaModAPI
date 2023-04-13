@@ -11,6 +11,7 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts"
     graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_68bc571df5181e7f1520595d8bb5242f.html",tooltip=""]
     dir_68bc571df5181e7f1520595d8bb5242f [shape=plaintext, label="Scripts"];
   dir_0b2f43b7b3d4a686a4c8e2c560629f2c [label="ModGenesia", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_0b2f43b7b3d4a686a4c8e2c560629f2c.html",tooltip=""];
+  dir_d4c8a807693b39dbeba49ac8db2dc23a [label="RogueGenesia", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_d4c8a807693b39dbeba49ac8db2dc23a.html",tooltip=""];
   }
   }
 }

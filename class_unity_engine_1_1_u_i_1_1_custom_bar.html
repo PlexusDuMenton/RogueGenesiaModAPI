@@ -1,0 +1,782 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue:Genesia API" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Rogue: Genesia API" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: UnityEngine.UI.CustomBar Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_unity_engine_1_1_u_i_1_1_custom_bar.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
+<a href="class_unity_engine_1_1_u_i_1_1_custom_bar-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">UnityEngine.UI.CustomBar Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>A standard slider that can be moved between a minimum and maximum value.  
+ <a href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for UnityEngine.UI.CustomBar:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a6ceb5a2cfbb97b59dd5d073139aa5781"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#a6ceb5a2cfbb97b59dd5d073139aa5781">EProgressType</a> { <a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#a6ceb5a2cfbb97b59dd5d073139aa5781a54828f327f31abd59f2f459c0247756d">Instant</a> = 0
+, <a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#a6ceb5a2cfbb97b59dd5d073139aa5781af3ff61f20d0c8eedfa348b0298df5edd">Increasing</a> = 10
+, <a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#a6ceb5a2cfbb97b59dd5d073139aa5781a2e6a9b0375c021e8f650a5eb22012b5b">Decreasing</a> = 100
+, <a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#a6ceb5a2cfbb97b59dd5d073139aa5781a130c5b3473c57faa76e2a1c54e26f88e">Both</a> = Increasing| Decreasing
+ }</td></tr>
+<tr class="separator:a6ceb5a2cfbb97b59dd5d073139aa5781"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7d147224d5bba76af1486acdcb2baa0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#ad7d147224d5bba76af1486acdcb2baa0">Direction</a> { <a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#ad7d147224d5bba76af1486acdcb2baa0ad1e80c506f4c89e3c4fb1c1b4867a03c">LeftToRight</a>
+, <a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#ad7d147224d5bba76af1486acdcb2baa0ab7b0ea3028791689ea070674776855e2">RightToLeft</a>
+, <a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#ad7d147224d5bba76af1486acdcb2baa0af2b1a19a8d0f523d042f9ede79a80804">TopToBottom</a>
+, <a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#ad7d147224d5bba76af1486acdcb2baa0a63dc349be51108dcfd197c7ab02b486a">BottomToTop</a>
+ }</td></tr>
+<tr class="memdesc:ad7d147224d5bba76af1486acdcb2baa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setting that indicates one of four directions.  <a href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#ad7d147224d5bba76af1486acdcb2baa0">More...</a><br /></td></tr>
+<tr class="separator:ad7d147224d5bba76af1486acdcb2baa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:adaf42a236e67c9f27eac2e5b5cb178e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#adaf42a236e67c9f27eac2e5b5cb178e1">UpdateProgress</a> ()</td></tr>
+<tr class="separator:adaf42a236e67c9f27eac2e5b5cb178e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac123231719bb92cd6b6f93ecbbac684f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#ac123231719bb92cd6b6f93ecbbac684f">SetDirection</a> (<a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#ad7d147224d5bba76af1486acdcb2baa0">Direction</a> <a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#acc72c9e23b57b7e97616bd3c8fa51d13">direction</a>, bool includeRectLayouts)</td></tr>
+<tr class="separator:ac123231719bb92cd6b6f93ecbbac684f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a4ce2c4e11e41872844213df8c3f3d12b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#a4ce2c4e11e41872844213df8c3f3d12b">Displace</a> = false</td></tr>
+<tr class="separator:a4ce2c4e11e41872844213df8c3f3d12b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c18c1d377cdb9adf9d70260aa1b9c15"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#a4c18c1d377cdb9adf9d70260aa1b9c15">actualProgress</a> = 0</td></tr>
+<tr class="separator:a4c18c1d377cdb9adf9d70260aa1b9c15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62384447858e081b1fb00745e602915b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#a62384447858e081b1fb00745e602915b">progressRate</a> = 999.0f</td></tr>
+<tr class="separator:a62384447858e081b1fb00745e602915b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79e070d5149052caf66a1099ee42df53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#a6ceb5a2cfbb97b59dd5d073139aa5781">EProgressType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#a79e070d5149052caf66a1099ee42df53">progressType</a> = <a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#a6ceb5a2cfbb97b59dd5d073139aa5781a54828f327f31abd59f2f459c0247756d">EProgressType.Instant</a></td></tr>
+<tr class="separator:a79e070d5149052caf66a1099ee42df53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a579b085f600c74d7400b8b9089582d88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#a579b085f600c74d7400b8b9089582d88">Awake</a> ()</td></tr>
+<tr class="separator:a579b085f600c74d7400b8b9089582d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad809bc7d5c30b3011f99c2281f8923e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#ad809bc7d5c30b3011f99c2281f8923e0">CustomBar</a> ()</td></tr>
+<tr class="separator:ad809bc7d5c30b3011f99c2281f8923e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77ca6120ddfffbabba350f4ba6c6c0a1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#a77ca6120ddfffbabba350f4ba6c6c0a1">Update</a> ()</td></tr>
+<tr class="separator:a77ca6120ddfffbabba350f4ba6c6c0a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ae37132a5009b33216c497470349891e8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#ae37132a5009b33216c497470349891e8">m_Value</a></td></tr>
+<tr class="separator:ae37132a5009b33216c497470349891e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a09ec7c4f8265fb2ed855ba7653fd91eb"><td class="memItemLeft" align="right" valign="top">RectTransform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#a09ec7c4f8265fb2ed855ba7653fd91eb">fillRect</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a09ec7c4f8265fb2ed855ba7653fd91eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional RectTransform to use as fill for the slider.  <br /></td></tr>
+<tr class="separator:a09ec7c4f8265fb2ed855ba7653fd91eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad91c415eb20e55cceb9a0adbb0ade4ef"><td class="memItemLeft" align="right" valign="top">RectTransform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#ad91c415eb20e55cceb9a0adbb0ade4ef">overFillRect</a><code> [get, set]</code></td></tr>
+<tr class="separator:ad91c415eb20e55cceb9a0adbb0ade4ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc72c9e23b57b7e97616bd3c8fa51d13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#ad7d147224d5bba76af1486acdcb2baa0">Direction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#acc72c9e23b57b7e97616bd3c8fa51d13">direction</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:acc72c9e23b57b7e97616bd3c8fa51d13"><td class="mdescLeft">&#160;</td><td class="mdescRight">The direction of the slider, from minimum to maximum value.  <br /></td></tr>
+<tr class="separator:acc72c9e23b57b7e97616bd3c8fa51d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a244cb28d2f108e3910bcfc4564c58f53"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#a244cb28d2f108e3910bcfc4564c58f53">minValue</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a244cb28d2f108e3910bcfc4564c58f53"><td class="mdescLeft">&#160;</td><td class="mdescRight">The minimum allowed value of the slider.  <br /></td></tr>
+<tr class="separator:a244cb28d2f108e3910bcfc4564c58f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0df92db1e325c3e0ac809b1028dff031"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#a0df92db1e325c3e0ac809b1028dff031">maxValue</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a0df92db1e325c3e0ac809b1028dff031"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum allowed value of the slider.  <br /></td></tr>
+<tr class="separator:a0df92db1e325c3e0ac809b1028dff031"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa647c45d650e9ef90cb1fa045035aa63"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#aa647c45d650e9ef90cb1fa045035aa63">value</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aa647c45d650e9ef90cb1fa045035aa63"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current value of the slider.  <br /></td></tr>
+<tr class="separator:aa647c45d650e9ef90cb1fa045035aa63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a175194ae736c45f7cd4da76bbbdea2c5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#a175194ae736c45f7cd4da76bbbdea2c5">normalizedValue</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a175194ae736c45f7cd4da76bbbdea2c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current value of the slider normalized into a value between 0 and 1.  <br /></td></tr>
+<tr class="separator:a175194ae736c45f7cd4da76bbbdea2c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecc07996483eadd96d9f71f853b1f073"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#aecc07996483eadd96d9f71f853b1f073">normalizedProgress</a><code> [get]</code></td></tr>
+<tr class="separator:aecc07996483eadd96d9f71f853b1f073"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A standard slider that can be moved between a minimum and maximum value. </p>
+<p>The slider component is a Selectable that controls a fill, a handle, or both. The fill, when used, spans from the minimum value to the current value while the handle, when used, follow the current value. The anchors of the fill and handle RectTransforms are driven by the Slider. The fill and handle can be direct children of the GameObject with the Slider, or intermediary RectTransforms can be placed in between for additional control. When a change to the slider value occurs, a callback is sent to any registered listeners of UI.Slider.onValueChanged. </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="ad7d147224d5bba76af1486acdcb2baa0" name="ad7d147224d5bba76af1486acdcb2baa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7d147224d5bba76af1486acdcb2baa0">&#9670;&#160;</a></span>Direction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#ad7d147224d5bba76af1486acdcb2baa0">UnityEngine.UI.CustomBar.Direction</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Setting that indicates one of four directions. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad7d147224d5bba76af1486acdcb2baa0ad1e80c506f4c89e3c4fb1c1b4867a03c" name="ad7d147224d5bba76af1486acdcb2baa0ad1e80c506f4c89e3c4fb1c1b4867a03c"></a>LeftToRight&#160;</td><td class="fielddoc"><p>From the left to the right. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad7d147224d5bba76af1486acdcb2baa0ab7b0ea3028791689ea070674776855e2" name="ad7d147224d5bba76af1486acdcb2baa0ab7b0ea3028791689ea070674776855e2"></a>RightToLeft&#160;</td><td class="fielddoc"><p>From the right to the left. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad7d147224d5bba76af1486acdcb2baa0af2b1a19a8d0f523d042f9ede79a80804" name="ad7d147224d5bba76af1486acdcb2baa0af2b1a19a8d0f523d042f9ede79a80804"></a>TopToBottom&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad7d147224d5bba76af1486acdcb2baa0a63dc349be51108dcfd197c7ab02b486a" name="ad7d147224d5bba76af1486acdcb2baa0a63dc349be51108dcfd197c7ab02b486a"></a>BottomToTop&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a6ceb5a2cfbb97b59dd5d073139aa5781" name="a6ceb5a2cfbb97b59dd5d073139aa5781"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ceb5a2cfbb97b59dd5d073139aa5781">&#9670;&#160;</a></span>EProgressType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#a6ceb5a2cfbb97b59dd5d073139aa5781">UnityEngine.UI.CustomBar.EProgressType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6ceb5a2cfbb97b59dd5d073139aa5781a54828f327f31abd59f2f459c0247756d" name="a6ceb5a2cfbb97b59dd5d073139aa5781a54828f327f31abd59f2f459c0247756d"></a>Instant&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6ceb5a2cfbb97b59dd5d073139aa5781af3ff61f20d0c8eedfa348b0298df5edd" name="a6ceb5a2cfbb97b59dd5d073139aa5781af3ff61f20d0c8eedfa348b0298df5edd"></a>Increasing&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6ceb5a2cfbb97b59dd5d073139aa5781a2e6a9b0375c021e8f650a5eb22012b5b" name="a6ceb5a2cfbb97b59dd5d073139aa5781a2e6a9b0375c021e8f650a5eb22012b5b"></a>Decreasing&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6ceb5a2cfbb97b59dd5d073139aa5781a130c5b3473c57faa76e2a1c54e26f88e" name="a6ceb5a2cfbb97b59dd5d073139aa5781a130c5b3473c57faa76e2a1c54e26f88e"></a>Both&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ad809bc7d5c30b3011f99c2281f8923e0" name="ad809bc7d5c30b3011f99c2281f8923e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad809bc7d5c30b3011f99c2281f8923e0">&#9670;&#160;</a></span>CustomBar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UnityEngine.UI.CustomBar.CustomBar </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a579b085f600c74d7400b8b9089582d88" name="a579b085f600c74d7400b8b9089582d88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a579b085f600c74d7400b8b9089582d88">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UnityEngine.UI.CustomBar.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac123231719bb92cd6b6f93ecbbac684f" name="ac123231719bb92cd6b6f93ecbbac684f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac123231719bb92cd6b6f93ecbbac684f">&#9670;&#160;</a></span>SetDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UnityEngine.UI.CustomBar.SetDirection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#ad7d147224d5bba76af1486acdcb2baa0">Direction</a>&#160;</td>
+          <td class="paramname"><em>direction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>includeRectLayouts</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a77ca6120ddfffbabba350f4ba6c6c0a1" name="a77ca6120ddfffbabba350f4ba6c6c0a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77ca6120ddfffbabba350f4ba6c6c0a1">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void UnityEngine.UI.CustomBar.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adaf42a236e67c9f27eac2e5b5cb178e1" name="adaf42a236e67c9f27eac2e5b5cb178e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaf42a236e67c9f27eac2e5b5cb178e1">&#9670;&#160;</a></span>UpdateProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UnityEngine.UI.CustomBar.UpdateProgress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4c18c1d377cdb9adf9d70260aa1b9c15" name="a4c18c1d377cdb9adf9d70260aa1b9c15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c18c1d377cdb9adf9d70260aa1b9c15">&#9670;&#160;</a></span>actualProgress</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float UnityEngine.UI.CustomBar.actualProgress = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ce2c4e11e41872844213df8c3f3d12b" name="a4ce2c4e11e41872844213df8c3f3d12b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ce2c4e11e41872844213df8c3f3d12b">&#9670;&#160;</a></span>Displace</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UnityEngine.UI.CustomBar.Displace = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae37132a5009b33216c497470349891e8" name="ae37132a5009b33216c497470349891e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae37132a5009b33216c497470349891e8">&#9670;&#160;</a></span>m_Value</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float UnityEngine.UI.CustomBar.m_Value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62384447858e081b1fb00745e602915b" name="a62384447858e081b1fb00745e602915b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62384447858e081b1fb00745e602915b">&#9670;&#160;</a></span>progressRate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float UnityEngine.UI.CustomBar.progressRate = 999.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a79e070d5149052caf66a1099ee42df53" name="a79e070d5149052caf66a1099ee42df53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79e070d5149052caf66a1099ee42df53">&#9670;&#160;</a></span>progressType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#a6ceb5a2cfbb97b59dd5d073139aa5781">EProgressType</a> UnityEngine.UI.CustomBar.progressType = <a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#a6ceb5a2cfbb97b59dd5d073139aa5781a54828f327f31abd59f2f459c0247756d">EProgressType.Instant</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="acc72c9e23b57b7e97616bd3c8fa51d13" name="acc72c9e23b57b7e97616bd3c8fa51d13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc72c9e23b57b7e97616bd3c8fa51d13">&#9670;&#160;</a></span>direction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html#ad7d147224d5bba76af1486acdcb2baa0">Direction</a> UnityEngine.UI.CustomBar.direction</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The direction of the slider, from minimum to maximum value. </p>
+<div class="fragment"><div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using </span>System.Collections;</div>
+<div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_unity_engine_1_1_u_i.html">UnityEngine.UI</a>; <span class="comment">// Required when Using UI elements.</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>Example : MonoBehaviour</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> Slider mainSlider;</div>
+<div class="line"> </div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> Start()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">//Changes the direction of the slider.</span></div>
+<div class="line">        <span class="keywordflow">if</span> (mainSlider.direction == Slider.Direction.BottomToTop)</div>
+<div class="line">        {</div>
+<div class="line">            mainSlider.direction = Slider.Direction.TopToBottom;</div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="ttc" id="anamespace_unity_engine_1_1_u_i_html"><div class="ttname"><a href="namespace_unity_engine_1_1_u_i.html">UnityEngine.UI</a></div><div class="ttdef"><b>Definition:</b> CustomBar.cs:6</div></div>
+<div class="ttc" id="anamespace_unity_engine_html"><div class="ttname"><a href="namespace_unity_engine.html">UnityEngine</a></div><div class="ttdef"><b>Definition:</b> CustomBar.cs:6</div></div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a id="a09ec7c4f8265fb2ed855ba7653fd91eb" name="a09ec7c4f8265fb2ed855ba7653fd91eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09ec7c4f8265fb2ed855ba7653fd91eb">&#9670;&#160;</a></span>fillRect</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RectTransform UnityEngine.UI.CustomBar.fillRect</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Optional RectTransform to use as fill for the slider. </p>
+<div class="fragment"><div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using </span>System.Collections;</div>
+<div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_unity_engine_1_1_u_i.html">UnityEngine.UI</a>;  <span class="comment">// Required when Using UI elements.</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>Example : MonoBehaviour</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> Slider mainSlider;</div>
+<div class="line">    <span class="comment">//Reference to new &quot;RectTransform&quot;(Child of FillArea).</span></div>
+<div class="line">    <span class="keyword">public</span> RectTransform newFillRect;</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">//Deactivates the old FillRect and assigns a new one.</span></div>
+<div class="line">    <span class="keywordtype">void</span> Start()</div>
+<div class="line">    {</div>
+<div class="line">        mainSlider.fillRect.gameObject.SetActive(<span class="keyword">false</span>);</div>
+<div class="line">        mainSlider.fillRect = newFillRect;</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a id="a0df92db1e325c3e0ac809b1028dff031" name="a0df92db1e325c3e0ac809b1028dff031"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0df92db1e325c3e0ac809b1028dff031">&#9670;&#160;</a></span>maxValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float UnityEngine.UI.CustomBar.maxValue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The maximum allowed value of the slider. </p>
+<div class="fragment"><div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using </span>System.Collections;</div>
+<div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_unity_engine_1_1_u_i.html">UnityEngine.UI</a>; <span class="comment">// Required when Using UI elements.</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>Example : MonoBehaviour</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> Slider mainSlider;</div>
+<div class="line"> </div>
+<div class="line">    <span class="keywordtype">void</span> Start()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Changes the max value of the slider to 20;</span></div>
+<div class="line">        mainSlider.maxValue = 20;</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a id="a244cb28d2f108e3910bcfc4564c58f53" name="a244cb28d2f108e3910bcfc4564c58f53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a244cb28d2f108e3910bcfc4564c58f53">&#9670;&#160;</a></span>minValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float UnityEngine.UI.CustomBar.minValue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The minimum allowed value of the slider. </p>
+<div class="fragment"><div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using </span>System.Collections;</div>
+<div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_unity_engine_1_1_u_i.html">UnityEngine.UI</a>; <span class="comment">// Required when Using UI elements.</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>Example : MonoBehaviour</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> Slider mainSlider;</div>
+<div class="line"> </div>
+<div class="line">    <span class="keywordtype">void</span> Start()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Changes the minimum value of the slider to 10;</span></div>
+<div class="line">        mainSlider.minValue = 10;</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a id="aecc07996483eadd96d9f71f853b1f073" name="aecc07996483eadd96d9f71f853b1f073"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecc07996483eadd96d9f71f853b1f073">&#9670;&#160;</a></span>normalizedProgress</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float UnityEngine.UI.CustomBar.normalizedProgress</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a175194ae736c45f7cd4da76bbbdea2c5" name="a175194ae736c45f7cd4da76bbbdea2c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a175194ae736c45f7cd4da76bbbdea2c5">&#9670;&#160;</a></span>normalizedValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float UnityEngine.UI.CustomBar.normalizedValue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The current value of the slider normalized into a value between 0 and 1. </p>
+<div class="fragment"><div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using </span>System.Collections;</div>
+<div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_unity_engine_1_1_u_i.html">UnityEngine.UI</a>; <span class="comment">// Required when Using UI elements.</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>Example : MonoBehaviour</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> Slider mainSlider;</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">//Set to invoke when &quot;OnValueChanged&quot; method is called.</span></div>
+<div class="line">    <span class="keywordtype">void</span> CheckNormalisedValue()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">//Displays the normalised value of the slider everytime the value changes.</span></div>
+<div class="line">        Debug.Log(mainSlider.normalizedValue);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a id="ad91c415eb20e55cceb9a0adbb0ade4ef" name="ad91c415eb20e55cceb9a0adbb0ade4ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad91c415eb20e55cceb9a0adbb0ade4ef">&#9670;&#160;</a></span>overFillRect</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RectTransform UnityEngine.UI.CustomBar.overFillRect</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa647c45d650e9ef90cb1fa045035aa63" name="aa647c45d650e9ef90cb1fa045035aa63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa647c45d650e9ef90cb1fa045035aa63">&#9670;&#160;</a></span>value</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual float UnityEngine.UI.CustomBar.value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The current value of the slider. </p>
+<div class="fragment"><div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using </span>System.Collections;</div>
+<div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_unity_engine_1_1_u_i.html">UnityEngine.UI</a>; <span class="comment">// Required when Using UI elements.</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>Example : MonoBehaviour</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> Slider mainSlider;</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">//Invoked when a submit button is clicked.</span></div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> SubmitSliderSetting()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">//Displays the value of the slider in the console.</span></div>
+<div class="line">        Debug.Log(mainSlider.value);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> 
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/CustomUi/Survival/CustomBar.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_unity_engine.html">UnityEngine</a></li><li class="navelem"><a class="el" href="namespace_unity_engine_1_1_u_i.html">UI</a></li><li class="navelem"><a class="el" href="class_unity_engine_1_1_u_i_1_1_custom_bar.html">CustomBar</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,941 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue:Genesia API" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Rogue: Genesia API" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.Data.TalentScriptableObject Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
+<a href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.Data.TalentScriptableObject Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.Data.TalentScriptableObject:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a509facaea68b835050dd3575f052ad4f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a509facaea68b835050dd3575f052ad4f">ETalentType</a> { <a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a509facaea68b835050dd3575f052ad4faf80bc338b6146b566004a046f8137c85">Passive</a> = 0
+, <a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a509facaea68b835050dd3575f052ad4fa4d3d769b812b6faa6b76e1a8abaece2d">Active</a> = 1
+ }</td></tr>
+<tr class="separator:a509facaea68b835050dd3575f052ad4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a04f84cb8394e533d510a544ca162d8a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent.html">Talent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a04f84cb8394e533d510a544ca162d8a8">GetTalentFromName</a> (string name)</td></tr>
+<tr class="separator:a04f84cb8394e533d510a544ca162d8a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a09f26f72d7713e3d722dfa08a4149b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a0a09f26f72d7713e3d722dfa08a4149b">GetMasteryForLevelUp</a> ()</td></tr>
+<tr class="separator:a0a09f26f72d7713e3d722dfa08a4149b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7e1024cf363bf44bca00e496f77eb61"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#ac7e1024cf363bf44bca00e496f77eb61">GetAbilityCost</a> ()</td></tr>
+<tr class="separator:ac7e1024cf363bf44bca00e496f77eb61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a573dd328bedf82cb47dbf881cf179ed7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a573dd328bedf82cb47dbf881cf179ed7">GetAbilityMaxCharge</a> ()</td></tr>
+<tr class="separator:a573dd328bedf82cb47dbf881cf179ed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9f38f5a883787f3478a36d816558417"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#ad9f38f5a883787f3478a36d816558417">GetAbilityChargeRate</a> ()</td></tr>
+<tr class="separator:ad9f38f5a883787f3478a36d816558417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19552480844e7b6fe78695514a4e3147"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_save_data.html">TalentSaveData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a19552480844e7b6fe78695514a4e3147">GetSave</a> ()</td></tr>
+<tr class="separator:a19552480844e7b6fe78695514a4e3147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53807899d546ed274ae37c21cf4f8707"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a53807899d546ed274ae37c21cf4f8707">GetLocalizedName</a> ()</td></tr>
+<tr class="separator:a53807899d546ed274ae37c21cf4f8707"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46095705462aee0301be85c0ee6e76e8"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a46095705462aee0301be85c0ee6e76e8">GetLocalizedDescription</a> ()</td></tr>
+<tr class="separator:a46095705462aee0301be85c0ee6e76e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24de38739aa1fdf6bd8e71c01199768b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a24de38739aa1fdf6bd8e71c01199768b">CheckForLevelUp</a> ()</td></tr>
+<tr class="separator:a24de38739aa1fdf6bd8e71c01199768b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0042900546524ee7d298b1d108a64f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#ae0042900546524ee7d298b1d108a64f3">IncreaseMastery</a> (float value)</td></tr>
+<tr class="separator:ae0042900546524ee7d298b1d108a64f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dad541607f6535f6479109b0c813e11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a0dad541607f6535f6479109b0c813e11">CheckForUnlocks</a> ()</td></tr>
+<tr class="separator:a0dad541607f6535f6479109b0c813e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc3633e43f1fc40d1453e2729fce82f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#adc3633e43f1fc40d1453e2729fce82f8">OnLevelUp</a> ()</td></tr>
+<tr class="separator:adc3633e43f1fc40d1453e2729fce82f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bf6ade8fd7c5b2d5deea134ea3f5152"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a7bf6ade8fd7c5b2d5deea134ea3f5152">OnUnlockProgress</a> (string source)</td></tr>
+<tr class="separator:a7bf6ade8fd7c5b2d5deea134ea3f5152"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa006aeee15e437073ac9c8ada44ed23d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent.html">Talent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#aa006aeee15e437073ac9c8ada44ed23d">GetTalent</a> ()</td></tr>
+<tr class="separator:aa006aeee15e437073ac9c8ada44ed23d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a609f97a01b875a37765d76243952cae2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a609f97a01b875a37765d76243952cae2">RegisterTalent</a> (string name, ConstructorInfo constructorInfo)</td></tr>
+<tr class="separator:a609f97a01b875a37765d76243952cae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52275b4d2335f1da6bac5d4184858db5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a52275b4d2335f1da6bac5d4184858db5">RegisterTalent</a> (<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a> typeToAdd)</td></tr>
+<tr class="separator:a52275b4d2335f1da6bac5d4184858db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:acbd2c543353299e0630956bfd5fd1b33"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data.html">LocalizationData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#acbd2c543353299e0630956bfd5fd1b33">NameOverride</a> = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data.html">LocalizationData</a>&gt;()</td></tr>
+<tr class="separator:acbd2c543353299e0630956bfd5fd1b33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab7deafb565eb41968500304439bce07"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data.html">LocalizationData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#aab7deafb565eb41968500304439bce07">DescriptionOverride</a> = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data.html">LocalizationData</a>&gt;()</td></tr>
+<tr class="separator:aab7deafb565eb41968500304439bce07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61370a7d4ac13c32b59cab71e5dba66d"><td class="memItemLeft" align="right" valign="top">Sprite&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a61370a7d4ac13c32b59cab71e5dba66d">Texture</a></td></tr>
+<tr class="separator:a61370a7d4ac13c32b59cab71e5dba66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a0946ff84aa28d23efceaf88055ba54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_level_data.html">TalentLevelData</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a4a0946ff84aa28d23efceaf88055ba54">LevelData</a> = new <a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_level_data.html">TalentLevelData</a>[0]</td></tr>
+<tr class="separator:a4a0946ff84aa28d23efceaf88055ba54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88c42b06ba9a60a1e3099c5e04e98bfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a509facaea68b835050dd3575f052ad4f">ETalentType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a88c42b06ba9a60a1e3099c5e04e98bfc">TalentType</a> = <a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a509facaea68b835050dd3575f052ad4faf80bc338b6146b566004a046f8137c85">ETalentType.Passive</a></td></tr>
+<tr class="separator:a88c42b06ba9a60a1e3099c5e04e98bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a847a4072c0773f6f9bbb674c883a769e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a847a4072c0773f6f9bbb674c883a769e">CurrentLevel</a> =0</td></tr>
+<tr class="separator:a847a4072c0773f6f9bbb674c883a769e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a482eafac518e66dc8ea0b7ff8cd6c696"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a482eafac518e66dc8ea0b7ff8cd6c696">CurrentMastery</a> = 0</td></tr>
+<tr class="separator:a482eafac518e66dc8ea0b7ff8cd6c696"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66f35fa21c09a13d5c385b88d82237f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a66f35fa21c09a13d5c385b88d82237f1">LinkedWeapon</a></td></tr>
+<tr class="separator:a66f35fa21c09a13d5c385b88d82237f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6621d117449cfbbbfa2c568d61ac0d8c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a6621d117449cfbbbfa2c568d61ac0d8c">UnlockProgressRequired</a> = 0</td></tr>
+<tr class="separator:a6621d117449cfbbbfa2c568d61ac0d8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8787f5ca6cb0bfb569e351c12649c67"><td class="memItemLeft" align="right" valign="top">List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#aa8787f5ca6cb0bfb569e351c12649c67">UnlockSource</a> = new List&lt;string&gt;()</td></tr>
+<tr class="separator:aa8787f5ca6cb0bfb569e351c12649c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10f313e70098a90480138bbd35528972"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html">TalentScriptableObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a10f313e70098a90480138bbd35528972">UnlockAtMaxLevel</a> = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html">TalentScriptableObject</a>&gt;()</td></tr>
+<tr class="separator:a10f313e70098a90480138bbd35528972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a284b345c068eeaabfbb6f9c5f129c15a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a284b345c068eeaabfbb6f9c5f129c15a">SpeedUpForDebug</a> = false</td></tr>
+<tr class="separator:a284b345c068eeaabfbb6f9c5f129c15a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a4a4fad61b30b7a00fb4e744582580ca9"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a4a4fad61b30b7a00fb4e744582580ca9">TalentConstructorList</a> = new List&lt;<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&gt;()</td></tr>
+<tr class="separator:a4a4fad61b30b7a00fb4e744582580ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a06bc92c43d3f750fb586b5bdb5351b61"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a06bc92c43d3f750fb586b5bdb5351b61">_unlocked</a></td></tr>
+<tr class="separator:a06bc92c43d3f750fb586b5bdb5351b61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a53c8b7cbd08fb61ad89ca203b49041ad"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a53c8b7cbd08fb61ad89ca203b49041ad">MaxLevel</a><code> [get]</code></td></tr>
+<tr class="separator:a53c8b7cbd08fb61ad89ca203b49041ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b90b752d2a42c1c8116aa3c8ad3d9aa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a7b90b752d2a42c1c8116aa3c8ad3d9aa">Unlocked</a><code> [get, set]</code></td></tr>
+<tr class="separator:a7b90b752d2a42c1c8116aa3c8ad3d9aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a509facaea68b835050dd3575f052ad4f" name="a509facaea68b835050dd3575f052ad4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a509facaea68b835050dd3575f052ad4f">&#9670;&#160;</a></span>ETalentType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a509facaea68b835050dd3575f052ad4f">RogueGenesia.Data.TalentScriptableObject.ETalentType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a509facaea68b835050dd3575f052ad4faf80bc338b6146b566004a046f8137c85" name="a509facaea68b835050dd3575f052ad4faf80bc338b6146b566004a046f8137c85"></a>Passive&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a509facaea68b835050dd3575f052ad4fa4d3d769b812b6faa6b76e1a8abaece2d" name="a509facaea68b835050dd3575f052ad4fa4d3d769b812b6faa6b76e1a8abaece2d"></a>Active&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a24de38739aa1fdf6bd8e71c01199768b" name="a24de38739aa1fdf6bd8e71c01199768b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24de38739aa1fdf6bd8e71c01199768b">&#9670;&#160;</a></span>CheckForLevelUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.TalentScriptableObject.CheckForLevelUp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0dad541607f6535f6479109b0c813e11" name="a0dad541607f6535f6479109b0c813e11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dad541607f6535f6479109b0c813e11">&#9670;&#160;</a></span>CheckForUnlocks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.TalentScriptableObject.CheckForUnlocks </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad9f38f5a883787f3478a36d816558417" name="ad9f38f5a883787f3478a36d816558417"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9f38f5a883787f3478a36d816558417">&#9670;&#160;</a></span>GetAbilityChargeRate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.TalentScriptableObject.GetAbilityChargeRate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7e1024cf363bf44bca00e496f77eb61" name="ac7e1024cf363bf44bca00e496f77eb61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7e1024cf363bf44bca00e496f77eb61">&#9670;&#160;</a></span>GetAbilityCost()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.TalentScriptableObject.GetAbilityCost </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a573dd328bedf82cb47dbf881cf179ed7" name="a573dd328bedf82cb47dbf881cf179ed7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a573dd328bedf82cb47dbf881cf179ed7">&#9670;&#160;</a></span>GetAbilityMaxCharge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.TalentScriptableObject.GetAbilityMaxCharge </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a46095705462aee0301be85c0ee6e76e8" name="a46095705462aee0301be85c0ee6e76e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46095705462aee0301be85c0ee6e76e8">&#9670;&#160;</a></span>GetLocalizedDescription()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RogueGenesia.Data.TalentScriptableObject.GetLocalizedDescription </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a53807899d546ed274ae37c21cf4f8707" name="a53807899d546ed274ae37c21cf4f8707"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53807899d546ed274ae37c21cf4f8707">&#9670;&#160;</a></span>GetLocalizedName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RogueGenesia.Data.TalentScriptableObject.GetLocalizedName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a09f26f72d7713e3d722dfa08a4149b" name="a0a09f26f72d7713e3d722dfa08a4149b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a09f26f72d7713e3d722dfa08a4149b">&#9670;&#160;</a></span>GetMasteryForLevelUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.TalentScriptableObject.GetMasteryForLevelUp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a19552480844e7b6fe78695514a4e3147" name="a19552480844e7b6fe78695514a4e3147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19552480844e7b6fe78695514a4e3147">&#9670;&#160;</a></span>GetSave()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_save_data.html">TalentSaveData</a> RogueGenesia.Data.TalentScriptableObject.GetSave </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa006aeee15e437073ac9c8ada44ed23d" name="aa006aeee15e437073ac9c8ada44ed23d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa006aeee15e437073ac9c8ada44ed23d">&#9670;&#160;</a></span>GetTalent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent.html">Talent</a> RogueGenesia.Data.TalentScriptableObject.GetTalent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a04f84cb8394e533d510a544ca162d8a8" name="a04f84cb8394e533d510a544ca162d8a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04f84cb8394e533d510a544ca162d8a8">&#9670;&#160;</a></span>GetTalentFromName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent.html">Talent</a> RogueGenesia.Data.TalentScriptableObject.GetTalentFromName </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0042900546524ee7d298b1d108a64f3" name="ae0042900546524ee7d298b1d108a64f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0042900546524ee7d298b1d108a64f3">&#9670;&#160;</a></span>IncreaseMastery()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.TalentScriptableObject.IncreaseMastery </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc3633e43f1fc40d1453e2729fce82f8" name="adc3633e43f1fc40d1453e2729fce82f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc3633e43f1fc40d1453e2729fce82f8">&#9670;&#160;</a></span>OnLevelUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.TalentScriptableObject.OnLevelUp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7bf6ade8fd7c5b2d5deea134ea3f5152" name="a7bf6ade8fd7c5b2d5deea134ea3f5152"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bf6ade8fd7c5b2d5deea134ea3f5152">&#9670;&#160;</a></span>OnUnlockProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.TalentScriptableObject.OnUnlockProgress </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a52275b4d2335f1da6bac5d4184858db5" name="a52275b4d2335f1da6bac5d4184858db5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52275b4d2335f1da6bac5d4184858db5">&#9670;&#160;</a></span>RegisterTalent() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool RogueGenesia.Data.TalentScriptableObject.RegisterTalent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&#160;</td>
+          <td class="paramname"><em>typeToAdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a609f97a01b875a37765d76243952cae2" name="a609f97a01b875a37765d76243952cae2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a609f97a01b875a37765d76243952cae2">&#9670;&#160;</a></span>RegisterTalent() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.Data.TalentScriptableObject.RegisterTalent </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ConstructorInfo&#160;</td>
+          <td class="paramname"><em>constructorInfo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a06bc92c43d3f750fb586b5bdb5351b61" name="a06bc92c43d3f750fb586b5bdb5351b61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06bc92c43d3f750fb586b5bdb5351b61">&#9670;&#160;</a></span>_unlocked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.TalentScriptableObject._unlocked</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a847a4072c0773f6f9bbb674c883a769e" name="a847a4072c0773f6f9bbb674c883a769e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a847a4072c0773f6f9bbb674c883a769e">&#9670;&#160;</a></span>CurrentLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.TalentScriptableObject.CurrentLevel =0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a482eafac518e66dc8ea0b7ff8cd6c696" name="a482eafac518e66dc8ea0b7ff8cd6c696"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a482eafac518e66dc8ea0b7ff8cd6c696">&#9670;&#160;</a></span>CurrentMastery</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.TalentScriptableObject.CurrentMastery = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab7deafb565eb41968500304439bce07" name="aab7deafb565eb41968500304439bce07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab7deafb565eb41968500304439bce07">&#9670;&#160;</a></span>DescriptionOverride</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data.html">LocalizationData</a>&gt; RogueGenesia.Data.TalentScriptableObject.DescriptionOverride = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data.html">LocalizationData</a>&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a0946ff84aa28d23efceaf88055ba54" name="a4a0946ff84aa28d23efceaf88055ba54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a0946ff84aa28d23efceaf88055ba54">&#9670;&#160;</a></span>LevelData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_level_data.html">TalentLevelData</a> [] RogueGenesia.Data.TalentScriptableObject.LevelData = new <a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_level_data.html">TalentLevelData</a>[0]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a66f35fa21c09a13d5c385b88d82237f1" name="a66f35fa21c09a13d5c385b88d82237f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66f35fa21c09a13d5c385b88d82237f1">&#9670;&#160;</a></span>LinkedWeapon</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a> RogueGenesia.Data.TalentScriptableObject.LinkedWeapon</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acbd2c543353299e0630956bfd5fd1b33" name="acbd2c543353299e0630956bfd5fd1b33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbd2c543353299e0630956bfd5fd1b33">&#9670;&#160;</a></span>NameOverride</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data.html">LocalizationData</a>&gt; RogueGenesia.Data.TalentScriptableObject.NameOverride = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data.html">LocalizationData</a>&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a284b345c068eeaabfbb6f9c5f129c15a" name="a284b345c068eeaabfbb6f9c5f129c15a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a284b345c068eeaabfbb6f9c5f129c15a">&#9670;&#160;</a></span>SpeedUpForDebug</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.TalentScriptableObject.SpeedUpForDebug = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a4fad61b30b7a00fb4e744582580ca9" name="a4a4fad61b30b7a00fb4e744582580ca9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a4fad61b30b7a00fb4e744582580ca9">&#9670;&#160;</a></span>TalentConstructorList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&gt; RogueGenesia.Data.TalentScriptableObject.TalentConstructorList = new List&lt;<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a88c42b06ba9a60a1e3099c5e04e98bfc" name="a88c42b06ba9a60a1e3099c5e04e98bfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88c42b06ba9a60a1e3099c5e04e98bfc">&#9670;&#160;</a></span>TalentType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a509facaea68b835050dd3575f052ad4f">ETalentType</a> RogueGenesia.Data.TalentScriptableObject.TalentType = <a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a509facaea68b835050dd3575f052ad4faf80bc338b6146b566004a046f8137c85">ETalentType.Passive</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a61370a7d4ac13c32b59cab71e5dba66d" name="a61370a7d4ac13c32b59cab71e5dba66d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61370a7d4ac13c32b59cab71e5dba66d">&#9670;&#160;</a></span>Texture</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Sprite RogueGenesia.Data.TalentScriptableObject.Texture</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a10f313e70098a90480138bbd35528972" name="a10f313e70098a90480138bbd35528972"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10f313e70098a90480138bbd35528972">&#9670;&#160;</a></span>UnlockAtMaxLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html">TalentScriptableObject</a>&gt; RogueGenesia.Data.TalentScriptableObject.UnlockAtMaxLevel = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html">TalentScriptableObject</a>&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6621d117449cfbbbfa2c568d61ac0d8c" name="a6621d117449cfbbbfa2c568d61ac0d8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6621d117449cfbbbfa2c568d61ac0d8c">&#9670;&#160;</a></span>UnlockProgressRequired</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.TalentScriptableObject.UnlockProgressRequired = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa8787f5ca6cb0bfb569e351c12649c67" name="aa8787f5ca6cb0bfb569e351c12649c67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8787f5ca6cb0bfb569e351c12649c67">&#9670;&#160;</a></span>UnlockSource</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;string&gt; RogueGenesia.Data.TalentScriptableObject.UnlockSource = new List&lt;string&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a53c8b7cbd08fb61ad89ca203b49041ad" name="a53c8b7cbd08fb61ad89ca203b49041ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53c8b7cbd08fb61ad89ca203b49041ad">&#9670;&#160;</a></span>MaxLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.TalentScriptableObject.MaxLevel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b90b752d2a42c1c8116aa3c8ad3d9aa" name="a7b90b752d2a42c1c8116aa3c8ad3d9aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b90b752d2a42c1c8116aa3c8ad3d9aa">&#9670;&#160;</a></span>Unlocked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.TalentScriptableObject.Unlocked</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/TalentSystem/TalentScriptableObject.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_data.html">Data</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html">TalentScriptableObject</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

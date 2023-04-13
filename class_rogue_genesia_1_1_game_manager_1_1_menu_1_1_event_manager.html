@@ -1,0 +1,1516 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue:Genesia API" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Rogue: Genesia API" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.GameManager.Menu.EventManager Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.GameManager.Menu.EventManager Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.GameManager.Menu.EventManager:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aa09ba11fcf4029e5d27eee65aa6655fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#aa09ba11fcf4029e5d27eee65aa6655fe">AddArtifactReward</a> (string artifact)</td></tr>
+<tr class="separator:aa09ba11fcf4029e5d27eee65aa6655fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a230a2404f8841834832a537836421587"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a230a2404f8841834832a537836421587">AddArtifactReward</a> ()</td></tr>
+<tr class="separator:a230a2404f8841834832a537836421587"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d10924a0546b678b31fa5198a42d6f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a1d10924a0546b678b31fa5198a42d6f6">AddGoldReward</a> (float gold)</td></tr>
+<tr class="separator:a1d10924a0546b678b31fa5198a42d6f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1678afe81ec29dbaf4c908066cd930d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#ad1678afe81ec29dbaf4c908066cd930d">AddExperienceReward</a> (float experience)</td></tr>
+<tr class="separator:ad1678afe81ec29dbaf4c908066cd930d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77bfd32b198dbcb6e754aafe19627a4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a77bfd32b198dbcb6e754aafe19627a4f">AddCardSelectionReward</a> ()</td></tr>
+<tr class="separator:a77bfd32b198dbcb6e754aafe19627a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53d6a20c2dbb2c26da2e78fe5901133a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a53d6a20c2dbb2c26da2e78fe5901133a">GetGold</a> (float gold)</td></tr>
+<tr class="separator:a53d6a20c2dbb2c26da2e78fe5901133a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc0896c7a8a90152807a463dbab0801c"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#afc0896c7a8a90152807a463dbab0801c">Start</a> ()</td></tr>
+<tr class="separator:afc0896c7a8a90152807a463dbab0801c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2814d9b634501bd0fe4076cc9a7be447"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a2814d9b634501bd0fe4076cc9a7be447">DisplayReward</a> ()</td></tr>
+<tr class="separator:a2814d9b634501bd0fe4076cc9a7be447"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadb4fd5e4d296d328c3f1b06c2de1d81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#aadb4fd5e4d296d328c3f1b06c2de1d81">OnPause</a> ()</td></tr>
+<tr class="separator:aadb4fd5e4d296d328c3f1b06c2de1d81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a918e8af73b0f3b7da17a78427d4965bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a918e8af73b0f3b7da17a78427d4965bc">Update</a> ()</td></tr>
+<tr class="separator:a918e8af73b0f3b7da17a78427d4965bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24b09ec162fa3a4330e359651c554d16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a24b09ec162fa3a4330e359651c554d16">Next_Stage_Confirm</a> ()</td></tr>
+<tr class="separator:a24b09ec162fa3a4330e359651c554d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adba094811713fc168a2aed551a819841"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#adba094811713fc168a2aed551a819841">CloseConfirm</a> ()</td></tr>
+<tr class="separator:adba094811713fc168a2aed551a819841"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af427b1f9d8a6b9888b7d4203945dbd21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#af427b1f9d8a6b9888b7d4203945dbd21">Next_Stage</a> ()</td></tr>
+<tr class="separator:af427b1f9d8a6b9888b7d4203945dbd21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27e824382d19da60ae00f5be2d9078ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a27e824382d19da60ae00f5be2d9078ca">ClearChoices</a> ()</td></tr>
+<tr class="separator:a27e824382d19da60ae00f5be2d9078ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeebd1e1428a84de30d46d2b25c23fb63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#aeebd1e1428a84de30d46d2b25c23fb63">NoEventFound</a> ()</td></tr>
+<tr class="separator:aeebd1e1428a84de30d46d2b25c23fb63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2a2b2202f913e06645c9db7c899704a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#ae2a2b2202f913e06645c9db7c899704a">SetEvent</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html">EventRogue</a> eventRogue)</td></tr>
+<tr class="separator:ae2a2b2202f913e06645c9db7c899704a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae246737b46309d28d14670c51d0a5ca3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#ae246737b46309d28d14670c51d0a5ca3">SelectChoice</a> (int i)</td></tr>
+<tr class="separator:ae246737b46309d28d14670c51d0a5ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbd1e99b430181deefe71e47e85ef1ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#abbd1e99b430181deefe71e47e85ef1ec">Next</a> ()</td></tr>
+<tr class="separator:abbd1e99b430181deefe71e47e85ef1ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e7eb165f53c957188420735ebacae08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a4e7eb165f53c957188420735ebacae08">ExitGame</a> ()</td></tr>
+<tr class="separator:a4e7eb165f53c957188420735ebacae08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fe5e6a8c36c2206c33f497a72f4e2af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a2fe5e6a8c36c2206c33f497a72f4e2af">NextStage</a> ()</td></tr>
+<tr class="separator:a2fe5e6a8c36c2206c33f497a72f4e2af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3395d750e01f3f06b6af7a2fb7fbadf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a3395d750e01f3f06b6af7a2fb7fbadf2">GetExperience</a> (GameObject button, float experience)</td></tr>
+<tr class="separator:a3395d750e01f3f06b6af7a2fb7fbadf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29c0543ad7d5c7955c8cbd19e26ac939"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a29c0543ad7d5c7955c8cbd19e26ac939">GetGold</a> (GameObject button, float gold)</td></tr>
+<tr class="separator:a29c0543ad7d5c7955c8cbd19e26ac939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e47c4b63be53cda49da31892e6e1e4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a9e47c4b63be53cda49da31892e6e1e4f">CardSelection</a> (GameObject button)</td></tr>
+<tr class="separator:a9e47c4b63be53cda49da31892e6e1e4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab49ddcc5958eef3d05559c1772a07e4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#ab49ddcc5958eef3d05559c1772a07e4e">GetArtifact</a> (GameObject button, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html">Artifact</a> artifact)</td></tr>
+<tr class="separator:ab49ddcc5958eef3d05559c1772a07e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad90dfd651220a21d727b294e0b5e41b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#ad90dfd651220a21d727b294e0b5e41b9">UpdateRewardPosition</a> ()</td></tr>
+<tr class="separator:ad90dfd651220a21d727b294e0b5e41b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_rogue_genesia_1_1_game_manager_1_1_special_manager"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_rogue_genesia_1_1_game_manager_1_1_special_manager')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_special_manager.html">RogueGenesia.GameManager.SpecialManager</a></td></tr>
+<tr class="memitem:a638002a7c459f3a7d3507a4b7833ebba inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_special_manager"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_special_manager.html#a638002a7c459f3a7d3507a4b7833ebba">OnCardSelection</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a> SelectedBonus)</td></tr>
+<tr class="separator:a638002a7c459f3a7d3507a4b7833ebba inherit pub_methods_class_rogue_genesia_1_1_game_manager_1_1_special_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a5cffb5f71fae146d3ae84cff133b5b40"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a5cffb5f71fae146d3ae84cff133b5b40">AddStatsModifier</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_stat_modifier.html">StatModifier</a> modifier)</td></tr>
+<tr class="separator:a5cffb5f71fae146d3ae84cff133b5b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af64efceb6f49fc505d3aadd82165555e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#af64efceb6f49fc505d3aadd82165555e">AddModifier</a> (string statName, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a47d989a11cfe7f97424639ee5961c644">ModifierType</a> modifiertype, float value)</td></tr>
+<tr class="separator:af64efceb6f49fc505d3aadd82165555e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadf8a0252214457df1e4be23e3ba0b83"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#aadf8a0252214457df1e4be23e3ba0b83">RegisterEvent</a> (ConstructorInfo constructorInfo)</td></tr>
+<tr class="separator:aadf8a0252214457df1e4be23e3ba0b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5de7a0218ebcc47d4b8c488649e72a3"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#ae5de7a0218ebcc47d4b8c488649e72a3">RegisterEvent</a> (string name, ConstructorInfo constructorInfo)</td></tr>
+<tr class="separator:ae5de7a0218ebcc47d4b8c488649e72a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b9f60538be249ad3dfb7066bb8c2a8a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a6b9f60538be249ad3dfb7066bb8c2a8a">AddEvent</a> (<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a> typeToAdd)</td></tr>
+<tr class="separator:a6b9f60538be249ad3dfb7066bb8c2a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc0b090c8780f1fa9eea0d8f791c9974"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#abc0b090c8780f1fa9eea0d8f791c9974">SelectNextevent</a> ()</td></tr>
+<tr class="separator:abc0b090c8780f1fa9eea0d8f791c9974"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ae99329f124d759fb273150c89a9020df"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#ae99329f124d759fb273150c89a9020df">goldText</a></td></tr>
+<tr class="separator:ae99329f124d759fb273150c89a9020df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c9dfda9b79fce8dfb945f7392ca2a6e"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a3c9dfda9b79fce8dfb945f7392ca2a6e">FloorText</a></td></tr>
+<tr class="separator:a3c9dfda9b79fce8dfb945f7392ca2a6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5728ade4eb39bdbc78cb27bc6feeffd"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#aa5728ade4eb39bdbc78cb27bc6feeffd">zoneText</a></td></tr>
+<tr class="separator:aa5728ade4eb39bdbc78cb27bc6feeffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab70d0dc32896e23fa2b263f3c445f4b4"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#ab70d0dc32896e23fa2b263f3c445f4b4">ConfirmationScreen</a></td></tr>
+<tr class="separator:ab70d0dc32896e23fa2b263f3c445f4b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff7b87b0099d27d9ad4c991ac2591c1e"><td class="memItemLeft" align="right" valign="top">ArtifactDetail&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#aff7b87b0099d27d9ad4c991ac2591c1e">artifactDetail</a></td></tr>
+<tr class="separator:aff7b87b0099d27d9ad4c991ac2591c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9f99a8ecc1808538f3848ee3a46babc"><td class="memItemLeft" align="right" valign="top">SoulCardUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#ac9f99a8ecc1808538f3848ee3a46babc">CardDetail</a></td></tr>
+<tr class="separator:ac9f99a8ecc1808538f3848ee3a46babc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b2c9a1bd0a13664cae24f3e8bcc3da4"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a5b2c9a1bd0a13664cae24f3e8bcc3da4">ButtonPrefab</a></td></tr>
+<tr class="separator:a5b2c9a1bd0a13664cae24f3e8bcc3da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6179603cca6148110b9f6c17051ca8f"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#aa6179603cca6148110b9f6c17051ca8f">RewardScreen</a></td></tr>
+<tr class="separator:aa6179603cca6148110b9f6c17051ca8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a81519dbc985dce49fae7da58cd94aa"><td class="memItemLeft" align="right" valign="top">RectTransform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a1a81519dbc985dce49fae7da58cd94aa">ScrollContent</a></td></tr>
+<tr class="separator:a1a81519dbc985dce49fae7da58cd94aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf7805d40321b6f562f11007f1aefc89"><td class="memItemLeft" align="right" valign="top">List&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#abf7805d40321b6f562f11007f1aefc89">RewardList</a> = new List&lt;GameObject&gt;()</td></tr>
+<tr class="separator:abf7805d40321b6f562f11007f1aefc89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7590b6e4a35452f985ab8a8dba8357fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html">EventRogue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a7590b6e4a35452f985ab8a8dba8357fa">CurrentEvent</a> = null</td></tr>
+<tr class="separator:a7590b6e4a35452f985ab8a8dba8357fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae596133bc30f56e1c8bcc04334bdb1aa"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#ae596133bc30f56e1c8bcc04334bdb1aa">Title</a></td></tr>
+<tr class="separator:ae596133bc30f56e1c8bcc04334bdb1aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1707482e17d00dc2252e906a4302a78"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#ae1707482e17d00dc2252e906a4302a78">Icon</a></td></tr>
+<tr class="separator:ae1707482e17d00dc2252e906a4302a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b6e72e5ac699368916ae230eaf3e807"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a3b6e72e5ac699368916ae230eaf3e807">Description</a></td></tr>
+<tr class="separator:a3b6e72e5ac699368916ae230eaf3e807"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfea455341396fb15af6bc8fea1eb7ea"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#abfea455341396fb15af6bc8fea1eb7ea">EventCanvas</a></td></tr>
+<tr class="separator:abfea455341396fb15af6bc8fea1eb7ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa28207d82406b79766208bc7705b579d"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#aa28207d82406b79766208bc7705b579d">ChoicesViewPort</a></td></tr>
+<tr class="separator:aa28207d82406b79766208bc7705b579d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4ea8c25572cd736ff5341d782b76633"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#ad4ea8c25572cd736ff5341d782b76633">ChoicePrefab</a></td></tr>
+<tr class="separator:ad4ea8c25572cd736ff5341d782b76633"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a718c20324b21c4b2d4b2642dc78032"><td class="memItemLeft" align="right" valign="top">Button&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a6a718c20324b21c4b2d4b2642dc78032">NextButton</a></td></tr>
+<tr class="separator:a6a718c20324b21c4b2d4b2642dc78032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a804110bb2e07c47d6e20fff1f7f6a04a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a804110bb2e07c47d6e20fff1f7f6a04a">choiceSelected</a> = -1</td></tr>
+<tr class="separator:a804110bb2e07c47d6e20fff1f7f6a04a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_special_manager"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_special_manager')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_special_manager.html">RogueGenesia.GameManager.SpecialManager</a></td></tr>
+<tr class="memitem:a8aab6bf5b510d69472c953daa61896f0 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_special_manager"><td class="memItemLeft" align="right" valign="top">UILevelUp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_special_manager.html#a8aab6bf5b510d69472c953daa61896f0">uILevelUp</a></td></tr>
+<tr class="separator:a8aab6bf5b510d69472c953daa61896f0 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_special_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a037efe83c207b3c9854db04791b2e962 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_special_manager"><td class="memItemLeft" align="right" valign="top">PauseMenu&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_special_manager.html#a037efe83c207b3c9854db04791b2e962">pauseMenu</a></td></tr>
+<tr class="separator:a037efe83c207b3c9854db04791b2e962 inherit pub_attribs_class_rogue_genesia_1_1_game_manager_1_1_special_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:acb1c4e8830957811aad6e9b8b39cff9a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_stats_modifier.html">StatsModifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#acb1c4e8830957811aad6e9b8b39cff9a">ModifierFromEvent</a> = new <a class="el" href="class_rogue_genesia_1_1_data_1_1_stats_modifier.html">StatsModifier</a>()</td></tr>
+<tr class="separator:acb1c4e8830957811aad6e9b8b39cff9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2bd7325b6f06e8a404a5c1ef701ffc0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#ae2bd7325b6f06e8a404a5c1ef701ffc0">instance</a> = null</td></tr>
+<tr class="separator:ae2bd7325b6f06e8a404a5c1ef701ffc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d8b13638673133167602873c34f67b2"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a6d8b13638673133167602873c34f67b2">EventTypeList</a> = new List&lt;<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&gt;()</td></tr>
+<tr class="separator:a6d8b13638673133167602873c34f67b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a418fdeb70171382ff87c764f17152498"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html">EventRogue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a418fdeb70171382ff87c764f17152498">EventList</a> = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html">EventRogue</a>&gt;()</td></tr>
+<tr class="separator:a418fdeb70171382ff87c764f17152498"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a079dbd43a823a28509064616ca56adba"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html">EventRogue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html#a079dbd43a823a28509064616ca56adba">NextEvent</a> = null</td></tr>
+<tr class="separator:a079dbd43a823a28509064616ca56adba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header properties_class_rogue_genesia_1_1_game_manager_1_1_special_manager"><td colspan="2" onclick="javascript:toggleInherit('properties_class_rogue_genesia_1_1_game_manager_1_1_special_manager')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_special_manager.html">RogueGenesia.GameManager.SpecialManager</a></td></tr>
+<tr class="memitem:a5f7fa08c54f18e07feaa4bfabf37e7f0 inherit properties_class_rogue_genesia_1_1_game_manager_1_1_special_manager"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_special_manager.html#a5f7fa08c54f18e07feaa4bfabf37e7f0">pd</a><code> [get]</code></td></tr>
+<tr class="separator:a5f7fa08c54f18e07feaa4bfabf37e7f0 inherit properties_class_rogue_genesia_1_1_game_manager_1_1_special_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a230a2404f8841834832a537836421587" name="a230a2404f8841834832a537836421587"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a230a2404f8841834832a537836421587">&#9670;&#160;</a></span>AddArtifactReward() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.AddArtifactReward </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa09ba11fcf4029e5d27eee65aa6655fe" name="aa09ba11fcf4029e5d27eee65aa6655fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa09ba11fcf4029e5d27eee65aa6655fe">&#9670;&#160;</a></span>AddArtifactReward() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.AddArtifactReward </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>artifact</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a77bfd32b198dbcb6e754aafe19627a4f" name="a77bfd32b198dbcb6e754aafe19627a4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77bfd32b198dbcb6e754aafe19627a4f">&#9670;&#160;</a></span>AddCardSelectionReward()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.AddCardSelectionReward </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6b9f60538be249ad3dfb7066bb8c2a8a" name="a6b9f60538be249ad3dfb7066bb8c2a8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b9f60538be249ad3dfb7066bb8c2a8a">&#9670;&#160;</a></span>AddEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool RogueGenesia.GameManager.Menu.EventManager.AddEvent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&#160;</td>
+          <td class="paramname"><em>typeToAdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad1678afe81ec29dbaf4c908066cd930d" name="ad1678afe81ec29dbaf4c908066cd930d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1678afe81ec29dbaf4c908066cd930d">&#9670;&#160;</a></span>AddExperienceReward()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.AddExperienceReward </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>experience</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1d10924a0546b678b31fa5198a42d6f6" name="a1d10924a0546b678b31fa5198a42d6f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d10924a0546b678b31fa5198a42d6f6">&#9670;&#160;</a></span>AddGoldReward()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.AddGoldReward </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>gold</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af64efceb6f49fc505d3aadd82165555e" name="af64efceb6f49fc505d3aadd82165555e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af64efceb6f49fc505d3aadd82165555e">&#9670;&#160;</a></span>AddModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.GameManager.Menu.EventManager.AddModifier </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>statName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a47d989a11cfe7f97424639ee5961c644">ModifierType</a>&#160;</td>
+          <td class="paramname"><em>modifiertype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5cffb5f71fae146d3ae84cff133b5b40" name="a5cffb5f71fae146d3ae84cff133b5b40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cffb5f71fae146d3ae84cff133b5b40">&#9670;&#160;</a></span>AddStatsModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.GameManager.Menu.EventManager.AddStatsModifier </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stat_modifier.html">StatModifier</a>&#160;</td>
+          <td class="paramname"><em>modifier</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e47c4b63be53cda49da31892e6e1e4f" name="a9e47c4b63be53cda49da31892e6e1e4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e47c4b63be53cda49da31892e6e1e4f">&#9670;&#160;</a></span>CardSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.CardSelection </td>
+          <td>(</td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>button</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a27e824382d19da60ae00f5be2d9078ca" name="a27e824382d19da60ae00f5be2d9078ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27e824382d19da60ae00f5be2d9078ca">&#9670;&#160;</a></span>ClearChoices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.ClearChoices </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adba094811713fc168a2aed551a819841" name="adba094811713fc168a2aed551a819841"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adba094811713fc168a2aed551a819841">&#9670;&#160;</a></span>CloseConfirm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.CloseConfirm </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2814d9b634501bd0fe4076cc9a7be447" name="a2814d9b634501bd0fe4076cc9a7be447"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2814d9b634501bd0fe4076cc9a7be447">&#9670;&#160;</a></span>DisplayReward()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.DisplayReward </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e7eb165f53c957188420735ebacae08" name="a4e7eb165f53c957188420735ebacae08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e7eb165f53c957188420735ebacae08">&#9670;&#160;</a></span>ExitGame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.ExitGame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab49ddcc5958eef3d05559c1772a07e4e" name="ab49ddcc5958eef3d05559c1772a07e4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab49ddcc5958eef3d05559c1772a07e4e">&#9670;&#160;</a></span>GetArtifact()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.GetArtifact </td>
+          <td>(</td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>button</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html">Artifact</a>&#160;</td>
+          <td class="paramname"><em>artifact</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3395d750e01f3f06b6af7a2fb7fbadf2" name="a3395d750e01f3f06b6af7a2fb7fbadf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3395d750e01f3f06b6af7a2fb7fbadf2">&#9670;&#160;</a></span>GetExperience()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.GetExperience </td>
+          <td>(</td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>button</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>experience</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a53d6a20c2dbb2c26da2e78fe5901133a" name="a53d6a20c2dbb2c26da2e78fe5901133a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53d6a20c2dbb2c26da2e78fe5901133a">&#9670;&#160;</a></span>GetGold() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.GetGold </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>gold</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a29c0543ad7d5c7955c8cbd19e26ac939" name="a29c0543ad7d5c7955c8cbd19e26ac939"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29c0543ad7d5c7955c8cbd19e26ac939">&#9670;&#160;</a></span>GetGold() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.GetGold </td>
+          <td>(</td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>button</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>gold</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abbd1e99b430181deefe71e47e85ef1ec" name="abbd1e99b430181deefe71e47e85ef1ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbd1e99b430181deefe71e47e85ef1ec">&#9670;&#160;</a></span>Next()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.Next </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af427b1f9d8a6b9888b7d4203945dbd21" name="af427b1f9d8a6b9888b7d4203945dbd21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af427b1f9d8a6b9888b7d4203945dbd21">&#9670;&#160;</a></span>Next_Stage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.Next_Stage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a24b09ec162fa3a4330e359651c554d16" name="a24b09ec162fa3a4330e359651c554d16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24b09ec162fa3a4330e359651c554d16">&#9670;&#160;</a></span>Next_Stage_Confirm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.Next_Stage_Confirm </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2fe5e6a8c36c2206c33f497a72f4e2af" name="a2fe5e6a8c36c2206c33f497a72f4e2af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fe5e6a8c36c2206c33f497a72f4e2af">&#9670;&#160;</a></span>NextStage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.NextStage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeebd1e1428a84de30d46d2b25c23fb63" name="aeebd1e1428a84de30d46d2b25c23fb63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeebd1e1428a84de30d46d2b25c23fb63">&#9670;&#160;</a></span>NoEventFound()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.NoEventFound </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aadb4fd5e4d296d328c3f1b06c2de1d81" name="aadb4fd5e4d296d328c3f1b06c2de1d81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadb4fd5e4d296d328c3f1b06c2de1d81">&#9670;&#160;</a></span>OnPause()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.OnPause </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aadf8a0252214457df1e4be23e3ba0b83" name="aadf8a0252214457df1e4be23e3ba0b83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadf8a0252214457df1e4be23e3ba0b83">&#9670;&#160;</a></span>RegisterEvent() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool RogueGenesia.GameManager.Menu.EventManager.RegisterEvent </td>
+          <td>(</td>
+          <td class="paramtype">ConstructorInfo&#160;</td>
+          <td class="paramname"><em>constructorInfo</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae5de7a0218ebcc47d4b8c488649e72a3" name="ae5de7a0218ebcc47d4b8c488649e72a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5de7a0218ebcc47d4b8c488649e72a3">&#9670;&#160;</a></span>RegisterEvent() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool RogueGenesia.GameManager.Menu.EventManager.RegisterEvent </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ConstructorInfo&#160;</td>
+          <td class="paramname"><em>constructorInfo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae246737b46309d28d14670c51d0a5ca3" name="ae246737b46309d28d14670c51d0a5ca3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae246737b46309d28d14670c51d0a5ca3">&#9670;&#160;</a></span>SelectChoice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.SelectChoice </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abc0b090c8780f1fa9eea0d8f791c9974" name="abc0b090c8780f1fa9eea0d8f791c9974"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc0b090c8780f1fa9eea0d8f791c9974">&#9670;&#160;</a></span>SelectNextevent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.GameManager.Menu.EventManager.SelectNextevent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae2a2b2202f913e06645c9db7c899704a" name="ae2a2b2202f913e06645c9db7c899704a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2a2b2202f913e06645c9db7c899704a">&#9670;&#160;</a></span>SetEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.SetEvent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html">EventRogue</a>&#160;</td>
+          <td class="paramname"><em>eventRogue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc0896c7a8a90152807a463dbab0801c" name="afc0896c7a8a90152807a463dbab0801c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc0896c7a8a90152807a463dbab0801c">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.GameManager.Menu.EventManager.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a918e8af73b0f3b7da17a78427d4965bc" name="a918e8af73b0f3b7da17a78427d4965bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a918e8af73b0f3b7da17a78427d4965bc">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad90dfd651220a21d727b294e0b5e41b9" name="ad90dfd651220a21d727b294e0b5e41b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad90dfd651220a21d727b294e0b5e41b9">&#9670;&#160;</a></span>UpdateRewardPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.Menu.EventManager.UpdateRewardPosition </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aff7b87b0099d27d9ad4c991ac2591c1e" name="aff7b87b0099d27d9ad4c991ac2591c1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff7b87b0099d27d9ad4c991ac2591c1e">&#9670;&#160;</a></span>artifactDetail</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArtifactDetail RogueGenesia.GameManager.Menu.EventManager.artifactDetail</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5b2c9a1bd0a13664cae24f3e8bcc3da4" name="a5b2c9a1bd0a13664cae24f3e8bcc3da4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b2c9a1bd0a13664cae24f3e8bcc3da4">&#9670;&#160;</a></span>ButtonPrefab</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.GameManager.Menu.EventManager.ButtonPrefab</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9f99a8ecc1808538f3848ee3a46babc" name="ac9f99a8ecc1808538f3848ee3a46babc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9f99a8ecc1808538f3848ee3a46babc">&#9670;&#160;</a></span>CardDetail</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SoulCardUI RogueGenesia.GameManager.Menu.EventManager.CardDetail</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad4ea8c25572cd736ff5341d782b76633" name="ad4ea8c25572cd736ff5341d782b76633"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4ea8c25572cd736ff5341d782b76633">&#9670;&#160;</a></span>ChoicePrefab</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.GameManager.Menu.EventManager.ChoicePrefab</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a804110bb2e07c47d6e20fff1f7f6a04a" name="a804110bb2e07c47d6e20fff1f7f6a04a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a804110bb2e07c47d6e20fff1f7f6a04a">&#9670;&#160;</a></span>choiceSelected</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.GameManager.Menu.EventManager.choiceSelected = -1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa28207d82406b79766208bc7705b579d" name="aa28207d82406b79766208bc7705b579d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa28207d82406b79766208bc7705b579d">&#9670;&#160;</a></span>ChoicesViewPort</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.GameManager.Menu.EventManager.ChoicesViewPort</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab70d0dc32896e23fa2b263f3c445f4b4" name="ab70d0dc32896e23fa2b263f3c445f4b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab70d0dc32896e23fa2b263f3c445f4b4">&#9670;&#160;</a></span>ConfirmationScreen</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.GameManager.Menu.EventManager.ConfirmationScreen</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7590b6e4a35452f985ab8a8dba8357fa" name="a7590b6e4a35452f985ab8a8dba8357fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7590b6e4a35452f985ab8a8dba8357fa">&#9670;&#160;</a></span>CurrentEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html">EventRogue</a> RogueGenesia.GameManager.Menu.EventManager.CurrentEvent = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3b6e72e5ac699368916ae230eaf3e807" name="a3b6e72e5ac699368916ae230eaf3e807"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b6e72e5ac699368916ae230eaf3e807">&#9670;&#160;</a></span>Description</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.GameManager.Menu.EventManager.Description</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abfea455341396fb15af6bc8fea1eb7ea" name="abfea455341396fb15af6bc8fea1eb7ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfea455341396fb15af6bc8fea1eb7ea">&#9670;&#160;</a></span>EventCanvas</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.GameManager.Menu.EventManager.EventCanvas</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a418fdeb70171382ff87c764f17152498" name="a418fdeb70171382ff87c764f17152498"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a418fdeb70171382ff87c764f17152498">&#9670;&#160;</a></span>EventList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html">EventRogue</a>&gt; RogueGenesia.GameManager.Menu.EventManager.EventList = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html">EventRogue</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6d8b13638673133167602873c34f67b2" name="a6d8b13638673133167602873c34f67b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d8b13638673133167602873c34f67b2">&#9670;&#160;</a></span>EventTypeList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&gt; RogueGenesia.GameManager.Menu.EventManager.EventTypeList = new List&lt;<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c9dfda9b79fce8dfb945f7392ca2a6e" name="a3c9dfda9b79fce8dfb945f7392ca2a6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c9dfda9b79fce8dfb945f7392ca2a6e">&#9670;&#160;</a></span>FloorText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.GameManager.Menu.EventManager.FloorText</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae99329f124d759fb273150c89a9020df" name="ae99329f124d759fb273150c89a9020df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae99329f124d759fb273150c89a9020df">&#9670;&#160;</a></span>goldText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.GameManager.Menu.EventManager.goldText</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae1707482e17d00dc2252e906a4302a78" name="ae1707482e17d00dc2252e906a4302a78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1707482e17d00dc2252e906a4302a78">&#9670;&#160;</a></span>Icon</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Image RogueGenesia.GameManager.Menu.EventManager.Icon</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae2bd7325b6f06e8a404a5c1ef701ffc0" name="ae2bd7325b6f06e8a404a5c1ef701ffc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2bd7325b6f06e8a404a5c1ef701ffc0">&#9670;&#160;</a></span>instance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> RogueGenesia.GameManager.Menu.EventManager.instance = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb1c4e8830957811aad6e9b8b39cff9a" name="acb1c4e8830957811aad6e9b8b39cff9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb1c4e8830957811aad6e9b8b39cff9a">&#9670;&#160;</a></span>ModifierFromEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stats_modifier.html">StatsModifier</a> RogueGenesia.GameManager.Menu.EventManager.ModifierFromEvent = new <a class="el" href="class_rogue_genesia_1_1_data_1_1_stats_modifier.html">StatsModifier</a>()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6a718c20324b21c4b2d4b2642dc78032" name="a6a718c20324b21c4b2d4b2642dc78032"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a718c20324b21c4b2d4b2642dc78032">&#9670;&#160;</a></span>NextButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Button RogueGenesia.GameManager.Menu.EventManager.NextButton</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a079dbd43a823a28509064616ca56adba" name="a079dbd43a823a28509064616ca56adba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a079dbd43a823a28509064616ca56adba">&#9670;&#160;</a></span>NextEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html">EventRogue</a> RogueGenesia.GameManager.Menu.EventManager.NextEvent = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf7805d40321b6f562f11007f1aefc89" name="abf7805d40321b6f562f11007f1aefc89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf7805d40321b6f562f11007f1aefc89">&#9670;&#160;</a></span>RewardList</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;GameObject&gt; RogueGenesia.GameManager.Menu.EventManager.RewardList = new List&lt;GameObject&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa6179603cca6148110b9f6c17051ca8f" name="aa6179603cca6148110b9f6c17051ca8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6179603cca6148110b9f6c17051ca8f">&#9670;&#160;</a></span>RewardScreen</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.GameManager.Menu.EventManager.RewardScreen</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a81519dbc985dce49fae7da58cd94aa" name="a1a81519dbc985dce49fae7da58cd94aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a81519dbc985dce49fae7da58cd94aa">&#9670;&#160;</a></span>ScrollContent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RectTransform RogueGenesia.GameManager.Menu.EventManager.ScrollContent</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae596133bc30f56e1c8bcc04334bdb1aa" name="ae596133bc30f56e1c8bcc04334bdb1aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae596133bc30f56e1c8bcc04334bdb1aa">&#9670;&#160;</a></span>Title</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.GameManager.Menu.EventManager.Title</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5728ade4eb39bdbc78cb27bc6feeffd" name="aa5728ade4eb39bdbc78cb27bc6feeffd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5728ade4eb39bdbc78cb27bc6feeffd">&#9670;&#160;</a></span>zoneText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.GameManager.Menu.EventManager.zoneText</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/GameManager/Menu/EventManager.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_game_manager.html">GameManager</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_game_manager_1_1_menu.html">Menu</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

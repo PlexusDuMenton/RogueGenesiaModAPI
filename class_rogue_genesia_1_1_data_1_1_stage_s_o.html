@@ -1,0 +1,739 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue:Genesia API" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Rogue: Genesia API" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.Data.StageSO Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_data_1_1_stage_s_o.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
+<a href="class_rogue_genesia_1_1_data_1_1_stage_s_o-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.Data.StageSO Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.Data.StageSO:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o_1_1_stage_objective_weight.html">StageObjectiveWeight</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o_1_1_stage_weight_modifier.html">StageWeightModifier</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ac2031ffd515d8ae8703950c402a353a6"><td class="memItemLeft" align="right" valign="top">static ConstructorInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#ac2031ffd515d8ae8703950c402a353a6">GetStageTypeConstructor</a> (string name)</td></tr>
+<tr class="separator:ac2031ffd515d8ae8703950c402a353a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a081a809161a93bc6eddd56ad0099ac54"><td class="memItemLeft" align="right" valign="top">static ConstructorInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a081a809161a93bc6eddd56ad0099ac54">GetConstructor</a> (System.Type type)</td></tr>
+<tr class="separator:a081a809161a93bc6eddd56ad0099ac54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a479a6ccf101a32d26f805ece7ee2a1f6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a479a6ccf101a32d26f805ece7ee2a1f6">RegisterStageType</a> (string name, System.Type type)</td></tr>
+<tr class="separator:a479a6ccf101a32d26f805ece7ee2a1f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc8bb2e3961d71156f61d976f70fa595"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#acc8bb2e3961d71156f61d976f70fa595">RegisterStageType</a> (string name, ConstructorInfo constructorInfo)</td></tr>
+<tr class="separator:acc8bb2e3961d71156f61d976f70fa595"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f9f1f935c3ea0a4a6f3fe3c28f7862c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a9f9f1f935c3ea0a4a6f3fe3c28f7862c">RegisterStageType</a> (<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a> typeToAdd)</td></tr>
+<tr class="separator:a9f9f1f935c3ea0a4a6f3fe3c28f7862c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a5391b660787c28621012dfb2e8fe6674"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a5391b660787c28621012dfb2e8fe6674">NeedLight</a> = false</td></tr>
+<tr class="separator:a5391b660787c28621012dfb2e8fe6674"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a4d4b8cda9cee4e0c8c438402ccce0d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a0a4d4b8cda9cee4e0c8c438402ccce0d">LightIntensity</a> = 6000</td></tr>
+<tr class="separator:a0a4d4b8cda9cee4e0c8c438402ccce0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16e28a463b6cff2456a76bb4df341975"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a16e28a463b6cff2456a76bb4df341975">LightRange</a> = 4</td></tr>
+<tr class="separator:a16e28a463b6cff2456a76bb4df341975"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac942bd68cf3c3c8c255d8055b57e9ebc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#ac942bd68cf3c3c8c255d8055b57e9ebc">LightDistance</a> = 2</td></tr>
+<tr class="separator:ac942bd68cf3c3c8c255d8055b57e9ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2705eb0b62dac94b617f0f425e8f9ab"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#ac2705eb0b62dac94b617f0f425e8f9ab">LightColor</a> = new Color(1,1,1)</td></tr>
+<tr class="separator:ac2705eb0b62dac94b617f0f425e8f9ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d6996335344e43a17cc11e5ad989adb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a5d6996335344e43a17cc11e5ad989adb">customMaterial</a> = true</td></tr>
+<tr class="separator:a5d6996335344e43a17cc11e5ad989adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71b368a7e7442375a6daecf71a9fe219"><td class="memItemLeft" align="right" valign="top">Material&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a71b368a7e7442375a6daecf71a9fe219">MaterialOverride</a></td></tr>
+<tr class="separator:a71b368a7e7442375a6daecf71a9fe219"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a131ddc99dd0a3681843d0000edc38c"><td class="memItemLeft" align="right" valign="top">Texture2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a7a131ddc99dd0a3681843d0000edc38c">StageIconTexture</a></td></tr>
+<tr class="separator:a7a131ddc99dd0a3681843d0000edc38c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a578cdb7b15c0e2106424cc3479aa799c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a578cdb7b15c0e2106424cc3479aa799c">StageIconSize</a></td></tr>
+<tr class="separator:a578cdb7b15c0e2106424cc3479aa799c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3812edac00587da030f5120a2b158ee3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a3812edac00587da030f5120a2b158ee3">StageIconOffset</a></td></tr>
+<tr class="separator:a3812edac00587da030f5120a2b158ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af09a4eac77af2777577c86f1873bcbb0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#af09a4eac77af2777577c86f1873bcbb0">PlacementWeight</a> = 0</td></tr>
+<tr class="separator:af09a4eac77af2777577c86f1873bcbb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7797ac11d8b4b2d60f032873e8dbc767"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a7797ac11d8b4b2d60f032873e8dbc767">chanceToBeHidden</a> = 0.2f</td></tr>
+<tr class="separator:a7797ac11d8b4b2d60f032873e8dbc767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ac982f8f5893e9311c2bbd6e61bada4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a7ac982f8f5893e9311c2bbd6e61bada4">minimumStage</a> = 0</td></tr>
+<tr class="separator:a7ac982f8f5893e9311c2bbd6e61bada4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31d32266f3ac78bc57a7bfc9a961fccf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a31d32266f3ac78bc57a7bfc9a961fccf">maximumStageBeforeEnd</a> = 0</td></tr>
+<tr class="separator:a31d32266f3ac78bc57a7bfc9a961fccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3853489e54be6259a294032bcdd75c1e"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o_1_1_stage_weight_modifier.html">StageWeightModifier</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a3853489e54be6259a294032bcdd75c1e">WeightModifierForNextStage</a> = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o_1_1_stage_weight_modifier.html">StageWeightModifier</a>&gt;()</td></tr>
+<tr class="separator:a3853489e54be6259a294032bcdd75c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a9d513b9e3d63f2cd2e12edfbbf883e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_info_class.html">StageInfoClass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a8a9d513b9e3d63f2cd2e12edfbbf883e">StageInfo</a> = new <a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_info_class.html">StageInfoClass</a>()</td></tr>
+<tr class="separator:a8a9d513b9e3d63f2cd2e12edfbbf883e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a810bb95a1ab57d8de6767f1b8e5e2f37"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a810bb95a1ab57d8de6767f1b8e5e2f37">SelectionParticleColor</a> = new Color(2.5f, 2.5f, 2.5f, 0f)</td></tr>
+<tr class="separator:a810bb95a1ab57d8de6767f1b8e5e2f37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6850a585f42b65bb9ebc12998f24c7f3"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a6850a585f42b65bb9ebc12998f24c7f3">SelectionLightColor</a> = Color.white</td></tr>
+<tr class="separator:a6850a585f42b65bb9ebc12998f24c7f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aced42ec228369e2de91857e014d5d139"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#aced42ec228369e2de91857e014d5d139">SelectionParticleSize</a> = 1</td></tr>
+<tr class="separator:aced42ec228369e2de91857e014d5d139"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad6d1d777eb6dd68fff75ce5ffc8614f"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o_1_1_stage_objective_weight.html">StageObjectiveWeight</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#aad6d1d777eb6dd68fff75ce5ffc8614f">PossibleStageObjectives</a> = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o_1_1_stage_objective_weight.html">StageObjectiveWeight</a>&gt;()</td></tr>
+<tr class="separator:aad6d1d777eb6dd68fff75ce5ffc8614f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a757656f55131618e1e57203c7465002a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a757656f55131618e1e57203c7465002a">DisplayStatsOnEnd</a> = false</td></tr>
+<tr class="separator:a757656f55131618e1e57203c7465002a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2b24fd03c0d29dec4d663a7c9029cf5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893d">ArtifactScriptableObject.EArtifactDropPool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#ad2b24fd03c0d29dec4d663a7c9029cf5">ArtifactRewardPool</a> = <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893da64c6da2436465d11573858d46056b95d">ArtifactScriptableObject.EArtifactDropPool.Stage</a></td></tr>
+<tr class="separator:ad2b24fd03c0d29dec4d663a7c9029cf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a66ccf14072b0f49c1ab731eb91657b8c"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a66ccf14072b0f49c1ab731eb91657b8c">StageTypeConstructors</a> = new List&lt;<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&gt;()</td></tr>
+<tr class="separator:a66ccf14072b0f49c1ab731eb91657b8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a73878aac849c1fe8cc39ad9268f93ab0"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a73878aac849c1fe8cc39ad9268f93ab0">StageName</a><code> [get]</code></td></tr>
+<tr class="separator:a73878aac849c1fe8cc39ad9268f93ab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a081a809161a93bc6eddd56ad0099ac54" name="a081a809161a93bc6eddd56ad0099ac54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a081a809161a93bc6eddd56ad0099ac54">&#9670;&#160;</a></span>GetConstructor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static ConstructorInfo RogueGenesia.Data.StageSO.GetConstructor </td>
+          <td>(</td>
+          <td class="paramtype">System::Type&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2031ffd515d8ae8703950c402a353a6" name="ac2031ffd515d8ae8703950c402a353a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2031ffd515d8ae8703950c402a353a6">&#9670;&#160;</a></span>GetStageTypeConstructor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static ConstructorInfo RogueGenesia.Data.StageSO.GetStageTypeConstructor </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9f9f1f935c3ea0a4a6f3fe3c28f7862c" name="a9f9f1f935c3ea0a4a6f3fe3c28f7862c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f9f1f935c3ea0a4a6f3fe3c28f7862c">&#9670;&#160;</a></span>RegisterStageType() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool RogueGenesia.Data.StageSO.RegisterStageType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&#160;</td>
+          <td class="paramname"><em>typeToAdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acc8bb2e3961d71156f61d976f70fa595" name="acc8bb2e3961d71156f61d976f70fa595"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc8bb2e3961d71156f61d976f70fa595">&#9670;&#160;</a></span>RegisterStageType() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool RogueGenesia.Data.StageSO.RegisterStageType </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ConstructorInfo&#160;</td>
+          <td class="paramname"><em>constructorInfo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a479a6ccf101a32d26f805ece7ee2a1f6" name="a479a6ccf101a32d26f805ece7ee2a1f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a479a6ccf101a32d26f805ece7ee2a1f6">&#9670;&#160;</a></span>RegisterStageType() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.Data.StageSO.RegisterStageType </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">System::Type&#160;</td>
+          <td class="paramname"><em>type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad2b24fd03c0d29dec4d663a7c9029cf5" name="ad2b24fd03c0d29dec4d663a7c9029cf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2b24fd03c0d29dec4d663a7c9029cf5">&#9670;&#160;</a></span>ArtifactRewardPool</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893d">ArtifactScriptableObject.EArtifactDropPool</a> RogueGenesia.Data.StageSO.ArtifactRewardPool = <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893da64c6da2436465d11573858d46056b95d">ArtifactScriptableObject.EArtifactDropPool.Stage</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7797ac11d8b4b2d60f032873e8dbc767" name="a7797ac11d8b4b2d60f032873e8dbc767"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7797ac11d8b4b2d60f032873e8dbc767">&#9670;&#160;</a></span>chanceToBeHidden</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.StageSO.chanceToBeHidden = 0.2f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d6996335344e43a17cc11e5ad989adb" name="a5d6996335344e43a17cc11e5ad989adb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d6996335344e43a17cc11e5ad989adb">&#9670;&#160;</a></span>customMaterial</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.StageSO.customMaterial = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a757656f55131618e1e57203c7465002a" name="a757656f55131618e1e57203c7465002a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a757656f55131618e1e57203c7465002a">&#9670;&#160;</a></span>DisplayStatsOnEnd</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.StageSO.DisplayStatsOnEnd = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2705eb0b62dac94b617f0f425e8f9ab" name="ac2705eb0b62dac94b617f0f425e8f9ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2705eb0b62dac94b617f0f425e8f9ab">&#9670;&#160;</a></span>LightColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color RogueGenesia.Data.StageSO.LightColor = new Color(1,1,1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac942bd68cf3c3c8c255d8055b57e9ebc" name="ac942bd68cf3c3c8c255d8055b57e9ebc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac942bd68cf3c3c8c255d8055b57e9ebc">&#9670;&#160;</a></span>LightDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.StageSO.LightDistance = 2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a4d4b8cda9cee4e0c8c438402ccce0d" name="a0a4d4b8cda9cee4e0c8c438402ccce0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a4d4b8cda9cee4e0c8c438402ccce0d">&#9670;&#160;</a></span>LightIntensity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.StageSO.LightIntensity = 6000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a16e28a463b6cff2456a76bb4df341975" name="a16e28a463b6cff2456a76bb4df341975"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16e28a463b6cff2456a76bb4df341975">&#9670;&#160;</a></span>LightRange</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.StageSO.LightRange = 4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71b368a7e7442375a6daecf71a9fe219" name="a71b368a7e7442375a6daecf71a9fe219"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71b368a7e7442375a6daecf71a9fe219">&#9670;&#160;</a></span>MaterialOverride</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Material RogueGenesia.Data.StageSO.MaterialOverride</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31d32266f3ac78bc57a7bfc9a961fccf" name="a31d32266f3ac78bc57a7bfc9a961fccf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31d32266f3ac78bc57a7bfc9a961fccf">&#9670;&#160;</a></span>maximumStageBeforeEnd</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.StageSO.maximumStageBeforeEnd = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7ac982f8f5893e9311c2bbd6e61bada4" name="a7ac982f8f5893e9311c2bbd6e61bada4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ac982f8f5893e9311c2bbd6e61bada4">&#9670;&#160;</a></span>minimumStage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.StageSO.minimumStage = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5391b660787c28621012dfb2e8fe6674" name="a5391b660787c28621012dfb2e8fe6674"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5391b660787c28621012dfb2e8fe6674">&#9670;&#160;</a></span>NeedLight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.StageSO.NeedLight = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af09a4eac77af2777577c86f1873bcbb0" name="af09a4eac77af2777577c86f1873bcbb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af09a4eac77af2777577c86f1873bcbb0">&#9670;&#160;</a></span>PlacementWeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.StageSO.PlacementWeight = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad6d1d777eb6dd68fff75ce5ffc8614f" name="aad6d1d777eb6dd68fff75ce5ffc8614f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad6d1d777eb6dd68fff75ce5ffc8614f">&#9670;&#160;</a></span>PossibleStageObjectives</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o_1_1_stage_objective_weight.html">StageObjectiveWeight</a>&gt; RogueGenesia.Data.StageSO.PossibleStageObjectives = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o_1_1_stage_objective_weight.html">StageObjectiveWeight</a>&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6850a585f42b65bb9ebc12998f24c7f3" name="a6850a585f42b65bb9ebc12998f24c7f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6850a585f42b65bb9ebc12998f24c7f3">&#9670;&#160;</a></span>SelectionLightColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color RogueGenesia.Data.StageSO.SelectionLightColor = Color.white</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a810bb95a1ab57d8de6767f1b8e5e2f37" name="a810bb95a1ab57d8de6767f1b8e5e2f37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a810bb95a1ab57d8de6767f1b8e5e2f37">&#9670;&#160;</a></span>SelectionParticleColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color RogueGenesia.Data.StageSO.SelectionParticleColor = new Color(2.5f, 2.5f, 2.5f, 0f)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aced42ec228369e2de91857e014d5d139" name="aced42ec228369e2de91857e014d5d139"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aced42ec228369e2de91857e014d5d139">&#9670;&#160;</a></span>SelectionParticleSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.StageSO.SelectionParticleSize = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3812edac00587da030f5120a2b158ee3" name="a3812edac00587da030f5120a2b158ee3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3812edac00587da030f5120a2b158ee3">&#9670;&#160;</a></span>StageIconOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.StageSO.StageIconOffset</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a578cdb7b15c0e2106424cc3479aa799c" name="a578cdb7b15c0e2106424cc3479aa799c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a578cdb7b15c0e2106424cc3479aa799c">&#9670;&#160;</a></span>StageIconSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.StageSO.StageIconSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a131ddc99dd0a3681843d0000edc38c" name="a7a131ddc99dd0a3681843d0000edc38c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a131ddc99dd0a3681843d0000edc38c">&#9670;&#160;</a></span>StageIconTexture</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Texture2D RogueGenesia.Data.StageSO.StageIconTexture</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a9d513b9e3d63f2cd2e12edfbbf883e" name="a8a9d513b9e3d63f2cd2e12edfbbf883e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a9d513b9e3d63f2cd2e12edfbbf883e">&#9670;&#160;</a></span>StageInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_info_class.html">StageInfoClass</a> RogueGenesia.Data.StageSO.StageInfo = new <a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_info_class.html">StageInfoClass</a>()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a66ccf14072b0f49c1ab731eb91657b8c" name="a66ccf14072b0f49c1ab731eb91657b8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66ccf14072b0f49c1ab731eb91657b8c">&#9670;&#160;</a></span>StageTypeConstructors</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&gt; RogueGenesia.Data.StageSO.StageTypeConstructors = new List&lt;<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3853489e54be6259a294032bcdd75c1e" name="a3853489e54be6259a294032bcdd75c1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3853489e54be6259a294032bcdd75c1e">&#9670;&#160;</a></span>WeightModifierForNextStage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o_1_1_stage_weight_modifier.html">StageWeightModifier</a>&gt; RogueGenesia.Data.StageSO.WeightModifierForNextStage = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o_1_1_stage_weight_modifier.html">StageWeightModifier</a>&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a73878aac849c1fe8cc39ad9268f93ab0" name="a73878aac849c1fe8cc39ad9268f93ab0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73878aac849c1fe8cc39ad9268f93ab0">&#9670;&#160;</a></span>StageName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RogueGenesia.Data.StageSO.StageName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/ScriptableObjects/Stage/StageSO.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_data.html">Data</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html">StageSO</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

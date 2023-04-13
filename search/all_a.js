@@ -1,13 +1,7 @@
 var searchData=
 [
-  ['language_0',['Language',['../class_mod_genesia_1_1_work_shop_information.html#a175426c02f8339764f6c6c5849e1759a',1,'ModGenesia::WorkShopInformation']]],
-  ['lastupdated_1',['lastUpdated',['../class_mod_genesia_1_1_steam_work_shop_1_1_mod_install_info.html#a421906a45ff70a7745c9d18ef4b438cc',1,'ModGenesia::SteamWorkShop::ModInstallInfo']]],
-  ['levelupweight_2',['LevelUpWeight',['../class_mod_genesia_1_1_soul_card_creation_data.html#a82851da8c084bd614ddade19d0f2a74e',1,'ModGenesia::SoulCardCreationData']]],
-  ['loadassembly_3',['LoadAssembly',['../class_mod_genesia_1_1_assembly_loader.html#a404668ee52332830df5314ac8b1f4acf',1,'ModGenesia::AssemblyLoader']]],
-  ['loadedassemblies_4',['LoadedAssemblies',['../class_mod_genesia_1_1_mod_loader.html#a5389e001bd9b04ad8f1186c30c5992fe',1,'ModGenesia::ModLoader']]],
-  ['loadedassemblieslist_5',['LoadedAssembliesList',['../class_mod_genesia_1_1_mod_data.html#a85e56f22e47c85b2880783febf224183',1,'ModGenesia::ModData']]],
-  ['loadmodinfo_6',['LoadModInfo',['../class_mod_genesia_1_1_mod_loader.html#a1e3ce6e54b4c2b840683c3dac6d10263',1,'ModGenesia::ModLoader']]],
-  ['loadmods_7',['LoadMods',['../class_mod_genesia_1_1_mod_list_manager.html#a531ab1acd92ef22b9f22d5e6da6dc853',1,'ModGenesia::ModListManager']]],
-  ['loadpngtexture_8',['LoadPNGTexture',['../class_mod_genesia_1_1_mod_genesia.html#a86c8823bce70d97a9a87973bd0af3989',1,'ModGenesia::ModGenesia']]],
-  ['loadsprite_9',['LoadSprite',['../class_mod_genesia_1_1_mod_genesia.html#af44431e4d590e7cb89423ee8b4e34142',1,'ModGenesia::ModGenesia']]]
+  ['jaald_0',['Jaald',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_shrine_entity.html#a39f070bd1b17a2765432f1ee146e3952a6779cdd033f510224a1119febc70b1cc',1,'RogueGenesia::Actors::Survival::ShrineEntity']]],
+  ['jaaldblessing_1',['JaaldBlessing',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_jaald_blessing.html#a728828c9e95fcd4ab4bdca66b9659d6f',1,'RogueGenesia.Actors.Survival.JaaldBlessing.JaaldBlessing()'],['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_jaald_blessing.html',1,'RogueGenesia.Actors.Survival.JaaldBlessing']]],
+  ['japanessefont_2',['JapanesseFont',['../class_rogue_genesia_1_1_localization_1_1_font_localization.html#a5368d4ce77bb3061a6934d7a29c4e449',1,'RogueGenesia.Localization.FontLocalization.JapanesseFont()'],['../class_localization_tables_s_o.html#adf3421f69355d596b789a7df98f980ef',1,'LocalizationTablesSO.JapanesseFont()']]],
+  ['japanessetmpfont_3',['JapanesseTMPFont',['../class_rogue_genesia_1_1_localization_1_1_font_localization.html#a5f6e6a3bb9ced3c9fe69fd0ce4d39857',1,'RogueGenesia.Localization.FontLocalization.JapanesseTMPFont()'],['../class_localization_tables_s_o.html#a0b90bf7f2d18ef1643e49b8025243659',1,'LocalizationTablesSO.JapanesseTMPFont()']]]
 ];

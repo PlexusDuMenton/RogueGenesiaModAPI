@@ -1,0 +1,759 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue:Genesia API" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Rogue: Genesia API" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.Lazor Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_lazor.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
+<a href="class_rogue_genesia_1_1_lazor-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.Lazor Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.Lazor:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a868f6efff97a77fd843d7322a30a25cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#a868f6efff97a77fd843d7322a30a25cb">Start</a> ()</td></tr>
+<tr class="separator:a868f6efff97a77fd843d7322a30a25cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a722fa06c3948794db9b026f8bfa15ce0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#a722fa06c3948794db9b026f8bfa15ce0">Update</a> ()</td></tr>
+<tr class="separator:a722fa06c3948794db9b026f8bfa15ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9a869a10f095d561864b6fd06d7139d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#ab9a869a10f095d561864b6fd06d7139d">UpdateEventCall</a> ()</td></tr>
+<tr class="separator:ab9a869a10f095d561864b6fd06d7139d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72d5544b4510fec1d110fd45881f45d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#a72d5544b4510fec1d110fd45881f45d2">ApplyForce</a> (Vector3 pos, bool local, float force, float disperdistancepow=2, float Timescale=1f)</td></tr>
+<tr class="separator:a72d5544b4510fec1d110fd45881f45d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a839319f05b2cc6e69bce4094d297c9d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#a839319f05b2cc6e69bce4094d297c9d0">ApplySpherePushForce</a> (Vector3 pos, float radius, bool local, float force=10, float Timescale=1f)</td></tr>
+<tr class="separator:a839319f05b2cc6e69bce4094d297c9d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a2f692004ca16c4b7a99e7d8b6ce160"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#a4a2f692004ca16c4b7a99e7d8b6ce160">AttractAnchor</a> ()</td></tr>
+<tr class="separator:a4a2f692004ca16c4b7a99e7d8b6ce160"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a803a3a045fc2261c90de6f06be205834"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#a803a3a045fc2261c90de6f06be205834">OnTriggerStay</a> (Collider collision)</td></tr>
+<tr class="separator:a803a3a045fc2261c90de6f06be205834"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a2200dd0411911498784d1529b9fc6467"><td class="memItemLeft" align="right" valign="top">LinkedList&lt; <a class="el" href="class_rogue_genesia_1_1_lazor_child.html">LazorChild</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#a2200dd0411911498784d1529b9fc6467">lazerParts</a> = new LinkedList&lt;<a class="el" href="class_rogue_genesia_1_1_lazor_child.html">LazorChild</a>&gt;()</td></tr>
+<tr class="separator:a2200dd0411911498784d1529b9fc6467"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e06918648f5fa0601d916aaf9209ec3"><td class="memItemLeft" align="right" valign="top">List&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#a3e06918648f5fa0601d916aaf9209ec3">colliderParts</a> = new List&lt;GameObject&gt;()</td></tr>
+<tr class="separator:a3e06918648f5fa0601d916aaf9209ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87bcb544d6a1d65e42f9248b6fcaec0b"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#a87bcb544d6a1d65e42f9248b6fcaec0b">lazerPartsParent</a></td></tr>
+<tr class="separator:a87bcb544d6a1d65e42f9248b6fcaec0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b813296f9e98c0f9387f844a33641ae"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#a1b813296f9e98c0f9387f844a33641ae">colliderPartsParent</a></td></tr>
+<tr class="separator:a1b813296f9e98c0f9387f844a33641ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a04c112999f12d77bfa11940b423dad"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#a5a04c112999f12d77bfa11940b423dad">StartAnchor</a></td></tr>
+<tr class="separator:a5a04c112999f12d77bfa11940b423dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae47f7865017950592b8865a1376c298c"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#ae47f7865017950592b8865a1376c298c">EndAnchor</a></td></tr>
+<tr class="separator:ae47f7865017950592b8865a1376c298c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2dbe8aa4d5e8c84448ce7aebc2eb171"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_matrix_container.html">MatrixContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#ac2dbe8aa4d5e8c84448ce7aebc2eb171">curve</a> = new <a class="el" href="class_rogue_genesia_1_1_matrix_container.html">MatrixContainer</a>()</td></tr>
+<tr class="separator:ac2dbe8aa4d5e8c84448ce7aebc2eb171"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84a89551c25c1b4c1d0327f75b2e2ec5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#a84a89551c25c1b4c1d0327f75b2e2ec5">LazerPartsSize</a> = 0.5f</td></tr>
+<tr class="separator:a84a89551c25c1b4c1d0327f75b2e2ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6622524eb9cd398f5aabc666be42eb43"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#a6622524eb9cd398f5aabc666be42eb43">LazorSize</a> = 10</td></tr>
+<tr class="separator:a6622524eb9cd398f5aabc666be42eb43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12d4fcf4ee0881a417b728705883fc85"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#a12d4fcf4ee0881a417b728705883fc85">CurrentLazorSize</a> = 0</td></tr>
+<tr class="separator:a12d4fcf4ee0881a417b728705883fc85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9e7145ecca7ab7952c04b93ea661152"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#aa9e7145ecca7ab7952c04b93ea661152">GrowthLazorSize</a> = 10</td></tr>
+<tr class="separator:aa9e7145ecca7ab7952c04b93ea661152"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b04c7068ff3bfeacc16f1c02b7cc44f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#a1b04c7068ff3bfeacc16f1c02b7cc44f">LasorWidth</a> = 1</td></tr>
+<tr class="separator:a1b04c7068ff3bfeacc16f1c02b7cc44f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf15c6174ccc4f991a754bcb6c1ac195"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#adf15c6174ccc4f991a754bcb6c1ac195">LasorCurveMeshSize</a> = 0.25f</td></tr>
+<tr class="separator:adf15c6174ccc4f991a754bcb6c1ac195"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab98794d29e32da491687f8bcd4ca1f9a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#ab98794d29e32da491687f8bcd4ca1f9a">BoxTriggerWidth</a> = 1</td></tr>
+<tr class="separator:ab98794d29e32da491687f8bcd4ca1f9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fc928e2cb6991112260e2887245bb0a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#a9fc928e2cb6991112260e2887245bb0a">delete</a> = false</td></tr>
+<tr class="separator:a9fc928e2cb6991112260e2887245bb0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a821cdb75667f4bda0ef239ae8fd1c05d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#a821cdb75667f4bda0ef239ae8fd1c05d">deleteSize</a> = 0</td></tr>
+<tr class="separator:a821cdb75667f4bda0ef239ae8fd1c05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95cd63dac598a6d422f6172d728514dc"><td class="memItemLeft" align="right" valign="top">MeshFilter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#a95cd63dac598a6d422f6172d728514dc">MeshFilter</a></td></tr>
+<tr class="separator:a95cd63dac598a6d422f6172d728514dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefee2cbe54c73aeaad0f16dd75728e0d"><td class="memItemLeft" align="right" valign="top">MeshRenderer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#aefee2cbe54c73aeaad0f16dd75728e0d">MeshRenderer</a></td></tr>
+<tr class="separator:aefee2cbe54c73aeaad0f16dd75728e0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa590d2522628d4e95a44a6c14d9fa557"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="class_rogue_genesia_1_1_lazor.html">Lazor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#aa590d2522628d4e95a44a6c14d9fa557">UpdateEvent</a> = new UnityEvent&lt;<a class="el" href="class_rogue_genesia_1_1_lazor.html">Lazor</a>&gt;()</td></tr>
+<tr class="separator:aa590d2522628d4e95a44a6c14d9fa557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ed8e357b3f392953a40d69f4f4279a8"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; Collider &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#a6ed8e357b3f392953a40d69f4f4279a8">OnTriggerStayEvent</a> = new UnityEvent&lt;Collider&gt;()</td></tr>
+<tr class="separator:a6ed8e357b3f392953a40d69f4f4279a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a336917767f743dc3eb9b2658f5849469"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_lazor.html#a336917767f743dc3eb9b2658f5849469">AttractPow</a><code> [get, set]</code></td></tr>
+<tr class="separator:a336917767f743dc3eb9b2658f5849469"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a72d5544b4510fec1d110fd45881f45d2" name="a72d5544b4510fec1d110fd45881f45d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72d5544b4510fec1d110fd45881f45d2">&#9670;&#160;</a></span>ApplyForce()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Lazor.ApplyForce </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>local</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>force</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>disperdistancepow</em> = <code>2</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>Timescale</em> = <code>1f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a839319f05b2cc6e69bce4094d297c9d0" name="a839319f05b2cc6e69bce4094d297c9d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a839319f05b2cc6e69bce4094d297c9d0">&#9670;&#160;</a></span>ApplySpherePushForce()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Lazor.ApplySpherePushForce </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>local</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>force</em> = <code>10</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>Timescale</em> = <code>1f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a2f692004ca16c4b7a99e7d8b6ce160" name="a4a2f692004ca16c4b7a99e7d8b6ce160"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a2f692004ca16c4b7a99e7d8b6ce160">&#9670;&#160;</a></span>AttractAnchor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Lazor.AttractAnchor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a803a3a045fc2261c90de6f06be205834" name="a803a3a045fc2261c90de6f06be205834"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a803a3a045fc2261c90de6f06be205834">&#9670;&#160;</a></span>OnTriggerStay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Lazor.OnTriggerStay </td>
+          <td>(</td>
+          <td class="paramtype">Collider&#160;</td>
+          <td class="paramname"><em>collision</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a868f6efff97a77fd843d7322a30a25cb" name="a868f6efff97a77fd843d7322a30a25cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a868f6efff97a77fd843d7322a30a25cb">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Lazor.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a722fa06c3948794db9b026f8bfa15ce0" name="a722fa06c3948794db9b026f8bfa15ce0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a722fa06c3948794db9b026f8bfa15ce0">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Lazor.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab9a869a10f095d561864b6fd06d7139d" name="ab9a869a10f095d561864b6fd06d7139d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9a869a10f095d561864b6fd06d7139d">&#9670;&#160;</a></span>UpdateEventCall()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Lazor.UpdateEventCall </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab98794d29e32da491687f8bcd4ca1f9a" name="ab98794d29e32da491687f8bcd4ca1f9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab98794d29e32da491687f8bcd4ca1f9a">&#9670;&#160;</a></span>BoxTriggerWidth</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Lazor.BoxTriggerWidth = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e06918648f5fa0601d916aaf9209ec3" name="a3e06918648f5fa0601d916aaf9209ec3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e06918648f5fa0601d916aaf9209ec3">&#9670;&#160;</a></span>colliderParts</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;GameObject&gt; RogueGenesia.Lazor.colliderParts = new List&lt;GameObject&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b813296f9e98c0f9387f844a33641ae" name="a1b813296f9e98c0f9387f844a33641ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b813296f9e98c0f9387f844a33641ae">&#9670;&#160;</a></span>colliderPartsParent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.Lazor.colliderPartsParent</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a12d4fcf4ee0881a417b728705883fc85" name="a12d4fcf4ee0881a417b728705883fc85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12d4fcf4ee0881a417b728705883fc85">&#9670;&#160;</a></span>CurrentLazorSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Lazor.CurrentLazorSize = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2dbe8aa4d5e8c84448ce7aebc2eb171" name="ac2dbe8aa4d5e8c84448ce7aebc2eb171"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2dbe8aa4d5e8c84448ce7aebc2eb171">&#9670;&#160;</a></span>curve</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_matrix_container.html">MatrixContainer</a> RogueGenesia.Lazor.curve = new <a class="el" href="class_rogue_genesia_1_1_matrix_container.html">MatrixContainer</a>()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9fc928e2cb6991112260e2887245bb0a" name="a9fc928e2cb6991112260e2887245bb0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fc928e2cb6991112260e2887245bb0a">&#9670;&#160;</a></span>delete</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Lazor.delete = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a821cdb75667f4bda0ef239ae8fd1c05d" name="a821cdb75667f4bda0ef239ae8fd1c05d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a821cdb75667f4bda0ef239ae8fd1c05d">&#9670;&#160;</a></span>deleteSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Lazor.deleteSize = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae47f7865017950592b8865a1376c298c" name="ae47f7865017950592b8865a1376c298c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae47f7865017950592b8865a1376c298c">&#9670;&#160;</a></span>EndAnchor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.Lazor.EndAnchor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa9e7145ecca7ab7952c04b93ea661152" name="aa9e7145ecca7ab7952c04b93ea661152"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9e7145ecca7ab7952c04b93ea661152">&#9670;&#160;</a></span>GrowthLazorSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Lazor.GrowthLazorSize = 10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf15c6174ccc4f991a754bcb6c1ac195" name="adf15c6174ccc4f991a754bcb6c1ac195"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf15c6174ccc4f991a754bcb6c1ac195">&#9670;&#160;</a></span>LasorCurveMeshSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Lazor.LasorCurveMeshSize = 0.25f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b04c7068ff3bfeacc16f1c02b7cc44f" name="a1b04c7068ff3bfeacc16f1c02b7cc44f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b04c7068ff3bfeacc16f1c02b7cc44f">&#9670;&#160;</a></span>LasorWidth</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Lazor.LasorWidth = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2200dd0411911498784d1529b9fc6467" name="a2200dd0411911498784d1529b9fc6467"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2200dd0411911498784d1529b9fc6467">&#9670;&#160;</a></span>lazerParts</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedList&lt;<a class="el" href="class_rogue_genesia_1_1_lazor_child.html">LazorChild</a>&gt; RogueGenesia.Lazor.lazerParts = new LinkedList&lt;<a class="el" href="class_rogue_genesia_1_1_lazor_child.html">LazorChild</a>&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87bcb544d6a1d65e42f9248b6fcaec0b" name="a87bcb544d6a1d65e42f9248b6fcaec0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87bcb544d6a1d65e42f9248b6fcaec0b">&#9670;&#160;</a></span>lazerPartsParent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.Lazor.lazerPartsParent</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a84a89551c25c1b4c1d0327f75b2e2ec5" name="a84a89551c25c1b4c1d0327f75b2e2ec5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84a89551c25c1b4c1d0327f75b2e2ec5">&#9670;&#160;</a></span>LazerPartsSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Lazor.LazerPartsSize = 0.5f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6622524eb9cd398f5aabc666be42eb43" name="a6622524eb9cd398f5aabc666be42eb43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6622524eb9cd398f5aabc666be42eb43">&#9670;&#160;</a></span>LazorSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Lazor.LazorSize = 10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a95cd63dac598a6d422f6172d728514dc" name="a95cd63dac598a6d422f6172d728514dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95cd63dac598a6d422f6172d728514dc">&#9670;&#160;</a></span>MeshFilter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MeshFilter RogueGenesia.Lazor.MeshFilter</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aefee2cbe54c73aeaad0f16dd75728e0d" name="aefee2cbe54c73aeaad0f16dd75728e0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefee2cbe54c73aeaad0f16dd75728e0d">&#9670;&#160;</a></span>MeshRenderer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MeshRenderer RogueGenesia.Lazor.MeshRenderer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ed8e357b3f392953a40d69f4f4279a8" name="a6ed8e357b3f392953a40d69f4f4279a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ed8e357b3f392953a40d69f4f4279a8">&#9670;&#160;</a></span>OnTriggerStayEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UnityEvent&lt;Collider&gt; RogueGenesia.Lazor.OnTriggerStayEvent = new UnityEvent&lt;Collider&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5a04c112999f12d77bfa11940b423dad" name="a5a04c112999f12d77bfa11940b423dad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a04c112999f12d77bfa11940b423dad">&#9670;&#160;</a></span>StartAnchor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.Lazor.StartAnchor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa590d2522628d4e95a44a6c14d9fa557" name="aa590d2522628d4e95a44a6c14d9fa557"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa590d2522628d4e95a44a6c14d9fa557">&#9670;&#160;</a></span>UpdateEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UnityEvent&lt;<a class="el" href="class_rogue_genesia_1_1_lazor.html">Lazor</a>&gt; RogueGenesia.Lazor.UpdateEvent = new UnityEvent&lt;<a class="el" href="class_rogue_genesia_1_1_lazor.html">Lazor</a>&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a336917767f743dc3eb9b2658f5849469" name="a336917767f743dc3eb9b2658f5849469"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a336917767f743dc3eb9b2658f5849469">&#9670;&#160;</a></span>AttractPow</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Lazor.AttractPow</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/DevVextex/Lazor.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_lazor.html">Lazor</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

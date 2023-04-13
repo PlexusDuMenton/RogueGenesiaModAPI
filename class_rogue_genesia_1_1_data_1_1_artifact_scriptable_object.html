@@ -1,0 +1,807 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue:Genesia API" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Rogue: Genesia API" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.Data.ArtifactScriptableObject Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
+<a href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.Data.ArtifactScriptableObject Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.Data.ArtifactScriptableObject:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ae284d305c379daf4308ab1ea6da43464"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#ae284d305c379daf4308ab1ea6da43464">EArtifactMode</a> { <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#ae284d305c379daf4308ab1ea6da43464a6adf97f83acf6453d4a6a4b1070f3754">None</a> = 0x0
+, <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#ae284d305c379daf4308ab1ea6da43464abccaa235d0364318e9bc826fc64546f7">Survivors</a> = 0x1
+, <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#ae284d305c379daf4308ab1ea6da43464a73c4a7d21c969bc589b3d0ad32b261be">Rogs</a> = 0x10
+, <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#ae284d305c379daf4308ab1ea6da43464ab1c94ca2fbc3e78fc30069c8d0f01680">All</a> = 0x11
+ }</td></tr>
+<tr class="separator:ae284d305c379daf4308ab1ea6da43464"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a166e60f2e234516bc24d478ba8c4893d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893d">EArtifactDropPool</a> { <br />
+&#160;&#160;<a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893da5859831e2b3db23528c710b1451e13fc">Boss</a> = 0x1
+, <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893da080a546abcbea74459f27ba33313993d">Chest</a> = 0x10
+, <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893da64c6da2436465d11573858d46056b95d">Stage</a> = 0x100
+, <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893da9f82518d468b9fee614fcc92f76bb163">Shop</a> = 0x1000
+, <br />
+&#160;&#160;<a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893dab1c94ca2fbc3e78fc30069c8d0f01680">All</a> = 0x1111
+<br />
+ }</td></tr>
+<tr class="separator:a166e60f2e234516bc24d478ba8c4893d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ace986fa9ae836e087ece9c5b4b40396e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#ace986fa9ae836e087ece9c5b4b40396e">GetDataValue</a> (string dataName)</td></tr>
+<tr class="separator:ace986fa9ae836e087ece9c5b4b40396e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afafd4f3398b4b3075ea7912c84f3c021"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html">Artifact</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#afafd4f3398b4b3075ea7912c84f3c021">GetArtifact</a> ()</td></tr>
+<tr class="separator:afafd4f3398b4b3075ea7912c84f3c021"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a863bbf02c025863c73dc9f71a3fb8e1d"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a863bbf02c025863c73dc9f71a3fb8e1d">GetMaximumWeight</a> ()</td></tr>
+<tr class="separator:a863bbf02c025863c73dc9f71a3fb8e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0402b88e81be4b865741f5eacf5ef66a"><td class="memItemLeft" align="right" valign="top">static ConstructorInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a0402b88e81be4b865741f5eacf5ef66a">GetConstructor</a> (System.Type type)</td></tr>
+<tr class="separator:a0402b88e81be4b865741f5eacf5ef66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a088e97ecc550d2275e79241cd757a3da"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a088e97ecc550d2275e79241cd757a3da">RegisterArtifact</a> (string name, System.Type type)</td></tr>
+<tr class="separator:a088e97ecc550d2275e79241cd757a3da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adefa6c36c5805264d8f682662bd0b6f1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#adefa6c36c5805264d8f682662bd0b6f1">RegisterArtifact</a> (string name, ConstructorInfo constructorInfo)</td></tr>
+<tr class="separator:adefa6c36c5805264d8f682662bd0b6f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad492f4268fee471a3257a31b3ed2a9a8"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#ad492f4268fee471a3257a31b3ed2a9a8">RegisterArtifact</a> (<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a> typeToAdd)</td></tr>
+<tr class="separator:ad492f4268fee471a3257a31b3ed2a9a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adedda5e80ea3c0e9a114598c184e66e6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html">Artifact</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#adedda5e80ea3c0e9a114598c184e66e6">GetArtifactFromName</a> (string name)</td></tr>
+<tr class="separator:adedda5e80ea3c0e9a114598c184e66e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:af3b16777b1c4553b730be1a64070fdae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_rogue_genesia_1_1_data.html#aaa9105a962017dc70f16a695f4a394b5">EArtifact</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#af3b16777b1c4553b730be1a64070fdae">artifactType</a></td></tr>
+<tr class="separator:af3b16777b1c4553b730be1a64070fdae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26f19455cd9eb1283d1ea3f31a2ddd25"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a26f19455cd9eb1283d1ea3f31a2ddd25">artifactTypeString</a></td></tr>
+<tr class="separator:a26f19455cd9eb1283d1ea3f31a2ddd25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f55c474ce5cefaf14f363349949b1c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#ae284d305c379daf4308ab1ea6da43464">EArtifactMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a3f55c474ce5cefaf14f363349949b1c4">artifactModeSpawn</a> = <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#ae284d305c379daf4308ab1ea6da43464ab1c94ca2fbc3e78fc30069c8d0f01680">EArtifactMode.All</a></td></tr>
+<tr class="separator:a3f55c474ce5cefaf14f363349949b1c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abecc1b0ec483f17341f289e1cd59b8dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893d">EArtifactDropPool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#abecc1b0ec483f17341f289e1cd59b8dd">artifactDropPool</a> = <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893dab1c94ca2fbc3e78fc30069c8d0f01680">EArtifactDropPool.All</a></td></tr>
+<tr class="separator:abecc1b0ec483f17341f289e1cd59b8dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e7389e327b087f224442cc4ec262abb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a6e7389e327b087f224442cc4ec262abb">EditorTest</a> = false</td></tr>
+<tr class="separator:a6e7389e327b087f224442cc4ec262abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad31af9e42c14bff80bff2e23c85a677c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#ad31af9e42c14bff80bff2e23c85a677c">DropWeight</a> = 1</td></tr>
+<tr class="separator:ad31af9e42c14bff80bff2e23c85a677c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1ca6f84d502a74a3a36456225360939"><td class="memItemLeft" align="right" valign="top">Sprite&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#ac1ca6f84d502a74a3a36456225360939">Texture</a></td></tr>
+<tr class="separator:ac1ca6f84d502a74a3a36456225360939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb5d39ad25a30aecb30a464ab99c6d2b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#aeb5d39ad25a30aecb30a464ab99c6d2b">MaxCount</a> = 1</td></tr>
+<tr class="separator:aeb5d39ad25a30aecb30a464ab99c6d2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a287d4ad44f1fbd6d2c1c8c109e57fdec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a287d4ad44f1fbd6d2c1c8c109e57fdec">Unlocked</a> = true</td></tr>
+<tr class="separator:a287d4ad44f1fbd6d2c1c8c109e57fdec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91a98fec1a82ac46a276949ca250f6d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html">ArtifactScriptableObject</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a91a98fec1a82ac46a276949ca250f6d3">ArtifactExclusion</a> = new <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html">ArtifactScriptableObject</a>[0]</td></tr>
+<tr class="separator:a91a98fec1a82ac46a276949ca250f6d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37c4c23d107a2905b0d7bfed6a416042"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a37c4c23d107a2905b0d7bfed6a416042">UnlockedByDefault</a> = true</td></tr>
+<tr class="separator:a37c4c23d107a2905b0d7bfed6a416042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01a447835b7e98820a50a194ed95c8e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_rogue_genesia_1_1_data_1_1_artifact_data.html">ArtifactData</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a01a447835b7e98820a50a194ed95c8e8">dataList</a> = new <a class="el" href="struct_rogue_genesia_1_1_data_1_1_artifact_data.html">ArtifactData</a>[0]</td></tr>
+<tr class="separator:a01a447835b7e98820a50a194ed95c8e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb433b3255350f52e1316a81c4e08cea"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data.html">LocalizationData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#abb433b3255350f52e1316a81c4e08cea">NameOverride</a> = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data.html">LocalizationData</a>&gt;()</td></tr>
+<tr class="separator:abb433b3255350f52e1316a81c4e08cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a939555f0ef085620644788813c3e21ce"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data.html">LocalizationData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a939555f0ef085620644788813c3e21ce">DescriptionOverride</a> = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data.html">LocalizationData</a>&gt;()</td></tr>
+<tr class="separator:a939555f0ef085620644788813c3e21ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb0fc7a4b2f16fe7a11568d3e7fb2b30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#abb0fc7a4b2f16fe7a11568d3e7fb2b30">UnlockedBy</a></td></tr>
+<tr class="separator:abb0fc7a4b2f16fe7a11568d3e7fb2b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a173494b6b3c5134fde930b76951d1fa5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a173494b6b3c5134fde930b76951d1fa5">canBeUnlocked</a></td></tr>
+<tr class="separator:a173494b6b3c5134fde930b76951d1fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a872bcf615e0bbc379758e24923f99f70"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a872bcf615e0bbc379758e24923f99f70">ArtifactConstructorList</a> = new List&lt;<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&gt;()</td></tr>
+<tr class="separator:a872bcf615e0bbc379758e24923f99f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a5b2b58a5cf3d6ee57833c5b71961f50b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a5b2b58a5cf3d6ee57833c5b71961f50b">GetWeight</a><code> [get]</code></td></tr>
+<tr class="separator:a5b2b58a5cf3d6ee57833c5b71961f50b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5122e9a106c39b2819e54ce23a1feb3"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#ae5122e9a106c39b2819e54ce23a1feb3">GetLocalizationName</a><code> [get]</code></td></tr>
+<tr class="separator:ae5122e9a106c39b2819e54ce23a1feb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a166e60f2e234516bc24d478ba8c4893d" name="a166e60f2e234516bc24d478ba8c4893d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a166e60f2e234516bc24d478ba8c4893d">&#9670;&#160;</a></span>EArtifactDropPool</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893d">RogueGenesia.Data.ArtifactScriptableObject.EArtifactDropPool</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a166e60f2e234516bc24d478ba8c4893da5859831e2b3db23528c710b1451e13fc" name="a166e60f2e234516bc24d478ba8c4893da5859831e2b3db23528c710b1451e13fc"></a>Boss&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a166e60f2e234516bc24d478ba8c4893da080a546abcbea74459f27ba33313993d" name="a166e60f2e234516bc24d478ba8c4893da080a546abcbea74459f27ba33313993d"></a>Chest&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a166e60f2e234516bc24d478ba8c4893da64c6da2436465d11573858d46056b95d" name="a166e60f2e234516bc24d478ba8c4893da64c6da2436465d11573858d46056b95d"></a>Stage&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a166e60f2e234516bc24d478ba8c4893da9f82518d468b9fee614fcc92f76bb163" name="a166e60f2e234516bc24d478ba8c4893da9f82518d468b9fee614fcc92f76bb163"></a>Shop&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a166e60f2e234516bc24d478ba8c4893dab1c94ca2fbc3e78fc30069c8d0f01680" name="a166e60f2e234516bc24d478ba8c4893dab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ae284d305c379daf4308ab1ea6da43464" name="ae284d305c379daf4308ab1ea6da43464"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae284d305c379daf4308ab1ea6da43464">&#9670;&#160;</a></span>EArtifactMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#ae284d305c379daf4308ab1ea6da43464">RogueGenesia.Data.ArtifactScriptableObject.EArtifactMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae284d305c379daf4308ab1ea6da43464a6adf97f83acf6453d4a6a4b1070f3754" name="ae284d305c379daf4308ab1ea6da43464a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae284d305c379daf4308ab1ea6da43464abccaa235d0364318e9bc826fc64546f7" name="ae284d305c379daf4308ab1ea6da43464abccaa235d0364318e9bc826fc64546f7"></a>Survivors&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae284d305c379daf4308ab1ea6da43464a73c4a7d21c969bc589b3d0ad32b261be" name="ae284d305c379daf4308ab1ea6da43464a73c4a7d21c969bc589b3d0ad32b261be"></a>Rogs&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae284d305c379daf4308ab1ea6da43464ab1c94ca2fbc3e78fc30069c8d0f01680" name="ae284d305c379daf4308ab1ea6da43464ab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="afafd4f3398b4b3075ea7912c84f3c021" name="afafd4f3398b4b3075ea7912c84f3c021"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afafd4f3398b4b3075ea7912c84f3c021">&#9670;&#160;</a></span>GetArtifact()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html">Artifact</a> RogueGenesia.Data.ArtifactScriptableObject.GetArtifact </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adedda5e80ea3c0e9a114598c184e66e6" name="adedda5e80ea3c0e9a114598c184e66e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adedda5e80ea3c0e9a114598c184e66e6">&#9670;&#160;</a></span>GetArtifactFromName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html">Artifact</a> RogueGenesia.Data.ArtifactScriptableObject.GetArtifactFromName </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0402b88e81be4b865741f5eacf5ef66a" name="a0402b88e81be4b865741f5eacf5ef66a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0402b88e81be4b865741f5eacf5ef66a">&#9670;&#160;</a></span>GetConstructor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static ConstructorInfo RogueGenesia.Data.ArtifactScriptableObject.GetConstructor </td>
+          <td>(</td>
+          <td class="paramtype">System::Type&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ace986fa9ae836e087ece9c5b4b40396e" name="ace986fa9ae836e087ece9c5b4b40396e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace986fa9ae836e087ece9c5b4b40396e">&#9670;&#160;</a></span>GetDataValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.ArtifactScriptableObject.GetDataValue </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>dataName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a863bbf02c025863c73dc9f71a3fb8e1d" name="a863bbf02c025863c73dc9f71a3fb8e1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a863bbf02c025863c73dc9f71a3fb8e1d">&#9670;&#160;</a></span>GetMaximumWeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float RogueGenesia.Data.ArtifactScriptableObject.GetMaximumWeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad492f4268fee471a3257a31b3ed2a9a8" name="ad492f4268fee471a3257a31b3ed2a9a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad492f4268fee471a3257a31b3ed2a9a8">&#9670;&#160;</a></span>RegisterArtifact() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool RogueGenesia.Data.ArtifactScriptableObject.RegisterArtifact </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&#160;</td>
+          <td class="paramname"><em>typeToAdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adefa6c36c5805264d8f682662bd0b6f1" name="adefa6c36c5805264d8f682662bd0b6f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adefa6c36c5805264d8f682662bd0b6f1">&#9670;&#160;</a></span>RegisterArtifact() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.Data.ArtifactScriptableObject.RegisterArtifact </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ConstructorInfo&#160;</td>
+          <td class="paramname"><em>constructorInfo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a088e97ecc550d2275e79241cd757a3da" name="a088e97ecc550d2275e79241cd757a3da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a088e97ecc550d2275e79241cd757a3da">&#9670;&#160;</a></span>RegisterArtifact() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.Data.ArtifactScriptableObject.RegisterArtifact </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">System::Type&#160;</td>
+          <td class="paramname"><em>type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a872bcf615e0bbc379758e24923f99f70" name="a872bcf615e0bbc379758e24923f99f70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a872bcf615e0bbc379758e24923f99f70">&#9670;&#160;</a></span>ArtifactConstructorList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&gt; RogueGenesia.Data.ArtifactScriptableObject.ArtifactConstructorList = new List&lt;<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abecc1b0ec483f17341f289e1cd59b8dd" name="abecc1b0ec483f17341f289e1cd59b8dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abecc1b0ec483f17341f289e1cd59b8dd">&#9670;&#160;</a></span>artifactDropPool</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893d">EArtifactDropPool</a> RogueGenesia.Data.ArtifactScriptableObject.artifactDropPool = <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893dab1c94ca2fbc3e78fc30069c8d0f01680">EArtifactDropPool.All</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a91a98fec1a82ac46a276949ca250f6d3" name="a91a98fec1a82ac46a276949ca250f6d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91a98fec1a82ac46a276949ca250f6d3">&#9670;&#160;</a></span>ArtifactExclusion</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html">ArtifactScriptableObject</a> [] RogueGenesia.Data.ArtifactScriptableObject.ArtifactExclusion = new <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html">ArtifactScriptableObject</a>[0]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3f55c474ce5cefaf14f363349949b1c4" name="a3f55c474ce5cefaf14f363349949b1c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f55c474ce5cefaf14f363349949b1c4">&#9670;&#160;</a></span>artifactModeSpawn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#ae284d305c379daf4308ab1ea6da43464">EArtifactMode</a> RogueGenesia.Data.ArtifactScriptableObject.artifactModeSpawn = <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#ae284d305c379daf4308ab1ea6da43464ab1c94ca2fbc3e78fc30069c8d0f01680">EArtifactMode.All</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af3b16777b1c4553b730be1a64070fdae" name="af3b16777b1c4553b730be1a64070fdae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3b16777b1c4553b730be1a64070fdae">&#9670;&#160;</a></span>artifactType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_rogue_genesia_1_1_data.html#aaa9105a962017dc70f16a695f4a394b5">EArtifact</a> RogueGenesia.Data.ArtifactScriptableObject.artifactType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a26f19455cd9eb1283d1ea3f31a2ddd25" name="a26f19455cd9eb1283d1ea3f31a2ddd25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26f19455cd9eb1283d1ea3f31a2ddd25">&#9670;&#160;</a></span>artifactTypeString</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RogueGenesia.Data.ArtifactScriptableObject.artifactTypeString</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a173494b6b3c5134fde930b76951d1fa5" name="a173494b6b3c5134fde930b76951d1fa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a173494b6b3c5134fde930b76951d1fa5">&#9670;&#160;</a></span>canBeUnlocked</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.ArtifactScriptableObject.canBeUnlocked</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a01a447835b7e98820a50a194ed95c8e8" name="a01a447835b7e98820a50a194ed95c8e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01a447835b7e98820a50a194ed95c8e8">&#9670;&#160;</a></span>dataList</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_rogue_genesia_1_1_data_1_1_artifact_data.html">ArtifactData</a> [] RogueGenesia.Data.ArtifactScriptableObject.dataList = new <a class="el" href="struct_rogue_genesia_1_1_data_1_1_artifact_data.html">ArtifactData</a>[0]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a939555f0ef085620644788813c3e21ce" name="a939555f0ef085620644788813c3e21ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a939555f0ef085620644788813c3e21ce">&#9670;&#160;</a></span>DescriptionOverride</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data.html">LocalizationData</a>&gt; RogueGenesia.Data.ArtifactScriptableObject.DescriptionOverride = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data.html">LocalizationData</a>&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad31af9e42c14bff80bff2e23c85a677c" name="ad31af9e42c14bff80bff2e23c85a677c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad31af9e42c14bff80bff2e23c85a677c">&#9670;&#160;</a></span>DropWeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.ArtifactScriptableObject.DropWeight = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e7389e327b087f224442cc4ec262abb" name="a6e7389e327b087f224442cc4ec262abb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e7389e327b087f224442cc4ec262abb">&#9670;&#160;</a></span>EditorTest</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.ArtifactScriptableObject.EditorTest = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb5d39ad25a30aecb30a464ab99c6d2b" name="aeb5d39ad25a30aecb30a464ab99c6d2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb5d39ad25a30aecb30a464ab99c6d2b">&#9670;&#160;</a></span>MaxCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.ArtifactScriptableObject.MaxCount = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb433b3255350f52e1316a81c4e08cea" name="abb433b3255350f52e1316a81c4e08cea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb433b3255350f52e1316a81c4e08cea">&#9670;&#160;</a></span>NameOverride</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data.html">LocalizationData</a>&gt; RogueGenesia.Data.ArtifactScriptableObject.NameOverride = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data.html">LocalizationData</a>&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1ca6f84d502a74a3a36456225360939" name="ac1ca6f84d502a74a3a36456225360939"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1ca6f84d502a74a3a36456225360939">&#9670;&#160;</a></span>Texture</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Sprite RogueGenesia.Data.ArtifactScriptableObject.Texture</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a287d4ad44f1fbd6d2c1c8c109e57fdec" name="a287d4ad44f1fbd6d2c1c8c109e57fdec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a287d4ad44f1fbd6d2c1c8c109e57fdec">&#9670;&#160;</a></span>Unlocked</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.ArtifactScriptableObject.Unlocked = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb0fc7a4b2f16fe7a11568d3e7fb2b30" name="abb0fc7a4b2f16fe7a11568d3e7fb2b30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb0fc7a4b2f16fe7a11568d3e7fb2b30">&#9670;&#160;</a></span>UnlockedBy</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a> RogueGenesia.Data.ArtifactScriptableObject.UnlockedBy</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a37c4c23d107a2905b0d7bfed6a416042" name="a37c4c23d107a2905b0d7bfed6a416042"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37c4c23d107a2905b0d7bfed6a416042">&#9670;&#160;</a></span>UnlockedByDefault</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.ArtifactScriptableObject.UnlockedByDefault = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="ae5122e9a106c39b2819e54ce23a1feb3" name="ae5122e9a106c39b2819e54ce23a1feb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5122e9a106c39b2819e54ce23a1feb3">&#9670;&#160;</a></span>GetLocalizationName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RogueGenesia.Data.ArtifactScriptableObject.GetLocalizationName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5b2b58a5cf3d6ee57833c5b71961f50b" name="a5b2b58a5cf3d6ee57833c5b71961f50b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b2b58a5cf3d6ee57833c5b71961f50b">&#9670;&#160;</a></span>GetWeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.ArtifactScriptableObject.GetWeight</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/Artifact/ArtifactScriptableObject.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_data.html">Data</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html">ArtifactScriptableObject</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

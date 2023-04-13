@@ -1,0 +1,897 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue:Genesia API" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Rogue: Genesia API" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.UI.StatsPannel Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.UI.StatsPannel Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.UI.StatsPannel:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a51e050172c8107279a1cda60b13e2316"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a51e050172c8107279a1cda60b13e2316">OnAvatarDisplayTooltip</a> ()</td></tr>
+<tr class="separator:a51e050172c8107279a1cda60b13e2316"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a830d088126d9abd3837f5f675ad08e21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a830d088126d9abd3837f5f675ad08e21">OnAvatarHideTooltip</a> ()</td></tr>
+<tr class="separator:a830d088126d9abd3837f5f675ad08e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53819d07fe8a7fd8e15a20f7f5255270"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a53819d07fe8a7fd8e15a20f7f5255270">SetStatTooltip</a> (string stat)</td></tr>
+<tr class="separator:a53819d07fe8a7fd8e15a20f7f5255270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8c4e2d6b26549b925c321245c73951f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#aa8c4e2d6b26549b925c321245c73951f">DisplayToolTip</a> (GameObject text)</td></tr>
+<tr class="separator:aa8c4e2d6b26549b925c321245c73951f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d142c6162a0bd7575b86f2d330d2541"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a3d142c6162a0bd7575b86f2d330d2541">HideToolTip</a> ()</td></tr>
+<tr class="separator:a3d142c6162a0bd7575b86f2d330d2541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a412c94e89b9f8558884f471c325a629f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a412c94e89b9f8558884f471c325a629f">OnOpen</a> ()</td></tr>
+<tr class="separator:a412c94e89b9f8558884f471c325a629f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a837d4dd94e1956bb68f338223ed30c49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a837d4dd94e1956bb68f338223ed30c49">Update</a> ()</td></tr>
+<tr class="separator:a837d4dd94e1956bb68f338223ed30c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ae98546279dbcd5bb99d690ccf233754b"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#ae98546279dbcd5bb99d690ccf233754b">AvatarPannel</a></td></tr>
+<tr class="separator:ae98546279dbcd5bb99d690ccf233754b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6cb6d2f1b1ef15831f24827d3146a59"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#ac6cb6d2f1b1ef15831f24827d3146a59">AvatarName</a></td></tr>
+<tr class="separator:ac6cb6d2f1b1ef15831f24827d3146a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bcff2f4a88fa050266ae5125e11b5d5"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a9bcff2f4a88fa050266ae5125e11b5d5">AvatarDescription</a></td></tr>
+<tr class="separator:a9bcff2f4a88fa050266ae5125e11b5d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7141f66f1fb9337a52b661c0429e55af"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a7141f66f1fb9337a52b661c0429e55af">AvatarStats</a></td></tr>
+<tr class="separator:a7141f66f1fb9337a52b661c0429e55af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7411c21557b3687220a70d0bc01024d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_stats_tool_tip.html">StatsToolTip</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#aa7411c21557b3687220a70d0bc01024d">tooltip</a></td></tr>
+<tr class="separator:aa7411c21557b3687220a70d0bc01024d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c100511d20f9fb91c0ff4548e05e877"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a5c100511d20f9fb91c0ff4548e05e877">Level</a></td></tr>
+<tr class="separator:a5c100511d20f9fb91c0ff4548e05e877"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20e29cfad89b0ad8ffe9e55c103a587d"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a20e29cfad89b0ad8ffe9e55c103a587d">Health</a></td></tr>
+<tr class="separator:a20e29cfad89b0ad8ffe9e55c103a587d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3de80e15e4c38fa679db62e393eb9316"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a3de80e15e4c38fa679db62e393eb9316">Experience</a></td></tr>
+<tr class="separator:a3de80e15e4c38fa679db62e393eb9316"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace51ba153430f3f488157312001e1e39"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#ace51ba153430f3f488157312001e1e39">HealthRegen</a></td></tr>
+<tr class="separator:ace51ba153430f3f488157312001e1e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70af015e97a2e2892964572336af575f"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a70af015e97a2e2892964572336af575f">Damage</a></td></tr>
+<tr class="separator:a70af015e97a2e2892964572336af575f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6135f54888e6fa781e7897ddfbdf50e"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#af6135f54888e6fa781e7897ddfbdf50e">DefencePiercing</a></td></tr>
+<tr class="separator:af6135f54888e6fa781e7897ddfbdf50e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36e4ccc18901d908dacfb5ec9f606441"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a36e4ccc18901d908dacfb5ec9f606441">AttackSpeed</a></td></tr>
+<tr class="separator:a36e4ccc18901d908dacfb5ec9f606441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59b2db478d13e0201d214f5de8f32c71"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a59b2db478d13e0201d214f5de8f32c71">AdditionalProjectiles</a></td></tr>
+<tr class="separator:a59b2db478d13e0201d214f5de8f32c71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46b606a05249ea3ac02712b5072ab36f"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a46b606a05249ea3ac02712b5072ab36f">ProjectilePiercing</a></td></tr>
+<tr class="separator:a46b606a05249ea3ac02712b5072ab36f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac39f1a020f7c132d13feab1eb5611a55"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#ac39f1a020f7c132d13feab1eb5611a55">ProjectileSize</a></td></tr>
+<tr class="separator:ac39f1a020f7c132d13feab1eb5611a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69c4718d494c65005e34837c50cc3e29"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a69c4718d494c65005e34837c50cc3e29">ProjectileLifeTime</a></td></tr>
+<tr class="separator:a69c4718d494c65005e34837c50cc3e29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb492d342ade7f77d62666415e1893ab"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#abb492d342ade7f77d62666415e1893ab">ProjectileSpeed</a></td></tr>
+<tr class="separator:abb492d342ade7f77d62666415e1893ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a446ebd0a679fbabf4b51438b429f2051"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a446ebd0a679fbabf4b51438b429f2051">AreaSize</a></td></tr>
+<tr class="separator:a446ebd0a679fbabf4b51438b429f2051"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accf32113ec8e0699f06ec4cb8ae9cbeb"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#accf32113ec8e0699f06ec4cb8ae9cbeb">KnockBack</a></td></tr>
+<tr class="separator:accf32113ec8e0699f06ec4cb8ae9cbeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeccce070c5b1d8eb6fc3d8227a2882fb"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#aeccce070c5b1d8eb6fc3d8227a2882fb">CritChance</a></td></tr>
+<tr class="separator:aeccce070c5b1d8eb6fc3d8227a2882fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8365ace12c13b31964527acfcc6e2c27"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a8365ace12c13b31964527acfcc6e2c27">CritDamage</a></td></tr>
+<tr class="separator:a8365ace12c13b31964527acfcc6e2c27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a164dc2ec17f15fc69faf4fb3047ee095"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a164dc2ec17f15fc69faf4fb3047ee095">GoldMultiplier</a></td></tr>
+<tr class="separator:a164dc2ec17f15fc69faf4fb3047ee095"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a559dd68de892dd51b57fc62951049f"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a1a559dd68de892dd51b57fc62951049f">XPMultiplier</a></td></tr>
+<tr class="separator:a1a559dd68de892dd51b57fc62951049f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add7ee99d4d34e9ab79e7b8ab45c729cb"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#add7ee99d4d34e9ab79e7b8ab45c729cb">MoveSpeed</a></td></tr>
+<tr class="separator:add7ee99d4d34e9ab79e7b8ab45c729cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabaeac4b1aff967dcb163fb66b710c1d"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#aabaeac4b1aff967dcb163fb66b710c1d">PickupDistance</a></td></tr>
+<tr class="separator:aabaeac4b1aff967dcb163fb66b710c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f329e5f0a640dbfbb2dfe6325fc6a2f"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a3f329e5f0a640dbfbb2dfe6325fc6a2f">Defence</a></td></tr>
+<tr class="separator:a3f329e5f0a640dbfbb2dfe6325fc6a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fe4e78a5d71019cbffd2c9724ce51e7"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a2fe4e78a5d71019cbffd2c9724ce51e7">DamageMitigation</a></td></tr>
+<tr class="separator:a2fe4e78a5d71019cbffd2c9724ce51e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1554f275de282a87cd68014b96b9ac87"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a1554f275de282a87cd68014b96b9ac87">DashCharge</a></td></tr>
+<tr class="separator:a1554f275de282a87cd68014b96b9ac87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf19bd67dc16bd176c3cd0f5ec5435d3"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#abf19bd67dc16bd176c3cd0f5ec5435d3">DashCooldown</a></td></tr>
+<tr class="separator:abf19bd67dc16bd176c3cd0f5ec5435d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83a9122076b650686d56e63a2e89942b"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a83a9122076b650686d56e63a2e89942b">DashDelay</a></td></tr>
+<tr class="separator:a83a9122076b650686d56e63a2e89942b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21d1cefe85618374c92bd5a233b3ffc0"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a21d1cefe85618374c92bd5a233b3ffc0">DashChargeRate</a></td></tr>
+<tr class="separator:a21d1cefe85618374c92bd5a233b3ffc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8ca0d4a3d31ad96a20eca1ac8f04674"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#ab8ca0d4a3d31ad96a20eca1ac8f04674">Corruption</a></td></tr>
+<tr class="separator:ab8ca0d4a3d31ad96a20eca1ac8f04674"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb0f1def8f2230d45def5b7f3547287e"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#adb0f1def8f2230d45def5b7f3547287e">CharacterImage</a></td></tr>
+<tr class="separator:adb0f1def8f2230d45def5b7f3547287e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44f676b7d4e5a232e4d4000cb64c5e4e"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html#a44f676b7d4e5a232e4d4000cb64c5e4e">_stat</a></td></tr>
+<tr class="separator:a44f676b7d4e5a232e4d4000cb64c5e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa8c4e2d6b26549b925c321245c73951f" name="aa8c4e2d6b26549b925c321245c73951f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8c4e2d6b26549b925c321245c73951f">&#9670;&#160;</a></span>DisplayToolTip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.StatsPannel.DisplayToolTip </td>
+          <td>(</td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3d142c6162a0bd7575b86f2d330d2541" name="a3d142c6162a0bd7575b86f2d330d2541"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d142c6162a0bd7575b86f2d330d2541">&#9670;&#160;</a></span>HideToolTip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.StatsPannel.HideToolTip </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a51e050172c8107279a1cda60b13e2316" name="a51e050172c8107279a1cda60b13e2316"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51e050172c8107279a1cda60b13e2316">&#9670;&#160;</a></span>OnAvatarDisplayTooltip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.StatsPannel.OnAvatarDisplayTooltip </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a830d088126d9abd3837f5f675ad08e21" name="a830d088126d9abd3837f5f675ad08e21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a830d088126d9abd3837f5f675ad08e21">&#9670;&#160;</a></span>OnAvatarHideTooltip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.StatsPannel.OnAvatarHideTooltip </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a412c94e89b9f8558884f471c325a629f" name="a412c94e89b9f8558884f471c325a629f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a412c94e89b9f8558884f471c325a629f">&#9670;&#160;</a></span>OnOpen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.StatsPannel.OnOpen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a53819d07fe8a7fd8e15a20f7f5255270" name="a53819d07fe8a7fd8e15a20f7f5255270"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53819d07fe8a7fd8e15a20f7f5255270">&#9670;&#160;</a></span>SetStatTooltip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.StatsPannel.SetStatTooltip </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>stat</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a837d4dd94e1956bb68f338223ed30c49" name="a837d4dd94e1956bb68f338223ed30c49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a837d4dd94e1956bb68f338223ed30c49">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.StatsPannel.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a44f676b7d4e5a232e4d4000cb64c5e4e" name="a44f676b7d4e5a232e4d4000cb64c5e4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44f676b7d4e5a232e4d4000cb64c5e4e">&#9670;&#160;</a></span>_stat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RogueGenesia.UI.StatsPannel._stat</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a59b2db478d13e0201d214f5de8f32c71" name="a59b2db478d13e0201d214f5de8f32c71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59b2db478d13e0201d214f5de8f32c71">&#9670;&#160;</a></span>AdditionalProjectiles</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.AdditionalProjectiles</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a446ebd0a679fbabf4b51438b429f2051" name="a446ebd0a679fbabf4b51438b429f2051"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a446ebd0a679fbabf4b51438b429f2051">&#9670;&#160;</a></span>AreaSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.AreaSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a36e4ccc18901d908dacfb5ec9f606441" name="a36e4ccc18901d908dacfb5ec9f606441"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36e4ccc18901d908dacfb5ec9f606441">&#9670;&#160;</a></span>AttackSpeed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.AttackSpeed</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9bcff2f4a88fa050266ae5125e11b5d5" name="a9bcff2f4a88fa050266ae5125e11b5d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bcff2f4a88fa050266ae5125e11b5d5">&#9670;&#160;</a></span>AvatarDescription</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.AvatarDescription</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6cb6d2f1b1ef15831f24827d3146a59" name="ac6cb6d2f1b1ef15831f24827d3146a59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6cb6d2f1b1ef15831f24827d3146a59">&#9670;&#160;</a></span>AvatarName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.AvatarName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae98546279dbcd5bb99d690ccf233754b" name="ae98546279dbcd5bb99d690ccf233754b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae98546279dbcd5bb99d690ccf233754b">&#9670;&#160;</a></span>AvatarPannel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.StatsPannel.AvatarPannel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7141f66f1fb9337a52b661c0429e55af" name="a7141f66f1fb9337a52b661c0429e55af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7141f66f1fb9337a52b661c0429e55af">&#9670;&#160;</a></span>AvatarStats</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.AvatarStats</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb0f1def8f2230d45def5b7f3547287e" name="adb0f1def8f2230d45def5b7f3547287e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb0f1def8f2230d45def5b7f3547287e">&#9670;&#160;</a></span>CharacterImage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Image RogueGenesia.UI.StatsPannel.CharacterImage</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8ca0d4a3d31ad96a20eca1ac8f04674" name="ab8ca0d4a3d31ad96a20eca1ac8f04674"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8ca0d4a3d31ad96a20eca1ac8f04674">&#9670;&#160;</a></span>Corruption</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.Corruption</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeccce070c5b1d8eb6fc3d8227a2882fb" name="aeccce070c5b1d8eb6fc3d8227a2882fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeccce070c5b1d8eb6fc3d8227a2882fb">&#9670;&#160;</a></span>CritChance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.CritChance</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8365ace12c13b31964527acfcc6e2c27" name="a8365ace12c13b31964527acfcc6e2c27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8365ace12c13b31964527acfcc6e2c27">&#9670;&#160;</a></span>CritDamage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.CritDamage</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a70af015e97a2e2892964572336af575f" name="a70af015e97a2e2892964572336af575f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70af015e97a2e2892964572336af575f">&#9670;&#160;</a></span>Damage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.Damage</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2fe4e78a5d71019cbffd2c9724ce51e7" name="a2fe4e78a5d71019cbffd2c9724ce51e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fe4e78a5d71019cbffd2c9724ce51e7">&#9670;&#160;</a></span>DamageMitigation</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.DamageMitigation</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1554f275de282a87cd68014b96b9ac87" name="a1554f275de282a87cd68014b96b9ac87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1554f275de282a87cd68014b96b9ac87">&#9670;&#160;</a></span>DashCharge</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.DashCharge</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a21d1cefe85618374c92bd5a233b3ffc0" name="a21d1cefe85618374c92bd5a233b3ffc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21d1cefe85618374c92bd5a233b3ffc0">&#9670;&#160;</a></span>DashChargeRate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.DashChargeRate</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf19bd67dc16bd176c3cd0f5ec5435d3" name="abf19bd67dc16bd176c3cd0f5ec5435d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf19bd67dc16bd176c3cd0f5ec5435d3">&#9670;&#160;</a></span>DashCooldown</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.DashCooldown</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a83a9122076b650686d56e63a2e89942b" name="a83a9122076b650686d56e63a2e89942b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83a9122076b650686d56e63a2e89942b">&#9670;&#160;</a></span>DashDelay</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.DashDelay</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3f329e5f0a640dbfbb2dfe6325fc6a2f" name="a3f329e5f0a640dbfbb2dfe6325fc6a2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f329e5f0a640dbfbb2dfe6325fc6a2f">&#9670;&#160;</a></span>Defence</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.Defence</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af6135f54888e6fa781e7897ddfbdf50e" name="af6135f54888e6fa781e7897ddfbdf50e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6135f54888e6fa781e7897ddfbdf50e">&#9670;&#160;</a></span>DefencePiercing</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.DefencePiercing</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3de80e15e4c38fa679db62e393eb9316" name="a3de80e15e4c38fa679db62e393eb9316"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3de80e15e4c38fa679db62e393eb9316">&#9670;&#160;</a></span>Experience</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.Experience</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a164dc2ec17f15fc69faf4fb3047ee095" name="a164dc2ec17f15fc69faf4fb3047ee095"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a164dc2ec17f15fc69faf4fb3047ee095">&#9670;&#160;</a></span>GoldMultiplier</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.GoldMultiplier</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20e29cfad89b0ad8ffe9e55c103a587d" name="a20e29cfad89b0ad8ffe9e55c103a587d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20e29cfad89b0ad8ffe9e55c103a587d">&#9670;&#160;</a></span>Health</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.Health</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ace51ba153430f3f488157312001e1e39" name="ace51ba153430f3f488157312001e1e39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace51ba153430f3f488157312001e1e39">&#9670;&#160;</a></span>HealthRegen</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.HealthRegen</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="accf32113ec8e0699f06ec4cb8ae9cbeb" name="accf32113ec8e0699f06ec4cb8ae9cbeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accf32113ec8e0699f06ec4cb8ae9cbeb">&#9670;&#160;</a></span>KnockBack</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.KnockBack</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c100511d20f9fb91c0ff4548e05e877" name="a5c100511d20f9fb91c0ff4548e05e877"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c100511d20f9fb91c0ff4548e05e877">&#9670;&#160;</a></span>Level</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.Level</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add7ee99d4d34e9ab79e7b8ab45c729cb" name="add7ee99d4d34e9ab79e7b8ab45c729cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add7ee99d4d34e9ab79e7b8ab45c729cb">&#9670;&#160;</a></span>MoveSpeed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.MoveSpeed</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aabaeac4b1aff967dcb163fb66b710c1d" name="aabaeac4b1aff967dcb163fb66b710c1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabaeac4b1aff967dcb163fb66b710c1d">&#9670;&#160;</a></span>PickupDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.PickupDistance</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69c4718d494c65005e34837c50cc3e29" name="a69c4718d494c65005e34837c50cc3e29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c4718d494c65005e34837c50cc3e29">&#9670;&#160;</a></span>ProjectileLifeTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.ProjectileLifeTime</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a46b606a05249ea3ac02712b5072ab36f" name="a46b606a05249ea3ac02712b5072ab36f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46b606a05249ea3ac02712b5072ab36f">&#9670;&#160;</a></span>ProjectilePiercing</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.ProjectilePiercing</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac39f1a020f7c132d13feab1eb5611a55" name="ac39f1a020f7c132d13feab1eb5611a55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac39f1a020f7c132d13feab1eb5611a55">&#9670;&#160;</a></span>ProjectileSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.ProjectileSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb492d342ade7f77d62666415e1893ab" name="abb492d342ade7f77d62666415e1893ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb492d342ade7f77d62666415e1893ab">&#9670;&#160;</a></span>ProjectileSpeed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.ProjectileSpeed</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa7411c21557b3687220a70d0bc01024d" name="aa7411c21557b3687220a70d0bc01024d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7411c21557b3687220a70d0bc01024d">&#9670;&#160;</a></span>tooltip</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_stats_tool_tip.html">StatsToolTip</a> RogueGenesia.UI.StatsPannel.tooltip</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a559dd68de892dd51b57fc62951049f" name="a1a559dd68de892dd51b57fc62951049f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a559dd68de892dd51b57fc62951049f">&#9670;&#160;</a></span>XPMultiplier</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.StatsPannel.XPMultiplier</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/CustomUi/PauseMenu/StatsPannel.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_u_i.html">UI</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_stats_pannel.html">StatsPannel</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

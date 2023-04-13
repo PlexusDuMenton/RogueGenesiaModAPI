@@ -1,0 +1,1424 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue:Genesia API" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Rogue: Genesia API" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.Data.MonsterAbility Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_data_1_1_monster_ability.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
+<a href="class_rogue_genesia_1_1_data_1_1_monster_ability-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.Data.MonsterAbility Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.Data.MonsterAbility:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a3ef2f4cc9673771225273d74d6380106"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a3ef2f4cc9673771225273d74d6380106">EMonsterAbilityFlag</a> { <br />
+&#160;&#160;<a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a3ef2f4cc9673771225273d74d6380106af80bc338b6146b566004a046f8137c85">Passive</a> = 1
+, <a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a3ef2f4cc9673771225273d74d6380106a4d3d769b812b6faa6b76e1a8abaece2d">Active</a> = 2
+, <a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a3ef2f4cc9673771225273d74d6380106a54828f327f31abd59f2f459c0247756d">Instant</a> = 4
+, <a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a3ef2f4cc9673771225273d74d6380106aad629df4b2315c1481c5d1dff55f49ea">IsChanneled</a> = 8
+, <br />
+&#160;&#160;<a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a3ef2f4cc9673771225273d74d6380106a605443920d564b6b61181dc0ca701024">CoolDownStartOnActivate</a> = 32
+<br />
+ }</td></tr>
+<tr class="separator:a3ef2f4cc9673771225273d74d6380106"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a21b49c7e15f14d2b0f9a776df4f62ae3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a21b49c7e15f14d2b0f9a776df4f62ae3">OnAbilityAdded</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster)</td></tr>
+<tr class="separator:a21b49c7e15f14d2b0f9a776df4f62ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82d20555b0fecc449327b42bf9e78462"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a82d20555b0fecc449327b42bf9e78462">OnDamageEntity</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster, <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a> EntityAttacked, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a> damageInformation)</td></tr>
+<tr class="separator:a82d20555b0fecc449327b42bf9e78462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20dcfa93bbe4d90bc11cdcf085b8b001"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a20dcfa93bbe4d90bc11cdcf085b8b001">OnUpdate</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster)</td></tr>
+<tr class="separator:a20dcfa93bbe4d90bc11cdcf085b8b001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cad122f5de516eda9429b912bcf415a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a3cad122f5de516eda9429b912bcf415a">OnStartCast</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster)</td></tr>
+<tr class="separator:a3cad122f5de516eda9429b912bcf415a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c0853f35763109ce98b6346fff949d4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a8c0853f35763109ce98b6346fff949d4">OnActivate</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster)</td></tr>
+<tr class="separator:a8c0853f35763109ce98b6346fff949d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fe7703e6c3e45abf21641d802a0aa39"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a9fe7703e6c3e45abf21641d802a0aa39">OnMonsterPreTakeDamage</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster, ref <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a> damageInfo)</td></tr>
+<tr class="separator:a9fe7703e6c3e45abf21641d802a0aa39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8206b9c2f1afc20ddc26cda08fb7b66a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a8206b9c2f1afc20ddc26cda08fb7b66a">OnMonsterTakeDamage</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a> damageInfo)</td></tr>
+<tr class="separator:a8206b9c2f1afc20ddc26cda08fb7b66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abed4846b34e747da8719fd10358a612e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#abed4846b34e747da8719fd10358a612e">OnMonsterDeath</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster, <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a> killer)</td></tr>
+<tr class="separator:abed4846b34e747da8719fd10358a612e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e179ddcfa9854ce50bf5e46f4504317"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a2e179ddcfa9854ce50bf5e46f4504317">OnCasting</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster)</td></tr>
+<tr class="separator:a2e179ddcfa9854ce50bf5e46f4504317"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea96b5e74f487904a19455f7bbda65d5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#aea96b5e74f487904a19455f7bbda65d5">OnChannelling</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster)</td></tr>
+<tr class="separator:aea96b5e74f487904a19455f7bbda65d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd2e71614874904b7773850865e7e802"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#abd2e71614874904b7773850865e7e802">OnStartChannelling</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster)</td></tr>
+<tr class="separator:abd2e71614874904b7773850865e7e802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af204189d617dd9405d655869433a6dd4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#af204189d617dd9405d655869433a6dd4">OnEndChannelling</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster)</td></tr>
+<tr class="separator:af204189d617dd9405d655869433a6dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31e734616770c0372549eca27e36342d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a31e734616770c0372549eca27e36342d">OnEnd</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster)</td></tr>
+<tr class="separator:a31e734616770c0372549eca27e36342d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaf64e06f2c07ffd3cfe7cbc020f6345"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#abaf64e06f2c07ffd3cfe7cbc020f6345">IsReady</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster)</td></tr>
+<tr class="separator:abaf64e06f2c07ffd3cfe7cbc020f6345"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f74cd472964574db5640a8480d6be15"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a3f74cd472964574db5640a8480d6be15">IsReadyToCast</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster)</td></tr>
+<tr class="separator:a3f74cd472964574db5640a8480d6be15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f400b41a85c8cf4424cff646fd4797c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a9f400b41a85c8cf4424cff646fd4797c">IsChannelling</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster)</td></tr>
+<tr class="separator:a9f400b41a85c8cf4424cff646fd4797c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01ca01cc6a71aac0adcb23b46bbd0d0f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a01ca01cc6a71aac0adcb23b46bbd0d0f">IsUsingThisAbility</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster)</td></tr>
+<tr class="separator:a01ca01cc6a71aac0adcb23b46bbd0d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62581cfabd9eb8dbf7cbfcb1a2a9d2c9"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a62581cfabd9eb8dbf7cbfcb1a2a9d2c9">DoDisplayAbilityIcon</a> ()</td></tr>
+<tr class="separator:a62581cfabd9eb8dbf7cbfcb1a2a9d2c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea0a09792fea080c7b8b4732504e2a2d"><td class="memItemLeft" align="right" valign="top">virtual Texture2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#aea0a09792fea080c7b8b4732504e2a2d">GetAbilityIcon</a> ()</td></tr>
+<tr class="separator:aea0a09792fea080c7b8b4732504e2a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a78926f0be961289d5b9e8e329839ae84"><td class="memItemLeft" align="right" valign="top">static ConstructorInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a78926f0be961289d5b9e8e329839ae84">GetAbilityConstructor</a> (string name)</td></tr>
+<tr class="separator:a78926f0be961289d5b9e8e329839ae84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16dafd53eb8adb7d075c3de3c0920682"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a16dafd53eb8adb7d075c3de3c0920682">RegisterAbility</a> (string name, ConstructorInfo constructorInfo)</td></tr>
+<tr class="separator:a16dafd53eb8adb7d075c3de3c0920682"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addd5d706d50c15d6a7bca7ea30dd2dde"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#addd5d706d50c15d6a7bca7ea30dd2dde">RegisterAbility</a> (<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a> typeToAdd)</td></tr>
+<tr class="separator:addd5d706d50c15d6a7bca7ea30dd2dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a0b5bd9a56f374d36b4d97f6c6584cf54"><td class="memItemLeft" align="right" valign="top">UnityEngine.UI.RawImage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a0b5bd9a56f374d36b4d97f6c6584cf54">LinkedIcon</a> = null</td></tr>
+<tr class="separator:a0b5bd9a56f374d36b4d97f6c6584cf54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:adb90259f00364cfa78a50eca512a7ead"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#adb90259f00364cfa78a50eca512a7ead">AbilityTypeList</a> = new List&lt;<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&gt;()</td></tr>
+<tr class="separator:adb90259f00364cfa78a50eca512a7ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af183f83b6c90fa82e9b7aaa8eec92ba8"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html">MonsterAbility</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#af183f83b6c90fa82e9b7aaa8eec92ba8">GeneralAbilityList</a> = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html">MonsterAbility</a>&gt;()</td></tr>
+<tr class="separator:af183f83b6c90fa82e9b7aaa8eec92ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a68bbe9f9740b695038a6784cdd5ffe4d"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a68bbe9f9740b695038a6784cdd5ffe4d">getGeneralAbilityTag</a> ()</td></tr>
+<tr class="separator:a68bbe9f9740b695038a6784cdd5ffe4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a5453affc122fe90a84ef7d23ada81f4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a3ef2f4cc9673771225273d74d6380106">EMonsterAbilityFlag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a5453affc122fe90a84ef7d23ada81f4b">_abilityFlag</a></td></tr>
+<tr class="separator:a5453affc122fe90a84ef7d23ada81f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec1bf0e5e1ec45715dcfee437f0d3c7a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#aec1bf0e5e1ec45715dcfee437f0d3c7a">_coolDown</a></td></tr>
+<tr class="separator:aec1bf0e5e1ec45715dcfee437f0d3c7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd395c800df59aaf62948ee6a9628f70"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#afd395c800df59aaf62948ee6a9628f70">_coolDownLeft</a></td></tr>
+<tr class="separator:afd395c800df59aaf62948ee6a9628f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e881c13f959a34d4d066ec3583cf241"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a9e881c13f959a34d4d066ec3583cf241">_castWeight</a> = 1</td></tr>
+<tr class="separator:a9e881c13f959a34d4d066ec3583cf241"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad28b26f353d3d0f33304489c48afc274"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#ad28b26f353d3d0f33304489c48afc274">_castTime</a></td></tr>
+<tr class="separator:ad28b26f353d3d0f33304489c48afc274"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af14d8f8ead0e8d4c6bc4e256699b9411"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#af14d8f8ead0e8d4c6bc4e256699b9411">_castTimeLeft</a></td></tr>
+<tr class="separator:af14d8f8ead0e8d4c6bc4e256699b9411"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70026f419600f49bd6e784af6bd2b3fd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a70026f419600f49bd6e784af6bd2b3fd">_channelTime</a></td></tr>
+<tr class="separator:a70026f419600f49bd6e784af6bd2b3fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e96785dd1047dcfbc2bf87d24a5d1f4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a7e96785dd1047dcfbc2bf87d24a5d1f4">_channelTimeLeft</a></td></tr>
+<tr class="separator:a7e96785dd1047dcfbc2bf87d24a5d1f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7303d9c1a646d94819317a598ebbc9e9"><td class="memItemLeft" align="right" valign="top">Texture2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a7303d9c1a646d94819317a598ebbc9e9">_abilityIcon</a> = null</td></tr>
+<tr class="separator:a7303d9c1a646d94819317a598ebbc9e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:a13403dc1e5b1c2fdd1ca09a29ce8ac24"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a13403dc1e5b1c2fdd1ca09a29ce8ac24">RessourceEnemy</a> = &quot;ScriptableObject/Enemy/EnemyList/&quot;</td></tr>
+<tr class="separator:a13403dc1e5b1c2fdd1ca09a29ce8ac24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:aa17be0fe90af90e20d431879aac82d90"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#aa17be0fe90af90e20d431879aac82d90">GeneralAbilityTag</a><code> [get]</code></td></tr>
+<tr class="separator:aa17be0fe90af90e20d431879aac82d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa267a41fa840a163260138a798394e08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a3ef2f4cc9673771225273d74d6380106">EMonsterAbilityFlag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#aa267a41fa840a163260138a798394e08">getAbilityFlag</a><code> [get]</code></td></tr>
+<tr class="separator:aa267a41fa840a163260138a798394e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fa13b4ef5e538ff958152c551f89928"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a4fa13b4ef5e538ff958152c551f89928">getCoolDown</a><code> [get]</code></td></tr>
+<tr class="separator:a4fa13b4ef5e538ff958152c551f89928"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1d90e5eb0a3f95a277972b4612cd090"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#ae1d90e5eb0a3f95a277972b4612cd090">castWeight</a><code> [get, set]</code></td></tr>
+<tr class="separator:ae1d90e5eb0a3f95a277972b4612cd090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4d50a0428525a357d74dad5a386241d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#ad4d50a0428525a357d74dad5a386241d">castTimeLeft</a><code> [get]</code></td></tr>
+<tr class="separator:ad4d50a0428525a357d74dad5a386241d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a7d9a98d9400b23442fe980dc169412"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a7a7d9a98d9400b23442fe980dc169412">channelTimeLeft</a><code> [get]</code></td></tr>
+<tr class="separator:a7a7d9a98d9400b23442fe980dc169412"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6db7e2bf3c967b4fde2982ced12e5158"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a6db7e2bf3c967b4fde2982ced12e5158">displayAbilityIcon</a><code> [get]</code></td></tr>
+<tr class="separator:a6db7e2bf3c967b4fde2982ced12e5158"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a3ef2f4cc9673771225273d74d6380106" name="a3ef2f4cc9673771225273d74d6380106"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ef2f4cc9673771225273d74d6380106">&#9670;&#160;</a></span>EMonsterAbilityFlag</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a3ef2f4cc9673771225273d74d6380106">RogueGenesia.Data.MonsterAbility.EMonsterAbilityFlag</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3ef2f4cc9673771225273d74d6380106af80bc338b6146b566004a046f8137c85" name="a3ef2f4cc9673771225273d74d6380106af80bc338b6146b566004a046f8137c85"></a>Passive&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3ef2f4cc9673771225273d74d6380106a4d3d769b812b6faa6b76e1a8abaece2d" name="a3ef2f4cc9673771225273d74d6380106a4d3d769b812b6faa6b76e1a8abaece2d"></a>Active&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3ef2f4cc9673771225273d74d6380106a54828f327f31abd59f2f459c0247756d" name="a3ef2f4cc9673771225273d74d6380106a54828f327f31abd59f2f459c0247756d"></a>Instant&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3ef2f4cc9673771225273d74d6380106aad629df4b2315c1481c5d1dff55f49ea" name="a3ef2f4cc9673771225273d74d6380106aad629df4b2315c1481c5d1dff55f49ea"></a>IsChanneled&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3ef2f4cc9673771225273d74d6380106a605443920d564b6b61181dc0ca701024" name="a3ef2f4cc9673771225273d74d6380106a605443920d564b6b61181dc0ca701024"></a>CoolDownStartOnActivate&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a62581cfabd9eb8dbf7cbfcb1a2a9d2c9" name="a62581cfabd9eb8dbf7cbfcb1a2a9d2c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62581cfabd9eb8dbf7cbfcb1a2a9d2c9">&#9670;&#160;</a></span>DoDisplayAbilityIcon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool RogueGenesia.Data.MonsterAbility.DoDisplayAbilityIcon </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_general_ability.html#ae34ff345d1e590bc4ead0be6cdc2e431">RogueGenesia.Data.GeneralAbility</a>.</p>
+
+</div>
+</div>
+<a id="a78926f0be961289d5b9e8e329839ae84" name="a78926f0be961289d5b9e8e329839ae84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78926f0be961289d5b9e8e329839ae84">&#9670;&#160;</a></span>GetAbilityConstructor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static ConstructorInfo RogueGenesia.Data.MonsterAbility.GetAbilityConstructor </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aea0a09792fea080c7b8b4732504e2a2d" name="aea0a09792fea080c7b8b4732504e2a2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea0a09792fea080c7b8b4732504e2a2d">&#9670;&#160;</a></span>GetAbilityIcon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Texture2D RogueGenesia.Data.MonsterAbility.GetAbilityIcon </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_general_ability.html#a0ef937cba50ccf2340ba53e042b4a1ed">RogueGenesia.Data.GeneralAbility</a>.</p>
+
+</div>
+</div>
+<a id="a68bbe9f9740b695038a6784cdd5ffe4d" name="a68bbe9f9740b695038a6784cdd5ffe4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68bbe9f9740b695038a6784cdd5ffe4d">&#9670;&#160;</a></span>getGeneralAbilityTag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string RogueGenesia.Data.MonsterAbility.getGeneralAbilityTag </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_agile_ability.html#a938cc965395da0d3aa6cbd942e7c3447">RogueGenesia.Data.AgileAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_berserker_ability.html#a0b10854618cf5e0983d331a8b915459f">RogueGenesia.Data.BerserkerAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_life_link.html#a02da466580f7fd7e72b04ca66e0f49c6">RogueGenesia.Data.LifeLink</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_life_regen.html#a1c3db15d3410ee2f655c8a2de54b9ba0">RogueGenesia.Data.LifeRegen</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_martyr_ability.html#ab6c360521c7423882de876ba0c89ebb7">RogueGenesia.Data.MartyrAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_poisonous_ability.html#a26eb7c9a836ccc5ef28617f94b65ff98">RogueGenesia.Data.PoisonousAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_prophet_ability.html#af586e91656ba08125195c56c6a6294b7">RogueGenesia.Data.ProphetAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rifted_ability.html#aace7adba80faca87c4460be330b8c167">RogueGenesia.Data.RiftedAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_split_on_death.html#ada4160d5d14cd039f34f7dfb8cfe0e57">RogueGenesia.Data.SplitOnDeath</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_vampire_ability.html#ae35768b37a66324c13e45c47c2b2a75d">RogueGenesia.Data.VampireAbility</a>.</p>
+
+</div>
+</div>
+<a id="a9f400b41a85c8cf4424cff646fd4797c" name="a9f400b41a85c8cf4424cff646fd4797c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f400b41a85c8cf4424cff646fd4797c">&#9670;&#160;</a></span>IsChannelling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool RogueGenesia.Data.MonsterAbility.IsChannelling </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td>
+          <td class="paramname"><em>monster</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abaf64e06f2c07ffd3cfe7cbc020f6345" name="abaf64e06f2c07ffd3cfe7cbc020f6345"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaf64e06f2c07ffd3cfe7cbc020f6345">&#9670;&#160;</a></span>IsReady()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool RogueGenesia.Data.MonsterAbility.IsReady </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td>
+          <td class="paramname"><em>monster</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3f74cd472964574db5640a8480d6be15" name="a3f74cd472964574db5640a8480d6be15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f74cd472964574db5640a8480d6be15">&#9670;&#160;</a></span>IsReadyToCast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool RogueGenesia.Data.MonsterAbility.IsReadyToCast </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td>
+          <td class="paramname"><em>monster</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_blink_storm.html#a1b021b33755f1427faa1bde7c6e8ec20">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanBlinkStorm</a>.</p>
+
+</div>
+</div>
+<a id="a01ca01cc6a71aac0adcb23b46bbd0d0f" name="a01ca01cc6a71aac0adcb23b46bbd0d0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01ca01cc6a71aac0adcb23b46bbd0d0f">&#9670;&#160;</a></span>IsUsingThisAbility()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool RogueGenesia.Data.MonsterAbility.IsUsingThisAbility </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td>
+          <td class="paramname"><em>monster</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a21b49c7e15f14d2b0f9a776df4f62ae3" name="a21b49c7e15f14d2b0f9a776df4f62ae3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21b49c7e15f14d2b0f9a776df4f62ae3">&#9670;&#160;</a></span>OnAbilityAdded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.MonsterAbility.OnAbilityAdded </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td>
+          <td class="paramname"><em>monster</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_life_link.html#a727745c3652974068a67ad101995e869">RogueGenesia.Data.LifeLink</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_life_regen.html#a631d95cbdf128613ca820eb60f1ed6f1">RogueGenesia.Data.LifeRegen</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_vampire_ability.html#a9ada00dc40f9d0aaa73b4a132d5f777f">RogueGenesia.Data.VampireAbility</a>.</p>
+
+</div>
+</div>
+<a id="a8c0853f35763109ce98b6346fff949d4" name="a8c0853f35763109ce98b6346fff949d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c0853f35763109ce98b6346fff949d4">&#9670;&#160;</a></span>OnActivate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.MonsterAbility.OnActivate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td>
+          <td class="paramname"><em>monster</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_planetery_proj_walk_ability.html#acc03513f3d495453debcff2adb5219f1">RogueGenesia.Actors.Survival.NecroPlaneteryProjWalkAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_walk_ability.html#a9d87408cb762a03da0f15a37c7c3a93a">RogueGenesia.Actors.Survival.NecroSummonWalkAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_lazor_shaman_ability.html#a0cbc02582b468201f726ab5f5fc6f919">RogueGenesia.Actors.Survival.BossAbility.Shaman.LazorShamanAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_blink.html#aa2fd25074a8db856f4af2a6d9fd4fe33">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanBlink</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_blink_storm.html#ad33d0193bd8d75b4c7b3dadf923831ed">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanBlinkStorm</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet.html#ace5d621b844807250b087ddad031e2f6">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBullet</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet_storm.html#a097599e1e3cd68eb631075ab154fc444">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBulletStorm</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_summon_goblin_ability.html#a630072cdd3c7b5eb69f8f67f3c296ee4">RogueGenesia.Actors.Survival.BossAbility.Shaman.SummonGoblinAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_spit_worm_ability.html#a9b9fdbec610ae7bde90d9725ad5f9cab">RogueGenesia.Actors.Survival.BossAbility.Worm.SpitWormAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_summon_worm_ability.html#a6284f11ea17da694f49bed9dc66d5e8b">RogueGenesia.Actors.Survival.BossAbility.Worm.SummonWormAbility</a>.</p>
+
+</div>
+</div>
+<a id="a2e179ddcfa9854ce50bf5e46f4504317" name="a2e179ddcfa9854ce50bf5e46f4504317"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e179ddcfa9854ce50bf5e46f4504317">&#9670;&#160;</a></span>OnCasting()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.MonsterAbility.OnCasting </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td>
+          <td class="paramname"><em>monster</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_end_fly_ability.html#a93b414c0332310b954e3dae847752f3b">RogueGenesia.Actors.Survival.NecroEndFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_magic_missile_fly_ability.html#a246cd4714c6183e1ea3dcfadfb1fce24">RogueGenesia.Actors.Survival.NecroMagicMissileFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_spit_fly_ability.html#ae71d93f8e998d6c3399281f7dc5fbbe8">RogueGenesia.Actors.Survival.NecroSpitFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_start_fly_ability.html#aa7acf197ac195ad1b51df4abf51f1c4e">RogueGenesia.Actors.Survival.NecroStartFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a109da01221aaf6a59f876ba98424f6e9">RogueGenesia.Actors.Survival.NecroSummonFlyAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_fractal_balls_ability.html#a02969b2baed0b7f78218dc24b3d5307f">RogueGenesia.Actors.Survival.BossAbility.Shaman.FractalBallsAbility</a>.</p>
+
+</div>
+</div>
+<a id="aea96b5e74f487904a19455f7bbda65d5" name="aea96b5e74f487904a19455f7bbda65d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea96b5e74f487904a19455f7bbda65d5">&#9670;&#160;</a></span>OnChannelling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.MonsterAbility.OnChannelling </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td>
+          <td class="paramname"><em>monster</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_magic_missile_fly_ability.html#a03ee96696de0ed2f613cb9a96f6a8d0a">RogueGenesia.Actors.Survival.NecroMagicMissileFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a2dce9684e28c175405922fe0b8968060">RogueGenesia.Actors.Survival.NecroSummonFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_blink_storm.html#a6cc9d36b4c12b2167f77a8ca0b346cc8">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanBlinkStorm</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet_storm.html#a5a25f7c53162d6fda53e1986a4102128">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBulletStorm</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_dash_worm_ability.html#aa88beacfdd934205f0727a243730800d">RogueGenesia.Actors.Survival.BossAbility.Worm.DashWormAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_summon_worm_ability.html#ace31ba50aa6f644c1b000261cd6a6c12">RogueGenesia.Actors.Survival.BossAbility.Worm.SummonWormAbility</a>.</p>
+
+</div>
+</div>
+<a id="a82d20555b0fecc449327b42bf9e78462" name="a82d20555b0fecc449327b42bf9e78462"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82d20555b0fecc449327b42bf9e78462">&#9670;&#160;</a></span>OnDamageEntity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.MonsterAbility.OnDamageEntity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td>
+          <td class="paramname"><em>monster</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a>&#160;</td>
+          <td class="paramname"><em>EntityAttacked</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a>&#160;</td>
+          <td class="paramname"><em>damageInformation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_poisonous_ability.html#a837733afccdb19d50c9864b6e00253d3">RogueGenesia.Data.PoisonousAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_vampire_ability.html#a42874f37ddf8671ae724c5a684d2b9c4">RogueGenesia.Data.VampireAbility</a>.</p>
+
+</div>
+</div>
+<a id="a31e734616770c0372549eca27e36342d" name="a31e734616770c0372549eca27e36342d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31e734616770c0372549eca27e36342d">&#9670;&#160;</a></span>OnEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.MonsterAbility.OnEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td>
+          <td class="paramname"><em>monster</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_end_fly_ability.html#a336df1909ad93d3eaf2a641bd664d89e">RogueGenesia.Actors.Survival.NecroEndFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_start_fly_ability.html#a31016660793b6e09e0abdd60dbf2abed">RogueGenesia.Actors.Survival.NecroStartFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#aab467030e5736f7f32693851c4183dff">RogueGenesia.Actors.Survival.NecroSummonFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_buff_shaman_ability.html#a3ccb524a8537f882337e2e6eedb3a4ca">RogueGenesia.Actors.Survival.BossAbility.Shaman.BuffShamanAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_dash_worm_ability.html#ad03206900b82a9ea47f660507e5375dc">RogueGenesia.Actors.Survival.BossAbility.Worm.DashWormAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_summon_worm_ability.html#ae6e61e6b239056687daf4eef3639c7bf">RogueGenesia.Actors.Survival.BossAbility.Worm.SummonWormAbility</a>.</p>
+
+</div>
+</div>
+<a id="af204189d617dd9405d655869433a6dd4" name="af204189d617dd9405d655869433a6dd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af204189d617dd9405d655869433a6dd4">&#9670;&#160;</a></span>OnEndChannelling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.MonsterAbility.OnEndChannelling </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td>
+          <td class="paramname"><em>monster</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abed4846b34e747da8719fd10358a612e" name="abed4846b34e747da8719fd10358a612e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abed4846b34e747da8719fd10358a612e">&#9670;&#160;</a></span>OnMonsterDeath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.MonsterAbility.OnMonsterDeath </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td>
+          <td class="paramname"><em>monster</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a>&#160;</td>
+          <td class="paramname"><em>killer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet_storm.html#a5f661c75727618b82c51745b72523cf1">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBulletStorm</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_martyr_ability.html#af73850c5d248a4a59b9dfea7234db237">RogueGenesia.Data.MartyrAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_split_on_death.html#aaf728a42b53257d57ef8929216e158d8">RogueGenesia.Data.SplitOnDeath</a>.</p>
+
+</div>
+</div>
+<a id="a9fe7703e6c3e45abf21641d802a0aa39" name="a9fe7703e6c3e45abf21641d802a0aa39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fe7703e6c3e45abf21641d802a0aa39">&#9670;&#160;</a></span>OnMonsterPreTakeDamage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.MonsterAbility.OnMonsterPreTakeDamage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td>
+          <td class="paramname"><em>monster</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a>&#160;</td>
+          <td class="paramname"><em>damageInfo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_agile_ability.html#ad5cee70e00e6ffaaa6abbfbda5236664">RogueGenesia.Data.AgileAbility</a>.</p>
+
+</div>
+</div>
+<a id="a8206b9c2f1afc20ddc26cda08fb7b66a" name="a8206b9c2f1afc20ddc26cda08fb7b66a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8206b9c2f1afc20ddc26cda08fb7b66a">&#9670;&#160;</a></span>OnMonsterTakeDamage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.MonsterAbility.OnMonsterTakeDamage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td>
+          <td class="paramname"><em>monster</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a>&#160;</td>
+          <td class="paramname"><em>damageInfo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_life_link.html#ad3c22e36b1a707745d2291d19a8527cf">RogueGenesia.Data.LifeLink</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_prophet_ability.html#a843b8c936ec573f0403f47802e709a2d">RogueGenesia.Data.ProphetAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_rifted_ability.html#a051ba6e3d037160ce4a2c047936096f3">RogueGenesia.Data.RiftedAbility</a>.</p>
+
+</div>
+</div>
+<a id="a3cad122f5de516eda9429b912bcf415a" name="a3cad122f5de516eda9429b912bcf415a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cad122f5de516eda9429b912bcf415a">&#9670;&#160;</a></span>OnStartCast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.MonsterAbility.OnStartCast </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td>
+          <td class="paramname"><em>monster</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_end_fly_ability.html#ac590fd3174302dbf237dc1360a79d9a0">RogueGenesia.Actors.Survival.NecroEndFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_magic_missile_fly_ability.html#a737e517d2a61da6f9319ac9561eb0d40">RogueGenesia.Actors.Survival.NecroMagicMissileFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_spit_fly_ability.html#aa43e62fc56ab87b2a123060d064780e7">RogueGenesia.Actors.Survival.NecroSpitFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_start_fly_ability.html#a02fd037b650e151f4d90937aaa421989">RogueGenesia.Actors.Survival.NecroStartFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a15583286f703c7d978a2e59b9b220719">RogueGenesia.Actors.Survival.NecroSummonFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_walk_ability.html#abfe2235ebbf6628283b0905cb4af63fb">RogueGenesia.Actors.Survival.NecroSummonWalkAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_buff_shaman_ability.html#acb1fc519ef3d9a33f989190eeb903a89">RogueGenesia.Actors.Survival.BossAbility.Shaman.BuffShamanAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_fractal_balls_ability.html#ab5fafccd2b6a5108828230de058c37f5">RogueGenesia.Actors.Survival.BossAbility.Shaman.FractalBallsAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_blink_storm.html#ade39679fe1723ac007ff1533ba659985">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanBlinkStorm</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet.html#a32c9f25d3e2bc85e51629297e53223f5">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBullet</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet_storm.html#a153353abc495ab1a2e5a32ca9645111c">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBulletStorm</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_summon_goblin_ability.html#ae9cacf69324759c4862d8cbf46a34eda">RogueGenesia.Actors.Survival.BossAbility.Shaman.SummonGoblinAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_dash_worm_ability.html#afcbb8a78c7802c0432ea5dbdecd87f7c">RogueGenesia.Actors.Survival.BossAbility.Worm.DashWormAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_spit_worm_ability.html#a0076f5a4e7836b63dd79da2030bab5c5">RogueGenesia.Actors.Survival.BossAbility.Worm.SpitWormAbility</a>.</p>
+
+</div>
+</div>
+<a id="abd2e71614874904b7773850865e7e802" name="abd2e71614874904b7773850865e7e802"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd2e71614874904b7773850865e7e802">&#9670;&#160;</a></span>OnStartChannelling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.MonsterAbility.OnStartChannelling </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td>
+          <td class="paramname"><em>monster</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_dash_worm_ability.html#aa328f40460fb122fdee0fe1eb03130d3">RogueGenesia.Actors.Survival.BossAbility.Worm.DashWormAbility</a>.</p>
+
+</div>
+</div>
+<a id="a20dcfa93bbe4d90bc11cdcf085b8b001" name="a20dcfa93bbe4d90bc11cdcf085b8b001"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20dcfa93bbe4d90bc11cdcf085b8b001">&#9670;&#160;</a></span>OnUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.MonsterAbility.OnUpdate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td>
+          <td class="paramname"><em>monster</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#ac1ae0dae5d1890c490ccc79a18735b85">RogueGenesia.Actors.Survival.NecroSummonFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet_storm.html#ac09c18e758c963046f4386c86abfc416">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBulletStorm</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_berserker_ability.html#a60cbf0055c5c67ffd63910435648e493">RogueGenesia.Data.BerserkerAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_life_regen.html#ac41a2aef7347b1e183d882de648e6f86">RogueGenesia.Data.LifeRegen</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_rifted_ability.html#ae46974e011f933ca1c056e979ac8ed05">RogueGenesia.Data.RiftedAbility</a>.</p>
+
+</div>
+</div>
+<a id="addd5d706d50c15d6a7bca7ea30dd2dde" name="addd5d706d50c15d6a7bca7ea30dd2dde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addd5d706d50c15d6a7bca7ea30dd2dde">&#9670;&#160;</a></span>RegisterAbility() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool RogueGenesia.Data.MonsterAbility.RegisterAbility </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&#160;</td>
+          <td class="paramname"><em>typeToAdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a16dafd53eb8adb7d075c3de3c0920682" name="a16dafd53eb8adb7d075c3de3c0920682"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16dafd53eb8adb7d075c3de3c0920682">&#9670;&#160;</a></span>RegisterAbility() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool RogueGenesia.Data.MonsterAbility.RegisterAbility </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ConstructorInfo&#160;</td>
+          <td class="paramname"><em>constructorInfo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5453affc122fe90a84ef7d23ada81f4b" name="a5453affc122fe90a84ef7d23ada81f4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5453affc122fe90a84ef7d23ada81f4b">&#9670;&#160;</a></span>_abilityFlag</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a3ef2f4cc9673771225273d74d6380106">EMonsterAbilityFlag</a> RogueGenesia.Data.MonsterAbility._abilityFlag</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7303d9c1a646d94819317a598ebbc9e9" name="a7303d9c1a646d94819317a598ebbc9e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7303d9c1a646d94819317a598ebbc9e9">&#9670;&#160;</a></span>_abilityIcon</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Texture2D RogueGenesia.Data.MonsterAbility._abilityIcon = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad28b26f353d3d0f33304489c48afc274" name="ad28b26f353d3d0f33304489c48afc274"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad28b26f353d3d0f33304489c48afc274">&#9670;&#160;</a></span>_castTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.MonsterAbility._castTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af14d8f8ead0e8d4c6bc4e256699b9411" name="af14d8f8ead0e8d4c6bc4e256699b9411"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af14d8f8ead0e8d4c6bc4e256699b9411">&#9670;&#160;</a></span>_castTimeLeft</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.MonsterAbility._castTimeLeft</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e881c13f959a34d4d066ec3583cf241" name="a9e881c13f959a34d4d066ec3583cf241"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e881c13f959a34d4d066ec3583cf241">&#9670;&#160;</a></span>_castWeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.MonsterAbility._castWeight = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a70026f419600f49bd6e784af6bd2b3fd" name="a70026f419600f49bd6e784af6bd2b3fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70026f419600f49bd6e784af6bd2b3fd">&#9670;&#160;</a></span>_channelTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.MonsterAbility._channelTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7e96785dd1047dcfbc2bf87d24a5d1f4" name="a7e96785dd1047dcfbc2bf87d24a5d1f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e96785dd1047dcfbc2bf87d24a5d1f4">&#9670;&#160;</a></span>_channelTimeLeft</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.MonsterAbility._channelTimeLeft</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec1bf0e5e1ec45715dcfee437f0d3c7a" name="aec1bf0e5e1ec45715dcfee437f0d3c7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec1bf0e5e1ec45715dcfee437f0d3c7a">&#9670;&#160;</a></span>_coolDown</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.MonsterAbility._coolDown</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd395c800df59aaf62948ee6a9628f70" name="afd395c800df59aaf62948ee6a9628f70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd395c800df59aaf62948ee6a9628f70">&#9670;&#160;</a></span>_coolDownLeft</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.MonsterAbility._coolDownLeft</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb90259f00364cfa78a50eca512a7ead" name="adb90259f00364cfa78a50eca512a7ead"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb90259f00364cfa78a50eca512a7ead">&#9670;&#160;</a></span>AbilityTypeList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&gt; RogueGenesia.Data.MonsterAbility.AbilityTypeList = new List&lt;<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af183f83b6c90fa82e9b7aaa8eec92ba8" name="af183f83b6c90fa82e9b7aaa8eec92ba8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af183f83b6c90fa82e9b7aaa8eec92ba8">&#9670;&#160;</a></span>GeneralAbilityList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html">MonsterAbility</a>&gt; RogueGenesia.Data.MonsterAbility.GeneralAbilityList = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html">MonsterAbility</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0b5bd9a56f374d36b4d97f6c6584cf54" name="a0b5bd9a56f374d36b4d97f6c6584cf54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b5bd9a56f374d36b4d97f6c6584cf54">&#9670;&#160;</a></span>LinkedIcon</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UnityEngine.UI.RawImage RogueGenesia.Data.MonsterAbility.LinkedIcon = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a13403dc1e5b1c2fdd1ca09a29ce8ac24" name="a13403dc1e5b1c2fdd1ca09a29ce8ac24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13403dc1e5b1c2fdd1ca09a29ce8ac24">&#9670;&#160;</a></span>RessourceEnemy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string RogueGenesia.Data.MonsterAbility.RessourceEnemy = &quot;ScriptableObject/Enemy/EnemyList/&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="ad4d50a0428525a357d74dad5a386241d" name="ad4d50a0428525a357d74dad5a386241d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4d50a0428525a357d74dad5a386241d">&#9670;&#160;</a></span>castTimeLeft</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.MonsterAbility.castTimeLeft</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae1d90e5eb0a3f95a277972b4612cd090" name="ae1d90e5eb0a3f95a277972b4612cd090"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1d90e5eb0a3f95a277972b4612cd090">&#9670;&#160;</a></span>castWeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.MonsterAbility.castWeight</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a7d9a98d9400b23442fe980dc169412" name="a7a7d9a98d9400b23442fe980dc169412"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a7d9a98d9400b23442fe980dc169412">&#9670;&#160;</a></span>channelTimeLeft</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.MonsterAbility.channelTimeLeft</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6db7e2bf3c967b4fde2982ced12e5158" name="a6db7e2bf3c967b4fde2982ced12e5158"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6db7e2bf3c967b4fde2982ced12e5158">&#9670;&#160;</a></span>displayAbilityIcon</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.MonsterAbility.displayAbilityIcon</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa17be0fe90af90e20d431879aac82d90" name="aa17be0fe90af90e20d431879aac82d90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa17be0fe90af90e20d431879aac82d90">&#9670;&#160;</a></span>GeneralAbilityTag</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RogueGenesia.Data.MonsterAbility.GeneralAbilityTag</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa267a41fa840a163260138a798394e08" name="aa267a41fa840a163260138a798394e08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa267a41fa840a163260138a798394e08">&#9670;&#160;</a></span>getAbilityFlag</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a3ef2f4cc9673771225273d74d6380106">EMonsterAbilityFlag</a> RogueGenesia.Data.MonsterAbility.getAbilityFlag</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4fa13b4ef5e538ff958152c551f89928" name="a4fa13b4ef5e538ff958152c551f89928"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fa13b4ef5e538ff958152c551f89928">&#9670;&#160;</a></span>getCoolDown</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.MonsterAbility.getCoolDown</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/Monster/MonsterAbility/MonsterAbility.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_data.html">Data</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html">MonsterAbility</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

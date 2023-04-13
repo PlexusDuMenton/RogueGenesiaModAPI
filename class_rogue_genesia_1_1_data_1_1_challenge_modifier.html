@@ -1,0 +1,1260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue:Genesia API" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Rogue: Genesia API" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.Data.ChallengeModifier Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_data_1_1_challenge_modifier.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
+<a href="class_rogue_genesia_1_1_data_1_1_challenge_modifier-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.Data.ChallengeModifier Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:affad5cf76730b457b9fa935d2106e9bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#affad5cf76730b457b9fa935d2106e9bf">SetfloatModifier</a> (string name, float value)</td></tr>
+<tr class="separator:affad5cf76730b457b9fa935d2106e9bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4b1fc9cddc39f12575c6f48eeaa2cc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#aa4b1fc9cddc39f12575c6f48eeaa2cc9">SetIntModifier</a> (string name, int value)</td></tr>
+<tr class="separator:aa4b1fc9cddc39f12575c6f48eeaa2cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47d061a251feee175416fa96bdec2ec2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a47d061a251feee175416fa96bdec2ec2">SetBoolModifier</a> (string name, bool value)</td></tr>
+<tr class="separator:a47d061a251feee175416fa96bdec2ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae46e964bf13a0038bf552a7f388cffa2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#ae46e964bf13a0038bf552a7f388cffa2">SetStringModifier</a> (string name, string value)</td></tr>
+<tr class="separator:ae46e964bf13a0038bf552a7f388cffa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c53750e01cadfe4cabe6a5b5b8dea70"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a8c53750e01cadfe4cabe6a5b5b8dea70">GetfloatModifier</a> (string name)</td></tr>
+<tr class="separator:a8c53750e01cadfe4cabe6a5b5b8dea70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b4cf6b214b54453951a7fbb41f53491"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a9b4cf6b214b54453951a7fbb41f53491">GetIntModifier</a> (string name)</td></tr>
+<tr class="separator:a9b4cf6b214b54453951a7fbb41f53491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7d11e99bd477cd76486517fb443a8dd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#ae7d11e99bd477cd76486517fb443a8dd">GetBoolModifier</a> (string name)</td></tr>
+<tr class="separator:ae7d11e99bd477cd76486517fb443a8dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83acab6438f47ee988210fe8c53f15b5"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a83acab6438f47ee988210fe8c53f15b5">GetStringModifier</a> (string name)</td></tr>
+<tr class="separator:a83acab6438f47ee988210fe8c53f15b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44daede58db35a8523ef5fc1f9a0bd17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a44daede58db35a8523ef5fc1f9a0bd17">ReloadCustomModifier</a> ()</td></tr>
+<tr class="separator:a44daede58db35a8523ef5fc1f9a0bd17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14010e794b2426fae2d38abe1125262c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a14010e794b2426fae2d38abe1125262c">OnStartRun</a> ()</td></tr>
+<tr class="separator:a14010e794b2426fae2d38abe1125262c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7956223169f2cac11f97a68215c12908"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a7956223169f2cac11f97a68215c12908">OnLoadRun</a> ()</td></tr>
+<tr class="separator:a7956223169f2cac11f97a68215c12908"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb6b84c40ae2847c946a6c3c12104878"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#abb6b84c40ae2847c946a6c3c12104878">OnQuitRun</a> ()</td></tr>
+<tr class="separator:abb6b84c40ae2847c946a6c3c12104878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3a6f23b0591cbef024a9246bc4edf08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#ac3a6f23b0591cbef024a9246bc4edf08">OnEndRun</a> ()</td></tr>
+<tr class="separator:ac3a6f23b0591cbef024a9246bc4edf08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeab59c98d87d0b765663bff47cd56078"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#aeab59c98d87d0b765663bff47cd56078">ChallengeModifier</a> ()</td></tr>
+<tr class="separator:aeab59c98d87d0b765663bff47cd56078"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a6bb71f6d2952b49a7f2c9f493d952e3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acda6fffa3a458f99fbc59a754c20180c">SoulShopUpgradeSO.ETier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a6bb71f6d2952b49a7f2c9f493d952e3e">ChallengeMaxAllowedSoulShopTier</a> = <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acda6fffa3a458f99fbc59a754c20180ca26a4b44a837bf97b972628509912b4a5">SoulShopUpgradeSO.ETier.MAX</a></td></tr>
+<tr class="separator:a6bb71f6d2952b49a7f2c9f493d952e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e9eed4fa2b07f01592f271b90f9297a"><td class="memItemLeft" align="right" valign="top">List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a8e9eed4fa2b07f01592f271b90f9297a">CustomChallengeModifiersList</a> = new List&lt;string&gt;()</td></tr>
+<tr class="separator:a8e9eed4fa2b07f01592f271b90f9297a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18b4d485ec5683ad7a2631272de4c56e"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_custom_challenge_modifier.html">CustomChallengeModifier</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a18b4d485ec5683ad7a2631272de4c56e">CustomChallengeModifiers</a> = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_custom_challenge_modifier.html">CustomChallengeModifier</a>&gt;()</td></tr>
+<tr class="separator:a18b4d485ec5683ad7a2631272de4c56e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bdfe148705cb94a310b70c90ce1fdf5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stats_modifier.html">StatsModifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a0bdfe148705cb94a310b70c90ce1fdf5">StatsModifier</a></td></tr>
+<tr class="separator:a0bdfe148705cb94a310b70c90ce1fdf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabba28d0662144a501b55357b6b27b64"><td class="memItemLeft" align="right" valign="top">List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#aabba28d0662144a501b55357b6b27b64">BannishedArtifacts</a></td></tr>
+<tr class="separator:aabba28d0662144a501b55357b6b27b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43fbc4847f29474f777cec298402b467"><td class="memItemLeft" align="right" valign="top">List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a43fbc4847f29474f777cec298402b467">BonusArtifacts</a></td></tr>
+<tr class="separator:a43fbc4847f29474f777cec298402b467"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53cadae9e5a332c2fb98a3e6b6e1c8a4"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_c_modifier_container.html">CModifierContainer</a>&lt; bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a53cadae9e5a332c2fb98a3e6b6e1c8a4">BoolModifiers</a> = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_c_modifier_container.html">CModifierContainer</a>&lt;bool&gt;&gt;()</td></tr>
+<tr class="separator:a53cadae9e5a332c2fb98a3e6b6e1c8a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf9cf09767fcb07b85ef892fab8d7a4e"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_c_modifier_container.html">CModifierContainer</a>&lt; string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#aaf9cf09767fcb07b85ef892fab8d7a4e">StringModifiers</a> = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_c_modifier_container.html">CModifierContainer</a>&lt;string&gt;&gt;()</td></tr>
+<tr class="separator:aaf9cf09767fcb07b85ef892fab8d7a4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a537be35d0da2c08215416f63a26b0ba0"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_c_modifier_container.html">CModifierContainer</a>&lt; float &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a537be35d0da2c08215416f63a26b0ba0">FloatModifiers</a> = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_c_modifier_container.html">CModifierContainer</a>&lt;float&gt;&gt;()</td></tr>
+<tr class="separator:a537be35d0da2c08215416f63a26b0ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa88b36023778114557e94efeb60cd22"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_c_modifier_container.html">CModifierContainer</a>&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#aaa88b36023778114557e94efeb60cd22">IntModifier</a> = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_c_modifier_container.html">CModifierContainer</a>&lt;int&gt;&gt;()</td></tr>
+<tr class="separator:aaa88b36023778114557e94efeb60cd22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa70b744491645cd9968aa09d9170b6d5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#aa70b744491645cd9968aa09d9170b6d5">EliteHealthMultiplier</a> = 1</td></tr>
+<tr class="separator:aa70b744491645cd9968aa09d9170b6d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ddd5955feb7302b5e548cd9f69dea95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aa">CardRarity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a4ddd5955feb7302b5e548cd9f69dea95">ChallengeMaxAllowedRarity</a> = <a class="el" href="namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aaab50339a10e1de285ac99d4c3990b8693">CardRarity.NONE</a></td></tr>
+<tr class="separator:a4ddd5955feb7302b5e548cd9f69dea95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:ab971beed492a8e042b8192c34976fe0b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#ab971beed492a8e042b8192c34976fe0b">ChallengeMaxAllowedWeapon</a><code> [get, set]</code></td></tr>
+<tr class="separator:ab971beed492a8e042b8192c34976fe0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0471ed92227daabf1ca9ee56519029b4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a0471ed92227daabf1ca9ee56519029b4">ChallengeMaxAllowedWeaponLevel</a><code> [get, set]</code></td></tr>
+<tr class="separator:a0471ed92227daabf1ca9ee56519029b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a500123d90e86a3b8491a44f90ad65c5f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a500123d90e86a3b8491a44f90ad65c5f">EliteOnly</a><code> [get, set]</code></td></tr>
+<tr class="separator:a500123d90e86a3b8491a44f90ad65c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa151906ea70e6ffabd275ab377c9d9ab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#aa151906ea70e6ffabd275ab377c9d9ab">NoShop</a><code> [get, set]</code></td></tr>
+<tr class="separator:aa151906ea70e6ffabd275ab377c9d9ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe6b9d5fab85b7f08bb7f750cbae7e7c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#abe6b9d5fab85b7f08bb7f750cbae7e7c">NoCardPickup</a><code> [get, set]</code></td></tr>
+<tr class="separator:abe6b9d5fab85b7f08bb7f750cbae7e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0cbc248ee204d4cce6432f9dbd921bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#ab0cbc248ee204d4cce6432f9dbd921bb">NoEvolution</a><code> [get, set]</code></td></tr>
+<tr class="separator:ab0cbc248ee204d4cce6432f9dbd921bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cbcc7f40f41c6a32eb78a5f80af4117"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a0cbcc7f40f41c6a32eb78a5f80af4117">NoArtifact</a><code> [get, set]</code></td></tr>
+<tr class="separator:a0cbcc7f40f41c6a32eb78a5f80af4117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa93ddee0c8e3eb383b84e298c1a91ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#aaa93ddee0c8e3eb383b84e298c1a91ed">RandomCardPick</a><code> [get, set]</code></td></tr>
+<tr class="separator:aaa93ddee0c8e3eb383b84e298c1a91ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36c0cd283bdec0e957a2939117c3b2a9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a36c0cd283bdec0e957a2939117c3b2a9">HourGlass</a><code> [get, set]</code></td></tr>
+<tr class="separator:a36c0cd283bdec0e957a2939117c3b2a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1e8ef51a2e82366f6b9c44be1cd390e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#ad1e8ef51a2e82366f6b9c44be1cd390e">ExperienceMultiplier</a><code> [get, set]</code></td></tr>
+<tr class="separator:ad1e8ef51a2e82366f6b9c44be1cd390e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9d8f829891e85ae83275b078b86015b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#af9d8f829891e85ae83275b078b86015b">GlobalStatsMultiplier</a><code> [get, set]</code></td></tr>
+<tr class="separator:af9d8f829891e85ae83275b078b86015b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9e2f334e3742b6458fc35da3fa09fd9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#ab9e2f334e3742b6458fc35da3fa09fd9">StartingCorruption</a><code> [get, set]</code></td></tr>
+<tr class="separator:ab9e2f334e3742b6458fc35da3fa09fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6bd1d3e43d8d00a75067b22f4b16f1f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#ae6bd1d3e43d8d00a75067b22f4b16f1f">WeaponDropChance</a><code> [get, set]</code></td></tr>
+<tr class="separator:ae6bd1d3e43d8d00a75067b22f4b16f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad382b5dfb3d65d8b0a383d8173389822"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#ad382b5dfb3d65d8b0a383d8173389822">HealthOnKill</a><code> [get, set]</code></td></tr>
+<tr class="separator:ad382b5dfb3d65d8b0a383d8173389822"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a845505e924bc293be790543561f1b805"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a845505e924bc293be790543561f1b805">CorruptionGrowth</a><code> [get, set]</code></td></tr>
+<tr class="separator:a845505e924bc293be790543561f1b805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac42d330eaef0a10b66fb17f9e4fdfcb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#aac42d330eaef0a10b66fb17f9e4fdfcb">CorruptionGrowthBoss</a><code> [get, set]</code></td></tr>
+<tr class="separator:aac42d330eaef0a10b66fb17f9e4fdfcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac81cda4c971ddd0f7f530ce747f1f72b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#ac81cda4c971ddd0f7f530ce747f1f72b">MonsterAbilityChance</a><code> [get, set]</code></td></tr>
+<tr class="separator:ac81cda4c971ddd0f7f530ce747f1f72b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae295930e96e56f192c2e8c33b5cfbb2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#aae295930e96e56f192c2e8c33b5cfbb2">EliteAbilityChance</a><code> [get, set]</code></td></tr>
+<tr class="separator:aae295930e96e56f192c2e8c33b5cfbb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc7f824e1310d366f3ee51a37b590986"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#afc7f824e1310d366f3ee51a37b590986">ChampionAbilityChance</a><code> [get, set]</code></td></tr>
+<tr class="separator:afc7f824e1310d366f3ee51a37b590986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53290eba20010aa36868f2fc11f9ebe0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a53290eba20010aa36868f2fc11f9ebe0">BossAbilityChance</a><code> [get, set]</code></td></tr>
+<tr class="separator:a53290eba20010aa36868f2fc11f9ebe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aeab59c98d87d0b765663bff47cd56078" name="aeab59c98d87d0b765663bff47cd56078"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeab59c98d87d0b765663bff47cd56078">&#9670;&#160;</a></span>ChallengeModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RogueGenesia.Data.ChallengeModifier.ChallengeModifier </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae7d11e99bd477cd76486517fb443a8dd" name="ae7d11e99bd477cd76486517fb443a8dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7d11e99bd477cd76486517fb443a8dd">&#9670;&#160;</a></span>GetBoolModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.ChallengeModifier.GetBoolModifier </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c53750e01cadfe4cabe6a5b5b8dea70" name="a8c53750e01cadfe4cabe6a5b5b8dea70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c53750e01cadfe4cabe6a5b5b8dea70">&#9670;&#160;</a></span>GetfloatModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.ChallengeModifier.GetfloatModifier </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9b4cf6b214b54453951a7fbb41f53491" name="a9b4cf6b214b54453951a7fbb41f53491"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b4cf6b214b54453951a7fbb41f53491">&#9670;&#160;</a></span>GetIntModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.ChallengeModifier.GetIntModifier </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a83acab6438f47ee988210fe8c53f15b5" name="a83acab6438f47ee988210fe8c53f15b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83acab6438f47ee988210fe8c53f15b5">&#9670;&#160;</a></span>GetStringModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RogueGenesia.Data.ChallengeModifier.GetStringModifier </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac3a6f23b0591cbef024a9246bc4edf08" name="ac3a6f23b0591cbef024a9246bc4edf08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3a6f23b0591cbef024a9246bc4edf08">&#9670;&#160;</a></span>OnEndRun()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.ChallengeModifier.OnEndRun </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7956223169f2cac11f97a68215c12908" name="a7956223169f2cac11f97a68215c12908"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7956223169f2cac11f97a68215c12908">&#9670;&#160;</a></span>OnLoadRun()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.ChallengeModifier.OnLoadRun </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb6b84c40ae2847c946a6c3c12104878" name="abb6b84c40ae2847c946a6c3c12104878"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb6b84c40ae2847c946a6c3c12104878">&#9670;&#160;</a></span>OnQuitRun()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.ChallengeModifier.OnQuitRun </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14010e794b2426fae2d38abe1125262c" name="a14010e794b2426fae2d38abe1125262c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14010e794b2426fae2d38abe1125262c">&#9670;&#160;</a></span>OnStartRun()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.ChallengeModifier.OnStartRun </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44daede58db35a8523ef5fc1f9a0bd17" name="a44daede58db35a8523ef5fc1f9a0bd17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44daede58db35a8523ef5fc1f9a0bd17">&#9670;&#160;</a></span>ReloadCustomModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.ChallengeModifier.ReloadCustomModifier </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47d061a251feee175416fa96bdec2ec2" name="a47d061a251feee175416fa96bdec2ec2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47d061a251feee175416fa96bdec2ec2">&#9670;&#160;</a></span>SetBoolModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.ChallengeModifier.SetBoolModifier </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="affad5cf76730b457b9fa935d2106e9bf" name="affad5cf76730b457b9fa935d2106e9bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affad5cf76730b457b9fa935d2106e9bf">&#9670;&#160;</a></span>SetfloatModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.ChallengeModifier.SetfloatModifier </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa4b1fc9cddc39f12575c6f48eeaa2cc9" name="aa4b1fc9cddc39f12575c6f48eeaa2cc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4b1fc9cddc39f12575c6f48eeaa2cc9">&#9670;&#160;</a></span>SetIntModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.ChallengeModifier.SetIntModifier </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae46e964bf13a0038bf552a7f388cffa2" name="ae46e964bf13a0038bf552a7f388cffa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae46e964bf13a0038bf552a7f388cffa2">&#9670;&#160;</a></span>SetStringModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.ChallengeModifier.SetStringModifier </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aabba28d0662144a501b55357b6b27b64" name="aabba28d0662144a501b55357b6b27b64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabba28d0662144a501b55357b6b27b64">&#9670;&#160;</a></span>BannishedArtifacts</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;string&gt; RogueGenesia.Data.ChallengeModifier.BannishedArtifacts</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a43fbc4847f29474f777cec298402b467" name="a43fbc4847f29474f777cec298402b467"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43fbc4847f29474f777cec298402b467">&#9670;&#160;</a></span>BonusArtifacts</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;string&gt; RogueGenesia.Data.ChallengeModifier.BonusArtifacts</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a53cadae9e5a332c2fb98a3e6b6e1c8a4" name="a53cadae9e5a332c2fb98a3e6b6e1c8a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53cadae9e5a332c2fb98a3e6b6e1c8a4">&#9670;&#160;</a></span>BoolModifiers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_c_modifier_container.html">CModifierContainer</a>&lt;bool&gt; &gt; RogueGenesia.Data.ChallengeModifier.BoolModifiers = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_c_modifier_container.html">CModifierContainer</a>&lt;bool&gt;&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ddd5955feb7302b5e548cd9f69dea95" name="a4ddd5955feb7302b5e548cd9f69dea95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ddd5955feb7302b5e548cd9f69dea95">&#9670;&#160;</a></span>ChallengeMaxAllowedRarity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aa">CardRarity</a> RogueGenesia.Data.ChallengeModifier.ChallengeMaxAllowedRarity = <a class="el" href="namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aaab50339a10e1de285ac99d4c3990b8693">CardRarity.NONE</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bb71f6d2952b49a7f2c9f493d952e3e" name="a6bb71f6d2952b49a7f2c9f493d952e3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bb71f6d2952b49a7f2c9f493d952e3e">&#9670;&#160;</a></span>ChallengeMaxAllowedSoulShopTier</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acda6fffa3a458f99fbc59a754c20180c">SoulShopUpgradeSO.ETier</a> RogueGenesia.Data.ChallengeModifier.ChallengeMaxAllowedSoulShopTier = <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acda6fffa3a458f99fbc59a754c20180ca26a4b44a837bf97b972628509912b4a5">SoulShopUpgradeSO.ETier.MAX</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18b4d485ec5683ad7a2631272de4c56e" name="a18b4d485ec5683ad7a2631272de4c56e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18b4d485ec5683ad7a2631272de4c56e">&#9670;&#160;</a></span>CustomChallengeModifiers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_custom_challenge_modifier.html">CustomChallengeModifier</a>&gt; RogueGenesia.Data.ChallengeModifier.CustomChallengeModifiers = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_custom_challenge_modifier.html">CustomChallengeModifier</a>&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e9eed4fa2b07f01592f271b90f9297a" name="a8e9eed4fa2b07f01592f271b90f9297a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e9eed4fa2b07f01592f271b90f9297a">&#9670;&#160;</a></span>CustomChallengeModifiersList</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;string&gt; RogueGenesia.Data.ChallengeModifier.CustomChallengeModifiersList = new List&lt;string&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa70b744491645cd9968aa09d9170b6d5" name="aa70b744491645cd9968aa09d9170b6d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa70b744491645cd9968aa09d9170b6d5">&#9670;&#160;</a></span>EliteHealthMultiplier</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.ChallengeModifier.EliteHealthMultiplier = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a537be35d0da2c08215416f63a26b0ba0" name="a537be35d0da2c08215416f63a26b0ba0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a537be35d0da2c08215416f63a26b0ba0">&#9670;&#160;</a></span>FloatModifiers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_c_modifier_container.html">CModifierContainer</a>&lt;float&gt; &gt; RogueGenesia.Data.ChallengeModifier.FloatModifiers = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_c_modifier_container.html">CModifierContainer</a>&lt;float&gt;&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaa88b36023778114557e94efeb60cd22" name="aaa88b36023778114557e94efeb60cd22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa88b36023778114557e94efeb60cd22">&#9670;&#160;</a></span>IntModifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_c_modifier_container.html">CModifierContainer</a>&lt;int&gt; &gt; RogueGenesia.Data.ChallengeModifier.IntModifier = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_c_modifier_container.html">CModifierContainer</a>&lt;int&gt;&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0bdfe148705cb94a310b70c90ce1fdf5" name="a0bdfe148705cb94a310b70c90ce1fdf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bdfe148705cb94a310b70c90ce1fdf5">&#9670;&#160;</a></span>StatsModifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stats_modifier.html">StatsModifier</a> RogueGenesia.Data.ChallengeModifier.StatsModifier</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf9cf09767fcb07b85ef892fab8d7a4e" name="aaf9cf09767fcb07b85ef892fab8d7a4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf9cf09767fcb07b85ef892fab8d7a4e">&#9670;&#160;</a></span>StringModifiers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_c_modifier_container.html">CModifierContainer</a>&lt;string&gt; &gt; RogueGenesia.Data.ChallengeModifier.StringModifiers = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_c_modifier_container.html">CModifierContainer</a>&lt;string&gt;&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a53290eba20010aa36868f2fc11f9ebe0" name="a53290eba20010aa36868f2fc11f9ebe0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53290eba20010aa36868f2fc11f9ebe0">&#9670;&#160;</a></span>BossAbilityChance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.ChallengeModifier.BossAbilityChance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab971beed492a8e042b8192c34976fe0b" name="ab971beed492a8e042b8192c34976fe0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab971beed492a8e042b8192c34976fe0b">&#9670;&#160;</a></span>ChallengeMaxAllowedWeapon</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.ChallengeModifier.ChallengeMaxAllowedWeapon</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0471ed92227daabf1ca9ee56519029b4" name="a0471ed92227daabf1ca9ee56519029b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0471ed92227daabf1ca9ee56519029b4">&#9670;&#160;</a></span>ChallengeMaxAllowedWeaponLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.ChallengeModifier.ChallengeMaxAllowedWeaponLevel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc7f824e1310d366f3ee51a37b590986" name="afc7f824e1310d366f3ee51a37b590986"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc7f824e1310d366f3ee51a37b590986">&#9670;&#160;</a></span>ChampionAbilityChance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.ChallengeModifier.ChampionAbilityChance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a845505e924bc293be790543561f1b805" name="a845505e924bc293be790543561f1b805"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a845505e924bc293be790543561f1b805">&#9670;&#160;</a></span>CorruptionGrowth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.ChallengeModifier.CorruptionGrowth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac42d330eaef0a10b66fb17f9e4fdfcb" name="aac42d330eaef0a10b66fb17f9e4fdfcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac42d330eaef0a10b66fb17f9e4fdfcb">&#9670;&#160;</a></span>CorruptionGrowthBoss</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.ChallengeModifier.CorruptionGrowthBoss</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aae295930e96e56f192c2e8c33b5cfbb2" name="aae295930e96e56f192c2e8c33b5cfbb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae295930e96e56f192c2e8c33b5cfbb2">&#9670;&#160;</a></span>EliteAbilityChance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.ChallengeModifier.EliteAbilityChance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a500123d90e86a3b8491a44f90ad65c5f" name="a500123d90e86a3b8491a44f90ad65c5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a500123d90e86a3b8491a44f90ad65c5f">&#9670;&#160;</a></span>EliteOnly</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.ChallengeModifier.EliteOnly</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad1e8ef51a2e82366f6b9c44be1cd390e" name="ad1e8ef51a2e82366f6b9c44be1cd390e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1e8ef51a2e82366f6b9c44be1cd390e">&#9670;&#160;</a></span>ExperienceMultiplier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.ChallengeModifier.ExperienceMultiplier</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9d8f829891e85ae83275b078b86015b" name="af9d8f829891e85ae83275b078b86015b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9d8f829891e85ae83275b078b86015b">&#9670;&#160;</a></span>GlobalStatsMultiplier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.ChallengeModifier.GlobalStatsMultiplier</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad382b5dfb3d65d8b0a383d8173389822" name="ad382b5dfb3d65d8b0a383d8173389822"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad382b5dfb3d65d8b0a383d8173389822">&#9670;&#160;</a></span>HealthOnKill</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.ChallengeModifier.HealthOnKill</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a36c0cd283bdec0e957a2939117c3b2a9" name="a36c0cd283bdec0e957a2939117c3b2a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36c0cd283bdec0e957a2939117c3b2a9">&#9670;&#160;</a></span>HourGlass</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.ChallengeModifier.HourGlass</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac81cda4c971ddd0f7f530ce747f1f72b" name="ac81cda4c971ddd0f7f530ce747f1f72b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac81cda4c971ddd0f7f530ce747f1f72b">&#9670;&#160;</a></span>MonsterAbilityChance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.ChallengeModifier.MonsterAbilityChance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0cbcc7f40f41c6a32eb78a5f80af4117" name="a0cbcc7f40f41c6a32eb78a5f80af4117"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cbcc7f40f41c6a32eb78a5f80af4117">&#9670;&#160;</a></span>NoArtifact</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.ChallengeModifier.NoArtifact</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe6b9d5fab85b7f08bb7f750cbae7e7c" name="abe6b9d5fab85b7f08bb7f750cbae7e7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe6b9d5fab85b7f08bb7f750cbae7e7c">&#9670;&#160;</a></span>NoCardPickup</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.ChallengeModifier.NoCardPickup</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab0cbc248ee204d4cce6432f9dbd921bb" name="ab0cbc248ee204d4cce6432f9dbd921bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0cbc248ee204d4cce6432f9dbd921bb">&#9670;&#160;</a></span>NoEvolution</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.ChallengeModifier.NoEvolution</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa151906ea70e6ffabd275ab377c9d9ab" name="aa151906ea70e6ffabd275ab377c9d9ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa151906ea70e6ffabd275ab377c9d9ab">&#9670;&#160;</a></span>NoShop</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.ChallengeModifier.NoShop</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaa93ddee0c8e3eb383b84e298c1a91ed" name="aaa93ddee0c8e3eb383b84e298c1a91ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa93ddee0c8e3eb383b84e298c1a91ed">&#9670;&#160;</a></span>RandomCardPick</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.ChallengeModifier.RandomCardPick</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab9e2f334e3742b6458fc35da3fa09fd9" name="ab9e2f334e3742b6458fc35da3fa09fd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9e2f334e3742b6458fc35da3fa09fd9">&#9670;&#160;</a></span>StartingCorruption</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.ChallengeModifier.StartingCorruption</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6bd1d3e43d8d00a75067b22f4b16f1f" name="ae6bd1d3e43d8d00a75067b22f4b16f1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6bd1d3e43d8d00a75067b22f4b16f1f">&#9670;&#160;</a></span>WeaponDropChance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.ChallengeModifier.WeaponDropChance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/ChallengeSO.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_data.html">Data</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_data_1_1_challenge_modifier.html">ChallengeModifier</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

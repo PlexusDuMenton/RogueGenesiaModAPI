@@ -1,0 +1,1895 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue:Genesia API" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Rogue: Genesia API" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.Actors.Survival.PlayerEntity Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
+<a href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.Actors.Survival.PlayerEntity Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.Actors.Survival.PlayerEntity:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a8bd4eb4694c532053bc81ecfd3505d28"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a8bd4eb4694c532053bc81ecfd3505d28">DeathSource</a> ()</td></tr>
+<tr class="separator:a8bd4eb4694c532053bc81ecfd3505d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1f9e452cbae153262f970c196c08491"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#ab1f9e452cbae153262f970c196c08491">ProjectileTarget</a> ()</td></tr>
+<tr class="separator:ab1f9e452cbae153262f970c196c08491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d0bf4b2efbddda346a6bb698ce05876"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a2d0bf4b2efbddda346a6bb698ce05876">RegenADashCharge</a> (int dashGain, int MaxDash=int.MaxValue)</td></tr>
+<tr class="separator:a2d0bf4b2efbddda346a6bb698ce05876"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c9e823dca5137d3a71c2949d855ad54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a1c9e823dca5137d3a71c2949d855ad54">OnDashChargeRegen</a> (int dashGained)</td></tr>
+<tr class="separator:a1c9e823dca5137d3a71c2949d855ad54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e61a0a396cbbe9fffc601f61d4ce866"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a6e61a0a396cbbe9fffc601f61d4ce866">AnachronisticEffectStart</a> ()</td></tr>
+<tr class="separator:a6e61a0a396cbbe9fffc601f61d4ce866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae41403c6638e26ac3ac5b20cfc5e8526"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#ae41403c6638e26ac3ac5b20cfc5e8526">OnWatchUse</a> ()</td></tr>
+<tr class="separator:ae41403c6638e26ac3ac5b20cfc5e8526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9545c8459e9a31cf90621b6d0cc9ca3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a9545c8459e9a31cf90621b6d0cc9ca3b">AnachronisticEffectEnd</a> ()</td></tr>
+<tr class="separator:a9545c8459e9a31cf90621b6d0cc9ca3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8902336acfc8a28d2f7ea0e42652b8b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a8902336acfc8a28d2f7ea0e42652b8b6">OnWatchEnd</a> ()</td></tr>
+<tr class="separator:a8902336acfc8a28d2f7ea0e42652b8b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44ee5d5076faf98923380c4440040c44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a44ee5d5076faf98923380c4440040c44">StartDash</a> ()</td></tr>
+<tr class="separator:a44ee5d5076faf98923380c4440040c44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a798da71ee8c02fb9a9e3c1b7aeefe6b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a798da71ee8c02fb9a9e3c1b7aeefe6b9">EndDash</a> ()</td></tr>
+<tr class="separator:a798da71ee8c02fb9a9e3c1b7aeefe6b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d0232052ac1352ba7cd768530f45d27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_multiplier_data.html">DamageMultiplierData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a7d0232052ac1352ba7cd768530f45d27">damageMultiplier</a> (bool canCrit, float multiplier=1, bool scaleWithAS=false, bool ForcedCrit=false)</td></tr>
+<tr class="separator:a7d0232052ac1352ba7cd768530f45d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a85ceabc51ab01f2495732911a06791"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a9a85ceabc51ab01f2495732911a06791">GetProjectileModifierLevel</a> (<a class="el" href="namespace_rogue_genesia_1_1_data.html#a52ccddfc7de723421a7d16b015ad1d5e">EProjectileModifier</a> pMod)</td></tr>
+<tr class="separator:a9a85ceabc51ab01f2495732911a06791"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab637b8e0e3551a0937f7306dc98404a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#aab637b8e0e3551a0937f7306dc98404a">GetPlayerModifierLevel</a> (<a class="el" href="namespace_rogue_genesia_1_1_data.html#aaf6c5beac4445404d491da316e85b7f6">EPlayerModifier</a> pMod)</td></tr>
+<tr class="separator:aab637b8e0e3551a0937f7306dc98404a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74dab404983732c19396a461100c2622"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a74dab404983732c19396a461100c2622">GetSoulBonusLevel</a> (int ID)</td></tr>
+<tr class="separator:a74dab404983732c19396a461100c2622"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a691efe43b14d1b33f6d2c4b0969c9eee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">Weapon</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a691efe43b14d1b33f6d2c4b0969c9eee">FindWeapon</a> (int ID)</td></tr>
+<tr class="separator:a691efe43b14d1b33f6d2c4b0969c9eee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e654e68cd79779e30a4e80e72c58ac4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a9e654e68cd79779e30a4e80e72c58ac4">AddWeapon</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">Weapon</a> weapon)</td></tr>
+<tr class="separator:a9e654e68cd79779e30a4e80e72c58ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a287f8b2bd256135aa85f2bb47fe5b62b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a287f8b2bd256135aa85f2bb47fe5b62b">Reset</a> ()</td></tr>
+<tr class="separator:a287f8b2bd256135aa85f2bb47fe5b62b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30fbc2ee647ce589fd18f2c14d1f0491"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a30fbc2ee647ce589fd18f2c14d1f0491">UIUpdate</a> ()</td></tr>
+<tr class="separator:a30fbc2ee647ce589fd18f2c14d1f0491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ea4c63d2f62e9d7aa919ef5b465400d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a4ea4c63d2f62e9d7aa919ef5b465400d">OnDash</a> ()</td></tr>
+<tr class="separator:a4ea4c63d2f62e9d7aa919ef5b465400d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23046f55ee9f723437b9021d3507d2d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a23046f55ee9f723437b9021d3507d2d0">AddSoulBonus</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">SoulCard</a> soulBonusToAdd)</td></tr>
+<tr class="separator:a23046f55ee9f723437b9021d3507d2d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f235612dd263ed7f9710bde8c9b0a62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a8f235612dd263ed7f9710bde8c9b0a62">AddSoulExp</a> (double xPValue)</td></tr>
+<tr class="separator:a8f235612dd263ed7f9710bde8c9b0a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4deb2a700194006fe14037c69d6e6d84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a4deb2a700194006fe14037c69d6e6d84">OnEatFood</a> ()</td></tr>
+<tr class="separator:a4deb2a700194006fe14037c69d6e6d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adabacefd2fb09af5a9ad193277ef2952"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#adabacefd2fb09af5a9ad193277ef2952">HealPlayer</a> (float healValue)</td></tr>
+<tr class="separator:adabacefd2fb09af5a9ad193277ef2952"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9966d90d7d8eac0ebff679b9d17ece64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a9966d90d7d8eac0ebff679b9d17ece64">DoRumbling</a> (float rumbleDuration, float lowFrequency, float highFrequency, bool Easeout=false)</td></tr>
+<tr class="separator:a9966d90d7d8eac0ebff679b9d17ece64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb9da75707f48830a7424748307c5ae5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#acb9da75707f48830a7424748307c5ae5">IsOSProtectionReady</a> ()</td></tr>
+<tr class="separator:acb9da75707f48830a7424748307c5ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0158a91bcc375964f71749f836a5ae8a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a0158a91bcc375964f71749f836a5ae8a">TakeDamageProjectile</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a> damageInformation, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectil_a_i.html">DefaultProjectilAI</a> projectile)</td></tr>
+<tr class="separator:a0158a91bcc375964f71749f836a5ae8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b2417b3316eeb83dd279a133cee8773"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a2b2417b3316eeb83dd279a133cee8773">OnTakeDamagePreDefence</a> (ref <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a> damageInfo, float baseDamageValue)</td></tr>
+<tr class="separator:a2b2417b3316eeb83dd279a133cee8773"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa83e8393cac850e98127ede8a7b60eaa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#aa83e8393cac850e98127ede8a7b60eaa">TakeDamage</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a> damageInfo)</td></tr>
+<tr class="separator:aa83e8393cac850e98127ede8a7b60eaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d8286e3cf718428878253278aa3e5fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a7d8286e3cf718428878253278aa3e5fe">OnDeath</a> ()</td></tr>
+<tr class="separator:a7d8286e3cf718428878253278aa3e5fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abff6514fbde639b51ab85166f81ec306"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#abff6514fbde639b51ab85166f81ec306">GameOver</a> ()</td></tr>
+<tr class="separator:abff6514fbde639b51ab85166f81ec306"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a239b68a9137a8434cd68c69f5d8516"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">SoulCard</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a5a239b68a9137a8434cd68c69f5d8516">GetSoulsBonus</a> (int ID)</td></tr>
+<tr class="separator:a5a239b68a9137a8434cd68c69f5d8516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeb23b399dea154508ede9dfe803cbc6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#abeb23b399dea154508ede9dfe803cbc6">HasSoulsBonus</a> (int ID)</td></tr>
+<tr class="separator:abeb23b399dea154508ede9dfe803cbc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9719030d46b05fa318da2f6b4e60b07"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#ae9719030d46b05fa318da2f6b4e60b07">HasBuff</a> (int buffID)</td></tr>
+<tr class="separator:ae9719030d46b05fa318da2f6b4e60b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a0fb0bdccbabf0a0c28501dc7bc3d16"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html">Buff</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a4a0fb0bdccbabf0a0c28501dc7bc3d16">GetBuff</a> (int buffID)</td></tr>
+<tr class="separator:a4a0fb0bdccbabf0a0c28501dc7bc3d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f74171cb5c58c842707211d25e2a8a8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a0f74171cb5c58c842707211d25e2a8a8">AddBuff</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html">Buff</a> buffToAdd)</td></tr>
+<tr class="separator:a0f74171cb5c58c842707211d25e2a8a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98ee8a731e5c50a58cbe39b74d9da9c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a98ee8a731e5c50a58cbe39b74d9da9c3">RemoveBuff</a> (int buffID)</td></tr>
+<tr class="separator:a98ee8a731e5c50a58cbe39b74d9da9c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0a0222f53fc070044bfc9f6d8d73171"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#ab0a0222f53fc070044bfc9f6d8d73171">OverrideBuff</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html">Buff</a> buffToAdd)</td></tr>
+<tr class="separator:ab0a0222f53fc070044bfc9f6d8d73171"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa35e2488a0e7c753cf35575495a40846"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#aa35e2488a0e7c753cf35575495a40846">GetLinkedGameObject</a> ()</td></tr>
+<tr class="separator:aa35e2488a0e7c753cf35575495a40846"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdb9533322eeb4953620344a61dbb03d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#abdb9533322eeb4953620344a61dbb03d">IsEntityDead</a> ()</td></tr>
+<tr class="separator:abdb9533322eeb4953620344a61dbb03d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d8273ffbfc144b4c5ef654ccb1aaa52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a9d8273ffbfc144b4c5ef654ccb1aaa52">isPlayer</a> ()</td></tr>
+<tr class="separator:a9d8273ffbfc144b4c5ef654ccb1aaa52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83edacc4d542ada96d3cc87dcf82bcc9"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a83edacc4d542ada96d3cc87dcf82bcc9">DeathSource</a> ()</td></tr>
+<tr class="separator:a83edacc4d542ada96d3cc87dcf82bcc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5a47e03f04762fd297903065d8c8fb9"><td class="memItemLeft" align="right" valign="top">abstract bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#ae5a47e03f04762fd297903065d8c8fb9">TakeDamage</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a> damageInfo)</td></tr>
+<tr class="separator:ae5a47e03f04762fd297903065d8c8fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61b6928300eb9cf87d91ed9d35848c63"><td class="memItemLeft" align="right" valign="top">abstract bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a61b6928300eb9cf87d91ed9d35848c63">TakeDamageProjectile</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a> damageInfo, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectil_a_i.html">DefaultProjectilAI</a> Projectile)</td></tr>
+<tr class="separator:a61b6928300eb9cf87d91ed9d35848c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a477fca1f46faca49dd350ad43b833f2f"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a477fca1f46faca49dd350ad43b833f2f">AddBuff</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html">Buff</a> buffToAdd)</td></tr>
+<tr class="separator:a477fca1f46faca49dd350ad43b833f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9fffc12190806a0a63c7a646140484b"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#ae9fffc12190806a0a63c7a646140484b">RemoveBuff</a> (int buffID)</td></tr>
+<tr class="separator:ae9fffc12190806a0a63c7a646140484b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd2e36092633106722dae6bde4989fa9"><td class="memItemLeft" align="right" valign="top">abstract bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#afd2e36092633106722dae6bde4989fa9">IsEntityDead</a> ()</td></tr>
+<tr class="separator:afd2e36092633106722dae6bde4989fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a838d8b0a174cad7be78d7d0df589104c"><td class="memItemLeft" align="right" valign="top">abstract bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a838d8b0a174cad7be78d7d0df589104c">isPlayer</a> ()</td></tr>
+<tr class="separator:a838d8b0a174cad7be78d7d0df589104c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90e8de6b1c0ad259ee1833a945df09ed"><td class="memItemLeft" align="right" valign="top">abstract GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a90e8de6b1c0ad259ee1833a945df09ed">GetLinkedGameObject</a> ()</td></tr>
+<tr class="separator:a90e8de6b1c0ad259ee1833a945df09ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9007bb0b0214ded4ffae36e49e3c277"><td class="memItemLeft" align="right" valign="top">abstract bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#ac9007bb0b0214ded4ffae36e49e3c277">ProjectileTarget</a> ()</td></tr>
+<tr class="separator:ac9007bb0b0214ded4ffae36e49e3c277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aeaa915bc2d902636f95b3bfa87c3cd79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_controller_survival.html">PlayerControllerSurvival</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#aeaa915bc2d902636f95b3bfa87c3cd79">controler</a></td></tr>
+<tr class="separator:aeaa915bc2d902636f95b3bfa87c3cd79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e9c9fd5feb62c7c2198938ab3c08d97"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a2e9c9fd5feb62c7c2198938ab3c08d97">IsAnachronisticActivated</a> = false</td></tr>
+<tr class="separator:a2e9c9fd5feb62c7c2198938ab3c08d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca39ec08de4f9d168364235def67ad16"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#aca39ec08de4f9d168364235def67ad16">ManualAnachronistic</a> = false</td></tr>
+<tr class="separator:aca39ec08de4f9d168364235def67ad16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea657593d1c15e802ec0f8c540115d7e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#aea657593d1c15e802ec0f8c540115d7e">BonusAnachronisticTimeLeft</a> = 0</td></tr>
+<tr class="separator:aea657593d1c15e802ec0f8c540115d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4a40869a53c83e735fb0be36e599349"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#ad4a40869a53c83e735fb0be36e599349">DashChargeLeft</a></td></tr>
+<tr class="separator:ad4a40869a53c83e735fb0be36e599349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affce5d71b01ca2432ac06c1fff638bec"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#affce5d71b01ca2432ac06c1fff638bec">ActualMoveSpeed</a> = 0</td></tr>
+<tr class="separator:affce5d71b01ca2432ac06c1fff638bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70c66c8288225900485b20975cd244d3"><td class="memItemLeft" align="right" valign="top">Renderer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a70c66c8288225900485b20975cd244d3">_playerRendered</a></td></tr>
+<tr class="separator:a70c66c8288225900485b20975cd244d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af87fb99ae0275a15d71f2e35fe4677e6"><td class="memItemLeft" align="right" valign="top">VisualEffect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#af87fb99ae0275a15d71f2e35fe4677e6">OnTakeDamageEffect</a></td></tr>
+<tr class="separator:af87fb99ae0275a15d71f2e35fe4677e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a952b574b300d0576f7948d7eabc4c264"><td class="memItemLeft" align="right" valign="top">VisualEffect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a952b574b300d0576f7948d7eabc4c264">ArtifactEffect</a></td></tr>
+<tr class="separator:a952b574b300d0576f7948d7eabc4c264"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78f0521ed63e5e0d45bb6f7a8c377e43"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a78f0521ed63e5e0d45bb6f7a8c377e43">ChestArrow</a></td></tr>
+<tr class="separator:a78f0521ed63e5e0d45bb6f7a8c377e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33bb076b67a6b4a4b9862b0db7f8b94a"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a33bb076b67a6b4a4b9862b0db7f8b94a">lightSource</a></td></tr>
+<tr class="separator:a33bb076b67a6b4a4b9862b0db7f8b94a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d20fac2b7dfb6373dbdbc0cf156d0f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a80d20fac2b7dfb6373dbdbc0cf156d0f">hasProjectileShield</a></td></tr>
+<tr class="separator:a80d20fac2b7dfb6373dbdbc0cf156d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ad6a23fd12ce3ef8deb0c03bd8dcab669"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#ad6a23fd12ce3ef8deb0c03bd8dcab669">_isDashing</a></td></tr>
+<tr class="separator:ad6a23fd12ce3ef8deb0c03bd8dcab669"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1947d5f3261ee9063832336dc1db185e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a1947d5f3261ee9063832336dc1db185e">_TimeTakeDamage</a> = 0.05f</td></tr>
+<tr class="separator:a1947d5f3261ee9063832336dc1db185e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37d2974c33f702a837031b4e20ae308b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a37d2974c33f702a837031b4e20ae308b">_lastTimeTakeDamage</a> = -1</td></tr>
+<tr class="separator:a37d2974c33f702a837031b4e20ae308b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5587deeba39f25cf16b0b91dab945f7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#ae5587deeba39f25cf16b0b91dab945f7">_lastTimeTakeExp</a> = -1</td></tr>
+<tr class="separator:ae5587deeba39f25cf16b0b91dab945f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad81ec94d067bd22560b2e498053ae916"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#ad81ec94d067bd22560b2e498053ae916">_lastTimeLevelUp</a> = -1</td></tr>
+<tr class="separator:ad81ec94d067bd22560b2e498053ae916"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a4b728f976cf5777f481865fad64a0556"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a4b728f976cf5777f481865fad64a0556">IsDashing</a><code> [get]</code></td></tr>
+<tr class="separator:a4b728f976cf5777f481865fad64a0556"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acab351b8aa1f710351beb8fb42e5f25f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_multiplier_data.html">DamageMultiplierData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#acab351b8aa1f710351beb8fb42e5f25f">GetDamageMultiplierASSCaling</a><code> [get]</code></td></tr>
+<tr class="separator:acab351b8aa1f710351beb8fb42e5f25f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abac0fb0fa739ef280e65fd1846cec3aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_multiplier_data.html">DamageMultiplierData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#abac0fb0fa739ef280e65fd1846cec3aa">GetDamageMultiplier</a><code> [get]</code></td></tr>
+<tr class="separator:abac0fb0fa739ef280e65fd1846cec3aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a056691d9290fcb86cf2c03160d8766bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_multiplier_data.html">DamageMultiplierData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a056691d9290fcb86cf2c03160d8766bb">GetDamageMultiplierForcedCrit</a><code> [get]</code></td></tr>
+<tr class="separator:a056691d9290fcb86cf2c03160d8766bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81f452db6573f53985677e69d20e73c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_multiplier_data.html">DamageMultiplierData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a81f452db6573f53985677e69d20e73c0">GetDamageMultiplierNoCrit</a><code> [get]</code></td></tr>
+<tr class="separator:a81f452db6573f53985677e69d20e73c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a8ea2ec71c53347faa8d392f0e6c5db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a4a8ea2ec71c53347faa8d392f0e6c5db">GetPlayerStats</a><code> [get]</code></td></tr>
+<tr class="separator:a4a8ea2ec71c53347faa8d392f0e6c5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e56a56e18c6216c6bb7f08bb151925f"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">Weapon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a1e56a56e18c6216c6bb7f08bb151925f">GetPlayerWeapon</a><code> [get]</code></td></tr>
+<tr class="separator:a1e56a56e18c6216c6bb7f08bb151925f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33a961152d8edac9857822690b5a8375"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html">SoulLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a33a961152d8edac9857822690b5a8375">GetSoulsLevel</a><code> [get]</code></td></tr>
+<tr class="separator:a33a961152d8edac9857822690b5a8375"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07ba80102bfc23f60e2818d106c8db7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_modifier_level.html">ModifierLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a07ba80102bfc23f60e2818d106c8db7b">ClonePlayerModifier</a><code> [get]</code></td></tr>
+<tr class="separator:a07ba80102bfc23f60e2818d106c8db7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0f74171cb5c58c842707211d25e2a8a8" name="a0f74171cb5c58c842707211d25e2a8a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f74171cb5c58c842707211d25e2a8a8">&#9670;&#160;</a></span>AddBuff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Actors.Survival.PlayerEntity.AddBuff </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html">Buff</a>&#160;</td>
+          <td class="paramname"><em>buffToAdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a477fca1f46faca49dd350ad43b833f2f">RogueGenesia.Actors.Survival.IEntity</a>.</p>
+
+</div>
+</div>
+<a id="a23046f55ee9f723437b9021d3507d2d0" name="a23046f55ee9f723437b9021d3507d2d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23046f55ee9f723437b9021d3507d2d0">&#9670;&#160;</a></span>AddSoulBonus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.AddSoulBonus </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">SoulCard</a>&#160;</td>
+          <td class="paramname"><em>soulBonusToAdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f235612dd263ed7f9710bde8c9b0a62" name="a8f235612dd263ed7f9710bde8c9b0a62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f235612dd263ed7f9710bde8c9b0a62">&#9670;&#160;</a></span>AddSoulExp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.AddSoulExp </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>xPValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e654e68cd79779e30a4e80e72c58ac4" name="a9e654e68cd79779e30a4e80e72c58ac4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e654e68cd79779e30a4e80e72c58ac4">&#9670;&#160;</a></span>AddWeapon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.AddWeapon </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">Weapon</a>&#160;</td>
+          <td class="paramname"><em>weapon</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9545c8459e9a31cf90621b6d0cc9ca3b" name="a9545c8459e9a31cf90621b6d0cc9ca3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9545c8459e9a31cf90621b6d0cc9ca3b">&#9670;&#160;</a></span>AnachronisticEffectEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.AnachronisticEffectEnd </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e61a0a396cbbe9fffc601f61d4ce866" name="a6e61a0a396cbbe9fffc601f61d4ce866"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e61a0a396cbbe9fffc601f61d4ce866">&#9670;&#160;</a></span>AnachronisticEffectStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.AnachronisticEffectStart </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d0232052ac1352ba7cd768530f45d27" name="a7d0232052ac1352ba7cd768530f45d27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d0232052ac1352ba7cd768530f45d27">&#9670;&#160;</a></span>damageMultiplier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_multiplier_data.html">DamageMultiplierData</a> RogueGenesia.Actors.Survival.PlayerEntity.damageMultiplier </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>canCrit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>multiplier</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>scaleWithAS</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ForcedCrit</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8bd4eb4694c532053bc81ecfd3505d28" name="a8bd4eb4694c532053bc81ecfd3505d28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bd4eb4694c532053bc81ecfd3505d28">&#9670;&#160;</a></span>DeathSource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RogueGenesia.Actors.Survival.PlayerEntity.DeathSource </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a83edacc4d542ada96d3cc87dcf82bcc9">RogueGenesia.Actors.Survival.IEntity</a>.</p>
+
+</div>
+</div>
+<a id="a9966d90d7d8eac0ebff679b9d17ece64" name="a9966d90d7d8eac0ebff679b9d17ece64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9966d90d7d8eac0ebff679b9d17ece64">&#9670;&#160;</a></span>DoRumbling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.DoRumbling </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rumbleDuration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>lowFrequency</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>highFrequency</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>Easeout</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a798da71ee8c02fb9a9e3c1b7aeefe6b9" name="a798da71ee8c02fb9a9e3c1b7aeefe6b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a798da71ee8c02fb9a9e3c1b7aeefe6b9">&#9670;&#160;</a></span>EndDash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.EndDash </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a691efe43b14d1b33f6d2c4b0969c9eee" name="a691efe43b14d1b33f6d2c4b0969c9eee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a691efe43b14d1b33f6d2c4b0969c9eee">&#9670;&#160;</a></span>FindWeapon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">Weapon</a> RogueGenesia.Actors.Survival.PlayerEntity.FindWeapon </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abff6514fbde639b51ab85166f81ec306" name="abff6514fbde639b51ab85166f81ec306"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abff6514fbde639b51ab85166f81ec306">&#9670;&#160;</a></span>GameOver()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.GameOver </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a0fb0bdccbabf0a0c28501dc7bc3d16" name="a4a0fb0bdccbabf0a0c28501dc7bc3d16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a0fb0bdccbabf0a0c28501dc7bc3d16">&#9670;&#160;</a></span>GetBuff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html">Buff</a> RogueGenesia.Actors.Survival.PlayerEntity.GetBuff </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>buffID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa35e2488a0e7c753cf35575495a40846" name="aa35e2488a0e7c753cf35575495a40846"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa35e2488a0e7c753cf35575495a40846">&#9670;&#160;</a></span>GetLinkedGameObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.Actors.Survival.PlayerEntity.GetLinkedGameObject </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a90e8de6b1c0ad259ee1833a945df09ed">RogueGenesia.Actors.Survival.IEntity</a>.</p>
+
+</div>
+</div>
+<a id="aab637b8e0e3551a0937f7306dc98404a" name="aab637b8e0e3551a0937f7306dc98404a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab637b8e0e3551a0937f7306dc98404a">&#9670;&#160;</a></span>GetPlayerModifierLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Actors.Survival.PlayerEntity.GetPlayerModifierLevel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_rogue_genesia_1_1_data.html#aaf6c5beac4445404d491da316e85b7f6">EPlayerModifier</a>&#160;</td>
+          <td class="paramname"><em>pMod</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a85ceabc51ab01f2495732911a06791" name="a9a85ceabc51ab01f2495732911a06791"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a85ceabc51ab01f2495732911a06791">&#9670;&#160;</a></span>GetProjectileModifierLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Actors.Survival.PlayerEntity.GetProjectileModifierLevel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a52ccddfc7de723421a7d16b015ad1d5e">EProjectileModifier</a>&#160;</td>
+          <td class="paramname"><em>pMod</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a74dab404983732c19396a461100c2622" name="a74dab404983732c19396a461100c2622"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74dab404983732c19396a461100c2622">&#9670;&#160;</a></span>GetSoulBonusLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Actors.Survival.PlayerEntity.GetSoulBonusLevel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5a239b68a9137a8434cd68c69f5d8516" name="a5a239b68a9137a8434cd68c69f5d8516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a239b68a9137a8434cd68c69f5d8516">&#9670;&#160;</a></span>GetSoulsBonus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">SoulCard</a> RogueGenesia.Actors.Survival.PlayerEntity.GetSoulsBonus </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9719030d46b05fa318da2f6b4e60b07" name="ae9719030d46b05fa318da2f6b4e60b07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9719030d46b05fa318da2f6b4e60b07">&#9670;&#160;</a></span>HasBuff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool RogueGenesia.Actors.Survival.PlayerEntity.HasBuff </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>buffID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abeb23b399dea154508ede9dfe803cbc6" name="abeb23b399dea154508ede9dfe803cbc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abeb23b399dea154508ede9dfe803cbc6">&#9670;&#160;</a></span>HasSoulsBonus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Actors.Survival.PlayerEntity.HasSoulsBonus </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adabacefd2fb09af5a9ad193277ef2952" name="adabacefd2fb09af5a9ad193277ef2952"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adabacefd2fb09af5a9ad193277ef2952">&#9670;&#160;</a></span>HealPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.HealPlayer </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>healValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abdb9533322eeb4953620344a61dbb03d" name="abdb9533322eeb4953620344a61dbb03d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdb9533322eeb4953620344a61dbb03d">&#9670;&#160;</a></span>IsEntityDead()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Actors.Survival.PlayerEntity.IsEntityDead </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#afd2e36092633106722dae6bde4989fa9">RogueGenesia.Actors.Survival.IEntity</a>.</p>
+
+</div>
+</div>
+<a id="acb9da75707f48830a7424748307c5ae5" name="acb9da75707f48830a7424748307c5ae5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb9da75707f48830a7424748307c5ae5">&#9670;&#160;</a></span>IsOSProtectionReady()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Actors.Survival.PlayerEntity.IsOSProtectionReady </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9d8273ffbfc144b4c5ef654ccb1aaa52" name="a9d8273ffbfc144b4c5ef654ccb1aaa52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d8273ffbfc144b4c5ef654ccb1aaa52">&#9670;&#160;</a></span>isPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Actors.Survival.PlayerEntity.isPlayer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a838d8b0a174cad7be78d7d0df589104c">RogueGenesia.Actors.Survival.IEntity</a>.</p>
+
+</div>
+</div>
+<a id="a4ea4c63d2f62e9d7aa919ef5b465400d" name="a4ea4c63d2f62e9d7aa919ef5b465400d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ea4c63d2f62e9d7aa919ef5b465400d">&#9670;&#160;</a></span>OnDash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.OnDash </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1c9e823dca5137d3a71c2949d855ad54" name="a1c9e823dca5137d3a71c2949d855ad54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c9e823dca5137d3a71c2949d855ad54">&#9670;&#160;</a></span>OnDashChargeRegen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.OnDashChargeRegen </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dashGained</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d8286e3cf718428878253278aa3e5fe" name="a7d8286e3cf718428878253278aa3e5fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d8286e3cf718428878253278aa3e5fe">&#9670;&#160;</a></span>OnDeath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.OnDeath </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4deb2a700194006fe14037c69d6e6d84" name="a4deb2a700194006fe14037c69d6e6d84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4deb2a700194006fe14037c69d6e6d84">&#9670;&#160;</a></span>OnEatFood()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.OnEatFood </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b2417b3316eeb83dd279a133cee8773" name="a2b2417b3316eeb83dd279a133cee8773"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b2417b3316eeb83dd279a133cee8773">&#9670;&#160;</a></span>OnTakeDamagePreDefence()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.OnTakeDamagePreDefence </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a>&#160;</td>
+          <td class="paramname"><em>damageInfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>baseDamageValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8902336acfc8a28d2f7ea0e42652b8b6" name="a8902336acfc8a28d2f7ea0e42652b8b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8902336acfc8a28d2f7ea0e42652b8b6">&#9670;&#160;</a></span>OnWatchEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.OnWatchEnd </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae41403c6638e26ac3ac5b20cfc5e8526" name="ae41403c6638e26ac3ac5b20cfc5e8526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae41403c6638e26ac3ac5b20cfc5e8526">&#9670;&#160;</a></span>OnWatchUse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.OnWatchUse </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab0a0222f53fc070044bfc9f6d8d73171" name="ab0a0222f53fc070044bfc9f6d8d73171"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0a0222f53fc070044bfc9f6d8d73171">&#9670;&#160;</a></span>OverrideBuff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Actors.Survival.PlayerEntity.OverrideBuff </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html">Buff</a>&#160;</td>
+          <td class="paramname"><em>buffToAdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab1f9e452cbae153262f970c196c08491" name="ab1f9e452cbae153262f970c196c08491"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1f9e452cbae153262f970c196c08491">&#9670;&#160;</a></span>ProjectileTarget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Actors.Survival.PlayerEntity.ProjectileTarget </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#ac9007bb0b0214ded4ffae36e49e3c277">RogueGenesia.Actors.Survival.IEntity</a>.</p>
+
+</div>
+</div>
+<a id="a2d0bf4b2efbddda346a6bb698ce05876" name="a2d0bf4b2efbddda346a6bb698ce05876"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d0bf4b2efbddda346a6bb698ce05876">&#9670;&#160;</a></span>RegenADashCharge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.RegenADashCharge </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dashGain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>MaxDash</em> = <code>int::MaxValue</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a98ee8a731e5c50a58cbe39b74d9da9c3" name="a98ee8a731e5c50a58cbe39b74d9da9c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98ee8a731e5c50a58cbe39b74d9da9c3">&#9670;&#160;</a></span>RemoveBuff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.RemoveBuff </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>buffID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#ae9fffc12190806a0a63c7a646140484b">RogueGenesia.Actors.Survival.IEntity</a>.</p>
+
+</div>
+</div>
+<a id="a287f8b2bd256135aa85f2bb47fe5b62b" name="a287f8b2bd256135aa85f2bb47fe5b62b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a287f8b2bd256135aa85f2bb47fe5b62b">&#9670;&#160;</a></span>Reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.Reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44ee5d5076faf98923380c4440040c44" name="a44ee5d5076faf98923380c4440040c44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44ee5d5076faf98923380c4440040c44">&#9670;&#160;</a></span>StartDash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.StartDash </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa83e8393cac850e98127ede8a7b60eaa" name="aa83e8393cac850e98127ede8a7b60eaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa83e8393cac850e98127ede8a7b60eaa">&#9670;&#160;</a></span>TakeDamage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Actors.Survival.PlayerEntity.TakeDamage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a>&#160;</td>
+          <td class="paramname"><em>damageInfo</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#ae5a47e03f04762fd297903065d8c8fb9">RogueGenesia.Actors.Survival.IEntity</a>.</p>
+
+</div>
+</div>
+<a id="a0158a91bcc375964f71749f836a5ae8a" name="a0158a91bcc375964f71749f836a5ae8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0158a91bcc375964f71749f836a5ae8a">&#9670;&#160;</a></span>TakeDamageProjectile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Actors.Survival.PlayerEntity.TakeDamageProjectile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a>&#160;</td>
+          <td class="paramname"><em>damageInformation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectil_a_i.html">DefaultProjectilAI</a>&#160;</td>
+          <td class="paramname"><em>projectile</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a61b6928300eb9cf87d91ed9d35848c63">RogueGenesia.Actors.Survival.IEntity</a>.</p>
+
+</div>
+</div>
+<a id="a30fbc2ee647ce589fd18f2c14d1f0491" name="a30fbc2ee647ce589fd18f2c14d1f0491"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30fbc2ee647ce589fd18f2c14d1f0491">&#9670;&#160;</a></span>UIUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.PlayerEntity.UIUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad6a23fd12ce3ef8deb0c03bd8dcab669" name="ad6a23fd12ce3ef8deb0c03bd8dcab669"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6a23fd12ce3ef8deb0c03bd8dcab669">&#9670;&#160;</a></span>_isDashing</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Actors.Survival.PlayerEntity._isDashing</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad81ec94d067bd22560b2e498053ae916" name="ad81ec94d067bd22560b2e498053ae916"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad81ec94d067bd22560b2e498053ae916">&#9670;&#160;</a></span>_lastTimeLevelUp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Actors.Survival.PlayerEntity._lastTimeLevelUp = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a37d2974c33f702a837031b4e20ae308b" name="a37d2974c33f702a837031b4e20ae308b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37d2974c33f702a837031b4e20ae308b">&#9670;&#160;</a></span>_lastTimeTakeDamage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Actors.Survival.PlayerEntity._lastTimeTakeDamage = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae5587deeba39f25cf16b0b91dab945f7" name="ae5587deeba39f25cf16b0b91dab945f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5587deeba39f25cf16b0b91dab945f7">&#9670;&#160;</a></span>_lastTimeTakeExp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Actors.Survival.PlayerEntity._lastTimeTakeExp = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a70c66c8288225900485b20975cd244d3" name="a70c66c8288225900485b20975cd244d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70c66c8288225900485b20975cd244d3">&#9670;&#160;</a></span>_playerRendered</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Renderer RogueGenesia.Actors.Survival.PlayerEntity._playerRendered</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1947d5f3261ee9063832336dc1db185e" name="a1947d5f3261ee9063832336dc1db185e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1947d5f3261ee9063832336dc1db185e">&#9670;&#160;</a></span>_TimeTakeDamage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Actors.Survival.PlayerEntity._TimeTakeDamage = 0.05f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="affce5d71b01ca2432ac06c1fff638bec" name="affce5d71b01ca2432ac06c1fff638bec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affce5d71b01ca2432ac06c1fff638bec">&#9670;&#160;</a></span>ActualMoveSpeed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Actors.Survival.PlayerEntity.ActualMoveSpeed = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a952b574b300d0576f7948d7eabc4c264" name="a952b574b300d0576f7948d7eabc4c264"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a952b574b300d0576f7948d7eabc4c264">&#9670;&#160;</a></span>ArtifactEffect</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VisualEffect RogueGenesia.Actors.Survival.PlayerEntity.ArtifactEffect</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aea657593d1c15e802ec0f8c540115d7e" name="aea657593d1c15e802ec0f8c540115d7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea657593d1c15e802ec0f8c540115d7e">&#9670;&#160;</a></span>BonusAnachronisticTimeLeft</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Actors.Survival.PlayerEntity.BonusAnachronisticTimeLeft = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a78f0521ed63e5e0d45bb6f7a8c377e43" name="a78f0521ed63e5e0d45bb6f7a8c377e43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78f0521ed63e5e0d45bb6f7a8c377e43">&#9670;&#160;</a></span>ChestArrow</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.Actors.Survival.PlayerEntity.ChestArrow</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeaa915bc2d902636f95b3bfa87c3cd79" name="aeaa915bc2d902636f95b3bfa87c3cd79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaa915bc2d902636f95b3bfa87c3cd79">&#9670;&#160;</a></span>controler</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_controller_survival.html">PlayerControllerSurvival</a> RogueGenesia.Actors.Survival.PlayerEntity.controler</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad4a40869a53c83e735fb0be36e599349" name="ad4a40869a53c83e735fb0be36e599349"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4a40869a53c83e735fb0be36e599349">&#9670;&#160;</a></span>DashChargeLeft</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Actors.Survival.PlayerEntity.DashChargeLeft</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80d20fac2b7dfb6373dbdbc0cf156d0f" name="a80d20fac2b7dfb6373dbdbc0cf156d0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80d20fac2b7dfb6373dbdbc0cf156d0f">&#9670;&#160;</a></span>hasProjectileShield</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Actors.Survival.PlayerEntity.hasProjectileShield</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2e9c9fd5feb62c7c2198938ab3c08d97" name="a2e9c9fd5feb62c7c2198938ab3c08d97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e9c9fd5feb62c7c2198938ab3c08d97">&#9670;&#160;</a></span>IsAnachronisticActivated</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Actors.Survival.PlayerEntity.IsAnachronisticActivated = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a33bb076b67a6b4a4b9862b0db7f8b94a" name="a33bb076b67a6b4a4b9862b0db7f8b94a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33bb076b67a6b4a4b9862b0db7f8b94a">&#9670;&#160;</a></span>lightSource</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.Actors.Survival.PlayerEntity.lightSource</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca39ec08de4f9d168364235def67ad16" name="aca39ec08de4f9d168364235def67ad16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca39ec08de4f9d168364235def67ad16">&#9670;&#160;</a></span>ManualAnachronistic</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Actors.Survival.PlayerEntity.ManualAnachronistic = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af87fb99ae0275a15d71f2e35fe4677e6" name="af87fb99ae0275a15d71f2e35fe4677e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af87fb99ae0275a15d71f2e35fe4677e6">&#9670;&#160;</a></span>OnTakeDamageEffect</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VisualEffect RogueGenesia.Actors.Survival.PlayerEntity.OnTakeDamageEffect</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a07ba80102bfc23f60e2818d106c8db7b" name="a07ba80102bfc23f60e2818d106c8db7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07ba80102bfc23f60e2818d106c8db7b">&#9670;&#160;</a></span>ClonePlayerModifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_modifier_level.html">ModifierLevel</a> RogueGenesia.Actors.Survival.PlayerEntity.ClonePlayerModifier</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abac0fb0fa739ef280e65fd1846cec3aa" name="abac0fb0fa739ef280e65fd1846cec3aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abac0fb0fa739ef280e65fd1846cec3aa">&#9670;&#160;</a></span>GetDamageMultiplier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_multiplier_data.html">DamageMultiplierData</a> RogueGenesia.Actors.Survival.PlayerEntity.GetDamageMultiplier</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acab351b8aa1f710351beb8fb42e5f25f" name="acab351b8aa1f710351beb8fb42e5f25f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acab351b8aa1f710351beb8fb42e5f25f">&#9670;&#160;</a></span>GetDamageMultiplierASSCaling</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_multiplier_data.html">DamageMultiplierData</a> RogueGenesia.Actors.Survival.PlayerEntity.GetDamageMultiplierASSCaling</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a056691d9290fcb86cf2c03160d8766bb" name="a056691d9290fcb86cf2c03160d8766bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a056691d9290fcb86cf2c03160d8766bb">&#9670;&#160;</a></span>GetDamageMultiplierForcedCrit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_multiplier_data.html">DamageMultiplierData</a> RogueGenesia.Actors.Survival.PlayerEntity.GetDamageMultiplierForcedCrit</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a81f452db6573f53985677e69d20e73c0" name="a81f452db6573f53985677e69d20e73c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81f452db6573f53985677e69d20e73c0">&#9670;&#160;</a></span>GetDamageMultiplierNoCrit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_multiplier_data.html">DamageMultiplierData</a> RogueGenesia.Actors.Survival.PlayerEntity.GetDamageMultiplierNoCrit</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a8ea2ec71c53347faa8d392f0e6c5db" name="a4a8ea2ec71c53347faa8d392f0e6c5db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a8ea2ec71c53347faa8d392f0e6c5db">&#9670;&#160;</a></span>GetPlayerStats</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a> RogueGenesia.Actors.Survival.PlayerEntity.GetPlayerStats</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e56a56e18c6216c6bb7f08bb151925f" name="a1e56a56e18c6216c6bb7f08bb151925f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e56a56e18c6216c6bb7f08bb151925f">&#9670;&#160;</a></span>GetPlayerWeapon</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">Weapon</a>&gt; RogueGenesia.Actors.Survival.PlayerEntity.GetPlayerWeapon</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a33a961152d8edac9857822690b5a8375" name="a33a961152d8edac9857822690b5a8375"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33a961152d8edac9857822690b5a8375">&#9670;&#160;</a></span>GetSoulsLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html">SoulLevel</a> RogueGenesia.Actors.Survival.PlayerEntity.GetSoulsLevel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4b728f976cf5777f481865fad64a0556" name="a4b728f976cf5777f481865fad64a0556"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b728f976cf5777f481865fad64a0556">&#9670;&#160;</a></span>IsDashing</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Actors.Survival.PlayerEntity.IsDashing</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/Player/PlayerEntity.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_actors.html">Actors</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_actors_1_1_survival.html">Survival</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

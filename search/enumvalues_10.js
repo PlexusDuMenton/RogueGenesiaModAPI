@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['randomwalk_0',['RandomWalk',['../namespace_rogue_genesia_1_1_actors_1_1_survival.html#a812aa5033e32de6604d74146283fb72ea9a63e51619bf3fbf6c1888dfc19b7edc',1,'RogueGenesia::Actors::Survival']]],
+  ['rangearroundplayer_1',['RangeArroundPlayer',['../namespace_rogue_genesia_1_1_data.html#ade1c39d4a8007da6d58244c2df291e4cab958005268362181937e5e9de92ead1d',1,'RogueGenesia::Data']]],
+  ['rare_2',['Rare',['../namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aaaa2cc588f2ab07ad61b05400f593eeb0a',1,'RogueGenesia::Data']]],
+  ['raritycarddropchance_3',['RarityCardDropChance',['../class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc34381676ecd99288db3111ac3263eca3f8b8769e59b05826631e00ba1e60813',1,'RogueGenesia::Data::SoulShopUpgradeSO']]],
+  ['rarityrerollcount_4',['RarityRerollCount',['../class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc34381676ecd99288db3111ac3263ecaf436ca87279698a0f5f9a03d22f5f138',1,'RogueGenesia::Data::SoulShopUpgradeSO']]],
+  ['reachsoullevel_5',['reachSoulLevel',['../class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html#ada4b91b89aafa1701f9b7b4b1838cb27a19d6b710f9643ab79737a909b9587a44',1,'RogueGenesia::Data::AchievementScriptableObject']]],
+  ['requireachievements_6',['RequireAchievements',['../class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html#ada4b91b89aafa1701f9b7b4b1838cb27a93150bb25e64698101dda9ef803dd2bb',1,'RogueGenesia::Data::AchievementScriptableObject']]],
+  ['rerollcount_7',['RerollCount',['../class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc34381676ecd99288db3111ac3263eca9653533fc1061cfeb88593c5ce09252d',1,'RogueGenesia::Data::SoulShopUpgradeSO']]],
+  ['resetduration_8',['ResetDuration',['../namespace_rogue_genesia_1_1_actors_1_1_survival.html#a33d9641bff7371123fe8d8ebd4abdb8aae4f4d16c0b5c9c8e597da7d6c3477843',1,'RogueGenesia::Actors::Survival']]],
+  ['revolver_9',['Revolver',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390dae450f76afe9b3844228bdf4846d6f301',1,'RogueGenesia::Data']]],
+  ['reward_10',['Reward',['../namespace_rogue_genesia_1_1_data.html#ad44f0911ce096d9919873f116fe32373a35281ac0e8d77e142fdcd41c07ce47dd',1,'RogueGenesia::Data']]],
+  ['rifle_11',['Rifle',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da6fe1a54664b1d4283b3b028fdc0f77a3',1,'RogueGenesia::Data']]],
+  ['rift_12',['Rift',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da09223d8b66c0ee1dfeb4c58b2665037e',1,'RogueGenesia::Data']]],
+  ['rifted_13',['Rifted',['../namespace_rogue_genesia_1_1_data.html#adb76f445ee1b5f0678fdd5d1c67b48bfa229cf3fa080e962292152d2cfedb068a',1,'RogueGenesia::Data']]],
+  ['rogmode_14',['RogMode',['../class_rogue_genesia_1_1_data_1_1_game_data.html#a3ff39a6d80bf92ce1fa1917c644c3daba7f82a047fb80d0ea250cdebce3c0d001',1,'RogueGenesia::Data::GameData']]],
+  ['rogs_15',['Rogs',['../class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#ae284d305c379daf4308ab1ea6da43464a73c4a7d21c969bc589b3d0ad32b261be',1,'RogueGenesia::Data::ArtifactScriptableObject']]],
+  ['rogueplay_16',['RoguePlay',['../namespace_rogue_genesia_1_1_data.html#ad44f0911ce096d9919873f116fe32373a009730a6eea31743809677215a4cb2c3',1,'RogueGenesia::Data']]],
+  ['run_17',['Run',['../class_mod_genesia_1_1_avatar_a_p_i.html#a983909dbea99f2a0d52834125d4266faac5301693c4e792bcd5a479ef38fb8f8d',1,'ModGenesia::AvatarAPI']]]
+];

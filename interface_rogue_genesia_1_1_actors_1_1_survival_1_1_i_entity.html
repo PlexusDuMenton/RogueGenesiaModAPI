@@ -1,0 +1,432 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue:Genesia API" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Rogue: Genesia API" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.Actors.Survival.IEntity Interface Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.Actors.Survival.IEntity Interface Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.Actors.Survival.IEntity:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a83edacc4d542ada96d3cc87dcf82bcc9"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a83edacc4d542ada96d3cc87dcf82bcc9">DeathSource</a> ()</td></tr>
+<tr class="separator:a83edacc4d542ada96d3cc87dcf82bcc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5a47e03f04762fd297903065d8c8fb9"><td class="memItemLeft" align="right" valign="top">abstract bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#ae5a47e03f04762fd297903065d8c8fb9">TakeDamage</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a> damageInfo)</td></tr>
+<tr class="separator:ae5a47e03f04762fd297903065d8c8fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61b6928300eb9cf87d91ed9d35848c63"><td class="memItemLeft" align="right" valign="top">abstract bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a61b6928300eb9cf87d91ed9d35848c63">TakeDamageProjectile</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a> damageInfo, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectil_a_i.html">DefaultProjectilAI</a> Projectile)</td></tr>
+<tr class="separator:a61b6928300eb9cf87d91ed9d35848c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a477fca1f46faca49dd350ad43b833f2f"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a477fca1f46faca49dd350ad43b833f2f">AddBuff</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html">Buff</a> buffToAdd)</td></tr>
+<tr class="separator:a477fca1f46faca49dd350ad43b833f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9fffc12190806a0a63c7a646140484b"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#ae9fffc12190806a0a63c7a646140484b">RemoveBuff</a> (int buffID)</td></tr>
+<tr class="separator:ae9fffc12190806a0a63c7a646140484b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd2e36092633106722dae6bde4989fa9"><td class="memItemLeft" align="right" valign="top">abstract bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#afd2e36092633106722dae6bde4989fa9">IsEntityDead</a> ()</td></tr>
+<tr class="separator:afd2e36092633106722dae6bde4989fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a838d8b0a174cad7be78d7d0df589104c"><td class="memItemLeft" align="right" valign="top">abstract bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a838d8b0a174cad7be78d7d0df589104c">isPlayer</a> ()</td></tr>
+<tr class="separator:a838d8b0a174cad7be78d7d0df589104c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90e8de6b1c0ad259ee1833a945df09ed"><td class="memItemLeft" align="right" valign="top">abstract GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a90e8de6b1c0ad259ee1833a945df09ed">GetLinkedGameObject</a> ()</td></tr>
+<tr class="separator:a90e8de6b1c0ad259ee1833a945df09ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9007bb0b0214ded4ffae36e49e3c277"><td class="memItemLeft" align="right" valign="top">abstract bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#ac9007bb0b0214ded4ffae36e49e3c277">ProjectileTarget</a> ()</td></tr>
+<tr class="separator:ac9007bb0b0214ded4ffae36e49e3c277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a477fca1f46faca49dd350ad43b833f2f" name="a477fca1f46faca49dd350ad43b833f2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a477fca1f46faca49dd350ad43b833f2f">&#9670;&#160;</a></span>AddBuff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void RogueGenesia.Actors.Survival.IEntity.AddBuff </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html">Buff</a>&#160;</td>
+          <td class="paramname"><em>buffToAdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#afb53c91409345237b73cd464b9c3a547">RogueGenesia.Actors.Survival.CrateCollisionDetection</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_source_entity.html#afe91219ef2a4bf1b3125e064f470163e">RogueGenesia.Actors.Survival.DamageSourceEntity</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster_collision_detection.html#af4a9a42b37d4a7fb88b96f80dc2fb99f">RogueGenesia.Actors.Survival.MonsterCollisionDetection</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html#aff85413a165ad0679552ae4ac41e28d4">RogueGenesia.Actors.Survival.Monster</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a0f74171cb5c58c842707211d25e2a8a8">RogueGenesia.Actors.Survival.PlayerEntity</a>.</p>
+
+</div>
+</div>
+<a id="a83edacc4d542ada96d3cc87dcf82bcc9" name="a83edacc4d542ada96d3cc87dcf82bcc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83edacc4d542ada96d3cc87dcf82bcc9">&#9670;&#160;</a></span>DeathSource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract string RogueGenesia.Actors.Survival.IEntity.DeathSource </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#aff4317eeef1ca41c5359cdceb5b04dca">RogueGenesia.Actors.Survival.CrateCollisionDetection</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_source_entity.html#a33d4baf2da80549bbcad741135f7b2ae">RogueGenesia.Actors.Survival.DamageSourceEntity</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html#a1546fecd84739dbb3b964317e2e3fed3">RogueGenesia.Actors.Survival.Monster</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster_collision_detection.html#a8723135d709d09a51018ac4cf8ac828e">RogueGenesia.Actors.Survival.MonsterCollisionDetection</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a8bd4eb4694c532053bc81ecfd3505d28">RogueGenesia.Actors.Survival.PlayerEntity</a>.</p>
+
+</div>
+</div>
+<a id="a90e8de6b1c0ad259ee1833a945df09ed" name="a90e8de6b1c0ad259ee1833a945df09ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90e8de6b1c0ad259ee1833a945df09ed">&#9670;&#160;</a></span>GetLinkedGameObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract GameObject RogueGenesia.Actors.Survival.IEntity.GetLinkedGameObject </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#af48b5913dfbeea6591bcbade5c7b4071">RogueGenesia.Actors.Survival.CrateCollisionDetection</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_source_entity.html#a5d19db7a8a43afa314b87380bec5a4a4">RogueGenesia.Actors.Survival.DamageSourceEntity</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html#a79977fb1b246f726e691ff24b06d4478">RogueGenesia.Actors.Survival.Monster</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster_collision_detection.html#a6b9af3d002d24526bfed78da84d2476e">RogueGenesia.Actors.Survival.MonsterCollisionDetection</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#aa35e2488a0e7c753cf35575495a40846">RogueGenesia.Actors.Survival.PlayerEntity</a>.</p>
+
+</div>
+</div>
+<a id="afd2e36092633106722dae6bde4989fa9" name="afd2e36092633106722dae6bde4989fa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd2e36092633106722dae6bde4989fa9">&#9670;&#160;</a></span>IsEntityDead()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract bool RogueGenesia.Actors.Survival.IEntity.IsEntityDead </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#acb3c2793b62cdbf14ede77808ca827b5">RogueGenesia.Actors.Survival.CrateCollisionDetection</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_source_entity.html#a75c9bc5cae62617195c302949ea57068">RogueGenesia.Actors.Survival.DamageSourceEntity</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html#af80dfe18e8545bafcad9864041daf5e3">RogueGenesia.Actors.Survival.Monster</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster_collision_detection.html#a9f29bcc9883c01522e178b880db770b2">RogueGenesia.Actors.Survival.MonsterCollisionDetection</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#abdb9533322eeb4953620344a61dbb03d">RogueGenesia.Actors.Survival.PlayerEntity</a>.</p>
+
+</div>
+</div>
+<a id="a838d8b0a174cad7be78d7d0df589104c" name="a838d8b0a174cad7be78d7d0df589104c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a838d8b0a174cad7be78d7d0df589104c">&#9670;&#160;</a></span>isPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract bool RogueGenesia.Actors.Survival.IEntity.isPlayer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a796a69db04d727e88d202aa345319e05">RogueGenesia.Actors.Survival.CrateCollisionDetection</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_source_entity.html#ac0b3d15efc1e77a8977a2daf4b3ccfe9">RogueGenesia.Actors.Survival.DamageSourceEntity</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html#a889ec7248c13fa05a450201618e2c970">RogueGenesia.Actors.Survival.Monster</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster_collision_detection.html#af630224b6c29277cf7c2bfe2dff5715a">RogueGenesia.Actors.Survival.MonsterCollisionDetection</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a9d8273ffbfc144b4c5ef654ccb1aaa52">RogueGenesia.Actors.Survival.PlayerEntity</a>.</p>
+
+</div>
+</div>
+<a id="ac9007bb0b0214ded4ffae36e49e3c277" name="ac9007bb0b0214ded4ffae36e49e3c277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9007bb0b0214ded4ffae36e49e3c277">&#9670;&#160;</a></span>ProjectileTarget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract bool RogueGenesia.Actors.Survival.IEntity.ProjectileTarget </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a2607e6854239e012df4701db69cf272c">RogueGenesia.Actors.Survival.CrateCollisionDetection</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_source_entity.html#a0ed583006118ab291c202bec5c0957cb">RogueGenesia.Actors.Survival.DamageSourceEntity</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html#a4a843dfb3fa3c48f0e1c46a179b83641">RogueGenesia.Actors.Survival.Monster</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster_collision_detection.html#ad3ee20c564c023fd086f17f3e5f0cd1d">RogueGenesia.Actors.Survival.MonsterCollisionDetection</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#ab1f9e452cbae153262f970c196c08491">RogueGenesia.Actors.Survival.PlayerEntity</a>.</p>
+
+</div>
+</div>
+<a id="ae9fffc12190806a0a63c7a646140484b" name="ae9fffc12190806a0a63c7a646140484b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9fffc12190806a0a63c7a646140484b">&#9670;&#160;</a></span>RemoveBuff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void RogueGenesia.Actors.Survival.IEntity.RemoveBuff </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>buffID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#ac009e495066f2fc503ee0d77383650a7">RogueGenesia.Actors.Survival.CrateCollisionDetection</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_source_entity.html#a131318583d68ba21128adbf02b159bbd">RogueGenesia.Actors.Survival.DamageSourceEntity</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html#a801483968569416e9074a07a17288cbf">RogueGenesia.Actors.Survival.Monster</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster_collision_detection.html#a76b191890cbdc678ca2fcae0c84b3a6f">RogueGenesia.Actors.Survival.MonsterCollisionDetection</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a98ee8a731e5c50a58cbe39b74d9da9c3">RogueGenesia.Actors.Survival.PlayerEntity</a>.</p>
+
+</div>
+</div>
+<a id="ae5a47e03f04762fd297903065d8c8fb9" name="ae5a47e03f04762fd297903065d8c8fb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5a47e03f04762fd297903065d8c8fb9">&#9670;&#160;</a></span>TakeDamage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract bool RogueGenesia.Actors.Survival.IEntity.TakeDamage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a>&#160;</td>
+          <td class="paramname"><em>damageInfo</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html#a7f8be436876a6631dedb8676a21d0dac">RogueGenesia.Actors.Survival.Monster</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#aa83e8393cac850e98127ede8a7b60eaa">RogueGenesia.Actors.Survival.PlayerEntity</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#ad197d9011278888a0e40053e248af8e4">RogueGenesia.Actors.Survival.CrateCollisionDetection</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_source_entity.html#a7efe61fd3c04d962df083aaff1170026">RogueGenesia.Actors.Survival.DamageSourceEntity</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#a80874b27baedc781e25b845650ec8f0f">RogueGenesia.Actors.Survival.NecroMancerBoss</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_boss.html#aefe8cc186b3a083e0f078ff2e2801135">RogueGenesia.Actors.Survival.WormBoss</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster_collision_detection.html#aa13c318c1a53acbe4398b18c8a59dccd">RogueGenesia.Actors.Survival.MonsterCollisionDetection</a>.</p>
+
+</div>
+</div>
+<a id="a61b6928300eb9cf87d91ed9d35848c63" name="a61b6928300eb9cf87d91ed9d35848c63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61b6928300eb9cf87d91ed9d35848c63">&#9670;&#160;</a></span>TakeDamageProjectile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract bool RogueGenesia.Actors.Survival.IEntity.TakeDamageProjectile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a>&#160;</td>
+          <td class="paramname"><em>damageInfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectil_a_i.html">DefaultProjectilAI</a>&#160;</td>
+          <td class="paramname"><em>Projectile</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a48664241070bc4ea0eee33c39ab88825">RogueGenesia.Actors.Survival.CrateCollisionDetection</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_source_entity.html#ac8ddd2933631c027c712e38f6407946c">RogueGenesia.Actors.Survival.DamageSourceEntity</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html#a9b618157efe529e0310093e58d224852">RogueGenesia.Actors.Survival.Monster</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster_collision_detection.html#ae237c5b0239e489109e1cbbf3a8a088f">RogueGenesia.Actors.Survival.MonsterCollisionDetection</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a0158a91bcc375964f71749f836a5ae8a">RogueGenesia.Actors.Survival.PlayerEntity</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this interface was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/Entity.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_actors.html">Actors</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_actors_1_1_survival.html">Survival</a></li><li class="navelem"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,1655 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue:Genesia API" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Rogue: Genesia API" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.UI.OptionMenu Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_u_i_1_1_option_menu.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="class_rogue_genesia_1_1_u_i_1_1_option_menu-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.UI.OptionMenu Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.UI.OptionMenu:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:af353dd4e48121302591d437fd36c334f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#af353dd4e48121302591d437fd36c334f">OpenOptionMenu</a> (GameObject previousMenu, GameObject buttonToSelect)</td></tr>
+<tr class="separator:af353dd4e48121302591d437fd36c334f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad41d0982df8124ce4f236495a9c1e2a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#ad41d0982df8124ce4f236495a9c1e2a0">BackToOption</a> (int fromOption=-1)</td></tr>
+<tr class="separator:ad41d0982df8124ce4f236495a9c1e2a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab534dfabd956138a7ac6163744b679de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#ab534dfabd956138a7ac6163744b679de">ReturnToPreviousMenu</a> ()</td></tr>
+<tr class="separator:ab534dfabd956138a7ac6163744b679de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51301b2f13fe6646910ad49072f9f252"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a51301b2f13fe6646910ad49072f9f252">Update</a> ()</td></tr>
+<tr class="separator:a51301b2f13fe6646910ad49072f9f252"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af999361931f21dcf770142d71b081ccb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#af999361931f21dcf770142d71b081ccb">Init</a> ()</td></tr>
+<tr class="separator:af999361931f21dcf770142d71b081ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ba1c3656859bf2fad24f0a021fef7d4"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a3ba1c3656859bf2fad24f0a021fef7d4">Start</a> ()</td></tr>
+<tr class="separator:a3ba1c3656859bf2fad24f0a021fef7d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59d7c66a11f443041bff0769f02109e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a59d7c66a11f443041bff0769f02109e7">Awake</a> ()</td></tr>
+<tr class="separator:a59d7c66a11f443041bff0769f02109e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bb463584906bd4fde1e2b327b45640c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a6bb463584906bd4fde1e2b327b45640c">OpenGameOption</a> ()</td></tr>
+<tr class="separator:a6bb463584906bd4fde1e2b327b45640c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a956447b87d77f535e886d86e8a8a9fef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a956447b87d77f535e886d86e8a8a9fef">OpenModOption</a> ()</td></tr>
+<tr class="separator:a956447b87d77f535e886d86e8a8a9fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73a8deeb8f47437eecc7c48f4cf728b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a73a8deeb8f47437eecc7c48f4cf728b0">OpenVideo</a> ()</td></tr>
+<tr class="separator:a73a8deeb8f47437eecc7c48f4cf728b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae366e2ccf0fd883910c34765185ed90e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#ae366e2ccf0fd883910c34765185ed90e">UpdateQualityPresetData</a> ()</td></tr>
+<tr class="separator:ae366e2ccf0fd883910c34765185ed90e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d54e71589fa538a85acc4c5e5f7914a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a0d54e71589fa538a85acc4c5e5f7914a">UpdateQualityData</a> ()</td></tr>
+<tr class="separator:a0d54e71589fa538a85acc4c5e5f7914a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1d99e3f328bf112f1c27f292019fa82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#ad1d99e3f328bf112f1c27f292019fa82">UpdateMaxFPS</a> ()</td></tr>
+<tr class="separator:ad1d99e3f328bf112f1c27f292019fa82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa34512fa6108d394ee8a5f57c006beb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#aa34512fa6108d394ee8a5f57c006beb1">UpdateDisplayedFPS</a> ()</td></tr>
+<tr class="separator:aa34512fa6108d394ee8a5f57c006beb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42d9d4b49b6beb8ca619030d92e09b52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a42d9d4b49b6beb8ca619030d92e09b52">UpdateGraphicsQuality</a> ()</td></tr>
+<tr class="separator:a42d9d4b49b6beb8ca619030d92e09b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e9a0edb7ba879e3ca3af15bdd3f0743"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a1e9a0edb7ba879e3ca3af15bdd3f0743">OnMusicVolumeChange</a> ()</td></tr>
+<tr class="separator:a1e9a0edb7ba879e3ca3af15bdd3f0743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76c29d364453e2326e2d4ce2c485c5e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a76c29d364453e2326e2d4ce2c485c5e0">OnSFXVolumeChange</a> ()</td></tr>
+<tr class="separator:a76c29d364453e2326e2d4ce2c485c5e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cdaaeae2b5e25fa7a9b5cb6a2ddf16c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a9cdaaeae2b5e25fa7a9b5cb6a2ddf16c">OnPickUpSFXVolumeChange</a> ()</td></tr>
+<tr class="separator:a9cdaaeae2b5e25fa7a9b5cb6a2ddf16c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a9a783360f0d98ff526b3f69e317b30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a4a9a783360f0d98ff526b3f69e317b30">OnDisableBGSOundChange</a> ()</td></tr>
+<tr class="separator:a4a9a783360f0d98ff526b3f69e317b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15718e16edd648ea767cbae9a26334c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a15718e16edd648ea767cbae9a26334c6">OnOutlineChange</a> ()</td></tr>
+<tr class="separator:a15718e16edd648ea767cbae9a26334c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61d380ab935ab7696876ab6356153f7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a61d380ab935ab7696876ab6356153f7d">OnColorChange</a> ()</td></tr>
+<tr class="separator:a61d380ab935ab7696876ab6356153f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a993e90321e34d792a8ccc65bba929da6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a993e90321e34d792a8ccc65bba929da6">OpenCrosshair</a> ()</td></tr>
+<tr class="separator:a993e90321e34d792a8ccc65bba929da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeab79be3eb08d263445301b94d7f707a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#aeab79be3eb08d263445301b94d7f707a">OpenSound</a> ()</td></tr>
+<tr class="separator:aeab79be3eb08d263445301b94d7f707a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a06f268ad7ca98262946ad98c0bbb94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a7a06f268ad7ca98262946ad98c0bbb94">OpenKeyBinds</a> ()</td></tr>
+<tr class="separator:a7a06f268ad7ca98262946ad98c0bbb94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2500d7ec564fe9e07ccfefe0f855c1c6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_menu_manager.html#a2500d7ec564fe9e07ccfefe0f855c1c6">Start</a> ()</td></tr>
+<tr class="separator:a2500d7ec564fe9e07ccfefe0f855c1c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ad9947352184112270a4ebb59f6437434"><td class="memItemLeft" align="right" valign="top">VolumeProfile&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#ad9947352184112270a4ebb59f6437434">DefaultVolumeProfile</a></td></tr>
+<tr class="separator:ad9947352184112270a4ebb59f6437434"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeef0aa3fe5187f1fa7f2376315756713"><td class="memItemLeft" align="right" valign="top">Sprite&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#aeef0aa3fe5187f1fa7f2376315756713">CrossHair</a></td></tr>
+<tr class="separator:aeef0aa3fe5187f1fa7f2376315756713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae29ee52eaa21bfc2c0957ca8036ddfde"><td class="memItemLeft" align="right" valign="top">Sprite&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#ae29ee52eaa21bfc2c0957ca8036ddfde">OutLineCrosshair</a></td></tr>
+<tr class="separator:ae29ee52eaa21bfc2c0957ca8036ddfde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f27cb0b4aae416682b240340a0ac66e"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a5f27cb0b4aae416682b240340a0ac66e">PreviousMenu</a></td></tr>
+<tr class="separator:a5f27cb0b4aae416682b240340a0ac66e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2832c78298f39d52499cea57fccce002"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a2832c78298f39d52499cea57fccce002">PreviousMenuButtonToSelect</a></td></tr>
+<tr class="separator:a2832c78298f39d52499cea57fccce002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a571cc5d41eefa71b5d841f6805b551c6"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a571cc5d41eefa71b5d841f6805b551c6">OptionButtons</a></td></tr>
+<tr class="separator:a571cc5d41eefa71b5d841f6805b551c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b26f4e0d984dcdbbe7040a8141dffd4"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a7b26f4e0d984dcdbbe7040a8141dffd4">OptionSound</a></td></tr>
+<tr class="separator:a7b26f4e0d984dcdbbe7040a8141dffd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0baec7c008709e934f10fa72ea616001"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a0baec7c008709e934f10fa72ea616001">OptionCrosshair</a></td></tr>
+<tr class="separator:a0baec7c008709e934f10fa72ea616001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99214ca24133f8d2a2c87985d0ed41a9"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a99214ca24133f8d2a2c87985d0ed41a9">OptionVideo</a></td></tr>
+<tr class="separator:a99214ca24133f8d2a2c87985d0ed41a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a707f026acba45fcc1c7b122b87539065"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a707f026acba45fcc1c7b122b87539065">OptionKeybind</a></td></tr>
+<tr class="separator:a707f026acba45fcc1c7b122b87539065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92c68b43a3b463e255cd04795707f574"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a92c68b43a3b463e255cd04795707f574">GameOption</a></td></tr>
+<tr class="separator:a92c68b43a3b463e255cd04795707f574"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eb3f846538cfde3116f0ee0355196bf"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a1eb3f846538cfde3116f0ee0355196bf">ModOption</a></td></tr>
+<tr class="separator:a1eb3f846538cfde3116f0ee0355196bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cdfb4e2f4feb71dc927fddeda8ddd36"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a7cdfb4e2f4feb71dc927fddeda8ddd36">OptionFirstButton</a></td></tr>
+<tr class="separator:a7cdfb4e2f4feb71dc927fddeda8ddd36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84ee65797b5037c8a9c34c38248b5b08"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a84ee65797b5037c8a9c34c38248b5b08">CrosshairButton</a></td></tr>
+<tr class="separator:a84ee65797b5037c8a9c34c38248b5b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05fee0f3f1da265276da3e77bbf957ad"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a05fee0f3f1da265276da3e77bbf957ad">SoundButton</a></td></tr>
+<tr class="separator:a05fee0f3f1da265276da3e77bbf957ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fed007cc602c155782f4008e54b0dd4"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a7fed007cc602c155782f4008e54b0dd4">VideoButton</a></td></tr>
+<tr class="separator:a7fed007cc602c155782f4008e54b0dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9777e523334c5c582d46273063b3b3ca"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a9777e523334c5c582d46273063b3b3ca">KeybindButton</a></td></tr>
+<tr class="separator:a9777e523334c5c582d46273063b3b3ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4656d5d07c68be6dcefc391f808c0256"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a4656d5d07c68be6dcefc391f808c0256">GameOptionButton</a></td></tr>
+<tr class="separator:a4656d5d07c68be6dcefc391f808c0256"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a269ae615de426b0f2c90a06bb0efe1da"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a269ae615de426b0f2c90a06bb0efe1da">ModOptionButton</a></td></tr>
+<tr class="separator:a269ae615de426b0f2c90a06bb0efe1da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08e44243d976ac0d2edb7c98a2c07194"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a08e44243d976ac0d2edb7c98a2c07194">MusicText</a></td></tr>
+<tr class="separator:a08e44243d976ac0d2edb7c98a2c07194"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90001f996c5f6fa5b7bca13071b4e350"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a90001f996c5f6fa5b7bca13071b4e350">SFXText</a></td></tr>
+<tr class="separator:a90001f996c5f6fa5b7bca13071b4e350"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6001f0a4244362ece89cdc09112d711a"><td class="memItemLeft" align="right" valign="top">Slider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a6001f0a4244362ece89cdc09112d711a">MusicSlider</a></td></tr>
+<tr class="separator:a6001f0a4244362ece89cdc09112d711a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae981e3482cffd96a182308519e5f7ae5"><td class="memItemLeft" align="right" valign="top">Slider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#ae981e3482cffd96a182308519e5f7ae5">SFXSlider</a></td></tr>
+<tr class="separator:ae981e3482cffd96a182308519e5f7ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab94f39f63d84527c379be1170a5abcb4"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#ab94f39f63d84527c379be1170a5abcb4">PickUpSFXText</a></td></tr>
+<tr class="separator:ab94f39f63d84527c379be1170a5abcb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a703c513f1d10c4e32dff60ca4dccd5"><td class="memItemLeft" align="right" valign="top">Slider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a9a703c513f1d10c4e32dff60ca4dccd5">PickUpSFXSlider</a></td></tr>
+<tr class="separator:a9a703c513f1d10c4e32dff60ca4dccd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0468e2a10d30c68b616c9d5498d0299f"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a0468e2a10d30c68b616c9d5498d0299f">DisableBackGroundSound</a></td></tr>
+<tr class="separator:a0468e2a10d30c68b616c9d5498d0299f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6605e6ac103a4670357b80143295ee42"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a6605e6ac103a4670357b80143295ee42">SoundFirstButton</a></td></tr>
+<tr class="separator:a6605e6ac103a4670357b80143295ee42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6487da9a483389f492e094533a65805e"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a6487da9a483389f492e094533a65805e">CrosshairFirstButton</a></td></tr>
+<tr class="separator:a6487da9a483389f492e094533a65805e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa66235f8a05a4e6d88b9c76d5fad655a"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#aa66235f8a05a4e6d88b9c76d5fad655a">SizeValue</a></td></tr>
+<tr class="separator:aa66235f8a05a4e6d88b9c76d5fad655a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7237a18b5ca0ebd7b23ac5a4a00a611c"><td class="memItemLeft" align="right" valign="top">Slider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a7237a18b5ca0ebd7b23ac5a4a00a611c">SizeSlider</a></td></tr>
+<tr class="separator:a7237a18b5ca0ebd7b23ac5a4a00a611c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa320c62541e665619d96168eea30e512"><td class="memItemLeft" align="right" valign="top">Slider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#aa320c62541e665619d96168eea30e512">RedSlider</a></td></tr>
+<tr class="separator:aa320c62541e665619d96168eea30e512"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad91cdeca4e2c2f5c3f7e13ee9e45ec3d"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#ad91cdeca4e2c2f5c3f7e13ee9e45ec3d">RedValue</a></td></tr>
+<tr class="separator:ad91cdeca4e2c2f5c3f7e13ee9e45ec3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb26eb70ac96c58baa0d1c7feb7ab437"><td class="memItemLeft" align="right" valign="top">Slider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#afb26eb70ac96c58baa0d1c7feb7ab437">BlueSlider</a></td></tr>
+<tr class="separator:afb26eb70ac96c58baa0d1c7feb7ab437"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1f544bc6917b5391545d81e36a240be"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#ae1f544bc6917b5391545d81e36a240be">BlueValue</a></td></tr>
+<tr class="separator:ae1f544bc6917b5391545d81e36a240be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24ba8b7204728e7fc01a2897df56832c"><td class="memItemLeft" align="right" valign="top">Slider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a24ba8b7204728e7fc01a2897df56832c">GreenSlider</a></td></tr>
+<tr class="separator:a24ba8b7204728e7fc01a2897df56832c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a4655d3ee63c47247fe5f19f10aac8a"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a4a4655d3ee63c47247fe5f19f10aac8a">GreenValue</a></td></tr>
+<tr class="separator:a4a4655d3ee63c47247fe5f19f10aac8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5213da09384020b15d048ce0716934d8"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a5213da09384020b15d048ce0716934d8">AimLine</a></td></tr>
+<tr class="separator:a5213da09384020b15d048ce0716934d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1428ef59374bc2553e757b893edcf477"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a1428ef59374bc2553e757b893edcf477">CrosshaitPreview</a></td></tr>
+<tr class="separator:a1428ef59374bc2553e757b893edcf477"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57d7caa72edd4f51a7f40ed136b7093e"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a57d7caa72edd4f51a7f40ed136b7093e">VideoFirstButton</a></td></tr>
+<tr class="separator:a57d7caa72edd4f51a7f40ed136b7093e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab7cd04569e98d0e9e7cf25281927304"><td class="memItemLeft" align="right" valign="top">Dropdown&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#aab7cd04569e98d0e9e7cf25281927304">QualityDD</a></td></tr>
+<tr class="separator:aab7cd04569e98d0e9e7cf25281927304"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63cc10eacb27a99d3db0094c117f0f24"><td class="memItemLeft" align="right" valign="top">Dropdown&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a63cc10eacb27a99d3db0094c117f0f24">TextureDD</a></td></tr>
+<tr class="separator:a63cc10eacb27a99d3db0094c117f0f24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a327f70d63c669a064c52a51b947f8158"><td class="memItemLeft" align="right" valign="top">Dropdown&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a327f70d63c669a064c52a51b947f8158">ShadowDD</a></td></tr>
+<tr class="separator:a327f70d63c669a064c52a51b947f8158"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0adbe3b6a0a9252593606509cc45507"><td class="memItemLeft" align="right" valign="top">Dropdown&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#aa0adbe3b6a0a9252593606509cc45507">FogDD</a></td></tr>
+<tr class="separator:aa0adbe3b6a0a9252593606509cc45507"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbb43a5e466fe64422f802a1757c79fe"><td class="memItemLeft" align="right" valign="top">Dropdown&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#adbb43a5e466fe64422f802a1757c79fe">SSRDD</a></td></tr>
+<tr class="separator:adbb43a5e466fe64422f802a1757c79fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbf692008917faed379c980d1e9ce769"><td class="memItemLeft" align="right" valign="top">Dropdown&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#abbf692008917faed379c980d1e9ce769">PostProcessRDD</a></td></tr>
+<tr class="separator:abbf692008917faed379c980d1e9ce769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf428f9dd74722a2207ac613bb1bbd46"><td class="memItemLeft" align="right" valign="top">Dropdown&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#aaf428f9dd74722a2207ac613bb1bbd46">VisualEffectRDD</a></td></tr>
+<tr class="separator:aaf428f9dd74722a2207ac613bb1bbd46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a490e29fa3e230cca9f6fd0ebb0bce44b"><td class="memItemLeft" align="right" valign="top">Dropdown&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a490e29fa3e230cca9f6fd0ebb0bce44b">ResolutionDD</a></td></tr>
+<tr class="separator:a490e29fa3e230cca9f6fd0ebb0bce44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f0ba472797f081c6a26ca2cb7a62512"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a7f0ba472797f081c6a26ca2cb7a62512">VSync</a></td></tr>
+<tr class="separator:a7f0ba472797f081c6a26ca2cb7a62512"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1dbfd56019a4e2fdf5b2429af5c3577"><td class="memItemLeft" align="right" valign="top">Dropdown&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#ac1dbfd56019a4e2fdf5b2429af5c3577">MaxFPSDD</a></td></tr>
+<tr class="separator:ac1dbfd56019a4e2fdf5b2429af5c3577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6645caa9adc8a328f4ae118ce44f7793"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#a6645caa9adc8a328f4ae118ce44f7793">FullScreen</a></td></tr>
+<tr class="separator:a6645caa9adc8a328f4ae118ce44f7793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0b15245d1a69daad611c340c13cc4f1"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html#ad0b15245d1a69daad611c340c13cc4f1">KeybindFirstButton</a></td></tr>
+<tr class="separator:ad0b15245d1a69daad611c340c13cc4f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_class_rogue_genesia_1_1_u_i_1_1_menu_manager"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_rogue_genesia_1_1_u_i_1_1_menu_manager')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_rogue_genesia_1_1_u_i_1_1_menu_manager.html">RogueGenesia.UI.MenuManager</a></td></tr>
+<tr class="memitem:a76c7e9f47851b5a236bf101b20e838e2 inherit pub_attribs_class_rogue_genesia_1_1_u_i_1_1_menu_manager"><td class="memItemLeft" align="right" valign="top">InputActionAsset&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_menu_manager.html#a76c7e9f47851b5a236bf101b20e838e2">actions</a></td></tr>
+<tr class="separator:a76c7e9f47851b5a236bf101b20e838e2 inherit pub_attribs_class_rogue_genesia_1_1_u_i_1_1_menu_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_class_rogue_genesia_1_1_u_i_1_1_menu_manager"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_rogue_genesia_1_1_u_i_1_1_menu_manager')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_rogue_genesia_1_1_u_i_1_1_menu_manager.html">RogueGenesia.UI.MenuManager</a></td></tr>
+<tr class="memitem:a930aa618d8db8754bf6d516ac7ba1dfb inherit pro_attribs_class_rogue_genesia_1_1_u_i_1_1_menu_manager"><td class="memItemLeft" align="right" valign="top">InputAction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_menu_manager.html#a930aa618d8db8754bf6d516ac7ba1dfb">_anyAction</a></td></tr>
+<tr class="separator:a930aa618d8db8754bf6d516ac7ba1dfb inherit pro_attribs_class_rogue_genesia_1_1_u_i_1_1_menu_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8aa5735c44b2c4e00b36dc6588f19445 inherit pro_attribs_class_rogue_genesia_1_1_u_i_1_1_menu_manager"><td class="memItemLeft" align="right" valign="top">InputAction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_menu_manager.html#a8aa5735c44b2c4e00b36dc6588f19445">_CancelAction</a></td></tr>
+<tr class="separator:a8aa5735c44b2c4e00b36dc6588f19445 inherit pro_attribs_class_rogue_genesia_1_1_u_i_1_1_menu_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaf372d9ee11f8ad79f25e8e08c71163 inherit pro_attribs_class_rogue_genesia_1_1_u_i_1_1_menu_manager"><td class="memItemLeft" align="right" valign="top">InputAction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_menu_manager.html#aaaf372d9ee11f8ad79f25e8e08c71163">_pauseAction</a></td></tr>
+<tr class="separator:aaaf372d9ee11f8ad79f25e8e08c71163 inherit pro_attribs_class_rogue_genesia_1_1_u_i_1_1_menu_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a59d7c66a11f443041bff0769f02109e7" name="a59d7c66a11f443041bff0769f02109e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59d7c66a11f443041bff0769f02109e7">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad41d0982df8124ce4f236495a9c1e2a0" name="ad41d0982df8124ce4f236495a9c1e2a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad41d0982df8124ce4f236495a9c1e2a0">&#9670;&#160;</a></span>BackToOption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.BackToOption </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fromOption</em> = <code>-1</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af999361931f21dcf770142d71b081ccb" name="af999361931f21dcf770142d71b081ccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af999361931f21dcf770142d71b081ccb">&#9670;&#160;</a></span>Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.Init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a61d380ab935ab7696876ab6356153f7d" name="a61d380ab935ab7696876ab6356153f7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61d380ab935ab7696876ab6356153f7d">&#9670;&#160;</a></span>OnColorChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.OnColorChange </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a9a783360f0d98ff526b3f69e317b30" name="a4a9a783360f0d98ff526b3f69e317b30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a9a783360f0d98ff526b3f69e317b30">&#9670;&#160;</a></span>OnDisableBGSOundChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.OnDisableBGSOundChange </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e9a0edb7ba879e3ca3af15bdd3f0743" name="a1e9a0edb7ba879e3ca3af15bdd3f0743"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e9a0edb7ba879e3ca3af15bdd3f0743">&#9670;&#160;</a></span>OnMusicVolumeChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.OnMusicVolumeChange </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a15718e16edd648ea767cbae9a26334c6" name="a15718e16edd648ea767cbae9a26334c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15718e16edd648ea767cbae9a26334c6">&#9670;&#160;</a></span>OnOutlineChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.OnOutlineChange </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9cdaaeae2b5e25fa7a9b5cb6a2ddf16c" name="a9cdaaeae2b5e25fa7a9b5cb6a2ddf16c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cdaaeae2b5e25fa7a9b5cb6a2ddf16c">&#9670;&#160;</a></span>OnPickUpSFXVolumeChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.OnPickUpSFXVolumeChange </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76c29d364453e2326e2d4ce2c485c5e0" name="a76c29d364453e2326e2d4ce2c485c5e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76c29d364453e2326e2d4ce2c485c5e0">&#9670;&#160;</a></span>OnSFXVolumeChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.OnSFXVolumeChange </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a993e90321e34d792a8ccc65bba929da6" name="a993e90321e34d792a8ccc65bba929da6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a993e90321e34d792a8ccc65bba929da6">&#9670;&#160;</a></span>OpenCrosshair()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.OpenCrosshair </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bb463584906bd4fde1e2b327b45640c" name="a6bb463584906bd4fde1e2b327b45640c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bb463584906bd4fde1e2b327b45640c">&#9670;&#160;</a></span>OpenGameOption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.OpenGameOption </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a06f268ad7ca98262946ad98c0bbb94" name="a7a06f268ad7ca98262946ad98c0bbb94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a06f268ad7ca98262946ad98c0bbb94">&#9670;&#160;</a></span>OpenKeyBinds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.OpenKeyBinds </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a956447b87d77f535e886d86e8a8a9fef" name="a956447b87d77f535e886d86e8a8a9fef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a956447b87d77f535e886d86e8a8a9fef">&#9670;&#160;</a></span>OpenModOption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.OpenModOption </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af353dd4e48121302591d437fd36c334f" name="af353dd4e48121302591d437fd36c334f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af353dd4e48121302591d437fd36c334f">&#9670;&#160;</a></span>OpenOptionMenu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.OpenOptionMenu </td>
+          <td>(</td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>previousMenu</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>buttonToSelect</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeab79be3eb08d263445301b94d7f707a" name="aeab79be3eb08d263445301b94d7f707a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeab79be3eb08d263445301b94d7f707a">&#9670;&#160;</a></span>OpenSound()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.OpenSound </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a73a8deeb8f47437eecc7c48f4cf728b0" name="a73a8deeb8f47437eecc7c48f4cf728b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73a8deeb8f47437eecc7c48f4cf728b0">&#9670;&#160;</a></span>OpenVideo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.OpenVideo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab534dfabd956138a7ac6163744b679de" name="ab534dfabd956138a7ac6163744b679de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab534dfabd956138a7ac6163744b679de">&#9670;&#160;</a></span>ReturnToPreviousMenu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.ReturnToPreviousMenu </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3ba1c3656859bf2fad24f0a021fef7d4" name="a3ba1c3656859bf2fad24f0a021fef7d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ba1c3656859bf2fad24f0a021fef7d4">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.UI.OptionMenu.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_u_i_1_1_menu_manager.html#a2500d7ec564fe9e07ccfefe0f855c1c6">RogueGenesia.UI.MenuManager</a>.</p>
+
+</div>
+</div>
+<a id="a51301b2f13fe6646910ad49072f9f252" name="a51301b2f13fe6646910ad49072f9f252"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51301b2f13fe6646910ad49072f9f252">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa34512fa6108d394ee8a5f57c006beb1" name="aa34512fa6108d394ee8a5f57c006beb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa34512fa6108d394ee8a5f57c006beb1">&#9670;&#160;</a></span>UpdateDisplayedFPS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.UpdateDisplayedFPS </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42d9d4b49b6beb8ca619030d92e09b52" name="a42d9d4b49b6beb8ca619030d92e09b52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42d9d4b49b6beb8ca619030d92e09b52">&#9670;&#160;</a></span>UpdateGraphicsQuality()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.UpdateGraphicsQuality </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad1d99e3f328bf112f1c27f292019fa82" name="ad1d99e3f328bf112f1c27f292019fa82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1d99e3f328bf112f1c27f292019fa82">&#9670;&#160;</a></span>UpdateMaxFPS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.UpdateMaxFPS </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d54e71589fa538a85acc4c5e5f7914a" name="a0d54e71589fa538a85acc4c5e5f7914a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d54e71589fa538a85acc4c5e5f7914a">&#9670;&#160;</a></span>UpdateQualityData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.UpdateQualityData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae366e2ccf0fd883910c34765185ed90e" name="ae366e2ccf0fd883910c34765185ed90e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae366e2ccf0fd883910c34765185ed90e">&#9670;&#160;</a></span>UpdateQualityPresetData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.OptionMenu.UpdateQualityPresetData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5213da09384020b15d048ce0716934d8" name="a5213da09384020b15d048ce0716934d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5213da09384020b15d048ce0716934d8">&#9670;&#160;</a></span>AimLine</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Toggle RogueGenesia.UI.OptionMenu.AimLine</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb26eb70ac96c58baa0d1c7feb7ab437" name="afb26eb70ac96c58baa0d1c7feb7ab437"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb26eb70ac96c58baa0d1c7feb7ab437">&#9670;&#160;</a></span>BlueSlider</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Slider RogueGenesia.UI.OptionMenu.BlueSlider</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae1f544bc6917b5391545d81e36a240be" name="ae1f544bc6917b5391545d81e36a240be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1f544bc6917b5391545d81e36a240be">&#9670;&#160;</a></span>BlueValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.OptionMenu.BlueValue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeef0aa3fe5187f1fa7f2376315756713" name="aeef0aa3fe5187f1fa7f2376315756713"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeef0aa3fe5187f1fa7f2376315756713">&#9670;&#160;</a></span>CrossHair</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Sprite RogueGenesia.UI.OptionMenu.CrossHair</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a84ee65797b5037c8a9c34c38248b5b08" name="a84ee65797b5037c8a9c34c38248b5b08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84ee65797b5037c8a9c34c38248b5b08">&#9670;&#160;</a></span>CrosshairButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.OptionMenu.CrosshairButton</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6487da9a483389f492e094533a65805e" name="a6487da9a483389f492e094533a65805e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6487da9a483389f492e094533a65805e">&#9670;&#160;</a></span>CrosshairFirstButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.OptionMenu.CrosshairFirstButton</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1428ef59374bc2553e757b893edcf477" name="a1428ef59374bc2553e757b893edcf477"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1428ef59374bc2553e757b893edcf477">&#9670;&#160;</a></span>CrosshaitPreview</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Image RogueGenesia.UI.OptionMenu.CrosshaitPreview</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad9947352184112270a4ebb59f6437434" name="ad9947352184112270a4ebb59f6437434"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9947352184112270a4ebb59f6437434">&#9670;&#160;</a></span>DefaultVolumeProfile</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VolumeProfile RogueGenesia.UI.OptionMenu.DefaultVolumeProfile</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0468e2a10d30c68b616c9d5498d0299f" name="a0468e2a10d30c68b616c9d5498d0299f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0468e2a10d30c68b616c9d5498d0299f">&#9670;&#160;</a></span>DisableBackGroundSound</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Toggle RogueGenesia.UI.OptionMenu.DisableBackGroundSound</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa0adbe3b6a0a9252593606509cc45507" name="aa0adbe3b6a0a9252593606509cc45507"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0adbe3b6a0a9252593606509cc45507">&#9670;&#160;</a></span>FogDD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dropdown RogueGenesia.UI.OptionMenu.FogDD</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6645caa9adc8a328f4ae118ce44f7793" name="a6645caa9adc8a328f4ae118ce44f7793"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6645caa9adc8a328f4ae118ce44f7793">&#9670;&#160;</a></span>FullScreen</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Toggle RogueGenesia.UI.OptionMenu.FullScreen</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a92c68b43a3b463e255cd04795707f574" name="a92c68b43a3b463e255cd04795707f574"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92c68b43a3b463e255cd04795707f574">&#9670;&#160;</a></span>GameOption</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.OptionMenu.GameOption</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4656d5d07c68be6dcefc391f808c0256" name="a4656d5d07c68be6dcefc391f808c0256"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4656d5d07c68be6dcefc391f808c0256">&#9670;&#160;</a></span>GameOptionButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.OptionMenu.GameOptionButton</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a24ba8b7204728e7fc01a2897df56832c" name="a24ba8b7204728e7fc01a2897df56832c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24ba8b7204728e7fc01a2897df56832c">&#9670;&#160;</a></span>GreenSlider</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Slider RogueGenesia.UI.OptionMenu.GreenSlider</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a4655d3ee63c47247fe5f19f10aac8a" name="a4a4655d3ee63c47247fe5f19f10aac8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a4655d3ee63c47247fe5f19f10aac8a">&#9670;&#160;</a></span>GreenValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.OptionMenu.GreenValue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9777e523334c5c582d46273063b3b3ca" name="a9777e523334c5c582d46273063b3b3ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9777e523334c5c582d46273063b3b3ca">&#9670;&#160;</a></span>KeybindButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.OptionMenu.KeybindButton</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad0b15245d1a69daad611c340c13cc4f1" name="ad0b15245d1a69daad611c340c13cc4f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0b15245d1a69daad611c340c13cc4f1">&#9670;&#160;</a></span>KeybindFirstButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.OptionMenu.KeybindFirstButton</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1dbfd56019a4e2fdf5b2429af5c3577" name="ac1dbfd56019a4e2fdf5b2429af5c3577"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1dbfd56019a4e2fdf5b2429af5c3577">&#9670;&#160;</a></span>MaxFPSDD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dropdown RogueGenesia.UI.OptionMenu.MaxFPSDD</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1eb3f846538cfde3116f0ee0355196bf" name="a1eb3f846538cfde3116f0ee0355196bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1eb3f846538cfde3116f0ee0355196bf">&#9670;&#160;</a></span>ModOption</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.OptionMenu.ModOption</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a269ae615de426b0f2c90a06bb0efe1da" name="a269ae615de426b0f2c90a06bb0efe1da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a269ae615de426b0f2c90a06bb0efe1da">&#9670;&#160;</a></span>ModOptionButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.OptionMenu.ModOptionButton</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6001f0a4244362ece89cdc09112d711a" name="a6001f0a4244362ece89cdc09112d711a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6001f0a4244362ece89cdc09112d711a">&#9670;&#160;</a></span>MusicSlider</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Slider RogueGenesia.UI.OptionMenu.MusicSlider</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a08e44243d976ac0d2edb7c98a2c07194" name="a08e44243d976ac0d2edb7c98a2c07194"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08e44243d976ac0d2edb7c98a2c07194">&#9670;&#160;</a></span>MusicText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.OptionMenu.MusicText</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a571cc5d41eefa71b5d841f6805b551c6" name="a571cc5d41eefa71b5d841f6805b551c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a571cc5d41eefa71b5d841f6805b551c6">&#9670;&#160;</a></span>OptionButtons</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.OptionMenu.OptionButtons</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0baec7c008709e934f10fa72ea616001" name="a0baec7c008709e934f10fa72ea616001"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0baec7c008709e934f10fa72ea616001">&#9670;&#160;</a></span>OptionCrosshair</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.OptionMenu.OptionCrosshair</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7cdfb4e2f4feb71dc927fddeda8ddd36" name="a7cdfb4e2f4feb71dc927fddeda8ddd36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cdfb4e2f4feb71dc927fddeda8ddd36">&#9670;&#160;</a></span>OptionFirstButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.OptionMenu.OptionFirstButton</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a707f026acba45fcc1c7b122b87539065" name="a707f026acba45fcc1c7b122b87539065"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a707f026acba45fcc1c7b122b87539065">&#9670;&#160;</a></span>OptionKeybind</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.OptionMenu.OptionKeybind</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b26f4e0d984dcdbbe7040a8141dffd4" name="a7b26f4e0d984dcdbbe7040a8141dffd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b26f4e0d984dcdbbe7040a8141dffd4">&#9670;&#160;</a></span>OptionSound</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.OptionMenu.OptionSound</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a99214ca24133f8d2a2c87985d0ed41a9" name="a99214ca24133f8d2a2c87985d0ed41a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99214ca24133f8d2a2c87985d0ed41a9">&#9670;&#160;</a></span>OptionVideo</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.OptionMenu.OptionVideo</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae29ee52eaa21bfc2c0957ca8036ddfde" name="ae29ee52eaa21bfc2c0957ca8036ddfde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae29ee52eaa21bfc2c0957ca8036ddfde">&#9670;&#160;</a></span>OutLineCrosshair</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Sprite RogueGenesia.UI.OptionMenu.OutLineCrosshair</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a703c513f1d10c4e32dff60ca4dccd5" name="a9a703c513f1d10c4e32dff60ca4dccd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a703c513f1d10c4e32dff60ca4dccd5">&#9670;&#160;</a></span>PickUpSFXSlider</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Slider RogueGenesia.UI.OptionMenu.PickUpSFXSlider</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab94f39f63d84527c379be1170a5abcb4" name="ab94f39f63d84527c379be1170a5abcb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab94f39f63d84527c379be1170a5abcb4">&#9670;&#160;</a></span>PickUpSFXText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.OptionMenu.PickUpSFXText</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abbf692008917faed379c980d1e9ce769" name="abbf692008917faed379c980d1e9ce769"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbf692008917faed379c980d1e9ce769">&#9670;&#160;</a></span>PostProcessRDD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dropdown RogueGenesia.UI.OptionMenu.PostProcessRDD</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f27cb0b4aae416682b240340a0ac66e" name="a5f27cb0b4aae416682b240340a0ac66e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f27cb0b4aae416682b240340a0ac66e">&#9670;&#160;</a></span>PreviousMenu</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.OptionMenu.PreviousMenu</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2832c78298f39d52499cea57fccce002" name="a2832c78298f39d52499cea57fccce002"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2832c78298f39d52499cea57fccce002">&#9670;&#160;</a></span>PreviousMenuButtonToSelect</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.OptionMenu.PreviousMenuButtonToSelect</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab7cd04569e98d0e9e7cf25281927304" name="aab7cd04569e98d0e9e7cf25281927304"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab7cd04569e98d0e9e7cf25281927304">&#9670;&#160;</a></span>QualityDD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dropdown RogueGenesia.UI.OptionMenu.QualityDD</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa320c62541e665619d96168eea30e512" name="aa320c62541e665619d96168eea30e512"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa320c62541e665619d96168eea30e512">&#9670;&#160;</a></span>RedSlider</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Slider RogueGenesia.UI.OptionMenu.RedSlider</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad91cdeca4e2c2f5c3f7e13ee9e45ec3d" name="ad91cdeca4e2c2f5c3f7e13ee9e45ec3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad91cdeca4e2c2f5c3f7e13ee9e45ec3d">&#9670;&#160;</a></span>RedValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.OptionMenu.RedValue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a490e29fa3e230cca9f6fd0ebb0bce44b" name="a490e29fa3e230cca9f6fd0ebb0bce44b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a490e29fa3e230cca9f6fd0ebb0bce44b">&#9670;&#160;</a></span>ResolutionDD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dropdown RogueGenesia.UI.OptionMenu.ResolutionDD</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae981e3482cffd96a182308519e5f7ae5" name="ae981e3482cffd96a182308519e5f7ae5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae981e3482cffd96a182308519e5f7ae5">&#9670;&#160;</a></span>SFXSlider</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Slider RogueGenesia.UI.OptionMenu.SFXSlider</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a90001f996c5f6fa5b7bca13071b4e350" name="a90001f996c5f6fa5b7bca13071b4e350"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90001f996c5f6fa5b7bca13071b4e350">&#9670;&#160;</a></span>SFXText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.OptionMenu.SFXText</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a327f70d63c669a064c52a51b947f8158" name="a327f70d63c669a064c52a51b947f8158"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a327f70d63c669a064c52a51b947f8158">&#9670;&#160;</a></span>ShadowDD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dropdown RogueGenesia.UI.OptionMenu.ShadowDD</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7237a18b5ca0ebd7b23ac5a4a00a611c" name="a7237a18b5ca0ebd7b23ac5a4a00a611c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7237a18b5ca0ebd7b23ac5a4a00a611c">&#9670;&#160;</a></span>SizeSlider</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Slider RogueGenesia.UI.OptionMenu.SizeSlider</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa66235f8a05a4e6d88b9c76d5fad655a" name="aa66235f8a05a4e6d88b9c76d5fad655a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa66235f8a05a4e6d88b9c76d5fad655a">&#9670;&#160;</a></span>SizeValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text RogueGenesia.UI.OptionMenu.SizeValue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a05fee0f3f1da265276da3e77bbf957ad" name="a05fee0f3f1da265276da3e77bbf957ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05fee0f3f1da265276da3e77bbf957ad">&#9670;&#160;</a></span>SoundButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.OptionMenu.SoundButton</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6605e6ac103a4670357b80143295ee42" name="a6605e6ac103a4670357b80143295ee42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6605e6ac103a4670357b80143295ee42">&#9670;&#160;</a></span>SoundFirstButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.OptionMenu.SoundFirstButton</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adbb43a5e466fe64422f802a1757c79fe" name="adbb43a5e466fe64422f802a1757c79fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbb43a5e466fe64422f802a1757c79fe">&#9670;&#160;</a></span>SSRDD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dropdown RogueGenesia.UI.OptionMenu.SSRDD</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a63cc10eacb27a99d3db0094c117f0f24" name="a63cc10eacb27a99d3db0094c117f0f24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63cc10eacb27a99d3db0094c117f0f24">&#9670;&#160;</a></span>TextureDD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dropdown RogueGenesia.UI.OptionMenu.TextureDD</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7fed007cc602c155782f4008e54b0dd4" name="a7fed007cc602c155782f4008e54b0dd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fed007cc602c155782f4008e54b0dd4">&#9670;&#160;</a></span>VideoButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.OptionMenu.VideoButton</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a57d7caa72edd4f51a7f40ed136b7093e" name="a57d7caa72edd4f51a7f40ed136b7093e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57d7caa72edd4f51a7f40ed136b7093e">&#9670;&#160;</a></span>VideoFirstButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.OptionMenu.VideoFirstButton</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf428f9dd74722a2207ac613bb1bbd46" name="aaf428f9dd74722a2207ac613bb1bbd46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf428f9dd74722a2207ac613bb1bbd46">&#9670;&#160;</a></span>VisualEffectRDD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dropdown RogueGenesia.UI.OptionMenu.VisualEffectRDD</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7f0ba472797f081c6a26ca2cb7a62512" name="a7f0ba472797f081c6a26ca2cb7a62512"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f0ba472797f081c6a26ca2cb7a62512">&#9670;&#160;</a></span>VSync</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Toggle RogueGenesia.UI.OptionMenu.VSync</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/CustomUi/OptionMenu.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_u_i.html">UI</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_option_menu.html">OptionMenu</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

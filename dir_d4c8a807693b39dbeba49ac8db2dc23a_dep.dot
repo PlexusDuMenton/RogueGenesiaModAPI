@@ -1,0 +1,23 @@
+digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_68bc571df5181e7f1520595d8bb5242f {
+    graph [ bgcolor="#daedff", pencolor="grey50", label="Scripts", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_68bc571df5181e7f1520595d8bb5242f.html",tooltip=""]
+  subgraph clusterdir_d4c8a807693b39dbeba49ac8db2dc23a {
+    graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_d4c8a807693b39dbeba49ac8db2dc23a.html",tooltip=""]
+    dir_d4c8a807693b39dbeba49ac8db2dc23a [shape=plaintext, label="RogueGenesia"];
+  dir_481c683296c0ed668e34510e3a4fba65 [label="Avatar", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_481c683296c0ed668e34510e3a4fba65.html",tooltip=""];
+  dir_42be06ff0e7a41e6ff2a6ebbef36fc26 [label="GameManager", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_42be06ff0e7a41e6ff2a6ebbef36fc26.html",tooltip=""];
+  dir_c4dd8a501a610db434d505c7bbfb1f56 [label="Localization", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_c4dd8a501a610db434d505c7bbfb1f56.html",tooltip=""];
+  dir_3e0f95b552e0fff3d2e41c11f3d7c05d [label="MapGeneration", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_3e0f95b552e0fff3d2e41c11f3d7c05d.html",tooltip=""];
+  dir_b126eae8dc8e4603e91a4f47216e00aa [label="ScriptableObjects", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_b126eae8dc8e4603e91a4f47216e00aa.html",tooltip=""];
+  dir_2d909ba704f47538bf61aa9015000ce8 [label="Survival", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_2d909ba704f47538bf61aa9015000ce8.html",tooltip=""];
+  dir_ef67aa64956163e7b0acafbb7e2f811a [label="TalentSystem", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_ef67aa64956163e7b0acafbb7e2f811a.html",tooltip=""];
+  dir_d08fce373df54585ed305f7bc4239de6 [label="Utils", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_d08fce373df54585ed305f7bc4239de6.html",tooltip=""];
+  }
+  }
+}

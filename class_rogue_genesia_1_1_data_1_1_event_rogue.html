@@ -1,0 +1,892 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue:Genesia API" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Rogue: Genesia API" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.Data.EventRogue Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_data_1_1_event_rogue.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#properties">Properties</a> &#124;
+<a href="class_rogue_genesia_1_1_data_1_1_event_rogue-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.Data.EventRogue Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.Data.EventRogue:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a3ed06604651b573aa34aa05a64ac8059"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a3ed06604651b573aa34aa05a64ac8059">GetKey</a> ()</td></tr>
+<tr class="separator:a3ed06604651b573aa34aa05a64ac8059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b16e55590173fc127b1cc9b71aba4a9"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a4b16e55590173fc127b1cc9b71aba4a9">GetVisualScene</a> ()</td></tr>
+<tr class="separator:a4b16e55590173fc127b1cc9b71aba4a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19a0f621240f07c1345ae89c031f93e3"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a19a0f621240f07c1345ae89c031f93e3">GetEventName</a> ()</td></tr>
+<tr class="separator:a19a0f621240f07c1345ae89c031f93e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a077d7e1cd18d7b679d21d1bc2419dfd2"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a077d7e1cd18d7b679d21d1bc2419dfd2">GetTitle</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager)</td></tr>
+<tr class="separator:a077d7e1cd18d7b679d21d1bc2419dfd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ef4cabf0b893be8d37afea499919cb6"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a6ef4cabf0b893be8d37afea499919cb6">GetDescription</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager)</td></tr>
+<tr class="separator:a6ef4cabf0b893be8d37afea499919cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa331d23fd6e7565286687f291b1beff0"><td class="memItemLeft" align="right" valign="top">abstract Sprite&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#aa331d23fd6e7565286687f291b1beff0">GetIcon</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager)</td></tr>
+<tr class="separator:aa331d23fd6e7565286687f291b1beff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55aae511cb051e6da8fda4b28f8bb1f3"><td class="memItemLeft" align="right" valign="top">abstract int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a55aae511cb051e6da8fda4b28f8bb1f3">GetNumberOfAnswer</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager)</td></tr>
+<tr class="separator:a55aae511cb051e6da8fda4b28f8bb1f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a399d7dce973c16e8af8f3753baa520de"><td class="memItemLeft" align="right" valign="top">abstract bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a399d7dce973c16e8af8f3753baa520de">IsAnswerEnabled</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:a399d7dce973c16e8af8f3753baa520de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92a833214e07ed9a3da4eab6a502b75a"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a92a833214e07ed9a3da4eab6a502b75a">GetTitleAnswer</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:a92a833214e07ed9a3da4eab6a502b75a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae73201c4f0453fbefe319001f1051a19"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#ae73201c4f0453fbefe319001f1051a19">GetDescriptionAnswer</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:ae73201c4f0453fbefe319001f1051a19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa551bc2e082fe8dd3a2e61c5cd3edf88"><td class="memItemLeft" align="right" valign="top">abstract Sprite&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#aa551bc2e082fe8dd3a2e61c5cd3edf88">GetIconAnswer</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:aa551bc2e082fe8dd3a2e61c5cd3edf88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a89fd6e41921bf4ab18a2e8590bd6ba"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a1a89fd6e41921bf4ab18a2e8590bd6ba">OnOverAnswer</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:a1a89fd6e41921bf4ab18a2e8590bd6ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92e0be704e47b3279d2ad8d5ae56898d"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a92e0be704e47b3279d2ad8d5ae56898d">OffOverAnswer</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:a92e0be704e47b3279d2ad8d5ae56898d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a594be07be2fd4991b18b1d1aad5e64c1"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a594be07be2fd4991b18b1d1aad5e64c1">SelectAnswer</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:a594be07be2fd4991b18b1d1aad5e64c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0adccd832771cec1190168a7f47ccad3"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a0adccd832771cec1190168a7f47ccad3">GetTitleAfterAnswerClicked</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:a0adccd832771cec1190168a7f47ccad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0c30e19a310c1e7fa9aa12f99b9b59"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a3f0c30e19a310c1e7fa9aa12f99b9b59">GetDescriptionAfterAnswerClicked</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:a3f0c30e19a310c1e7fa9aa12f99b9b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d2796581392851c87a4e0b951e15806"><td class="memItemLeft" align="right" valign="top">abstract Sprite&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a0d2796581392851c87a4e0b951e15806">GetIconAfterAnswerClicked</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:a0d2796581392851c87a4e0b951e15806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b838563c77d95d679fc133703912735"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a4b838563c77d95d679fc133703912735">NextAnswer</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:a4b838563c77d95d679fc133703912735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33302327b3ca0f3aeaa61e0972c39e72"><td class="memItemLeft" align="right" valign="top">abstract float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a33302327b3ca0f3aeaa61e0972c39e72">GetChanceToGetEvent</a> ()</td></tr>
+<tr class="separator:a33302327b3ca0f3aeaa61e0972c39e72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f102d7280bba090b6c9eca0da484495"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a3f102d7280bba090b6c9eca0da484495">OnLevelLoaded</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager)</td></tr>
+<tr class="separator:a3f102d7280bba090b6c9eca0da484495"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a08c363d6826fc2baa16240767be2c82e"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a08c363d6826fc2baa16240767be2c82e">Key</a><code> [get]</code></td></tr>
+<tr class="separator:a08c363d6826fc2baa16240767be2c82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a33302327b3ca0f3aeaa61e0972c39e72" name="a33302327b3ca0f3aeaa61e0972c39e72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33302327b3ca0f3aeaa61e0972c39e72">&#9670;&#160;</a></span>GetChanceToGetEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract float RogueGenesia.Data.EventRogue.GetChanceToGetEvent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_bon_fire_event.html#a502420b1700a4cc158967f74da5aa6bb">RogueGenesia.Data.BonFireEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_default_event.html#a2d78c04ebd7998b6e263ffcf9eecb225">RogueGenesia.Data.DefaultEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a30c9e5d1ad3463f8c68d0c5a601502fd">RogueGenesia.Data.GodStatuetteEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_legacy_event.html#a7f241bea6662d51ed2ae90d71b90e72f">RogueGenesia.Data.LegacyEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_event.html#a32d14109df44b425c825c7d5caf1431a">RogueGenesia.Data.SaveVillagersEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#aa8f8b9f828a57979f1d570d12256dc99">RogueGenesia.Data.SaveVillagersGiveCardEvent</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#ac39a10471ca74f1d8a0a67bd86533028">RogueGenesia.Data.ShopKeeperInvestmentEvent</a>.</p>
+
+</div>
+</div>
+<a id="a6ef4cabf0b893be8d37afea499919cb6" name="a6ef4cabf0b893be8d37afea499919cb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ef4cabf0b893be8d37afea499919cb6">&#9670;&#160;</a></span>GetDescription()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract string RogueGenesia.Data.EventRogue.GetDescription </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a>&#160;</td>
+          <td class="paramname"><em>eventManager</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_bon_fire_event.html#aeaa886e5d56c8796ba329faee8982ad0">RogueGenesia.Data.BonFireEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_default_event.html#a10b4cf7eb820a9d5d176db5d0290b8b5">RogueGenesia.Data.DefaultEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a5b07ad8cc19690a68a3a23fd53b98240">RogueGenesia.Data.GodStatuetteEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_legacy_event.html#a66042a0495cc878f64d366bb6d18c257">RogueGenesia.Data.LegacyEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_event.html#a981f93d2d3e4028cd18ef5d2acbd715f">RogueGenesia.Data.SaveVillagersEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#ae46b201bd1e8df2739cd26fcc5671021">RogueGenesia.Data.SaveVillagersGiveCardEvent</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#aaa854a0f9e0f90576df18c5176652ba6">RogueGenesia.Data.ShopKeeperInvestmentEvent</a>.</p>
+
+</div>
+</div>
+<a id="a3f0c30e19a310c1e7fa9aa12f99b9b59" name="a3f0c30e19a310c1e7fa9aa12f99b9b59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f0c30e19a310c1e7fa9aa12f99b9b59">&#9670;&#160;</a></span>GetDescriptionAfterAnswerClicked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract string RogueGenesia.Data.EventRogue.GetDescriptionAfterAnswerClicked </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a>&#160;</td>
+          <td class="paramname"><em>eventManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_bon_fire_event.html#a53ada6f38618ecb9f2024664aa7dfa7e">RogueGenesia.Data.BonFireEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_default_event.html#a5198feafbe9826d8acf133dbca41872c">RogueGenesia.Data.DefaultEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#af5af318cbb9cd7c482a1bd0aba8c9418">RogueGenesia.Data.GodStatuetteEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_legacy_event.html#a7e83a822ebb374aa4b357f4913854b4f">RogueGenesia.Data.LegacyEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_event.html#a0557ca8b5be1e006eb8dfd01d33ac5e8">RogueGenesia.Data.SaveVillagersEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#aab7f73b6b717696bcf22353bda73324e">RogueGenesia.Data.SaveVillagersGiveCardEvent</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#a4208df8bececf837ea7ad8d84027e1cc">RogueGenesia.Data.ShopKeeperInvestmentEvent</a>.</p>
+
+</div>
+</div>
+<a id="ae73201c4f0453fbefe319001f1051a19" name="ae73201c4f0453fbefe319001f1051a19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae73201c4f0453fbefe319001f1051a19">&#9670;&#160;</a></span>GetDescriptionAnswer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract string RogueGenesia.Data.EventRogue.GetDescriptionAnswer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a>&#160;</td>
+          <td class="paramname"><em>eventManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_bon_fire_event.html#add03317b75d4b7716c2bce4bd2bd94ee">RogueGenesia.Data.BonFireEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_default_event.html#a20a685358b4b8ed9e3c206bc059f9f3b">RogueGenesia.Data.DefaultEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a227b491292a9a0f24d9244f90e4ece9d">RogueGenesia.Data.GodStatuetteEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_legacy_event.html#a034140ce2b67ad267b202013dffce8cf">RogueGenesia.Data.LegacyEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_event.html#abdb00c7c2d1cdc340b728b0f8b9ba1dd">RogueGenesia.Data.SaveVillagersEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#a1c9bdb9ac21cd0d8f966b0069b8562fd">RogueGenesia.Data.SaveVillagersGiveCardEvent</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#af1899dbaa63acfd2586893d2dccdff10">RogueGenesia.Data.ShopKeeperInvestmentEvent</a>.</p>
+
+</div>
+</div>
+<a id="a19a0f621240f07c1345ae89c031f93e3" name="a19a0f621240f07c1345ae89c031f93e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19a0f621240f07c1345ae89c031f93e3">&#9670;&#160;</a></span>GetEventName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract string RogueGenesia.Data.EventRogue.GetEventName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_bon_fire_event.html#a910a1788c04104ae3e11b6167b83359c">RogueGenesia.Data.BonFireEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_default_event.html#a4b0efdd55433f7dd19e5627d45833f15">RogueGenesia.Data.DefaultEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#abb5315ca76f2c36b285c8467cb69140e">RogueGenesia.Data.GodStatuetteEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_legacy_event.html#af5f0a91eca68672d7d794f7d912b6eef">RogueGenesia.Data.LegacyEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_event.html#a3e2dabe1fa205a4b6bbd5f7b958ccf8c">RogueGenesia.Data.SaveVillagersEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#aa59c3547fe719a809e6c405b4e591990">RogueGenesia.Data.SaveVillagersGiveCardEvent</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#a0f4320aef7b2ce61b5d875a4ff2c4b78">RogueGenesia.Data.ShopKeeperInvestmentEvent</a>.</p>
+
+</div>
+</div>
+<a id="aa331d23fd6e7565286687f291b1beff0" name="aa331d23fd6e7565286687f291b1beff0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa331d23fd6e7565286687f291b1beff0">&#9670;&#160;</a></span>GetIcon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract Sprite RogueGenesia.Data.EventRogue.GetIcon </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a>&#160;</td>
+          <td class="paramname"><em>eventManager</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_bon_fire_event.html#ac64f4d7cc27e5531497e5b1444b819fd">RogueGenesia.Data.BonFireEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_default_event.html#a33e8ce61784d2b2e8564f231560877fb">RogueGenesia.Data.DefaultEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a3cb56851ced5e3e400ba503cec446524">RogueGenesia.Data.GodStatuetteEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_legacy_event.html#a781595fddf6e635be0650c868ba1b35f">RogueGenesia.Data.LegacyEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_event.html#a0d59f8588623fa755a666b21322a1272">RogueGenesia.Data.SaveVillagersEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#afe4719615f8e405f343a622f98649c91">RogueGenesia.Data.SaveVillagersGiveCardEvent</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#a127252be3f8f99482c55882f6116baeb">RogueGenesia.Data.ShopKeeperInvestmentEvent</a>.</p>
+
+</div>
+</div>
+<a id="a0d2796581392851c87a4e0b951e15806" name="a0d2796581392851c87a4e0b951e15806"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d2796581392851c87a4e0b951e15806">&#9670;&#160;</a></span>GetIconAfterAnswerClicked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract Sprite RogueGenesia.Data.EventRogue.GetIconAfterAnswerClicked </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a>&#160;</td>
+          <td class="paramname"><em>eventManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_bon_fire_event.html#ab1a922320547124edf0f1447b05553ba">RogueGenesia.Data.BonFireEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_default_event.html#a6e7431ead9466846baa542670d6e47f1">RogueGenesia.Data.DefaultEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a0bbff8adf1df35be78c564ff53b57bf3">RogueGenesia.Data.GodStatuetteEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_legacy_event.html#a7229486ddf940ab1cacb0e0e0ea098bd">RogueGenesia.Data.LegacyEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_event.html#a8ca1cf0af2c310c3f16cc146a0ee5e5f">RogueGenesia.Data.SaveVillagersEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#a028b49292dab24e9015bc41476d761da">RogueGenesia.Data.SaveVillagersGiveCardEvent</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#ac1f8611181c85ef6a1a51d3157cf9804">RogueGenesia.Data.ShopKeeperInvestmentEvent</a>.</p>
+
+</div>
+</div>
+<a id="aa551bc2e082fe8dd3a2e61c5cd3edf88" name="aa551bc2e082fe8dd3a2e61c5cd3edf88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa551bc2e082fe8dd3a2e61c5cd3edf88">&#9670;&#160;</a></span>GetIconAnswer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract Sprite RogueGenesia.Data.EventRogue.GetIconAnswer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a>&#160;</td>
+          <td class="paramname"><em>eventManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_bon_fire_event.html#a3a13e24770ec6bd2fd30d1dbe788a5fe">RogueGenesia.Data.BonFireEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_default_event.html#a35e442debc9ca3c763a38309d27a990f">RogueGenesia.Data.DefaultEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a9bf2127280580d036d5fd12dc86ea055">RogueGenesia.Data.GodStatuetteEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_legacy_event.html#af8b4c514d367bbfa58667ec2bcba1d8a">RogueGenesia.Data.LegacyEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_event.html#a563af04d2487e5bdda8ab46da286bc9d">RogueGenesia.Data.SaveVillagersEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#aaf6d6c1f803c5558e2c29bd10d49c7b8">RogueGenesia.Data.SaveVillagersGiveCardEvent</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#a7782b2cc0d8de3e9b2b74bb8e29bf82a">RogueGenesia.Data.ShopKeeperInvestmentEvent</a>.</p>
+
+</div>
+</div>
+<a id="a3ed06604651b573aa34aa05a64ac8059" name="a3ed06604651b573aa34aa05a64ac8059"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ed06604651b573aa34aa05a64ac8059">&#9670;&#160;</a></span>GetKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract string RogueGenesia.Data.EventRogue.GetKey </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_bon_fire_event.html#ae84fb855b96d5708dd8426dc148f0b86">RogueGenesia.Data.BonFireEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_default_event.html#a444182a4866f9a59a170c876a18b5d1f">RogueGenesia.Data.DefaultEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#abb80684144e2af94610d5fd0512c8c3f">RogueGenesia.Data.GodStatuetteEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_legacy_event.html#a063db5e100121fba42e10981d2b7a8cb">RogueGenesia.Data.LegacyEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_event.html#ad409a60256e34efee8b78e1b32956cb4">RogueGenesia.Data.SaveVillagersEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#aa4a0d264951ad81423ad8ba624986b02">RogueGenesia.Data.SaveVillagersGiveCardEvent</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#abb93e5f90248d3d9fc7a1a6cb34c90fa">RogueGenesia.Data.ShopKeeperInvestmentEvent</a>.</p>
+
+</div>
+</div>
+<a id="a55aae511cb051e6da8fda4b28f8bb1f3" name="a55aae511cb051e6da8fda4b28f8bb1f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55aae511cb051e6da8fda4b28f8bb1f3">&#9670;&#160;</a></span>GetNumberOfAnswer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract int RogueGenesia.Data.EventRogue.GetNumberOfAnswer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a>&#160;</td>
+          <td class="paramname"><em>eventManager</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_bon_fire_event.html#a980e10e9cef281a0cfe2253d4c73fbe5">RogueGenesia.Data.BonFireEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_default_event.html#ae2a4e41b269ee935f71ff63d3d271f93">RogueGenesia.Data.DefaultEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#ac83d9b8fe8e1e528421bbd0bc599050f">RogueGenesia.Data.GodStatuetteEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_legacy_event.html#a5cd2112eb4d4b520d9084678ffd95364">RogueGenesia.Data.LegacyEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_event.html#a1a64f43f2ae6af366036e9c3390e0877">RogueGenesia.Data.SaveVillagersEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#a4becfbb596581d6312a427e5ebcb49c5">RogueGenesia.Data.SaveVillagersGiveCardEvent</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#a4aa17a529a78c9442a3c775a3dcf30c0">RogueGenesia.Data.ShopKeeperInvestmentEvent</a>.</p>
+
+</div>
+</div>
+<a id="a077d7e1cd18d7b679d21d1bc2419dfd2" name="a077d7e1cd18d7b679d21d1bc2419dfd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a077d7e1cd18d7b679d21d1bc2419dfd2">&#9670;&#160;</a></span>GetTitle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract string RogueGenesia.Data.EventRogue.GetTitle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a>&#160;</td>
+          <td class="paramname"><em>eventManager</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_bon_fire_event.html#a86fbab167355962855678b809e6127fc">RogueGenesia.Data.BonFireEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_default_event.html#a331e204892d5cb1d1ad7ae2b4c5ff4ae">RogueGenesia.Data.DefaultEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a706983a295141f25b097ffbf6539c26f">RogueGenesia.Data.GodStatuetteEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_legacy_event.html#ae71e1d770aa16de52b37050175410b02">RogueGenesia.Data.LegacyEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_event.html#a6e2bd393a662145f25f8eeb7c827cdb2">RogueGenesia.Data.SaveVillagersEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#aaf3e0b18cbc7a1f8d6b07aec78982be2">RogueGenesia.Data.SaveVillagersGiveCardEvent</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#a667fbff07a14473701219e2596233a64">RogueGenesia.Data.ShopKeeperInvestmentEvent</a>.</p>
+
+</div>
+</div>
+<a id="a0adccd832771cec1190168a7f47ccad3" name="a0adccd832771cec1190168a7f47ccad3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0adccd832771cec1190168a7f47ccad3">&#9670;&#160;</a></span>GetTitleAfterAnswerClicked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract string RogueGenesia.Data.EventRogue.GetTitleAfterAnswerClicked </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a>&#160;</td>
+          <td class="paramname"><em>eventManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_bon_fire_event.html#ad20b35b436cc51f2c0bd82fa88483868">RogueGenesia.Data.BonFireEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_default_event.html#ace0f9a8e9908d99d8651754935597b35">RogueGenesia.Data.DefaultEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a4c2ef4e09c3a86e5eda96ad861048555">RogueGenesia.Data.GodStatuetteEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_legacy_event.html#a6b7749bcf92061761ee409d149becc4b">RogueGenesia.Data.LegacyEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_event.html#a6087e010070f5e9120e15558d5f7756e">RogueGenesia.Data.SaveVillagersEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#a5ce554c1e189d58689e09392a8704a8e">RogueGenesia.Data.SaveVillagersGiveCardEvent</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#a1f6724b6e5be73a6ee94a420402bacb7">RogueGenesia.Data.ShopKeeperInvestmentEvent</a>.</p>
+
+</div>
+</div>
+<a id="a92a833214e07ed9a3da4eab6a502b75a" name="a92a833214e07ed9a3da4eab6a502b75a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92a833214e07ed9a3da4eab6a502b75a">&#9670;&#160;</a></span>GetTitleAnswer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract string RogueGenesia.Data.EventRogue.GetTitleAnswer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a>&#160;</td>
+          <td class="paramname"><em>eventManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_bon_fire_event.html#acc4f6c1adb4a658b2e9544bf72fe0b2f">RogueGenesia.Data.BonFireEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_default_event.html#a2d5cfcbc30d31f329cba47952c2af458">RogueGenesia.Data.DefaultEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a7c47c3f4e31f0f5705c70bbd08986874">RogueGenesia.Data.GodStatuetteEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_legacy_event.html#a044eb09f3615ebb8b36b9a00679b6e9e">RogueGenesia.Data.LegacyEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_event.html#a9e4641d4b0ac89400a7d8d7bfa53e857">RogueGenesia.Data.SaveVillagersEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#a952d509392c12bd7b49b6f434f8bf299">RogueGenesia.Data.SaveVillagersGiveCardEvent</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#a028b9e7d4022138f31e245983028ec5c">RogueGenesia.Data.ShopKeeperInvestmentEvent</a>.</p>
+
+</div>
+</div>
+<a id="a4b16e55590173fc127b1cc9b71aba4a9" name="a4b16e55590173fc127b1cc9b71aba4a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b16e55590173fc127b1cc9b71aba4a9">&#9670;&#160;</a></span>GetVisualScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract string RogueGenesia.Data.EventRogue.GetVisualScene </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_bon_fire_event.html#af65e06f334bd56cfb004916aa1968d8c">RogueGenesia.Data.BonFireEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_default_event.html#a78bbb06091d14ce91965e6d64cdc9fdd">RogueGenesia.Data.DefaultEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a0f1e5759ebda311b31d0746ac96a7d9e">RogueGenesia.Data.GodStatuetteEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_legacy_event.html#a45dea475ddde5de525c5b4f5702d0bd3">RogueGenesia.Data.LegacyEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_event.html#a5d27c86631766013963dcd140701f89c">RogueGenesia.Data.SaveVillagersEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#aabf96cb7933e008f1fa1c189e054ffd2">RogueGenesia.Data.SaveVillagersGiveCardEvent</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#ac9f82423c7addb6776dfdf7fe963a936">RogueGenesia.Data.ShopKeeperInvestmentEvent</a>.</p>
+
+</div>
+</div>
+<a id="a399d7dce973c16e8af8f3753baa520de" name="a399d7dce973c16e8af8f3753baa520de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a399d7dce973c16e8af8f3753baa520de">&#9670;&#160;</a></span>IsAnswerEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract bool RogueGenesia.Data.EventRogue.IsAnswerEnabled </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a>&#160;</td>
+          <td class="paramname"><em>eventManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_bon_fire_event.html#af3b557d74767f20766d7bf81265b92a4">RogueGenesia.Data.BonFireEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_default_event.html#a3a71b60e4d19fdd57164b32f034f75f6">RogueGenesia.Data.DefaultEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a4b110a5482176d749af360f29edb6a56">RogueGenesia.Data.GodStatuetteEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_legacy_event.html#a19e0fa9470896d9884d1feed718be0c0">RogueGenesia.Data.LegacyEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_event.html#aea6fe6bf2b017b90ae4dc015ff4df4e7">RogueGenesia.Data.SaveVillagersEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#ac84e56c919077bd8232d251735d48485">RogueGenesia.Data.SaveVillagersGiveCardEvent</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#a86b4f1cfa939030a0b5d553cd480cfa0">RogueGenesia.Data.ShopKeeperInvestmentEvent</a>.</p>
+
+</div>
+</div>
+<a id="a4b838563c77d95d679fc133703912735" name="a4b838563c77d95d679fc133703912735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b838563c77d95d679fc133703912735">&#9670;&#160;</a></span>NextAnswer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void RogueGenesia.Data.EventRogue.NextAnswer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a>&#160;</td>
+          <td class="paramname"><em>eventManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_bon_fire_event.html#a17600740930675b88d29d97d387b7a19">RogueGenesia.Data.BonFireEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_default_event.html#afdb6a30c5e3a5801e7cd05ea9e4ca3df">RogueGenesia.Data.DefaultEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a46b1cb3045ed0ecadbed55ecb4016e3f">RogueGenesia.Data.GodStatuetteEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_legacy_event.html#affc8eda62df8e9ee1f1d964324e7164f">RogueGenesia.Data.LegacyEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_event.html#a04061827df820b974b5e9cfa9d0da013">RogueGenesia.Data.SaveVillagersEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#ab3559fab8009288a094d9040dbd5bceb">RogueGenesia.Data.SaveVillagersGiveCardEvent</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#aa5c9386d7c44cd214d7f7f7cae29058f">RogueGenesia.Data.ShopKeeperInvestmentEvent</a>.</p>
+
+</div>
+</div>
+<a id="a92e0be704e47b3279d2ad8d5ae56898d" name="a92e0be704e47b3279d2ad8d5ae56898d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92e0be704e47b3279d2ad8d5ae56898d">&#9670;&#160;</a></span>OffOverAnswer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void RogueGenesia.Data.EventRogue.OffOverAnswer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a>&#160;</td>
+          <td class="paramname"><em>eventManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_bon_fire_event.html#aa1e5b740c2f84f46bf54c2bead4738c1">RogueGenesia.Data.BonFireEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_default_event.html#afa02185e4ec272e1b44aea840cf2949e">RogueGenesia.Data.DefaultEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a05d05fb3c7a3be0c7a4cffe084be68f4">RogueGenesia.Data.GodStatuetteEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_legacy_event.html#a0431071ef3d834b50e0153bd82077767">RogueGenesia.Data.LegacyEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_event.html#a3234c0080c317e20dd43b8ac3be8c4dd">RogueGenesia.Data.SaveVillagersEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#a5ba2a4c4753c71848dab5f043c961a4c">RogueGenesia.Data.SaveVillagersGiveCardEvent</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#a016a60fbe0a557dc7ed6ca1ccecaf684">RogueGenesia.Data.ShopKeeperInvestmentEvent</a>.</p>
+
+</div>
+</div>
+<a id="a3f102d7280bba090b6c9eca0da484495" name="a3f102d7280bba090b6c9eca0da484495"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f102d7280bba090b6c9eca0da484495">&#9670;&#160;</a></span>OnLevelLoaded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void RogueGenesia.Data.EventRogue.OnLevelLoaded </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a>&#160;</td>
+          <td class="paramname"><em>eventManager</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_bon_fire_event.html#a071e76ba6c3d9a322224ab3e4199376f">RogueGenesia.Data.BonFireEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_default_event.html#a71bff23c550004a5da24950b2daf50b5">RogueGenesia.Data.DefaultEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a25bce11886743bc82b82851b6399931f">RogueGenesia.Data.GodStatuetteEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_legacy_event.html#a387af8f27ce69896c05fc0df0aa2f165">RogueGenesia.Data.LegacyEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_event.html#a3d862eed83cfca5e52dac7ad65474d50">RogueGenesia.Data.SaveVillagersEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#a347af669887629a6324789a06109389c">RogueGenesia.Data.SaveVillagersGiveCardEvent</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#a2a5b139a335c958068ce6c7f6018aa07">RogueGenesia.Data.ShopKeeperInvestmentEvent</a>.</p>
+
+</div>
+</div>
+<a id="a1a89fd6e41921bf4ab18a2e8590bd6ba" name="a1a89fd6e41921bf4ab18a2e8590bd6ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a89fd6e41921bf4ab18a2e8590bd6ba">&#9670;&#160;</a></span>OnOverAnswer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void RogueGenesia.Data.EventRogue.OnOverAnswer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a>&#160;</td>
+          <td class="paramname"><em>eventManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_bon_fire_event.html#adcc33c5293a0cb4424ea1e95ae27de0f">RogueGenesia.Data.BonFireEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_default_event.html#a43a5ee854b88974f4b5a8d3eeed091c1">RogueGenesia.Data.DefaultEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a8f66d28b5d14ea07f57f23436e89c1b2">RogueGenesia.Data.GodStatuetteEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_legacy_event.html#a34f2b8a1907a7f56330fc6677cbfec8e">RogueGenesia.Data.LegacyEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_event.html#a6adc937cacb11255ea6ca6a430f52e04">RogueGenesia.Data.SaveVillagersEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#a695ac0b3c96af6857c817ac0025c7868">RogueGenesia.Data.SaveVillagersGiveCardEvent</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#a63996125f9eda16ee2ec476c293d975d">RogueGenesia.Data.ShopKeeperInvestmentEvent</a>.</p>
+
+</div>
+</div>
+<a id="a594be07be2fd4991b18b1d1aad5e64c1" name="a594be07be2fd4991b18b1d1aad5e64c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a594be07be2fd4991b18b1d1aad5e64c1">&#9670;&#160;</a></span>SelectAnswer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void RogueGenesia.Data.EventRogue.SelectAnswer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a>&#160;</td>
+          <td class="paramname"><em>eventManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_bon_fire_event.html#a0c56291b3f7528123b6b6be242874a7c">RogueGenesia.Data.BonFireEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_default_event.html#a17f6e21cabf7039128c3f987a48e8a74">RogueGenesia.Data.DefaultEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#af402a4984b0e25c74133f2745ee6d6f9">RogueGenesia.Data.GodStatuetteEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_legacy_event.html#aa41505ff8f33eedea400f8fa2e0fae8a">RogueGenesia.Data.LegacyEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_event.html#a2f46d817545ad4d60d9b2fed509b33b6">RogueGenesia.Data.SaveVillagersEvent</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#a015de374485f611fd99a43989ddf8dda">RogueGenesia.Data.SaveVillagersGiveCardEvent</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#a8832a88ce8c280fdd1f02b09abc9aa9b">RogueGenesia.Data.ShopKeeperInvestmentEvent</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a08c363d6826fc2baa16240767be2c82e" name="a08c363d6826fc2baa16240767be2c82e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08c363d6826fc2baa16240767be2c82e">&#9670;&#160;</a></span>Key</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RogueGenesia.Data.EventRogue.Key</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/Event/EventRogue.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_data.html">Data</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html">EventRogue</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

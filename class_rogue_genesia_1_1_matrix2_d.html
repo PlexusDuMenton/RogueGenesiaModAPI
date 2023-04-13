@@ -1,0 +1,815 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue:Genesia API" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Rogue: Genesia API" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.Matrix2D Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_matrix2_d.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#properties">Properties</a> &#124;
+<a href="class_rogue_genesia_1_1_matrix2_d-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.Matrix2D Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.Matrix2D:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a276bb999b10aab83edf644939eb42f31"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html#a276bb999b10aab83edf644939eb42f31">Matrix2D</a> (int lengthX, int lengthY)</td></tr>
+<tr class="separator:a276bb999b10aab83edf644939eb42f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac268077da4b5082c62963de6d17a1285"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html#ac268077da4b5082c62963de6d17a1285">Matrix2D</a> (float[,] values)</td></tr>
+<tr class="separator:ac268077da4b5082c62963de6d17a1285"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe967495377c3a591ba0a81ec2b04fd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html#afe967495377c3a591ba0a81ec2b04fd4">Set</a> (int x, int y, float value)</td></tr>
+<tr class="separator:afe967495377c3a591ba0a81ec2b04fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5f2139007bd270f22332c2ed9f17037"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html#af5f2139007bd270f22332c2ed9f17037">SetX</a> (int y, float[] value)</td></tr>
+<tr class="separator:af5f2139007bd270f22332c2ed9f17037"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a107ee88c03ccce8359fb19e37a9776b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html#a107ee88c03ccce8359fb19e37a9776b8">SetY</a> (int x, float[] value)</td></tr>
+<tr class="separator:a107ee88c03ccce8359fb19e37a9776b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afac1e3e9f2ffaee6c6b17be9cd375330"><td class="memItemLeft" align="right" valign="top">object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html#afac1e3e9f2ffaee6c6b17be9cd375330">Clone</a> ()</td></tr>
+<tr class="separator:afac1e3e9f2ffaee6c6b17be9cd375330"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee9b832ec1abdea4523664df8f88f343"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html#aee9b832ec1abdea4523664df8f88f343">ToString</a> ()</td></tr>
+<tr class="separator:aee9b832ec1abdea4523664df8f88f343"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a4a3baf444ffc33b7d2782b47b9941f7b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html#a4a3baf444ffc33b7d2782b47b9941f7b">Add</a> (<a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> left, <a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> right)</td></tr>
+<tr class="separator:a4a3baf444ffc33b7d2782b47b9941f7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecf7221d4ec534ed32e4b81aad012e4b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html#aecf7221d4ec534ed32e4b81aad012e4b">Add</a> (<a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> left, float val)</td></tr>
+<tr class="separator:aecf7221d4ec534ed32e4b81aad012e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a802ff7c5ce6dc15a5dad722c714f5560"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html#a802ff7c5ce6dc15a5dad722c714f5560">Multiply</a> (<a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> left, float val)</td></tr>
+<tr class="separator:a802ff7c5ce6dc15a5dad722c714f5560"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1f28b24cf27d0cd0e989621866c6185"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html#ae1f28b24cf27d0cd0e989621866c6185">Multiply</a> (<a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> left, <a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> right)</td></tr>
+<tr class="separator:ae1f28b24cf27d0cd0e989621866c6185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8481f7002c10736a1853fedf292f5c9e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html#a8481f7002c10736a1853fedf292f5c9e">Multiply</a> (<a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> left, <a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> right, <a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> res)</td></tr>
+<tr class="separator:a8481f7002c10736a1853fedf292f5c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe2d908c7da7bd12911ccd4941bedfd7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html#abe2d908c7da7bd12911ccd4941bedfd7">Transpose</a> (<a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> m)</td></tr>
+<tr class="separator:abe2d908c7da7bd12911ccd4941bedfd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00c57cd6974a27704fd427098f081ded"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html#a00c57cd6974a27704fd427098f081ded">Trace</a> (<a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> m)</td></tr>
+<tr class="separator:a00c57cd6974a27704fd427098f081ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8607d25fd762deb59c47eceec0a7f6e1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html#a8607d25fd762deb59c47eceec0a7f6e1">Identity</a> (int size)</td></tr>
+<tr class="separator:a8607d25fd762deb59c47eceec0a7f6e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad772ed0dddbac9131c79d5c4b0fb920c"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html#ad772ed0dddbac9131c79d5c4b0fb920c">Determinant</a> (<a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> m)</td></tr>
+<tr class="separator:ad772ed0dddbac9131c79d5c4b0fb920c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdba42ea4e6e38ff42ad424161652a0f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html#afdba42ea4e6e38ff42ad424161652a0f">Inverse</a> (<a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> m)</td></tr>
+<tr class="separator:afdba42ea4e6e38ff42ad424161652a0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a2314fc2bf8bc53701f07b524a4fea785"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html#a2314fc2bf8bc53701f07b524a4fea785">LengthX</a><code> [get]</code></td></tr>
+<tr class="separator:a2314fc2bf8bc53701f07b524a4fea785"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9fd5f927cb807a2b905eb88f04bf74e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html#aa9fd5f927cb807a2b905eb88f04bf74e">LengthY</a><code> [get]</code></td></tr>
+<tr class="separator:aa9fd5f927cb807a2b905eb88f04bf74e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a867b0ed52fce039396b2a62023e050d0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html#a867b0ed52fce039396b2a62023e050d0">this[int x, int y]</a><code> [get, set]</code></td></tr>
+<tr class="separator:a867b0ed52fce039396b2a62023e050d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a276bb999b10aab83edf644939eb42f31" name="a276bb999b10aab83edf644939eb42f31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a276bb999b10aab83edf644939eb42f31">&#9670;&#160;</a></span>Matrix2D() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RogueGenesia.Matrix2D.Matrix2D </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lengthX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lengthY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac268077da4b5082c62963de6d17a1285" name="ac268077da4b5082c62963de6d17a1285"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac268077da4b5082c62963de6d17a1285">&#9670;&#160;</a></span>Matrix2D() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RogueGenesia.Matrix2D.Matrix2D </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>values</em>[,]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aecf7221d4ec534ed32e4b81aad012e4b" name="aecf7221d4ec534ed32e4b81aad012e4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecf7221d4ec534ed32e4b81aad012e4b">&#9670;&#160;</a></span>Add() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> RogueGenesia.Matrix2D.Add </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a3baf444ffc33b7d2782b47b9941f7b" name="a4a3baf444ffc33b7d2782b47b9941f7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a3baf444ffc33b7d2782b47b9941f7b">&#9670;&#160;</a></span>Add() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> RogueGenesia.Matrix2D.Add </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td>
+          <td class="paramname"><em>right</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afac1e3e9f2ffaee6c6b17be9cd375330" name="afac1e3e9f2ffaee6c6b17be9cd375330"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afac1e3e9f2ffaee6c6b17be9cd375330">&#9670;&#160;</a></span>Clone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">object RogueGenesia.Matrix2D.Clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad772ed0dddbac9131c79d5c4b0fb920c" name="ad772ed0dddbac9131c79d5c4b0fb920c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad772ed0dddbac9131c79d5c4b0fb920c">&#9670;&#160;</a></span>Determinant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float RogueGenesia.Matrix2D.Determinant </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8607d25fd762deb59c47eceec0a7f6e1" name="a8607d25fd762deb59c47eceec0a7f6e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8607d25fd762deb59c47eceec0a7f6e1">&#9670;&#160;</a></span>Identity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> RogueGenesia.Matrix2D.Identity </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afdba42ea4e6e38ff42ad424161652a0f" name="afdba42ea4e6e38ff42ad424161652a0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdba42ea4e6e38ff42ad424161652a0f">&#9670;&#160;</a></span>Inverse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> RogueGenesia.Matrix2D.Inverse </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a802ff7c5ce6dc15a5dad722c714f5560" name="a802ff7c5ce6dc15a5dad722c714f5560"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a802ff7c5ce6dc15a5dad722c714f5560">&#9670;&#160;</a></span>Multiply() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> RogueGenesia.Matrix2D.Multiply </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae1f28b24cf27d0cd0e989621866c6185" name="ae1f28b24cf27d0cd0e989621866c6185"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1f28b24cf27d0cd0e989621866c6185">&#9670;&#160;</a></span>Multiply() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> RogueGenesia.Matrix2D.Multiply </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td>
+          <td class="paramname"><em>right</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8481f7002c10736a1853fedf292f5c9e" name="a8481f7002c10736a1853fedf292f5c9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8481f7002c10736a1853fedf292f5c9e">&#9670;&#160;</a></span>Multiply() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> RogueGenesia.Matrix2D.Multiply </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td>
+          <td class="paramname"><em>right</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td>
+          <td class="paramname"><em>res</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe967495377c3a591ba0a81ec2b04fd4" name="afe967495377c3a591ba0a81ec2b04fd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe967495377c3a591ba0a81ec2b04fd4">&#9670;&#160;</a></span>Set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Matrix2D.Set </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af5f2139007bd270f22332c2ed9f17037" name="af5f2139007bd270f22332c2ed9f17037"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5f2139007bd270f22332c2ed9f17037">&#9670;&#160;</a></span>SetX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Matrix2D.SetX </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float[]&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a107ee88c03ccce8359fb19e37a9776b8" name="a107ee88c03ccce8359fb19e37a9776b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a107ee88c03ccce8359fb19e37a9776b8">&#9670;&#160;</a></span>SetY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Matrix2D.SetY </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float[]&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aee9b832ec1abdea4523664df8f88f343" name="aee9b832ec1abdea4523664df8f88f343"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee9b832ec1abdea4523664df8f88f343">&#9670;&#160;</a></span>ToString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override string RogueGenesia.Matrix2D.ToString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a00c57cd6974a27704fd427098f081ded" name="a00c57cd6974a27704fd427098f081ded"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00c57cd6974a27704fd427098f081ded">&#9670;&#160;</a></span>Trace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float RogueGenesia.Matrix2D.Trace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe2d908c7da7bd12911ccd4941bedfd7" name="abe2d908c7da7bd12911ccd4941bedfd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe2d908c7da7bd12911ccd4941bedfd7">&#9670;&#160;</a></span>Transpose()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a> RogueGenesia.Matrix2D.Transpose </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a>&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a2314fc2bf8bc53701f07b524a4fea785" name="a2314fc2bf8bc53701f07b524a4fea785"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2314fc2bf8bc53701f07b524a4fea785">&#9670;&#160;</a></span>LengthX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Matrix2D.LengthX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa9fd5f927cb807a2b905eb88f04bf74e" name="aa9fd5f927cb807a2b905eb88f04bf74e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9fd5f927cb807a2b905eb88f04bf74e">&#9670;&#160;</a></span>LengthY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Matrix2D.LengthY</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a867b0ed52fce039396b2a62023e050d0" name="a867b0ed52fce039396b2a62023e050d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a867b0ed52fce039396b2a62023e050d0">&#9670;&#160;</a></span>this[int x, int y]</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Matrix2D.this[int x, int y]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/DevVextex/Matrix2D.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_matrix2_d.html">Matrix2D</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>
