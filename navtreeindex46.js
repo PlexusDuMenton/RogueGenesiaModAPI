@@ -1,6 +1,10 @@
 var NAVTREEINDEX46 =
 {
+"interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#a27c9c02cf801e5e51721099383fc4a53":[0,0,1,1,94,6],
+"interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#a6f2bee1a49c7235dce7a678e18f65bd7":[1,0,1,1,94,4],
+"interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#a6f2bee1a49c7235dce7a678e18f65bd7":[0,0,1,1,94,4],
 "interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#a7209898648ce833b16cb11aacd997e21":[0,0,1,1,94,7],
+"interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#a7209898648ce833b16cb11aacd997e21":[1,0,1,1,94,7],
 "interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#ad4ccff10ab0ca83c1be0e264717d576a":[1,0,1,1,94,3],
 "interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#ad4ccff10ab0ca83c1be0e264717d576a":[0,0,1,1,94,3],
 "namespace_mod_genesia.html":[0,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX46 =
 "namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4da128343c7abc14c26dbe868808b5dc658":[0,0,1,1,246,3],
 "namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4da16bbb72c8a3588b401ffd80fc1dc9057":[0,0,1,1,246,35],
 "namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4da1731fd0f77702ed23b7b8b63e9f96de4":[0,0,1,1,246,37],
-"namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4da1d77b613b9eb1e8319deca1550739b73":[0,0,1,1,246,11],
-"namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4da1e528f1ff3083abce150c9d9ceb770a2":[0,0,1,1,246,20],
-"namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4da1fa31a1bad4b4318e2cabd41614f4f09":[0,0,1,1,246,4],
-"namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4da203c7a64feec848ae5a47c6e83b61fd0":[0,0,1,1,246,40],
-"namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4da20916aff14f5f2637e12d80a62dfd151":[0,0,1,1,246,45]
+"namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4da1d77b613b9eb1e8319deca1550739b73":[0,0,1,1,246,11]
 };

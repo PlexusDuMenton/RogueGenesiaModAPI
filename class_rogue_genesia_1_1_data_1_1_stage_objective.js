@@ -7,6 +7,7 @@ var class_rogue_genesia_1_1_data_1_1_stage_objective =
     [ "GetName", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#af96c1a0b4d515667c994700cbba47adf", null ],
     [ "GetObjectiveText", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a240d9a6c08e52fbadd40707dc624f973", null ],
     [ "HasXpDropSoftCap", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a078b962cef1342507d2eb2a5dfc1b491", null ],
+    [ "OnStageStart", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a641fb0ba00a7bd0d0a70ed9194d60a8f", null ],
     [ "SpawnTarget", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a39f71add42f8f1e6d7e1f40b4268f7f3", null ],
     [ "Completed", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#aa0da447d7f3a640fa1270cb139e15d9d", null ],
     [ "ETKList", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#aae4cfad26b32f2becc752abcfc560851", null ],

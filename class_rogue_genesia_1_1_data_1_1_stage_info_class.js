@@ -11,6 +11,7 @@ var class_rogue_genesia_1_1_data_1_1_stage_info_class =
     [ "GetLevelVisualToLoad", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#ac9a15cbf1ba819fd6d847282f3276cf0", null ],
     [ "GetObjectiveText", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a7833081e2000568e24a53d2c4cad2da5", null ],
     [ "IgnoreChallengeRewardRestriction", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a09a51a5eee55a34987de8c3d9e3d87bb", null ],
+    [ "OnStageStart", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a8c8a8c3746abe704e277611ad5c82f24", null ],
     [ "PickRandomObjective", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a0c358e02715d68df53a9e2903f366bff", null ],
     [ "SpawnBoss", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a976ce0b6c41c3689fd2056894d2ba06c", null ],
     [ "StageGeneration", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a35545a252748be29dc5d4078f41378e9", null ],
