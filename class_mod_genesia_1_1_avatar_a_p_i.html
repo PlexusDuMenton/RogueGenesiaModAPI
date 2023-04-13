@@ -1,0 +1,512 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: ModGenesia.AvatarAPI Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_mod_genesia_1_1_avatar_a_p_i.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="class_mod_genesia_1_1_avatar_a_p_i-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">ModGenesia.AvatarAPI Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Modding API for everything Avatar Related.  
+ <a href="class_mod_genesia_1_1_avatar_a_p_i.html#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a983909dbea99f2a0d52834125d4266fa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_avatar_a_p_i.html#a983909dbea99f2a0d52834125d4266fa">EAnimationType</a> { <br />
+&#160;&#160;<a class="el" href="class_mod_genesia_1_1_avatar_a_p_i.html#a983909dbea99f2a0d52834125d4266faac5301693c4e792bcd5a479ef38fb8f8d">Run</a>
+, <a class="el" href="class_mod_genesia_1_1_avatar_a_p_i.html#a983909dbea99f2a0d52834125d4266faa5d0d2f0b2b3b7617d719a02f835b7246">IdleHD</a>
+, <a class="el" href="class_mod_genesia_1_1_avatar_a_p_i.html#a983909dbea99f2a0d52834125d4266faae599161956d626eda4cb0a5ffb85271c">Idle</a>
+, <a class="el" href="class_mod_genesia_1_1_avatar_a_p_i.html#a983909dbea99f2a0d52834125d4266faa1f5c647d9066bc9e350b70aa2d16aec4">Victory</a>
+, <br />
+&#160;&#160;<a class="el" href="class_mod_genesia_1_1_avatar_a_p_i.html#a983909dbea99f2a0d52834125d4266faa8f347bc7cebca9fa6d97e70c6bc29eb3">GameOver</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a983909dbea99f2a0d52834125d4266fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is required to know which animation type will be overrided.  <a href="class_mod_genesia_1_1_avatar_a_p_i.html#a983909dbea99f2a0d52834125d4266fa">More...</a><br /></td></tr>
+<tr class="separator:a983909dbea99f2a0d52834125d4266fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:afcad857eddae9b553e382e90b80a3472"><td class="memItemLeft" align="right" valign="top">static PixelAnimationData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_avatar_a_p_i.html#afcad857eddae9b553e382e90b80a3472">CreateAvatarAnimationState</a> (Texture2D texture, Vector2Int frames)</td></tr>
+<tr class="memdesc:afcad857eddae9b553e382e90b80a3472"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an anomation state bused for CreateAvatarAnimations()  <br /></td></tr>
+<tr class="separator:afcad857eddae9b553e382e90b80a3472"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefc736dd3e2193b3c149abee8ec9e678"><td class="memItemLeft" align="right" valign="top">static AvatarAnimations&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_avatar_a_p_i.html#aefc736dd3e2193b3c149abee8ec9e678">CreateAvatarAnimations</a> (Sprite icon, PixelAnimationData idleHDAnimationState, PixelAnimationData idleAnimationState, PixelAnimationData runAnimationState, PixelAnimationData victoryAnimationState, PixelAnimationData gameOverAnimationState)</td></tr>
+<tr class="memdesc:aefc736dd3e2193b3c149abee8ec9e678"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get animations data for registering a new avatar.  <br /></td></tr>
+<tr class="separator:aefc736dd3e2193b3c149abee8ec9e678"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae148a4cace731fe4cc312703cde3811d"><td class="memItemLeft" align="right" valign="top">static AvatarScriptableObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_avatar_a_p_i.html#ae148a4cace731fe4cc312703cde3811d">AddCustomAvatar</a> (string avatarName, System.Reflection.ConstructorInfo constructor, AvatarAnimations animations, LocalizationDataList localisedName, LocalizationDataList localisedDescription, Color colorOnSelection, bool unlockedByDefault=true)</td></tr>
+<tr class="memdesc:ae148a4cace731fe4cc312703cde3811d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a new Avatar.  <br /></td></tr>
+<tr class="separator:ae148a4cace731fe4cc312703cde3811d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bf1f074ff1e0c0987b544f3df39bc3d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_avatar_a_p_i.html#a1bf1f074ff1e0c0987b544f3df39bc3d">ReplaceAvatarSkin</a> (string avatarName, AvatarAnimations animation)</td></tr>
+<tr class="memdesc:a1bf1f074ff1e0c0987b544f3df39bc3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace one animation for any avatar Make sure you try to replace either a vanilla avatar animation or that the modded avatar you want to override has already been registered.  <br /></td></tr>
+<tr class="separator:a1bf1f074ff1e0c0987b544f3df39bc3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a959fbdf7ce3ffc49af77f97d3a1264a7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_avatar_a_p_i.html#a959fbdf7ce3ffc49af77f97d3a1264a7">ReplaceAvatarSkin</a> (string avatarName, <a class="el" href="class_mod_genesia_1_1_avatar_a_p_i.html#a983909dbea99f2a0d52834125d4266fa">EAnimationType</a> animationType, Texture2D animationTexture, Vector2 frameCount)</td></tr>
+<tr class="memdesc:a959fbdf7ce3ffc49af77f97d3a1264a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace one animation for any avatar Make sure you try to replace either a vanilla avatar animation or that the modded avatar you want to override has already been registered.  <br /></td></tr>
+<tr class="separator:a959fbdf7ce3ffc49af77f97d3a1264a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Modding API for everything Avatar Related. </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a983909dbea99f2a0d52834125d4266fa" name="a983909dbea99f2a0d52834125d4266fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a983909dbea99f2a0d52834125d4266fa">&#9670;&#160;</a></span>EAnimationType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_mod_genesia_1_1_avatar_a_p_i.html#a983909dbea99f2a0d52834125d4266fa">ModGenesia.AvatarAPI.EAnimationType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This is required to know which animation type will be overrided. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a983909dbea99f2a0d52834125d4266faac5301693c4e792bcd5a479ef38fb8f8d" name="a983909dbea99f2a0d52834125d4266faac5301693c4e792bcd5a479ef38fb8f8d"></a>Run&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a983909dbea99f2a0d52834125d4266faa5d0d2f0b2b3b7617d719a02f835b7246" name="a983909dbea99f2a0d52834125d4266faa5d0d2f0b2b3b7617d719a02f835b7246"></a>IdleHD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a983909dbea99f2a0d52834125d4266faae599161956d626eda4cb0a5ffb85271c" name="a983909dbea99f2a0d52834125d4266faae599161956d626eda4cb0a5ffb85271c"></a>Idle&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a983909dbea99f2a0d52834125d4266faa1f5c647d9066bc9e350b70aa2d16aec4" name="a983909dbea99f2a0d52834125d4266faa1f5c647d9066bc9e350b70aa2d16aec4"></a>Victory&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a983909dbea99f2a0d52834125d4266faa8f347bc7cebca9fa6d97e70c6bc29eb3" name="a983909dbea99f2a0d52834125d4266faa8f347bc7cebca9fa6d97e70c6bc29eb3"></a>GameOver&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae148a4cace731fe4cc312703cde3811d" name="ae148a4cace731fe4cc312703cde3811d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae148a4cace731fe4cc312703cde3811d">&#9670;&#160;</a></span>AddCustomAvatar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static AvatarScriptableObject ModGenesia.AvatarAPI.AddCustomAvatar </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>avatarName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">System::Reflection::ConstructorInfo&#160;</td>
+          <td class="paramname"><em>constructor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AvatarAnimations&#160;</td>
+          <td class="paramname"><em>animations</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localisedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localisedDescription</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Color&#160;</td>
+          <td class="paramname"><em>colorOnSelection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>unlockedByDefault</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Register a new Avatar. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">avatarName</td><td>internal Name of the avatar</td></tr>
+    <tr><td class="paramname">constructor</td><td>Constructor to the class of your avatarData</td></tr>
+    <tr><td class="paramname">animations</td><td>Animations of your avatar, use CreateAvatarAnimations() function to obtain it</td></tr>
+    <tr><td class="paramname">localisedName</td><td>Localization name of the avatar</td></tr>
+    <tr><td class="paramname">localisedDescription</td><td>Localization description of the avatar</td></tr>
+    <tr><td class="paramname">colorOnSelection</td><td>color of the FX when selecting the avatar</td></tr>
+    <tr><td class="paramname">unlockedByDefault</td><td>is the avatar unlocked by default or does it need to be unlocked via achievements</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aefc736dd3e2193b3c149abee8ec9e678" name="aefc736dd3e2193b3c149abee8ec9e678"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefc736dd3e2193b3c149abee8ec9e678">&#9670;&#160;</a></span>CreateAvatarAnimations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static AvatarAnimations ModGenesia.AvatarAPI.CreateAvatarAnimations </td>
+          <td>(</td>
+          <td class="paramtype">Sprite&#160;</td>
+          <td class="paramname"><em>icon</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PixelAnimationData&#160;</td>
+          <td class="paramname"><em>idleHDAnimationState</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PixelAnimationData&#160;</td>
+          <td class="paramname"><em>idleAnimationState</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PixelAnimationData&#160;</td>
+          <td class="paramname"><em>runAnimationState</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PixelAnimationData&#160;</td>
+          <td class="paramname"><em>victoryAnimationState</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PixelAnimationData&#160;</td>
+          <td class="paramname"><em>gameOverAnimationState</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get animations data for registering a new avatar. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">icon</td><td>Icon of the avatar used for menu</td></tr>
+    <tr><td class="paramname">idleHDAnimationState</td><td>Idle animation used during menu where the avatar is in main focus</td></tr>
+    <tr><td class="paramname">idleAnimationState</td><td>Idle animation used during gameplay</td></tr>
+    <tr><td class="paramname">runAnimationState</td><td>Run animation used during gameplay</td></tr>
+    <tr><td class="paramname">victoryAnimationState</td><td>Animation used on the end-screen when achieving victory</td></tr>
+    <tr><td class="paramname">gameOverAnimationState</td><td>Animation used on the end-screen for gameover</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afcad857eddae9b553e382e90b80a3472" name="afcad857eddae9b553e382e90b80a3472"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcad857eddae9b553e382e90b80a3472">&#9670;&#160;</a></span>CreateAvatarAnimationState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static PixelAnimationData ModGenesia.AvatarAPI.CreateAvatarAnimationState </td>
+          <td>(</td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2Int&#160;</td>
+          <td class="paramname"><em>frames</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an anomation state bused for CreateAvatarAnimations() </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">texture</td><td>Texture used for the animation</td></tr>
+    <tr><td class="paramname">frames</td><td>frame count on the X and Y axis in the animation texture</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1bf1f074ff1e0c0987b544f3df39bc3d" name="a1bf1f074ff1e0c0987b544f3df39bc3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bf1f074ff1e0c0987b544f3df39bc3d">&#9670;&#160;</a></span>ReplaceAvatarSkin() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ModGenesia.AvatarAPI.ReplaceAvatarSkin </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>avatarName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AvatarAnimations&#160;</td>
+          <td class="paramname"><em>animation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Replace one animation for any avatar Make sure you try to replace either a vanilla avatar animation or that the modded avatar you want to override has already been registered. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">avatarName</td><td>internal Name of the avatar</td></tr>
+    <tr><td class="paramname">animation</td><td>new animation, use CreateAvatarAnimations() function to obtain it</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a959fbdf7ce3ffc49af77f97d3a1264a7" name="a959fbdf7ce3ffc49af77f97d3a1264a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a959fbdf7ce3ffc49af77f97d3a1264a7">&#9670;&#160;</a></span>ReplaceAvatarSkin() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ModGenesia.AvatarAPI.ReplaceAvatarSkin </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>avatarName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_mod_genesia_1_1_avatar_a_p_i.html#a983909dbea99f2a0d52834125d4266fa">EAnimationType</a>&#160;</td>
+          <td class="paramname"><em>animationType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>animationTexture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>frameCount</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Replace one animation for any avatar Make sure you try to replace either a vanilla avatar animation or that the modded avatar you want to override has already been registered. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">avatarName</td><td>internal Name of the avatar</td></tr>
+    <tr><td class="paramname">animationType</td><td>which of the animation is it replacing</td></tr>
+    <tr><td class="paramname">animationTexture</td><td>Texture of the new animation</td></tr>
+    <tr><td class="paramname">frameCount</td><td>Frame size of the new animation</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/ModGenesia/<a class="el" href="_avatar_a_p_i_8cs.html">AvatarAPI.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_mod_genesia.html">ModGenesia</a></li><li class="navelem"><a class="el" href="class_mod_genesia_1_1_avatar_a_p_i.html">AvatarAPI</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

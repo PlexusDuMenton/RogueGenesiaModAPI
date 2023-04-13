@@ -1,0 +1,2021 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: ModGenesia.AchievementAPI Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_mod_genesia_1_1_achievement_a_p_i.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="class_mod_genesia_1_1_achievement_a_p_i-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">ModGenesia.AchievementAPI Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Modding API for everything Achievement Related.  
+ <a href="class_mod_genesia_1_1_achievement_a_p_i.html#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:adc2aa2f31ba4c146681855471b30eeec"><td class="memItemLeft" align="right" valign="top">static UnlockData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#adc2aa2f31ba4c146681855471b30eeec">CreateAchievementSoulCardUnlock</a> (string soulCardName)</td></tr>
+<tr class="memdesc:adc2aa2f31ba4c146681855471b30eeec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an SoulCard unlock for achievement registeration.  <br /></td></tr>
+<tr class="separator:adc2aa2f31ba4c146681855471b30eeec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7df10a3accd59467a198d0eb7efc0d74"><td class="memItemLeft" align="right" valign="top">static UnlockData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a7df10a3accd59467a198d0eb7efc0d74">CreateAchievementSoulCardUnlock</a> (SoulCardScriptableObject soulCard)</td></tr>
+<tr class="memdesc:a7df10a3accd59467a198d0eb7efc0d74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an SoulCard unlock for achievement registeration.  <br /></td></tr>
+<tr class="separator:a7df10a3accd59467a198d0eb7efc0d74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94e80cb95b91cf03d18f0183f97dc0d7"><td class="memItemLeft" align="right" valign="top">static UnlockData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a94e80cb95b91cf03d18f0183f97dc0d7">CreateAchievementSoulShopUpgradeUnlock</a> (string soulShopUpgradeName)</td></tr>
+<tr class="memdesc:a94e80cb95b91cf03d18f0183f97dc0d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an SoulShopUpgrade unlock for achievement registeration.  <br /></td></tr>
+<tr class="separator:a94e80cb95b91cf03d18f0183f97dc0d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a060d96395c6d1e1f49ce85811dc31b"><td class="memItemLeft" align="right" valign="top">static UnlockData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a8a060d96395c6d1e1f49ce85811dc31b">CreateAchievementSoulShopUpgradeUnlock</a> (SoulShopUpgradeSO soulShopUpgrade)</td></tr>
+<tr class="memdesc:a8a060d96395c6d1e1f49ce85811dc31b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an SoulShopUpgrade unlock for achievement registeration.  <br /></td></tr>
+<tr class="separator:a8a060d96395c6d1e1f49ce85811dc31b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a594054b4b0daaaf414676082ec0918b5"><td class="memItemLeft" align="right" valign="top">static UnlockData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a594054b4b0daaaf414676082ec0918b5">CreateAchievementTalentUnlock</a> (string talentName)</td></tr>
+<tr class="memdesc:a594054b4b0daaaf414676082ec0918b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an talent unlock for achievement registeration.  <br /></td></tr>
+<tr class="separator:a594054b4b0daaaf414676082ec0918b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dce901b7b41b88dd0c66c567e83efb7"><td class="memItemLeft" align="right" valign="top">static UnlockData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a7dce901b7b41b88dd0c66c567e83efb7">CreateAchievementTalentUnlock</a> (TalentScriptableObject talent)</td></tr>
+<tr class="memdesc:a7dce901b7b41b88dd0c66c567e83efb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an talent unlock for achievement registeration.  <br /></td></tr>
+<tr class="separator:a7dce901b7b41b88dd0c66c567e83efb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3793ec330c96fddd0f1f75a83f268b3f"><td class="memItemLeft" align="right" valign="top">static UnlockData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a3793ec330c96fddd0f1f75a83f268b3f">CreateAchievementAvatarUnlock</a> (string avatarName)</td></tr>
+<tr class="memdesc:a3793ec330c96fddd0f1f75a83f268b3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an avatar unlock for achievement registeration.  <br /></td></tr>
+<tr class="separator:a3793ec330c96fddd0f1f75a83f268b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85cc8feeb0aabc2b9047d2f16e24d34c"><td class="memItemLeft" align="right" valign="top">static UnlockData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a85cc8feeb0aabc2b9047d2f16e24d34c">CreateAchievementAvatarUnlock</a> (AvatarScriptableObject avatar)</td></tr>
+<tr class="memdesc:a85cc8feeb0aabc2b9047d2f16e24d34c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an avatar unlock for achievement registeration.  <br /></td></tr>
+<tr class="separator:a85cc8feeb0aabc2b9047d2f16e24d34c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a647b7656054b2679dbc8221a5348e4d9"><td class="memItemLeft" align="right" valign="top">static AchievementScriptableObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a647b7656054b2679dbc8221a5348e4d9">GlobalKillCountAchievementAchievement</a> (string achievementName, Texture2D texture, UnlockData unlockData, LocalizationDataList localizedName, long KillTarget, bool isSecret=false, bool isSuperSecret=false)</td></tr>
+<tr class="memdesc:a647b7656054b2679dbc8221a5348e4d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an achievement requiring global kill count.  <br /></td></tr>
+<tr class="separator:a647b7656054b2679dbc8221a5348e4d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace0bf767b20be968fef62adcc329d16e"><td class="memItemLeft" align="right" valign="top">static AchievementScriptableObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#ace0bf767b20be968fef62adcc329d16e">StatsThresholdAchievementAchievement</a> (string achievementName, Texture2D texture, UnlockData unlockData, LocalizationDataList localizedName, string statsName, float threshold, bool GreaterThan=true, bool isSecret=false, bool isSuperSecret=false)</td></tr>
+<tr class="memdesc:ace0bf767b20be968fef62adcc329d16e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an achievement requiring a stats to be higher or lower than a set value.  <br /></td></tr>
+<tr class="separator:ace0bf767b20be968fef62adcc329d16e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b49176b4b00cf00ff72ed3ea940a5a9"><td class="memItemLeft" align="right" valign="top">static AchievementScriptableObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a5b49176b4b00cf00ff72ed3ea940a5a9">WeaponLevelToReachAchievementAchievement</a> (string achievementName, Texture2D texture, UnlockData unlockData, LocalizationDataList localizedName, string weaponName, int level, bool isSecret=false, bool isSuperSecret=false)</td></tr>
+<tr class="memdesc:a5b49176b4b00cf00ff72ed3ea940a5a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an achievement requiring a weapon to each set level.  <br /></td></tr>
+<tr class="separator:a5b49176b4b00cf00ff72ed3ea940a5a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad703295d6d0240442f85364ca984ddc"><td class="memItemLeft" align="right" valign="top">static AchievementScriptableObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#aad703295d6d0240442f85364ca984ddc">WeaponCountToReachAchievementAchievement</a> (string achievementName, Texture2D texture, UnlockData unlockData, LocalizationDataList localizedName, int count, int level, bool isSecret=false, bool isSuperSecret=false)</td></tr>
+<tr class="memdesc:aad703295d6d0240442f85364ca984ddc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an achievement requiring a certain count of weapon to reach a set level.  <br /></td></tr>
+<tr class="separator:aad703295d6d0240442f85364ca984ddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d6b9577aec98e6d0655ad3bf90ec1ee"><td class="memItemLeft" align="right" valign="top">static AchievementScriptableObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a7d6b9577aec98e6d0655ad3bf90ec1ee">WeaponKillCountAchievement</a> (string achievementName, Texture2D texture, UnlockData unlockData, LocalizationDataList localizedName, string weaponName, long killCount, bool isSecret=false, bool isSuperSecret=false)</td></tr>
+<tr class="memdesc:a7d6b9577aec98e6d0655ad3bf90ec1ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an achievement requiring a set kill count on a weapon.  <br /></td></tr>
+<tr class="separator:a7d6b9577aec98e6d0655ad3bf90ec1ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28fc894dd15491738ac2c2140ff83ab3"><td class="memItemLeft" align="right" valign="top">static AchievementScriptableObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a28fc894dd15491738ac2c2140ff83ab3">PersistantDataRequiredAchievement</a> (string achievementName, Texture2D texture, UnlockData unlockData, LocalizationDataList localizedName, string statName, float threshold, bool isSecret=false, bool isSuperSecret=false)</td></tr>
+<tr class="memdesc:a28fc894dd15491738ac2c2140ff83ab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an achievement requiring a certain persistant stats to reach.  <br /></td></tr>
+<tr class="separator:a28fc894dd15491738ac2c2140ff83ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af56b6ed4a43a8471c72ebdc5e4a8b121"><td class="memItemLeft" align="right" valign="top">static AchievementScriptableObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#af56b6ed4a43a8471c72ebdc5e4a8b121">SpeedRunAchievement</a> (string achievementName, Texture2D texture, UnlockData unlockData, LocalizationDataList localizedName, EDifficulty worldDifficulty, float timeInSecond, bool isSecret=false, bool isSuperSecret=false)</td></tr>
+<tr class="memdesc:af56b6ed4a43a8471c72ebdc5e4a8b121"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an achievement requiring to complete a run under a set time.  <br /></td></tr>
+<tr class="separator:af56b6ed4a43a8471c72ebdc5e4a8b121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98d63232d7c63e8bd912fa9f7417d336"><td class="memItemLeft" align="right" valign="top">static AchievementScriptableObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a98d63232d7c63e8bd912fa9f7417d336">TimeSurvivalAchievement</a> (string achievementName, Texture2D texture, UnlockData unlockData, LocalizationDataList localizedName, EDifficulty worldDifficulty, float timeInSecond, bool isSecret=false, bool isSuperSecret=false)</td></tr>
+<tr class="memdesc:a98d63232d7c63e8bd912fa9f7417d336"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an achievement requiring to survive a minimum set time.  <br /></td></tr>
+<tr class="separator:a98d63232d7c63e8bd912fa9f7417d336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7a6fe394bbcd313fc96681cd66e6176"><td class="memItemLeft" align="right" valign="top">static AchievementScriptableObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#ac7a6fe394bbcd313fc96681cd66e6176">CompleteChallengeAchievement</a> (string achievementName, Texture2D texture, UnlockData unlockData, LocalizationDataList localizedName, ChallengeSO challengeToTrack, bool isSecret=false, bool isSuperSecret=false)</td></tr>
+<tr class="memdesc:ac7a6fe394bbcd313fc96681cd66e6176"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an achievement requiring to complete a set challenge.  <br /></td></tr>
+<tr class="separator:ac7a6fe394bbcd313fc96681cd66e6176"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1955b9573ad90b3e27f2ec1544be4c7e"><td class="memItemLeft" align="right" valign="top">static AchievementScriptableObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a1955b9573ad90b3e27f2ec1544be4c7e">DeathCountAchievement</a> (string achievementName, Texture2D texture, UnlockData unlockData, LocalizationDataList localizedName, int deathCount, bool isSecret=false, bool isSuperSecret=false)</td></tr>
+<tr class="memdesc:a1955b9573ad90b3e27f2ec1544be4c7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an achievement requiring death count.  <br /></td></tr>
+<tr class="separator:a1955b9573ad90b3e27f2ec1544be4c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71fef6363bb36bcdd52057da7ba1a702"><td class="memItemLeft" align="right" valign="top">static AchievementScriptableObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a71fef6363bb36bcdd52057da7ba1a702">SoulLevelToReachAchievement</a> (string achievementName, Texture2D texture, UnlockData unlockData, LocalizationDataList localizedName, int soulLeveltoReach, bool isSecret=false, bool isSuperSecret=false)</td></tr>
+<tr class="memdesc:a71fef6363bb36bcdd52057da7ba1a702"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an achievement requiring a set level to reach.  <br /></td></tr>
+<tr class="separator:a71fef6363bb36bcdd52057da7ba1a702"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a419241a84fc295f0343909b1e3ad225a"><td class="memItemLeft" align="right" valign="top">static AchievementScriptableObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a419241a84fc295f0343909b1e3ad225a">GameCountAchievement</a> (string achievementName, Texture2D texture, UnlockData unlockData, LocalizationDataList localizedName, int gameCount, bool isSecret=false, bool isSuperSecret=false)</td></tr>
+<tr class="memdesc:a419241a84fc295f0343909b1e3ad225a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an achievement requiring to reach a set game count.  <br /></td></tr>
+<tr class="separator:a419241a84fc295f0343909b1e3ad225a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d4d050d71ff75f3acf6985b472b9a0e"><td class="memItemLeft" align="right" valign="top">static AchievementScriptableObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a3d4d050d71ff75f3acf6985b472b9a0e">GoldAchievement</a> (string achievementName, Texture2D texture, UnlockData unlockData, LocalizationDataList localizedName, float goldCount, bool isSecret=false, bool isSuperSecret=false)</td></tr>
+<tr class="memdesc:a3d4d050d71ff75f3acf6985b472b9a0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an achievement requiring to hold a set ammount of gold during a run.  <br /></td></tr>
+<tr class="separator:a3d4d050d71ff75f3acf6985b472b9a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60968de72f8f5f8407698f979bea0c14"><td class="memItemLeft" align="right" valign="top">static AchievementScriptableObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a60968de72f8f5f8407698f979bea0c14">TotalGoldAchievement</a> (string achievementName, Texture2D texture, UnlockData unlockData, LocalizationDataList localizedName, float goldCount, bool isSecret=false, bool isSuperSecret=false)</td></tr>
+<tr class="memdesc:a60968de72f8f5f8407698f979bea0c14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an achievement requiring to gain a set ammount of gold during a run.  <br /></td></tr>
+<tr class="separator:a60968de72f8f5f8407698f979bea0c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e677d61fdfd00997f6c71fb169a1ed4"><td class="memItemLeft" align="right" valign="top">static AchievementScriptableObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a8e677d61fdfd00997f6c71fb169a1ed4">GlobalGoldAchievement</a> (string achievementName, Texture2D texture, UnlockData unlockData, LocalizationDataList localizedName, float goldCount, bool isSecret=false, bool isSuperSecret=false)</td></tr>
+<tr class="memdesc:a8e677d61fdfd00997f6c71fb169a1ed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an achievement requiring to gain a total ammount of gold combining all runs.  <br /></td></tr>
+<tr class="separator:a8e677d61fdfd00997f6c71fb169a1ed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9968fa0c107b3b015146f14dd4618580"><td class="memItemLeft" align="right" valign="top">static AchievementScriptableObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a9968fa0c107b3b015146f14dd4618580">PickUpAnyAchievement</a> (string achievementName, Texture2D texture, UnlockData unlockData, LocalizationDataList localizedName, long pickUpCount, AchievementPickUpType pickUpType, bool isSecret=false, bool isSuperSecret=false)</td></tr>
+<tr class="memdesc:a9968fa0c107b3b015146f14dd4618580"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an achievement requiring to pick-up any of the set pick-up a set number of time.  <br /></td></tr>
+<tr class="separator:a9968fa0c107b3b015146f14dd4618580"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae93535a717df443167cc42e52376c046"><td class="memItemLeft" align="right" valign="top">static AchievementScriptableObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#ae93535a717df443167cc42e52376c046">PickUpAllAchievement</a> (string achievementName, Texture2D texture, UnlockData unlockData, LocalizationDataList localizedName, long pickUpCount, AchievementPickUpType pickUpType, bool isSecret=false, bool isSuperSecret=false)</td></tr>
+<tr class="memdesc:ae93535a717df443167cc42e52376c046"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an achievement requiring to pick-up each of the set pick-up a set number of time.  <br /></td></tr>
+<tr class="separator:ae93535a717df443167cc42e52376c046"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a640195ac9fef1744b4846c8d9263d6db"><td class="memItemLeft" align="right" valign="top">static AchievementScriptableObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a640195ac9fef1744b4846c8d9263d6db">OtherAchievement</a> (string achievementName, Texture2D texture, UnlockData unlockData, LocalizationDataList localizedName, LocalizationDataList localizedDescription, bool isSecret=false, bool isSuperSecret=false)</td></tr>
+<tr class="memdesc:a640195ac9fef1744b4846c8d9263d6db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an achievement having custom requirement, you need to use AchievementManager.UnlockAchievement(AchievementName) to unlock it;.  <br /></td></tr>
+<tr class="separator:a640195ac9fef1744b4846c8d9263d6db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Modding API for everything Achievement Related. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac7a6fe394bbcd313fc96681cd66e6176" name="ac7a6fe394bbcd313fc96681cd66e6176"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7a6fe394bbcd313fc96681cd66e6176">&#9670;&#160;</a></span>CompleteChallengeAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static AchievementScriptableObject ModGenesia.AchievementAPI.CompleteChallengeAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>achievementName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnlockData&#160;</td>
+          <td class="paramname"><em>unlockData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localizedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ChallengeSO&#160;</td>
+          <td class="paramname"><em>challengeToTrack</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSecret</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSuperSecret</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an achievement requiring to complete a set challenge. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">achievementName</td><td>Achievement Name</td></tr>
+    <tr><td class="paramname">texture</td><td>Achievement Icon</td></tr>
+    <tr><td class="paramname">unlockData</td><td>Achievement unlocks, using CreateAchievement...Unlock() Functions</td></tr>
+    <tr><td class="paramname">localizedName</td><td>Localized name of the achievement</td></tr>
+    <tr><td class="paramname">challengeToTrack</td><td>challenge to check if completed</td></tr>
+    <tr><td class="paramname">isSecret</td><td>Should the Achievement icon be black and description hidden until it's unlocked</td></tr>
+    <tr><td class="paramname">isSuperSecret</td><td>Completely hide the achievement until it is unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a85cc8feeb0aabc2b9047d2f16e24d34c" name="a85cc8feeb0aabc2b9047d2f16e24d34c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85cc8feeb0aabc2b9047d2f16e24d34c">&#9670;&#160;</a></span>CreateAchievementAvatarUnlock() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static UnlockData ModGenesia.AchievementAPI.CreateAchievementAvatarUnlock </td>
+          <td>(</td>
+          <td class="paramtype">AvatarScriptableObject&#160;</td>
+          <td class="paramname"><em>avatar</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an avatar unlock for achievement registeration. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">avatar</td><td>Avatar unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3793ec330c96fddd0f1f75a83f268b3f" name="a3793ec330c96fddd0f1f75a83f268b3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3793ec330c96fddd0f1f75a83f268b3f">&#9670;&#160;</a></span>CreateAchievementAvatarUnlock() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static UnlockData ModGenesia.AchievementAPI.CreateAchievementAvatarUnlock </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>avatarName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an avatar unlock for achievement registeration. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">avatarName</td><td>Avatar's name unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7df10a3accd59467a198d0eb7efc0d74" name="a7df10a3accd59467a198d0eb7efc0d74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7df10a3accd59467a198d0eb7efc0d74">&#9670;&#160;</a></span>CreateAchievementSoulCardUnlock() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static UnlockData ModGenesia.AchievementAPI.CreateAchievementSoulCardUnlock </td>
+          <td>(</td>
+          <td class="paramtype">SoulCardScriptableObject&#160;</td>
+          <td class="paramname"><em>soulCard</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an SoulCard unlock for achievement registeration. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">soulCard</td><td>SoulCard unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="adc2aa2f31ba4c146681855471b30eeec" name="adc2aa2f31ba4c146681855471b30eeec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc2aa2f31ba4c146681855471b30eeec">&#9670;&#160;</a></span>CreateAchievementSoulCardUnlock() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static UnlockData ModGenesia.AchievementAPI.CreateAchievementSoulCardUnlock </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>soulCardName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an SoulCard unlock for achievement registeration. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">soulCardName</td><td>SoulCard's name unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8a060d96395c6d1e1f49ce85811dc31b" name="a8a060d96395c6d1e1f49ce85811dc31b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a060d96395c6d1e1f49ce85811dc31b">&#9670;&#160;</a></span>CreateAchievementSoulShopUpgradeUnlock() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static UnlockData ModGenesia.AchievementAPI.CreateAchievementSoulShopUpgradeUnlock </td>
+          <td>(</td>
+          <td class="paramtype">SoulShopUpgradeSO&#160;</td>
+          <td class="paramname"><em>soulShopUpgrade</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an SoulShopUpgrade unlock for achievement registeration. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">soulShopUpgrade</td><td>SoulShopUpgrade unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a94e80cb95b91cf03d18f0183f97dc0d7" name="a94e80cb95b91cf03d18f0183f97dc0d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94e80cb95b91cf03d18f0183f97dc0d7">&#9670;&#160;</a></span>CreateAchievementSoulShopUpgradeUnlock() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static UnlockData ModGenesia.AchievementAPI.CreateAchievementSoulShopUpgradeUnlock </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>soulShopUpgradeName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an SoulShopUpgrade unlock for achievement registeration. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">soulShopUpgradeName</td><td>SoulShopUpgrade's name unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a594054b4b0daaaf414676082ec0918b5" name="a594054b4b0daaaf414676082ec0918b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a594054b4b0daaaf414676082ec0918b5">&#9670;&#160;</a></span>CreateAchievementTalentUnlock() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static UnlockData ModGenesia.AchievementAPI.CreateAchievementTalentUnlock </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>talentName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an talent unlock for achievement registeration. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">talentName</td><td>Talent's name unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7dce901b7b41b88dd0c66c567e83efb7" name="a7dce901b7b41b88dd0c66c567e83efb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dce901b7b41b88dd0c66c567e83efb7">&#9670;&#160;</a></span>CreateAchievementTalentUnlock() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static UnlockData ModGenesia.AchievementAPI.CreateAchievementTalentUnlock </td>
+          <td>(</td>
+          <td class="paramtype">TalentScriptableObject&#160;</td>
+          <td class="paramname"><em>talent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an talent unlock for achievement registeration. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">talent</td><td>Talent unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1955b9573ad90b3e27f2ec1544be4c7e" name="a1955b9573ad90b3e27f2ec1544be4c7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1955b9573ad90b3e27f2ec1544be4c7e">&#9670;&#160;</a></span>DeathCountAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static AchievementScriptableObject ModGenesia.AchievementAPI.DeathCountAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>achievementName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnlockData&#160;</td>
+          <td class="paramname"><em>unlockData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localizedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>deathCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSecret</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSuperSecret</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an achievement requiring death count. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">achievementName</td><td>Achievement Name</td></tr>
+    <tr><td class="paramname">texture</td><td>Achievement Icon</td></tr>
+    <tr><td class="paramname">unlockData</td><td>Achievement unlocks, using CreateAchievement...Unlock() Functions</td></tr>
+    <tr><td class="paramname">localizedName</td><td>Localized name of the achievement</td></tr>
+    <tr><td class="paramname">deathCount</td><td>Number of death to reach</td></tr>
+    <tr><td class="paramname">isSecret</td><td>Should the Achievement icon be black and description hidden until it's unlocked</td></tr>
+    <tr><td class="paramname">isSuperSecret</td><td>Completely hide the achievement until it is unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a419241a84fc295f0343909b1e3ad225a" name="a419241a84fc295f0343909b1e3ad225a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a419241a84fc295f0343909b1e3ad225a">&#9670;&#160;</a></span>GameCountAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static AchievementScriptableObject ModGenesia.AchievementAPI.GameCountAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>achievementName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnlockData&#160;</td>
+          <td class="paramname"><em>unlockData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localizedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>gameCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSecret</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSuperSecret</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an achievement requiring to reach a set game count. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">achievementName</td><td>Achievement Name</td></tr>
+    <tr><td class="paramname">texture</td><td>Achievement Icon</td></tr>
+    <tr><td class="paramname">unlockData</td><td>Achievement unlocks, using CreateAchievement...Unlock() Functions</td></tr>
+    <tr><td class="paramname">localizedName</td><td>Localized name of the achievement</td></tr>
+    <tr><td class="paramname">gameCount</td><td>Game count to reach</td></tr>
+    <tr><td class="paramname">isSecret</td><td>Should the Achievement icon be black and description hidden until it's unlocked</td></tr>
+    <tr><td class="paramname">isSuperSecret</td><td>Completely hide the achievement until it is unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8e677d61fdfd00997f6c71fb169a1ed4" name="a8e677d61fdfd00997f6c71fb169a1ed4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e677d61fdfd00997f6c71fb169a1ed4">&#9670;&#160;</a></span>GlobalGoldAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static AchievementScriptableObject ModGenesia.AchievementAPI.GlobalGoldAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>achievementName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnlockData&#160;</td>
+          <td class="paramname"><em>unlockData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localizedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>goldCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSecret</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSuperSecret</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an achievement requiring to gain a total ammount of gold combining all runs. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">achievementName</td><td>Achievement Name</td></tr>
+    <tr><td class="paramname">texture</td><td>Achievement Icon</td></tr>
+    <tr><td class="paramname">unlockData</td><td>Achievement unlocks, using CreateAchievement...Unlock() Functions</td></tr>
+    <tr><td class="paramname">localizedName</td><td>Localized name of the achievement</td></tr>
+    <tr><td class="paramname">goldCount</td><td>Gold count to reach</td></tr>
+    <tr><td class="paramname">isSecret</td><td>Should the Achievement icon be black and description hidden until it's unlocked</td></tr>
+    <tr><td class="paramname">isSuperSecret</td><td>Completely hide the achievement until it is unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a647b7656054b2679dbc8221a5348e4d9" name="a647b7656054b2679dbc8221a5348e4d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a647b7656054b2679dbc8221a5348e4d9">&#9670;&#160;</a></span>GlobalKillCountAchievementAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static AchievementScriptableObject ModGenesia.AchievementAPI.GlobalKillCountAchievementAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>achievementName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnlockData&#160;</td>
+          <td class="paramname"><em>unlockData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localizedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>KillTarget</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSecret</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSuperSecret</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an achievement requiring global kill count. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">achievementName</td><td>Achievement Name</td></tr>
+    <tr><td class="paramname">texture</td><td>Achievement Icon</td></tr>
+    <tr><td class="paramname">unlockData</td><td>Achievement unlocks, using CreateAchievement...Unlock() Functions</td></tr>
+    <tr><td class="paramname">localizedName</td><td>Localized name of the achievement</td></tr>
+    <tr><td class="paramname">KillTarget</td><td>Number of monster to kill</td></tr>
+    <tr><td class="paramname">isSecret</td><td>Should the Achievement icon be black and description hidden until it's unlocked</td></tr>
+    <tr><td class="paramname">isSuperSecret</td><td>Completely hide the achievement until it is unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3d4d050d71ff75f3acf6985b472b9a0e" name="a3d4d050d71ff75f3acf6985b472b9a0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d4d050d71ff75f3acf6985b472b9a0e">&#9670;&#160;</a></span>GoldAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static AchievementScriptableObject ModGenesia.AchievementAPI.GoldAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>achievementName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnlockData&#160;</td>
+          <td class="paramname"><em>unlockData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localizedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>goldCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSecret</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSuperSecret</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an achievement requiring to hold a set ammount of gold during a run. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">achievementName</td><td>Achievement Name</td></tr>
+    <tr><td class="paramname">texture</td><td>Achievement Icon</td></tr>
+    <tr><td class="paramname">unlockData</td><td>Achievement unlocks, using CreateAchievement...Unlock() Functions</td></tr>
+    <tr><td class="paramname">localizedName</td><td>Localized name of the achievement</td></tr>
+    <tr><td class="paramname">goldCount</td><td>Gold count to reach</td></tr>
+    <tr><td class="paramname">isSecret</td><td>Should the Achievement icon be black and description hidden until it's unlocked</td></tr>
+    <tr><td class="paramname">isSuperSecret</td><td>Completely hide the achievement until it is unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a640195ac9fef1744b4846c8d9263d6db" name="a640195ac9fef1744b4846c8d9263d6db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a640195ac9fef1744b4846c8d9263d6db">&#9670;&#160;</a></span>OtherAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static AchievementScriptableObject ModGenesia.AchievementAPI.OtherAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>achievementName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnlockData&#160;</td>
+          <td class="paramname"><em>unlockData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localizedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localizedDescription</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSecret</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSuperSecret</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an achievement having custom requirement, you need to use AchievementManager.UnlockAchievement(AchievementName) to unlock it;. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">achievementName</td><td>Achievement Name</td></tr>
+    <tr><td class="paramname">texture</td><td>Achievement Icon</td></tr>
+    <tr><td class="paramname">unlockData</td><td>Achievement unlocks, using CreateAchievement...Unlock() Functions</td></tr>
+    <tr><td class="paramname">localizedName</td><td>Localized name of the achievement</td></tr>
+    <tr><td class="paramname">localizedDescription</td><td>Localized Description of the achievement</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">isSecret</td><td>Should the Achievement icon be black and description hidden until it's unlocked</td></tr>
+    <tr><td class="paramname">isSuperSecret</td><td>Completely hide the achievement until it is unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a28fc894dd15491738ac2c2140ff83ab3" name="a28fc894dd15491738ac2c2140ff83ab3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28fc894dd15491738ac2c2140ff83ab3">&#9670;&#160;</a></span>PersistantDataRequiredAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static AchievementScriptableObject ModGenesia.AchievementAPI.PersistantDataRequiredAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>achievementName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnlockData&#160;</td>
+          <td class="paramname"><em>unlockData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localizedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>statName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>threshold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSecret</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSuperSecret</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an achievement requiring a certain persistant stats to reach. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">achievementName</td><td>Achievement Name</td></tr>
+    <tr><td class="paramname">texture</td><td>Achievement Icon</td></tr>
+    <tr><td class="paramname">unlockData</td><td>Achievement unlocks, using CreateAchievement...Unlock() Functions</td></tr>
+    <tr><td class="paramname">localizedName</td><td>Localized name of the achievement</td></tr>
+    <tr><td class="paramname">statName</td><td>name of the persistant stat to check</td></tr>
+    <tr><td class="paramname">threshold</td><td>value of the stats required</td></tr>
+    <tr><td class="paramname">isSecret</td><td>Should the Achievement icon be black and description hidden until it's unlocked</td></tr>
+    <tr><td class="paramname">isSuperSecret</td><td>Completely hide the achievement until it is unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae93535a717df443167cc42e52376c046" name="ae93535a717df443167cc42e52376c046"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae93535a717df443167cc42e52376c046">&#9670;&#160;</a></span>PickUpAllAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static AchievementScriptableObject ModGenesia.AchievementAPI.PickUpAllAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>achievementName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnlockData&#160;</td>
+          <td class="paramname"><em>unlockData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localizedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>pickUpCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AchievementPickUpType&#160;</td>
+          <td class="paramname"><em>pickUpType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSecret</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSuperSecret</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an achievement requiring to pick-up each of the set pick-up a set number of time. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">achievementName</td><td>Achievement Name</td></tr>
+    <tr><td class="paramname">texture</td><td>Achievement Icon</td></tr>
+    <tr><td class="paramname">unlockData</td><td>Achievement unlocks, using CreateAchievement...Unlock() Functions</td></tr>
+    <tr><td class="paramname">localizedName</td><td>Localized name of the achievement</td></tr>
+    <tr><td class="paramname">pickUpCount</td><td>pick-up count to reach</td></tr>
+    <tr><td class="paramname">pickUpType</td><td>which pick-up are required to be grabbed</td></tr>
+    <tr><td class="paramname">isSecret</td><td>Should the Achievement icon be black and description hidden until it's unlocked</td></tr>
+    <tr><td class="paramname">isSuperSecret</td><td>Completely hide the achievement until it is unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9968fa0c107b3b015146f14dd4618580" name="a9968fa0c107b3b015146f14dd4618580"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9968fa0c107b3b015146f14dd4618580">&#9670;&#160;</a></span>PickUpAnyAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static AchievementScriptableObject ModGenesia.AchievementAPI.PickUpAnyAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>achievementName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnlockData&#160;</td>
+          <td class="paramname"><em>unlockData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localizedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>pickUpCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AchievementPickUpType&#160;</td>
+          <td class="paramname"><em>pickUpType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSecret</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSuperSecret</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an achievement requiring to pick-up any of the set pick-up a set number of time. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">achievementName</td><td>Achievement Name</td></tr>
+    <tr><td class="paramname">texture</td><td>Achievement Icon</td></tr>
+    <tr><td class="paramname">unlockData</td><td>Achievement unlocks, using CreateAchievement...Unlock() Functions</td></tr>
+    <tr><td class="paramname">localizedName</td><td>Localized name of the achievement</td></tr>
+    <tr><td class="paramname">pickUpCount</td><td>pick-up count to reach</td></tr>
+    <tr><td class="paramname">pickUpType</td><td>which pick-up are required to be grabbed</td></tr>
+    <tr><td class="paramname">isSecret</td><td>Should the Achievement icon be black and description hidden until it's unlocked</td></tr>
+    <tr><td class="paramname">isSuperSecret</td><td>Completely hide the achievement until it is unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a71fef6363bb36bcdd52057da7ba1a702" name="a71fef6363bb36bcdd52057da7ba1a702"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71fef6363bb36bcdd52057da7ba1a702">&#9670;&#160;</a></span>SoulLevelToReachAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static AchievementScriptableObject ModGenesia.AchievementAPI.SoulLevelToReachAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>achievementName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnlockData&#160;</td>
+          <td class="paramname"><em>unlockData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localizedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>soulLeveltoReach</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSecret</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSuperSecret</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an achievement requiring a set level to reach. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">achievementName</td><td>Achievement Name</td></tr>
+    <tr><td class="paramname">texture</td><td>Achievement Icon</td></tr>
+    <tr><td class="paramname">unlockData</td><td>Achievement unlocks, using CreateAchievement...Unlock() Functions</td></tr>
+    <tr><td class="paramname">localizedName</td><td>Localized name of the achievement</td></tr>
+    <tr><td class="paramname">soulLeveltoReach</td><td>Level to reach</td></tr>
+    <tr><td class="paramname">isSecret</td><td>Should the Achievement icon be black and description hidden until it's unlocked</td></tr>
+    <tr><td class="paramname">isSuperSecret</td><td>Completely hide the achievement until it is unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af56b6ed4a43a8471c72ebdc5e4a8b121" name="af56b6ed4a43a8471c72ebdc5e4a8b121"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af56b6ed4a43a8471c72ebdc5e4a8b121">&#9670;&#160;</a></span>SpeedRunAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static AchievementScriptableObject ModGenesia.AchievementAPI.SpeedRunAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>achievementName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnlockData&#160;</td>
+          <td class="paramname"><em>unlockData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localizedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EDifficulty&#160;</td>
+          <td class="paramname"><em>worldDifficulty</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>timeInSecond</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSecret</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSuperSecret</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an achievement requiring to complete a run under a set time. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">achievementName</td><td>Achievement Name</td></tr>
+    <tr><td class="paramname">texture</td><td>Achievement Icon</td></tr>
+    <tr><td class="paramname">unlockData</td><td>Achievement unlocks, using CreateAchievement...Unlock() Functions</td></tr>
+    <tr><td class="paramname">localizedName</td><td>Localized name of the achievement</td></tr>
+    <tr><td class="paramname">worldDifficulty</td><td>Tier of the world</td></tr>
+    <tr><td class="paramname">timeInSecond</td><td>maximum time in seconds</td></tr>
+    <tr><td class="paramname">isSecret</td><td>Should the Achievement icon be black and description hidden until it's unlocked</td></tr>
+    <tr><td class="paramname">isSuperSecret</td><td>Completely hide the achievement until it is unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ace0bf767b20be968fef62adcc329d16e" name="ace0bf767b20be968fef62adcc329d16e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace0bf767b20be968fef62adcc329d16e">&#9670;&#160;</a></span>StatsThresholdAchievementAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static AchievementScriptableObject ModGenesia.AchievementAPI.StatsThresholdAchievementAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>achievementName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnlockData&#160;</td>
+          <td class="paramname"><em>unlockData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localizedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>statsName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>threshold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>GreaterThan</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSecret</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSuperSecret</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an achievement requiring a stats to be higher or lower than a set value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">achievementName</td><td>Achievement Name</td></tr>
+    <tr><td class="paramname">texture</td><td>Achievement Icon</td></tr>
+    <tr><td class="paramname">unlockData</td><td>Achievement unlocks, using CreateAchievement...Unlock() Functions</td></tr>
+    <tr><td class="paramname">localizedName</td><td>Localized name of the achievement</td></tr>
+    <tr><td class="paramname">statsName</td><td>Stats name to check</td></tr>
+    <tr><td class="paramname">threshold</td><td>value the stats need to reach to unlock the achievement</td></tr>
+    <tr><td class="paramname">GreaterThan</td><td>When set to true, the stats need to be greater than the threshold, when set to false, it must be lower</td></tr>
+    <tr><td class="paramname">isSecret</td><td>Should the Achievement icon be black and description hidden until it's unlocked</td></tr>
+    <tr><td class="paramname">isSuperSecret</td><td>Completely hide the achievement until it is unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a98d63232d7c63e8bd912fa9f7417d336" name="a98d63232d7c63e8bd912fa9f7417d336"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98d63232d7c63e8bd912fa9f7417d336">&#9670;&#160;</a></span>TimeSurvivalAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static AchievementScriptableObject ModGenesia.AchievementAPI.TimeSurvivalAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>achievementName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnlockData&#160;</td>
+          <td class="paramname"><em>unlockData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localizedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EDifficulty&#160;</td>
+          <td class="paramname"><em>worldDifficulty</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>timeInSecond</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSecret</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSuperSecret</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an achievement requiring to survive a minimum set time. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">achievementName</td><td>Achievement Name</td></tr>
+    <tr><td class="paramname">texture</td><td>Achievement Icon</td></tr>
+    <tr><td class="paramname">unlockData</td><td>Achievement unlocks, using CreateAchievement...Unlock() Functions</td></tr>
+    <tr><td class="paramname">localizedName</td><td>Localized name of the achievement</td></tr>
+    <tr><td class="paramname">worldDifficulty</td><td>Tier of the world</td></tr>
+    <tr><td class="paramname">timeInSecond</td><td>maximum time in seconds</td></tr>
+    <tr><td class="paramname">isSecret</td><td>Should the Achievement icon be black and description hidden until it's unlocked</td></tr>
+    <tr><td class="paramname">isSuperSecret</td><td>Completely hide the achievement until it is unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a60968de72f8f5f8407698f979bea0c14" name="a60968de72f8f5f8407698f979bea0c14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60968de72f8f5f8407698f979bea0c14">&#9670;&#160;</a></span>TotalGoldAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static AchievementScriptableObject ModGenesia.AchievementAPI.TotalGoldAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>achievementName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnlockData&#160;</td>
+          <td class="paramname"><em>unlockData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localizedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>goldCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSecret</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSuperSecret</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an achievement requiring to gain a set ammount of gold during a run. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">achievementName</td><td>Achievement Name</td></tr>
+    <tr><td class="paramname">texture</td><td>Achievement Icon</td></tr>
+    <tr><td class="paramname">unlockData</td><td>Achievement unlocks, using CreateAchievement...Unlock() Functions</td></tr>
+    <tr><td class="paramname">localizedName</td><td>Localized name of the achievement</td></tr>
+    <tr><td class="paramname">goldCount</td><td>Gold count to reach</td></tr>
+    <tr><td class="paramname">isSecret</td><td>Should the Achievement icon be black and description hidden until it's unlocked</td></tr>
+    <tr><td class="paramname">isSuperSecret</td><td>Completely hide the achievement until it is unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aad703295d6d0240442f85364ca984ddc" name="aad703295d6d0240442f85364ca984ddc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad703295d6d0240442f85364ca984ddc">&#9670;&#160;</a></span>WeaponCountToReachAchievementAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static AchievementScriptableObject ModGenesia.AchievementAPI.WeaponCountToReachAchievementAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>achievementName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnlockData&#160;</td>
+          <td class="paramname"><em>unlockData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localizedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSecret</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSuperSecret</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an achievement requiring a certain count of weapon to reach a set level. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">achievementName</td><td>Achievement Name</td></tr>
+    <tr><td class="paramname">texture</td><td>Achievement Icon</td></tr>
+    <tr><td class="paramname">unlockData</td><td>Achievement unlocks, using CreateAchievement...Unlock() Functions</td></tr>
+    <tr><td class="paramname">localizedName</td><td>Localized name of the achievement</td></tr>
+    <tr><td class="paramname">count</td><td>weapon count</td></tr>
+    <tr><td class="paramname">level</td><td>level the weapons need to reach</td></tr>
+    <tr><td class="paramname">isSecret</td><td>Should the Achievement icon be black and description hidden until it's unlocked</td></tr>
+    <tr><td class="paramname">isSuperSecret</td><td>Completely hide the achievement until it is unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7d6b9577aec98e6d0655ad3bf90ec1ee" name="a7d6b9577aec98e6d0655ad3bf90ec1ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d6b9577aec98e6d0655ad3bf90ec1ee">&#9670;&#160;</a></span>WeaponKillCountAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static AchievementScriptableObject ModGenesia.AchievementAPI.WeaponKillCountAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>achievementName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnlockData&#160;</td>
+          <td class="paramname"><em>unlockData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localizedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>weaponName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>killCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSecret</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSuperSecret</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an achievement requiring a set kill count on a weapon. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">achievementName</td><td>Achievement Name</td></tr>
+    <tr><td class="paramname">texture</td><td>Achievement Icon</td></tr>
+    <tr><td class="paramname">unlockData</td><td>Achievement unlocks, using CreateAchievement...Unlock() Functions</td></tr>
+    <tr><td class="paramname">localizedName</td><td>Localized name of the achievement</td></tr>
+    <tr><td class="paramname">weaponName</td><td>name of the weapon to check</td></tr>
+    <tr><td class="paramname">killCount</td><td>kill count required</td></tr>
+    <tr><td class="paramname">isSecret</td><td>Should the Achievement icon be black and description hidden until it's unlocked</td></tr>
+    <tr><td class="paramname">isSuperSecret</td><td>Completely hide the achievement until it is unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5b49176b4b00cf00ff72ed3ea940a5a9" name="a5b49176b4b00cf00ff72ed3ea940a5a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b49176b4b00cf00ff72ed3ea940a5a9">&#9670;&#160;</a></span>WeaponLevelToReachAchievementAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static AchievementScriptableObject ModGenesia.AchievementAPI.WeaponLevelToReachAchievementAchievement </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>achievementName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnlockData&#160;</td>
+          <td class="paramname"><em>unlockData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalizationDataList&#160;</td>
+          <td class="paramname"><em>localizedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>weaponName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSecret</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSuperSecret</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an achievement requiring a weapon to each set level. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">achievementName</td><td>Achievement Name</td></tr>
+    <tr><td class="paramname">texture</td><td>Achievement Icon</td></tr>
+    <tr><td class="paramname">unlockData</td><td>Achievement unlocks, using CreateAchievement...Unlock() Functions</td></tr>
+    <tr><td class="paramname">localizedName</td><td>Localized name of the achievement</td></tr>
+    <tr><td class="paramname">weaponName</td><td>name of the weapon to check</td></tr>
+    <tr><td class="paramname">level</td><td>level the weapon need to reach</td></tr>
+    <tr><td class="paramname">isSecret</td><td>Should the Achievement icon be black and description hidden until it's unlocked</td></tr>
+    <tr><td class="paramname">isSuperSecret</td><td>Completely hide the achievement until it is unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/ModGenesia/<a class="el" href="_achievement_a_p_i_8cs.html">AchievementAPI.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_mod_genesia.html">ModGenesia</a></li><li class="navelem"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html">AchievementAPI</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

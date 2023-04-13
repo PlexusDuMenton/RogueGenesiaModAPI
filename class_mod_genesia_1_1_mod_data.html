@@ -1,0 +1,725 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: ModGenesia.ModData Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_mod_genesia_1_1_mod_data.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
+<a href="class_mod_genesia_1_1_mod_data-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">ModGenesia.ModData Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aded5894d793034c09655b546b5b70ce5"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#aded5894d793034c09655b546b5b70ce5">GetModName</a> ()</td></tr>
+<tr class="separator:aded5894d793034c09655b546b5b70ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a937c41fadd460cf147591f166dba72"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#a8a937c41fadd460cf147591f166dba72">GetModDescription</a> ()</td></tr>
+<tr class="separator:a8a937c41fadd460cf147591f166dba72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc4d8e1984162ebb1d819ad11fefa4f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#adc4d8e1984162ebb1d819ad11fefa4f7">WriteWorkshopID</a> (ulong workshopID)</td></tr>
+<tr class="separator:adc4d8e1984162ebb1d819ad11fefa4f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42d6be372e36c41b74ac4ee55feae131"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#a42d6be372e36c41b74ac4ee55feae131">UpdateModInfo</a> ()</td></tr>
+<tr class="separator:a42d6be372e36c41b74ac4ee55feae131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acedbf7f6c9ee78cefd28593be35d77ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_mod_genesia_1_1_mod_version.html">ModVersion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#acedbf7f6c9ee78cefd28593be35d77ea">GetDependencyVersion</a> (string Dependency)</td></tr>
+<tr class="separator:acedbf7f6c9ee78cefd28593be35d77ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeec9e895432da6e19285d94db7f42332"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#aeec9e895432da6e19285d94db7f42332">IsDependencyVersionGood</a> (string targetDepedency, string actualDependency)</td></tr>
+<tr class="separator:aeec9e895432da6e19285d94db7f42332"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8d1159009f03d69e27709d8ff5d2d5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#aa8d1159009f03d69e27709d8ff5d2d5a">OwnDependency</a> (string targetDepedency, <a class="el" href="class_mod_genesia_1_1_mod_data.html">ModData</a> actualDependency)</td></tr>
+<tr class="separator:aa8d1159009f03d69e27709d8ff5d2d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d666f1bb8be66551e3e40fb7f96ebd7"><td class="memItemLeft" align="right" valign="top">ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#a5d666f1bb8be66551e3e40fb7f96ebd7">GetWorkshopID</a> ()</td></tr>
+<tr class="separator:a5d666f1bb8be66551e3e40fb7f96ebd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7a8d281368891574b46a822e5285687"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#ab7a8d281368891574b46a822e5285687">GetDependencyID</a> (string Dependency)</td></tr>
+<tr class="separator:ab7a8d281368891574b46a822e5285687"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:af477a4fc696bf51a494a74ef85c0c032"><td class="memItemLeft" align="right" valign="top">Steamworks.UGCUpdateHandle_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#af477a4fc696bf51a494a74ef85c0c032">UGCUpdateHandle</a></td></tr>
+<tr class="separator:af477a4fc696bf51a494a74ef85c0c032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a3bd7b7490e58367fca5a507b721f28"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#a3a3bd7b7490e58367fca5a507b721f28">Downloading</a> = false</td></tr>
+<tr class="separator:a3a3bd7b7490e58367fca5a507b721f28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4f10e99b32776d8e40b726dba7a7090"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#ac4f10e99b32776d8e40b726dba7a7090">Uploading</a> = false</td></tr>
+<tr class="separator:ac4f10e99b32776d8e40b726dba7a7090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a432d50d07fc3f01ac508cdd9164daf31"><td class="memItemLeft" align="right" valign="top">ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#a432d50d07fc3f01ac508cdd9164daf31">Owner</a></td></tr>
+<tr class="separator:a432d50d07fc3f01ac508cdd9164daf31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade9f631e3113202bcbd4b568c45b7a3c"><td class="memItemLeft" align="right" valign="top">DirectoryInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#ade9f631e3113202bcbd4b568c45b7a3c">ModDirectory</a></td></tr>
+<tr class="separator:ade9f631e3113202bcbd4b568c45b7a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba73e61d1276f60cb4f13a523bf7d77e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#aba73e61d1276f60cb4f13a523bf7d77e">ActualLoadingOrder</a></td></tr>
+<tr class="separator:aba73e61d1276f60cb4f13a523bf7d77e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27004436db98f951ef7de86e4d46d637"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#a27004436db98f951ef7de86e4d46d637">Active</a></td></tr>
+<tr class="separator:a27004436db98f951ef7de86e4d46d637"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b0b4ecd54e9414532b84b8f9abae044"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#a2b0b4ecd54e9414532b84b8f9abae044">Enabled</a></td></tr>
+<tr class="separator:a2b0b4ecd54e9414532b84b8f9abae044"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01c6dccd8e8265736d0dd284b7c564f1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#a01c6dccd8e8265736d0dd284b7c564f1">MissingDependency</a> = false</td></tr>
+<tr class="separator:a01c6dccd8e8265736d0dd284b7c564f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a236f2501d6cc1873b3d9937e92070598"><td class="memItemLeft" align="right" valign="top">List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#a236f2501d6cc1873b3d9937e92070598">MissingDependencies</a> = new List&lt;string&gt;()</td></tr>
+<tr class="separator:a236f2501d6cc1873b3d9937e92070598"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82b11a210096cd5b6678bd656a953ef2"><td class="memItemLeft" align="right" valign="top">Texture2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#a82b11a210096cd5b6678bd656a953ef2">Image</a></td></tr>
+<tr class="separator:a82b11a210096cd5b6678bd656a953ef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5f871e29980ca5459ab639fc41b5579"><td class="memItemLeft" align="right" valign="top">Texture2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#ac5f871e29980ca5459ab639fc41b5579">Icon</a></td></tr>
+<tr class="separator:ac5f871e29980ca5459ab639fc41b5579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fdaab15b0fec5c41fd43ba8d0c94c2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_mod_genesia_1_1_mod_info.html">ModInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#a4fdaab15b0fec5c41fd43ba8d0c94c2b">modInfo</a></td></tr>
+<tr class="separator:a4fdaab15b0fec5c41fd43ba8d0c94c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89fde9ff5c157d7003543a16d70fe855"><td class="memItemLeft" align="right" valign="top">FileInfo[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#a89fde9ff5c157d7003543a16d70fe855">AssembliesList</a></td></tr>
+<tr class="separator:a89fde9ff5c157d7003543a16d70fe855"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85e56f22e47c85b2880783febf224183"><td class="memItemLeft" align="right" valign="top">List&lt; Assembly &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#a85e56f22e47c85b2880783febf224183">LoadedAssembliesList</a></td></tr>
+<tr class="separator:a85e56f22e47c85b2880783febf224183"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7ebe07834c2c55bc2f474a6ad8c7155"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_mod_genesia_1_1_mod_data.html">ModData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#ae7ebe07834c2c55bc2f474a6ad8c7155">DependedBy</a></td></tr>
+<tr class="separator:ae7ebe07834c2c55bc2f474a6ad8c7155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a689ea5abd64fca1a77c9af46627387bf"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_mod_genesia_1_1_mod_data.html">ModData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#a689ea5abd64fca1a77c9af46627387bf">Dependencies</a></td></tr>
+<tr class="separator:a689ea5abd64fca1a77c9af46627387bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:af365dd0a33185fce2e253d4e90e3e63c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#af365dd0a33185fce2e253d4e90e3e63c">ID</a><code> [get]</code></td></tr>
+<tr class="separator:af365dd0a33185fce2e253d4e90e3e63c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6be88782ea0b2f540937b9023910f213"><td class="memItemLeft" align="right" valign="top">ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#a6be88782ea0b2f540937b9023910f213">WorkshopID</a><code> [get]</code></td></tr>
+<tr class="separator:a6be88782ea0b2f540937b9023910f213"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a110fd78134ccebcb0330c4ee609eea3b"><td class="memItemLeft" align="right" valign="top">List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#a110fd78134ccebcb0330c4ee609eea3b">HardDependencies</a><code> [get]</code></td></tr>
+<tr class="separator:a110fd78134ccebcb0330c4ee609eea3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a269dd478853552921fc9080beccd9c44"><td class="memItemLeft" align="right" valign="top">List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_mod_data.html#a269dd478853552921fc9080beccd9c44">SoftDependencies</a><code> [get]</code></td></tr>
+<tr class="separator:a269dd478853552921fc9080beccd9c44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab7a8d281368891574b46a822e5285687" name="ab7a8d281368891574b46a822e5285687"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7a8d281368891574b46a822e5285687">&#9670;&#160;</a></span>GetDependencyID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ModGenesia.ModData.GetDependencyID </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>Dependency</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acedbf7f6c9ee78cefd28593be35d77ea" name="acedbf7f6c9ee78cefd28593be35d77ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acedbf7f6c9ee78cefd28593be35d77ea">&#9670;&#160;</a></span>GetDependencyVersion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_mod_genesia_1_1_mod_version.html">ModVersion</a> ModGenesia.ModData.GetDependencyVersion </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>Dependency</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a937c41fadd460cf147591f166dba72" name="a8a937c41fadd460cf147591f166dba72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a937c41fadd460cf147591f166dba72">&#9670;&#160;</a></span>GetModDescription()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ModGenesia.ModData.GetModDescription </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aded5894d793034c09655b546b5b70ce5" name="aded5894d793034c09655b546b5b70ce5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aded5894d793034c09655b546b5b70ce5">&#9670;&#160;</a></span>GetModName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ModGenesia.ModData.GetModName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d666f1bb8be66551e3e40fb7f96ebd7" name="a5d666f1bb8be66551e3e40fb7f96ebd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d666f1bb8be66551e3e40fb7f96ebd7">&#9670;&#160;</a></span>GetWorkshopID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ulong ModGenesia.ModData.GetWorkshopID </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeec9e895432da6e19285d94db7f42332" name="aeec9e895432da6e19285d94db7f42332"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeec9e895432da6e19285d94db7f42332">&#9670;&#160;</a></span>IsDependencyVersionGood()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ModGenesia.ModData.IsDependencyVersionGood </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>targetDepedency</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>actualDependency</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa8d1159009f03d69e27709d8ff5d2d5a" name="aa8d1159009f03d69e27709d8ff5d2d5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8d1159009f03d69e27709d8ff5d2d5a">&#9670;&#160;</a></span>OwnDependency()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ModGenesia.ModData.OwnDependency </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>targetDepedency</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_mod_genesia_1_1_mod_data.html">ModData</a>&#160;</td>
+          <td class="paramname"><em>actualDependency</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42d6be372e36c41b74ac4ee55feae131" name="a42d6be372e36c41b74ac4ee55feae131"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42d6be372e36c41b74ac4ee55feae131">&#9670;&#160;</a></span>UpdateModInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModGenesia.ModData.UpdateModInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc4d8e1984162ebb1d819ad11fefa4f7" name="adc4d8e1984162ebb1d819ad11fefa4f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc4d8e1984162ebb1d819ad11fefa4f7">&#9670;&#160;</a></span>WriteWorkshopID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModGenesia.ModData.WriteWorkshopID </td>
+          <td>(</td>
+          <td class="paramtype">ulong&#160;</td>
+          <td class="paramname"><em>workshopID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a27004436db98f951ef7de86e4d46d637" name="a27004436db98f951ef7de86e4d46d637"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27004436db98f951ef7de86e4d46d637">&#9670;&#160;</a></span>Active</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ModGenesia.ModData.Active</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba73e61d1276f60cb4f13a523bf7d77e" name="aba73e61d1276f60cb4f13a523bf7d77e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba73e61d1276f60cb4f13a523bf7d77e">&#9670;&#160;</a></span>ActualLoadingOrder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ModGenesia.ModData.ActualLoadingOrder</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a89fde9ff5c157d7003543a16d70fe855" name="a89fde9ff5c157d7003543a16d70fe855"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89fde9ff5c157d7003543a16d70fe855">&#9670;&#160;</a></span>AssembliesList</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FileInfo [] ModGenesia.ModData.AssembliesList</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae7ebe07834c2c55bc2f474a6ad8c7155" name="ae7ebe07834c2c55bc2f474a6ad8c7155"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7ebe07834c2c55bc2f474a6ad8c7155">&#9670;&#160;</a></span>DependedBy</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_mod_genesia_1_1_mod_data.html">ModData</a>&gt; ModGenesia.ModData.DependedBy</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a689ea5abd64fca1a77c9af46627387bf" name="a689ea5abd64fca1a77c9af46627387bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a689ea5abd64fca1a77c9af46627387bf">&#9670;&#160;</a></span>Dependencies</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_mod_genesia_1_1_mod_data.html">ModData</a>&gt; ModGenesia.ModData.Dependencies</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a3bd7b7490e58367fca5a507b721f28" name="a3a3bd7b7490e58367fca5a507b721f28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a3bd7b7490e58367fca5a507b721f28">&#9670;&#160;</a></span>Downloading</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ModGenesia.ModData.Downloading = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b0b4ecd54e9414532b84b8f9abae044" name="a2b0b4ecd54e9414532b84b8f9abae044"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b0b4ecd54e9414532b84b8f9abae044">&#9670;&#160;</a></span>Enabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ModGenesia.ModData.Enabled</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac5f871e29980ca5459ab639fc41b5579" name="ac5f871e29980ca5459ab639fc41b5579"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5f871e29980ca5459ab639fc41b5579">&#9670;&#160;</a></span>Icon</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Texture2D ModGenesia.ModData.Icon</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a82b11a210096cd5b6678bd656a953ef2" name="a82b11a210096cd5b6678bd656a953ef2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82b11a210096cd5b6678bd656a953ef2">&#9670;&#160;</a></span>Image</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Texture2D ModGenesia.ModData.Image</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a85e56f22e47c85b2880783febf224183" name="a85e56f22e47c85b2880783febf224183"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85e56f22e47c85b2880783febf224183">&#9670;&#160;</a></span>LoadedAssembliesList</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;Assembly&gt; ModGenesia.ModData.LoadedAssembliesList</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a236f2501d6cc1873b3d9937e92070598" name="a236f2501d6cc1873b3d9937e92070598"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a236f2501d6cc1873b3d9937e92070598">&#9670;&#160;</a></span>MissingDependencies</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;string&gt; ModGenesia.ModData.MissingDependencies = new List&lt;string&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a01c6dccd8e8265736d0dd284b7c564f1" name="a01c6dccd8e8265736d0dd284b7c564f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01c6dccd8e8265736d0dd284b7c564f1">&#9670;&#160;</a></span>MissingDependency</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ModGenesia.ModData.MissingDependency = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ade9f631e3113202bcbd4b568c45b7a3c" name="ade9f631e3113202bcbd4b568c45b7a3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade9f631e3113202bcbd4b568c45b7a3c">&#9670;&#160;</a></span>ModDirectory</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DirectoryInfo ModGenesia.ModData.ModDirectory</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4fdaab15b0fec5c41fd43ba8d0c94c2b" name="a4fdaab15b0fec5c41fd43ba8d0c94c2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fdaab15b0fec5c41fd43ba8d0c94c2b">&#9670;&#160;</a></span>modInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_mod_genesia_1_1_mod_info.html">ModInfo</a> ModGenesia.ModData.modInfo</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a432d50d07fc3f01ac508cdd9164daf31" name="a432d50d07fc3f01ac508cdd9164daf31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a432d50d07fc3f01ac508cdd9164daf31">&#9670;&#160;</a></span>Owner</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ulong ModGenesia.ModData.Owner</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af477a4fc696bf51a494a74ef85c0c032" name="af477a4fc696bf51a494a74ef85c0c032"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af477a4fc696bf51a494a74ef85c0c032">&#9670;&#160;</a></span>UGCUpdateHandle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Steamworks.UGCUpdateHandle_t ModGenesia.ModData.UGCUpdateHandle</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4f10e99b32776d8e40b726dba7a7090" name="ac4f10e99b32776d8e40b726dba7a7090"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4f10e99b32776d8e40b726dba7a7090">&#9670;&#160;</a></span>Uploading</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ModGenesia.ModData.Uploading = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a110fd78134ccebcb0330c4ee609eea3b" name="a110fd78134ccebcb0330c4ee609eea3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a110fd78134ccebcb0330c4ee609eea3b">&#9670;&#160;</a></span>HardDependencies</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;string&gt; ModGenesia.ModData.HardDependencies</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af365dd0a33185fce2e253d4e90e3e63c" name="af365dd0a33185fce2e253d4e90e3e63c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af365dd0a33185fce2e253d4e90e3e63c">&#9670;&#160;</a></span>ID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ModGenesia.ModData.ID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a269dd478853552921fc9080beccd9c44" name="a269dd478853552921fc9080beccd9c44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a269dd478853552921fc9080beccd9c44">&#9670;&#160;</a></span>SoftDependencies</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;string&gt; ModGenesia.ModData.SoftDependencies</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6be88782ea0b2f540937b9023910f213" name="a6be88782ea0b2f540937b9023910f213"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6be88782ea0b2f540937b9023910f213">&#9670;&#160;</a></span>WorkshopID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ulong ModGenesia.ModData.WorkshopID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/ModGenesia/<a class="el" href="_mod_data_8cs.html">ModData.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_mod_genesia.html">ModGenesia</a></li><li class="navelem"><a class="el" href="class_mod_genesia_1_1_mod_data.html">ModData</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>
