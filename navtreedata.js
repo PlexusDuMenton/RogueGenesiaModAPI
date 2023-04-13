@@ -39,18 +39,15 @@ var NAVTREE =
         [ "Enumerations", "functions_enum.html", null ],
         [ "Properties", "functions_prop.html", null ]
       ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"_achievement_a_p_i_8cs.html",
-"class_mod_genesia_1_1_mod_info.html#a7eb3de7231922bccf8f45858385e1655",
-"class_mod_genesia_1_1_soul_card_creation_data.html#a7c9506cd9fe27b1b4adc62e9d6167f27"
+"annotated.html",
+"class_mod_genesia_1_1_mod_list_manager.html#a06c627762cc23a5f4d10f1a7f1e19285",
+"class_mod_genesia_1_1_soul_card_creation_data.html#ad33389bf1ba5c05a5ee2cf76eb05624d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
