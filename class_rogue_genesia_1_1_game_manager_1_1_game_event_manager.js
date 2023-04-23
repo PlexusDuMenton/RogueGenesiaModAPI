@@ -55,7 +55,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_event_manager =
     [ "OnPlayerTakeDamage_PostDefence", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a9078f99a267754081b9ed4d9ce0ed346", null ],
     [ "OnPlayerTakeDamage_PreDeathCheck", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ad4af959ad9db80e8003bc18974f5b6ad", null ],
     [ "OnPlayerTakeDamage_PreDefence", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a5db9d796d53c2fc3cb5e6271aee86564", null ],
-    [ "OnPostStatsUpdate", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a91dc5b1e562dc74fcc9f76aeb45fd754", null ],
+    [ "OnPostStatsUpdate", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a99f2a2e33e378dbae5208315b8c0036a", null ],
     [ "OnProfileChanged", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#afd61c4cb9e5d26f863f11e238cb36903", null ],
     [ "OnReload", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a7f0958bff028024668c9bb32da8498bf", null ],
     [ "OnRollShop_Generate", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a8295c94d86f0beebaf9d6a0152c4a0bf", null ],

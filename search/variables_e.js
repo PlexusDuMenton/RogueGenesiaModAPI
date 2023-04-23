@@ -68,7 +68,7 @@ var searchData=
   ['onplayertakedamage_5fpostdefence_65',['OnPlayerTakeDamage_PostDefence',['../class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a9078f99a267754081b9ed4d9ce0ed346',1,'RogueGenesia::GameManager::GameEventManager']]],
   ['onplayertakedamage_5fpredeathcheck_66',['OnPlayerTakeDamage_PreDeathCheck',['../class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ad4af959ad9db80e8003bc18974f5b6ad',1,'RogueGenesia::GameManager::GameEventManager']]],
   ['onplayertakedamage_5fpredefence_67',['OnPlayerTakeDamage_PreDefence',['../class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a5db9d796d53c2fc3cb5e6271aee86564',1,'RogueGenesia::GameManager::GameEventManager']]],
-  ['onpoststatsupdate_68',['OnPostStatsUpdate',['../class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a91dc5b1e562dc74fcc9f76aeb45fd754',1,'RogueGenesia::GameManager::GameEventManager']]],
+  ['onpoststatsupdate_68',['OnPostStatsUpdate',['../class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a99f2a2e33e378dbae5208315b8c0036a',1,'RogueGenesia::GameManager::GameEventManager']]],
   ['onprofilechanged_69',['OnProfileChanged',['../class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#afd61c4cb9e5d26f863f11e238cb36903',1,'RogueGenesia::GameManager::GameEventManager']]],
   ['onrefund_70',['OnRefund',['../class_rogue_genesia_1_1_game_manager_1_1_soul_shop_manager.html#a0854b27b9bb0dcd5ae9ea66b4078e419',1,'RogueGenesia::GameManager::SoulShopManager']]],
   ['onreload_71',['OnReload',['../class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a7f0958bff028024668c9bb32da8498bf',1,'RogueGenesia::GameManager::GameEventManager']]],
