@@ -9,6 +9,7 @@ var searchData=
   ['windblade_6',['WindBlade',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da074554dcec3358cbb3855a941b467bab',1,'RogueGenesia::Data']]],
   ['windkatana_7',['WindKatana',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da55e7b4e075c975279337c74b568a6510',1,'RogueGenesia::Data']]],
   ['windlace_8',['WindLace',['../namespace_rogue_genesia_1_1_data.html#aaa9105a962017dc70f16a695f4a394b5ac77bc938f166d7683f76f84b8823aac2',1,'RogueGenesia::Data']]],
-  ['wormboss_9',['WormBoss',['../namespace_rogue_genesia_1_1_data.html#a92f74f9f28631581f2dfe01506ae4443a1f0b8b055672da81f569336a5a7ab6c9',1,'RogueGenesia::Data']]],
-  ['wormgland_10',['WormGland',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390daf376a79ce4ac85e2797b9323a85d7332',1,'RogueGenesia::Data']]]
+  ['windring_9',['WindRing',['../class_charge_u_i.html#ab16056fe0715ed5a22ac79fea2ae4ca1a37197e553c9d3395a546caf511ad379c',1,'ChargeUI']]],
+  ['wormboss_10',['WormBoss',['../namespace_rogue_genesia_1_1_data.html#a92f74f9f28631581f2dfe01506ae4443a1f0b8b055672da81f569336a5a7ab6c9',1,'RogueGenesia::Data']]],
+  ['wormgland_11',['WormGland',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390daf376a79ce4ac85e2797b9323a85d7332',1,'RogueGenesia::Data']]]
 ];

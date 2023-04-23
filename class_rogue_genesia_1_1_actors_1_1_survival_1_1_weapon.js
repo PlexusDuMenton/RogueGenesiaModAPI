@@ -47,6 +47,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon =
     [ "AttackComboLeft", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html#af15876c7e43bf64888f99c6d9ee26384", null ],
     [ "AttackCoolDownLeft", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html#afd20ef0a125ebabd58e159a7b32856d1", null ],
     [ "ComboCount", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html#a2b0f28cd1e978f9bb1167f69693198b5", null ],
+    [ "ComboFinished", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html#a2edab2c4a000195706621918248c9da5", null ],
     [ "Damage", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html#afe4cbcbb0f0d6d774513d7d45f2422dc", null ],
     [ "damageMitigation", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html#ac42ceea1281a1741a130004df01223b2", null ],
     [ "damagePerStack", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html#a1df23ccc0c7de42c064f7494828fb8e6", null ],

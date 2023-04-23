@@ -1,9 +1,10 @@
 var class_rogue_genesia_1_1_game_manager_1_1_reward_manager =
 [
     [ "AddArtifactReward", "class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html#ad7be44ae7b0b3dd02d21ffab74c165f3", null ],
-    [ "AddCardSelectionReward", "class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html#ab418082f23da6b35f7dfd2f4a0ce3719", null ],
-    [ "AddExperienceReward", "class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html#aaf9dd937d2545da3d414cf1b2cbcc739", null ],
-    [ "AddGoldReward", "class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html#ac012b17e56b74ff35fb4074d20c1142d", null ],
+    [ "AddCardSelectionReward", "class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html#abc7fb5519dcf5a700e74b7c78e066981", null ],
+    [ "AddExperienceReward", "class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html#a4bccdc203aa815c3f993a105a873c88a", null ],
+    [ "AddGoldReward", "class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html#aa086a0a15f5fa0de44207a30133e0530", null ],
+    [ "AddSpecificArtifactReward", "class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html#a4ec6c8917fa7dd2da5bc1c4dc3a77615", null ],
     [ "CardSelection", "class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html#a04411f0fdbf91c2b07c701fe1f963cf2", null ],
     [ "ChestAnimation", "class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html#a42e19985384ac3336c9c905b78be9fed", null ],
     [ "CloseConfirm", "class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html#af90cbfb58e192457b7ac87a310df55ed", null ],

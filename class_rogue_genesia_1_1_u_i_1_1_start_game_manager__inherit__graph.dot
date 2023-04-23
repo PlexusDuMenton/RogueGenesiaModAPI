@@ -6,5 +6,7 @@ digraph "RogueGenesia.UI.StartGameManager"
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   Node1 [label="RogueGenesia.UI.StartGame\lManager",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
   Node2 -> Node1 [dir="back",color="steelblue1",style="solid"];
-  Node2 [label="MenuManager",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
+  Node2 [label="MenuManager",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_u_i_1_1_menu_manager.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="MonoBehaviour",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
 }

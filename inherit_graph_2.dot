@@ -5,5 +5,9 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="ModGenesia.AvatarAPI",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_mod_genesia_1_1_avatar_a_p_i.html",tooltip="Modding API for everything Avatar Related."];
+  Node0 [label="KatanaVisual",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node0 -> Node1 [dir="back",color="steelblue1",style="solid"];
+  Node1 [label="RogueGenesia.Actors.Survival.\lFieryDashAOE",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_fiery_dash_a_o_e.html",tooltip=" "];
+  Node0 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="RogueGenesia.Actors.Survival.\lFireKatanaAOE",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_fire_katana_a_o_e.html",tooltip=" "];
 }

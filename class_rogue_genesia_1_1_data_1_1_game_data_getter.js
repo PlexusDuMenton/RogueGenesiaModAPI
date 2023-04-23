@@ -7,6 +7,7 @@ var class_rogue_genesia_1_1_data_1_1_game_data_getter =
     [ "GetAllChallenges", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a99edc9d2d83b4401b2c01af3f8ab5fcc", null ],
     [ "GetAllCollectibles", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a420ebb3f3f507ac8733105724ef74c79", null ],
     [ "GetAllGameMode", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#afbf1a14ebe29493fe3117bbd251c5432", null ],
+    [ "GetAllPets", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a87e91ffc4ff9d908cf34e9f25c5fe51f", null ],
     [ "GetAllSoulShopUpgrades", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a4bff4bff7cea26f0d046af220191da80", null ],
     [ "GetAllStageObjective", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#af4ca8257ed29f5e076c66d089f7b7886", null ],
     [ "GetAllStageType", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#aa1c09d0d5ea2ac2029018c4b7a4d89d7", null ],

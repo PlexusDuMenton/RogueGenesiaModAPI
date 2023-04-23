@@ -17,6 +17,7 @@ var class_unity_engine_1_1_u_i_1_1_custom_bar =
     [ "SetDirection", "class_unity_engine_1_1_u_i_1_1_custom_bar.html#ac123231719bb92cd6b6f93ecbbac684f", null ],
     [ "Update", "class_unity_engine_1_1_u_i_1_1_custom_bar.html#a77ca6120ddfffbabba350f4ba6c6c0a1", null ],
     [ "UpdateProgress", "class_unity_engine_1_1_u_i_1_1_custom_bar.html#adaf42a236e67c9f27eac2e5b5cb178e1", null ],
+    [ "UpdateVisuals", "class_unity_engine_1_1_u_i_1_1_custom_bar.html#af144124a267811c03569ba29c5f2c2b9", null ],
     [ "actualProgress", "class_unity_engine_1_1_u_i_1_1_custom_bar.html#a4c18c1d377cdb9adf9d70260aa1b9c15", null ],
     [ "Displace", "class_unity_engine_1_1_u_i_1_1_custom_bar.html#a4ce2c4e11e41872844213df8c3f3d12b", null ],
     [ "m_Value", "class_unity_engine_1_1_u_i_1_1_custom_bar.html#ae37132a5009b33216c497470349891e8", null ],

@@ -1,5 +1,6 @@
 var class_rogue_genesia_1_1_u_i_1_1_buff_u_i_container =
 [
+    [ "FixedUpdate", "class_rogue_genesia_1_1_u_i_1_1_buff_u_i_container.html#a04ab31069f212f3fc366228321610fa4", null ],
     [ "Init", "class_rogue_genesia_1_1_u_i_1_1_buff_u_i_container.html#a90cd05bd4647ef804947b15013b28a69", null ],
     [ "OnMouseEnter", "class_rogue_genesia_1_1_u_i_1_1_buff_u_i_container.html#a5666f628e4a2b83708a1266e99941cc5", null ],
     [ "OnMouseExit", "class_rogue_genesia_1_1_u_i_1_1_buff_u_i_container.html#adf7169459078745b9abdef5245ae4e4c", null ],

@@ -1,0 +1,491 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue: Genesia API" />
+<meta property="og:image" content="" />
+<meta property="og:description" content="Rogue: Genesia API for modders" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="" />
+<meta name="twitter:title" content="Rogue: Genesia API" />
+<meta name="twitter:description" content="Rogue: Genesia API for modders" />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.Data.PetScriptableObject Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="class_rogue_genesia_1_1_data_1_1_pet_scriptable_object-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.Data.PetScriptableObject Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.Data.PetScriptableObject:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a39088b9f6404f0bb4205e41e831a3ca3"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html#a39088b9f6404f0bb4205e41e831a3ca3">GetName</a> ()</td></tr>
+<tr class="separator:a39088b9f6404f0bb4205e41e831a3ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76b65ef41a70381b45dcab86df211f68"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html#a76b65ef41a70381b45dcab86df211f68">GetDescription</a> ()</td></tr>
+<tr class="separator:a76b65ef41a70381b45dcab86df211f68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac24c4c9f3679f46ffa0a35355f2f4d1d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html#ac24c4c9f3679f46ffa0a35355f2f4d1d">IsUnlocked</a> ()</td></tr>
+<tr class="separator:ac24c4c9f3679f46ffa0a35355f2f4d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63b601a9bc9af028b69742308a927c1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_data.html">PetData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html#a63b601a9bc9af028b69742308a927c1e">GetPetData</a> ()</td></tr>
+<tr class="separator:a63b601a9bc9af028b69742308a927c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fdfa5e7385c0129753fbe9ca8df330c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html#a6fdfa5e7385c0129753fbe9ca8df330c">RegisterPet</a> (ConstructorInfo constructorInfo)</td></tr>
+<tr class="separator:a6fdfa5e7385c0129753fbe9ca8df330c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7667e818502f93d286c016351ecf2716"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object.html#a7667e818502f93d286c016351ecf2716">GetName</a> ()</td></tr>
+<tr class="separator:a7667e818502f93d286c016351ecf2716"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a305373ffd0675a5c2acd0168e9f77be6"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object.html#a305373ffd0675a5c2acd0168e9f77be6">GetDescription</a> ()</td></tr>
+<tr class="separator:a305373ffd0675a5c2acd0168e9f77be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a999b14c1c8a87576d45b4a2207c981bc"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html#a999b14c1c8a87576d45b4a2207c981bc">RegisterPet</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html">PetScriptableObject</a> petScriptableObject, ConstructorInfo constructorInfo)</td></tr>
+<tr class="separator:a999b14c1c8a87576d45b4a2207c981bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a7acaf0329884f63224508cf66dea4c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_data.html">PetData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html#a8a7acaf0329884f63224508cf66dea4c">GetPetData</a> (string name)</td></tr>
+<tr class="separator:a8a7acaf0329884f63224508cf66dea4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9e9a492d3a305bd0157fbd0929faad3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_data.html">PetData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html#ab9e9a492d3a305bd0157fbd0929faad3">GetPetData</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_container.html">PetContainer</a> container)</td></tr>
+<tr class="separator:ab9e9a492d3a305bd0157fbd0929faad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aa17d0f6608d69f6008bd95a6be29b941"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a46ab19e4d8d2b7ee84290052ca11883b">ERequiredPetDLC</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html#aa17d0f6608d69f6008bd95a6be29b941">requiredPetDLC</a></td></tr>
+<tr class="separator:aa17d0f6608d69f6008bd95a6be29b941"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71b4990beac82778dfd8a7ebef717122"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_animations.html">PetAnimations</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html#a71b4990beac82778dfd8a7ebef717122">petAnimations</a> = new <a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_animations.html">PetAnimations</a>()</td></tr>
+<tr class="separator:a71b4990beac82778dfd8a7ebef717122"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b33d006114615ba5a9801d43b067c7e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html#a2b33d006114615ba5a9801d43b067c7e">PetScale</a> = 1</td></tr>
+<tr class="separator:a2b33d006114615ba5a9801d43b067c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object.html">RogueGenesia.Data.RogueGenesiaScriptableObject</a></td></tr>
+<tr class="memitem:a3183f46c6ddadfff1ff4d00d783381ad inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object.html#a3183f46c6ddadfff1ff4d00d783381ad">UnlockedBy</a></td></tr>
+<tr class="separator:a3183f46c6ddadfff1ff4d00d783381ad inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c6837182163ddd8b76ddb3914f45e97 inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object.html#a3c6837182163ddd8b76ddb3914f45e97">TestForEditor</a></td></tr>
+<tr class="separator:a3c6837182163ddd8b76ddb3914f45e97 inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac30817b37f114a22a4527ba9dead53a6 inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object.html#ac30817b37f114a22a4527ba9dead53a6">UnlockedByDefault</a> = true</td></tr>
+<tr class="separator:ac30817b37f114a22a4527ba9dead53a6 inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a674522601b3610cc61bb466e28d5b5 inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object.html#a9a674522601b3610cc61bb466e28d5b5">Unlocked</a> = false</td></tr>
+<tr class="separator:a9a674522601b3610cc61bb466e28d5b5 inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dd0643561ce51a6b7eae2001b4005c9 inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object.html#a8dd0643561ce51a6b7eae2001b4005c9">canBeUnlocked</a></td></tr>
+<tr class="separator:a8dd0643561ce51a6b7eae2001b4005c9 inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:aced8fd6b53bbe927bf71a8f4261db038"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_container.html">PetContainer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html#aced8fd6b53bbe927bf71a8f4261db038">PetList</a> = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_container.html">PetContainer</a>&gt;()</td></tr>
+<tr class="separator:aced8fd6b53bbe927bf71a8f4261db038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a76b65ef41a70381b45dcab86df211f68" name="a76b65ef41a70381b45dcab86df211f68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76b65ef41a70381b45dcab86df211f68">&#9670;&#160;</a></span>GetDescription()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RogueGenesia.Data.PetScriptableObject.GetDescription </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object.html#a305373ffd0675a5c2acd0168e9f77be6">RogueGenesia.Data.RogueGenesiaScriptableObject</a>.</p>
+
+</div>
+</div>
+<a id="a39088b9f6404f0bb4205e41e831a3ca3" name="a39088b9f6404f0bb4205e41e831a3ca3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39088b9f6404f0bb4205e41e831a3ca3">&#9670;&#160;</a></span>GetName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RogueGenesia.Data.PetScriptableObject.GetName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object.html#a7667e818502f93d286c016351ecf2716">RogueGenesia.Data.RogueGenesiaScriptableObject</a>.</p>
+
+</div>
+</div>
+<a id="a63b601a9bc9af028b69742308a927c1e" name="a63b601a9bc9af028b69742308a927c1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63b601a9bc9af028b69742308a927c1e">&#9670;&#160;</a></span>GetPetData() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_data.html">PetData</a> RogueGenesia.Data.PetScriptableObject.GetPetData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab9e9a492d3a305bd0157fbd0929faad3" name="ab9e9a492d3a305bd0157fbd0929faad3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9e9a492d3a305bd0157fbd0929faad3">&#9670;&#160;</a></span>GetPetData() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_data.html">PetData</a> RogueGenesia.Data.PetScriptableObject.GetPetData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_container.html">PetContainer</a>&#160;</td>
+          <td class="paramname"><em>container</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a7acaf0329884f63224508cf66dea4c" name="a8a7acaf0329884f63224508cf66dea4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a7acaf0329884f63224508cf66dea4c">&#9670;&#160;</a></span>GetPetData() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_data.html">PetData</a> RogueGenesia.Data.PetScriptableObject.GetPetData </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac24c4c9f3679f46ffa0a35355f2f4d1d" name="ac24c4c9f3679f46ffa0a35355f2f4d1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac24c4c9f3679f46ffa0a35355f2f4d1d">&#9670;&#160;</a></span>IsUnlocked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.PetScriptableObject.IsUnlocked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6fdfa5e7385c0129753fbe9ca8df330c" name="a6fdfa5e7385c0129753fbe9ca8df330c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fdfa5e7385c0129753fbe9ca8df330c">&#9670;&#160;</a></span>RegisterPet() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.PetScriptableObject.RegisterPet </td>
+          <td>(</td>
+          <td class="paramtype">ConstructorInfo&#160;</td>
+          <td class="paramname"><em>constructorInfo</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a999b14c1c8a87576d45b4a2207c981bc" name="a999b14c1c8a87576d45b4a2207c981bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a999b14c1c8a87576d45b4a2207c981bc">&#9670;&#160;</a></span>RegisterPet() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool RogueGenesia.Data.PetScriptableObject.RegisterPet </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html">PetScriptableObject</a>&#160;</td>
+          <td class="paramname"><em>petScriptableObject</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ConstructorInfo&#160;</td>
+          <td class="paramname"><em>constructorInfo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a71b4990beac82778dfd8a7ebef717122" name="a71b4990beac82778dfd8a7ebef717122"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71b4990beac82778dfd8a7ebef717122">&#9670;&#160;</a></span>petAnimations</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_animations.html">PetAnimations</a> RogueGenesia.Data.PetScriptableObject.petAnimations = new <a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_animations.html">PetAnimations</a>()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aced8fd6b53bbe927bf71a8f4261db038" name="aced8fd6b53bbe927bf71a8f4261db038"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aced8fd6b53bbe927bf71a8f4261db038">&#9670;&#160;</a></span>PetList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_container.html">PetContainer</a>&gt; RogueGenesia.Data.PetScriptableObject.PetList = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_container.html">PetContainer</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b33d006114615ba5a9801d43b067c7e" name="a2b33d006114615ba5a9801d43b067c7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b33d006114615ba5a9801d43b067c7e">&#9670;&#160;</a></span>PetScale</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.PetScriptableObject.PetScale = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa17d0f6608d69f6008bd95a6be29b941" name="aa17d0f6608d69f6008bd95a6be29b941"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa17d0f6608d69f6008bd95a6be29b941">&#9670;&#160;</a></span>requiredPetDLC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a46ab19e4d8d2b7ee84290052ca11883b">ERequiredPetDLC</a> RogueGenesia.Data.PetScriptableObject.requiredPetDLC</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/Pets/<a class="el" href="_pet_scriptable_object_8cs.html">PetScriptableObject.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_data.html">Data</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html">PetScriptableObject</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

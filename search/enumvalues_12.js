@@ -13,7 +13,9 @@ var searchData=
   ['timereach_10',['TimeReach',['../class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html#ada4b91b89aafa1701f9b7b4b1838cb27aa635c38ba37e6523404c1bfbe8216a90',1,'RogueGenesia::Data::AchievementScriptableObject']]],
   ['timerequirement_11',['TimeRequirement',['../class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html#ada4b91b89aafa1701f9b7b4b1838cb27a40ada4066e67e7c67491556b5e015f96',1,'RogueGenesia::Data::AchievementScriptableObject']]],
   ['title_12',['Title',['../class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#aeb73f5f9e459292bb84d3398f75e0eecab78a3223503896721cca1303f776159b',1,'RogueGenesia::UI::TooltipSection']]],
-  ['trainingweight_13',['TrainingWeight',['../namespace_rogue_genesia_1_1_data.html#aaa9105a962017dc70f16a695f4a394b5a174a92388814df7fd3c3f1d37a5186e5',1,'RogueGenesia::Data']]],
-  ['trollblood_14',['TrollBlood',['../namespace_rogue_genesia_1_1_data.html#aaa9105a962017dc70f16a695f4a394b5a4b15ed84fa3a8aba7c093e1c398caa8e',1,'RogueGenesia::Data']]],
-  ['turret_15',['Turret',['../namespace_rogue_genesia_1_1_data.html#a92f74f9f28631581f2dfe01506ae4443ae971f028b92683b4831d9d0b815a912c',1,'RogueGenesia::Data']]]
+  ['toggle_13',['toggle',['../class_rogue_genesia_1_1_u_i_1_1_game_option_data.html#a1c8881478f909009897d00615f7e9d57a41f984bb082af806e510740db289125d',1,'RogueGenesia::UI::GameOptionData']]],
+  ['toptobottom_14',['TopToBottom',['../class_unity_engine_1_1_u_i_1_1_custom_bar.html#ad7d147224d5bba76af1486acdcb2baa0af2b1a19a8d0f523d042f9ede79a80804',1,'UnityEngine::UI::CustomBar']]],
+  ['trainingweight_15',['TrainingWeight',['../namespace_rogue_genesia_1_1_data.html#aaa9105a962017dc70f16a695f4a394b5a174a92388814df7fd3c3f1d37a5186e5',1,'RogueGenesia::Data']]],
+  ['trollblood_16',['TrollBlood',['../namespace_rogue_genesia_1_1_data.html#aaa9105a962017dc70f16a695f4a394b5a4b15ed84fa3a8aba7c093e1c398caa8e',1,'RogueGenesia::Data']]],
+  ['turret_17',['Turret',['../namespace_rogue_genesia_1_1_data.html#a92f74f9f28631581f2dfe01506ae4443ae971f028b92683b4831d9d0b815a912c',1,'RogueGenesia::Data']]]
 ];

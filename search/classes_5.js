@@ -1,7 +1,20 @@
 var searchData=
 [
-  ['soulcardcreationdata_0',['SoulCardCreationData',['../class_mod_genesia_1_1_soul_card_creation_data.html',1,'ModGenesia']]],
-  ['stageapi_1',['StageAPI',['../class_mod_genesia_1_1_stage_a_p_i.html',1,'ModGenesia']]],
-  ['stagecreationinfo_2',['StageCreationInfo',['../class_mod_genesia_1_1_stage_creation_info.html',1,'ModGenesia']]],
-  ['steamworkshop_3',['SteamWorkShop',['../class_mod_genesia_1_1_steam_work_shop.html',1,'ModGenesia']]]
+  ['fangcollection_0',['FangCollection',['../class_rogue_genesia_1_1_data_1_1_fang_collection.html',1,'RogueGenesia::Data']]],
+  ['fierydashaoe_1',['FieryDashAOE',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_fiery_dash_a_o_e.html',1,'RogueGenesia::Actors::Survival']]],
+  ['fierystonetalent_2',['FieryStoneTalent',['../class_rogue_genesia_1_1_data_1_1_fiery_stone_talent.html',1,'RogueGenesia::Data']]],
+  ['fightandflight_3',['FightAndFlight',['../class_rogue_genesia_1_1_data_1_1_fight_and_flight.html',1,'RogueGenesia::Data']]],
+  ['fireaura_4',['FireAura',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_fire_aura.html',1,'RogueGenesia::Actors::Survival']]],
+  ['firekatanaaoe_5',['FireKatanaAOE',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_fire_katana_a_o_e.html',1,'RogueGenesia::Actors::Survival']]],
+  ['firekatanaweapon_6',['FireKatanaWeapon',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_fire_katana_weapon.html',1,'RogueGenesia::Actors::Survival']]],
+  ['fireondash_7',['FireOnDash',['../class_rogue_genesia_1_1_data_1_1_fire_on_dash.html',1,'RogueGenesia::Data']]],
+  ['fireringtalent_8',['FireRingTalent',['../class_rogue_genesia_1_1_data_1_1_fire_ring_talent.html',1,'RogueGenesia::Data']]],
+  ['fireringweapon_9',['FireRingWeapon',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_fire_ring_weapon.html',1,'RogueGenesia::Actors::Survival']]],
+  ['firestonetalent_10',['FireStoneTalent',['../class_rogue_genesia_1_1_data_1_1_fire_stone_talent.html',1,'RogueGenesia::Data']]],
+  ['floatvalue_11',['FloatValue',['../class_rogue_genesia_1_1_game_manager_1_1_float_value.html',1,'RogueGenesia::GameManager']]],
+  ['folowingmonster_12',['FolowingMonster',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_folowing_monster.html',1,'RogueGenesia::Actors::Survival']]],
+  ['fontsizemanager_13',['FontSizeManager',['../class_font_size_manager.html',1,'']]],
+  ['fractalballsability_14',['FractalBallsAbility',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_fractal_balls_ability.html',1,'RogueGenesia::Actors::Survival::BossAbility::Shaman']]],
+  ['fuumashurikenweapon_15',['FuumaShurikenWeapon',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_fuuma_shuriken_weapon.html',1,'RogueGenesia::Actors::Survival']]],
+  ['fxmanager_16',['FXManager',['../class_rogue_genesia_1_1_game_manager_1_1_f_x_manager.html',1,'RogueGenesia::GameManager']]]
 ];

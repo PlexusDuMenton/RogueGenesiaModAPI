@@ -227,6 +227,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a61e44372956a45096cc5c501a9982ba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab32566518191426c3d11d3d9a7f5105e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_game_data.html#ab32566518191426c3d11d3d9a7f5105e">RegisterGameModeType</a> ()</td></tr>
 <tr class="separator:ab32566518191426c3d11d3d9a7f5105e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60ae2de57af0dbc2bdc27e557e85cd37"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_game_data.html#a60ae2de57af0dbc2bdc27e557e85cd37">RegisterPetsList</a> ()</td></tr>
+<tr class="separator:a60ae2de57af0dbc2bdc27e557e85cd37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4293736f2dba510fef37faf1f5ad0912"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_game_data.html#a4293736f2dba510fef37faf1f5ad0912">RegisterAvatarsList</a> ()</td></tr>
 <tr class="separator:a4293736f2dba510fef37faf1f5ad0912"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add5dddef5ce89872a28c9cc5ccac8656"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_game_data.html#add5dddef5ce89872a28c9cc5ccac8656">EnterNextZone</a> ()</td></tr>
@@ -386,6 +388,10 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a90c73d679b0ae2abe68ba5a4358a30c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16ff8b86de12f3a1936c4329d0eecdef"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_level_object.html">LevelObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_game_data.html#a16ff8b86de12f3a1936c4329d0eecdef">LevelBeat</a></td></tr>
 <tr class="separator:a16ff8b86de12f3a1936c4329d0eecdef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e179385fa4861fe577bc734ee6fe824"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_game_data.html#a2e179385fa4861fe577bc734ee6fe824">FinishInit</a> = false</td></tr>
+<tr class="separator:a2e179385fa4861fe577bc734ee6fe824"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf634ee7767ac840ce3d6608fb9d123a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html">PetScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_game_data.html#abf634ee7767ac840ce3d6608fb9d123a">SelectedPet</a> = null</td></tr>
+<tr class="separator:abf634ee7767ac840ce3d6608fb9d123a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc4596d3ee437b8ccd86b53ddbae3951"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html">AvatarScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_game_data.html#abc4596d3ee437b8ccd86b53ddbae3951">DefaultAvatar</a> = null</td></tr>
 <tr class="separator:abc4596d3ee437b8ccd86b53ddbae3951"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2e8645a2005bbcfac6fa9b3614474fc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html">AvatarScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_game_data.html#ac2e8645a2005bbcfac6fa9b3614474fc">SelectedAvatar</a> = null</td></tr>
@@ -1492,6 +1498,31 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a60ae2de57af0dbc2bdc27e557e85cd37" name="a60ae2de57af0dbc2bdc27e557e85cd37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60ae2de57af0dbc2bdc27e557e85cd37">&#9670;&#160;</a></span>RegisterPetsList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.Data.GameData.RegisterPetsList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab55a710d0ba49f60b4f74e9889305a2f" name="ab55a710d0ba49f60b4f74e9889305a2f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab55a710d0ba49f60b4f74e9889305a2f">&#9670;&#160;</a></span>RegisterSoulCardList()</h2>
 
@@ -2522,6 +2553,28 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a2e179385fa4861fe577bc734ee6fe824" name="a2e179385fa4861fe577bc734ee6fe824"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e179385fa4861fe577bc734ee6fe824">&#9670;&#160;</a></span>FinishInit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.GameData.FinishInit = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a222c0e160dfbde75b8a2deebcfb6268d" name="a222c0e160dfbde75b8a2deebcfb6268d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a222c0e160dfbde75b8a2deebcfb6268d">&#9670;&#160;</a></span>forestFightMusic</h2>
 
@@ -3226,6 +3279,28 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="abf634ee7767ac840ce3d6608fb9d123a" name="abf634ee7767ac840ce3d6608fb9d123a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf634ee7767ac840ce3d6608fb9d123a">&#9670;&#160;</a></span>SelectedPet</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html">PetScriptableObject</a> RogueGenesia.Data.GameData.SelectedPet = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3b1dce2d0c8a111ca65d0869dccce064" name="a3b1dce2d0c8a111ca65d0869dccce064"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3b1dce2d0c8a111ca65d0869dccce064">&#9670;&#160;</a></span>ShopMusic</h2>
 
@@ -3624,7 +3699,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/GameManager/Data/GameData.cs</li>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/GameManager/Data/<a class="el" href="_game_data_8cs.html">GameData.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

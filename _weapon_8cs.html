@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue: Genesia API" />
+<meta property="og:image" content="" />
+<meta property="og:description" content="Rogue: Genesia API for modders" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="" />
+<meta name="twitter:title" content="Rogue: Genesia API" />
+<meta name="twitter:description" content="Rogue: Genesia API for modders" />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/Weapon/Weapon.cs File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_weapon_8cs.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">Weapon.cs File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_rogue_genesia_1_1_data_1_1_attack_information.html">RogueGenesia.Data.AttackInformation</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">RogueGenesia.Actors.Survival.Weapon</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespace_rogue_genesia"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespace_rogue_genesia_1_1_data"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_rogue_genesia_1_1_data.html">RogueGenesia.Data</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespace_rogue_genesia_1_1_actors"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_rogue_genesia_1_1_actors.html">RogueGenesia.Actors</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespace_rogue_genesia_1_1_actors_1_1_survival"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_rogue_genesia_1_1_actors_1_1_survival.html">RogueGenesia.Actors.Survival</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a832e8f52fca5a678819ec96269dcb532"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_weapon_8cs.html#a832e8f52fca5a678819ec96269dcb532">Random</a> = UnityEngine.Random</td></tr>
+<tr class="separator:a832e8f52fca5a678819ec96269dcb532"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ae8fe1843d2a4b8f8ef41b925a1f1ca5d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5d">RogueGenesia.Data.DamageSource</a> { <br />
+&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5da6311ae17c1ee52b36e68aaf4ad066387">RogueGenesia.Data.Other</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5da6f0bbd6fea5b0806488bfe7f8d91859f">RogueGenesia.Data.FireSpirit</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5da7c5ac47946ae2d28f5c0da0c2f76f96b">RogueGenesia.Data.Thorn</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5da1b84a9aa056c2d10119875c2508983ec">RogueGenesia.Data.Spear</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5da48fce5d02f6935e50f256d5dedac4437">RogueGenesia.Data.Bow</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5da3ba954f6020af7a039a0b22b0cdc9d95">RogueGenesia.Data.MagicWand</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5dae465122849ce9927cdf194629e621d60">RogueGenesia.Data.CrossBow</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5dab6b05733d68e62e10b0d302aced59409">RogueGenesia.Data.FireRing</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5daa542482c08a8fdcbf2eb8afd219aeca3">RogueGenesia.Data.Katana</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5da759a7bf765ce9c921d8f89ab76732a9b">RogueGenesia.Data.Pike</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5da37966c9f41ba89869f1bb9553f61d8fb">RogueGenesia.Data.Swordrang</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5da404a816a90e0aece93c4cd1115fc10fe">RogueGenesia.Data.ThunderStaff</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5da57a8e183b0ba2b9456b2e0baa2761a0c">RogueGenesia.Data.Kunai</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5da064e230947271b06b75fc9832cbc725a">RogueGenesia.Data.EvilRing</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5daaa40b367b42f1559932023b439b5743b">RogueGenesia.Data.ArcaneBeam</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5daf1565d61fb74b142b7ddb3fc038a2d5a">RogueGenesia.Data.Cleave</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5daa7bce577a52cb5d53f3af4cd9f051cb9">RogueGenesia.Data.Shuriken</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5da406b6af85748f84665b75f3ceb3e15e6">RogueGenesia.Data.MagicWisp</a>
+<br />
+ }</td></tr>
+<tr class="separator:ae8fe1843d2a4b8f8ef41b925a1f1ca5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fec1380e4709510c8c5abcb647f390d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390d">RogueGenesia.Data.WeaponType</a> { <br />
+&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da6311ae17c1ee52b36e68aaf4ad066387">RogueGenesia.Data.Other</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da6f0bbd6fea5b0806488bfe7f8d91859f">RogueGenesia.Data.FireSpirit</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da7c5ac47946ae2d28f5c0da0c2f76f96b">RogueGenesia.Data.Thorn</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da1b84a9aa056c2d10119875c2508983ec">RogueGenesia.Data.Spear</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da48fce5d02f6935e50f256d5dedac4437">RogueGenesia.Data.Bow</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da3ba954f6020af7a039a0b22b0cdc9d95">RogueGenesia.Data.MagicWand</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390dae465122849ce9927cdf194629e621d60">RogueGenesia.Data.CrossBow</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390dab6b05733d68e62e10b0d302aced59409">RogueGenesia.Data.FireRing</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390daa542482c08a8fdcbf2eb8afd219aeca3">RogueGenesia.Data.Katana</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da759a7bf765ce9c921d8f89ab76732a9b">RogueGenesia.Data.Pike</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da37966c9f41ba89869f1bb9553f61d8fb">RogueGenesia.Data.Swordrang</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da404a816a90e0aece93c4cd1115fc10fe">RogueGenesia.Data.ThunderStaff</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da57a8e183b0ba2b9456b2e0baa2761a0c">RogueGenesia.Data.Kunai</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da064e230947271b06b75fc9832cbc725a">RogueGenesia.Data.EvilRing</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390daaa40b367b42f1559932023b439b5743b">RogueGenesia.Data.ArcaneBeam</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390daf1565d61fb74b142b7ddb3fc038a2d5a">RogueGenesia.Data.Cleave</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390daa7bce577a52cb5d53f3af4cd9f051cb9">RogueGenesia.Data.Shuriken</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da1e630712c98664334b9fc98f0c385ac4">RogueGenesia.Data.VoidWisp</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da406b6af85748f84665b75f3ceb3e15e6">RogueGenesia.Data.MagicWisp</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da933ab049612926b1d8ab28006221fe84">RogueGenesia.Data.FireKatana</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da074554dcec3358cbb3855a941b467bab">RogueGenesia.Data.WindBlade</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da55e7b4e075c975279337c74b568a6510">RogueGenesia.Data.WindKatana</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da5eca24d1fd5cdb2d1596585d78ccdb11">RogueGenesia.Data.ShamanStaff</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390dada41d0e2618daee15482dcdbe6f8a0c3">RogueGenesia.Data.ArcanistStaff</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390daf376a79ce4ac85e2797b9323a85d7332">RogueGenesia.Data.WormGland</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da58f5ddfdca949d45ecf77e1833540c43">RogueGenesia.Data.ThrowingKnife</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da16f97cee54488d50e996e1d64905d2fb">RogueGenesia.Data.CursedBolt</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da4e789a4bf90bab1e82bb19aaa71bc675">RogueGenesia.Data.DeathScythe</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da5e6ba2c22f5b1e8f3836ebae9c24c34d">RogueGenesia.Data.InterdimensionalRose</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da09223d8b66c0ee1dfeb4c58b2665037e">RogueGenesia.Data.Rift</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da2a08d9d85823c9efc4ba2ceee2e9146f">RogueGenesia.Data.FuumaShuriken</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da8392724a17c14c61d3dbd1eeff8071d4">RogueGenesia.Data.ExplosiveVial</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da847026da0fbecc96a6741f994f68b855">RogueGenesia.Data.ThunderVial</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da6d5fa6a9627a28df49b9f0cdaad9167d">RogueGenesia.Data.StormStaff</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da01b3544b064fbc80f0e93b510636ea42">RogueGenesia.Data.ThunderSpirit</a>
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da34d3f3a7075c0d37065090a5afd54b21">RogueGenesia.Data.FireAura</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da524b64722661b303ed5754c492c0ef14">RogueGenesia.Data.Pistol</a> = 10000
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390dae450f76afe9b3844228bdf4846d6f301">RogueGenesia.Data.Revolver</a> = 10001
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da5874c47265f75018afdadf2d4a326344">RogueGenesia.Data.Shotgun</a> = 10002
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390dad2d006c4e9d79c9456e4a5e7cf8e875f">RogueGenesia.Data.SMG</a> = 10003
+, <br />
+&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da6fe1a54664b1d4283b3b028fdc0f77a3">RogueGenesia.Data.Rifle</a> = 10004
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da499c6178b68631bac515e5e8d67fb03e">RogueGenesia.Data.MachineGun</a> = 10005
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390dacdf82b6f7d65f4eb7d9342df58a8ff82">RogueGenesia.Data.AutoShotgun</a> = 10006
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da90cab377c0384a774d45cd45f676b91b">RogueGenesia.Data.BoltAction</a> = 10007
+, <br />
+&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da007be3acd5669d100711b13d79e23369">RogueGenesia.Data.Sniper</a> = 10008
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390daa8c6fb3ab35d37d8f61e01b70a8f1f98">RogueGenesia.Data.ScatterGun</a> = 10009
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da2cd4d13a93b7ef960408b67e79ab3d08">RogueGenesia.Data.DeathScythe_InstantKill</a> = 90000
+, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390dad9915c9ad3b5222cee806554b9c1e441">RogueGenesia.Data.EnemyDMG</a> = 99999
+<br />
+ }</td></tr>
+<tr class="separator:a8fec1380e4709510c8c5abcb647f390d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a832e8f52fca5a678819ec96269dcb532" name="a832e8f52fca5a678819ec96269dcb532"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a832e8f52fca5a678819ec96269dcb532">&#9670;&#160;</a></span>Random</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="_necro_mancer_boss_8cs.html#a832e8f52fca5a678819ec96269dcb532">Random</a> =  UnityEngine.Random</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_662ecdf94d6e43cae6c43955b43e333f.html">IdleWave</a></li><li class="navelem"><a class="el" href="dir_4a08feb6e4461cf71ab3b9d44d702b5d.html">Projet</a></li><li class="navelem"><a class="el" href="dir_67c15ac6c550aa421ff3fd7ae9a62c8d.html">Assets</a></li><li class="navelem"><a class="el" href="dir_68bc571df5181e7f1520595d8bb5242f.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_d4c8a807693b39dbeba49ac8db2dc23a.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="dir_2d909ba704f47538bf61aa9015000ce8.html">Survival</a></li><li class="navelem"><a class="el" href="dir_9a55c8360f29f1597692ee7f102bfb3c.html">Weapon</a></li><li class="navelem"><a class="el" href="_weapon_8cs.html">Weapon.cs</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

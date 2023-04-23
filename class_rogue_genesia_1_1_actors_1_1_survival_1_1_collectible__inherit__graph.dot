@@ -15,9 +15,11 @@ digraph "RogueGenesia.Actors.Survival.Collectible"
   Node1 -> Node5 [dir="back",color="steelblue1",style="solid"];
   Node5 [label="RogueGenesia.Actors.Survival.\lHealCollectible",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_heal_collectible.html",tooltip=" "];
   Node1 -> Node6 [dir="back",color="steelblue1",style="solid"];
-  Node6 [label="RogueGenesia.Actors.Survival.\lSoulPotionCollectible",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_potion_collectible.html",tooltip=" "];
+  Node6 [label="RogueGenesia.Actors.Survival.\lObjectiveCollectible",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_objective_collectible.html",tooltip=" "];
   Node1 -> Node7 [dir="back",color="steelblue1",style="solid"];
-  Node7 [label="RogueGenesia.Actors.Survival.\lSoulsCollectible",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_souls_collectible.html",tooltip=" "];
+  Node7 [label="RogueGenesia.Actors.Survival.\lSoulPotionCollectible",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_potion_collectible.html",tooltip=" "];
   Node1 -> Node8 [dir="back",color="steelblue1",style="solid"];
-  Node8 [label="RogueGenesia.Actors.Survival.\lVoidCollectible",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_collectible.html",tooltip=" "];
+  Node8 [label="RogueGenesia.Actors.Survival.\lSoulsCollectible",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_souls_collectible.html",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="steelblue1",style="solid"];
+  Node9 [label="RogueGenesia.Actors.Survival.\lVoidCollectible",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_collectible.html",tooltip=" "];
 }

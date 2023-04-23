@@ -11,6 +11,7 @@ var class_rogue_genesia_1_1_data_1_1_modded_game_data =
     [ "ModdedDifficulty", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#adfeb0ae5465e94b8e5abb2c5f21557e5", null ],
     [ "ModdedGameMode", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a0e8255ff902bf307fd1e57d4bab89331", null ],
     [ "ModdedOption", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a33b69264e406bfaa3e6d9d82b097bf44", null ],
+    [ "ModdedPets", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a67c1fdd3ccc51a6298af0e7860bbdfb8", null ],
     [ "ModdedSoulCard", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a5ae36b111675c5113935e286ff5e75ed", null ],
     [ "ModdedSoulShopUpgrades", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a834471ae66429e2252802e77ab34ea44", null ],
     [ "ModdedStageObjective", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#ad9d1e4a199792d2fcc2f35d3f0b78267", null ],

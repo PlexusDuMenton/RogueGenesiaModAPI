@@ -31,7 +31,10 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff =
     [ "_StartTime", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#a93e0ce85f60a593f2b23413aaa8d9a9c", null ],
     [ "IsBuff", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#a609e6247b7ae5abd4317ec8122f07d3b", null ],
     [ "IsRemoved", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#aae45337f352c02fdff84970245599085", null ],
+    [ "NewBuffReference", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#a69c7706d4ac918ed40554f7003f99cd2", null ],
     [ "UpdatePlayerStats", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#a0bfd81a5c17786c9ff5faad065d7866d", null ],
     [ "BuffIcon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#a718d5d821b73a4c08704af18aaefb252", null ],
-    [ "GetID", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#a9901a403330106b9bcf5c3b5bf19281b", null ]
+    [ "BuffStacking", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#a1af2176dc4e44b90e3489765300df8cd", null ],
+    [ "GetID", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#a9901a403330106b9bcf5c3b5bf19281b", null ],
+    [ "IndependantStackCount", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#a9ddf019eb427d989bc5d575c15d8668e", null ]
 ];

@@ -11,6 +11,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_manager_rogue =
     [ "OnPause", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_rogue.html#ab962365e3b5d0b1dbbaf382a64e51197", null ],
     [ "OnPlayerDeath", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_rogue.html#a2ebb1b8bb7a2b54bd366f27d48ed0712", null ],
     [ "OnSelectLevelUp", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_rogue.html#aa52cf402b112fa9a2c052aae101717e9", null ],
+    [ "SetMonsterLists", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_rogue.html#a7ef2e7e4d460eb4f87d73f60a631c4c6", null ],
     [ "StageCountDownStart", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_rogue.html#a3e5c86d7679b537447c5b91045079fa7", null ],
     [ "Start", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_rogue.html#a6da739654533387771734c84029273a7", null ],
     [ "TimeControl", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_rogue.html#afa41246d0c49a4c111f1a99f80523c4b", null ],

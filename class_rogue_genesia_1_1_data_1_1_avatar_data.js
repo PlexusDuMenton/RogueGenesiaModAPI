@@ -41,7 +41,7 @@ var class_rogue_genesia_1_1_data_1_1_avatar_data =
     [ "HealPlayer", "class_rogue_genesia_1_1_data_1_1_avatar_data.html#a8fe8162ac1283480a5cacff1edd179f6", null ],
     [ "Init", "class_rogue_genesia_1_1_data_1_1_avatar_data.html#a2aa7fb6eddfb5eeb045e8be98ff79ad3", null ],
     [ "InitCards", "class_rogue_genesia_1_1_data_1_1_avatar_data.html#a9c4b3345e636d617bae886538f55289f", null ],
-    [ "InitPlayerData", "class_rogue_genesia_1_1_data_1_1_avatar_data.html#a5cb7e43ff3fa9f799ba2f1f1d3e8d66e", null ],
+    [ "InitPlayerEntity", "class_rogue_genesia_1_1_data_1_1_avatar_data.html#a12df13445f8366034adf50ec010e1aef", null ],
     [ "InitSSUUpgrades", "class_rogue_genesia_1_1_data_1_1_avatar_data.html#a44ca26ce8fe08e39f8c68dcba5fe45c8", null ],
     [ "InitStatOnly", "class_rogue_genesia_1_1_data_1_1_avatar_data.html#a209309060a58d3b1fb968d644e8d7905", null ],
     [ "InitTalents", "class_rogue_genesia_1_1_data_1_1_avatar_data.html#ad7e20face9bc30219707e478b0de4f91", null ],

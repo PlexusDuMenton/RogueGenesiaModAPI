@@ -41,6 +41,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_event_manager =
     [ "OnGenerateStagePosition", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ae90a8f009b72a3c4e906020c495fae02", null ],
     [ "OnGenerateStageReward", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ae3bd63c85b2692e2373de9620646a2d2", null ],
     [ "OnMapGenerationStart", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#aabfba0450e54947e2b3df25cc8ccde1c", null ],
+    [ "OnMonsterKilled", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ac441731a517b0c2d16642e51c1e2a198", null ],
     [ "OnMonsterLoot", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a911a1ca50347b1cff9ab49703caae53a", null ],
     [ "OnMultiplierStatsUpdate", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#acde0edc3aabbfe876d6fbcc3dd467b9c", null ],
     [ "OnOptionChanged", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a1468b90c0deb641a91d1d2bf67f24282", null ],

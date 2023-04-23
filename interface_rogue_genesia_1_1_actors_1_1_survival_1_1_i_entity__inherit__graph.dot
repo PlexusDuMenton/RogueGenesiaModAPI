@@ -37,5 +37,7 @@ digraph "RogueGenesia.Actors.Survival.IEntity"
   Node1 -> Node16 [dir="back",color="steelblue1",style="solid"];
   Node16 [label="RogueGenesia.Actors.Survival.\lMonsterCollisionDetection",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster_collision_detection.html",tooltip=" "];
   Node1 -> Node17 [dir="back",color="steelblue1",style="solid"];
-  Node17 [label="RogueGenesia.Actors.Survival.\lPlayerEntity",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html",tooltip=" "];
+  Node17 [label="RogueGenesia.Actors.Survival.\lObjectiveNPC",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_objective_n_p_c.html",tooltip=" "];
+  Node1 -> Node18 [dir="back",color="steelblue1",style="solid"];
+  Node18 [label="RogueGenesia.Actors.Survival.\lPlayerEntity",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html",tooltip=" "];
 }

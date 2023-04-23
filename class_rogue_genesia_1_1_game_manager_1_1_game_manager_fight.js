@@ -27,6 +27,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_manager_fight =
     [ "PickPatternToSelect", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_fight.html#ae3886440e57e94d3683268fcfa8d5c14", null ],
     [ "RestartTime", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_fight.html#ad56a272db220720e2c761383e117c28f", null ],
     [ "SetLevelUpPannelActive", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_fight.html#a0c40e7bbca5a681919b4228404247e79", null ],
+    [ "SetMonsterLists", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_fight.html#af3e50bf2d1867a793850c87145d488ce", null ],
     [ "SpawnEnemy", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_fight.html#a13e20d09c48751d0728373b0b2651e47", null ],
     [ "SpawnPattern", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_fight.html#afcb488684822f2598947507398cf7737", null ],
     [ "Start", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_fight.html#abdd07fbecc56c64587481e1d9104c8e4", null ],

@@ -7,6 +7,10 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/ScriptableObjects/GameOb
   compound=true
   subgraph clusterdir_ce10be526171a78bdae6b5169f9670c6 {
     graph [ bgcolor="#daedff", pencolor="grey50", label="GameObjective", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_ce10be526171a78bdae6b5169f9670c6.html",tooltip=""]
-  dir_41bded4723c11818d751fdc847260ba0 [label="StageObjectiveClasses", fillcolor="#daedff", color="grey25", style="filled,bold", URL="dir_41bded4723c11818d751fdc847260ba0.html",tooltip=""];
+  subgraph clusterdir_41bded4723c11818d751fdc847260ba0 {
+    graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_41bded4723c11818d751fdc847260ba0.html",tooltip=""]
+    dir_41bded4723c11818d751fdc847260ba0 [shape=plaintext, label="StageObjectiveClasses"];
+  dir_48f2b63fb60ff7b03a5c6ede43cfb7e0 [label="OptionalObjective", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_48f2b63fb60ff7b03a5c6ede43cfb7e0.html",tooltip=""];
+  }
   }
 }

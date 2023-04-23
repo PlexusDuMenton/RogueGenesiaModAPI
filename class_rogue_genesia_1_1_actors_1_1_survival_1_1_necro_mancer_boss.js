@@ -1,7 +1,11 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss =
 [
+    [ "CheckPhaseOne", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#a869d88f67beec310c9c8000a4042e06b", null ],
+    [ "CheckPhaseThree", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#adc54a7f2e6e8487036d81314602d6ff7", null ],
     [ "DestroyEndFlyZone", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#ac99bbee49421f027b519156b9d50b159", null ],
     [ "EndFly", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#aa9ef8f1aa1ce2fbc8bbae2e16a8f34e1", null ],
+    [ "FlyingUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#a30dcb8587de51f9f49e832e2332fa38e", null ],
+    [ "GroundedUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#adfa6d761217118abc86279fb9e54a10e", null ],
     [ "InitMonster", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#affdbeb40d3ef35f24e3b4c0de8d9679d", null ],
     [ "MoveToPosition", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#aabdd5fa628f32c8fb34e4b8265f73cc1", null ],
     [ "OnDeath", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#a14064f0ebe3782153ed175274046eb16", null ],

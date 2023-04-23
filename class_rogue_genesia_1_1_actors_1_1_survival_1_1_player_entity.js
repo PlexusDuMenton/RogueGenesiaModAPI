@@ -18,6 +18,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity =
     [ "GetProjectileModifierLevel", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a9a85ceabc51ab01f2495732911a06791", null ],
     [ "GetSoulBonusLevel", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a74dab404983732c19396a461100c2622", null ],
     [ "GetSoulsBonus", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a5a239b68a9137a8434cd68c69f5d8516", null ],
+    [ "GetSpawnCenter", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a9b8c9287cd33d66e7f5f59726059a1af", null ],
     [ "HasBuff", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#ae9719030d46b05fa318da2f6b4e60b07", null ],
     [ "HasSoulsBonus", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#abeb23b399dea154508ede9dfe803cbc6", null ],
     [ "HealPlayer", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#adabacefd2fb09af5a9ad193277ef2952", null ],
@@ -65,5 +66,6 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity =
     [ "GetPlayerStats", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a4a8ea2ec71c53347faa8d392f0e6c5db", null ],
     [ "GetPlayerWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a1e56a56e18c6216c6bb7f08bb151925f", null ],
     [ "GetSoulsLevel", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a33a961152d8edac9857822690b5a8375", null ],
-    [ "IsDashing", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a4b728f976cf5777f481865fad64a0556", null ]
+    [ "IsDashing", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a4b728f976cf5777f481865fad64a0556", null ],
+    [ "SpawnCenter", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a188eb9c711671bb034c42c027c411a05", null ]
 ];

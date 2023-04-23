@@ -5,6 +5,8 @@ var namespace_rogue_genesia_1_1_game_manager =
     [ "CardWeightEventInfo", "class_rogue_genesia_1_1_game_manager_1_1_card_weight_event_info.html", "class_rogue_genesia_1_1_game_manager_1_1_card_weight_event_info" ],
     [ "CollectibleManager", "class_rogue_genesia_1_1_game_manager_1_1_collectible_manager.html", "class_rogue_genesia_1_1_game_manager_1_1_collectible_manager" ],
     [ "DeathStatue", "class_rogue_genesia_1_1_game_manager_1_1_death_statue.html", "class_rogue_genesia_1_1_game_manager_1_1_death_statue" ],
+    [ "DetailCardInfoHistory", "class_rogue_genesia_1_1_game_manager_1_1_detail_card_info_history.html", "class_rogue_genesia_1_1_game_manager_1_1_detail_card_info_history" ],
+    [ "DetailedCardInformationManager", "class_rogue_genesia_1_1_game_manager_1_1_detailed_card_information_manager.html", "class_rogue_genesia_1_1_game_manager_1_1_detailed_card_information_manager" ],
     [ "DiscordManager", "class_rogue_genesia_1_1_game_manager_1_1_discord_manager.html", "class_rogue_genesia_1_1_game_manager_1_1_discord_manager" ],
     [ "EnemyManager", "class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html", "class_rogue_genesia_1_1_game_manager_1_1_enemy_manager" ],
     [ "FloatValue", "class_rogue_genesia_1_1_game_manager_1_1_float_value.html", "class_rogue_genesia_1_1_game_manager_1_1_float_value" ],

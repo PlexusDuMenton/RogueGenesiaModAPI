@@ -3,7 +3,6 @@ var namespace_rogue_genesia =
     [ "Actors", "namespace_rogue_genesia_1_1_actors.html", "namespace_rogue_genesia_1_1_actors" ],
     [ "Data", "namespace_rogue_genesia_1_1_data.html", "namespace_rogue_genesia_1_1_data" ],
     [ "GameManager", "namespace_rogue_genesia_1_1_game_manager.html", "namespace_rogue_genesia_1_1_game_manager" ],
-    [ "Localization", "namespace_rogue_genesia_1_1_localization.html", "namespace_rogue_genesia_1_1_localization" ],
     [ "Pooling", "namespace_rogue_genesia_1_1_pooling.html", "namespace_rogue_genesia_1_1_pooling" ],
     [ "Save", "namespace_rogue_genesia_1_1_save.html", "namespace_rogue_genesia_1_1_save" ],
     [ "UI", "namespace_rogue_genesia_1_1_u_i.html", "namespace_rogue_genesia_1_1_u_i" ],
