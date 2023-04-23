@@ -5,27 +5,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="MenuManager",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
-  Node0 -> Node1 [dir="back",color="steelblue1",style="solid"];
-  Node1 [label="RogueGenesia.GameManager.\lGameEndManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html",tooltip=" "];
-  Node0 -> Node2 [dir="back",color="steelblue1",style="solid"];
-  Node2 [label="RogueGenesia.GameManager.\lSoulShopManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_game_manager_1_1_soul_shop_manager.html",tooltip=" "];
-  Node0 -> Node3 [dir="back",color="steelblue1",style="solid"];
-  Node3 [label="RogueGenesia.GameManager.\lSpecialManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_game_manager_1_1_special_manager.html",tooltip=" "];
-  Node3 -> Node4 [dir="back",color="steelblue1",style="solid"];
-  Node4 [label="RogueGenesia.GameManager.\lMenu.EventManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html",tooltip=" "];
-  Node3 -> Node5 [dir="back",color="steelblue1",style="solid"];
-  Node5 [label="RogueGenesia.GameManager.\lRewardManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html",tooltip=" "];
-  Node3 -> Node6 [dir="back",color="steelblue1",style="solid"];
-  Node6 [label="RogueGenesia.GameManager.\lShopManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html",tooltip=" "];
-  Node6 -> Node7 [dir="back",color="steelblue1",style="solid"];
-  Node7 [label="RogueGenesia.GameManager.\lNormalShop",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html",tooltip=" "];
-  Node7 -> Node8 [dir="back",color="steelblue1",style="solid"];
-  Node8 [label="RogueGenesia.GameManager.\lBlackSmith",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_game_manager_1_1_black_smith.html",tooltip=" "];
-  Node6 -> Node9 [dir="back",color="steelblue1",style="solid"];
-  Node9 [label="RogueGenesia.GameManager.\lShopKeeperShopManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_game_manager_1_1_shop_keeper_shop_manager.html",tooltip=" "];
-  Node0 -> Node10 [dir="back",color="steelblue1",style="solid"];
-  Node10 [label="RogueGenesia.UI.MainMenu\lManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_u_i_1_1_main_menu_manager.html",tooltip=" "];
-  Node0 -> Node11 [dir="back",color="steelblue1",style="solid"];
-  Node11 [label="RogueGenesia.UI.StartGame\lManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_u_i_1_1_start_game_manager.html",tooltip=" "];
+  Node0 [label="ModGenesia.AvatarAPI",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_mod_genesia_1_1_avatar_a_p_i.html",tooltip="Modding API for everything Avatar Related."];
 }

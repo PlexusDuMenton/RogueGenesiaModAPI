@@ -5,5 +5,9 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="ModGenesia.SteamWorkShop.\lModInstallInfo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_mod_genesia_1_1_steam_work_shop_1_1_mod_install_info.html",tooltip=" "];
+  Node0 [label="MonoBehaviour",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node0 -> Node1 [dir="back",color="steelblue1",style="solid"];
+  Node1 [label="ModButton",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_mod_button.html",tooltip=" "];
+  Node0 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="ModGenesia.ModListManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_mod_genesia_1_1_mod_list_manager.html",tooltip=" "];
 }

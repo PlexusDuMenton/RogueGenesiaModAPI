@@ -20,6 +20,7 @@ var class_mod_genesia_1_1_mod_loader =
     [ "OnProfileChanged", "class_mod_genesia_1_1_mod_loader.html#a4300ecbed941a905aa9d2edacd104823", null ],
     [ "OrderModList", "class_mod_genesia_1_1_mod_loader.html#a23c13a134ce7586117ac798de3dec0c2", null ],
     [ "OrderModList", "class_mod_genesia_1_1_mod_loader.html#a8637e4113bfd9b385d6e618cce92f204", null ],
+    [ "ResetModEnabling", "class_mod_genesia_1_1_mod_loader.html#af867e2aa954301593b8c3deb66b3b1f4", null ],
     [ "SaveEnabledMods", "class_mod_genesia_1_1_mod_loader.html#a035c5afc7d08fe1029c625d9ab42c877", null ],
     [ "UnloadMods", "class_mod_genesia_1_1_mod_loader.html#a7658aca4c7e5924175873fa16fe82b4a", null ],
     [ "UpdateEnabledMods", "class_mod_genesia_1_1_mod_loader.html#a1ebf81e6bd9277f2f55bb877335f1269", null ],

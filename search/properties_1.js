@@ -1,22 +1,5 @@
 var searchData=
 [
-  ['abilitycharge_0',['AbilityCharge',['../class_rogue_genesia_1_1_data_1_1_active_talent.html#ae911850c0ba4afa97a38c389d6c21283',1,'RogueGenesia::Data::ActiveTalent']]],
-  ['abilitychargerate_1',['AbilityChargeRate',['../class_rogue_genesia_1_1_data_1_1_active_talent.html#adb646ad35374cd0661c946e704a3ea26',1,'RogueGenesia::Data::ActiveTalent']]],
-  ['abilitycost_2',['AbilityCost',['../class_rogue_genesia_1_1_data_1_1_active_talent.html#af921142dc39609c6e2612ed630beb849',1,'RogueGenesia::Data::ActiveTalent']]],
-  ['abilitymaxcharge_3',['AbilityMaxCharge',['../class_rogue_genesia_1_1_data_1_1_active_talent.html#a47f4de2cc6d3adf7865dae7dbd2bb954',1,'RogueGenesia::Data::ActiveTalent']]],
-  ['achievementid_4',['AchievementID',['../class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html#a6cbcb8ddacedb3cce8edb722708fb926',1,'RogueGenesia::Data::AchievementScriptableObject']]],
-  ['activedifficulty_5',['ActiveDifficulty',['../class_rogue_genesia_1_1_data_1_1_game_mode_s_o.html#aa51a4bc07fa7c270c9a7565c4f99ef84',1,'RogueGenesia::Data::GameModeSO']]],
-  ['activetier_6',['ActiveTier',['../class_rogue_genesia_1_1_data_1_1_enemy_s_o.html#aa0e0e36e427f7c68a4a1de95da69025d',1,'RogueGenesia::Data::EnemySO']]],
-  ['activezone_7',['ActiveZone',['../class_rogue_genesia_1_1_data_1_1_rogue_mode_difficulty_s_o.html#a45739966c503599803421f28bd3e71d9',1,'RogueGenesia::Data::RogueModeDifficultySO']]],
-  ['additionalprojectile_8',['AdditionalProjectile',['../class_rogue_genesia_1_1_data_1_1_previous_player_stats.html#a254a9114a25e8cdc67cb9c153794c6df',1,'RogueGenesia.Data.PreviousPlayerStats.AdditionalProjectile()'],['../class_rogue_genesia_1_1_data_1_1_player_stats.html#afe713301c520da7dacd95dd4911695ac',1,'RogueGenesia.Data.PlayerStats.AdditionalProjectile()']]],
-  ['aimline_9',['AimLine',['../class_option_data.html#a0e103a231e89d7a1f644b005acfb849b',1,'OptionData']]],
-  ['alreadyrolledovercap_10',['AlreadyRolledOvercap',['../class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a5a2b18421575cd55ca64edc4d97594f7',1,'RogueGenesia::GameManager::ShopManager']]],
-  ['anachronisticaction_11',['AnachronisticAction',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_controller_survival.html#a5e2739445d49aede94e4228f446cb710',1,'RogueGenesia::Actors::Survival::PlayerControllerSurvival']]],
-  ['anachronisticdurationmultiplier_12',['AnachronisticDurationMultiplier',['../class_rogue_genesia_1_1_data_1_1_player_stats.html#a0b370b1224972e1f4e2d1eceaefccdfc',1,'RogueGenesia::Data::PlayerStats']]],
-  ['areasize_13',['AreaSize',['../class_rogue_genesia_1_1_data_1_1_previous_player_stats.html#a5edb2df61bf27091ddda1e18b220559c',1,'RogueGenesia.Data.PreviousPlayerStats.AreaSize()'],['../class_rogue_genesia_1_1_data_1_1_player_stats.html#a9735ff6f5bd684cfe58a0d4ef91d79ac',1,'RogueGenesia.Data.PlayerStats.AreaSize()']]],
-  ['artifactrandom_14',['ArtifactRandom',['../class_rogue_genesia_1_1_data_1_1_game_random.html#a48f62d501b7911541448016642e7d638',1,'RogueGenesia::Data::GameRandom']]],
-  ['attackaction_15',['AttackAction',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_controller_survival.html#a7669982d0955e84f1c3ada898e363346',1,'RogueGenesia::Actors::Survival::PlayerControllerSurvival']]],
-  ['attackcooldown_16',['AttackCoolDown',['../class_rogue_genesia_1_1_data_1_1_previous_player_stats.html#a9720ed05ab74e0e9a4b4bf6a14346727',1,'RogueGenesia.Data.PreviousPlayerStats.AttackCoolDown()'],['../class_rogue_genesia_1_1_data_1_1_player_stats.html#a1eda9b6d45372a900a00dcb2621cdda2',1,'RogueGenesia.Data.PlayerStats.AttackCoolDown()']]],
-  ['attackdelay_17',['AttackDelay',['../class_rogue_genesia_1_1_data_1_1_previous_player_stats.html#a2e7923530ca9685f4d29f9196973aec0',1,'RogueGenesia.Data.PreviousPlayerStats.AttackDelay()'],['../class_rogue_genesia_1_1_data_1_1_player_stats.html#acb48d871c1d1c2122e17c07f9d27f854',1,'RogueGenesia.Data.PlayerStats.AttackDelay()']]],
-  ['autoaiming_18',['AutoAiming',['../class_option_data.html#aa1fb79f8fc89bdec889f572ec1f84bc6',1,'OptionData']]]
+  ['id_0',['ID',['../class_mod_genesia_1_1_mod_info.html#aa34f8999d33a50280099a3af990dfae7',1,'ModGenesia.ModInfo.ID()'],['../class_mod_genesia_1_1_mod_data.html#af365dd0a33185fce2e253d4e90e3e63c',1,'ModGenesia.ModData.ID()']]],
+  ['instance_1',['Instance',['../class_mod_genesia_1_1_mod_list_manager.html#a2a3f22637c1dcd0dc238ec09aebb64ad',1,'ModGenesia::ModListManager']]]
 ];

@@ -18,6 +18,7 @@ var class_mod_genesia_1_1_mod_data =
     [ "Enabled", "class_mod_genesia_1_1_mod_data.html#a2b0b4ecd54e9414532b84b8f9abae044", null ],
     [ "Icon", "class_mod_genesia_1_1_mod_data.html#ac5f871e29980ca5459ab639fc41b5579", null ],
     [ "Image", "class_mod_genesia_1_1_mod_data.html#a82b11a210096cd5b6678bd656a953ef2", null ],
+    [ "IsLocal", "class_mod_genesia_1_1_mod_data.html#a5945adb3a52775fc444a883999aa23dc", null ],
     [ "LoadedAssembliesList", "class_mod_genesia_1_1_mod_data.html#a85e56f22e47c85b2880783febf224183", null ],
     [ "MissingDependencies", "class_mod_genesia_1_1_mod_data.html#a236f2501d6cc1873b3d9937e92070598", null ],
     [ "MissingDependency", "class_mod_genesia_1_1_mod_data.html#a01c6dccd8e8265736d0dd284b7c564f1", null ],
