@@ -7,6 +7,7 @@ var class_rogue_genesia_1_1_data_1_1_boss_info_class =
     [ "GetGoldReward", "class_rogue_genesia_1_1_data_1_1_boss_info_class.html#a02076fe918c871ec4ede674c1b0e2cd0", null ],
     [ "GetLevelToLoad", "class_rogue_genesia_1_1_data_1_1_boss_info_class.html#a62aebd0915986742a87a380053664055", null ],
     [ "GetLevelVisualToLoad", "class_rogue_genesia_1_1_data_1_1_boss_info_class.html#ad49052147e729a7bb2e6f42eb0e8a7c5", null ],
+    [ "GetMaxEliteAtOnce", "class_rogue_genesia_1_1_data_1_1_boss_info_class.html#a66ff9be6d10f27fa721994d0acfc8391", null ],
     [ "GetObjectiveText", "class_rogue_genesia_1_1_data_1_1_boss_info_class.html#aca33632b7a6d212c5e9f664dcc339baf", null ],
     [ "SpawnBoss", "class_rogue_genesia_1_1_data_1_1_boss_info_class.html#a014ba19e8795f38fcea06a59038fc77a", null ]
 ];

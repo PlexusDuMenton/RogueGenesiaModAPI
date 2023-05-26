@@ -1,10 +1,12 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity =
 [
-    [ "AddBuffToPlayer", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#a41645de07336a27a101fb13aa1e242d2", null ],
-    [ "Init", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#afcff99fc1fb913092f42d1d76965a68a", null ],
-    [ "OnCollisionEnter", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#adef9f819bfbebeba58238c17c593ee50", null ],
+    [ "Init", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#a293ec98dc70c97deb4bee055c10be6bf", null ],
+    [ "OnCollisionEnter", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#a8cd541240609e2644b4a259f331ceccb", null ],
     [ "OnDestroy", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#a680b0c09e77f273fb893ac39e140a8ae", null ],
+    [ "OnPlayerTouchEntity", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#a69d4959365ef9fb4a4ecc5b34de6f295", null ],
     [ "Refill", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#acc2e5c2faf6f44f975cab49feafa134c", null ],
+    [ "Update", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#a56ed0c79c3e291cccf64a77b51b0b859", null ],
+    [ "AltarRange", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#aa07d4116101e068bf7791b6655d2b077", null ],
     [ "animator", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#a60e4c010b652863843d066a1b8bd74ba", null ],
     [ "canBeRefilled", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#ab34a1428ba371dd3e72d8eb2f17504c4", null ],
     [ "FX", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#a2035dd5e942fcef5789d38c75d32aa49", null ],

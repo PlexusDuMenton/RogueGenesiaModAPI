@@ -9,6 +9,7 @@ var searchData=
   ['boss_6',['Boss',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html#a3b8dfe9c3691e2695f713e2b60e11e84',1,'RogueGenesia::Actors::Survival::Monster']]],
   ['bossabilitychance_7',['BossAbilityChance',['../class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a53290eba20010aa36868f2fc11f9ebe0',1,'RogueGenesia::Data::ChallengeModifier']]],
   ['bossmusic_8',['BossMusic',['../class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a0c8d5577bfd96f6180906eb681fec88c',1,'RogueGenesia::Data::GameDataGetter']]],
-  ['bufficon_9',['BuffIcon',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#a718d5d821b73a4c08704af18aaefb252',1,'RogueGenesia::Actors::Survival::Buff']]],
-  ['buffstacking_10',['BuffStacking',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#a1af2176dc4e44b90e3489765300df8cd',1,'RogueGenesia::Actors::Survival::Buff']]]
+  ['brightness_9',['Brightness',['../class_option_data.html#af70e3f7d9c140d10d204d3afd8b22415',1,'OptionData']]],
+  ['bufficon_10',['BuffIcon',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#a718d5d821b73a4c08704af18aaefb252',1,'RogueGenesia::Actors::Survival::Buff']]],
+  ['buffstacking_11',['BuffStacking',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#a1af2176dc4e44b90e3489765300df8cd',1,'RogueGenesia::Actors::Survival::Buff']]]
 ];

@@ -44,7 +44,8 @@ var searchData=
   ['criticaldamage_41',['CriticalDamage',['../namespace_rogue_genesia_1_1_data.html#a8bc7422777df7d05c35c3e9e74c5a455a8840670f16ffad8542f45ad80dbe5ca3',1,'RogueGenesia::Data']]],
   ['criticalmultiplier_42',['CriticalMultiplier',['../namespace_rogue_genesia_1_1_data.html#aad4ecd86d7d77229db7138bc35d46f4daec3d5ce5c8177271d4cc4450da9103a6',1,'RogueGenesia::Data']]],
   ['crossbow_43',['CrossBow',['../namespace_rogue_genesia_1_1_data.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5dae465122849ce9927cdf194629e621d60',1,'RogueGenesia.Data.CrossBow()'],['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390dae465122849ce9927cdf194629e621d60',1,'RogueGenesia.Data.CrossBow()']]],
-  ['cursedbelt_44',['CursedBelt',['../namespace_rogue_genesia_1_1_data.html#aaa9105a962017dc70f16a695f4a394b5aedcd54c25b817624ad314d45a1cec66b',1,'RogueGenesia::Data']]],
-  ['cursedbolt_45',['CursedBolt',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da16f97cee54488d50e996e1d64905d2fb',1,'RogueGenesia::Data']]],
-  ['custom_46',['Custom',['../namespace_rogue_genesia_1_1_u_i.html#aa282cef6c9cdd57ed74358999e5f5f9ca90589c47f06eb971d548591f23c285af',1,'RogueGenesia::UI']]]
+  ['crystalsword_44',['CrystalSword',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390dad9d15c32a4d8631f858f56157a2e49f1',1,'RogueGenesia::Data']]],
+  ['cursedbelt_45',['CursedBelt',['../namespace_rogue_genesia_1_1_data.html#aaa9105a962017dc70f16a695f4a394b5aedcd54c25b817624ad314d45a1cec66b',1,'RogueGenesia::Data']]],
+  ['cursedbolt_46',['CursedBolt',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da16f97cee54488d50e996e1d64905d2fb',1,'RogueGenesia::Data']]],
+  ['custom_47',['Custom',['../namespace_rogue_genesia_1_1_u_i.html#aa282cef6c9cdd57ed74358999e5f5f9ca90589c47f06eb971d548591f23c285af',1,'RogueGenesia::UI']]]
 ];

@@ -40,6 +40,7 @@ var _stats_modifier_8cs =
       [ "SoulCoinMultiplier", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4dac80a5a1918d98755e919463ead7a48d4", null ],
       [ "DefencePiercing", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4dadfa52f660cee8695f2db7413d5c42219", null ],
       [ "Corruption", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da658a15d633ea9338b06e40a410629dd8", null ],
+      [ "Purification", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da8758ab48bdb48a785d167ff0dc9bf537", null ],
       [ "SurvivorsTimerScale", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4dafde8d8239533ed8c5fb020dea24cf58f", null ],
       [ "BonusAmmo", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da3136e2430b56ff2a1ca12a6a94ceed7c", null ],
       [ "AnachronisticDurationMultiplier", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4dac6d86c30743eab8a22103a3fc1f07201", null ],

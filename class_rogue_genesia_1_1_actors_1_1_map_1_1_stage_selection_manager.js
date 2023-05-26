@@ -37,6 +37,7 @@ var class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager =
     [ "NormalMark", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a8fdd2013860713faff4df311444655e1", null ],
     [ "PathPrefab", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a0f83b54b5d9e9077ec6c2563d4dd5051", null ],
     [ "pauseMenu", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a51d1962e9c063133162c80ce875e154e", null ],
+    [ "PetIcon", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#aa162d655abceccc5792e4a346dff3d6c", null ],
     [ "PinText", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a833e46d21cb41b8246290ccbf401e213", null ],
     [ "PlayerIcon", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#ad2280061155b648884b604178fb5c6c3", null ],
     [ "PlayerRun", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a2f71813998084a1f1a2437f34f15c2f0", null ],

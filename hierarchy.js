@@ -62,6 +62,8 @@ var hierarchy =
     [ "ModGenesia.BuffAPI", "class_mod_genesia_1_1_buff_a_p_i.html", null ],
     [ "RogueGenesia.Data.BuffIDManager", "class_rogue_genesia_1_1_data_1_1_buff_i_d_manager.html", null ],
     [ "ModGenesia.CardAPI", "class_mod_genesia_1_1_card_a_p_i.html", null ],
+    [ "ModGenesia.CardRequirements", "struct_mod_genesia_1_1_card_requirements.html", null ],
+    [ "ModGenesia.CardStatsRequirements", "struct_mod_genesia_1_1_card_stats_requirements.html", null ],
     [ "RogueGenesia.GameManager.CardWeightEventInfo", "class_rogue_genesia_1_1_game_manager_1_1_card_weight_event_info.html", null ],
     [ "ModGenesia.ChallengeAPI", "class_mod_genesia_1_1_challenge_a_p_i.html", null ],
     [ "RogueGenesia.Data.ChallengeData", "class_rogue_genesia_1_1_data_1_1_challenge_data.html", null ],
@@ -100,6 +102,7 @@ var hierarchy =
     [ "RogueGenesia.Data.EnemyAnimations", "class_rogue_genesia_1_1_data_1_1_enemy_animations.html", null ],
     [ "RogueGenesia.Data.EnemyModuleForSurvivors", "class_rogue_genesia_1_1_data_1_1_enemy_module_for_survivors.html", null ],
     [ "RogueGenesia.Data.EnemyStatMultiplier", "class_rogue_genesia_1_1_data_1_1_enemy_stat_multiplier.html", null ],
+    [ "RogueGenesia.UI.MonsterListPanel.EnemyStatsUI", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel_1_1_enemy_stats_u_i.html", null ],
     [ "RogueGenesia.Data.EnemyTierContainer", "class_rogue_genesia_1_1_data_1_1_enemy_tier_container.html", null ],
     [ "RogueGenesia.Data.EnemyTierData", "class_rogue_genesia_1_1_data_1_1_enemy_tier_data.html", null ],
     [ "RogueGenesia.Data.EventRogue", "class_rogue_genesia_1_1_data_1_1_event_rogue.html", [
@@ -181,6 +184,7 @@ var hierarchy =
     ] ],
     [ "RogueGenesia.Data.IStatEffector", "interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html", [
       [ "RogueGenesia.Actors.Survival.Artifact", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html", [
+        [ "RogueGenesia.Actors.Survival.AdamantiteRodArtifact", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_adamantite_rod_artifact.html", null ],
         [ "RogueGenesia.Actors.Survival.AdventurerLicenceArtifact", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_adventurer_licence_artifact.html", null ],
         [ "RogueGenesia.Actors.Survival.BattleRubyArtifact", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_battle_ruby_artifact.html", null ],
         [ "RogueGenesia.Actors.Survival.BeefStatueArtifact", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_beef_statue_artifact.html", null ],
@@ -200,6 +204,7 @@ var hierarchy =
         [ "RogueGenesia.Actors.Survival.MagnifyingGlassArtifact", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_magnifying_glass_artifact.html", null ],
         [ "RogueGenesia.Actors.Survival.MartyrCloakArtifact", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_martyr_cloak_artifact.html", null ],
         [ "RogueGenesia.Actors.Survival.MidasSwordArtifact", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_midas_sword_artifact.html", null ],
+        [ "RogueGenesia.Actors.Survival.MithrilCompassArtifact", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_mithril_compass_artifact.html", null ],
         [ "RogueGenesia.Actors.Survival.OldCoinArtifact", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_old_coin_artifact.html", null ],
         [ "RogueGenesia.Actors.Survival.OuroborosNecklaceArtifact", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_ouroboros_necklace_artifact.html", null ],
         [ "RogueGenesia.Actors.Survival.PhoenixTotemArtifact", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_phoenix_totem_artifact.html", null ],
@@ -234,6 +239,7 @@ var hierarchy =
         [ "RogueGenesia.Data.HealthToDamageSoulCard", "class_rogue_genesia_1_1_data_1_1_health_to_damage_soul_card.html", null ],
         [ "RogueGenesia.Data.Immovable", "class_rogue_genesia_1_1_data_1_1_immovable.html", null ],
         [ "RogueGenesia.Data.Lust", "class_rogue_genesia_1_1_data_1_1_lust.html", null ],
+        [ "RogueGenesia.Data.LustTester", "class_rogue_genesia_1_1_data_1_1_lust_tester.html", null ],
         [ "RogueGenesia.Data.NegativeArmorIsDamage", "class_rogue_genesia_1_1_data_1_1_negative_armor_is_damage.html", null ],
         [ "RogueGenesia.Data.PlayerModifierSoulCard", "class_rogue_genesia_1_1_data_1_1_player_modifier_soul_card.html", null ],
         [ "RogueGenesia.Data.Pride", "class_rogue_genesia_1_1_data_1_1_pride.html", null ],
@@ -257,6 +263,7 @@ var hierarchy =
           [ "RogueGenesia.Data.BowTalent", "class_rogue_genesia_1_1_data_1_1_bow_talent.html", null ],
           [ "RogueGenesia.Data.CleaverTalent", "class_rogue_genesia_1_1_data_1_1_cleaver_talent.html", null ],
           [ "RogueGenesia.Data.CrossbowTalent", "class_rogue_genesia_1_1_data_1_1_crossbow_talent.html", null ],
+          [ "RogueGenesia.Data.CrystalSwordTalent", "class_rogue_genesia_1_1_data_1_1_crystal_sword_talent.html", null ],
           [ "RogueGenesia.Data.DeathAuraTalent", "class_rogue_genesia_1_1_data_1_1_death_aura_talent.html", null ],
           [ "RogueGenesia.Data.ExplosiveVialTalent", "class_rogue_genesia_1_1_data_1_1_explosive_vial_talent.html", null ],
           [ "RogueGenesia.Data.FireRingTalent", "class_rogue_genesia_1_1_data_1_1_fire_ring_talent.html", null ],
@@ -305,10 +312,14 @@ var hierarchy =
     [ "RogueGenesia.Data.LevelObject", "class_rogue_genesia_1_1_data_1_1_level_object.html", null ],
     [ "RogueGenesia.Save.LevelObjectSave", "class_rogue_genesia_1_1_save_1_1_level_object_save.html", null ],
     [ "RogueGenesia.Data.ListCleaner< T >", "class_rogue_genesia_1_1_data_1_1_list_cleaner.html", null ],
+    [ "ListPanel< EnemySO >", "class_list_panel.html", [
+      [ "RogueGenesia.UI.MonsterListPanel", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html", null ]
+    ] ],
     [ "RogueGenesia.Data.LocalizationData", "class_rogue_genesia_1_1_data_1_1_localization_data.html", null ],
     [ "RogueGenesia.Data.LocalizationDataList", "class_rogue_genesia_1_1_data_1_1_localization_data_list.html", null ],
     [ "RogueGenesia.Data.Loot", "struct_rogue_genesia_1_1_data_1_1_loot.html", null ],
     [ "ModGenesia.ModCardRequirement", "class_mod_genesia_1_1_mod_card_requirement.html", null ],
+    [ "ModGenesia.ModCreationUtils", "class_mod_genesia_1_1_mod_creation_utils.html", null ],
     [ "ModGenesia.ModData", "class_mod_genesia_1_1_mod_data.html", null ],
     [ "RogueGenesia.Data.ModdedGameData", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html", null ],
     [ "RogueGenesia.Data.ModdedStatsContainer", "class_rogue_genesia_1_1_data_1_1_modded_stats_container.html", null ],
@@ -322,13 +333,16 @@ var hierarchy =
     [ "ModGenesia.ModVersion", "class_mod_genesia_1_1_mod_version.html", null ],
     [ "MonoBehaviour", null, [
       [ "AchievementNotification", "class_achievement_notification.html", null ],
+      [ "ArtifactListPanel", "class_artifact_list_panel.html", null ],
       [ "ChargeUI", "class_charge_u_i.html", null ],
       [ "DashChargeUI", "class_dash_charge_u_i.html", null ],
       [ "FontSizeManager", "class_font_size_manager.html", null ],
       [ "GeneralStats", "class_general_stats.html", null ],
       [ "InputCheck", "class_input_check.html", null ],
+      [ "ListPanel< T >", "class_list_panel.html", null ],
       [ "MapIcon", "class_map_icon.html", null ],
       [ "ModButton", "class_mod_button.html", null ],
+      [ "ModGenesia.ManifestBuilder", "class_mod_genesia_1_1_manifest_builder.html", null ],
       [ "ModGenesia.ModListManager", "class_mod_genesia_1_1_mod_list_manager.html", null ],
       [ "ProceduralPlacedObject", "class_procedural_placed_object.html", [
         [ "RogueGenesia.Actors.Survival.CrateCollisionDetection", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html", null ],
@@ -366,6 +380,7 @@ var hierarchy =
       [ "RogueGenesia.UI.AchievementMenu", "class_rogue_genesia_1_1_u_i_1_1_achievement_menu.html", null ],
       [ "RogueGenesia.UI.AmmoCounter", "class_rogue_genesia_1_1_u_i_1_1_ammo_counter.html", null ],
       [ "RogueGenesia.UI.ArtifactDetail", "class_rogue_genesia_1_1_u_i_1_1_artifact_detail.html", null ],
+      [ "RogueGenesia.UI.ArtifactList", "class_rogue_genesia_1_1_u_i_1_1_artifact_list.html", null ],
       [ "RogueGenesia.UI.ArtifactSelectionUI", "class_rogue_genesia_1_1_u_i_1_1_artifact_selection_u_i.html", null ],
       [ "RogueGenesia.UI.AvatarUI", "class_rogue_genesia_1_1_u_i_1_1_avatar_u_i.html", null ],
       [ "RogueGenesia.UI.BuffUIContainer", "class_rogue_genesia_1_1_u_i_1_1_buff_u_i_container.html", null ],
@@ -381,6 +396,7 @@ var hierarchy =
       [ "RogueGenesia.UI.GameOptionManager", "class_rogue_genesia_1_1_u_i_1_1_game_option_manager.html", null ],
       [ "RogueGenesia.UI.GameOption_UI", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html", null ],
       [ "RogueGenesia.UI.GameStatsPannel", "class_rogue_genesia_1_1_u_i_1_1_game_stats_pannel.html", null ],
+      [ "RogueGenesia.UI.GlobalIndicatorHelper", "class_rogue_genesia_1_1_u_i_1_1_global_indicator_helper.html", null ],
       [ "RogueGenesia.UI.GlobalToolTipManager", "class_rogue_genesia_1_1_u_i_1_1_global_tool_tip_manager.html", null ],
       [ "RogueGenesia.UI.InGameTalentUI", "class_rogue_genesia_1_1_u_i_1_1_in_game_talent_u_i.html", null ],
       [ "RogueGenesia.UI.MenuManager", "class_rogue_genesia_1_1_u_i_1_1_menu_manager.html", [
@@ -408,6 +424,7 @@ var hierarchy =
         [ "RogueGenesia.UI.TalentSelectionMenu", "class_rogue_genesia_1_1_u_i_1_1_talent_selection_menu.html", null ],
         [ "RogueGenesia.UI.UILevelUp", "class_rogue_genesia_1_1_u_i_1_1_u_i_level_up.html", null ]
       ] ],
+      [ "RogueGenesia.UI.MonsterListUI", "class_rogue_genesia_1_1_u_i_1_1_monster_list_u_i.html", null ],
       [ "RogueGenesia.UI.OverButton", "class_rogue_genesia_1_1_u_i_1_1_over_button.html", null ],
       [ "RogueGenesia.UI.PetUI", "class_rogue_genesia_1_1_u_i_1_1_pet_u_i.html", null ],
       [ "RogueGenesia.UI.ProfileButton", "class_rogue_genesia_1_1_u_i_1_1_profile_button.html", null ],
@@ -474,6 +491,7 @@ var hierarchy =
     [ "RogueGenesia.Data.PersistantGameSave", "class_rogue_genesia_1_1_data_1_1_persistant_game_save.html", null ],
     [ "RogueGenesia.Save.PersistantSaveManager", "class_rogue_genesia_1_1_save_1_1_persistant_save_manager.html", null ],
     [ "RogueGenesia.Data.PetAnimations", "class_rogue_genesia_1_1_data_1_1_pet_animations.html", null ],
+    [ "ModGenesia.PetAPI", "class_mod_genesia_1_1_pet_a_p_i.html", null ],
     [ "RogueGenesia.Data.PetBehaviour", "class_rogue_genesia_1_1_data_1_1_pet_behaviour.html", [
       [ "RogueGenesia.Data.IdlePetBehaviour", "class_rogue_genesia_1_1_data_1_1_idle_pet_behaviour.html", null ],
       [ "RogueGenesia.Data.MoveToADifferentPositionPetBehaviour", "class_rogue_genesia_1_1_data_1_1_move_to_a_different_position_pet_behaviour.html", null ]
@@ -500,6 +518,7 @@ var hierarchy =
         [ "RogueGenesia.Actors.Survival.OrbitalProjectileAI", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_orbital_projectile_a_i.html", null ],
         [ "RogueGenesia.Actors.Survival.PikeProjectileAi", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_pike_projectile_ai.html", null ],
         [ "RogueGenesia.Actors.Survival.PlanetaryProjectilAI", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_planetary_projectil_a_i.html", null ],
+        [ "RogueGenesia.Actors.Survival.VisualProjectileAI", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_visual_projectile_a_i.html", null ],
         [ "RogueGenesia.Actors.Survival.WispProjectilAI", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_wisp_projectil_a_i.html", null ]
       ] ]
     ] ],
@@ -515,8 +534,6 @@ var hierarchy =
       [ "EnumFlagAttribute", "class_enum_flag_attribute.html", null ],
       [ "RogueGenesia.Data.EnemyStat", "class_rogue_genesia_1_1_data_1_1_enemy_stat.html", null ]
     ] ],
-    [ "RogueGenesia.Data.RandomExtensions", "class_rogue_genesia_1_1_data_1_1_random_extensions.html", null ],
-    [ "RogueGenesia.Data.RandomState", "struct_rogue_genesia_1_1_data_1_1_random_state.html", null ],
     [ "RogueGenesia.GameManager.RecentSoundContainer", "class_rogue_genesia_1_1_game_manager_1_1_recent_sound_container.html", null ],
     [ "RogueGenesia.RGRichText", "class_rogue_genesia_1_1_r_g_rich_text.html", null ],
     [ "RogueGenesia.RGUtils", "class_rogue_genesia_1_1_r_g_utils.html", null ],
@@ -526,7 +543,6 @@ var hierarchy =
     [ "ScriptableObject", null, [
       [ "RogueGenesia.Data.ChallengeSO", "class_rogue_genesia_1_1_data_1_1_challenge_s_o.html", null ],
       [ "RogueGenesia.Data.CollectibleSO", "class_rogue_genesia_1_1_data_1_1_collectible_s_o.html", null ],
-      [ "RogueGenesia.Data.EnemySO", "class_rogue_genesia_1_1_data_1_1_enemy_s_o.html", null ],
       [ "RogueGenesia.Data.EnemySOConversion", "class_rogue_genesia_1_1_data_1_1_enemy_s_o_conversion.html", null ],
       [ "RogueGenesia.Data.GameModeDifficultySO", "class_rogue_genesia_1_1_data_1_1_game_mode_difficulty_s_o.html", [
         [ "RogueGenesia.Data.RogueModeDifficultySO", "class_rogue_genesia_1_1_data_1_1_rogue_mode_difficulty_s_o.html", null ],
@@ -539,6 +555,7 @@ var hierarchy =
         [ "RogueGenesia.Data.ArtifactScriptableObject", "class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html", null ],
         [ "RogueGenesia.Data.AvatarScriptableObject", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html", null ],
         [ "RogueGenesia.Data.EnemyPatternScriptableObject", "class_rogue_genesia_1_1_data_1_1_enemy_pattern_scriptable_object.html", null ],
+        [ "RogueGenesia.Data.EnemySO", "class_rogue_genesia_1_1_data_1_1_enemy_s_o.html", null ],
         [ "RogueGenesia.Data.EnemyScriptableObject", "class_rogue_genesia_1_1_data_1_1_enemy_scriptable_object.html", null ],
         [ "RogueGenesia.Data.MonsterTypeScriptableObject", "class_rogue_genesia_1_1_data_1_1_monster_type_scriptable_object.html", null ],
         [ "RogueGenesia.Data.PetScriptableObject", "class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html", null ],
@@ -552,9 +569,11 @@ var hierarchy =
       [ "RogueGenesia.Data.SurvivorsModeModuleSO", "class_rogue_genesia_1_1_data_1_1_survivors_mode_module_s_o.html", null ],
       [ "RogueGenesia.RogueZoneSO", "class_rogue_genesia_1_1_rogue_zone_s_o.html", null ]
     ] ],
+    [ "ModGenesia.SCSORequirementJsonReader", "struct_mod_genesia_1_1_s_c_s_o_requirement_json_reader.html", null ],
     [ "RogueGenesia.GameManager.ShopGenerationInfo", "class_rogue_genesia_1_1_game_manager_1_1_shop_generation_info.html", null ],
     [ "RogueGenesia.Data.SingularModifier", "class_rogue_genesia_1_1_data_1_1_singular_modifier.html", null ],
     [ "ModGenesia.SoulCardCreationData", "class_mod_genesia_1_1_soul_card_creation_data.html", null ],
+    [ "ModGenesia.SoulCardJsonReader", "struct_mod_genesia_1_1_soul_card_json_reader.html", null ],
     [ "RogueGenesia.Save.SoulCardSave", "class_rogue_genesia_1_1_save_1_1_soul_card_save.html", null ],
     [ "RogueGenesia.SoulCardUtils", "class_rogue_genesia_1_1_soul_card_utils.html", null ],
     [ "RogueGenesia.Actors.Survival.SoulLevel", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html", [
@@ -578,6 +597,7 @@ var hierarchy =
       [ "RogueGenesia.Data.SwarmInfoClass", "class_rogue_genesia_1_1_data_1_1_swarm_info_class.html", null ]
     ] ],
     [ "RogueGenesia.Data.StageObjective", "class_rogue_genesia_1_1_data_1_1_stage_objective.html", [
+      [ "RogueGenesia.Data.AltarActivation", "class_rogue_genesia_1_1_data_1_1_altar_activation.html", null ],
       [ "RogueGenesia.Data.BreakCrate", "class_rogue_genesia_1_1_data_1_1_break_crate.html", null ],
       [ "RogueGenesia.Data.DefendShopKeeper", "class_rogue_genesia_1_1_data_1_1_defend_shop_keeper.html", null ],
       [ "RogueGenesia.Data.EmptyOptional", "class_rogue_genesia_1_1_data_1_1_empty_optional.html", null ],
@@ -603,11 +623,13 @@ var hierarchy =
     [ "RogueGenesia.Data.Statistic", "class_rogue_genesia_1_1_data_1_1_statistic.html", null ],
     [ "RogueGenesia.Data.StatModifier", "class_rogue_genesia_1_1_data_1_1_stat_modifier.html", null ],
     [ "RogueGenesia.Data.StatsModifier", "class_rogue_genesia_1_1_data_1_1_stats_modifier.html", null ],
+    [ "ModGenesia.StatsModifierJSonReaser", "struct_mod_genesia_1_1_stats_modifier_j_son_reaser.html", null ],
     [ "RogueGenesia.Save.StatsModifierSave", "class_rogue_genesia_1_1_save_1_1_stats_modifier_save.html", null ],
     [ "RogueGenesia.Data.StatsSerializationHelper", "class_rogue_genesia_1_1_data_1_1_stats_serialization_helper.html", null ],
     [ "ModGenesia.SteamWorkShop", "class_mod_genesia_1_1_steam_work_shop.html", null ],
     [ "RogueGenesia.GameManager.SurvivalElite", "class_rogue_genesia_1_1_game_manager_1_1_survival_elite.html", null ],
     [ "RogueGenesia.GameManager.SurvivalModuleTime", "class_rogue_genesia_1_1_game_manager_1_1_survival_module_time.html", null ],
+    [ "RogueGenesia.Actors.Survival.SwordSlash", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_sword_slash.html", null ],
     [ "RogueGenesia.Data.TalentLevelData", "class_rogue_genesia_1_1_data_1_1_talent_level_data.html", null ],
     [ "RogueGenesia.Data.TalentSaveData", "class_rogue_genesia_1_1_data_1_1_talent_save_data.html", null ],
     [ "RogueGenesia.Data.TalentsData", "class_rogue_genesia_1_1_data_1_1_talents_data.html", null ],
@@ -628,6 +650,7 @@ var hierarchy =
       [ "RogueGenesia.Actors.Survival.BowWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_bow_weapon.html", null ],
       [ "RogueGenesia.Actors.Survival.CleaveWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_cleave_weapon.html", null ],
       [ "RogueGenesia.Actors.Survival.CrossBowWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_cross_bow_weapon.html", null ],
+      [ "RogueGenesia.Actors.Survival.CrystalSwordWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crystal_sword_weapon.html", null ],
       [ "RogueGenesia.Actors.Survival.CursedBoltWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_cursed_bolt_weapon.html", null ],
       [ "RogueGenesia.Actors.Survival.DeathScytheWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_death_scythe_weapon.html", null ],
       [ "RogueGenesia.Actors.Survival.EvilRing", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_evil_ring.html", null ],
@@ -655,8 +678,10 @@ var hierarchy =
       [ "RogueGenesia.Actors.Survival.PikeWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_pike_weapon.html", null ],
       [ "RogueGenesia.Actors.Survival.ShamanStaff", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_staff.html", null ],
       [ "RogueGenesia.Actors.Survival.ShurikenWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shuriken_weapon.html", null ],
+      [ "RogueGenesia.Actors.Survival.SolaLanceWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_sola_lance_weapon.html", null ],
       [ "RogueGenesia.Actors.Survival.SpearWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_spear_weapon.html", null ],
       [ "RogueGenesia.Actors.Survival.StormStaffWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_storm_staff_weapon.html", null ],
+      [ "RogueGenesia.Actors.Survival.SunSwordWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_sun_sword_weapon.html", null ],
       [ "RogueGenesia.Actors.Survival.SwordrangWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_swordrang_weapon.html", null ],
       [ "RogueGenesia.Actors.Survival.ThrowingKnifeWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_throwing_knife_weapon.html", null ],
       [ "RogueGenesia.Actors.Survival.ThunderStaffWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_thunder_staff_weapon.html", null ],

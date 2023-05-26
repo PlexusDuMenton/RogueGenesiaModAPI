@@ -14,6 +14,7 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/ScriptableObjects"
   dir_b0baab694c93c51548879ebe5fea2013 [label="Enemy", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_b0baab694c93c51548879ebe5fea2013.html",tooltip=""];
   dir_002da3c59102507e5111a16585a8fd84 [label="GameMode", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_002da3c59102507e5111a16585a8fd84.html",tooltip=""];
   dir_ce10be526171a78bdae6b5169f9670c6 [label="GameObjective", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_ce10be526171a78bdae6b5169f9670c6.html",tooltip=""];
+  dir_287e50e18b6c82b2c24b56580bce8da4 [label="SoulCards", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_287e50e18b6c82b2c24b56580bce8da4.html",tooltip=""];
   dir_0b9b90b2aaa432f1a4d65179d77178d7 [label="Stage", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_0b9b90b2aaa432f1a4d65179d77178d7.html",tooltip=""];
   dir_69c72352cb9538458de2dd8c496db7ca [label="Zone", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_69c72352cb9538458de2dd8c496db7ca.html",tooltip=""];
   }

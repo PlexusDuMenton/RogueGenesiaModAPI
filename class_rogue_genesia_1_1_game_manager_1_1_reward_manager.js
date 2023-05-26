@@ -29,6 +29,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_reward_manager =
     [ "goldText", "class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html#a8bf6fc299f2b6d37fba5a7b876fd7d11", null ],
     [ "instance", "class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html#a1a05c2155103a7dd98b5a8d309dc35d5", null ],
     [ "Kill", "class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html#ac0af0939f816fc607310093d657c663a", null ],
+    [ "PetGameObject", "class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html#ac9ec5189f34306afc1a00e71983e96c2", null ],
     [ "RewardList", "class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html#ab72385e250d93517458018ba226a9ed4", null ],
     [ "RewardScreen", "class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html#a9b48202a8b893f6c6a255e8a96d02941", null ],
     [ "ScrollContent", "class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html#ad20c38a7bbb77e05f0b9a75231a3b3d6", null ],

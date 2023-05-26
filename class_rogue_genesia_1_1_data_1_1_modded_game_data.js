@@ -9,6 +9,7 @@ var class_rogue_genesia_1_1_data_1_1_modded_game_data =
     [ "ModdedCollectible", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a1061d364e64f10ef456373a32f620c77", null ],
     [ "ModdedDamageSource", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#adc22f8f6df6c516d528fcce077827d10", null ],
     [ "ModdedDifficulty", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#adfeb0ae5465e94b8e5abb2c5f21557e5", null ],
+    [ "ModdedEnemies", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a519938adeeb5404a846892c1ab8902af", null ],
     [ "ModdedGameMode", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a0e8255ff902bf307fd1e57d4bab89331", null ],
     [ "ModdedOption", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a33b69264e406bfaa3e6d9d82b097bf44", null ],
     [ "ModdedPets", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a67c1fdd3ccc51a6298af0e7860bbdfb8", null ],

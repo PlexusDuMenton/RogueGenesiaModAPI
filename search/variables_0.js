@@ -189,5 +189,6 @@ var searchData=
   ['_5fworldrank_186',['_worldRank',['../class_rogue_genesia_1_1_data_1_1_previous_game_data.html#abd145c39a38fe907a3305ec0ccb64fc3',1,'RogueGenesia::Data::PreviousGameData']]],
   ['_5fxpbuff_187',['_xpBuff',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_envy_buff.html#af289d386550523eaad3534ebb5db7728',1,'RogueGenesia.Actors.Survival.EnvyBuff._xpBuff()'],['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_pride_buff.html#a7da2827ade7ac6ea8be3c4c460a38c1f',1,'RogueGenesia.Actors.Survival.PrideBuff._xpBuff()']]],
   ['_5fxpcap_188',['_xpCap',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_envy_buff.html#a1321b2aaf19a337c3610db36693a3e9e',1,'RogueGenesia.Actors.Survival.EnvyBuff._xpCap()'],['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_pride_buff.html#ab6d368f6ecfb2eb78c91474e2e1ce9b6',1,'RogueGenesia.Actors.Survival.PrideBuff._xpCap()']]],
-  ['_5fzone_189',['_zone',['../class_rogue_genesia_1_1_data_1_1_previous_game_data.html#a297a9b9f6f11336bada4eeded06796a4',1,'RogueGenesia::Data::PreviousGameData']]]
+  ['_5fxpmultiplierfromcorruption_189',['_xpMultiplierFromCorruption',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html#a16a31bc45baac74b51918ade9b02b117',1,'RogueGenesia::Actors::Survival::Monster']]],
+  ['_5fzone_190',['_zone',['../class_rogue_genesia_1_1_data_1_1_previous_game_data.html#a297a9b9f6f11336bada4eeded06796a4',1,'RogueGenesia::Data::PreviousGameData']]]
 ];

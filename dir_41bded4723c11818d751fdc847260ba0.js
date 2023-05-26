@@ -1,6 +1,7 @@
 var dir_41bded4723c11818d751fdc847260ba0 =
 [
     [ "OptionalObjective", "dir_48f2b63fb60ff7b03a5c6ede43cfb7e0.html", "dir_48f2b63fb60ff7b03a5c6ede43cfb7e0" ],
+    [ "AltarActivation.cs", "_altar_activation_8cs.html", "_altar_activation_8cs" ],
     [ "DefendShopKeeper.cs", "_defend_shop_keeper_8cs.html", "_defend_shop_keeper_8cs" ],
     [ "GoldCollect.cs", "_gold_collect_8cs.html", "_gold_collect_8cs" ],
     [ "KillCount.cs", "_kill_count_8cs.html", "_kill_count_8cs" ],

@@ -1,5 +1,6 @@
 var class_rogue_genesia_1_1_data_1_1_s_c_s_o_requirement_list =
 [
+    [ "CheckRequiredCardIsValid", "class_rogue_genesia_1_1_data_1_1_s_c_s_o_requirement_list.html#a65e983340ae7b0a36d511ab945e4338b", null ],
     [ "IsRequirementFullfilled", "class_rogue_genesia_1_1_data_1_1_s_c_s_o_requirement_list.html#a90df0c190c0e9b7c34691a71ff975f30", null ],
     [ "CardRequirement", "class_rogue_genesia_1_1_data_1_1_s_c_s_o_requirement_list.html#a407e6666b659ffee1b0f08782626dff2", null ],
     [ "LevelRequirement", "class_rogue_genesia_1_1_data_1_1_s_c_s_o_requirement_list.html#a6706534082abf35f9b47e67bafe3de70", null ],

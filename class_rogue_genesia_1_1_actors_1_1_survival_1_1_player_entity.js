@@ -50,7 +50,6 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity =
     [ "ActualMoveSpeed", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#affce5d71b01ca2432ac06c1fff638bec", null ],
     [ "ArtifactEffect", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a952b574b300d0576f7948d7eabc4c264", null ],
     [ "BonusAnachronisticTimeLeft", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#aea657593d1c15e802ec0f8c540115d7e", null ],
-    [ "ChestArrow", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a78f0521ed63e5e0d45bb6f7a8c377e43", null ],
     [ "controler", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#aeaa915bc2d902636f95b3bfa87c3cd79", null ],
     [ "DashChargeLeft", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#ad4a40869a53c83e735fb0be36e599349", null ],
     [ "hasProjectileShield", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html#a80d20fac2b7dfb6373dbdbc0cf156d0f", null ],

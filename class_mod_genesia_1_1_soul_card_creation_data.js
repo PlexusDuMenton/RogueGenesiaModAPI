@@ -1,5 +1,7 @@
 var class_mod_genesia_1_1_soul_card_creation_data =
 [
+    [ "SoulCardCreationData", "class_mod_genesia_1_1_soul_card_creation_data.html#a4a067007296b9061db5e4df8f561fe23", null ],
+    [ "SoulCardCreationData", "class_mod_genesia_1_1_soul_card_creation_data.html#adcf232f98216be9221bed27073dcc87a", null ],
     [ "avatarLimitationList", "class_mod_genesia_1_1_soul_card_creation_data.html#ac79869d6a3ff8063714ab21ac2c97f8c", null ],
     [ "cardAvatarLimitation", "class_mod_genesia_1_1_soul_card_creation_data.html#abdffd5e25b904230cd19910aed4e59ae", null ],
     [ "CardExclusion", "class_mod_genesia_1_1_soul_card_creation_data.html#ac854fcb17bdc5b4f25e6d2853193ed37", null ],

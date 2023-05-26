@@ -2,6 +2,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff =
 [
     [ "Buff", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#ae03f38621da312b141216859eb276317", null ],
     [ "AddBuff", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#a3080e7a9da5e82bf86fd0bcc37b7b172", null ],
+    [ "CheckIndependantStackDuration", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#abc821e9f32fd03927af424e7b5742046", null ],
     [ "DurationLeft", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#aed204b1222df1a12deabbcfa91ba034c", null ],
     [ "GetDescription", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#aeebba2069272de5a42c121df50164ca7", null ],
     [ "GetDurationProgress", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#a0227c58c7b6cea8e12ae73763d1ff66e", null ],

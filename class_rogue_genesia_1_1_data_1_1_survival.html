@@ -141,6 +141,8 @@ Inheritance diagram for RogueGenesia.Data.Survival:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a52b5309a66ff0cda47d98f74cc6ac7e0"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_survival.html#a52b5309a66ff0cda47d98f74cc6ac7e0">GetBudgetFromObjective</a> (float currentTime, float timeCoef, ref float MaximumEnemiesBudget)</td></tr>
 <tr class="separator:a52b5309a66ff0cda47d98f74cc6ac7e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a678cab8560d0aa30905ead78fccc7e4e"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_survival.html#a678cab8560d0aa30905ead78fccc7e4e">SetObjective</a> ()</td></tr>
+<tr class="separator:a678cab8560d0aa30905ead78fccc7e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0bf7ff0a81164dc405f79c68f53d39d"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_survival.html#ad0bf7ff0a81164dc405f79c68f53d39d">CheckObjective</a> ()</td></tr>
 <tr class="separator:ad0bf7ff0a81164dc405f79c68f53d39d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6336df55e3430dc58ee40e43899bd21"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_survival.html#ad6336df55e3430dc58ee40e43899bd21">GetObjectiveText</a> ()</td></tr>
@@ -190,6 +192,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6d760d0b2094858dc9868e0ebfd0db13 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a240d9a6c08e52fbadd40707dc624f973 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html#a240d9a6c08e52fbadd40707dc624f973">GetObjectiveText</a> ()</td></tr>
 <tr class="separator:a240d9a6c08e52fbadd40707dc624f973 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65c83f3b5461a6dbccbe739ad0b9c837 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html#a65c83f3b5461a6dbccbe739ad0b9c837">GetEliteSpawnChanceMultiplier</a> ()</td></tr>
+<tr class="separator:a65c83f3b5461a6dbccbe739ad0b9c837 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a385b4c51087024d17b5daf389885e9df inherit pub_methods_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html#a385b4c51087024d17b5daf389885e9df">GetFinalBudgetMultiplier</a> (ref float enemySpawnDelay)</td></tr>
 <tr class="separator:a385b4c51087024d17b5daf389885e9df inherit pub_methods_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39f71add42f8f1e6d7e1f40b4268f7f3 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html#a39f71add42f8f1e6d7e1f40b4268f7f3">SpawnTarget</a> ()</td></tr>
@@ -335,6 +339,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html#a240d9a6c08e52fbadd40707dc624f973">RogueGenesia.Data.StageObjective</a>.</p>
+
+</div>
+</div>
+<a id="a678cab8560d0aa30905ead78fccc7e4e" name="a678cab8560d0aa30905ead78fccc7e4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a678cab8560d0aa30905ead78fccc7e4e">&#9670;&#160;</a></span>SetObjective()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.Data.Survival.SetObjective </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html#a48303369809897db2937048b26e3b9ab">RogueGenesia.Data.StageObjective</a>.</p>
 
 </div>
 </div>

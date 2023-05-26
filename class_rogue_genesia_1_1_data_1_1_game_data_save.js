@@ -12,6 +12,7 @@ var class_rogue_genesia_1_1_data_1_1_game_data_save =
     [ "SetStringValue", "class_rogue_genesia_1_1_data_1_1_game_data_save.html#af222298d99a730e0e48d745245b504f3", null ],
     [ "AvatarSave", "class_rogue_genesia_1_1_data_1_1_game_data_save.html#a33fde14ab1ad82ef1e7fc18b44b07331", null ],
     [ "Challenges", "class_rogue_genesia_1_1_data_1_1_game_data_save.html#a0f0e2dc80546c4620dfa1d828ef670e0", null ],
+    [ "enemiesKillList", "class_rogue_genesia_1_1_data_1_1_game_data_save.html#ab6e5e41fbed2dbb2e8da3b41f2e6d35d", null ],
     [ "EquipedActiveTalents", "class_rogue_genesia_1_1_data_1_1_game_data_save.html#a6da9ba85f84c743456fa49c8f78f4ea5", null ],
     [ "EquipedPassiveTalents", "class_rogue_genesia_1_1_data_1_1_game_data_save.html#aafde4e20549afa92388347ff2699eafe", null ],
     [ "highestReachedStats", "class_rogue_genesia_1_1_data_1_1_game_data_save.html#a390dd757161f86407b7016d170771d27", null ],

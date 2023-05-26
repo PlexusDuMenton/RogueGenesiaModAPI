@@ -127,6 +127,7 @@ $(document).ready(function(){initNavTree('class_rogue_genesia_1_1_actors_1_1_sur
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff-members.html">List of all members</a>  </div>
@@ -193,6 +194,11 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ab006f7b1618f294517dcaedc63cf3adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69c7706d4ac918ed40554f7003f99cd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html">Buff</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#a69c7706d4ac918ed40554f7003f99cd2">NewBuffReference</a> = null</td></tr>
 <tr class="separator:a69c7706d4ac918ed40554f7003f99cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:abc821e9f32fd03927af424e7b5742046"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#abc821e9f32fd03927af424e7b5742046">CheckIndependantStackDuration</a> ()</td></tr>
+<tr class="separator:abc821e9f32fd03927af424e7b5742046"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -313,6 +319,31 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_benediction_buff.html#a161cbcbd2617a0cf5494e85b07b7f944">RogueGenesia.Actors.Survival.BenedictionBuff</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_berserk_buff.html#a8eadba640d3cb58334872c07a2bef040">RogueGenesia.Actors.Survival.BerserkBuff</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_on_reload_buff.html#a1477843df8044ea55c1657d84778d7be">RogueGenesia.Actors.Survival.DamageOnReloadBuff</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_envy_buff.html#a374215507e1a5b0d138d44bd119fc1ed">RogueGenesia.Actors.Survival.EnvyBuff</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_gluttony_buff.html#a39cdb1880225fed1747a09ee78d0964e">RogueGenesia.Actors.Survival.GluttonyBuff</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lust_buff.html#ad47be4f29b4e6a28c61a9e14ef423ec2">RogueGenesia.Actors.Survival.LustBuff</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_pride_buff.html#a6ac9fdd1f56b795b48ea9f6750a16e8e">RogueGenesia.Actors.Survival.PrideBuff</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_wrath_buff.html#a80075a97a6425d9a20b3b4c13fb7db82">RogueGenesia.Actors.Survival.WrathBuff</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_desynchronised_heart_buff.html#ad0a87bd2e9daf1089fdeafef1d2ac48c">RogueGenesia.Actors.Survival.DesynchronisedHeartBuff</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_synchronised_projectile_buff.html#aa5266d15ee3d179c4c14f5774bda98b7">RogueGenesia.Actors.Survival.SynchronisedProjectileBuff</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_thorn_talent_buff.html#a96fc249cca340f3fb383c68a65d81433">RogueGenesia.Actors.Survival.ThornTalentBuff</a>.</p>
+
+</div>
+</div>
+<a id="abc821e9f32fd03927af424e7b5742046" name="abc821e9f32fd03927af424e7b5742046"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc821e9f32fd03927af424e7b5742046">&#9670;&#160;</a></span>CheckIndependantStackDuration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool RogueGenesia.Actors.Survival.Buff.CheckIndependantStackDuration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

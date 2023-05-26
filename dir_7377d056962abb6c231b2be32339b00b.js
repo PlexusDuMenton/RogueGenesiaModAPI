@@ -13,5 +13,6 @@ var dir_7377d056962abb6c231b2be32339b00b =
     [ "OrbitalProjectileAI.cs", "_orbital_projectile_a_i_8cs.html", "_orbital_projectile_a_i_8cs" ],
     [ "PikeProjectileAi.cs", "_pike_projectile_ai_8cs.html", "_pike_projectile_ai_8cs" ],
     [ "PlanetaryProjectilAI.cs", "_planetary_projectil_a_i_8cs.html", "_planetary_projectil_a_i_8cs" ],
+    [ "VisualProjectileAI.cs", "_visual_projectile_a_i_8cs.html", "_visual_projectile_a_i_8cs" ],
     [ "WispProjectilAI.cs", "_wisp_projectil_a_i_8cs.html", "_wisp_projectil_a_i_8cs" ]
 ];

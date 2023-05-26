@@ -29,5 +29,7 @@ digraph "RogueGenesia.Actors.Survival.DefaultProjectilAI"
   Node1 -> Node12 [dir="back",color="steelblue1",style="solid"];
   Node12 [label="RogueGenesia.Actors.Survival.\lPlanetaryProjectilAI",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_planetary_projectil_a_i.html",tooltip=" "];
   Node1 -> Node13 [dir="back",color="steelblue1",style="solid"];
-  Node13 [label="RogueGenesia.Actors.Survival.\lWispProjectilAI",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_wisp_projectil_a_i.html",tooltip=" "];
+  Node13 [label="RogueGenesia.Actors.Survival.\lVisualProjectileAI",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_visual_projectile_a_i.html",tooltip=" "];
+  Node1 -> Node14 [dir="back",color="steelblue1",style="solid"];
+  Node14 [label="RogueGenesia.Actors.Survival.\lWispProjectilAI",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_wisp_projectil_a_i.html",tooltip=" "];
 }

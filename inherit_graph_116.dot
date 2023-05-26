@@ -5,5 +5,27 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="RogueGenesia.Data.StatsModifier",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_stats_modifier.html",tooltip=" "];
+  Node0 [label="RogueGenesia.Data.StageInfo\lClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_stage_info_class.html",tooltip=" "];
+  Node0 -> Node1 [dir="back",color="steelblue1",style="solid"];
+  Node1 [label="RogueGenesia.Data.ArenaInfo\lClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_arena_info_class.html",tooltip=" "];
+  Node0 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="RogueGenesia.Data.BlackSmith\lInfoClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_black_smith_info_class.html",tooltip=" "];
+  Node0 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="RogueGenesia.Data.BossInfo\lClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_boss_info_class.html",tooltip=" "];
+  Node0 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="RogueGenesia.Data.ChestInfo\lClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_chest_info_class.html",tooltip=" "];
+  Node0 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="RogueGenesia.Data.Combat\lInfoClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_combat_info_class.html",tooltip=" "];
+  Node0 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="RogueGenesia.Data.EliteInfo\lClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_elite_info_class.html",tooltip=" "];
+  Node0 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node7 [label="RogueGenesia.Data.EliteSwarm\lInfoClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_elite_swarm_info_class.html",tooltip=" "];
+  Node0 -> Node8 [dir="back",color="steelblue1",style="solid"];
+  Node8 [label="RogueGenesia.Data.EventInfo\lClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_event_info_class.html",tooltip=" "];
+  Node0 -> Node9 [dir="back",color="steelblue1",style="solid"];
+  Node9 [label="RogueGenesia.Data.MidBoss\lInfoClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_mid_boss_info_class.html",tooltip=" "];
+  Node0 -> Node10 [dir="back",color="steelblue1",style="solid"];
+  Node10 [label="RogueGenesia.Data.ShopInfo\lClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_shop_info_class.html",tooltip=" "];
+  Node0 -> Node11 [dir="back",color="steelblue1",style="solid"];
+  Node11 [label="RogueGenesia.Data.SwarmInfo\lClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_swarm_info_class.html",tooltip=" "];
 }

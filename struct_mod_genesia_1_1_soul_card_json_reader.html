@@ -1,0 +1,477 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue: Genesia API" />
+<meta property="og:image" content="" />
+<meta property="og:description" content="Rogue: Genesia API for modders" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="" />
+<meta name="twitter:title" content="Rogue: Genesia API" />
+<meta name="twitter:description" content="Rogue: Genesia API for modders" />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: ModGenesia.SoulCardJsonReader Struct Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('struct_mod_genesia_1_1_soul_card_json_reader.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="struct_mod_genesia_1_1_soul_card_json_reader-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">ModGenesia.SoulCardJsonReader Struct Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a2024689d1ec01d6810f37c697bd32a28"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html#a2024689d1ec01d6810f37c697bd32a28">SpriteLocation</a></td></tr>
+<tr class="separator:a2024689d1ec01d6810f37c697bd32a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20d43a85425de34e775afb2638e538d5"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html#a20d43a85425de34e775afb2638e538d5">Rarity</a></td></tr>
+<tr class="separator:a20d43a85425de34e775afb2638e538d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3530c0b83b7bd4b2d3243eb4a871b755"><td class="memItemLeft" align="right" valign="top">string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html#a3530c0b83b7bd4b2d3243eb4a871b755">Tags</a></td></tr>
+<tr class="separator:a3530c0b83b7bd4b2d3243eb4a871b755"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f945c71ca1c2be8462b6202b696d00f"><td class="memItemLeft" align="right" valign="top">string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html#a5f945c71ca1c2be8462b6202b696d00f">WeaponTags</a></td></tr>
+<tr class="separator:a5f945c71ca1c2be8462b6202b696d00f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9477e8106f20d911725102f644dfb357"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html#a9477e8106f20d911725102f644dfb357">MaxLevel</a></td></tr>
+<tr class="separator:a9477e8106f20d911725102f644dfb357"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a738a66e8002893982735f9bcd3db8d41"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html#a738a66e8002893982735f9bcd3db8d41">DropWeight</a></td></tr>
+<tr class="separator:a738a66e8002893982735f9bcd3db8d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f73aacda47e7deebf45118c510e7be2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html#a9f73aacda47e7deebf45118c510e7be2">LevelUpWeight</a></td></tr>
+<tr class="separator:a9f73aacda47e7deebf45118c510e7be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2407662cd5f7caf147e776d203966e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mod_genesia_1_1_stats_modifier_j_son_reaser.html">StatsModifierJSonReaser</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html#ac2407662cd5f7caf147e776d203966e5">Stats</a></td></tr>
+<tr class="separator:ac2407662cd5f7caf147e776d203966e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec1f5b3f6a09a7d0aea7815b94033827"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data.html">LocalizationData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html#aec1f5b3f6a09a7d0aea7815b94033827">NameOverride</a></td></tr>
+<tr class="separator:aec1f5b3f6a09a7d0aea7815b94033827"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b41df2d2348c92024b711ae8ae324f0"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data.html">LocalizationData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html#a8b41df2d2348c92024b711ae8ae324f0">DescriptionOverride</a></td></tr>
+<tr class="separator:a8b41df2d2348c92024b711ae8ae324f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73914e73dfd3ec32cedcea7e15772bef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html#a73914e73dfd3ec32cedcea7e15772bef">DisableInRogMode</a></td></tr>
+<tr class="separator:a73914e73dfd3ec32cedcea7e15772bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a697c0ad78c085528504afd10133bf491"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html#a697c0ad78c085528504afd10133bf491">DisableInSurvivorsMode</a></td></tr>
+<tr class="separator:a697c0ad78c085528504afd10133bf491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa83170878dee95ffcecdac246b4df44b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mod_genesia_1_1_s_c_s_o_requirement_json_reader.html">SCSORequirementJsonReader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html#aa83170878dee95ffcecdac246b4df44b">CardRequirement</a></td></tr>
+<tr class="memdesc:aa83170878dee95ffcecdac246b4df44b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Soft Requirement for the card to appear (One of the condition must be fulfilled.  <br /></td></tr>
+<tr class="separator:aa83170878dee95ffcecdac246b4df44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3b1a63fbca2bcbe67b3c5f063753e4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mod_genesia_1_1_s_c_s_o_requirement_json_reader.html">SCSORequirementJsonReader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html#ac3b1a63fbca2bcbe67b3c5f063753e4f">CardHardRequirement</a></td></tr>
+<tr class="memdesc:ac3b1a63fbca2bcbe67b3c5f063753e4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hard Requirement, All the conditions must be fullfilled.  <br /></td></tr>
+<tr class="separator:ac3b1a63fbca2bcbe67b3c5f063753e4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e15f0abd502054e256c8e0e346c8968"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html#a3e15f0abd502054e256c8e0e346c8968">ModSource</a></td></tr>
+<tr class="separator:a3e15f0abd502054e256c8e0e346c8968"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3010084be8e1df84320ebc30db1dd397"><td class="memItemLeft" align="right" valign="top">string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html#a3010084be8e1df84320ebc30db1dd397">CardExclusion</a></td></tr>
+<tr class="separator:a3010084be8e1df84320ebc30db1dd397"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a854fe93a4a137389fba00a1a7a756740"><td class="memItemLeft" align="right" valign="top">string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html#a854fe93a4a137389fba00a1a7a756740">CardToRemove</a></td></tr>
+<tr class="separator:a854fe93a4a137389fba00a1a7a756740"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31f2a0db940cb4055679005d9a7f8a10"><td class="memItemLeft" align="right" valign="top">string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html#a31f2a0db940cb4055679005d9a7f8a10">StatsToBans</a></td></tr>
+<tr class="separator:a31f2a0db940cb4055679005d9a7f8a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a919d1d982da568e39fa1b9ecea975ebb"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html#a919d1d982da568e39fa1b9ecea975ebb">CardAvatarLimitation</a></td></tr>
+<tr class="separator:a919d1d982da568e39fa1b9ecea975ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae468c1227bff78a9d4666a03f55b58f"><td class="memItemLeft" align="right" valign="top">List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html#aae468c1227bff78a9d4666a03f55b58f">AvatarLimitationList</a></td></tr>
+<tr class="separator:aae468c1227bff78a9d4666a03f55b58f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aae468c1227bff78a9d4666a03f55b58f" name="aae468c1227bff78a9d4666a03f55b58f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae468c1227bff78a9d4666a03f55b58f">&#9670;&#160;</a></span>AvatarLimitationList</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;string&gt; ModGenesia.SoulCardJsonReader.AvatarLimitationList</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a919d1d982da568e39fa1b9ecea975ebb" name="a919d1d982da568e39fa1b9ecea975ebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a919d1d982da568e39fa1b9ecea975ebb">&#9670;&#160;</a></span>CardAvatarLimitation</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ModGenesia.SoulCardJsonReader.CardAvatarLimitation</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3010084be8e1df84320ebc30db1dd397" name="a3010084be8e1df84320ebc30db1dd397"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3010084be8e1df84320ebc30db1dd397">&#9670;&#160;</a></span>CardExclusion</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string [] ModGenesia.SoulCardJsonReader.CardExclusion</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac3b1a63fbca2bcbe67b3c5f063753e4f" name="ac3b1a63fbca2bcbe67b3c5f063753e4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3b1a63fbca2bcbe67b3c5f063753e4f">&#9670;&#160;</a></span>CardHardRequirement</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_mod_genesia_1_1_s_c_s_o_requirement_json_reader.html">SCSORequirementJsonReader</a> ModGenesia.SoulCardJsonReader.CardHardRequirement</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Hard Requirement, All the conditions must be fullfilled. </p>
+
+</div>
+</div>
+<a id="aa83170878dee95ffcecdac246b4df44b" name="aa83170878dee95ffcecdac246b4df44b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa83170878dee95ffcecdac246b4df44b">&#9670;&#160;</a></span>CardRequirement</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_mod_genesia_1_1_s_c_s_o_requirement_json_reader.html">SCSORequirementJsonReader</a> ModGenesia.SoulCardJsonReader.CardRequirement</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Soft Requirement for the card to appear (One of the condition must be fulfilled. </p>
+
+</div>
+</div>
+<a id="a854fe93a4a137389fba00a1a7a756740" name="a854fe93a4a137389fba00a1a7a756740"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a854fe93a4a137389fba00a1a7a756740">&#9670;&#160;</a></span>CardToRemove</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string [] ModGenesia.SoulCardJsonReader.CardToRemove</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8b41df2d2348c92024b711ae8ae324f0" name="a8b41df2d2348c92024b711ae8ae324f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b41df2d2348c92024b711ae8ae324f0">&#9670;&#160;</a></span>DescriptionOverride</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data.html">LocalizationData</a>&gt; ModGenesia.SoulCardJsonReader.DescriptionOverride</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a73914e73dfd3ec32cedcea7e15772bef" name="a73914e73dfd3ec32cedcea7e15772bef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73914e73dfd3ec32cedcea7e15772bef">&#9670;&#160;</a></span>DisableInRogMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ModGenesia.SoulCardJsonReader.DisableInRogMode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a697c0ad78c085528504afd10133bf491" name="a697c0ad78c085528504afd10133bf491"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a697c0ad78c085528504afd10133bf491">&#9670;&#160;</a></span>DisableInSurvivorsMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ModGenesia.SoulCardJsonReader.DisableInSurvivorsMode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a738a66e8002893982735f9bcd3db8d41" name="a738a66e8002893982735f9bcd3db8d41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a738a66e8002893982735f9bcd3db8d41">&#9670;&#160;</a></span>DropWeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ModGenesia.SoulCardJsonReader.DropWeight</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9f73aacda47e7deebf45118c510e7be2" name="a9f73aacda47e7deebf45118c510e7be2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f73aacda47e7deebf45118c510e7be2">&#9670;&#160;</a></span>LevelUpWeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ModGenesia.SoulCardJsonReader.LevelUpWeight</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9477e8106f20d911725102f644dfb357" name="a9477e8106f20d911725102f644dfb357"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9477e8106f20d911725102f644dfb357">&#9670;&#160;</a></span>MaxLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ModGenesia.SoulCardJsonReader.MaxLevel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e15f0abd502054e256c8e0e346c8968" name="a3e15f0abd502054e256c8e0e346c8968"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e15f0abd502054e256c8e0e346c8968">&#9670;&#160;</a></span>ModSource</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ModGenesia.SoulCardJsonReader.ModSource</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec1f5b3f6a09a7d0aea7815b94033827" name="aec1f5b3f6a09a7d0aea7815b94033827"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec1f5b3f6a09a7d0aea7815b94033827">&#9670;&#160;</a></span>NameOverride</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data.html">LocalizationData</a>&gt; ModGenesia.SoulCardJsonReader.NameOverride</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20d43a85425de34e775afb2638e538d5" name="a20d43a85425de34e775afb2638e538d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20d43a85425de34e775afb2638e538d5">&#9670;&#160;</a></span>Rarity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ModGenesia.SoulCardJsonReader.Rarity</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2024689d1ec01d6810f37c697bd32a28" name="a2024689d1ec01d6810f37c697bd32a28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2024689d1ec01d6810f37c697bd32a28">&#9670;&#160;</a></span>SpriteLocation</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ModGenesia.SoulCardJsonReader.SpriteLocation</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2407662cd5f7caf147e776d203966e5" name="ac2407662cd5f7caf147e776d203966e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2407662cd5f7caf147e776d203966e5">&#9670;&#160;</a></span>Stats</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_mod_genesia_1_1_stats_modifier_j_son_reaser.html">StatsModifierJSonReaser</a> [] ModGenesia.SoulCardJsonReader.Stats</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31f2a0db940cb4055679005d9a7f8a10" name="a31f2a0db940cb4055679005d9a7f8a10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31f2a0db940cb4055679005d9a7f8a10">&#9670;&#160;</a></span>StatsToBans</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string [] ModGenesia.SoulCardJsonReader.StatsToBans</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3530c0b83b7bd4b2d3243eb4a871b755" name="a3530c0b83b7bd4b2d3243eb4a871b755"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3530c0b83b7bd4b2d3243eb4a871b755">&#9670;&#160;</a></span>Tags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string [] ModGenesia.SoulCardJsonReader.Tags</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f945c71ca1c2be8462b6202b696d00f" name="a5f945c71ca1c2be8462b6202b696d00f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f945c71ca1c2be8462b6202b696d00f">&#9670;&#160;</a></span>WeaponTags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string [] ModGenesia.SoulCardJsonReader.WeaponTags</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/ModGenesia/<a class="el" href="_card_a_p_i_8cs.html">CardAPI.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_mod_genesia.html">ModGenesia</a></li><li class="navelem"><a class="el" href="struct_mod_genesia_1_1_soul_card_json_reader.html">SoulCardJsonReader</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

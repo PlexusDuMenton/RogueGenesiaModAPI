@@ -136,6 +136,8 @@ $(document).ready(function(){initNavTree('class_rogue_genesia_1_1_game_manager_1
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2b3a9b4d36d705331495ae38fd624143"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a2b3a9b4d36d705331495ae38fd624143">RemoveAllRunListener</a> ()</td></tr>
 <tr class="separator:a2b3a9b4d36d705331495ae38fd624143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0092edbe85ba45bcf2db2e311ef58fea"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a0092edbe85ba45bcf2db2e311ef58fea">RemoveAllListener</a> (this object obj)</td></tr>
+<tr class="separator:a0092edbe85ba45bcf2db2e311ef58fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -171,6 +173,8 @@ Static Public Attributes</h2></td></tr>
  float - value of the option<br  />
   <br /></td></tr>
 <tr class="separator:ab4230aec7475bce1318bd34e3a12823d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70ce07a9798d87d893dae3925157236f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt; <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a70ce07a9798d87d893dae3925157236f">OnMonsterTakeDamage</a> = new <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a>&gt;()</td></tr>
+<tr class="separator:a70ce07a9798d87d893dae3925157236f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf0c98c79ae37a0b36b3b3816a5d6fe5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt; <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a>, string, double[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#acf0c98c79ae37a0b36b3b3816a5d6fe5">OnCrateBroken</a> = new <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a>, string, double[]&gt;()</td></tr>
 <tr class="memdesc:acf0c98c79ae37a0b36b3b3816a5d6fe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a crate in broken<br  />
 <br  />
@@ -303,15 +307,15 @@ Static Public Attributes</h2></td></tr>
 </ul>
 <p>All listenter are removed upon leaving/starting a game   <br /></td></tr>
 <tr class="separator:a7f0958bff028024668c9bb32da8498bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08ae6df2a6ab3cffed692bf3858f8b00"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt; <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a>, <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_float_value.html">FloatValue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a08ae6df2a6ab3cffed692bf3858f8b00">OnEatFood</a> = new <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a>, <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_float_value.html">FloatValue</a>&gt;()</td></tr>
-<tr class="memdesc:a08ae6df2a6ab3cffed692bf3858f8b00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when Food is eaten<br  />
+<tr class="memitem:aa82954e4d5dca7481f85d808e884a66a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt; <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a>, <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_float_value.html">FloatValue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#aa82954e4d5dca7481f85d808e884a66a">OnEatFood</a> = new <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a>, <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_float_value.html">FloatValue</a>&gt;()</td></tr>
+<tr class="memdesc:aa82954e4d5dca7481f85d808e884a66a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when Food is eaten<br  />
 <br  />
  PlayerEntity - Player entity starting the ability<br  />
  FloatValue - Health healed by the food<br  />
  </p><ul>
 </ul>
 <p>All listenter are removed upon leaving/starting a game   <br /></td></tr>
-<tr class="separator:a08ae6df2a6ab3cffed692bf3858f8b00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:aa82954e4d5dca7481f85d808e884a66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d9261eaffa87530b8bbbdcb916b8837"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt; <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a2d9261eaffa87530b8bbbdcb916b8837">OnCalculateMonsterStats</a> = new <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&gt;()</td></tr>
 <tr class="memdesc:a2d9261eaffa87530b8bbbdcb916b8837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when calculating a monster stat<br  />
 <br  />
@@ -575,7 +579,7 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:ae73f6162b9bc5037544b0696d2f4fefa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace78c05557fdfa7532cb412de650b63e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_level_object.html">LevelObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ace78c05557fdfa7532cb412de650b63e">OnSelectStageObjective</a> = new <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_level_object.html">LevelObject</a>&gt;()</td></tr>
 <tr class="separator:ace78c05557fdfa7532cb412de650b63e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3bd63c85b2692e2373de9620646a2d2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_level_object.html">LevelObject</a>, <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html">RewardManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ae3bd63c85b2692e2373de9620646a2d2">OnGenerateStageReward</a> = new <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_level_object.html">LevelObject</a>, <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html">RewardManager</a>&gt; ()</td></tr>
+<tr class="memitem:ae3bd63c85b2692e2373de9620646a2d2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_level_object.html">LevelObject</a>, <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html">RewardManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ae3bd63c85b2692e2373de9620646a2d2">OnGenerateStageReward</a> = new <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_level_object.html">LevelObject</a>, <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html">RewardManager</a>&gt;()</td></tr>
 <tr class="separator:ae3bd63c85b2692e2373de9620646a2d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0713131c4119ddb337c6ab1b072192e4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_level_object.html">LevelObject</a>, <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_float_value.html">FloatValue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a0713131c4119ddb337c6ab1b072192e4">OnCalculateGoldReward</a> = new <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_level_object.html">LevelObject</a>, <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_float_value.html">FloatValue</a>&gt;()</td></tr>
 <tr class="separator:a0713131c4119ddb337c6ab1b072192e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -587,6 +591,32 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:aaa9fd416c0fd7615540e709d1e407879"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0092edbe85ba45bcf2db2e311ef58fea" name="a0092edbe85ba45bcf2db2e311ef58fea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0092edbe85ba45bcf2db2e311ef58fea">&#9670;&#160;</a></span>RemoveAllListener()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.GameManager.GameEventManager.RemoveAllListener </td>
+          <td>(</td>
+          <td class="paramtype">this object&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2b3a9b4d36d705331495ae38fd624143" name="a2b3a9b4d36d705331495ae38fd624143"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b3a9b4d36d705331495ae38fd624143">&#9670;&#160;</a></span>RemoveAllRunListener()</h2>
 
@@ -1461,8 +1491,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a08ae6df2a6ab3cffed692bf3858f8b00" name="a08ae6df2a6ab3cffed692bf3858f8b00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08ae6df2a6ab3cffed692bf3858f8b00">&#9670;&#160;</a></span>OnEatFood</h2>
+<a id="aa82954e4d5dca7481f85d808e884a66a" name="aa82954e4d5dca7481f85d808e884a66a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa82954e4d5dca7481f85d808e884a66a">&#9670;&#160;</a></span>OnEatFood</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1471,7 +1501,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a>,<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_float_value.html">FloatValue</a>&gt; RogueGenesia.GameManager.GameEventManager.OnEatFood = new <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a>, <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_float_value.html">FloatValue</a>&gt;()</td>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a>, <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_float_value.html">FloatValue</a>&gt; RogueGenesia.GameManager.GameEventManager.OnEatFood = new <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a>, <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_float_value.html">FloatValue</a>&gt;()</td>
         </tr>
       </table>
   </td>
@@ -1653,7 +1683,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_level_object.html">LevelObject</a>, <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html">RewardManager</a>&gt; RogueGenesia.GameManager.GameEventManager.OnGenerateStageReward = new <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_level_object.html">LevelObject</a>, <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html">RewardManager</a>&gt; ()</td>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_level_object.html">LevelObject</a>, <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html">RewardManager</a>&gt; RogueGenesia.GameManager.GameEventManager.OnGenerateStageReward = new <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_level_object.html">LevelObject</a>, <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_reward_manager.html">RewardManager</a>&gt;()</td>
         </tr>
       </table>
   </td>
@@ -1742,6 +1772,28 @@ Static Public Attributes</h2></td></tr>
  </p><ul>
 </ul>
 <p>All listenter are removed upon leaving/starting a game  </p>
+
+</div>
+</div>
+<a id="a70ce07a9798d87d893dae3925157236f" name="a70ce07a9798d87d893dae3925157236f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70ce07a9798d87d893dae3925157236f">&#9670;&#160;</a></span>OnMonsterTakeDamage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a>&gt; RogueGenesia.GameManager.GameEventManager.OnMonsterTakeDamage = new <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

@@ -19,6 +19,8 @@ var class_rogue_genesia_1_1_data_1_1_statistic =
     [ "operator+", "class_rogue_genesia_1_1_data_1_1_statistic.html#ae71fe77608ab19385af37f6a52fa7245", null ],
     [ "operator-", "class_rogue_genesia_1_1_data_1_1_statistic.html#a0f157bad9e8164096bf24824b4da7d25", null ],
     [ "operator/", "class_rogue_genesia_1_1_data_1_1_statistic.html#a07fd3a40cff7101a8101ad702dc9148c", null ],
+    [ "RemoveDynamicAddValue", "class_rogue_genesia_1_1_data_1_1_statistic.html#afb542d280b52fab170e71a32672b3e6f", null ],
+    [ "RemoveDynamicMultiplyValue", "class_rogue_genesia_1_1_data_1_1_statistic.html#a89f403a629fb42b33ef89241c2588859", null ],
     [ "Reset", "class_rogue_genesia_1_1_data_1_1_statistic.html#ac81de39e880e0a7f395021689222ee75", null ],
     [ "ResetBaseStat", "class_rogue_genesia_1_1_data_1_1_statistic.html#a51ba962c817295d69c3cdb70381fdb4d", null ],
     [ "ResetMultiplierStat", "class_rogue_genesia_1_1_data_1_1_statistic.html#a7d518578c0d0f37c272f60ddc7ce49a2", null ],

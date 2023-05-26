@@ -7,10 +7,6 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/SoulLevel"
   compound=true
   subgraph clusterdir_2d909ba704f47538bf61aa9015000ce8 {
     graph [ bgcolor="#daedff", pencolor="grey50", label="Survival", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_2d909ba704f47538bf61aa9015000ce8.html",tooltip=""]
-  subgraph clusterdir_8aeb93e7c3fce307bc7bb4fdf8dfa677 {
-    graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_8aeb93e7c3fce307bc7bb4fdf8dfa677.html",tooltip=""]
-    dir_8aeb93e7c3fce307bc7bb4fdf8dfa677 [shape=plaintext, label="SoulLevel"];
-  dir_c5cf11cdeab510af18add0ae2fc1e729 [label="Other", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_c5cf11cdeab510af18add0ae2fc1e729.html",tooltip=""];
-  }
+  dir_8aeb93e7c3fce307bc7bb4fdf8dfa677 [label="SoulLevel", fillcolor="#daedff", color="grey25", style="filled,bold", URL="dir_8aeb93e7c3fce307bc7bb4fdf8dfa677.html",tooltip=""];
   }
 }

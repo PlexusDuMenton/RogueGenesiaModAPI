@@ -25,7 +25,9 @@ var searchData=
   ['cratecollisiondetection_2ecs_22',['CrateCollisionDetection.cs',['../_crate_collision_detection_8cs.html',1,'']]],
   ['crossbowtalent_2ecs_23',['CrossbowTalent.cs',['../_crossbow_talent_8cs.html',1,'']]],
   ['crossbowweapon_2ecs_24',['CrossBowWeapon.cs',['../_cross_bow_weapon_8cs.html',1,'']]],
-  ['cursedbeltartifact_2ecs_25',['CursedBeltArtifact.cs',['../_cursed_belt_artifact_8cs.html',1,'']]],
-  ['cursedboltweapon_2ecs_26',['CursedBoltWeapon.cs',['../_cursed_bolt_weapon_8cs.html',1,'']]],
-  ['custombar_2ecs_27',['CustomBar.cs',['../_custom_bar_8cs.html',1,'']]]
+  ['crystalswordtalent_2ecs_25',['CrystalSwordTalent.cs',['../_crystal_sword_talent_8cs.html',1,'']]],
+  ['crystalswordweapon_2ecs_26',['CrystalSwordWeapon.cs',['../_crystal_sword_weapon_8cs.html',1,'']]],
+  ['cursedbeltartifact_2ecs_27',['CursedBeltArtifact.cs',['../_cursed_belt_artifact_8cs.html',1,'']]],
+  ['cursedboltweapon_2ecs_28',['CursedBoltWeapon.cs',['../_cursed_bolt_weapon_8cs.html',1,'']]],
+  ['custombar_2ecs_29',['CustomBar.cs',['../_custom_bar_8cs.html',1,'']]]
 ];

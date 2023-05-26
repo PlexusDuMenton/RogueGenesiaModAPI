@@ -1,5 +1,6 @@
 var dir_49237041992ffb5334c2eb02fae8555f =
 [
+    [ "AdamantiteRodArtifact.cs", "_adamantite_rod_artifact_8cs.html", "_adamantite_rod_artifact_8cs" ],
     [ "AdventurerLicenceArtifact.cs", "_adventurer_licence_artifact_8cs.html", "_adventurer_licence_artifact_8cs" ],
     [ "BattleRubyArtifact.cs", "_battle_ruby_artifact_8cs.html", "_battle_ruby_artifact_8cs" ],
     [ "BeefStatueArtifact.cs", "_beef_statue_artifact_8cs.html", "_beef_statue_artifact_8cs" ],
@@ -19,6 +20,7 @@ var dir_49237041992ffb5334c2eb02fae8555f =
     [ "MagnifyingGlassArtifact.cs", "_magnifying_glass_artifact_8cs.html", "_magnifying_glass_artifact_8cs" ],
     [ "MartyrCloakArtifact.cs", "_martyr_cloak_artifact_8cs.html", "_martyr_cloak_artifact_8cs" ],
     [ "MidasSwordArtifact.cs", "_midas_sword_artifact_8cs.html", "_midas_sword_artifact_8cs" ],
+    [ "MithrilCompassArtifact.cs", "_mithril_compass_artifact_8cs.html", "_mithril_compass_artifact_8cs" ],
     [ "OldCoinArtifact.cs", "_old_coin_artifact_8cs.html", "_old_coin_artifact_8cs" ],
     [ "OuroborosNecklaceArtifact.cs", "_ouroboros_necklace_artifact_8cs.html", "_ouroboros_necklace_artifact_8cs" ],
     [ "PhoenixTotemArtifact.cs", "_phoenix_totem_artifact_8cs.html", "_phoenix_totem_artifact_8cs" ],

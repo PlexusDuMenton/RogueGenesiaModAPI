@@ -1,0 +1,703 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue: Genesia API" />
+<meta property="og:image" content="" />
+<meta property="og:description" content="Rogue: Genesia API for modders" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="" />
+<meta name="twitter:title" content="Rogue: Genesia API" />
+<meta name="twitter:description" content="Rogue: Genesia API for modders" />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: ModGenesia.ManifestBuilder Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_mod_genesia_1_1_manifest_builder.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="class_mod_genesia_1_1_manifest_builder-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">ModGenesia.ManifestBuilder Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for ModGenesia.ManifestBuilder:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a0084c04d045ac57eb184a4ac4ab6e6eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#a0084c04d045ac57eb184a4ac4ab6e6eb">FillUpBuilder</a> (<a class="el" href="class_mod_genesia_1_1_mod_info.html">ModInfo</a> modInfo)</td></tr>
+<tr class="separator:a0084c04d045ac57eb184a4ac4ab6e6eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a279d9a4885e6eb123cb85930e0da6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#a9a279d9a4885e6eb123cb85930e0da6b">InitBuilderValues</a> ()</td></tr>
+<tr class="separator:a9a279d9a4885e6eb123cb85930e0da6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c1e1787fe84a43ff27996c422f77228"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#a4c1e1787fe84a43ff27996c422f77228">ValidateManifest</a> ()</td></tr>
+<tr class="separator:a4c1e1787fe84a43ff27996c422f77228"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e8cf20b2354d29c540d6f0555a00551"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#a9e8cf20b2354d29c540d6f0555a00551">RegisterBuilder</a> ()</td></tr>
+<tr class="separator:a9e8cf20b2354d29c540d6f0555a00551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ac83494b4356dd7c36b441c906c904c84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_mod_genesia_1_1_mod_list_manager.html">ModListManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#ac83494b4356dd7c36b441c906c904c84">ModListManager</a></td></tr>
+<tr class="separator:ac83494b4356dd7c36b441c906c904c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0d3dc013994cf36afbf65ccd928c663"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_mod_genesia_1_1_mod_data.html">ModData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#ab0d3dc013994cf36afbf65ccd928c663">LinkedModData</a></td></tr>
+<tr class="separator:ab0d3dc013994cf36afbf65ccd928c663"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1572644eb5b3df57318fe79d86ab11d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#ae1572644eb5b3df57318fe79d86ab11d">ModCreation</a> = false</td></tr>
+<tr class="separator:ae1572644eb5b3df57318fe79d86ab11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17a81e17fe2434736f49086f372784e1"><td class="memItemLeft" align="right" valign="top">InputField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#a17a81e17fe2434736f49086f372784e1">Author</a></td></tr>
+<tr class="separator:a17a81e17fe2434736f49086f372784e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca47dde2bfdaebc730605254c6f793dc"><td class="memItemLeft" align="right" valign="top">InputField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#aca47dde2bfdaebc730605254c6f793dc">Name</a></td></tr>
+<tr class="separator:aca47dde2bfdaebc730605254c6f793dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbe1ddbeaeb118ff5a60754248e5bc2e"><td class="memItemLeft" align="right" valign="top">InputField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#acbe1ddbeaeb118ff5a60754248e5bc2e">Major</a></td></tr>
+<tr class="separator:acbe1ddbeaeb118ff5a60754248e5bc2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c389a722a06542b3f1250362196499a"><td class="memItemLeft" align="right" valign="top">InputField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#a7c389a722a06542b3f1250362196499a">Minor</a></td></tr>
+<tr class="separator:a7c389a722a06542b3f1250362196499a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19c0ec77cc1701f3b2121e2cfce11722"><td class="memItemLeft" align="right" valign="top">InputField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#a19c0ec77cc1701f3b2121e2cfce11722">Patch</a></td></tr>
+<tr class="separator:a19c0ec77cc1701f3b2121e2cfce11722"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abebb305c9db8539176306b760b5d603a"><td class="memItemLeft" align="right" valign="top">InputField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#abebb305c9db8539176306b760b5d603a">Revision</a></td></tr>
+<tr class="separator:abebb305c9db8539176306b760b5d603a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afba8d7ea88ada594697783b1759d8d63"><td class="memItemLeft" align="right" valign="top">InputField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#afba8d7ea88ada594697783b1759d8d63">ModName</a></td></tr>
+<tr class="separator:afba8d7ea88ada594697783b1759d8d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbbd36cdbd5674447bbb04b4af62a775"><td class="memItemLeft" align="right" valign="top">InputField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#abbbd36cdbd5674447bbb04b4af62a775">ModDescription</a></td></tr>
+<tr class="separator:abbbd36cdbd5674447bbb04b4af62a775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a531dcbb1730e981c998bc0bb452342b8"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#a531dcbb1730e981c998bc0bb452342b8">ModNameText</a></td></tr>
+<tr class="separator:a531dcbb1730e981c998bc0bb452342b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad97b8470a0f4d4b72da98aec6251c80"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#aad97b8470a0f4d4b72da98aec6251c80">ModDescriptionText</a></td></tr>
+<tr class="separator:aad97b8470a0f4d4b72da98aec6251c80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad68be4057ba69aff19c68c7c24511c90"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#ad68be4057ba69aff19c68c7c24511c90">Tag_SoulCard</a></td></tr>
+<tr class="separator:ad68be4057ba69aff19c68c7c24511c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67ba0de5b5e34a4416c64de30c259f75"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#a67ba0de5b5e34a4416c64de30c259f75">Tag_Weapon</a></td></tr>
+<tr class="separator:a67ba0de5b5e34a4416c64de30c259f75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade60eb39b017b68a5c436e1865f9da20"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#ade60eb39b017b68a5c436e1865f9da20">Tag_Challenge</a></td></tr>
+<tr class="separator:ade60eb39b017b68a5c436e1865f9da20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1338e2c3f5df55effb8466a1dadcbb05"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#a1338e2c3f5df55effb8466a1dadcbb05">Tag_Avatar</a></td></tr>
+<tr class="separator:a1338e2c3f5df55effb8466a1dadcbb05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae63d359b86741c8044e3e852f50f2887"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#ae63d359b86741c8044e3e852f50f2887">Tag_Talent</a></td></tr>
+<tr class="separator:ae63d359b86741c8044e3e852f50f2887"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4c043b68b9797533894466fbadcdfbd"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#ac4c043b68b9797533894466fbadcdfbd">Tag_Pet</a></td></tr>
+<tr class="separator:ac4c043b68b9797533894466fbadcdfbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac55968073ec97fdc972fd8177553480b"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#ac55968073ec97fdc972fd8177553480b">Tag_Achievements</a></td></tr>
+<tr class="separator:ac55968073ec97fdc972fd8177553480b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a679e8d28ca0f4239ec4585b2e2a58b09"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#a679e8d28ca0f4239ec4585b2e2a58b09">Tag_Visual</a></td></tr>
+<tr class="separator:a679e8d28ca0f4239ec4585b2e2a58b09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae42e5fd805193e01d2e2dfc6b8adb871"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#ae42e5fd805193e01d2e2dfc6b8adb871">Tag_GameMode</a></td></tr>
+<tr class="separator:ae42e5fd805193e01d2e2dfc6b8adb871"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a595bb824a7f241237b2713afe0b677ec"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#a595bb824a7f241237b2713afe0b677ec">Tag_Zone</a></td></tr>
+<tr class="separator:a595bb824a7f241237b2713afe0b677ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a648d629a6260adf659dc367af3729efe"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#a648d629a6260adf659dc367af3729efe">Tag_Stage</a></td></tr>
+<tr class="separator:a648d629a6260adf659dc367af3729efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90f9deb3645c978722ade48ebfb7fb89"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#a90f9deb3645c978722ade48ebfb7fb89">Tag_StageObjective</a></td></tr>
+<tr class="separator:a90f9deb3645c978722ade48ebfb7fb89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1016f2d6784d3ab2f7053eef390caf6f"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#a1016f2d6784d3ab2f7053eef390caf6f">Tag_Monster</a></td></tr>
+<tr class="separator:a1016f2d6784d3ab2f7053eef390caf6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8213ee93ed3790d5803c3a24250456f"><td class="memItemLeft" align="right" valign="top">RectTransform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html#ab8213ee93ed3790d5803c3a24250456f">Content</a></td></tr>
+<tr class="separator:ab8213ee93ed3790d5803c3a24250456f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0084c04d045ac57eb184a4ac4ab6e6eb" name="a0084c04d045ac57eb184a4ac4ab6e6eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0084c04d045ac57eb184a4ac4ab6e6eb">&#9670;&#160;</a></span>FillUpBuilder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModGenesia.ManifestBuilder.FillUpBuilder </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_mod_genesia_1_1_mod_info.html">ModInfo</a>&#160;</td>
+          <td class="paramname"><em>modInfo</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a279d9a4885e6eb123cb85930e0da6b" name="a9a279d9a4885e6eb123cb85930e0da6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a279d9a4885e6eb123cb85930e0da6b">&#9670;&#160;</a></span>InitBuilderValues()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModGenesia.ManifestBuilder.InitBuilderValues </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e8cf20b2354d29c540d6f0555a00551" name="a9e8cf20b2354d29c540d6f0555a00551"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e8cf20b2354d29c540d6f0555a00551">&#9670;&#160;</a></span>RegisterBuilder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModGenesia.ManifestBuilder.RegisterBuilder </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4c1e1787fe84a43ff27996c422f77228" name="a4c1e1787fe84a43ff27996c422f77228"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c1e1787fe84a43ff27996c422f77228">&#9670;&#160;</a></span>ValidateManifest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModGenesia.ManifestBuilder.ValidateManifest </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a17a81e17fe2434736f49086f372784e1" name="a17a81e17fe2434736f49086f372784e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17a81e17fe2434736f49086f372784e1">&#9670;&#160;</a></span>Author</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">InputField ModGenesia.ManifestBuilder.Author</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8213ee93ed3790d5803c3a24250456f" name="ab8213ee93ed3790d5803c3a24250456f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8213ee93ed3790d5803c3a24250456f">&#9670;&#160;</a></span>Content</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RectTransform ModGenesia.ManifestBuilder.Content</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab0d3dc013994cf36afbf65ccd928c663" name="ab0d3dc013994cf36afbf65ccd928c663"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0d3dc013994cf36afbf65ccd928c663">&#9670;&#160;</a></span>LinkedModData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_mod_genesia_1_1_mod_data.html">ModData</a> ModGenesia.ManifestBuilder.LinkedModData</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acbe1ddbeaeb118ff5a60754248e5bc2e" name="acbe1ddbeaeb118ff5a60754248e5bc2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbe1ddbeaeb118ff5a60754248e5bc2e">&#9670;&#160;</a></span>Major</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">InputField ModGenesia.ManifestBuilder.Major</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c389a722a06542b3f1250362196499a" name="a7c389a722a06542b3f1250362196499a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c389a722a06542b3f1250362196499a">&#9670;&#160;</a></span>Minor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">InputField ModGenesia.ManifestBuilder.Minor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae1572644eb5b3df57318fe79d86ab11d" name="ae1572644eb5b3df57318fe79d86ab11d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1572644eb5b3df57318fe79d86ab11d">&#9670;&#160;</a></span>ModCreation</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ModGenesia.ManifestBuilder.ModCreation = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abbbd36cdbd5674447bbb04b4af62a775" name="abbbd36cdbd5674447bbb04b4af62a775"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbbd36cdbd5674447bbb04b4af62a775">&#9670;&#160;</a></span>ModDescription</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">InputField ModGenesia.ManifestBuilder.ModDescription</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad97b8470a0f4d4b72da98aec6251c80" name="aad97b8470a0f4d4b72da98aec6251c80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad97b8470a0f4d4b72da98aec6251c80">&#9670;&#160;</a></span>ModDescriptionText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text ModGenesia.ManifestBuilder.ModDescriptionText</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac83494b4356dd7c36b441c906c904c84" name="ac83494b4356dd7c36b441c906c904c84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac83494b4356dd7c36b441c906c904c84">&#9670;&#160;</a></span>ModListManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_mod_genesia_1_1_mod_list_manager.html">ModListManager</a> ModGenesia.ManifestBuilder.ModListManager</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afba8d7ea88ada594697783b1759d8d63" name="afba8d7ea88ada594697783b1759d8d63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afba8d7ea88ada594697783b1759d8d63">&#9670;&#160;</a></span>ModName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">InputField ModGenesia.ManifestBuilder.ModName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a531dcbb1730e981c998bc0bb452342b8" name="a531dcbb1730e981c998bc0bb452342b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a531dcbb1730e981c998bc0bb452342b8">&#9670;&#160;</a></span>ModNameText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text ModGenesia.ManifestBuilder.ModNameText</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca47dde2bfdaebc730605254c6f793dc" name="aca47dde2bfdaebc730605254c6f793dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca47dde2bfdaebc730605254c6f793dc">&#9670;&#160;</a></span>Name</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">InputField ModGenesia.ManifestBuilder.Name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a19c0ec77cc1701f3b2121e2cfce11722" name="a19c0ec77cc1701f3b2121e2cfce11722"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19c0ec77cc1701f3b2121e2cfce11722">&#9670;&#160;</a></span>Patch</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">InputField ModGenesia.ManifestBuilder.Patch</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abebb305c9db8539176306b760b5d603a" name="abebb305c9db8539176306b760b5d603a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abebb305c9db8539176306b760b5d603a">&#9670;&#160;</a></span>Revision</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">InputField ModGenesia.ManifestBuilder.Revision</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac55968073ec97fdc972fd8177553480b" name="ac55968073ec97fdc972fd8177553480b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac55968073ec97fdc972fd8177553480b">&#9670;&#160;</a></span>Tag_Achievements</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Toggle ModGenesia.ManifestBuilder.Tag_Achievements</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1338e2c3f5df55effb8466a1dadcbb05" name="a1338e2c3f5df55effb8466a1dadcbb05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1338e2c3f5df55effb8466a1dadcbb05">&#9670;&#160;</a></span>Tag_Avatar</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Toggle ModGenesia.ManifestBuilder.Tag_Avatar</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ade60eb39b017b68a5c436e1865f9da20" name="ade60eb39b017b68a5c436e1865f9da20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade60eb39b017b68a5c436e1865f9da20">&#9670;&#160;</a></span>Tag_Challenge</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Toggle ModGenesia.ManifestBuilder.Tag_Challenge</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae42e5fd805193e01d2e2dfc6b8adb871" name="ae42e5fd805193e01d2e2dfc6b8adb871"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae42e5fd805193e01d2e2dfc6b8adb871">&#9670;&#160;</a></span>Tag_GameMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Toggle ModGenesia.ManifestBuilder.Tag_GameMode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1016f2d6784d3ab2f7053eef390caf6f" name="a1016f2d6784d3ab2f7053eef390caf6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1016f2d6784d3ab2f7053eef390caf6f">&#9670;&#160;</a></span>Tag_Monster</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Toggle ModGenesia.ManifestBuilder.Tag_Monster</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4c043b68b9797533894466fbadcdfbd" name="ac4c043b68b9797533894466fbadcdfbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4c043b68b9797533894466fbadcdfbd">&#9670;&#160;</a></span>Tag_Pet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Toggle ModGenesia.ManifestBuilder.Tag_Pet</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad68be4057ba69aff19c68c7c24511c90" name="ad68be4057ba69aff19c68c7c24511c90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad68be4057ba69aff19c68c7c24511c90">&#9670;&#160;</a></span>Tag_SoulCard</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Toggle ModGenesia.ManifestBuilder.Tag_SoulCard</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a648d629a6260adf659dc367af3729efe" name="a648d629a6260adf659dc367af3729efe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a648d629a6260adf659dc367af3729efe">&#9670;&#160;</a></span>Tag_Stage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Toggle ModGenesia.ManifestBuilder.Tag_Stage</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a90f9deb3645c978722ade48ebfb7fb89" name="a90f9deb3645c978722ade48ebfb7fb89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90f9deb3645c978722ade48ebfb7fb89">&#9670;&#160;</a></span>Tag_StageObjective</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Toggle ModGenesia.ManifestBuilder.Tag_StageObjective</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae63d359b86741c8044e3e852f50f2887" name="ae63d359b86741c8044e3e852f50f2887"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae63d359b86741c8044e3e852f50f2887">&#9670;&#160;</a></span>Tag_Talent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Toggle ModGenesia.ManifestBuilder.Tag_Talent</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a679e8d28ca0f4239ec4585b2e2a58b09" name="a679e8d28ca0f4239ec4585b2e2a58b09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a679e8d28ca0f4239ec4585b2e2a58b09">&#9670;&#160;</a></span>Tag_Visual</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Toggle ModGenesia.ManifestBuilder.Tag_Visual</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a67ba0de5b5e34a4416c64de30c259f75" name="a67ba0de5b5e34a4416c64de30c259f75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67ba0de5b5e34a4416c64de30c259f75">&#9670;&#160;</a></span>Tag_Weapon</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Toggle ModGenesia.ManifestBuilder.Tag_Weapon</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a595bb824a7f241237b2713afe0b677ec" name="a595bb824a7f241237b2713afe0b677ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a595bb824a7f241237b2713afe0b677ec">&#9670;&#160;</a></span>Tag_Zone</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Toggle ModGenesia.ManifestBuilder.Tag_Zone</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/ModGenesia/UI/<a class="el" href="_manifest_builder_8cs.html">ManifestBuilder.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_mod_genesia.html">ModGenesia</a></li><li class="navelem"><a class="el" href="class_mod_genesia_1_1_manifest_builder.html">ManifestBuilder</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

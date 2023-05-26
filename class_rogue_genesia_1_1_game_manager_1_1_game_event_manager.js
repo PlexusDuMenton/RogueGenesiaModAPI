@@ -1,5 +1,6 @@
 var class_rogue_genesia_1_1_game_manager_1_1_game_event_manager =
 [
+    [ "RemoveAllListener", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a0092edbe85ba45bcf2db2e311ef58fea", null ],
     [ "RemoveAllRunListener", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a2b3a9b4d36d705331495ae38fd624143", null ],
     [ "CalculateBudgetBossModifier", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a214085902a1504fb8b00be586b3e3978", null ],
     [ "CalculateCardPickCount", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a653e8dcb5ccbc3356fa6c7b946e15882", null ],
@@ -32,7 +33,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_event_manager =
     [ "OnDash", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a059752eaf72a97f06e40d318e9b39ecb", null ],
     [ "OnDashTrigger", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ac88dbeaa7f61e3cbcec1f8c9b9248ac0", null ],
     [ "OnDoneGeneratingStagePosition", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a3584e7e1de8fcfb59f955776800af206", null ],
-    [ "OnEatFood", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a08ae6df2a6ab3cffed692bf3858f8b00", null ],
+    [ "OnEatFood", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#aa82954e4d5dca7481f85d808e884a66a", null ],
     [ "OnEnterShop", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a99c5cdabdd117527ee545b05aec1345a", null ],
     [ "OnFinishedGeneratingStages", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ae73f6162b9bc5037544b0696d2f4fefa", null ],
     [ "OnFlatStatsUpdate", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a561a79883c78068a6ab73e06bd12b3e6", null ],
@@ -43,6 +44,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_event_manager =
     [ "OnMapGenerationStart", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#aabfba0450e54947e2b3df25cc8ccde1c", null ],
     [ "OnMonsterKilled", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ac441731a517b0c2d16642e51c1e2a198", null ],
     [ "OnMonsterLoot", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a911a1ca50347b1cff9ab49703caae53a", null ],
+    [ "OnMonsterTakeDamage", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a70ce07a9798d87d893dae3925157236f", null ],
     [ "OnMultiplierStatsUpdate", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#acde0edc3aabbfe876d6fbcc3dd467b9c", null ],
     [ "OnOptionChanged", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a1468b90c0deb641a91d1d2bf67f24282", null ],
     [ "OnOptionConfirmed", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ab4230aec7475bce1318bd34e3a12823d", null ],

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['_5fgetlocalizationname_0',['_getLocalizationName',['../class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html#a80e3ef3e53e28011280e20d7f9eefe05',1,'RogueGenesia::Data::SoulCardScriptableObject']]],
-  ['_5fgettypename_1',['_getTypeName',['../class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html#ab7d03db793a321960e1e0cc7c6953848',1,'RogueGenesia::Data::SoulCardScriptableObject']]]
+  ['_5binstance_20initializer_5d_0',['[instance initializer]',['../_mod_creation_utils_8cs.html#a0858c61cc33d543d5e6d451fcee2634c',1,'ModCreationUtils.cs']]]
 ];

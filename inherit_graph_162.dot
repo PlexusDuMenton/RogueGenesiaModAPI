@@ -5,7 +5,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="UnityEvent",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
-  Node0 -> Node1 [dir="back",color="steelblue1",style="solid"];
-  Node1 [label="RogueGenesia.GameManager.\lOrderedEvent\< T0 \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html",tooltip=" "];
+  Node0 [label="RogueGenesia.UI.TooltipSection",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html",tooltip=" "];
 }

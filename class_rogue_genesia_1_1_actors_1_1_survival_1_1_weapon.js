@@ -27,7 +27,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon =
     [ "getTickCount", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html#a2d2483156da8152bbf5a01a212a91289", null ],
     [ "GetUniformArroundTargeting", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html#a2c8d8eeaf7fb7b1abe9b04e2957c089f", null ],
     [ "GetUniformArroundTargetingShamanStaffTalent", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html#af3bb59d37059b0dbcd2d3ce1615912e8", null ],
-    [ "Init", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html#a2cdf1b7ccfa72a50cdbba00963885458", null ],
+    [ "Init", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html#ab70090fcbd6c21f4aee477cc36993b73", null ],
     [ "LevelUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html#a9df680c75085882d54c4fd54e04e3743", null ],
     [ "OnAttack", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html#adedba6c5bac8adcf08f11e5257ef394f", null ],
     [ "OnDash", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html#ad0ab0a09ac79df1430883e15eb6f96b2", null ],

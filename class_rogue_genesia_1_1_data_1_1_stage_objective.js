@@ -4,6 +4,7 @@ var class_rogue_genesia_1_1_data_1_1_stage_objective =
     [ "CheckObjective", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a6d760d0b2094858dc9868e0ebfd0db13", null ],
     [ "GetBudgetFromObjective", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a137da2fe3fe81fb24d09ac0fac3367e9", null ],
     [ "GetDescription", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a7fd45e52c44365677451609d01f14b2e", null ],
+    [ "GetEliteSpawnChanceMultiplier", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a65c83f3b5461a6dbccbe739ad0b9c837", null ],
     [ "GetEnemyList", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#af53548442285dec783a2e757928734a5", null ],
     [ "GetEnemyPatternList", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a3c635da5fb249bdea11f4cbbe3cfc8c5", null ],
     [ "GetFinalBudgetMultiplier", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a385b4c51087024d17b5daf389885e9df", null ],

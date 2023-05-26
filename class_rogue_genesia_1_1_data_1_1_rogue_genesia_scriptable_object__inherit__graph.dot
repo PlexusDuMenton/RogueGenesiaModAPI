@@ -17,15 +17,17 @@ digraph "RogueGenesia.Data.RogueGenesiaScriptableObject"
   Node1 -> Node6 [dir="back",color="steelblue1",style="solid"];
   Node6 [label="RogueGenesia.Data.EnemyPattern\lScriptableObject",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_enemy_pattern_scriptable_object.html",tooltip=" "];
   Node1 -> Node7 [dir="back",color="steelblue1",style="solid"];
-  Node7 [label="RogueGenesia.Data.EnemyScriptable\lObject",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_enemy_scriptable_object.html",tooltip=" "];
+  Node7 [label="RogueGenesia.Data.EnemySO",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_enemy_s_o.html",tooltip=" "];
   Node1 -> Node8 [dir="back",color="steelblue1",style="solid"];
-  Node8 [label="RogueGenesia.Data.Monster\lTypeScriptableObject",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_monster_type_scriptable_object.html",tooltip=" "];
+  Node8 [label="RogueGenesia.Data.EnemyScriptable\lObject",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_enemy_scriptable_object.html",tooltip=" "];
   Node1 -> Node9 [dir="back",color="steelblue1",style="solid"];
-  Node9 [label="RogueGenesia.Data.PetScriptable\lObject",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html",tooltip=" "];
+  Node9 [label="RogueGenesia.Data.Monster\lTypeScriptableObject",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_monster_type_scriptable_object.html",tooltip=" "];
   Node1 -> Node10 [dir="back",color="steelblue1",style="solid"];
-  Node10 [label="RogueGenesia.Data.SoulCard\lScriptableObject",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html",tooltip=" "];
+  Node10 [label="RogueGenesia.Data.PetScriptable\lObject",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html",tooltip=" "];
   Node1 -> Node11 [dir="back",color="steelblue1",style="solid"];
-  Node11 [label="RogueGenesia.Data.SoulShop\lUpgradeSO",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html",tooltip=" "];
+  Node11 [label="RogueGenesia.Data.SoulCard\lScriptableObject",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html",tooltip=" "];
   Node1 -> Node12 [dir="back",color="steelblue1",style="solid"];
-  Node12 [label="RogueGenesia.Data.Talent\lScriptableObject",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html",tooltip=" "];
+  Node12 [label="RogueGenesia.Data.SoulShop\lUpgradeSO",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html",tooltip=" "];
+  Node1 -> Node13 [dir="back",color="steelblue1",style="solid"];
+  Node13 [label="RogueGenesia.Data.Talent\lScriptableObject",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html",tooltip=" "];
 }

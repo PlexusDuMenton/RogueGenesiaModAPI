@@ -142,6 +142,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a459647d9ea613733430d02a6445d8cdb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_card_a_p_i.html#a459647d9ea613733430d02a6445d8cdb">GetCardFromName</a> (string name)</td></tr>
 <tr class="memdesc:a459647d9ea613733430d02a6445d8cdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a card ammong all the card in the game.  <br /></td></tr>
 <tr class="separator:a459647d9ea613733430d02a6445d8cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f5a2450ef9c829dc20c80bd897bf8f7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_mod_genesia_1_1_soul_card_creation_data.html">SoulCardCreationData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_card_a_p_i.html#a1f5a2450ef9c829dc20c80bd897bf8f7">GetSoulCardDataFromPathAndMod</a> (string relativePath, <a class="el" href="class_mod_genesia_1_1_mod_data.html">ModData</a> modSource)</td></tr>
+<tr class="memdesc:a1f5a2450ef9c829dc20c80bd897bf8f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get SoulCardData from a json file in your mod folder.  <br /></td></tr>
+<tr class="separator:a1f5a2450ef9c829dc20c80bd897bf8f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d99442e9bc6f33d92d64da6d0662adc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_card_a_p_i.html#a6d99442e9bc6f33d92d64da6d0662adc">AddCustomWeapon</a> (string WeaponName, System.Reflection.ConstructorInfo Constructor, <a class="el" href="class_mod_genesia_1_1_soul_card_creation_data.html">SoulCardCreationData</a> <a class="el" href="class_mod_genesia_1_1_soul_card_creation_data.html">SoulCardCreationData</a>, bool unlockedByDefault=true)</td></tr>
 <tr class="memdesc:a6d99442e9bc6f33d92d64da6d0662adc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add Custom weapon into the game.  <br /></td></tr>
 <tr class="separator:a6d99442e9bc6f33d92d64da6d0662adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -352,6 +355,57 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>SoulCardScriptableObject, Scritable object of the card you looked for</dd></dl>
+
+</div>
+</div>
+<a id="a1f5a2450ef9c829dc20c80bd897bf8f7" name="a1f5a2450ef9c829dc20c80bd897bf8f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f5a2450ef9c829dc20c80bd897bf8f7">&#9670;&#160;</a></span>GetSoulCardDataFromPathAndMod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_mod_genesia_1_1_soul_card_creation_data.html">SoulCardCreationData</a> ModGenesia.CardAPI.GetSoulCardDataFromPathAndMod </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>relativePath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_mod_genesia_1_1_mod_data.html">ModData</a>&#160;</td>
+          <td class="paramname"><em>modSource</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get SoulCardData from a json file in your mod folder. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">relativePath</td><td>Location of the jsonfile from your modDirectory</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>/// </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">modSource</td><td>your modData</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>SoulCardCreationData used by other card addition functions</dd></dl>
 
 </div>
 </div>

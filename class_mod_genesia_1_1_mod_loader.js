@@ -29,5 +29,6 @@ var class_mod_genesia_1_1_mod_loader =
     [ "EnabledMods", "class_mod_genesia_1_1_mod_loader.html#ac883794e1082133ebe297d0b170f2f3c", null ],
     [ "InstalledMods", "class_mod_genesia_1_1_mod_loader.html#a91c91bf36546d56d19e06c5b657d732c", null ],
     [ "LoadedAssemblies", "class_mod_genesia_1_1_mod_loader.html#a5389e001bd9b04ad8f1186c30c5992fe", null ],
-    [ "ModLocation", "class_mod_genesia_1_1_mod_loader.html#a37c9f82c34c05f163411fe827327c9ff", null ]
+    [ "ModLocation", "class_mod_genesia_1_1_mod_loader.html#a37c9f82c34c05f163411fe827327c9ff", null ],
+    [ "ModSourceLocation", "class_mod_genesia_1_1_mod_loader.html#a1687f5699406df4daadfa11d4e6f9776", null ]
 ];

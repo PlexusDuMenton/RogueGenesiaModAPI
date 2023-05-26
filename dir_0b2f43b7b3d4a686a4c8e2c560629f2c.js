@@ -8,9 +8,11 @@ var dir_0b2f43b7b3d4a686a4c8e2c560629f2c =
     [ "CardAPI.cs", "_card_a_p_i_8cs.html", "_card_a_p_i_8cs" ],
     [ "ChallengeAPI.cs", "_challenge_a_p_i_8cs.html", "_challenge_a_p_i_8cs" ],
     [ "ContentAPI.cs", "_content_a_p_i_8cs.html", "_content_a_p_i_8cs" ],
+    [ "ModCreationUtils.cs", "_mod_creation_utils_8cs.html", "_mod_creation_utils_8cs" ],
     [ "ModData.cs", "_mod_data_8cs.html", "_mod_data_8cs" ],
     [ "ModGenesia.cs", "_mod_genesia_8cs.html", "_mod_genesia_8cs" ],
     [ "ModLoader.cs", "_mod_loader_8cs.html", "_mod_loader_8cs" ],
     [ "ModOption.cs", "_mod_option_8cs.html", "_mod_option_8cs" ],
+    [ "PetAPI.cs", "_pet_a_p_i_8cs.html", "_pet_a_p_i_8cs" ],
     [ "StageAPI.cs", "_stage_a_p_i_8cs.html", "_stage_a_p_i_8cs" ]
 ];

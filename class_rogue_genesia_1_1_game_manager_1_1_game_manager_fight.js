@@ -6,7 +6,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_manager_fight =
     [ "DisabledInputs", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_fight.html#a2f8d5c1c7d1b75cd9b3eed6aca02b76e", null ],
     [ "EnableInputs", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_fight.html#aa4e2e7d52272ecc5f3dd64332c272357", null ],
     [ "ExitGame", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_fight.html#aff1826da4af03b6d633e6bd603c54fbc", null ],
-    [ "GetEnemyWeight", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_fight.html#af265044e0f821beb118446adadca5a7a", null ],
+    [ "GetEnemyWeight", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_fight.html#a588eec076166365cec10a1bc0afcb5e6", null ],
     [ "GetSurvivalTime", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_fight.html#a577bde03524dbb28b7ab1a25eb696db2", null ],
     [ "HandleDashCharge", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_fight.html#a68eb217ac7c6e67cd4c12c06016f0d98", null ],
     [ "HandleSmallIndicator", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_fight.html#a1ec297f9d978e7525a5746d14f93db07", null ],

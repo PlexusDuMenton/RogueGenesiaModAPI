@@ -143,6 +143,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a35ab07df1bac1ea63524a7acd1561324"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a Custom Collectible that can be picked-up during game-play.  <br /></td></tr>
 <tr class="separator:a35ab07df1bac1ea63524a7acd1561324"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31787bd1355ef486dc06ed305862241e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html">ArtifactScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_content_a_p_i.html#a31787bd1355ef486dc06ed305862241e">AddArtifact</a> (string name, System.Type type, Sprite sprite, float dropWeight, <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893d">ArtifactScriptableObject.EArtifactDropPool</a> dropPool=ArtifactScriptableObject.EArtifactDropPool.All, <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#ae284d305c379daf4308ab1ea6da43464">ArtifactScriptableObject.EArtifactMode</a> gameMode=ArtifactScriptableObject.EArtifactMode.All, bool unlockedByDefault=true)</td></tr>
+<tr class="memdesc:a31787bd1355ef486dc06ed305862241e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a Custom Artifact.  <br /></td></tr>
 <tr class="separator:a31787bd1355ef486dc06ed305862241e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdaeb94560abcdc19299b75fe1fb1f7f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html">SoulShopUpgradeSO</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_content_a_p_i.html#afdaeb94560abcdc19299b75fe1fb1f7f">AddSoulShopUpgrade</a> (string name, <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc34381676ecd99288db3111ac3263ec">SoulShopUpgradeSO.ESSUType</a> upgradeType, <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acda6fffa3a458f99fbc59a754c20180c">SoulShopUpgradeSO.ETier</a> upgradeTier, float[] Prices, float[] value, int Order, <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html">SoulShopUpgradeSO</a> requiredUpgrade=null, bool unlockedByDefault=true)</td></tr>
 <tr class="separator:afdaeb94560abcdc19299b75fe1fb1f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,6 +226,21 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Register a Custom Artifact. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>Internal name of the artifact</td></tr>
+    <tr><td class="paramname">type</td><td>type of your artifact</td></tr>
+    <tr><td class="paramname">sprite</td><td>Sprite of the artifact</td></tr>
+    <tr><td class="paramname">dropWeight</td><td>DropWeight of your artifact (dropweight at 0 won't display artifact in the artifact list)</td></tr>
+    <tr><td class="paramname">dropPool</td><td>From which situation can the artifact be dropped</td></tr>
+    <tr><td class="paramname">gameMode</td><td>Which gamemode can your artefact be dropped in</td></tr>
+    <tr><td class="paramname">unlockedByDefault</td><td>Is the artifact unlocked by default (if set to false you need to add an achievement to unlock it)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>ArtifactScriptableObject</dd></dl>
 
 </div>
 </div>

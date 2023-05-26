@@ -44,6 +44,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_shop_manager =
     [ "ButtonPrefab", "class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a84567e69ffe0304515a3172686a8ae63", null ],
     [ "BuyButtonList", "class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#ac3af03364d3cbd7ccf21517f1647f732", null ],
     [ "CardDetail", "class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#ab5b128ce52a4e2cb1978f76a5f04ef80", null ],
+    [ "ConfirmationWindows", "class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a16925b2f3b93335fd66eb6d58f5200fd", null ],
     [ "Continue", "class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a13ab8317a2bc3f962eeaa6e0f90c7002", null ],
     [ "GoldCount", "class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a40f0db1539dfbbc8f06ebd151a9f12f3", null ],
     [ "instance", "class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a9d81bbddd5e5889f06a32fd4e179072a", null ],

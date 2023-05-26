@@ -3,6 +3,7 @@ var dir_cf28d7b8abb0dc64be353f5bc8d437b5 =
     [ "BowTalent.cs", "_bow_talent_8cs.html", "_bow_talent_8cs" ],
     [ "CleaverTalent.cs", "_cleaver_talent_8cs.html", "_cleaver_talent_8cs" ],
     [ "CrossbowTalent.cs", "_crossbow_talent_8cs.html", "_crossbow_talent_8cs" ],
+    [ "CrystalSwordTalent.cs", "_crystal_sword_talent_8cs.html", "_crystal_sword_talent_8cs" ],
     [ "DeathAuraTalent.cs", "_death_aura_talent_8cs.html", "_death_aura_talent_8cs" ],
     [ "ExplosiveVialTalent.cs", "_explosive_vial_talent_8cs.html", "_explosive_vial_talent_8cs" ],
     [ "FireRingTalent.cs", "_fire_ring_talent_8cs.html", "_fire_ring_talent_8cs" ],

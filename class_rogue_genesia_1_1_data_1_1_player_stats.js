@@ -39,7 +39,9 @@ var class_rogue_genesia_1_1_data_1_1_player_stats =
     [ "ProjectilePiercing", "class_rogue_genesia_1_1_data_1_1_player_stats.html#a94e02d362134cd9de8de5eefe83942f9", null ],
     [ "ProjectileSize", "class_rogue_genesia_1_1_data_1_1_player_stats.html#a82bc10b1752529e790398a53ddb7784b", null ],
     [ "ProjectileSpeed", "class_rogue_genesia_1_1_data_1_1_player_stats.html#abae128d522056bb8b85775c085abc68d", null ],
+    [ "Purification", "class_rogue_genesia_1_1_data_1_1_player_stats.html#a360ed3a26278a9c7ccd704ba4b69b723", null ],
     [ "SoulCoinMultiplier", "class_rogue_genesia_1_1_data_1_1_player_stats.html#a633daa782527d9d77296c9aa2567963b", null ],
+    [ "StageObjectiveRequirementMultiplier", "class_rogue_genesia_1_1_data_1_1_player_stats.html#a42b06174cf56733490a10e4f483faab8", null ],
     [ "SurvivorsTimerScale", "class_rogue_genesia_1_1_data_1_1_player_stats.html#a5d414af9063e018caa4ecb49e0a0ffac", null ],
     [ "XPMultiplier", "class_rogue_genesia_1_1_data_1_1_player_stats.html#a2ed1935e8ffea8f870add234bf214c9a", null ]
 ];

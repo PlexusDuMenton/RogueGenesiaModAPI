@@ -1,5 +1,7 @@
 var class_rogue_genesia_1_1_data_1_1_talent =
 [
+    [ "GetDescription", "class_rogue_genesia_1_1_data_1_1_talent.html#a23059948829b4d7fc939ffd55a24223e", null ],
+    [ "GetName", "class_rogue_genesia_1_1_data_1_1_talent.html#ac846396e1809c6ef461bccd3bfce62d9", null ],
     [ "IncreaseMastery", "class_rogue_genesia_1_1_data_1_1_talent.html#a351ef5e9d3f1d9df456937c9b2eac828", null ],
     [ "Init", "class_rogue_genesia_1_1_data_1_1_talent.html#a95dcd35517946a2b8c68c54b7fdb4f2a", null ],
     [ "InitData", "class_rogue_genesia_1_1_data_1_1_talent.html#a3918ee87330884f3ec3dcd5b0e5ea18f", null ],
