@@ -9,6 +9,7 @@ var class_mod_genesia_1_1_achievement_a_p_i =
     [ "CreateAchievementSoulShopUpgradeUnlock", "class_mod_genesia_1_1_achievement_a_p_i.html#a94e80cb95b91cf03d18f0183f97dc0d7", null ],
     [ "CreateAchievementTalentUnlock", "class_mod_genesia_1_1_achievement_a_p_i.html#a594054b4b0daaaf414676082ec0918b5", null ],
     [ "CreateAchievementTalentUnlock", "class_mod_genesia_1_1_achievement_a_p_i.html#a7dce901b7b41b88dd0c66c567e83efb7", null ],
+    [ "CustomAchievement", "class_mod_genesia_1_1_achievement_a_p_i.html#ac04a69741d25759de1ad05773e9a1319", null ],
     [ "DeathCountAchievement", "class_mod_genesia_1_1_achievement_a_p_i.html#a1955b9573ad90b3e27f2ec1544be4c7e", null ],
     [ "GameCountAchievement", "class_mod_genesia_1_1_achievement_a_p_i.html#a419241a84fc295f0343909b1e3ad225a", null ],
     [ "GlobalGoldAchievement", "class_mod_genesia_1_1_achievement_a_p_i.html#a8e677d61fdfd00997f6c71fb169a1ed4", null ],

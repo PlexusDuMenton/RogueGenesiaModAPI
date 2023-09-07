@@ -54,6 +54,7 @@ var class_option_data =
     [ "MusicVolume", "class_option_data.html#a456f53068c9163965c4db19d13a18741", null ],
     [ "PickUpSFXVolume", "class_option_data.html#a8fc04d37a77ae08cee66ff9bdb830cd8", null ],
     [ "PostProcess", "class_option_data.html#ab8e27b1c9307ba4e17c00962b98d901f", null ],
+    [ "ProjectileOpacity", "class_option_data.html#a8e9f1e0f67c046b6cd61c7a05a49d7d5", null ],
     [ "QualityLevel", "class_option_data.html#a9e743f8f9010d69189251f57b9416eae", null ],
     [ "Resolution", "class_option_data.html#af9a6d93558f485a4ee996afc6c543700", null ],
     [ "SfxVolume", "class_option_data.html#aad282535f7c238aa29700840b7a83e8f", null ],

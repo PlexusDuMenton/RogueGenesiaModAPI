@@ -2,7 +2,12 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection =
 [
     [ "AddBuff", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#afb53c91409345237b73cd464b9c3a547", null ],
     [ "DeathSource", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#aff4317eeef1ca41c5359cdceb5b04dca", null ],
+    [ "GetEntityTime", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a3dc17ec121beb5c2730199160673d78f", null ],
     [ "GetLinkedGameObject", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#af48b5913dfbeea6591bcbade5c7b4071", null ],
+    [ "GetSubEntity", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#accab4f402086792424b781d440de6163", null ],
+    [ "GetTimeScale", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a717b05bd914bdbbad24204f4afe32c43", null ],
+    [ "HasBuff", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a522c4706d07869acea29070939add80c", null ],
+    [ "HasSubEntity", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a279df4dcded50168eae6ea2974b6ab8a", null ],
     [ "IsEntityDead", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#acb3c2793b62cdbf14ede77808ca827b5", null ],
     [ "isPlayer", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a796a69db04d727e88d202aa345319e05", null ],
     [ "OnBreak", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a3a63c1388a08d7d6d2c791ae7419e3a2", null ],
@@ -15,11 +20,8 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection =
     [ "TakeDamageProjectile", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a48664241070bc4ea0eee33c39ab88825", null ],
     [ "Update", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a654b056580b2014baef69c8c9f016b1b", null ],
     [ "_hp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a8b78ad3d1e71f6cce4dbb570e7564d1a", null ],
-    [ "AnachronisticChance", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#ab170a73ead62d78d2bab0a3db217a232", null ],
-    [ "ArtifactChance", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a9471afd036e543fe5bf2e3e168f586c0", null ],
-    [ "FoodChance", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a71cfce22dccb423fc71849500fc70c6c", null ],
-    [ "GoldChance", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a91165cefbf81a52d232986bd56c32660", null ],
+    [ "_time", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a6bc3dfef36572550c100211ef174cc55", null ],
     [ "GoldMultiplier", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a97227764af284a08bc4913c40fcc3df5", null ],
-    [ "MagnetChance", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#ac674479e465a82f09f5214b4d0545d53", null ],
-    [ "PotionChance", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#ae05b0a4152016f111195ca2c681b9b0b", null ]
+    [ "OtherChance", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a2276c542977374f6d130120dbfacea69", null ],
+    [ "TimeScale", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a864bfb363820c4fe4ca9a7430010057d", null ]
 ];

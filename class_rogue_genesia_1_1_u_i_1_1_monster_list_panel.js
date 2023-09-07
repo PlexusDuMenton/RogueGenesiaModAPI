@@ -11,6 +11,7 @@ var class_rogue_genesia_1_1_u_i_1_1_monster_list_panel =
     [ "UpdateFilters", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#a4786ff5bbb791ba5bc83e9524e31299c", null ],
     [ "UpdateInformation", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#a0313008cee8cf1ac835b4f2a1c2d9b52", null ],
     [ "UpdateLevel", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#a854d9db46f1936740bd2a55b5c138d78", null ],
+    [ "CompletionBonus", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#abba08b5acc77cd598b4cdfc19e744482", null ],
     [ "CompletionRate", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#af4e66735c1765553f77e5cf6ea880696", null ],
     [ "Damage", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#a8576c1fcf04f007e18684b649828f72d", null ],
     [ "Defence", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#a6828285e02d54456df31dce58292a96e", null ],

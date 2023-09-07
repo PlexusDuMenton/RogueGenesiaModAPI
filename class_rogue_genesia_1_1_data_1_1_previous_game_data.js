@@ -29,6 +29,7 @@ var class_rogue_genesia_1_1_data_1_1_previous_game_data =
     [ "_usedWanderTrick", "class_rogue_genesia_1_1_data_1_1_previous_game_data.html#ab82b262afdc9c84f9fffcfc64c81e0db", null ],
     [ "_worldRank", "class_rogue_genesia_1_1_data_1_1_previous_game_data.html#abd145c39a38fe907a3305ec0ccb64fc3", null ],
     [ "_zone", "class_rogue_genesia_1_1_data_1_1_previous_game_data.html#a297a9b9f6f11336bada4eeded06796a4", null ],
+    [ "LastDamageHistory", "class_rogue_genesia_1_1_data_1_1_previous_game_data.html#a42e834f218281ae375c0661f367ecea1", null ],
     [ "SaveVersion", "class_rogue_genesia_1_1_data_1_1_previous_game_data.html#a7d6e0bcef8ef9f49e469b0246a3eb79b", null ],
     [ "TaintedLevelAtOnce", "class_rogue_genesia_1_1_data_1_1_previous_game_data.html#acd2fc58823d198852aad3f3bb477aaa5", null ]
 ];

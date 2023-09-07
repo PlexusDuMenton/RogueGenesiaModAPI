@@ -158,9 +158,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:aefc736dd3e2193b3c149abee8ec9e678"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get animations data for registering a new avatar<br  />
  Use CreateAvatarAnimationState() function to get PixelAnimationData requied by this function.  <br /></td></tr>
 <tr class="separator:aefc736dd3e2193b3c149abee8ec9e678"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae148a4cace731fe4cc312703cde3811d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html">AvatarScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_avatar_a_p_i.html#ae148a4cace731fe4cc312703cde3811d">AddCustomAvatar</a> (string avatarName, System.Reflection.ConstructorInfo constructor, <a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_animations.html">AvatarAnimations</a> animations, <a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data_list.html">LocalizationDataList</a> localisedName, <a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data_list.html">LocalizationDataList</a> localisedDescription, Color colorOnSelection, bool unlockedByDefault=true)</td></tr>
-<tr class="memdesc:ae148a4cace731fe4cc312703cde3811d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a new Avatar.  <br /></td></tr>
-<tr class="separator:ae148a4cace731fe4cc312703cde3811d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02aa4bfd7036c900f69a66abf2c53a95"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html">AvatarScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_avatar_a_p_i.html#a02aa4bfd7036c900f69a66abf2c53a95">AddCustomAvatar</a> (string avatarName, System.Reflection.ConstructorInfo constructor, <a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_skin_s_o.html">AvatarSkinSO</a> defaultSkin, <a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data_list.html">LocalizationDataList</a> localisedName, <a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data_list.html">LocalizationDataList</a> localisedDescription, Color colorOnSelection, bool unlockedByDefault=true)</td></tr>
+<tr class="memdesc:a02aa4bfd7036c900f69a66abf2c53a95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a new Avatar.  <br /></td></tr>
+<tr class="separator:a02aa4bfd7036c900f69a66abf2c53a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a555f29f74c065fa5a4af95e063a5b21b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_skin_s_o.html">AvatarSkinSO</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_avatar_a_p_i.html#a555f29f74c065fa5a4af95e063a5b21b">AddAvatarSkin</a> (string avatarSkinName, <a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_animations.html">AvatarAnimations</a> skinAnimation, string avatarName, <a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data_list.html">LocalizationDataList</a> localisedName, <a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data_list.html">LocalizationDataList</a> localisedDescription, bool unlockedByDefault=true)</td></tr>
+<tr class="memdesc:a555f29f74c065fa5a4af95e063a5b21b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace one animation for any avatar Make sure you try to replace either a vanilla avatar animation or that the modded avatar you want to override has already been registered.  <br /></td></tr>
+<tr class="separator:a555f29f74c065fa5a4af95e063a5b21b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bf1f074ff1e0c0987b544f3df39bc3d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_avatar_a_p_i.html#a1bf1f074ff1e0c0987b544f3df39bc3d">ReplaceAvatarSkin</a> (string avatarName, <a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_animations.html">AvatarAnimations</a> animation)</td></tr>
 <tr class="memdesc:a1bf1f074ff1e0c0987b544f3df39bc3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace one animation for any avatar Make sure you try to replace either a vanilla avatar animation or that the modded avatar you want to override has already been registered.  <br /></td></tr>
 <tr class="separator:a1bf1f074ff1e0c0987b544f3df39bc3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,8 +198,81 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae148a4cace731fe4cc312703cde3811d" name="ae148a4cace731fe4cc312703cde3811d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae148a4cace731fe4cc312703cde3811d">&#9670;&#160;</a></span>AddCustomAvatar()</h2>
+<a id="a555f29f74c065fa5a4af95e063a5b21b" name="a555f29f74c065fa5a4af95e063a5b21b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a555f29f74c065fa5a4af95e063a5b21b">&#9670;&#160;</a></span>AddAvatarSkin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_skin_s_o.html">AvatarSkinSO</a> ModGenesia.AvatarAPI.AddAvatarSkin </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>avatarSkinName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_animations.html">AvatarAnimations</a>&#160;</td>
+          <td class="paramname"><em>skinAnimation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>avatarName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data_list.html">LocalizationDataList</a>&#160;</td>
+          <td class="paramname"><em>localisedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data_list.html">LocalizationDataList</a>&#160;</td>
+          <td class="paramname"><em>localisedDescription</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>unlockedByDefault</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Replace one animation for any avatar Make sure you try to replace either a vanilla avatar animation or that the modded avatar you want to override has already been registered. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">avatarSkinName</td><td>internal Name of the avatar</td></tr>
+    <tr><td class="paramname">skinAnimation</td><td>Animations of your avatar skin, use CreateAvatarAnimations() function to obtain it</td></tr>
+    <tr><td class="paramname">avatarName</td><td>Internal name of the avatar which the skin should be added to</td></tr>
+    <tr><td class="paramname">localisedName</td><td>Localization name of the avatar skin</td></tr>
+    <tr><td class="paramname">localisedDescription</td><td>Localization description of the avatar skin</td></tr>
+    <tr><td class="paramname">unlockedByDefault</td><td>is the avatar unlocked by default or does it need to be unlocked via achievements</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a02aa4bfd7036c900f69a66abf2c53a95" name="a02aa4bfd7036c900f69a66abf2c53a95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02aa4bfd7036c900f69a66abf2c53a95">&#9670;&#160;</a></span>AddCustomAvatar()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -219,8 +295,8 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_animations.html">AvatarAnimations</a>&#160;</td>
-          <td class="paramname"><em>animations</em>, </td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_skin_s_o.html">AvatarSkinSO</a>&#160;</td>
+          <td class="paramname"><em>defaultSkin</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -264,7 +340,7 @@ Static Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">avatarName</td><td>internal Name of the avatar</td></tr>
     <tr><td class="paramname">constructor</td><td>Constructor to the class of your avatarData</td></tr>
-    <tr><td class="paramname">animations</td><td>Animations of your avatar, use CreateAvatarAnimations() function to obtain it</td></tr>
+    <tr><td class="paramname">defaultSkin</td><td>Default Skin of your avatar, use AddAvatarSkin() function to obtain it</td></tr>
     <tr><td class="paramname">localisedName</td><td>Localization name of the avatar</td></tr>
     <tr><td class="paramname">localisedDescription</td><td>Localization description of the avatar</td></tr>
     <tr><td class="paramname">colorOnSelection</td><td>color of the FX when selecting the avatar</td></tr>

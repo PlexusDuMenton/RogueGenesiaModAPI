@@ -5,5 +5,23 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="RogueGenesia.Data.Custom\lChallengeDescription",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_custom_challenge_description.html",tooltip=" "];
+  Node0 [label="RogueGenesia.Data.AvatarData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_avatar_data.html",tooltip=" "];
+  Node0 -> Node1 [dir="back",color="steelblue1",style="solid"];
+  Node1 [label="RogueGenesia.Data.CorruptedRog",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_corrupted_rog.html",tooltip=" "];
+  Node0 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="RogueGenesia.Data.DemonMerchantData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_demon_merchant_data.html",tooltip=" "];
+  Node0 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="RogueGenesia.Data.DogRogData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_dog_rog_data.html",tooltip=" "];
+  Node0 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="RogueGenesia.Data.DuelistData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_duelist_data.html",tooltip=" "];
+  Node0 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="RogueGenesia.Data.GunSlingerData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_gun_slinger_data.html",tooltip=" "];
+  Node0 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="RogueGenesia.Data.LagRogData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_lag_rog_data.html",tooltip=" "];
+  Node0 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node7 [label="RogueGenesia.Data.RogData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_rog_data.html",tooltip=" "];
+  Node0 -> Node8 [dir="back",color="steelblue1",style="solid"];
+  Node8 [label="RogueGenesia.Data.RogueData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_rogue_data.html",tooltip=" "];
+  Node0 -> Node9 [dir="back",color="steelblue1",style="solid"];
+  Node9 [label="RogueGenesia.Data.SummonerData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_summoner_data.html",tooltip=" "];
 }

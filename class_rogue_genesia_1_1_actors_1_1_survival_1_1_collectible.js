@@ -1,9 +1,10 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible =
 [
-    [ "GetDescription", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a246e7d8230b671ae04bd086dcc5c6d33", null ],
+    [ "GetCategory", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a2ab04d40509c84bee859ef8dfa9c6a46", null ],
+    [ "GetDescription", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#afff62e8706937d50749926af33d1b821", null ],
     [ "GetDropChanceFromCrate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#acd2c946888d1acd336ad25e612e1f3c2", null ],
     [ "GetModel", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#acc9702d0e6308b4b3f06fcab802142f5", null ],
-    [ "GetName", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#ad2fff9fc1d3fdc327983a6e736d838ee", null ],
+    [ "GetName", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a40fc79f29ab0fd6dfa7e5670d4737446", null ],
     [ "GetName", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a19313b236fd19c63db5d4828436a14db", null ],
     [ "GetPickUpRange", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#ab393959a8c604b5f6f35fc74b890f137", null ],
     [ "OnDestroy", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a4de5b31126735fc1f894a40ef253d55c", null ],

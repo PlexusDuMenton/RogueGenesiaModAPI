@@ -3,10 +3,10 @@ var _soul_card_scriptable_object_8cs =
     [ "RogueGenesia.Data.NameToConstructor", "struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html", "struct_rogue_genesia_1_1_data_1_1_name_to_constructor" ],
     [ "RogueGenesia.Data.LocalizationData", "class_rogue_genesia_1_1_data_1_1_localization_data.html", "class_rogue_genesia_1_1_data_1_1_localization_data" ],
     [ "RogueGenesia.Data.SoulCardScriptableObject", "class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html", "class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object" ],
-    [ "CardAvatarLimitation", "_soul_card_scriptable_object_8cs.html#a68049f6749401cf80c06cc4f87b5fea9", [
-      [ "None", "_soul_card_scriptable_object_8cs.html#a68049f6749401cf80c06cc4f87b5fea9a6adf97f83acf6453d4a6a4b1070f3754", null ],
-      [ "WhiteList", "_soul_card_scriptable_object_8cs.html#a68049f6749401cf80c06cc4f87b5fea9a4e51264c3f1e5807eba36e8a1be04e90", null ],
-      [ "BlackList", "_soul_card_scriptable_object_8cs.html#a68049f6749401cf80c06cc4f87b5fea9a1cdc4983907e999bb78ed6f504414328", null ]
+    [ "AvatarLimitation", "_soul_card_scriptable_object_8cs.html#afeb0c7ca9865759b2b5e3f6074cc34db", [
+      [ "None", "_soul_card_scriptable_object_8cs.html#afeb0c7ca9865759b2b5e3f6074cc34dba6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "WhiteList", "_soul_card_scriptable_object_8cs.html#afeb0c7ca9865759b2b5e3f6074cc34dba4e51264c3f1e5807eba36e8a1be04e90", null ],
+      [ "BlackList", "_soul_card_scriptable_object_8cs.html#afeb0c7ca9865759b2b5e3f6074cc34dba1cdc4983907e999bb78ed6f504414328", null ]
     ] ],
     [ "CardTag", "_soul_card_scriptable_object_8cs.html#abd1862bbeed96cf5d434cf1d2cfd4f55", [
       [ "None", "_soul_card_scriptable_object_8cs.html#abd1862bbeed96cf5d434cf1d2cfd4f55a6adf97f83acf6453d4a6a4b1070f3754", null ],

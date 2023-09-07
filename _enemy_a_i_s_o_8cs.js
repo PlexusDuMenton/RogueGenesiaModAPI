@@ -1,0 +1,4 @@
+var _enemy_a_i_s_o_8cs =
+[
+    [ "RogueGenesia.Data.EnemyAISO", "class_rogue_genesia_1_1_data_1_1_enemy_a_i_s_o.html", "class_rogue_genesia_1_1_data_1_1_enemy_a_i_s_o" ]
+];

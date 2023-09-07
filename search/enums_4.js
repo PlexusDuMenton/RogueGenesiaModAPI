@@ -29,8 +29,10 @@ var searchData=
   ['erewardtype_26',['ERewardType',['../namespace_rogue_genesia_1_1_data.html#a91d4e1618f3b219b62ca066355adf79d',1,'RogueGenesia::Data']]],
   ['essutype_27',['ESSUType',['../class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc34381676ecd99288db3111ac3263ec',1,'RogueGenesia::Data::SoulShopUpgradeSO']]],
   ['estatdisplaymode_28',['EStatDisplayMode',['../namespace_rogue_genesia.html#a08e147a553a0e3cd2fd9a832fe37f95c',1,'RogueGenesia']]],
-  ['estatsimulationtype_29',['EStatSimulationType',['../class_rogue_genesia_1_1_data_1_1_avatar_data.html#a21a4a80a22fb0b3220889945b93d5684',1,'RogueGenesia::Data::AvatarData']]],
-  ['etalenttype_30',['ETalentType',['../class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a509facaea68b835050dd3575f052ad4f',1,'RogueGenesia::Data::TalentScriptableObject']]],
-  ['etier_31',['ETier',['../class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acda6fffa3a458f99fbc59a754c20180c',1,'RogueGenesia::Data::SoulShopUpgradeSO']]],
-  ['etooltipsectiontype_32',['ETooltipSectionType',['../class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#aeb73f5f9e459292bb84d3398f75e0eec',1,'RogueGenesia::UI::TooltipSection']]]
+  ['estatlinkdisplay_29',['EStatLinkDisplay',['../namespace_rogue_genesia.html#af3d65b53316b291f97523f9402bcff7f',1,'RogueGenesia']]],
+  ['estatsimulationtype_30',['EStatSimulationType',['../class_rogue_genesia_1_1_data_1_1_avatar_data.html#a21a4a80a22fb0b3220889945b93d5684',1,'RogueGenesia::Data::AvatarData']]],
+  ['etalenttype_31',['ETalentType',['../class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html#a509facaea68b835050dd3575f052ad4f',1,'RogueGenesia::Data::TalentScriptableObject']]],
+  ['etier_32',['ETier',['../class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acda6fffa3a458f99fbc59a754c20180c',1,'RogueGenesia::Data::SoulShopUpgradeSO']]],
+  ['etooltipsectiontype_33',['ETooltipSectionType',['../class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#aeb73f5f9e459292bb84d3398f75e0eec',1,'RogueGenesia::UI::TooltipSection']]],
+  ['eweaponstatfromat_34',['EWeaponStatFromat',['../namespace_rogue_genesia_1_1_data.html#af4873c429ba54a76d0dfb65e328bb225',1,'RogueGenesia::Data']]]
 ];

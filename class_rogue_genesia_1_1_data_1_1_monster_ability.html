@@ -162,6 +162,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a21b49c7e15f14d2b0f9a776df4f62ae3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a21b49c7e15f14d2b0f9a776df4f62ae3">OnAbilityAdded</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster)</td></tr>
 <tr class="separator:a21b49c7e15f14d2b0f9a776df4f62ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7667fb7c076b8cc6304fcfb7ba8deef"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#ac7667fb7c076b8cc6304fcfb7ba8deef">GetAbilityWeight</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster)</td></tr>
+<tr class="separator:ac7667fb7c076b8cc6304fcfb7ba8deef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82d20555b0fecc449327b42bf9e78462"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a82d20555b0fecc449327b42bf9e78462">OnDamageEntity</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster, <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a> EntityAttacked, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information.html">DamageInformation</a> damageInformation)</td></tr>
 <tr class="separator:a82d20555b0fecc449327b42bf9e78462"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20dcfa93bbe4d90bc11cdcf085b8b001"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a20dcfa93bbe4d90bc11cdcf085b8b001">OnUpdate</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> monster)</td></tr>
@@ -203,10 +205,6 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a78926f0be961289d5b9e8e329839ae84"><td class="memItemLeft" align="right" valign="top">static ConstructorInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a78926f0be961289d5b9e8e329839ae84">GetAbilityConstructor</a> (string name)</td></tr>
 <tr class="separator:a78926f0be961289d5b9e8e329839ae84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16dafd53eb8adb7d075c3de3c0920682"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a16dafd53eb8adb7d075c3de3c0920682">RegisterAbility</a> (string name, ConstructorInfo constructorInfo)</td></tr>
-<tr class="separator:a16dafd53eb8adb7d075c3de3c0920682"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addd5d706d50c15d6a7bca7ea30dd2dde"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#addd5d706d50c15d6a7bca7ea30dd2dde">RegisterAbility</a> (<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a> typeToAdd)</td></tr>
-<tr class="separator:addd5d706d50c15d6a7bca7ea30dd2dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -215,9 +213,9 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:adb90259f00364cfa78a50eca512a7ead"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#adb90259f00364cfa78a50eca512a7ead">AbilityTypeList</a> = new List&lt;<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&gt;()</td></tr>
-<tr class="separator:adb90259f00364cfa78a50eca512a7ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af183f83b6c90fa82e9b7aaa8eec92ba8"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html">MonsterAbility</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#af183f83b6c90fa82e9b7aaa8eec92ba8">GeneralAbilityList</a> = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html">MonsterAbility</a>&gt;()</td></tr>
+<tr class="memitem:a7b04d7d71c2df6fd431cb73aa15413a9"><td class="memItemLeft" align="right" valign="top">static Dictionary&lt; string, ConstructorInfo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a7b04d7d71c2df6fd431cb73aa15413a9">TypeConstructor</a> = new()</td></tr>
+<tr class="separator:a7b04d7d71c2df6fd431cb73aa15413a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af183f83b6c90fa82e9b7aaa8eec92ba8"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html">MonsterAbility</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#af183f83b6c90fa82e9b7aaa8eec92ba8">GeneralAbilityList</a> = new()</td></tr>
 <tr class="separator:af183f83b6c90fa82e9b7aaa8eec92ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
@@ -259,14 +257,14 @@ Properties</h2></td></tr>
 <tr class="separator:aa267a41fa840a163260138a798394e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fa13b4ef5e538ff958152c551f89928"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a4fa13b4ef5e538ff958152c551f89928">getCoolDown</a><code> [get]</code></td></tr>
 <tr class="separator:a4fa13b4ef5e538ff958152c551f89928"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1d90e5eb0a3f95a277972b4612cd090"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#ae1d90e5eb0a3f95a277972b4612cd090">castWeight</a><code> [get, set]</code></td></tr>
-<tr class="separator:ae1d90e5eb0a3f95a277972b4612cd090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00894ea55e8e0480d44bef15bd5d8048"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a00894ea55e8e0480d44bef15bd5d8048">CastWeight</a><code> [set]</code></td></tr>
+<tr class="separator:a00894ea55e8e0480d44bef15bd5d8048"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4d50a0428525a357d74dad5a386241d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#ad4d50a0428525a357d74dad5a386241d">castTimeLeft</a><code> [get]</code></td></tr>
 <tr class="separator:ad4d50a0428525a357d74dad5a386241d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a7d9a98d9400b23442fe980dc169412"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a7a7d9a98d9400b23442fe980dc169412">channelTimeLeft</a><code> [get]</code></td></tr>
 <tr class="separator:a7a7d9a98d9400b23442fe980dc169412"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6db7e2bf3c967b4fde2982ced12e5158"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a6db7e2bf3c967b4fde2982ced12e5158">displayAbilityIcon</a><code> [get]</code></td></tr>
-<tr class="separator:a6db7e2bf3c967b4fde2982ced12e5158"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f3f12958f2dba8b454531499901f2d1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html#a2f3f12958f2dba8b454531499901f2d1">DisplayAbilityIcon</a><code> [get]</code></td></tr>
+<tr class="separator:a2f3f12958f2dba8b454531499901f2d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a3ef2f4cc9673771225273d74d6380106" name="a3ef2f4cc9673771225273d74d6380106"></a>
@@ -371,6 +369,34 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="ac7667fb7c076b8cc6304fcfb7ba8deef" name="ac7667fb7c076b8cc6304fcfb7ba8deef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7667fb7c076b8cc6304fcfb7ba8deef">&#9670;&#160;</a></span>GetAbilityWeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual float RogueGenesia.Data.MonsterAbility.GetAbilityWeight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td>
+          <td class="paramname"><em>monster</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_evil_beam_ability.html#a9c1f72e6cc246eb6ab3e18a951f0e4bd">RogueGenesia.Actors.Survival.NecroEvilBeamAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_spike_ability.html#af0f5faf02bbc51dd5ea01fd439715500">RogueGenesia.Actors.Survival.NecroSpikeAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_spit_fly_ability.html#a51b249c3eae3d54c513ad827d2e042b9">RogueGenesia.Actors.Survival.NecroSpitFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_quick_sand_ability.html#ab17d0f39ea9255aa451e79099c451dc1">RogueGenesia.Actors.Survival.WormQuickSandAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_spike_ability.html#ada7c97e52ce528aaa1ec0218ea0791b5">RogueGenesia.Actors.Survival.WormSpikeAbility</a>.</p>
+
+</div>
+</div>
 <a id="a68bbe9f9740b695038a6784cdd5ffe4d" name="a68bbe9f9740b695038a6784cdd5ffe4d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a68bbe9f9740b695038a6784cdd5ffe4d">&#9670;&#160;</a></span>getGeneralAbilityTag()</h2>
 
@@ -394,7 +420,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_agile_ability.html#a938cc965395da0d3aa6cbd942e7c3447">RogueGenesia.Data.AgileAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_berserker_ability.html#a0b10854618cf5e0983d331a8b915459f">RogueGenesia.Data.BerserkerAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_life_link.html#a02da466580f7fd7e72b04ca66e0f49c6">RogueGenesia.Data.LifeLink</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_life_regen.html#a1c3db15d3410ee2f655c8a2de54b9ba0">RogueGenesia.Data.LifeRegen</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_martyr_ability.html#ab6c360521c7423882de876ba0c89ebb7">RogueGenesia.Data.MartyrAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_poisonous_ability.html#a26eb7c9a836ccc5ef28617f94b65ff98">RogueGenesia.Data.PoisonousAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_prophet_ability.html#af586e91656ba08125195c56c6a6294b7">RogueGenesia.Data.ProphetAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rifted_ability.html#aace7adba80faca87c4460be330b8c167">RogueGenesia.Data.RiftedAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_split_on_death.html#ada4160d5d14cd039f34f7dfb8cfe0e57">RogueGenesia.Data.SplitOnDeath</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_vampire_ability.html#ae35768b37a66324c13e45c47c2b2a75d">RogueGenesia.Data.VampireAbility</a>.</p>
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_agile_ability.html#a938cc965395da0d3aa6cbd942e7c3447">RogueGenesia.Data.AgileAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_berserker_ability.html#a0b10854618cf5e0983d331a8b915459f">RogueGenesia.Data.BerserkerAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_life_link.html#a02da466580f7fd7e72b04ca66e0f49c6">RogueGenesia.Data.LifeLink</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_life_regen.html#a1c3db15d3410ee2f655c8a2de54b9ba0">RogueGenesia.Data.LifeRegen</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_martyr_ability.html#ab6c360521c7423882de876ba0c89ebb7">RogueGenesia.Data.MartyrAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_poisonous_ability.html#a26eb7c9a836ccc5ef28617f94b65ff98">RogueGenesia.Data.PoisonousAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_prophet_ability.html#af586e91656ba08125195c56c6a6294b7">RogueGenesia.Data.ProphetAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rifted_ability.html#aace7adba80faca87c4460be330b8c167">RogueGenesia.Data.RiftedAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_vampire_ability.html#ae35768b37a66324c13e45c47c2b2a75d">RogueGenesia.Data.VampireAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_general_ability.html#a6487bf283e3d43e815185e30cdb378fc">RogueGenesia.Data.GeneralAbility</a>.</p>
 
 </div>
 </div>
@@ -474,7 +500,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_blink_storm.html#a1b021b33755f1427faa1bde7c6e8ec20">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanBlinkStorm</a>.</p>
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_buff_shaman_ability.html#ac4f16f8d0e80767496b48b037cca82b0">RogueGenesia.Actors.Survival.BossAbility.Shaman.BuffShamanAbility</a>.</p>
 
 </div>
 </div>
@@ -556,7 +582,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_planetery_proj_walk_ability.html#acc03513f3d495453debcff2adb5219f1">RogueGenesia.Actors.Survival.NecroPlaneteryProjWalkAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_walk_ability.html#a9d87408cb762a03da0f15a37c7c3a93a">RogueGenesia.Actors.Survival.NecroSummonWalkAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_lazor_shaman_ability.html#a0cbc02582b468201f726ab5f5fc6f919">RogueGenesia.Actors.Survival.BossAbility.Shaman.LazorShamanAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_blink.html#aa2fd25074a8db856f4af2a6d9fd4fe33">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanBlink</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_blink_storm.html#ad33d0193bd8d75b4c7b3dadf923831ed">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanBlinkStorm</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet.html#ace5d621b844807250b087ddad031e2f6">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBullet</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet_storm.html#a097599e1e3cd68eb631075ab154fc444">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBulletStorm</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_summon_goblin_ability.html#a630072cdd3c7b5eb69f8f67f3c296ee4">RogueGenesia.Actors.Survival.BossAbility.Shaman.SummonGoblinAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_spit_worm_ability.html#a9b9fdbec610ae7bde90d9725ad5f9cab">RogueGenesia.Actors.Survival.BossAbility.Worm.SpitWormAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_summon_worm_ability.html#a6284f11ea17da694f49bed9dc66d5e8b">RogueGenesia.Actors.Survival.BossAbility.Worm.SummonWormAbility</a>.</p>
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___crush_ability.html#ade865d6762366bf2d710ae0dea035478">RogueGenesia.Actors.Survival.LavaTitan_CrushAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___projectiles_hand_ability.html#abfee1d3f4267f7f24bf80a3381ac69a2">RogueGenesia.Actors.Survival.LavaTitan_ProjectilesHandAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___side_crush_ability.html#a5aba64f3ae653dc981b0f13382bce90b">RogueGenesia.Actors.Survival.LavaTitan_SideCrushAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_elite_spawn.html#aa6076904debd2a516064466e219533e6">RogueGenesia.Actors.Survival.NecroEliteSpawn</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_guided_missiles_ability.html#a4c02411ad911457f97f3be8a3922ce36">RogueGenesia.Actors.Survival.NecroGuidedMissilesAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_planetery_proj_walk_ability.html#acc03513f3d495453debcff2adb5219f1">RogueGenesia.Actors.Survival.NecroPlaneteryProjWalkAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_spit_fly_ability.html#af96eb0d00c1e930fa686ab3519bdbf4d">RogueGenesia.Actors.Survival.NecroSpitFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_walk_ability.html#a9d87408cb762a03da0f15a37c7c3a93a">RogueGenesia.Actors.Survival.NecroSummonWalkAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_buff_shaman_ability.html#aba7097f29618402ab08b81fbfddeebe9">RogueGenesia.Actors.Survival.BossAbility.Shaman.BuffShamanAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_lazor_shaman_ability.html#a0cbc02582b468201f726ab5f5fc6f919">RogueGenesia.Actors.Survival.BossAbility.Shaman.LazorShamanAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_blink.html#aa2fd25074a8db856f4af2a6d9fd4fe33">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanBlink</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_blink_storm.html#ad33d0193bd8d75b4c7b3dadf923831ed">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanBlinkStorm</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet.html#ace5d621b844807250b087ddad031e2f6">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBullet</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet_storm_ability.html#a27fa142cb68b691a099f878041d9e7fa">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBulletStormAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_summon_goblin_ability.html#a630072cdd3c7b5eb69f8f67f3c296ee4">RogueGenesia.Actors.Survival.BossAbility.Shaman.SummonGoblinAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_buff_worm_ability.html#a4fdd53882581ceb8ae62589bf3ce73f9">RogueGenesia.Actors.Survival.BossAbility.Worm.BuffWormAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_spit_worm_ability.html#a9b9fdbec610ae7bde90d9725ad5f9cab">RogueGenesia.Actors.Survival.BossAbility.Worm.SpitWormAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_summon_worm_ability.html#a6c9571e1f834b35ced56d6c93a1397d0">RogueGenesia.Data.SummonWormAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_spit_ability.html#a0a248c3f185c1ec044ebc99e834258be">RogueGenesia.Actors.Survival.SpitAbility</a>.</p>
 
 </div>
 </div>
@@ -584,7 +610,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_end_fly_ability.html#a93b414c0332310b954e3dae847752f3b">RogueGenesia.Actors.Survival.NecroEndFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_magic_missile_fly_ability.html#a246cd4714c6183e1ea3dcfadfb1fce24">RogueGenesia.Actors.Survival.NecroMagicMissileFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_spit_fly_ability.html#ae71d93f8e998d6c3399281f7dc5fbbe8">RogueGenesia.Actors.Survival.NecroSpitFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_start_fly_ability.html#aa7acf197ac195ad1b51df4abf51f1c4e">RogueGenesia.Actors.Survival.NecroStartFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a109da01221aaf6a59f876ba98424f6e9">RogueGenesia.Actors.Survival.NecroSummonFlyAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_fractal_balls_ability.html#a02969b2baed0b7f78218dc24b3d5307f">RogueGenesia.Actors.Survival.BossAbility.Shaman.FractalBallsAbility</a>.</p>
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_end_fly_ability.html#a93b414c0332310b954e3dae847752f3b">RogueGenesia.Actors.Survival.NecroEndFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_magic_missile_fly_ability.html#a246cd4714c6183e1ea3dcfadfb1fce24">RogueGenesia.Actors.Survival.NecroMagicMissileFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_spike_ability.html#a6e75d109620774a0eb7b0c36414570eb">RogueGenesia.Actors.Survival.NecroSpikeAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_start_fly_ability.html#aa7acf197ac195ad1b51df4abf51f1c4e">RogueGenesia.Actors.Survival.NecroStartFlyAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_fractal_balls_ability.html#a02969b2baed0b7f78218dc24b3d5307f">RogueGenesia.Actors.Survival.BossAbility.Shaman.FractalBallsAbility</a>.</p>
 
 </div>
 </div>
@@ -612,7 +638,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_magic_missile_fly_ability.html#a03ee96696de0ed2f613cb9a96f6a8d0a">RogueGenesia.Actors.Survival.NecroMagicMissileFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a2dce9684e28c175405922fe0b8968060">RogueGenesia.Actors.Survival.NecroSummonFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_blink_storm.html#a6cc9d36b4c12b2167f77a8ca0b346cc8">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanBlinkStorm</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet_storm.html#a5a25f7c53162d6fda53e1986a4102128">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBulletStorm</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_dash_worm_ability.html#aa88beacfdd934205f0727a243730800d">RogueGenesia.Actors.Survival.BossAbility.Worm.DashWormAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_summon_worm_ability.html#ace31ba50aa6f644c1b000261cd6a6c12">RogueGenesia.Actors.Survival.BossAbility.Worm.SummonWormAbility</a>.</p>
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___angry_crush_ability.html#a02ed59208f066413257e45a0211dd07b">RogueGenesia.Actors.Survival.LavaTitan_AngryCrushAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___hand_crush_ability.html#a579adf269f828d06911304379fc5a98d">RogueGenesia.Actors.Survival.LavaTitan_HandCrushAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___hand_distance_ability.html#a0ef7ee33a19abecc7fc446ee495c9700">RogueGenesia.Actors.Survival.LavaTitan_HandDistanceAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___hand_quick_crush_ability.html#a0f664ede684e95dc3103bcd4c5bd5b52">RogueGenesia.Actors.Survival.LavaTitan_HandQuickCrushAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___hand_side_crush_ability.html#a75a51a1781d3b7fd2a6d2588bb519423">RogueGenesia.Actors.Survival.LavaTitan_HandSideCrushAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_evil_beam_ability.html#a4858bf82d75c39756c66bfe832737bba">RogueGenesia.Actors.Survival.NecroEvilBeamAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_magic_missile_fly_ability.html#a03ee96696de0ed2f613cb9a96f6a8d0a">RogueGenesia.Actors.Survival.NecroMagicMissileFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_spike_ability.html#a86675731a74a0e4a58aeadac766b20ba">RogueGenesia.Actors.Survival.NecroSpikeAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_blink_storm.html#a6cc9d36b4c12b2167f77a8ca0b346cc8">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanBlinkStorm</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet_storm_ability.html#ab60c7c4f55c531d9624f74ad31486564">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBulletStormAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_dash_worm_ability.html#aa88beacfdd934205f0727a243730800d">RogueGenesia.Actors.Survival.BossAbility.Worm.DashWormAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_summon_worm_ability.html#ab9402f826390eaff9d3bee7b1b835242">RogueGenesia.Data.SummonWormAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_summon_worm_phase2_ability.html#a62591c294853933aee524f3c122e6558">RogueGenesia.Data.SummonWormPhase2Ability</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_quick_sand_ability.html#ae5811511794acab73a6f2621c9fca2f5">RogueGenesia.Actors.Survival.WormQuickSandAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_spike_ability.html#a58fcc56863338c6d82eba1e7522e1804">RogueGenesia.Actors.Survival.WormSpikeAbility</a>.</p>
 
 </div>
 </div>
@@ -684,7 +710,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_end_fly_ability.html#a336df1909ad93d3eaf2a641bd664d89e">RogueGenesia.Actors.Survival.NecroEndFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_start_fly_ability.html#a31016660793b6e09e0abdd60dbf2abed">RogueGenesia.Actors.Survival.NecroStartFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#aab467030e5736f7f32693851c4183dff">RogueGenesia.Actors.Survival.NecroSummonFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_buff_shaman_ability.html#a3ccb524a8537f882337e2e6eedb3a4ca">RogueGenesia.Actors.Survival.BossAbility.Shaman.BuffShamanAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_dash_worm_ability.html#ad03206900b82a9ea47f660507e5375dc">RogueGenesia.Actors.Survival.BossAbility.Worm.DashWormAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_summon_worm_ability.html#ae6e61e6b239056687daf4eef3639c7bf">RogueGenesia.Actors.Survival.BossAbility.Worm.SummonWormAbility</a>.</p>
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___angry_crush_ability.html#a26e53399e4ac17337fddb35671d0ce5b">RogueGenesia.Actors.Survival.LavaTitan_AngryCrushAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___hand_crush_ability.html#ab09d238dc38bdf877272619ca8544686">RogueGenesia.Actors.Survival.LavaTitan_HandCrushAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___hand_distance_ability.html#a8deeff4eee2f10c8fde4f41f35f97e9a">RogueGenesia.Actors.Survival.LavaTitan_HandDistanceAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___hand_quick_crush_ability.html#a8567339c110b5ffe1a2084b9143dd4b8">RogueGenesia.Actors.Survival.LavaTitan_HandQuickCrushAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___hand_side_crush_ability.html#a98b2b220242dac6428291a1b2fbcba94">RogueGenesia.Actors.Survival.LavaTitan_HandSideCrushAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_end_fly_ability.html#a336df1909ad93d3eaf2a641bd664d89e">RogueGenesia.Actors.Survival.NecroEndFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_start_fly_ability.html#a31016660793b6e09e0abdd60dbf2abed">RogueGenesia.Actors.Survival.NecroStartFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_buff_shaman_ability.html#a3ccb524a8537f882337e2e6eedb3a4ca">RogueGenesia.Actors.Survival.BossAbility.Shaman.BuffShamanAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_blink_storm.html#a96aea3acfaca63cf593ac7dbd13f613f">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanBlinkStorm</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet_storm_ability.html#ac8e3dbdcace4f6df8f3c641c5c330f59">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBulletStormAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_dash_worm_ability.html#ad03206900b82a9ea47f660507e5375dc">RogueGenesia.Actors.Survival.BossAbility.Worm.DashWormAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_spit_worm_ability.html#aa693ef5967e9f673d3a98d0f4484a474">RogueGenesia.Actors.Survival.BossAbility.Worm.SpitWormAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_summon_worm_ability.html#a496b4a87d964cf0ac4c11ffd7f4acfb7">RogueGenesia.Data.SummonWormAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_quick_sand_ability.html#a821095949014f0a53960eddd631ec77d">RogueGenesia.Actors.Survival.WormQuickSandAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_spike_ability.html#a865c43e513fc58ec7f3cce5b28d3934c">RogueGenesia.Actors.Survival.WormSpikeAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_spit_ability.html#a7cb38cf2c04b0178f67615b0b4130f7f">RogueGenesia.Actors.Survival.SpitAbility</a>.</p>
 
 </div>
 </div>
@@ -711,6 +737,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_evil_beam_ability.html#a017fb9fce2e3a2e3671337119549756f">RogueGenesia.Actors.Survival.NecroEvilBeamAbility</a>.</p>
 
 </div>
 </div>
@@ -748,7 +776,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet_storm.html#a5f661c75727618b82c51745b72523cf1">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBulletStorm</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_martyr_ability.html#af73850c5d248a4a59b9dfea7234db237">RogueGenesia.Data.MartyrAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_split_on_death.html#aaf728a42b53257d57ef8929216e158d8">RogueGenesia.Data.SplitOnDeath</a>.</p>
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet_storm_ability.html#a18ebbcabac5acd66e7286ecba785377a">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBulletStormAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_martyr_ability.html#af73850c5d248a4a59b9dfea7234db237">RogueGenesia.Data.MartyrAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_split_on_death.html#aaf728a42b53257d57ef8929216e158d8">RogueGenesia.Data.SplitOnDeath</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_spawn_on_death.html#aaa3901a115911964cb9dadbcbb394448">RogueGenesia.Data.SpawnOnDeath</a>.</p>
 
 </div>
 </div>
@@ -852,7 +880,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_end_fly_ability.html#ac590fd3174302dbf237dc1360a79d9a0">RogueGenesia.Actors.Survival.NecroEndFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_magic_missile_fly_ability.html#a737e517d2a61da6f9319ac9561eb0d40">RogueGenesia.Actors.Survival.NecroMagicMissileFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_spit_fly_ability.html#aa43e62fc56ab87b2a123060d064780e7">RogueGenesia.Actors.Survival.NecroSpitFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_start_fly_ability.html#a02fd037b650e151f4d90937aaa421989">RogueGenesia.Actors.Survival.NecroStartFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a15583286f703c7d978a2e59b9b220719">RogueGenesia.Actors.Survival.NecroSummonFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_walk_ability.html#abfe2235ebbf6628283b0905cb4af63fb">RogueGenesia.Actors.Survival.NecroSummonWalkAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_buff_shaman_ability.html#acb1fc519ef3d9a33f989190eeb903a89">RogueGenesia.Actors.Survival.BossAbility.Shaman.BuffShamanAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_fractal_balls_ability.html#ab5fafccd2b6a5108828230de058c37f5">RogueGenesia.Actors.Survival.BossAbility.Shaman.FractalBallsAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_blink_storm.html#ade39679fe1723ac007ff1533ba659985">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanBlinkStorm</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet.html#a32c9f25d3e2bc85e51629297e53223f5">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBullet</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet_storm.html#a153353abc495ab1a2e5a32ca9645111c">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBulletStorm</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_summon_goblin_ability.html#ae9cacf69324759c4862d8cbf46a34eda">RogueGenesia.Actors.Survival.BossAbility.Shaman.SummonGoblinAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_dash_worm_ability.html#afcbb8a78c7802c0432ea5dbdecd87f7c">RogueGenesia.Actors.Survival.BossAbility.Worm.DashWormAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_spit_worm_ability.html#a0076f5a4e7836b63dd79da2030bab5c5">RogueGenesia.Actors.Survival.BossAbility.Worm.SpitWormAbility</a>.</p>
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___crush_ability.html#a213fa7adeb29f3c7a57c75899eab565b">RogueGenesia.Actors.Survival.LavaTitan_CrushAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___projectiles_hand_ability.html#afdd251383d854491a1e24fb7ceeeac0b">RogueGenesia.Actors.Survival.LavaTitan_ProjectilesHandAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___side_crush_ability.html#a5c33d74db3d0f2c6aaabc9aae53b5ebc">RogueGenesia.Actors.Survival.LavaTitan_SideCrushAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_elite_spawn.html#a897ff4d1d079ee4680378676c9c4a308">RogueGenesia.Actors.Survival.NecroEliteSpawn</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_end_fly_ability.html#ac590fd3174302dbf237dc1360a79d9a0">RogueGenesia.Actors.Survival.NecroEndFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_magic_missile_fly_ability.html#a737e517d2a61da6f9319ac9561eb0d40">RogueGenesia.Actors.Survival.NecroMagicMissileFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_spike_ability.html#a656ec6483ed5d99fe83565a1a5101208">RogueGenesia.Actors.Survival.NecroSpikeAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_spit_fly_ability.html#aa43e62fc56ab87b2a123060d064780e7">RogueGenesia.Actors.Survival.NecroSpitFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_start_fly_ability.html#a02fd037b650e151f4d90937aaa421989">RogueGenesia.Actors.Survival.NecroStartFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_walk_ability.html#abfe2235ebbf6628283b0905cb4af63fb">RogueGenesia.Actors.Survival.NecroSummonWalkAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_buff_shaman_ability.html#acb1fc519ef3d9a33f989190eeb903a89">RogueGenesia.Actors.Survival.BossAbility.Shaman.BuffShamanAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_fractal_balls_ability.html#ab5fafccd2b6a5108828230de058c37f5">RogueGenesia.Actors.Survival.BossAbility.Shaman.FractalBallsAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet.html#a32c9f25d3e2bc85e51629297e53223f5">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBullet</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet_storm_ability.html#a9c095c8132708473c24d203402fa87bf">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBulletStormAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_summon_goblin_ability.html#ae9cacf69324759c4862d8cbf46a34eda">RogueGenesia.Actors.Survival.BossAbility.Shaman.SummonGoblinAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_buff_worm_ability.html#a2ca335a1a7a358f7b9eff6bb00dfd8b1">RogueGenesia.Actors.Survival.BossAbility.Worm.BuffWormAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_dash_worm_ability.html#afcbb8a78c7802c0432ea5dbdecd87f7c">RogueGenesia.Actors.Survival.BossAbility.Worm.DashWormAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_spit_worm_ability.html#a0076f5a4e7836b63dd79da2030bab5c5">RogueGenesia.Actors.Survival.BossAbility.Worm.SpitWormAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_quick_sand_ability.html#a889fc64ee0842335ebf7bad4c48018e1">RogueGenesia.Actors.Survival.WormQuickSandAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_spike_ability.html#a7b8a4f7fe252c57283fe434f43ed1c08">RogueGenesia.Actors.Survival.WormSpikeAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_spit_ability.html#a4680a619a372a37afd5c11da23c63d0e">RogueGenesia.Actors.Survival.SpitAbility</a>.</p>
 
 </div>
 </div>
@@ -880,7 +908,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_dash_worm_ability.html#aa328f40460fb122fdee0fe1eb03130d3">RogueGenesia.Actors.Survival.BossAbility.Worm.DashWormAbility</a>.</p>
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___angry_crush_ability.html#a43d81478b27cc3e15710ab3d3423c663">RogueGenesia.Actors.Survival.LavaTitan_AngryCrushAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___hand_crush_ability.html#a8c606b1ca61d9fed41f2d31fa844294a">RogueGenesia.Actors.Survival.LavaTitan_HandCrushAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___hand_distance_ability.html#a4c8cb63f5a48372cf669f0425c1e7320">RogueGenesia.Actors.Survival.LavaTitan_HandDistanceAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___hand_quick_crush_ability.html#acbbe1766795a43d3339931c8e6758a0f">RogueGenesia.Actors.Survival.LavaTitan_HandQuickCrushAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan___hand_side_crush_ability.html#a9a1d1a97001eeaeed9e067ac15ea1e0f">RogueGenesia.Actors.Survival.LavaTitan_HandSideCrushAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_evil_beam_ability.html#ae30c94d88d2199dd1fcd20dd48c9a2cd">RogueGenesia.Actors.Survival.NecroEvilBeamAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_dash_worm_ability.html#aa328f40460fb122fdee0fe1eb03130d3">RogueGenesia.Actors.Survival.BossAbility.Worm.DashWormAbility</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_summon_worm_phase2_ability.html#a2df4c03925aebcbd07ca7d91ec45a117">RogueGenesia.Data.SummonWormPhase2Ability</a>.</p>
 
 </div>
 </div>
@@ -908,69 +936,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#ac1ae0dae5d1890c490ccc79a18735b85">RogueGenesia.Actors.Survival.NecroSummonFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet_storm.html#ac09c18e758c963046f4386c86abfc416">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBulletStorm</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_berserker_ability.html#a60cbf0055c5c67ffd63910435648e493">RogueGenesia.Data.BerserkerAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_life_regen.html#ac41a2aef7347b1e183d882de648e6f86">RogueGenesia.Data.LifeRegen</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_rifted_ability.html#ae46974e011f933ca1c056e979ac8ed05">RogueGenesia.Data.RiftedAbility</a>.</p>
-
-</div>
-</div>
-<a id="addd5d706d50c15d6a7bca7ea30dd2dde" name="addd5d706d50c15d6a7bca7ea30dd2dde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addd5d706d50c15d6a7bca7ea30dd2dde">&#9670;&#160;</a></span>RegisterAbility() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static bool RogueGenesia.Data.MonsterAbility.RegisterAbility </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&#160;</td>
-          <td class="paramname"><em>typeToAdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a16dafd53eb8adb7d075c3de3c0920682" name="a16dafd53eb8adb7d075c3de3c0920682"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16dafd53eb8adb7d075c3de3c0920682">&#9670;&#160;</a></span>RegisterAbility() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static bool RogueGenesia.Data.MonsterAbility.RegisterAbility </td>
-          <td>(</td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ConstructorInfo&#160;</td>
-          <td class="paramname"><em>constructorInfo</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#ac1ae0dae5d1890c490ccc79a18735b85">RogueGenesia.Actors.Survival.NecroSummonFlyAbility</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_shaman_1_1_shaman_magic_bullet_storm_ability.html#aae91cbf055209baa4f48c7ea5ddafc00">RogueGenesia.Actors.Survival.BossAbility.Shaman.ShamanMagicBulletStormAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_berserker_ability.html#a60cbf0055c5c67ffd63910435648e493">RogueGenesia.Data.BerserkerAbility</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_life_regen.html#ac41a2aef7347b1e183d882de648e6f86">RogueGenesia.Data.LifeRegen</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_rifted_ability.html#ae46974e011f933ca1c056e979ac8ed05">RogueGenesia.Data.RiftedAbility</a>.</p>
 
 </div>
 </div>
@@ -1173,28 +1139,6 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="adb90259f00364cfa78a50eca512a7ead" name="adb90259f00364cfa78a50eca512a7ead"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb90259f00364cfa78a50eca512a7ead">&#9670;&#160;</a></span>AbilityTypeList</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&gt; RogueGenesia.Data.MonsterAbility.AbilityTypeList = new List&lt;<a class="el" href="struct_rogue_genesia_1_1_data_1_1_name_to_constructor.html">NameToConstructor</a>&gt;()</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="af183f83b6c90fa82e9b7aaa8eec92ba8" name="af183f83b6c90fa82e9b7aaa8eec92ba8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af183f83b6c90fa82e9b7aaa8eec92ba8">&#9670;&#160;</a></span>GeneralAbilityList</h2>
 
@@ -1205,7 +1149,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html">MonsterAbility</a>&gt; RogueGenesia.Data.MonsterAbility.GeneralAbilityList = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html">MonsterAbility</a>&gt;()</td>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_monster_ability.html">MonsterAbility</a>&gt; RogueGenesia.Data.MonsterAbility.GeneralAbilityList = new()</td>
         </tr>
       </table>
   </td>
@@ -1253,6 +1197,28 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a7b04d7d71c2df6fd431cb73aa15413a9" name="a7b04d7d71c2df6fd431cb73aa15413a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b04d7d71c2df6fd431cb73aa15413a9">&#9670;&#160;</a></span>TypeConstructor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;string, ConstructorInfo&gt; RogueGenesia.Data.MonsterAbility.TypeConstructor = new()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a id="ad4d50a0428525a357d74dad5a386241d" name="ad4d50a0428525a357d74dad5a386241d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad4d50a0428525a357d74dad5a386241d">&#9670;&#160;</a></span>castTimeLeft</h2>
@@ -1276,8 +1242,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ae1d90e5eb0a3f95a277972b4612cd090" name="ae1d90e5eb0a3f95a277972b4612cd090"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1d90e5eb0a3f95a277972b4612cd090">&#9670;&#160;</a></span>castWeight</h2>
+<a id="a00894ea55e8e0480d44bef15bd5d8048" name="a00894ea55e8e0480d44bef15bd5d8048"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00894ea55e8e0480d44bef15bd5d8048">&#9670;&#160;</a></span>CastWeight</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1286,12 +1252,12 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float RogueGenesia.Data.MonsterAbility.castWeight</td>
+          <td class="memname">float RogueGenesia.Data.MonsterAbility.CastWeight</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1320,8 +1286,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a6db7e2bf3c967b4fde2982ced12e5158" name="a6db7e2bf3c967b4fde2982ced12e5158"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6db7e2bf3c967b4fde2982ced12e5158">&#9670;&#160;</a></span>displayAbilityIcon</h2>
+<a id="a2f3f12958f2dba8b454531499901f2d1" name="a2f3f12958f2dba8b454531499901f2d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f3f12958f2dba8b454531499901f2d1">&#9670;&#160;</a></span>DisplayAbilityIcon</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1330,7 +1296,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool RogueGenesia.Data.MonsterAbility.displayAbilityIcon</td>
+          <td class="memname">bool RogueGenesia.Data.MonsterAbility.DisplayAbilityIcon</td>
         </tr>
       </table>
   </td>

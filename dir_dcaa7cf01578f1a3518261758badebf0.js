@@ -1,6 +1,8 @@
 var dir_dcaa7cf01578f1a3518261758badebf0 =
 [
     [ "AvatarSelectionMenu.cs", "_avatar_selection_menu_8cs.html", "_avatar_selection_menu_8cs" ],
+    [ "AvatarSkinSelectionMenu.cs", "_avatar_skin_selection_menu_8cs.html", "_avatar_skin_selection_menu_8cs" ],
+    [ "AvatarSkinUI.cs", "_avatar_skin_u_i_8cs.html", "_avatar_skin_u_i_8cs" ],
     [ "AvatarUI.cs", "_avatar_u_i_8cs.html", "_avatar_u_i_8cs" ],
     [ "PetSelection.cs", "_pet_selection_8cs.html", "_pet_selection_8cs" ],
     [ "PetUI.cs", "_pet_u_i_8cs.html", "_pet_u_i_8cs" ],

@@ -18,7 +18,6 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_manager_rogue =
     [ "TimeControl", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_rogue.html#afa41246d0c49a4c111f1a99f80523c4b", null ],
     [ "Update", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_rogue.html#abae2ab0c1db2992856fc3c5bce7070a7", null ],
     [ "floorText", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_rogue.html#ae24b4cf281b517c33b005dc449184c2e", null ],
-    [ "goldText", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_rogue.html#aa06775b2dbd09937447fc9b16ceae62c", null ],
     [ "instance", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_rogue.html#ae38961f106ecece4d58ef8e4b9814926", null ],
     [ "ObjectiveText", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_rogue.html#a015f4a2755ff6092ae9d9f34efde8c8d", null ],
     [ "SecondaryObjectiveCompleted", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_rogue.html#ae04ac26c26b408b2a39b2910087bb44d", null ],

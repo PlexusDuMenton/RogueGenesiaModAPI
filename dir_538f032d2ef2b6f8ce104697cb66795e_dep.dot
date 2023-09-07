@@ -11,6 +11,7 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/Monster/Monster
     graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_538f032d2ef2b6f8ce104697cb66795e.html",tooltip=""]
     dir_538f032d2ef2b6f8ce104697cb66795e [shape=plaintext, label="MonsterAbility"];
   dir_788c42c405973d98c2f3d37f79352838 [label="GeneralAbility", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_788c42c405973d98c2f3d37f79352838.html",tooltip=""];
+  dir_dd28549866d856cd7d5b0e71e1d43761 [label="Volcano", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_dd28549866d856cd7d5b0e71e1d43761.html",tooltip=""];
   }
   }
 }

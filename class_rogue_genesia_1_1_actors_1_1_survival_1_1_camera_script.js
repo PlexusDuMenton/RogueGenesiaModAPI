@@ -1,5 +1,6 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script =
 [
+    [ "OnUpdateFixedCamera", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script.html#af9381cdb512ac86bc582484189be4ab0", null ],
     [ "ScreenToWorld", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script.html#a30f13da32b31008f1ff2fc9c38cf8531", null ],
     [ "_cam", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script.html#a5552c84300bb2321fd6eca82c685fc55", null ],
     [ "BaseHeight", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script.html#ace4f5de875c9753ccac0e7f6752b1dd3", null ],

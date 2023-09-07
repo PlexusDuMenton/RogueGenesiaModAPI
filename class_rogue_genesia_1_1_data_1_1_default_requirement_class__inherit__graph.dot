@@ -7,9 +7,13 @@ digraph "RogueGenesia.Data.DefaultRequirementClass"
   rankdir="LR";
   Node1 [label="RogueGenesia.Data.Default\lRequirementClass",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
   Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
-  Node2 [label="RogueGenesia.Data.CardRequirement",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_card_requirement.html",tooltip=" "];
+  Node2 [label="RogueGenesia.Data.Active\lTalentRequirement",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_active_talent_requirement.html",tooltip=" "];
   Node1 -> Node3 [dir="back",color="steelblue1",style="solid"];
-  Node3 [label="RogueGenesia.Data.StatRequirement",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_stat_requirement.html",tooltip=" "];
+  Node3 [label="RogueGenesia.Data.CardRequirement",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_card_requirement.html",tooltip=" "];
   Node1 -> Node4 [dir="back",color="steelblue1",style="solid"];
-  Node4 [label="RogueGenesia.Data.Weapon\lTagRequirement",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_weapon_tag_requirement.html",tooltip=" "];
+  Node4 [label="RogueGenesia.Data.SoulShop\lUpgradeRequirement",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_requirement.html",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="RogueGenesia.Data.StatRequirement",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_stat_requirement.html",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="RogueGenesia.Data.Weapon\lTagRequirement",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_weapon_tag_requirement.html",tooltip=" "];
 }

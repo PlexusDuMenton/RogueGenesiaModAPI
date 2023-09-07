@@ -1,6 +1,7 @@
 var _weapon_8cs =
 [
     [ "RogueGenesia.Data.AttackInformation", "struct_rogue_genesia_1_1_data_1_1_attack_information.html", "struct_rogue_genesia_1_1_data_1_1_attack_information" ],
+    [ "RogueGenesia.Data.WeaponStat", "struct_rogue_genesia_1_1_data_1_1_weapon_stat.html", "struct_rogue_genesia_1_1_data_1_1_weapon_stat" ],
     [ "RogueGenesia.Actors.Survival.Weapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon" ],
     [ "Random", "_weapon_8cs.html#a832e8f52fca5a678819ec96269dcb532", null ],
     [ "DamageSource", "_weapon_8cs.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5d", [
@@ -22,6 +23,15 @@ var _weapon_8cs =
       [ "Cleave", "_weapon_8cs.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5daf1565d61fb74b142b7ddb3fc038a2d5a", null ],
       [ "Shuriken", "_weapon_8cs.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5daa7bce577a52cb5d53f3af4cd9f051cb9", null ],
       [ "MagicWisp", "_weapon_8cs.html#ae8fe1843d2a4b8f8ef41b925a1f1ca5da406b6af85748f84665b75f3ceb3e15e6", null ]
+    ] ],
+    [ "EWeaponStatFromat", "_weapon_8cs.html#af4873c429ba54a76d0dfb65e328bb225", [
+      [ "Integer", "_weapon_8cs.html#af4873c429ba54a76d0dfb65e328bb225aa0faef0851b4294c06f2b94bb1cb2044", null ],
+      [ "Normal", "_weapon_8cs.html#af4873c429ba54a76d0dfb65e328bb225a960b44c579bc2f6818d2daaf9e4c16f0", null ],
+      [ "FlatPercent", "_weapon_8cs.html#af4873c429ba54a76d0dfb65e328bb225a277450c066fbf705436b35fbfab4c855", null ],
+      [ "Percent", "_weapon_8cs.html#af4873c429ba54a76d0dfb65e328bb225aadaaee4b22041c27198d410c68d952c9", null ],
+      [ "Distance", "_weapon_8cs.html#af4873c429ba54a76d0dfb65e328bb225a0aa6f4210bf373c95eda00232e93cd98", null ],
+      [ "Time", "_weapon_8cs.html#af4873c429ba54a76d0dfb65e328bb225aa76d4ef5f3f6a672bbfab2865563e530", null ],
+      [ "Degree", "_weapon_8cs.html#af4873c429ba54a76d0dfb65e328bb225a6669c4dc00cb161446821b3529ca07d8", null ]
     ] ],
     [ "WeaponType", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390d", [
       [ "Other", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da6311ae17c1ee52b36e68aaf4ad066387", null ],
@@ -73,6 +83,22 @@ var _weapon_8cs =
       [ "BoltAction", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da90cab377c0384a774d45cd45f676b91b", null ],
       [ "Sniper", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da007be3acd5669d100711b13d79e23369", null ],
       [ "ScatterGun", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390daa8c6fb3ab35d37d8f61e01b70a8f1f98", null ],
+      [ "Gatling", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da4c13a5caf9f58811ba349b2a7bd715e1", null ],
+      [ "GoblinStaffSummon", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da903ef1fd2c9d57f046a578ec0016a399", null ],
+      [ "GoblinMageStaffSummon", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390dad71268e4a7e501c6c862ba92398b93a7", null ],
+      [ "DriedMushroomSummon", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390dabcecbeeec2c4047cf684dfe611a58568", null ],
+      [ "RedSkullSummon", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390daa009fbf294b254b347913003e501274f", null ],
+      [ "SuspiciousLookingEyeSummon", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390dad3fe8e9683f7ddc71932235671ad6016", null ],
+      [ "WindFeatherSummon", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da41fa33be33c9469a54a8c97f051da786", null ],
+      [ "RedLeatherSummon", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da0b1466fc1c4035dba1d9bb8e8ff6560a", null ],
+      [ "LongNailSummon", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da5065348f384b5de726e464f9fcb989af", null ],
+      [ "PharaonMaskSummon", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da4e66e3aa0d3894481c9902ed62afcf25", null ],
+      [ "WeightlessCrystalSummon", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da5000c1d99761744d120bb04c0360fbce", null ],
+      [ "LightMagicCrystalSummon", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da9494868c38830889b27ed5b4b13eda08", null ],
+      [ "HeavyBoulderSummon", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da6d2f90d20168f4dd974ac95507440825", null ],
+      [ "DivineSmite", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390daa04de11c6c55789071dcf63cbb9ec2f5", null ],
+      [ "ArtificerPotion", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390daf13d562b604a23eae144448b94b610ed", null ],
+      [ "VolcanicFury", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da9ae2826008af9f9ec664e9642c22113c", null ],
       [ "DeathScythe_InstantKill", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da2cd4d13a93b7ef960408b67e79ab3d08", null ],
       [ "EnemyDMG", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390dad9915c9ad3b5222cee806554b9c1e441", null ]
     ] ]

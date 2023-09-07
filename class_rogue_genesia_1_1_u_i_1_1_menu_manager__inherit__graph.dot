@@ -24,12 +24,12 @@ digraph "RogueGenesia.UI.MenuManager"
   Node9 [label="RogueGenesia.GameManager.\lShopManager",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html",tooltip=" "];
   Node9 -> Node10 [dir="back",color="steelblue1",style="solid"];
   Node10 [label="RogueGenesia.GameManager.\lNormalShop",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html",tooltip=" "];
-  Node10 -> Node11 [dir="back",color="steelblue1",style="solid"];
-  Node11 [label="RogueGenesia.GameManager.\lBlackSmith",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_game_manager_1_1_black_smith.html",tooltip=" "];
-  Node9 -> Node12 [dir="back",color="steelblue1",style="solid"];
-  Node12 [label="RogueGenesia.GameManager.\lShopKeeperShopManager",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_game_manager_1_1_shop_keeper_shop_manager.html",tooltip=" "];
+  Node9 -> Node11 [dir="back",color="steelblue1",style="solid"];
+  Node11 [label="RogueGenesia.GameManager.\lShopKeeperShopManager",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_game_manager_1_1_shop_keeper_shop_manager.html",tooltip=" "];
+  Node1 -> Node12 [dir="back",color="steelblue1",style="solid"];
+  Node12 [label="RogueGenesia.UI.AvatarSelectionMenu",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_u_i_1_1_avatar_selection_menu.html",tooltip=" "];
   Node1 -> Node13 [dir="back",color="steelblue1",style="solid"];
-  Node13 [label="RogueGenesia.UI.AvatarSelectionMenu",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_u_i_1_1_avatar_selection_menu.html",tooltip=" "];
+  Node13 [label="RogueGenesia.UI.AvatarSkin\lSelectionMenu",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_u_i_1_1_avatar_skin_selection_menu.html",tooltip=" "];
   Node1 -> Node14 [dir="back",color="steelblue1",style="solid"];
   Node14 [label="RogueGenesia.UI.MainMenu\lManager",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_u_i_1_1_main_menu_manager.html",tooltip=" "];
   Node1 -> Node15 [dir="back",color="steelblue1",style="solid"];

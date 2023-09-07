@@ -2,6 +2,7 @@ var dir_9a55c8360f29f1597692ee7f102bfb3c =
 [
     [ "Gunslinger", "dir_b96d54e539917819e8e74152baeb7d26.html", "dir_b96d54e539917819e8e74152baeb7d26" ],
     [ "Projectil", "dir_7377d056962abb6c231b2be32339b00b.html", "dir_7377d056962abb6c231b2be32339b00b" ],
+    [ "Summoner", "dir_83b4f8e6d50085f44e192a8a26e6f9db.html", "dir_83b4f8e6d50085f44e192a8a26e6f9db" ],
     [ "ArcanistStaff.cs", "_arcanist_staff_8cs.html", "_arcanist_staff_8cs" ],
     [ "BowWeapon.cs", "_bow_weapon_8cs.html", "_bow_weapon_8cs" ],
     [ "CleaveWeapon.cs", "_cleave_weapon_8cs.html", "_cleave_weapon_8cs" ],

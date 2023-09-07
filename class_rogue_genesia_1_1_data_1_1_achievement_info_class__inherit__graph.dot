@@ -1,0 +1,51 @@
+digraph "RogueGenesia.Data.AchievementInfoClass"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="RogueGenesia.Data.Achievement\lInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="RogueGenesia.Data.CardLevel\lAchievementInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_card_level_achievement_info_class.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="RogueGenesia.Data.Challenge\lAchievementInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_challenge_achievement_info_class.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="RogueGenesia.Data.Challenge\lCompletionCountInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_challenge_completion_count_info_class.html",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="RogueGenesia.Data.DeathCount\lAchievementInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_death_count_achievement_info_class.html",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="RogueGenesia.Data.Global\lKillAchievementInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_global_kill_achievement_info_class.html",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node7 [label="RogueGenesia.Data.GoldAchievement\lInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_gold_achievement_info_class.html",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="steelblue1",style="solid"];
+  Node8 [label="RogueGenesia.Data.Monster\lKillCountAchievementInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_monster_kill_count_achievement_info_class.html",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="steelblue1",style="solid"];
+  Node9 [label="RogueGenesia.Data.Monster\lTypeKillCountAchievementInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_monster_type_kill_count_achievement_info_class.html",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="steelblue1",style="solid"];
+  Node10 [label="RogueGenesia.Data.Multiple\lWeaponLevelAchievementInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_multiple_weapon_level_achievement_info_class.html",tooltip=" "];
+  Node1 -> Node11 [dir="back",color="steelblue1",style="solid"];
+  Node11 [label="RogueGenesia.Data.Persistant\lStatAchievementInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_persistant_stat_achievement_info_class.html",tooltip=" "];
+  Node1 -> Node12 [dir="back",color="steelblue1",style="solid"];
+  Node12 [label="RogueGenesia.Data.PickUp\lAchievementInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_pick_up_achievement_info_class.html",tooltip=" "];
+  Node1 -> Node13 [dir="back",color="steelblue1",style="solid"];
+  Node13 [label="RogueGenesia.Data.Required\lAchievementsAchievementInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_required_achievements_achievement_info_class.html",tooltip=" "];
+  Node1 -> Node14 [dir="back",color="steelblue1",style="solid"];
+  Node14 [label="RogueGenesia.Data.RunCount\lAchievementInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_run_count_achievement_info_class.html",tooltip=" "];
+  Node1 -> Node15 [dir="back",color="steelblue1",style="solid"];
+  Node15 [label="RogueGenesia.Data.SoulLevel\lAchievementInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_soul_level_achievement_info_class.html",tooltip=" "];
+  Node1 -> Node16 [dir="back",color="steelblue1",style="solid"];
+  Node16 [label="RogueGenesia.Data.SpeedRun\lAchievementInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_speed_run_achievement_info_class.html",tooltip=" "];
+  Node1 -> Node17 [dir="back",color="steelblue1",style="solid"];
+  Node17 [label="RogueGenesia.Data.StatsRequirement\lAchievementInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_stats_requirement_achievement_info_class.html",tooltip=" "];
+  Node1 -> Node18 [dir="back",color="steelblue1",style="solid"];
+  Node18 [label="RogueGenesia.Data.TimeSurvived\lAchievementInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_time_survived_achievement_info_class.html",tooltip=" "];
+  Node1 -> Node19 [dir="back",color="steelblue1",style="solid"];
+  Node19 [label="RogueGenesia.Data.Trigger\lAchievementInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_trigger_achievement_info_class.html",tooltip=" "];
+  Node1 -> Node20 [dir="back",color="steelblue1",style="solid"];
+  Node20 [label="RogueGenesia.Data.Unlocked\lHardModeChallengeInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_unlocked_hard_mode_challenge_info_class.html",tooltip=" "];
+  Node1 -> Node21 [dir="back",color="steelblue1",style="solid"];
+  Node21 [label="RogueGenesia.Data.Weapon\lKillAchievementInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_weapon_kill_achievement_info_class.html",tooltip=" "];
+  Node1 -> Node22 [dir="back",color="steelblue1",style="solid"];
+  Node22 [label="RogueGenesia.Data.Weapon\lLevelAchievementInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_weapon_level_achievement_info_class.html",tooltip=" "];
+}

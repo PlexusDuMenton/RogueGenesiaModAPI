@@ -5,5 +5,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="RogueGenesia.Actors.Survival.\lTouchingEntity",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_touching_entity.html",tooltip=" "];
+  Node0 [label="RogueGenesia.Actors.Survival.\lDefaultProjectilAI.ColliderHitTime",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectil_a_i_1_1_collider_hit_time.html",tooltip=" "];
 }

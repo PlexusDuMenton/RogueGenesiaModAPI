@@ -2,6 +2,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_evil_ring =
 [
     [ "EvilRing", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_evil_ring.html#a9cc4b081a39c02c5cf32cdc4a9c48c0f", null ],
     [ "getAttackDelay", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_evil_ring.html#a1f0ce293c2c19c9fe351aab46158367d", null ],
+    [ "getComboDelay", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_evil_ring.html#a4df1d3afbf413703a08c2af841ce9edb", null ],
     [ "LevelUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_evil_ring.html#a023803b4ac519fffbaf4934e9a302dec", null ],
     [ "OnAttack", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_evil_ring.html#a065776bff58b4ba181aff40c7ee91b63", null ],
     [ "OnRemove", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_evil_ring.html#a620080ef7165ab48e3cf1c9af9caa390", null ],

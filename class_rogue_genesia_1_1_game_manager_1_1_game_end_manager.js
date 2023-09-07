@@ -1,6 +1,8 @@
 var class_rogue_genesia_1_1_game_manager_1_1_game_end_manager =
 [
     [ "CloseNewAchievements", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a7f1d8da3d08b3f9455bcd03124c43573", null ],
+    [ "FixedUpdate", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a5ed9db9b98883f242e0471aedc79442a", null ],
+    [ "GameRecapUpdate", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a7e9fb1c1fbad2c9ccba857c5928c51a4", null ],
     [ "MainMenu", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a2a0f56b73abe47272ba3cb59493bac13", null ],
     [ "OnPauseMenu", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a62fc7d6355427e039da0216aa873920a", null ],
     [ "OpenArtifacts", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#af3aae496968509bfee8b71ef03a5de55", null ],
@@ -12,8 +14,15 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_end_manager =
     [ "AchievementButton", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#aa77b21ece52b1591a78137bf1df589f6", null ],
     [ "AchievementMenu", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a86055f9780ae202c35e0fac46b876d02", null ],
     [ "DamageSourceContent", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a7e1e262229f0c5dee00736b1d20ad3de", null ],
-    [ "GameOver", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a9dca7386c2ef3f07979614af283b4add", null ],
+    [ "FinalRecapElementPrefab", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a28f52de7b0b1f7735f8e7138eaba3801", null ],
+    [ "GameModeText", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a5b37b44a730abd1ea56687ada297aff6", null ],
+    [ "GameStateText", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#ad0c13eb32ee9dcfd406f24f5e682e4e2", null ],
     [ "Instance", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a04d05afcf17cc42b1b739566e9639fea", null ],
     [ "pauseMenu", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a8b5d805dfc5b2f26ef497143fcbddd42", null ],
-    [ "RecapText", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a6bac928c34f26e1640f42e0528433af7", null ]
+    [ "RecapContainer", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a6499cf460a0361a0414dad78e87a2f04", null ],
+    [ "RecapDataLeft", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a0c5a9f80c61042dde09747ca5d104c39", null ],
+    [ "RecapElementPrefab", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a97244e394c0fc92568336488e32322f5", null ],
+    [ "RecapList", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a81ad5c66148c9ca1625e1c4f6d394837", null ],
+    [ "TotalDamageText", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a486d205ba708c680de4f2dfa1a2cd2c4", null ],
+    [ "UnlockedNewUpgrade", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#ae84bc5c07f3ca7f1b93c86296e6c9326", null ]
 ];

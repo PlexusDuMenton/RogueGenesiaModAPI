@@ -12,7 +12,7 @@ var class_rogue_genesia_1_1_data_1_1_active_talent =
     [ "LinkedWeapon", "class_rogue_genesia_1_1_data_1_1_active_talent.html#a667f8afc6d9f6b784345992325d3a0f5", null ],
     [ "MasteryOnUse", "class_rogue_genesia_1_1_data_1_1_active_talent.html#ae6bdd7adb72a742d0ed3801d5db3c14b", null ],
     [ "AbilityCharge", "class_rogue_genesia_1_1_data_1_1_active_talent.html#ae911850c0ba4afa97a38c389d6c21283", null ],
+    [ "AbilityChargeCost", "class_rogue_genesia_1_1_data_1_1_active_talent.html#a8f19838d54e3d48eeb97f3a64fd79dcc", null ],
     [ "AbilityChargeRate", "class_rogue_genesia_1_1_data_1_1_active_talent.html#adb646ad35374cd0661c946e704a3ea26", null ],
-    [ "AbilityCost", "class_rogue_genesia_1_1_data_1_1_active_talent.html#af921142dc39609c6e2612ed630beb849", null ],
     [ "AbilityMaxCharge", "class_rogue_genesia_1_1_data_1_1_active_talent.html#a47f4de2cc6d3adf7865dae7dbd2bb954", null ]
 ];

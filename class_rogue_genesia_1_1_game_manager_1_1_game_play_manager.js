@@ -15,6 +15,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_play_manager =
     [ "DashPrefab", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#aa4e351e47fdfe2aa4216f66f3be891b4", null ],
     [ "floorText", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#aa150615ec79f9804d0e7b8a6927ed933", null ],
     [ "GameManagerFight", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#ab7bd55f384af62aa0af6885b33b4a557", null ],
+    [ "GamePlayUI", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#aa16afa63fb3ef1a7334de87a6d487a44", null ],
     [ "goldText", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#ab247f9a022f8111fb98b8eb1ac32f39a", null ],
     [ "InfinityFX", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#ab81484c158efb58bd3bd16f940aaa9b8", null ],
     [ "instance", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a5c05b5dc9ef7ed9ee06f2f6566aa98e0", null ],

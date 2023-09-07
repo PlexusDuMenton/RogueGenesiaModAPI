@@ -1,8 +1,8 @@
 var class_rogue_genesia_1_1_data_1_1_soul_card =
 [
     [ "Equals", "class_rogue_genesia_1_1_data_1_1_soul_card.html#ae29888580b3199e16bcd26840bed0b59", null ],
-    [ "GetDescription", "class_rogue_genesia_1_1_data_1_1_soul_card.html#a7dbbde973b90e57b76cf77d6890dd5cf", null ],
-    [ "GetDescriptionOnLevelUp", "class_rogue_genesia_1_1_data_1_1_soul_card.html#a5cdb8f6a1234af7e6727d67e0840df19", null ],
+    [ "GetDescription", "class_rogue_genesia_1_1_data_1_1_soul_card.html#a433e3a64f04ed0f01f478059c1e00b5e", null ],
+    [ "GetEvolutionDetail", "class_rogue_genesia_1_1_data_1_1_soul_card.html#acbd88f077670d69e5682e92543697c9c", null ],
     [ "GetHashCode", "class_rogue_genesia_1_1_data_1_1_soul_card.html#af8993c8c9804399ff6a0498855ccbf34", null ],
     [ "GetName", "class_rogue_genesia_1_1_data_1_1_soul_card.html#adef112cd54392a7887bd60065b546d0d", null ],
     [ "Init", "class_rogue_genesia_1_1_data_1_1_soul_card.html#a1a7fd003fe95b8288665a06cb184467f", null ],
@@ -26,6 +26,7 @@ var class_rogue_genesia_1_1_data_1_1_soul_card =
     [ "_name", "class_rogue_genesia_1_1_data_1_1_soul_card.html#a05363f4990bb36f4a82cf5e6cfd98ca1", null ],
     [ "_soulBonusID", "class_rogue_genesia_1_1_data_1_1_soul_card.html#af88f55d7d79d7c219f896201f8715b3a", null ],
     [ "_soulRarity", "class_rogue_genesia_1_1_data_1_1_soul_card.html#a7159488701814c37c263bd3995af88ef", null ],
+    [ "AvatarOwner", "class_rogue_genesia_1_1_data_1_1_soul_card.html#ae264b5af2fb59270810eec54ab8be87b", null ],
     [ "CardSO", "class_rogue_genesia_1_1_data_1_1_soul_card.html#a797341852ee1416dcc3854b05e8c530f", null ],
     [ "editStats", "class_rogue_genesia_1_1_data_1_1_soul_card.html#a142f8e6c1d18e7e81913a17e3abf581d", null ],
     [ "StatsModifier", "class_rogue_genesia_1_1_data_1_1_soul_card.html#acc4675b6371c087fd04820322e529ec5", null ],

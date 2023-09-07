@@ -6,6 +6,7 @@ var class_mod_genesia_1_1_mod_loader =
     [ "BuildDependencies", "class_mod_genesia_1_1_mod_loader.html#a7a5c4ed7e1a21f692e0221ada88a29c4", null ],
     [ "CheckActivatedMods", "class_mod_genesia_1_1_mod_loader.html#a7d7549c7715f4e7825ff876ee5d71fc6", null ],
     [ "ConfirmEnabledMods", "class_mod_genesia_1_1_mod_loader.html#a5ac7ae84752fa58a1ba568485e2a92dd", null ],
+    [ "CreateModSourceLocation", "class_mod_genesia_1_1_mod_loader.html#a0329a3e58adc0288491f903701c499e4", null ],
     [ "DisableMod", "class_mod_genesia_1_1_mod_loader.html#a608712d0f4facccb676ffc8e426e373e", null ],
     [ "EnableMod", "class_mod_genesia_1_1_mod_loader.html#af6c27564655d3ade50f1e636f7bc070a", null ],
     [ "GetAllModsData", "class_mod_genesia_1_1_mod_loader.html#aa3974d3329488010bc018f4e0d60c9d1", null ],

@@ -1,19 +1,25 @@
 var class_rogue_genesia_1_1_data_1_1_game_data_getter =
 [
+    [ "FastGetAllGeneralMonsterAbilities", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#ac7e48ab64ce38914e77f5ac452aed6b0", null ],
     [ "GetAllAchievements", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a26a2c14bf0bc01f1adb1aba0e8d7618a", null ],
     [ "GetAllArtifacts", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a96484f4eda281f80ef2356ae717af37d", null ],
     [ "GetAllAvatars", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a92d09510b6ff4a6d08823589bedbb70a", null ],
+    [ "GetAllAvatarSkins", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a9d9806974fdc1d84dcd9aa159fc501f1", null ],
     [ "GetAllCards", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a4e91d37f348e94c1a9d389f6400c6c71", null ],
     [ "GetAllChallenges", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a99edc9d2d83b4401b2c01af3f8ab5fcc", null ],
     [ "GetAllCollectibles", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a420ebb3f3f507ac8733105724ef74c79", null ],
     [ "GetAllEnemies", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#acf21fe2b03f0d104bf6891b74f1f75a8", null ],
+    [ "GetAllEnemyAI", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a479a9342536c8ff5ebde42800ecc15e0", null ],
     [ "GetAllGameMode", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#afbf1a14ebe29493fe3117bbd251c5432", null ],
+    [ "GetAllGeneralMonsterAbilities", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a6d620c421d0b2b974037060c477258d1", null ],
     [ "GetAllPets", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a87e91ffc4ff9d908cf34e9f25c5fe51f", null ],
+    [ "GetAllShopBuyable", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#afd183f86841d843a919465f7af217bb8", null ],
     [ "GetAllSoulShopUpgrades", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a4bff4bff7cea26f0d046af220191da80", null ],
     [ "GetAllStageObjective", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#af4ca8257ed29f5e076c66d089f7b7886", null ],
     [ "GetAllStageType", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#aa1c09d0d5ea2ac2029018c4b7a4d89d7", null ],
     [ "GetAllTalents", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#ab4f64f325fbdf5d2ff013d636da2b976", null ],
     [ "GetCorruptionValue", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a4a01697e1af6710a28a203edb077cf13", null ],
+    [ "GetCredits", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a1e14bf343fe0efcfb0f9b6f516cbf3fe", null ],
     [ "GetDefaultEventEnvironementLevel", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a53f91d677dab3809a605ff1ff743ebf0", null ],
     [ "GetEnvironementName", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a8cc472485e88bf6b669f55ec4b814bdd", null ],
     [ "GetFightEnvironement", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a9a1eca6d83cd01afbeeeb9df74148652", null ],
@@ -34,6 +40,11 @@ var class_rogue_genesia_1_1_data_1_1_game_data_getter =
     [ "IsHeroSoulMode", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a7db02ea6484b3d80494bf76b9e27a75c", null ],
     [ "BossMusic", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a0c8d5577bfd96f6180906eb681fec88c", null ],
     [ "EliteMusic", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a77adf9ced1da3c517adf00d2cf69e3f6", null ],
+    [ "GenericCritSound", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a98919cfbbbb63aebadf56fe5ebe14d0e", null ],
+    [ "GenericHitSound", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#ab38a26ac66e226adf7b5e297c4728ac2", null ],
+    [ "GenericHyperCritSound", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a129cdc33cd9b1589c66b0a637ce26fc6", null ],
     [ "MapSelectionMusic", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#ab2ff8cb70cba59df795058d1a0b4d86e", null ],
-    [ "NormalFightMusic", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a148344fd278be2aab8e1f39da1e19037", null ]
+    [ "NormalFightMusic", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a148344fd278be2aab8e1f39da1e19037", null ],
+    [ "RewardMusic", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a44e5130224e6558ed6e6cdefd9c0fad9", null ],
+    [ "ShopMusic", "class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a3cd67a5da8a5a8cb36fa8ff512151023", null ]
 ];

@@ -15,6 +15,7 @@ var class_rogue_genesia_1_1_save_1_1_game_state_save =
     [ "CurrentAvatar", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#a4dc359dbb70ed2ba7d2ff14dde723210", null ],
     [ "currentLevel", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#a86a92297425852e32652b7d870b5d63d", null ],
     [ "CustomValues", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#aef3f0eba237803d4c4114d08d46757c1", null ],
+    [ "EnemyRandom", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#ab63b5cfc1c3618422d3423355fdf185e", null ],
     [ "EquipedTalent", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#aac9205004c68ef2022c8129467c890ae", null ],
     [ "GameDamageSource", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#a3e455ae733e0369cfdfd182fb9654a6c", null ],
     [ "GameKillSource", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#a64e3075c170dec1f447863aff864b3b2", null ],

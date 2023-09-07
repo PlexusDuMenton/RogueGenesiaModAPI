@@ -9,9 +9,9 @@ digraph "RogueGenesia.Actors.Survival.GunSlingerWeapon"
   Node2 -> Node1 [dir="back",color="steelblue1",style="solid"];
   Node2 [label="Weapon",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html",tooltip=" "];
   Node1 -> Node3 [dir="back",color="steelblue1",style="solid"];
-  Node3 [label="RogueGenesia.Actors.Survival.\lAutoShotgunWeapon",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_auto_shotgun_weapon.html",tooltip=" "];
+  Node3 [label="RogueGenesia.Actors.Survival.\lBoltActionWeapon",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_bolt_action_weapon.html",tooltip=" "];
   Node1 -> Node4 [dir="back",color="steelblue1",style="solid"];
-  Node4 [label="RogueGenesia.Actors.Survival.\lBoltActionWeapon",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_bolt_action_weapon.html",tooltip=" "];
+  Node4 [label="RogueGenesia.Actors.Survival.\lGatlinguWeapon",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_gatlingu_weapon.html",tooltip=" "];
   Node1 -> Node5 [dir="back",color="steelblue1",style="solid"];
   Node5 [label="RogueGenesia.Actors.Survival.\lMachineGunWeapon",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_machine_gun_weapon.html",tooltip=" "];
   Node1 -> Node6 [dir="back",color="steelblue1",style="solid"];
@@ -26,6 +26,8 @@ digraph "RogueGenesia.Actors.Survival.GunSlingerWeapon"
   Node10 [label="RogueGenesia.Actors.Survival.\lScatterGunWeapon",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_scatter_gun_weapon.html",tooltip=" "];
   Node1 -> Node11 [dir="back",color="steelblue1",style="solid"];
   Node11 [label="RogueGenesia.Actors.Survival.\lShotgunWeapon",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_shotgun_weapon.html",tooltip=" "];
-  Node1 -> Node12 [dir="back",color="steelblue1",style="solid"];
-  Node12 [label="RogueGenesia.Actors.Survival.\lSniperWeapon",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_sniper_weapon.html",tooltip=" "];
+  Node11 -> Node12 [dir="back",color="steelblue1",style="solid"];
+  Node12 [label="RogueGenesia.Actors.Survival.\lAutoShotgunWeapon",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_auto_shotgun_weapon.html",tooltip=" "];
+  Node1 -> Node13 [dir="back",color="steelblue1",style="solid"];
+  Node13 [label="RogueGenesia.Actors.Survival.\lSniperWeapon",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_sniper_weapon.html",tooltip=" "];
 }

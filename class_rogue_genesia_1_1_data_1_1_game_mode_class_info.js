@@ -10,7 +10,7 @@ var class_rogue_genesia_1_1_data_1_1_game_mode_class_info =
     [ "GetEnemyList", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#a37baf0fb103f8b82799274d2813699a2", null ],
     [ "GetEnemyPatternList", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#ac2eec9758bbc397aee5c3f5554d6d964", null ],
     [ "GetEnvironementName", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#ac372e4598b548758304e25f7340b81ae", null ],
-    [ "GetRunEndText", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#ac350c9cf01fe6fc124d852cb6f977760", null ],
+    [ "GetRunEndData", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#a7670f6b456a27add0562478c305c92dd", null ],
     [ "GetSaveName", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#adfce0bf0ad3a000e400990ae8f50cd54", null ],
     [ "GetTotalDamage", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#abf7acfd91010c98bda66e54093d485fd", null ],
     [ "getZoneMusic", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#a74b8350ab6e29366b818d30a15f30a6c", null ],

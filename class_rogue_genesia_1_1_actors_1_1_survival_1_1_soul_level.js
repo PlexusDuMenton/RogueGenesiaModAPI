@@ -2,7 +2,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level =
 [
     [ "AddExperience", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#a4885eb621479b84481ea6d75b7993680", null ],
     [ "CheckForLevelUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#ae196e665a00590ba7f886b1c5534221b", null ],
-    [ "HasEnoughtExperienceToLevelUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#ae07f1a505f27d1acca205b6daeaf3498", null ],
+    [ "HasEnoughExperienceToLevelUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#a61dc61207fd0b69f7a778e48aa4a5830", null ],
     [ "LevelUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#a19244cf71b8308c63e2e6e95d4f5b4a2", null ],
     [ "OpenLevelUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#aa83e66c4686a6ed9aa79b11a37fb4987", null ],
     [ "Reset", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#ab7b3c865be239eff1a749b0f6d6abe9a", null ],

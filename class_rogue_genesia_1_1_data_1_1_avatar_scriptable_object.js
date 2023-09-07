@@ -13,12 +13,17 @@ var class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object =
     [ "GetStatsAndCap", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#af4fcae26ebe9509b1e3ec9c545996e3b", null ],
     [ "GetStatsCap", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#a62375fa40e08d8051641778d6ee4c5e1", null ],
     [ "RegisterAvatar", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#a4a97a45769ba87d47f9dac1547c17b8d", null ],
-    [ "Animations", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#acba37cd947ca17101bbce156d4227abf", null ],
+    [ "SetAnimationFromActiveSkin", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#ad380b04946b77d88d77576a07b0fe220", null ],
+    [ "_animations", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#a209aa4f68c111552e1a9dd88267a6d8b", null ],
+    [ "ActiveSkin", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#a4b4974783e32c289f601ad69f15d1359", null ],
     [ "AvatarList", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#abfcb7d3ec6a66b42b594b8ee938a8236", null ],
     [ "AvatarModifier", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#abd0ab93ec7ba4f06dbcc5352fa5ab3f0", null ],
     [ "Bought", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#ac58b7671e8ddfa0089a940e985add925", null ],
     [ "ColorOnSelection", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#a28de6489435dcaa2af9c750761f58978", null ],
+    [ "DefaultSkin", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#a05c98787028ea52026f64550059edc79", null ],
     [ "DescriptionOverride", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#a95c44a7d4a54f6c781101564139be547", null ],
     [ "Hidden", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#aaff38fc09ca5a3f7a535a96e55329fa3", null ],
-    [ "NameOverride", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#ab765bbbfc9554f97e2edb635b10b339e", null ]
+    [ "NameOverride", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#ab765bbbfc9554f97e2edb635b10b339e", null ],
+    [ "PossibleSkinList", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#a62c2a4b617ba53aefba267b8a6c5ff35", null ],
+    [ "Animations", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#acba37cd947ca17101bbce156d4227abf", null ]
 ];

@@ -7,4 +7,6 @@ digraph "RogueGenesia.Data.AltarActivation"
   Node1 [label="RogueGenesia.Data.AltarActivation",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
   Node2 -> Node1 [dir="back",color="steelblue1",style="solid"];
   Node2 [label="StageObjective",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_stage_objective.html",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="IAltarObjective",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$interface_rogue_genesia_1_1_data_1_1_i_altar_objective.html",tooltip=" "];
 }

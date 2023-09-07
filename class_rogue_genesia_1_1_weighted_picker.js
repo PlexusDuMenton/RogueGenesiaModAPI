@@ -6,5 +6,6 @@ var class_rogue_genesia_1_1_weighted_picker =
     [ "PickRandom", "class_rogue_genesia_1_1_weighted_picker.html#a1d937bccb975ad80d276294661f43fc3", null ],
     [ "PickRandom", "class_rogue_genesia_1_1_weighted_picker.html#a3ebca03196acb8d76d82546c968af681", null ],
     [ "RemoveAt", "class_rogue_genesia_1_1_weighted_picker.html#acf406f2b79f4ab13d99bcfc68e424838", null ],
-    [ "itemList", "class_rogue_genesia_1_1_weighted_picker.html#accfc442b071f0290c9510941221cc9c0", null ]
+    [ "itemList", "class_rogue_genesia_1_1_weighted_picker.html#accfc442b071f0290c9510941221cc9c0", null ],
+    [ "Count", "class_rogue_genesia_1_1_weighted_picker.html#adc8deda2c6f5579a00e8169a434f652b", null ]
 ];

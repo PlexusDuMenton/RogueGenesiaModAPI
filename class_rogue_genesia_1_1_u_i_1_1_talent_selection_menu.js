@@ -14,6 +14,7 @@ var class_rogue_genesia_1_1_u_i_1_1_talent_selection_menu =
     [ "UpdateTooltip", "class_rogue_genesia_1_1_u_i_1_1_talent_selection_menu.html#acdad5617bd526fa068685a41a316fc56", null ],
     [ "ActiveSlotViewPort", "class_rogue_genesia_1_1_u_i_1_1_talent_selection_menu.html#af2af93fe119ae63b6cee866188c08a7d", null ],
     [ "ActivesSlots", "class_rogue_genesia_1_1_u_i_1_1_talent_selection_menu.html#a1b70c461a5e3076bebf00b778c83483f", null ],
+    [ "AvatarName", "class_rogue_genesia_1_1_u_i_1_1_talent_selection_menu.html#ad1f9d261f4cfdff65534b95fd5b6bbba", null ],
     [ "BackButton", "class_rogue_genesia_1_1_u_i_1_1_talent_selection_menu.html#a022077365a0cf755b3f088ac8be7976d", null ],
     [ "PassiveSlots", "class_rogue_genesia_1_1_u_i_1_1_talent_selection_menu.html#a4b51e04e6467e4ca685ef99213a4aa76", null ],
     [ "PassiveSlotViewPort", "class_rogue_genesia_1_1_u_i_1_1_talent_selection_menu.html#a4f2ce68b7d796f575eddf83bb2fb2a3f", null ],

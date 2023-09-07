@@ -11,7 +11,9 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/Buff"
     graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_fd73079aba80a91e057034f675db5c1f.html",tooltip=""]
     dir_fd73079aba80a91e057034f675db5c1f [shape=plaintext, label="Buff"];
   dir_4b6935bc1965366c77c70f48cf019d0f [label="Artifact", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_4b6935bc1965366c77c70f48cf019d0f.html",tooltip=""];
+  dir_aa640e35ea870c01b882cd36cf84f810 [label="BossBuff", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_aa640e35ea870c01b882cd36cf84f810.html",tooltip=""];
   dir_5325d196e48a7791bf4f43015dfdad19 [label="GunSlinger", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_5325d196e48a7791bf4f43015dfdad19.html",tooltip=""];
+  dir_10eae6b4f65a0f58c86d019fdf49ef11 [label="PickUp", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_10eae6b4f65a0f58c86d019fdf49ef11.html",tooltip=""];
   dir_d29b91f0695a4d7aec2cc150a9602b0a [label="SevenSins", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_d29b91f0695a4d7aec2cc150a9602b0a.html",tooltip=""];
   dir_04dff73bc0f5ce7709e3e1a1c1ff495d [label="Shrine", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_04dff73bc0f5ce7709e3e1a1c1ff495d.html",tooltip=""];
   dir_f8c651af15bbf7e2b3157402f2bccb71 [label="Talent", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_f8c651af15bbf7e2b3157402f2bccb71.html",tooltip=""];

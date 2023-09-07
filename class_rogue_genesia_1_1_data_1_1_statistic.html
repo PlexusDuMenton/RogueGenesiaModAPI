@@ -128,7 +128,6 @@ $(document).ready(function(){initNavTree('class_rogue_genesia_1_1_data_1_1_stati
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_rogue_genesia_1_1_data_1_1_statistic-members.html">List of all members</a>  </div>
@@ -154,6 +153,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7d518578c0d0f37c272f60ddc7ce49a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac81de39e880e0a7f395021689222ee75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#ac81de39e880e0a7f395021689222ee75">Reset</a> ()</td></tr>
 <tr class="separator:ac81de39e880e0a7f395021689222ee75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47ca260bbe88d1be00d035e82a32d5dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a47ca260bbe88d1be00d035e82a32d5dc">UpdateLatestValue</a> ()</td></tr>
+<tr class="separator:a47ca260bbe88d1be00d035e82a32d5dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc77342d9723a76ee9ff447a1e2fa4d8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#acc77342d9723a76ee9ff447a1e2fa4d8">GetValue</a> ()</td></tr>
 <tr class="separator:acc77342d9723a76ee9ff447a1e2fa4d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20504ca30507a6d3d5de796b3281a838"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a20504ca30507a6d3d5de796b3281a838">GetUncappedValue</a> ()</td></tr>
@@ -186,16 +187,30 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afb542d280b52fab170e71a32672b3e6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89f403a629fb42b33ef89241c2588859"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a89f403a629fb42b33ef89241c2588859">RemoveDynamicMultiplyValue</a> (string <a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a0f176c628a1aaa0518b6da5feb14bd6d">name</a>)</td></tr>
 <tr class="separator:a89f403a629fb42b33ef89241c2588859"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82ddefb5761c83396e08898769f5acb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a82ddefb5761c83396e08898769f5acb4">SetDynamicAddValue</a> (string <a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a0f176c628a1aaa0518b6da5feb14bd6d">name</a>, float value)</td></tr>
-<tr class="separator:a82ddefb5761c83396e08898769f5acb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7e6fc5a5aa7fc90d36ba52b61118bde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#ab7e6fc5a5aa7fc90d36ba52b61118bde">SetDynamicMultiplyValue</a> (string <a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a0f176c628a1aaa0518b6da5feb14bd6d">name</a>, float value)</td></tr>
-<tr class="separator:ab7e6fc5a5aa7fc90d36ba52b61118bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99394e5a320c196001f3abba3d926eed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a99394e5a320c196001f3abba3d926eed">RemoveDynamicPostValue</a> (string <a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a0f176c628a1aaa0518b6da5feb14bd6d">name</a>)</td></tr>
+<tr class="separator:a99394e5a320c196001f3abba3d926eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad12695b1627329fd43632daaf1de0c76"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#ad12695b1627329fd43632daaf1de0c76">HasDynamicPostValue</a> (string <a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a0f176c628a1aaa0518b6da5feb14bd6d">name</a>)</td></tr>
+<tr class="separator:ad12695b1627329fd43632daaf1de0c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb52a24b7d2117a0c0a3f34ebbb3eced"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#adb52a24b7d2117a0c0a3f34ebbb3eced">SetDynamicAddValue</a> (string <a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a0f176c628a1aaa0518b6da5feb14bd6d">name</a>, float value, string displayName=&quot;&quot;)</td></tr>
+<tr class="separator:adb52a24b7d2117a0c0a3f34ebbb3eced"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd161938895a462c6174b254e58b747e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#abd161938895a462c6174b254e58b747e">SetDynamicMultiplyValue</a> (string <a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a0f176c628a1aaa0518b6da5feb14bd6d">name</a>, float value, string displayName=&quot;&quot;)</td></tr>
+<tr class="separator:abd161938895a462c6174b254e58b747e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67ce7c3355d3d86dd57d4730c12847b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a67ce7c3355d3d86dd57d4730c12847b6">SetDynamicPostValue</a> (string <a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a0f176c628a1aaa0518b6da5feb14bd6d">name</a>, float value, string displayName=&quot;&quot;)</td></tr>
+<tr class="separator:a67ce7c3355d3d86dd57d4730c12847b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a339cb8c519edc01b2579c5046ecfe399"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a339cb8c519edc01b2579c5046ecfe399">GetDynamicMultiplyValue</a> (string <a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a0f176c628a1aaa0518b6da5feb14bd6d">name</a>)</td></tr>
 <tr class="separator:a339cb8c519edc01b2579c5046ecfe399"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76180ff139fa471491d9b3df8f01dbad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a76180ff139fa471491d9b3df8f01dbad">ForceUpdateDynamicValue</a> ()</td></tr>
 <tr class="separator:a76180ff139fa471491d9b3df8f01dbad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b22611220ebe6238b71925f525391cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a5b22611220ebe6238b71925f525391cb">SynchronisePostUpdateToBase</a> ()</td></tr>
+<tr class="separator:a5b22611220ebe6238b71925f525391cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b8657268b4e7fd308e0ff3f1730dd26"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a9b8657268b4e7fd308e0ff3f1730dd26">ToString</a> ()</td></tr>
 <tr class="separator:a9b8657268b4e7fd308e0ff3f1730dd26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa446a69f24c788eae8cf8faa6752b668"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#aa446a69f24c788eae8cf8faa6752b668">CloneKeepModifier</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a> clone)</td></tr>
+<tr class="separator:aa446a69f24c788eae8cf8faa6752b668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6879b2403847c98724e6c6165a67bbf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#ae6879b2403847c98724e6c6165a67bbf">DuplicateDynamicModifier</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a> other)</td></tr>
+<tr class="separator:ae6879b2403847c98724e6c6165a67bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9e182bfb143548cb8d7ea535643220e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#af9e182bfb143548cb8d7ea535643220e">Clone</a> ()</td></tr>
+<tr class="separator:af9e182bfb143548cb8d7ea535643220e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -210,57 +225,66 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a5596a07d37941c55270cc34663c738a8"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a5596a07d37941c55270cc34663c738a8">dynamicAddValues</a> = new Dictionary&lt;string, float&gt;()</td></tr>
-<tr class="separator:a5596a07d37941c55270cc34663c738a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa657b2b00281fba07784836b5ac0d32d"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#aa657b2b00281fba07784836b5ac0d32d">dynamicMultiplyValues</a> = new Dictionary&lt;string, float&gt;()</td></tr>
-<tr class="separator:aa657b2b00281fba07784836b5ac0d32d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0ea438077a83a110f67bf594faffccc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#ae0ea438077a83a110f67bf594faffccc">dynamicCurrentAddValue</a> = 0</td></tr>
+<tr class="memitem:a4b2218a35d1e12eb8c4088dd26ac670e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a4b2218a35d1e12eb8c4088dd26ac670e">currentBaseStat</a></td></tr>
+<tr class="separator:a4b2218a35d1e12eb8c4088dd26ac670e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66c5fa6cbe54e241d4f1000b3470f6c5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a66c5fa6cbe54e241d4f1000b3470f6c5">currentMultiplierStat</a> = 1</td></tr>
+<tr class="separator:a66c5fa6cbe54e241d4f1000b3470f6c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54a37311092b2ae8400f32c71937fc70"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, <a class="el" href="class_rogue_genesia_1_1_data_1_1_dynamic_modifier.html">DynamicModifier</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a54a37311092b2ae8400f32c71937fc70">dynamicAddValues</a> = new()</td></tr>
+<tr class="separator:a54a37311092b2ae8400f32c71937fc70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a1d13a324316922ea5dee6e208bfabb"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, <a class="el" href="class_rogue_genesia_1_1_data_1_1_dynamic_modifier.html">DynamicModifier</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a0a1d13a324316922ea5dee6e208bfabb">dynamicPostValues</a> = new()</td></tr>
+<tr class="separator:a0a1d13a324316922ea5dee6e208bfabb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac52479aeac507348ea9fadd5ca172b41"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, <a class="el" href="class_rogue_genesia_1_1_data_1_1_dynamic_modifier.html">DynamicModifier</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#ac52479aeac507348ea9fadd5ca172b41">dynamicMultiplyValues</a> = new()</td></tr>
+<tr class="separator:ac52479aeac507348ea9fadd5ca172b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0ea438077a83a110f67bf594faffccc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#ae0ea438077a83a110f67bf594faffccc">dynamicCurrentAddValue</a></td></tr>
 <tr class="separator:ae0ea438077a83a110f67bf594faffccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ee2c318d381e2a2e09df7fd1e6e9c59"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a9ee2c318d381e2a2e09df7fd1e6e9c59">dynamicCurrentPostValue</a></td></tr>
+<tr class="separator:a9ee2c318d381e2a2e09df7fd1e6e9c59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a98492997676b928e0a56679d0533d7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a8a98492997676b928e0a56679d0533d7">dynamicCurrentMultiplyValue</a> = 1</td></tr>
 <tr class="separator:a8a98492997676b928e0a56679d0533d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c8328d3818581449f7ccf2a8bf495f7"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>, float, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a5c8328d3818581449f7ccf2a8bf495f7">OnValueChanged</a> = new UnityEvent&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>, float, float&gt;()</td></tr>
+<tr class="memitem:a5c8328d3818581449f7ccf2a8bf495f7"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>, float, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a5c8328d3818581449f7ccf2a8bf495f7">OnValueChanged</a> = new()</td></tr>
 <tr class="separator:a5c8328d3818581449f7ccf2a8bf495f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a067ba8b91bac8b55c92164c2dc76a8d3"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>, float, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a067ba8b91bac8b55c92164c2dc76a8d3">OnDynamiValueChanged</a> = new UnityEvent&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>, float, float&gt;()</td></tr>
-<tr class="separator:a067ba8b91bac8b55c92164c2dc76a8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a481eda08da3f4871d765cefee6e84dc8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a481eda08da3f4871d765cefee6e84dc8">ValueForAchievements</a> = 0</td></tr>
+<tr class="memitem:a96b3b2d4091cdaa1714a09f937672a5d"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>, float, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a96b3b2d4091cdaa1714a09f937672a5d">OnDynamiAddValueChanged</a> = new()</td></tr>
+<tr class="separator:a96b3b2d4091cdaa1714a09f937672a5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad30c33e50315637824cfcfaf461aa0a5"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>, float, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#ad30c33e50315637824cfcfaf461aa0a5">OnDynamiMultiplyValueChanged</a> = new()</td></tr>
+<tr class="separator:ad30c33e50315637824cfcfaf461aa0a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fd66ce4f088cb0a6d5089ecf297a9e6"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>, float, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a7fd66ce4f088cb0a6d5089ecf297a9e6">OnDynamiPostValueChanged</a> = new()</td></tr>
+<tr class="separator:a7fd66ce4f088cb0a6d5089ecf297a9e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a481eda08da3f4871d765cefee6e84dc8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a481eda08da3f4871d765cefee6e84dc8">ValueForAchievements</a></td></tr>
 <tr class="separator:a481eda08da3f4871d765cefee6e84dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a2ff4c0a38681f5e8b84feb4e25f18fdd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a2ff4c0a38681f5e8b84feb4e25f18fdd">updateLatestValue</a> ()</td></tr>
-<tr class="separator:a2ff4c0a38681f5e8b84feb4e25f18fdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a0f176c628a1aaa0518b6da5feb14bd6d"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a0f176c628a1aaa0518b6da5feb14bd6d">name</a> = &quot;Unknown&quot;</td></tr>
 <tr class="separator:a0f176c628a1aaa0518b6da5feb14bd6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a126fabf1adc59ce25d598a9f93520385"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a126fabf1adc59ce25d598a9f93520385">baseStat</a> = 0</td></tr>
+<tr class="memitem:a126fabf1adc59ce25d598a9f93520385"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a126fabf1adc59ce25d598a9f93520385">baseStat</a></td></tr>
 <tr class="separator:a126fabf1adc59ce25d598a9f93520385"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b2218a35d1e12eb8c4088dd26ac670e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a4b2218a35d1e12eb8c4088dd26ac670e">currentBaseStat</a> = 0</td></tr>
-<tr class="separator:a4b2218a35d1e12eb8c4088dd26ac670e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6e580460c7bdd007366beb1c584cc12"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#aa6e580460c7bdd007366beb1c584cc12">multiplierStat</a> = 1</td></tr>
 <tr class="separator:aa6e580460c7bdd007366beb1c584cc12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66c5fa6cbe54e241d4f1000b3470f6c5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a66c5fa6cbe54e241d4f1000b3470f6c5">currentMultiplierStat</a> = 1</td></tr>
-<tr class="separator:a66c5fa6cbe54e241d4f1000b3470f6c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc0459c443444ed8c3f0bc4c0288a865"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#abc0459c443444ed8c3f0bc4c0288a865">basePostUpdateAdd</a> = 0</td></tr>
+<tr class="memitem:abc0459c443444ed8c3f0bc4c0288a865"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#abc0459c443444ed8c3f0bc4c0288a865">basePostUpdateAdd</a></td></tr>
 <tr class="separator:abc0459c443444ed8c3f0bc4c0288a865"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b62c2e063e6362c033b24dfbd312532"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a8b62c2e063e6362c033b24dfbd312532">currentPostUpdateAdd</a> = 0</td></tr>
+<tr class="memitem:a8b62c2e063e6362c033b24dfbd312532"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a8b62c2e063e6362c033b24dfbd312532">currentPostUpdateAdd</a></td></tr>
 <tr class="separator:a8b62c2e063e6362c033b24dfbd312532"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81c5a5676685bc2cc9ec2c44e8d38a63"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a81c5a5676685bc2cc9ec2c44e8d38a63">minValue</a> = float.MinValue</td></tr>
 <tr class="separator:a81c5a5676685bc2cc9ec2c44e8d38a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae05be693caf9d692217651ae0d9046eb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#ae05be693caf9d692217651ae0d9046eb">maxValue</a> = float.MaxValue</td></tr>
 <tr class="separator:ae05be693caf9d692217651ae0d9046eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ff0dde190b634bc81d016e7ff670bfc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a5ff0dde190b634bc81d016e7ff670bfc">_lattestUncappedValue</a> = 0</td></tr>
+<tr class="memitem:a5ff0dde190b634bc81d016e7ff670bfc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a5ff0dde190b634bc81d016e7ff670bfc">_lattestUncappedValue</a></td></tr>
 <tr class="separator:a5ff0dde190b634bc81d016e7ff670bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03335725edcc6b3e851d84f1375061ad"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a03335725edcc6b3e851d84f1375061ad">_lattestValue</a> = 0</td></tr>
+<tr class="memitem:a03335725edcc6b3e851d84f1375061ad"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a03335725edcc6b3e851d84f1375061ad">_lattestValue</a></td></tr>
 <tr class="separator:a03335725edcc6b3e851d84f1375061ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:aa930bd97d71a2a78033ee832c1d1e7d4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#aa930bd97d71a2a78033ee832c1d1e7d4">PostUpdate</a><code> [get, set]</code></td></tr>
 <tr class="separator:aa930bd97d71a2a78033ee832c1d1e7d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64d405b2beef9e696c11f9283a607189"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a64d405b2beef9e696c11f9283a607189">FinalPostUpdate</a><code> [get]</code></td></tr>
+<tr class="separator:a64d405b2beef9e696c11f9283a607189"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a928ec6426d33fba23a9668e6782154b3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a928ec6426d33fba23a9668e6782154b3">Multiplier</a><code> [get, set]</code></td></tr>
 <tr class="separator:a928ec6426d33fba23a9668e6782154b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb0badd674c20c6efcc2e995cafaafca"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#afb0badd674c20c6efcc2e995cafaafca">DefaultMultiplier</a><code> [get]</code></td></tr>
+<tr class="separator:afb0badd674c20c6efcc2e995cafaafca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c72488eebd2e8514ae0b34158022873"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#a5c72488eebd2e8514ae0b34158022873">DefaultBase</a><code> [get]</code></td></tr>
+<tr class="separator:a5c72488eebd2e8514ae0b34158022873"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afafe6c9cfed8932709a9cadcdd187c27"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#afafe6c9cfed8932709a9cadcdd187c27">BaseStats</a><code> [get, set]</code></td></tr>
 <tr class="separator:afafe6c9cfed8932709a9cadcdd187c27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff0573dbdddf92d411b54fd582f1ae11"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html#aff0573dbdddf92d411b54fd582f1ae11">PrePost</a><code> [get]</code></td></tr>
@@ -368,6 +392,83 @@ Properties</h2></td></tr>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>multiplierStat</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9e182bfb143548cb8d7ea535643220e" name="af9e182bfb143548cb8d7ea535643220e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9e182bfb143548cb8d7ea535643220e">&#9670;&#160;</a></span>Clone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a> RogueGenesia.Data.Statistic.Clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa446a69f24c788eae8cf8faa6752b668" name="aa446a69f24c788eae8cf8faa6752b668"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa446a69f24c788eae8cf8faa6752b668">&#9670;&#160;</a></span>CloneKeepModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a> RogueGenesia.Data.Statistic.CloneKeepModifier </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>&#160;</td>
+          <td class="paramname"><em>clone</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6879b2403847c98724e6c6165a67bbf" name="ae6879b2403847c98724e6c6165a67bbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6879b2403847c98724e6c6165a67bbf">&#9670;&#160;</a></span>DuplicateDynamicModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.Statistic.DuplicateDynamicModifier </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -631,6 +732,32 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="ad12695b1627329fd43632daaf1de0c76" name="ad12695b1627329fd43632daaf1de0c76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad12695b1627329fd43632daaf1de0c76">&#9670;&#160;</a></span>HasDynamicPostValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.Statistic.HasDynamicPostValue </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a79e3b678b7a9bb7a317bf3c874561d82" name="a79e3b678b7a9bb7a317bf3c874561d82"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a79e3b678b7a9bb7a317bf3c874561d82">&#9670;&#160;</a></span>MultiplyMultiplierStat()</h2>
 
@@ -853,6 +980,32 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a99394e5a320c196001f3abba3d926eed" name="a99394e5a320c196001f3abba3d926eed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99394e5a320c196001f3abba3d926eed">&#9670;&#160;</a></span>RemoveDynamicPostValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.Statistic.RemoveDynamicPostValue </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac81de39e880e0a7f395021689222ee75" name="ac81de39e880e0a7f395021689222ee75"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac81de39e880e0a7f395021689222ee75">&#9670;&#160;</a></span>Reset()</h2>
 
@@ -1032,8 +1185,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a82ddefb5761c83396e08898769f5acb4" name="a82ddefb5761c83396e08898769f5acb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82ddefb5761c83396e08898769f5acb4">&#9670;&#160;</a></span>SetDynamicAddValue()</h2>
+<a id="adb52a24b7d2117a0c0a3f34ebbb3eced" name="adb52a24b7d2117a0c0a3f34ebbb3eced"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb52a24b7d2117a0c0a3f34ebbb3eced">&#9670;&#160;</a></span>SetDynamicAddValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1051,7 +1204,13 @@ Properties</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>displayName</em> = <code>&quot;&quot;</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1068,8 +1227,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ab7e6fc5a5aa7fc90d36ba52b61118bde" name="ab7e6fc5a5aa7fc90d36ba52b61118bde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7e6fc5a5aa7fc90d36ba52b61118bde">&#9670;&#160;</a></span>SetDynamicMultiplyValue()</h2>
+<a id="abd161938895a462c6174b254e58b747e" name="abd161938895a462c6174b254e58b747e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd161938895a462c6174b254e58b747e">&#9670;&#160;</a></span>SetDynamicMultiplyValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1087,7 +1246,55 @@ Properties</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>displayName</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a67ce7c3355d3d86dd57d4730c12847b6" name="a67ce7c3355d3d86dd57d4730c12847b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67ce7c3355d3d86dd57d4730c12847b6">&#9670;&#160;</a></span>SetDynamicPostValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.Statistic.SetDynamicPostValue </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>displayName</em> = <code>&quot;&quot;</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1156,6 +1363,31 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a5b22611220ebe6238b71925f525391cb" name="a5b22611220ebe6238b71925f525391cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b22611220ebe6238b71925f525391cb">&#9670;&#160;</a></span>SynchronisePostUpdateToBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.Statistic.SynchronisePostUpdateToBase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9b8657268b4e7fd308e0ff3f1730dd26" name="a9b8657268b4e7fd308e0ff3f1730dd26"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9b8657268b4e7fd308e0ff3f1730dd26">&#9670;&#160;</a></span>ToString()</h2>
 
@@ -1181,8 +1413,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a2ff4c0a38681f5e8b84feb4e25f18fdd" name="a2ff4c0a38681f5e8b84feb4e25f18fdd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ff4c0a38681f5e8b84feb4e25f18fdd">&#9670;&#160;</a></span>updateLatestValue()</h2>
+<a id="a47ca260bbe88d1be00d035e82a32d5dc" name="a47ca260bbe88d1be00d035e82a32d5dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47ca260bbe88d1be00d035e82a32d5dc">&#9670;&#160;</a></span>UpdateLatestValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1191,7 +1423,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void RogueGenesia.Data.Statistic.updateLatestValue </td>
+          <td class="memname">void RogueGenesia.Data.Statistic.UpdateLatestValue </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1199,7 +1431,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1217,7 +1449,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float RogueGenesia.Data.Statistic._lattestUncappedValue = 0</td>
+          <td class="memname">float RogueGenesia.Data.Statistic._lattestUncappedValue</td>
         </tr>
       </table>
   </td>
@@ -1239,7 +1471,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float RogueGenesia.Data.Statistic._lattestValue = 0</td>
+          <td class="memname">float RogueGenesia.Data.Statistic._lattestValue</td>
         </tr>
       </table>
   </td>
@@ -1261,7 +1493,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float RogueGenesia.Data.Statistic.basePostUpdateAdd = 0</td>
+          <td class="memname">float RogueGenesia.Data.Statistic.basePostUpdateAdd</td>
         </tr>
       </table>
   </td>
@@ -1283,7 +1515,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float RogueGenesia.Data.Statistic.baseStat = 0</td>
+          <td class="memname">float RogueGenesia.Data.Statistic.baseStat</td>
         </tr>
       </table>
   </td>
@@ -1300,19 +1532,11 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float RogueGenesia.Data.Statistic.currentBaseStat = 0</td>
+          <td class="memname">float RogueGenesia.Data.Statistic.currentBaseStat</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -1322,19 +1546,11 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">float RogueGenesia.Data.Statistic.currentMultiplierStat = 1</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -1349,7 +1565,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float RogueGenesia.Data.Statistic.currentPostUpdateAdd = 0</td>
+          <td class="memname">float RogueGenesia.Data.Statistic.currentPostUpdateAdd</td>
         </tr>
       </table>
   </td>
@@ -1361,14 +1577,14 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a5596a07d37941c55270cc34663c738a8" name="a5596a07d37941c55270cc34663c738a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5596a07d37941c55270cc34663c738a8">&#9670;&#160;</a></span>dynamicAddValues</h2>
+<a id="a54a37311092b2ae8400f32c71937fc70" name="a54a37311092b2ae8400f32c71937fc70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54a37311092b2ae8400f32c71937fc70">&#9670;&#160;</a></span>dynamicAddValues</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Dictionary&lt;string, float&gt; RogueGenesia.Data.Statistic.dynamicAddValues = new Dictionary&lt;string, float&gt;()</td>
+          <td class="memname">Dictionary&lt;string, <a class="el" href="class_rogue_genesia_1_1_data_1_1_dynamic_modifier.html">DynamicModifier</a>&gt; RogueGenesia.Data.Statistic.dynamicAddValues = new()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1382,7 +1598,7 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float RogueGenesia.Data.Statistic.dynamicCurrentAddValue = 0</td>
+          <td class="memname">float RogueGenesia.Data.Statistic.dynamicCurrentAddValue</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1403,14 +1619,42 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="aa657b2b00281fba07784836b5ac0d32d" name="aa657b2b00281fba07784836b5ac0d32d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa657b2b00281fba07784836b5ac0d32d">&#9670;&#160;</a></span>dynamicMultiplyValues</h2>
+<a id="a9ee2c318d381e2a2e09df7fd1e6e9c59" name="a9ee2c318d381e2a2e09df7fd1e6e9c59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ee2c318d381e2a2e09df7fd1e6e9c59">&#9670;&#160;</a></span>dynamicCurrentPostValue</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Dictionary&lt;string, float&gt; RogueGenesia.Data.Statistic.dynamicMultiplyValues = new Dictionary&lt;string, float&gt;()</td>
+          <td class="memname">float RogueGenesia.Data.Statistic.dynamicCurrentPostValue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac52479aeac507348ea9fadd5ca172b41" name="ac52479aeac507348ea9fadd5ca172b41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac52479aeac507348ea9fadd5ca172b41">&#9670;&#160;</a></span>dynamicMultiplyValues</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;string, <a class="el" href="class_rogue_genesia_1_1_data_1_1_dynamic_modifier.html">DynamicModifier</a>&gt; RogueGenesia.Data.Statistic.dynamicMultiplyValues = new()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a1d13a324316922ea5dee6e208bfabb" name="a0a1d13a324316922ea5dee6e208bfabb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a1d13a324316922ea5dee6e208bfabb">&#9670;&#160;</a></span>dynamicPostValues</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;string, <a class="el" href="class_rogue_genesia_1_1_data_1_1_dynamic_modifier.html">DynamicModifier</a>&gt; RogueGenesia.Data.Statistic.dynamicPostValues = new()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1505,14 +1749,42 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a067ba8b91bac8b55c92164c2dc76a8d3" name="a067ba8b91bac8b55c92164c2dc76a8d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a067ba8b91bac8b55c92164c2dc76a8d3">&#9670;&#160;</a></span>OnDynamiValueChanged</h2>
+<a id="a96b3b2d4091cdaa1714a09f937672a5d" name="a96b3b2d4091cdaa1714a09f937672a5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96b3b2d4091cdaa1714a09f937672a5d">&#9670;&#160;</a></span>OnDynamiAddValueChanged</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UnityEvent&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>, float, float&gt; RogueGenesia.Data.Statistic.OnDynamiValueChanged = new UnityEvent&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>, float, float&gt;()</td>
+          <td class="memname">UnityEvent&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>, float, float&gt; RogueGenesia.Data.Statistic.OnDynamiAddValueChanged = new()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad30c33e50315637824cfcfaf461aa0a5" name="ad30c33e50315637824cfcfaf461aa0a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad30c33e50315637824cfcfaf461aa0a5">&#9670;&#160;</a></span>OnDynamiMultiplyValueChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UnityEvent&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>, float, float&gt; RogueGenesia.Data.Statistic.OnDynamiMultiplyValueChanged = new()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7fd66ce4f088cb0a6d5089ecf297a9e6" name="a7fd66ce4f088cb0a6d5089ecf297a9e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fd66ce4f088cb0a6d5089ecf297a9e6">&#9670;&#160;</a></span>OnDynamiPostValueChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UnityEvent&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>, float, float&gt; RogueGenesia.Data.Statistic.OnDynamiPostValueChanged = new()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1526,7 +1798,7 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UnityEvent&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>, float, float&gt; RogueGenesia.Data.Statistic.OnValueChanged = new UnityEvent&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>, float, float&gt;()</td>
+          <td class="memname">UnityEvent&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>, float, float&gt; RogueGenesia.Data.Statistic.OnValueChanged = new()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1540,7 +1812,7 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float RogueGenesia.Data.Statistic.ValueForAchievements = 0</td>
+          <td class="memname">float RogueGenesia.Data.Statistic.ValueForAchievements</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1564,6 +1836,72 @@ Properties</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c72488eebd2e8514ae0b34158022873" name="a5c72488eebd2e8514ae0b34158022873"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c72488eebd2e8514ae0b34158022873">&#9670;&#160;</a></span>DefaultBase</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.Statistic.DefaultBase</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb0badd674c20c6efcc2e995cafaafca" name="afb0badd674c20c6efcc2e995cafaafca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb0badd674c20c6efcc2e995cafaafca">&#9670;&#160;</a></span>DefaultMultiplier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.Statistic.DefaultMultiplier</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a64d405b2beef9e696c11f9283a607189" name="a64d405b2beef9e696c11f9283a607189"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64d405b2beef9e696c11f9283a607189">&#9670;&#160;</a></span>FinalPostUpdate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.Statistic.FinalPostUpdate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

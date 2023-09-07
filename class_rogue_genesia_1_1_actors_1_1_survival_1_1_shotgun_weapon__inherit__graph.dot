@@ -9,4 +9,6 @@ digraph "RogueGenesia.Actors.Survival.ShotgunWeapon"
   Node2 [label="GunSlingerWeapon",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_gun_slinger_weapon.html",tooltip=" "];
   Node3 -> Node2 [dir="back",color="steelblue1",style="solid"];
   Node3 [label="Weapon",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="RogueGenesia.Actors.Survival.\lAutoShotgunWeapon",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_auto_shotgun_weapon.html",tooltip=" "];
 }

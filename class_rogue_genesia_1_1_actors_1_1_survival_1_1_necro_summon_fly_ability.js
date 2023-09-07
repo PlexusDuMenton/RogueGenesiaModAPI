@@ -1,26 +1,7 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability =
 [
     [ "NecroSummonFlyAbility", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a78f8b4c3af2657aeabfff6ed50941d0f", null ],
-    [ "OnCasting", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a109da01221aaf6a59f876ba98424f6e9", null ],
-    [ "OnChannelling", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a2dce9684e28c175405922fe0b8968060", null ],
-    [ "OnEnd", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#aab467030e5736f7f32693851c4183dff", null ],
-    [ "OnStartCast", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a15583286f703c7d978a2e59b9b220719", null ],
     [ "OnUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#ac1ae0dae5d1890c490ccc79a18735b85", null ],
-    [ "PhaseSpawnFunc", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a6ff3c206fc6a9d2e5c560d32335b531b", null ],
-    [ "Currentp1MonsterSpawn", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a984e4e8e7ab632739e293bd817014877", null ],
-    [ "Currentp2MonsterSpawn", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#ad62069e198e3c259f48e21895a534548", null ],
-    [ "EliteChance", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a4b896d9b6d80a6fc438ef8e007d27c25", null ],
-    [ "MageChance", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#aac8c022de7063044104880939432570e", null ],
-    [ "MaxP1MonsterSpawn", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a38d5db52e2309253e3e871c624a866ca", null ],
-    [ "MaxP2MonsterSpawn", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#aaea094cdfefb910b5305d3de619382d3", null ],
-    [ "monsterEliteToSpawn", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a12a66432d9e04de9f1af1277d483bc94", null ],
-    [ "monsterMageToSpawn", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a6ca27ddbcbb5c83c51ff829826baa35d", null ],
-    [ "monsterToSpawn", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a61358ee5da27ba052b1f9e213a57a795", null ],
     [ "NecroMancerBoss", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#adc14f4ebfa041e26eb8294f115c90045", null ],
-    [ "numberOfEISpawned", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a46d1de1d69cf8890d9e73eeac514a56d", null ],
-    [ "numberofSummon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a8866af146bd405bc4c2c6733c9290539", null ],
-    [ "PhaseSpawn", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a4b9aacee6a87a96e10ab105290643c09", null ],
-    [ "SpawnedMonster", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#ad38c1476a217c4fb827c15cb4dbc2911", null ],
-    [ "spawningended", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#abe618558c07913fa701e5e2650756d43", null ],
-    [ "TellLessThan10PercMonster", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#a751962d98860000f019607341144becc", null ]
+    [ "SpawnedMonster", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html#ad38c1476a217c4fb827c15cb4dbc2911", null ]
 ];

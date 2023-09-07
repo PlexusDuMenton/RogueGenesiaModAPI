@@ -20,7 +20,6 @@ var class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager =
     [ "floorMinPath", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a15255b812be25d6e2805d62a4d60232e", null ],
     [ "FoliagesSpawner", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a6a42ecd43d292adeb7979a194bf146f4", null ],
     [ "gamePadIcon", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#ab959556756ca3d41c28b61714f68cceb", null ],
-    [ "goldText", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#aad7995df52be89a50a28df94731a00ee", null ],
     [ "HiddenIcon", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#ae68ff51636b15bd591d59cfd0b625e74", null ],
     [ "instance", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a69bf5e3a1071884c842adbae7d934581", null ],
     [ "keyBoardIcon", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#ad4f6ff9c960eedf4ca8df505fb8bba5e", null ],

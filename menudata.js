@@ -28,6 +28,7 @@ var menudata={children:[
 {text:"Namespace List",url:"namespaces.html"},
 {text:"Namespace Members",url:"namespacemembers.html",children:[
 {text:"All",url:"namespacemembers.html",children:[
+{text:"a",url:"namespacemembers.html#index_a"},
 {text:"b",url:"namespacemembers.html#index_b"},
 {text:"c",url:"namespacemembers.html#index_c"},
 {text:"d",url:"namespacemembers.html#index_d"},
@@ -41,6 +42,7 @@ var menudata={children:[
 {text:"s",url:"namespacemembers.html#index_s"},
 {text:"w",url:"namespacemembers.html#index_w"}]},
 {text:"Enumerations",url:"namespacemembers_enum.html",children:[
+{text:"a",url:"namespacemembers_enum.html#index_a"},
 {text:"b",url:"namespacemembers_enum.html#index_b"},
 {text:"c",url:"namespacemembers_enum.html#index_c"},
 {text:"d",url:"namespacemembers_enum.html#index_d"},
@@ -87,8 +89,7 @@ var menudata={children:[
 {text:"y",url:"functions_y.html#index_y"},
 {text:"z",url:"functions_z.html#index_z"}]},
 {text:"Functions",url:"functions_func.html",children:[
-{text:"_",url:"functions_func.html#index__5F"},
-{text:"a",url:"functions_func_a.html#index_a"},
+{text:"a",url:"functions_func.html#index_a"},
 {text:"b",url:"functions_func_b.html#index_b"},
 {text:"c",url:"functions_func_c.html#index_c"},
 {text:"d",url:"functions_func_d.html#index_d"},
@@ -104,6 +105,7 @@ var menudata={children:[
 {text:"n",url:"functions_func_n.html#index_n"},
 {text:"o",url:"functions_func_o.html#index_o"},
 {text:"p",url:"functions_func_p.html#index_p"},
+{text:"q",url:"functions_func_q.html#index_q"},
 {text:"r",url:"functions_func_r.html#index_r"},
 {text:"s",url:"functions_func_s.html#index_s"},
 {text:"t",url:"functions_func_t.html#index_t"},

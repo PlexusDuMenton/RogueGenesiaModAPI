@@ -126,6 +126,7 @@ $(document).ready(function(){initNavTree('class_rogue_genesia_1_1_data_1_1_time_
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_rogue_genesia_1_1_data_1_1_time_limit-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">RogueGenesia.Data.TimeLimit Class Reference</div></div>
 </div><!--header-->
@@ -141,6 +142,8 @@ Inheritance diagram for RogueGenesia.Data.TimeLimit:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a524bad36c5e27b95e5d8f17547f345d7"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_time_limit.html#a524bad36c5e27b95e5d8f17547f345d7">GetBudgetFromObjective</a> (float currentTime, float timeCoef, ref float MaximumEnemiesBudget)</td></tr>
 <tr class="separator:a524bad36c5e27b95e5d8f17547f345d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38daaf1f0b7695736f2483b22a7927cf"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_time_limit.html#a38daaf1f0b7695736f2483b22a7927cf">CanBePickedAsOptional</a> ()</td></tr>
+<tr class="separator:a38daaf1f0b7695736f2483b22a7927cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcaab08979b5adcea396221430b71a52"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="struct_rogue_genesia_1_1_data_1_1_stage_reward_bonus.html">StageRewardBonus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_time_limit.html#abcaab08979b5adcea396221430b71a52">GetRewardFromOptionalCompletion</a> ()</td></tr>
 <tr class="separator:abcaab08979b5adcea396221430b71a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53bbe5f1f856288088851c4c6605dce8"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_time_limit.html#a53bbe5f1f856288088851c4c6605dce8">SetObjective</a> ()</td></tr>
@@ -203,21 +206,50 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a078b962cef1342507d2eb2a5dfc1b491 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html#a078b962cef1342507d2eb2a5dfc1b491">HasXpDropSoftCap</a> ()</td></tr>
 <tr class="separator:a078b962cef1342507d2eb2a5dfc1b491 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ac3f2598f4b27d618e6b235f2c396b291"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_time_limit.html#ac3f2598f4b27d618e6b235f2c396b291">FreezeTimer</a> = false</td></tr>
+<tr class="separator:ac3f2598f4b27d618e6b235f2c396b291"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_rogue_genesia_1_1_data_1_1_stage_objective"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_rogue_genesia_1_1_data_1_1_stage_objective')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html">RogueGenesia.Data.StageObjective</a></td></tr>
 <tr class="memitem:aa0da447d7f3a640fa1270cb139e15d9d inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html#aa0da447d7f3a640fa1270cb139e15d9d">Completed</a> = false</td></tr>
 <tr class="separator:aa0da447d7f3a640fa1270cb139e15d9d inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b50d436195067a23c08777d62b3cfdc inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective_s_o.html">StageObjectiveSO</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html#a4b50d436195067a23c08777d62b3cfdc">LinkedScriptableObject</a></td></tr>
 <tr class="separator:a4b50d436195067a23c08777d62b3cfdc inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae4cfad26b32f2becc752abcfc560851 inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html#aae4cfad26b32f2becc752abcfc560851">ETKList</a> = new List&lt;<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&gt;()</td></tr>
+<tr class="memitem:aae4cfad26b32f2becc752abcfc560851 inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html#aae4cfad26b32f2becc752abcfc560851">ETKList</a> = new()</td></tr>
 <tr class="separator:aae4cfad26b32f2becc752abcfc560851 inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adaf569ead51218555ebe3ac9e94c4241 inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html#adaf569ead51218555ebe3ac9e94c4241">Optional</a> = false</td></tr>
+<tr class="memitem:adaf569ead51218555ebe3ac9e94c4241 inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html#adaf569ead51218555ebe3ac9e94c4241">Optional</a></td></tr>
 <tr class="separator:adaf569ead51218555ebe3ac9e94c4241 inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18ef4b579f1b5825be30537943f97cc3 inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html">StageObjective</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html#a18ef4b579f1b5825be30537943f97cc3">OptionalObjectives</a> = new List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html">StageObjective</a>&gt;()</td></tr>
+<tr class="memitem:a18ef4b579f1b5825be30537943f97cc3 inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html">StageObjective</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html#a18ef4b579f1b5825be30537943f97cc3">OptionalObjectives</a> = new()</td></tr>
 <tr class="separator:a18ef4b579f1b5825be30537943f97cc3 inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_stage_objective"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a38daaf1f0b7695736f2483b22a7927cf" name="a38daaf1f0b7695736f2483b22a7927cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38daaf1f0b7695736f2483b22a7927cf">&#9670;&#160;</a></span>CanBePickedAsOptional()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override bool RogueGenesia.Data.TimeLimit.CanBePickedAsOptional </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html#ae890893a04097984efc4c2b079e4f494">RogueGenesia.Data.StageObjective</a>.</p>
+
+</div>
+</div>
 <a id="a2c67611657ad6e60dfa8e6691b00d3f3" name="a2c67611657ad6e60dfa8e6691b00d3f3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2c67611657ad6e60dfa8e6691b00d3f3">&#9670;&#160;</a></span>CheckObjective()</h2>
 
@@ -395,6 +427,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_objective.html#a48303369809897db2937048b26e3b9ab">RogueGenesia.Data.StageObjective</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac3f2598f4b27d618e6b235f2c396b291" name="ac3f2598f4b27d618e6b235f2c396b291"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3f2598f4b27d618e6b235f2c396b291">&#9670;&#160;</a></span>FreezeTimer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.TimeLimit.FreezeTimer = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

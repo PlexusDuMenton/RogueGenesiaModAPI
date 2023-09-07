@@ -1,4 +1,4 @@
 var _achievement_notification_8cs =
 [
-    [ "AchievementNotification", "class_achievement_notification.html", "class_achievement_notification" ]
+    [ "RogueGenesia.AchievementNotification", "class_rogue_genesia_1_1_achievement_notification.html", "class_rogue_genesia_1_1_achievement_notification" ]
 ];

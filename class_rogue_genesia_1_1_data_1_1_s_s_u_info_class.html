@@ -1,0 +1,589 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue: Genesia API" />
+<meta property="og:image" content="" />
+<meta property="og:description" content="Rogue: Genesia API for modders" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="" />
+<meta name="twitter:title" content="Rogue: Genesia API" />
+<meta name="twitter:description" content="Rogue: Genesia API for modders" />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.Data.SSUInfoClass Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.Data.SSUInfoClass Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.Data.SSUInfoClass:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:acf419360353983ef23fcfe99fc66fd81"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#acf419360353983ef23fcfe99fc66fd81">GetName</a> ()</td></tr>
+<tr class="separator:acf419360353983ef23fcfe99fc66fd81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f314bbe5df4e3e222e51cc9f0dc7351"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#a4f314bbe5df4e3e222e51cc9f0dc7351">GetShortName</a> ()</td></tr>
+<tr class="separator:a4f314bbe5df4e3e222e51cc9f0dc7351"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93f9ed5f017abcf655e4bab6a75e4023"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#a93f9ed5f017abcf655e4bab6a75e4023">GetSoulShopText</a> ()</td></tr>
+<tr class="separator:a93f9ed5f017abcf655e4bab6a75e4023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cfad868ca3d316fc7a8519d053a371a"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#a9cfad868ca3d316fc7a8519d053a371a">GetSoulShopDisplayedValue</a> ()</td></tr>
+<tr class="separator:a9cfad868ca3d316fc7a8519d053a371a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5db6897601a75871c181041a04a5d492"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#a5db6897601a75871c181041a04a5d492">CumulatedPrice</a> ()</td></tr>
+<tr class="separator:a5db6897601a75871c181041a04a5d492"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7415921bfbdfc954f0e39bc9547e665"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#ae7415921bfbdfc954f0e39bc9547e665">RefundValue</a> ()</td></tr>
+<tr class="separator:ae7415921bfbdfc954f0e39bc9547e665"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88cc06a0e93dceed664aabc1d937dcc2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#a88cc06a0e93dceed664aabc1d937dcc2">UsePercent</a> ()</td></tr>
+<tr class="separator:a88cc06a0e93dceed664aabc1d937dcc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30cf0d4d9a176c091cb3ebbd28172de0"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#a30cf0d4d9a176c091cb3ebbd28172de0">GetBaseValue</a> ()</td></tr>
+<tr class="separator:a30cf0d4d9a176c091cb3ebbd28172de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed2410804cbe88eba8ceeedab67285a7"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#aed2410804cbe88eba8ceeedab67285a7">GetIncrease</a> (int level)</td></tr>
+<tr class="separator:aed2410804cbe88eba8ceeedab67285a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d2ce0af9a72725491984ce01b6b1e3e"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#a6d2ce0af9a72725491984ce01b6b1e3e">GetNextLevelValue</a> (float valuenow, float valuenext)</td></tr>
+<tr class="separator:a6d2ce0af9a72725491984ce01b6b1e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a904606462990d226801eeda175f6140a"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#a904606462990d226801eeda175f6140a">GetStatsString</a> ()</td></tr>
+<tr class="separator:a904606462990d226801eeda175f6140a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc5f710ff32b25d1b854d7b41a77d5b1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#abc5f710ff32b25d1b854d7b41a77d5b1">OnStatUpdate</a> (ref <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a> actualStats, bool <a class="el" href="namespace_rogue_genesia_1_1_data.html#a47d989a11cfe7f97424639ee5961c644aee34a21131a5636ee8dcf521e2369bee">Multiplier</a>, bool baseState=false)</td></tr>
+<tr class="separator:abc5f710ff32b25d1b854d7b41a77d5b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef3c4c36f73d4eafd3181444ef20b946"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#aef3c4c36f73d4eafd3181444ef20b946">OnInitSSUUpgrade</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> avatarData, <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_s_s_u_data.html">PlayerSSUData</a> PSSUData)</td></tr>
+<tr class="separator:aef3c4c36f73d4eafd3181444ef20b946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a4d8dc31517259a0318eadc60fb0bebbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html">SoulShopUpgradeSO</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#a4d8dc31517259a0318eadc60fb0bebbb">LinkedScriptableObject</a></td></tr>
+<tr class="separator:a4d8dc31517259a0318eadc60fb0bebbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5db6897601a75871c181041a04a5d492" name="a5db6897601a75871c181041a04a5d492"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5db6897601a75871c181041a04a5d492">&#9670;&#160;</a></span>CumulatedPrice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual float RogueGenesia.Data.SSUInfoClass.CumulatedPrice </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a30cf0d4d9a176c091cb3ebbd28172de0" name="a30cf0d4d9a176c091cb3ebbd28172de0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30cf0d4d9a176c091cb3ebbd28172de0">&#9670;&#160;</a></span>GetBaseValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual float RogueGenesia.Data.SSUInfoClass.GetBaseValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_anachronistic_charge_duration_info_class.html#abe14bc3f449266f44ccc3258a2e6cfa9">RogueGenesia.Data.SSUAnachronisticChargeDurationInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_anachronistic_move_speed_info_class.html#a232b8717da7e338085e15facb2a2dfe8">RogueGenesia.Data.SSUAnachronisticMoveSpeedInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_anachronistic_time_scale_info_class.html#a2c44e2ac0c50ed14cfb316984be7b30e">RogueGenesia.Data.SSUAnachronisticTimeScaleInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_banishes_info_class.html#af0beba081b3d42c0d415da73eb6d5868">RogueGenesia.Data.SSUBanishesInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_card_type_drop_chance_info_class.html#ad3e16ee9dc596d04b3c168a144911ce0">RogueGenesia.Data.SSUCardTypeDropChanceInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_damage_multiplier_info_class.html#a9a980f4fcd8e62282c71499c50e7dc9e">RogueGenesia.Data.SSUDamageMultiplierInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_elite_artifact_chance_info_class.html#a4e31488279553014bd4e7933787ef2bc">RogueGenesia.Data.SSUEliteArtifactChanceInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_hyper_crit_stack_info_class.html#a6d0e8331688d58f004aeb67fa0d45bf0">RogueGenesia.Data.SSUHyperCritStackInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_max_health_level_up_info_class.html#a4360f21ba781ddc72cd2485580c41934">RogueGenesia.Data.SSUMaxHealthLevelUpInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_overkill_bonus_info_class.html#a9ee42ea559999284a1a53750229195c5">RogueGenesia.Data.SSUOverkillBonusInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_rarity_reroll_info_class.html#a3f87519e50c251a1551a1deb13566c8d">RogueGenesia.Data.SSURarityRerollInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_reroll_info_class.html#a1c5abc299ed110e18c59e69a01c3b345">RogueGenesia.Data.SSURerollInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_slot_talent_info_class.html#a7794f0d4a2724250154f9edff61906ef">RogueGenesia.Data.SSUSlotTalentInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_stats_info_class.html#add8233ab61ae636e60aeb39487b0829a">RogueGenesia.Data.SSUStatsInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_tainted_card_level_info_class.html#aa5b75ef9d09c3c7cfb9eadfdcd860c15">RogueGenesia.Data.SSUTaintedCardLevelInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_tainted_card_power_info_class.html#a1197715f2a25aca04e78fff6db9dc8a4">RogueGenesia.Data.SSUTaintedCardPowerInfoClass</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_void_in_crate_count_info_class.html#adcf8da7227b09f22ff8b470942e7b855">RogueGenesia.Data.SSUVoidInCrateCountInfoClass</a>.</p>
+
+</div>
+</div>
+<a id="aed2410804cbe88eba8ceeedab67285a7" name="aed2410804cbe88eba8ceeedab67285a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed2410804cbe88eba8ceeedab67285a7">&#9670;&#160;</a></span>GetIncrease()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual float RogueGenesia.Data.SSUInfoClass.GetIncrease </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_stats_info_class.html#aff07b5736cce9aca23a7fb42d2976a95">RogueGenesia.Data.SSUStatsInfoClass</a>.</p>
+
+</div>
+</div>
+<a id="acf419360353983ef23fcfe99fc66fd81" name="acf419360353983ef23fcfe99fc66fd81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf419360353983ef23fcfe99fc66fd81">&#9670;&#160;</a></span>GetName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string RogueGenesia.Data.SSUInfoClass.GetName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_card_type_drop_chance_info_class.html#aad5e2b8f728a51da3b46d575728fb3be">RogueGenesia.Data.SSUCardTypeDropChanceInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_damage_multiplier_info_class.html#a9f3261477480f10c623cc87e15049ac2">RogueGenesia.Data.SSUDamageMultiplierInfoClass</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_stats_info_class.html#a433511477fa3f9b9cd3671aeb7c1ddc9">RogueGenesia.Data.SSUStatsInfoClass</a>.</p>
+
+</div>
+</div>
+<a id="a6d2ce0af9a72725491984ce01b6b1e3e" name="a6d2ce0af9a72725491984ce01b6b1e3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d2ce0af9a72725491984ce01b6b1e3e">&#9670;&#160;</a></span>GetNextLevelValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual float RogueGenesia.Data.SSUInfoClass.GetNextLevelValue </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>valuenow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>valuenext</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_stats_info_class.html#aa74c33ab1b6211a12c9a1a2d8ed0c761">RogueGenesia.Data.SSUStatsInfoClass</a>.</p>
+
+</div>
+</div>
+<a id="a4f314bbe5df4e3e222e51cc9f0dc7351" name="a4f314bbe5df4e3e222e51cc9f0dc7351"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f314bbe5df4e3e222e51cc9f0dc7351">&#9670;&#160;</a></span>GetShortName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string RogueGenesia.Data.SSUInfoClass.GetShortName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_damage_multiplier_info_class.html#ab19462982395bf7be379272a83aac99c">RogueGenesia.Data.SSUDamageMultiplierInfoClass</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_stats_info_class.html#ae4a8ce5f7e885c323fd9a1b6a1a181b4">RogueGenesia.Data.SSUStatsInfoClass</a>.</p>
+
+</div>
+</div>
+<a id="a9cfad868ca3d316fc7a8519d053a371a" name="a9cfad868ca3d316fc7a8519d053a371a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cfad868ca3d316fc7a8519d053a371a">&#9670;&#160;</a></span>GetSoulShopDisplayedValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string RogueGenesia.Data.SSUInfoClass.GetSoulShopDisplayedValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_card_type_drop_chance_info_class.html#af31011addf0b4fd4174e7f1bea3932a5">RogueGenesia.Data.SSUCardTypeDropChanceInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_damage_multiplier_info_class.html#a4059ddd3b16bff43d9c6fd8bf01cdef9">RogueGenesia.Data.SSUDamageMultiplierInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_elite_artifact_chance_info_class.html#a51c920c3cba38c4c5847a87421ff0a6b">RogueGenesia.Data.SSUEliteArtifactChanceInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_hyper_crit_stack_info_class.html#a6f2e6bb505c66d5df075a336fa21221a">RogueGenesia.Data.SSUHyperCritStackInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_overkill_bonus_info_class.html#a3b6f02c550e71ff9efd21b14ec5f6ab5">RogueGenesia.Data.SSUOverkillBonusInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_reroll_info_class.html#a0cc00790487f8ebc39ada474fe8efade">RogueGenesia.Data.SSURerollInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_stats_info_class.html#a39d2533d2d3c94e0f7c7b71676d7cfdf">RogueGenesia.Data.SSUStatsInfoClass</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_tainted_card_power_info_class.html#aa57c95b898940605d55240b54136fed4">RogueGenesia.Data.SSUTaintedCardPowerInfoClass</a>.</p>
+
+</div>
+</div>
+<a id="a93f9ed5f017abcf655e4bab6a75e4023" name="a93f9ed5f017abcf655e4bab6a75e4023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93f9ed5f017abcf655e4bab6a75e4023">&#9670;&#160;</a></span>GetSoulShopText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string RogueGenesia.Data.SSUInfoClass.GetSoulShopText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_anachronistic_charge_duration_info_class.html#ae0441447c56d88c79069d62328a3937b">RogueGenesia.Data.SSUAnachronisticChargeDurationInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_anachronistic_move_speed_info_class.html#aa0477f3ba29dc6addae7707188443edf">RogueGenesia.Data.SSUAnachronisticMoveSpeedInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_anachronistic_time_scale_info_class.html#a58fd3f7a89bee3007c819223b71a5aec">RogueGenesia.Data.SSUAnachronisticTimeScaleInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_card_type_drop_chance_info_class.html#ae94fa7a1b8d268cd82bfb5f80439d7c2">RogueGenesia.Data.SSUCardTypeDropChanceInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_damage_multiplier_info_class.html#a7ac9cf509d42dfe480e79dc99a457472">RogueGenesia.Data.SSUDamageMultiplierInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_elite_artifact_chance_info_class.html#a2818c558596b5d17abddcb479c84b384">RogueGenesia.Data.SSUEliteArtifactChanceInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_hyper_crit_info_class.html#aeb2ce8c4efa8ee092e504f65db601e16">RogueGenesia.Data.SSUHyperCritInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_max_health_level_up_info_class.html#a37412ee4a0689753c3559583a097a928">RogueGenesia.Data.SSUMaxHealthLevelUpInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_overkill_bonus_info_class.html#a60bb93f055dc86c87ecf2132bbbc7319">RogueGenesia.Data.SSUOverkillBonusInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_reroll_info_class.html#ac1c4f44fc04d6f22efde7a6fcae5f083">RogueGenesia.Data.SSURerollInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_slot_talent_info_class.html#af4b16f13f0e1275f16b96f3ec08ad39a">RogueGenesia.Data.SSUSlotTalentInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_stats_info_class.html#aba88a60d3a0145fbc72236d1f38c241c">RogueGenesia.Data.SSUStatsInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_tainted_card_level_info_class.html#a93113e8bfbeb85c046ba6e9931aaf5ee">RogueGenesia.Data.SSUTaintedCardLevelInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_void_in_crate_count_info_class.html#aae9458f51748a8d4d1403ba79e4cb86b">RogueGenesia.Data.SSUVoidInCrateCountInfoClass</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_void_in_crate_info_class.html#ab78ad1e10b362ff736cca0a4c8f2de99">RogueGenesia.Data.SSUVoidInCrateInfoClass</a>.</p>
+
+</div>
+</div>
+<a id="a904606462990d226801eeda175f6140a" name="a904606462990d226801eeda175f6140a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a904606462990d226801eeda175f6140a">&#9670;&#160;</a></span>GetStatsString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string RogueGenesia.Data.SSUInfoClass.GetStatsString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef3c4c36f73d4eafd3181444ef20b946" name="aef3c4c36f73d4eafd3181444ef20b946"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef3c4c36f73d4eafd3181444ef20b946">&#9670;&#160;</a></span>OnInitSSUUpgrade()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.SSUInfoClass.OnInitSSUUpgrade </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a>&#160;</td>
+          <td class="paramname"><em>avatarData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_player_s_s_u_data.html">PlayerSSUData</a>&#160;</td>
+          <td class="paramname"><em>PSSUData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_anachronistic_charge_duration_info_class.html#aefc86846e130d1bbe5e1d052f5374533">RogueGenesia.Data.SSUAnachronisticChargeDurationInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_anachronistic_invulnerability_info_class.html#aea8bc7d0cb11a4b095190dbafb3eb3c7">RogueGenesia.Data.SSUAnachronisticInvulnerabilityInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_anachronistic_move_speed_info_class.html#ad955031f8103e21648b34a5465c0788d">RogueGenesia.Data.SSUAnachronisticMoveSpeedInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_anachronistic_time_scale_info_class.html#ab45f083b548cd91026b72100b5602c83">RogueGenesia.Data.SSUAnachronisticTimeScaleInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_anachronistic_unlock_info_class.html#a975cbfc91aa6a08840ee776903b7102c">RogueGenesia.Data.SSUAnachronisticUnlockInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_banishes_info_class.html#a81109ddb79936e649eac89f64aad53cc">RogueGenesia.Data.SSUBanishesInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_card_type_drop_chance_info_class.html#ac0e8fcf8f28c91e73bb58850f4faff9f">RogueGenesia.Data.SSUCardTypeDropChanceInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_damage_multiplier_info_class.html#ab15775d4d8f244ebab18cfa702c46ad4">RogueGenesia.Data.SSUDamageMultiplierInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_display_normalrequirements_info_class.html#a7452c3234a548e55b10fa7d0aadcbd71">RogueGenesia.Data.SSUDisplayNormalrequirementsInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_elite_artifact_chance_info_class.html#acd48ae4512a66a0ae9e9fd9a2558c6aa">RogueGenesia.Data.SSUEliteArtifactChanceInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_elite_cannot_be_hidden_info_class.html#adea118b5bb0ab84991c914617a3ce836">RogueGenesia.Data.SSUEliteCannotBeHiddenInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_hyper_crit_info_class.html#a500cde1a1373a5832b08b1ad949bb840">RogueGenesia.Data.SSUHyperCritInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_hyper_crit_stack_info_class.html#a2db93123d6d2a265f7ad95a45a3c9efd">RogueGenesia.Data.SSUHyperCritStackInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_max_health_level_up_info_class.html#a581c176009343c1fb8bd7be97b712f46">RogueGenesia.Data.SSUMaxHealthLevelUpInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_overkill_bonus_info_class.html#a9f7c076e533c52ff98882dbd23097d4c">RogueGenesia.Data.SSUOverkillBonusInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_rarity_reroll_info_class.html#a6599ab1bed478f40388618ca5a4a7d80">RogueGenesia.Data.SSURarityRerollInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_reroll_info_class.html#a226619a6b55ad39250e2360ac1882a30">RogueGenesia.Data.SSURerollInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_slot_talent_info_class.html#a7ff28f756d768769ef4ee53248e466e6">RogueGenesia.Data.SSUSlotTalentInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_tainted_card_level_info_class.html#ab48dc0cdd3d961d9e26cb5c00ec3b218">RogueGenesia.Data.SSUTaintedCardLevelInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_tainted_card_power_info_class.html#a8b1c6933b63ee74638d5c50ab2b1628a">RogueGenesia.Data.SSUTaintedCardPowerInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_void_in_crate_count_info_class.html#a3b2af241ad6d64a5d221a4837ac67119">RogueGenesia.Data.SSUVoidInCrateCountInfoClass</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_void_in_crate_info_class.html#a30d893239dc47a6c567bd3f9e18ff983">RogueGenesia.Data.SSUVoidInCrateInfoClass</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_void_magnet_gold_info_class.html#a774812051b88f000eb14df7ed257747e">RogueGenesia.Data.SSUVoidMagnetGoldInfoClass</a>.</p>
+
+</div>
+</div>
+<a id="abc5f710ff32b25d1b854d7b41a77d5b1" name="abc5f710ff32b25d1b854d7b41a77d5b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc5f710ff32b25d1b854d7b41a77d5b1">&#9670;&#160;</a></span>OnStatUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.SSUInfoClass.OnStatUpdate </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a>&#160;</td>
+          <td class="paramname"><em>actualStats</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>Multiplier</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>baseState</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_stats_info_class.html#a1f12e65f93442fb6fb4b3010cb68c639">RogueGenesia.Data.SSUStatsInfoClass</a>.</p>
+
+</div>
+</div>
+<a id="ae7415921bfbdfc954f0e39bc9547e665" name="ae7415921bfbdfc954f0e39bc9547e665"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7415921bfbdfc954f0e39bc9547e665">&#9670;&#160;</a></span>RefundValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.SSUInfoClass.RefundValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a88cc06a0e93dceed664aabc1d937dcc2" name="a88cc06a0e93dceed664aabc1d937dcc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88cc06a0e93dceed664aabc1d937dcc2">&#9670;&#160;</a></span>UsePercent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool RogueGenesia.Data.SSUInfoClass.UsePercent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_hyper_crit_stack_info_class.html#a7347951f67950ff5a4afdea5dbcbf14e">RogueGenesia.Data.SSUHyperCritStackInfoClass</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_stats_info_class.html#a895c4817472e23c9e73b1cc662d231c2">RogueGenesia.Data.SSUStatsInfoClass</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4d8dc31517259a0318eadc60fb0bebbb" name="a4d8dc31517259a0318eadc60fb0bebbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d8dc31517259a0318eadc60fb0bebbb">&#9670;&#160;</a></span>LinkedScriptableObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html">SoulShopUpgradeSO</a> RogueGenesia.Data.SSUInfoClass.LinkedScriptableObject</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/ScriptableObjects/SoulShop/<a class="el" href="_s_s_u_info_class_8cs.html">SSUInfoClass.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_data.html">Data</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html">SSUInfoClass</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

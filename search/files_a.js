@@ -9,6 +9,7 @@ var searchData=
   ['killtarget_2ecs_6',['KillTarget.cs',['../_kill_target_8cs.html',1,'']]],
   ['killtargetandkillcount_2ecs_7',['KillTargetAndKillCount.cs',['../_kill_target_and_kill_count_8cs.html',1,'']]],
   ['killtargetandsurvival_2ecs_8',['KillTargetAndSurvival.cs',['../_kill_target_and_survival_8cs.html',1,'']]],
-  ['kunaitalent_2ecs_9',['KunaiTalent.cs',['../_kunai_talent_8cs.html',1,'']]],
-  ['kunaiweapon_2ecs_10',['KunaiWeapon.cs',['../_kunai_weapon_8cs.html',1,'']]]
+  ['koboldsummon_2ecs_9',['KoboldSummon.cs',['../_kobold_summon_8cs.html',1,'']]],
+  ['kunaitalent_2ecs_10',['KunaiTalent.cs',['../_kunai_talent_8cs.html',1,'']]],
+  ['kunaiweapon_2ecs_11',['KunaiWeapon.cs',['../_kunai_weapon_8cs.html',1,'']]]
 ];

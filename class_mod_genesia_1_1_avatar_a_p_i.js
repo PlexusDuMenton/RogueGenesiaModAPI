@@ -7,7 +7,8 @@ var class_mod_genesia_1_1_avatar_a_p_i =
       [ "Victory", "class_mod_genesia_1_1_avatar_a_p_i.html#a983909dbea99f2a0d52834125d4266faa1f5c647d9066bc9e350b70aa2d16aec4", null ],
       [ "GameOver", "class_mod_genesia_1_1_avatar_a_p_i.html#a983909dbea99f2a0d52834125d4266faa8f347bc7cebca9fa6d97e70c6bc29eb3", null ]
     ] ],
-    [ "AddCustomAvatar", "class_mod_genesia_1_1_avatar_a_p_i.html#ae148a4cace731fe4cc312703cde3811d", null ],
+    [ "AddAvatarSkin", "class_mod_genesia_1_1_avatar_a_p_i.html#a555f29f74c065fa5a4af95e063a5b21b", null ],
+    [ "AddCustomAvatar", "class_mod_genesia_1_1_avatar_a_p_i.html#a02aa4bfd7036c900f69a66abf2c53a95", null ],
     [ "CreateAvatarAnimations", "class_mod_genesia_1_1_avatar_a_p_i.html#aefc736dd3e2193b3c149abee8ec9e678", null ],
     [ "CreateAvatarAnimationState", "class_mod_genesia_1_1_avatar_a_p_i.html#afcad857eddae9b553e382e90b80a3472", null ],
     [ "ReplaceAvatarSkin", "class_mod_genesia_1_1_avatar_a_p_i.html#a1bf1f074ff1e0c0987b544f3df39bc3d", null ],

@@ -7,5 +7,5 @@ var class_rogue_genesia_1_1_data_1_1_weapon_soul_card =
     [ "OnPostStatUpdate", "class_rogue_genesia_1_1_data_1_1_weapon_soul_card.html#ace4fc8bec4057ce35230f55bd358684e", null ],
     [ "OnRemove", "class_rogue_genesia_1_1_data_1_1_weapon_soul_card.html#a0ed06ae1bfc645e86835747167c8fc30", null ],
     [ "OnTakeDamagePreDefence", "class_rogue_genesia_1_1_data_1_1_weapon_soul_card.html#af967d006a2108fdbfec76a6696bcf26f", null ],
-    [ "Weapon", "class_rogue_genesia_1_1_data_1_1_weapon_soul_card.html#aeca97ee95b9b306ba16a206798e9aeba", null ]
+    [ "Weapon", "class_rogue_genesia_1_1_data_1_1_weapon_soul_card.html#a2803e9eedb230978aa3f21cc63c50b37", null ]
 ];

@@ -1,5 +1,6 @@
 var dir_6ab8a7d0872e9a3a0e6545037fb7dc98 =
 [
+    [ "CreditsManager.cs", "_credits_manager_8cs.html", "_credits_manager_8cs" ],
     [ "GameOption_UI.cs", "_game_option___u_i_8cs.html", "_game_option___u_i_8cs" ],
     [ "GameOptionManager.cs", "_game_option_manager_8cs.html", "_game_option_manager_8cs" ],
     [ "GameStatsPannel.cs", "_game_stats_pannel_8cs.html", "_game_stats_pannel_8cs" ],

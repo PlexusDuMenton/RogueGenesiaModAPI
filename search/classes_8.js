@@ -1,13 +1,20 @@
 var searchData=
 [
-  ['idlepetbehaviour_0',['IdlePetBehaviour',['../class_rogue_genesia_1_1_data_1_1_idle_pet_behaviour.html',1,'RogueGenesia::Data']]],
-  ['ientity_1',['IEntity',['../interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html',1,'RogueGenesia::Actors::Survival']]],
-  ['immobilemonster_2',['ImmobileMonster',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_immobile_monster.html',1,'RogueGenesia::Actors::Survival']]],
-  ['immovable_3',['Immovable',['../class_rogue_genesia_1_1_data_1_1_immovable.html',1,'RogueGenesia::Data']]],
-  ['immovableactive_4',['ImmovableActive',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_immovable_active.html',1,'RogueGenesia::Actors::Survival']]],
-  ['immovablecd_5',['ImmovableCD',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_immovable_c_d.html',1,'RogueGenesia::Actors::Survival']]],
-  ['ingametalentui_6',['InGameTalentUI',['../class_rogue_genesia_1_1_u_i_1_1_in_game_talent_u_i.html',1,'RogueGenesia::UI']]],
-  ['inputcheck_7',['InputCheck',['../class_input_check.html',1,'']]],
-  ['interdimensionalroseweapon_8',['InterdimensionalRoseWeapon',['../class_rogue_genesia_1_1_data_1_1_interdimensional_rose_weapon.html',1,'RogueGenesia::Data']]],
-  ['istateffector_9',['IStatEffector',['../interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html',1,'RogueGenesia::Data']]]
+  ['ialtarobjective_0',['IAltarObjective',['../interface_rogue_genesia_1_1_data_1_1_i_altar_objective.html',1,'RogueGenesia::Data']]],
+  ['icespirit_1',['IceSpirit',['../class_rogue_genesia_1_1_data_1_1_ice_spirit.html',1,'RogueGenesia::Data']]],
+  ['icespiritdebuff_2',['IceSpiritDebuff',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_ice_spirit_debuff.html',1,'RogueGenesia::Actors::Survival']]],
+  ['icicle_3',['Icicle',['../class_rogue_genesia_1_1_data_1_1_icicle.html',1,'RogueGenesia::Data']]],
+  ['idlepetbehaviour_4',['IdlePetBehaviour',['../class_rogue_genesia_1_1_data_1_1_idle_pet_behaviour.html',1,'RogueGenesia::Data']]],
+  ['idlesummon_5',['IdleSummon',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_idle_summon.html',1,'RogueGenesia::Actors::Survival']]],
+  ['ientity_6',['IEntity',['../interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html',1,'RogueGenesia::Actors::Survival']]],
+  ['immobilemonster_7',['ImmobileMonster',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_immobile_monster.html',1,'RogueGenesia::Actors::Survival']]],
+  ['immortalityshardbuff_8',['ImmortalityShardBuff',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_immortality_shard_buff.html',1,'RogueGenesia::Actors::Survival']]],
+  ['immortalityshardcollectible_9',['ImmortalityShardCollectible',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_immortality_shard_collectible.html',1,'RogueGenesia::Actors::Survival']]],
+  ['immovable_10',['Immovable',['../class_rogue_genesia_1_1_data_1_1_immovable.html',1,'RogueGenesia::Data']]],
+  ['immovableactive_11',['ImmovableActive',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_immovable_active.html',1,'RogueGenesia::Actors::Survival']]],
+  ['immovablecd_12',['ImmovableCD',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_immovable_c_d.html',1,'RogueGenesia::Actors::Survival']]],
+  ['ingametalentui_13',['InGameTalentUI',['../class_rogue_genesia_1_1_u_i_1_1_in_game_talent_u_i.html',1,'RogueGenesia::UI']]],
+  ['inputcheck_14',['InputCheck',['../class_input_check.html',1,'']]],
+  ['interdimensionalroseweapon_15',['InterdimensionalRoseWeapon',['../class_rogue_genesia_1_1_data_1_1_interdimensional_rose_weapon.html',1,'RogueGenesia::Data']]],
+  ['istateffector_16',['IStatEffector',['../interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html',1,'RogueGenesia::Data']]]
 ];

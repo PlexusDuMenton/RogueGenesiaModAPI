@@ -11,11 +11,11 @@ var class_rogue_genesia_1_1_data_1_1_enemy_pattern_scriptable_object =
     [ "maxMonsterCount", "class_rogue_genesia_1_1_data_1_1_enemy_pattern_scriptable_object.html#a77001c96ec9c7313f5f94821d69624ed", null ],
     [ "MaxTimeSpawn", "class_rogue_genesia_1_1_data_1_1_enemy_pattern_scriptable_object.html#a823d1ff5ab7571525521c8406e1e3568", null ],
     [ "minCooldown", "class_rogue_genesia_1_1_data_1_1_enemy_pattern_scriptable_object.html#a4f7167270317296d3735676854788cd4", null ],
+    [ "MinimumDifficulty", "class_rogue_genesia_1_1_data_1_1_enemy_pattern_scriptable_object.html#a7b6740b5f88a203d06c2325007efed38", null ],
     [ "minMonsterCount", "class_rogue_genesia_1_1_data_1_1_enemy_pattern_scriptable_object.html#a653273366ca7089f89aaeeb713219148", null ],
     [ "MinTimeSpawn", "class_rogue_genesia_1_1_data_1_1_enemy_pattern_scriptable_object.html#ad332a0259250319a2970d0b4b7b708a7", null ],
     [ "monsterMass", "class_rogue_genesia_1_1_data_1_1_enemy_pattern_scriptable_object.html#ac963fb0c255e18a4d9294e1b4676483f", null ],
     [ "otherParameters", "class_rogue_genesia_1_1_data_1_1_enemy_pattern_scriptable_object.html#a008446d828f60682243c09b68f05267f", null ],
     [ "patternMonster", "class_rogue_genesia_1_1_data_1_1_enemy_pattern_scriptable_object.html#a5ebfce11c1016b3c3e2a3f2fc0c88ac5", null ],
-    [ "PatternSpawnDifficulty", "class_rogue_genesia_1_1_data_1_1_enemy_pattern_scriptable_object.html#ab2bb093f4be4feea6a25a7c7c2fee34f", null ],
     [ "WeightOverTime", "class_rogue_genesia_1_1_data_1_1_enemy_pattern_scriptable_object.html#a118740718f505e3344195de93dc7b605", null ]
 ];

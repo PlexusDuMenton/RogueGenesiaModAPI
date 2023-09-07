@@ -2,7 +2,9 @@ var _game_data_8cs =
 [
     [ "RogueGenesia.Data.ZoneMusic", "class_rogue_genesia_1_1_data_1_1_zone_music.html", "class_rogue_genesia_1_1_data_1_1_zone_music" ],
     [ "RogueGenesia.Data.GameData", "class_rogue_genesia_1_1_data_1_1_game_data.html", "class_rogue_genesia_1_1_data_1_1_game_data" ],
+    [ "Random", "_game_data_8cs.html#a832e8f52fca5a678819ec96269dcb532", null ],
     [ "EDifficulty", "_game_data_8cs.html#a4672bf4cb9055d9a2f5d678cdee4eba6", [
+      [ "UNDEFINED", "_game_data_8cs.html#a4672bf4cb9055d9a2f5d678cdee4eba6a0db45d2a4141101bdfe48e3314cfbca3", null ],
       [ "F", "_game_data_8cs.html#a4672bf4cb9055d9a2f5d678cdee4eba6a800618943025315f869e4e1f09471012", null ],
       [ "E", "_game_data_8cs.html#a4672bf4cb9055d9a2f5d678cdee4eba6a3a3ea00cfc35332cedf6e5e9a32e94da", null ],
       [ "D", "_game_data_8cs.html#a4672bf4cb9055d9a2f5d678cdee4eba6af623e75af30e62bbd73d6df5b50bb7b5", null ],

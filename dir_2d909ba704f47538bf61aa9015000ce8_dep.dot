@@ -12,6 +12,7 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival"
     dir_2d909ba704f47538bf61aa9015000ce8 [shape=plaintext, label="Survival"];
   dir_bcc5842cf79cd076d2dd6afd85c3a22f [label="Artifact", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_bcc5842cf79cd076d2dd6afd85c3a22f.html",tooltip=""];
   dir_fd73079aba80a91e057034f675db5c1f [label="Buff", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_fd73079aba80a91e057034f675db5c1f.html",tooltip=""];
+  dir_3cffbaf97d671efac91fed17b83ee104 [label="Challenge", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_3cffbaf97d671efac91fed17b83ee104.html",tooltip=""];
   dir_4d1fc50a78b772daaae6b7fbd80eabcc [label="Event", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_4d1fc50a78b772daaae6b7fbd80eabcc.html",tooltip=""];
   dir_c7558d9123ace7f5d580dabde9614865 [label="Item", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_c7558d9123ace7f5d580dabde9614865.html",tooltip=""];
   dir_0633963cce603339003f3e3e3e15d21e [label="MetaProgression", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_0633963cce603339003f3e3e3e15d21e.html",tooltip=""];
@@ -20,6 +21,7 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival"
   dir_a252a09db4fcea31b698fb9f4db4f12e [label="Player", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_a252a09db4fcea31b698fb9f4db4f12e.html",tooltip=""];
   dir_1c1f993dabe60f64ac4629638439c1a2 [label="Pooling", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_1c1f993dabe60f64ac4629638439c1a2.html",tooltip=""];
   dir_8aeb93e7c3fce307bc7bb4fdf8dfa677 [label="SoulLevel", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_8aeb93e7c3fce307bc7bb4fdf8dfa677.html",tooltip=""];
+  dir_5ef2c5805e6cebce8cd2007e6fdd3e75 [label="Summon", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_5ef2c5805e6cebce8cd2007e6fdd3e75.html",tooltip=""];
   dir_9a55c8360f29f1597692ee7f102bfb3c [label="Weapon", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_9a55c8360f29f1597692ee7f102bfb3c.html",tooltip=""];
   }
   }

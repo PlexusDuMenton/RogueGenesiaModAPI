@@ -1,7 +1,8 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_death_scythe_weapon =
 [
     [ "DeathScytheWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_death_scythe_weapon.html#a7a89a59502f5b2acb6811205fde8c546", null ],
-    [ "getCriticalMultiplier", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_death_scythe_weapon.html#a86463af89526eb6411d6f678b532ffb1", null ],
+    [ "BuildWeaponStatsForLocalization", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_death_scythe_weapon.html#aae12fb8880c3ae6c1f7f44e692ba38d7", null ],
+    [ "getCriticalDamage", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_death_scythe_weapon.html#aba46f6a0a72a66c4c8366a4aedcb3820", null ],
     [ "getProjectiles", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_death_scythe_weapon.html#a87aa1723606b7054821005ad4c852b12", null ],
     [ "getProjectileSize", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_death_scythe_weapon.html#ac54d3cae7920d05d292b17bb6635efc0", null ],
     [ "LevelUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_death_scythe_weapon.html#a3ae9a81955825495e355482c679514a6", null ],

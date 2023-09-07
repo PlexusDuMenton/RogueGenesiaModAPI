@@ -3,6 +3,7 @@ var class_rogue_genesia_1_1_data_1_1_level_object =
     [ "LevelObject", "class_rogue_genesia_1_1_data_1_1_level_object.html#ac5b973afe783e3c22f21de5754239974", null ],
     [ "LevelObject", "class_rogue_genesia_1_1_data_1_1_level_object.html#a99a6964b580ef2da0bd7e856725386f2", null ],
     [ "clone", "class_rogue_genesia_1_1_data_1_1_level_object.html#a69f9b7f2b2345de95f8782b60bf6ef34", null ],
+    [ "AreaID", "class_rogue_genesia_1_1_data_1_1_level_object.html#a9ad2c8df6bea33fc3bb59d12b37c2904", null ],
     [ "displayRequirement", "class_rogue_genesia_1_1_data_1_1_level_object.html#ae7591d67709b4e76a2b19d40df63be48", null ],
     [ "EnemyCountToKill", "class_rogue_genesia_1_1_data_1_1_level_object.html#aa4783e951f671ecfc430eabeb29decd8", null ],
     [ "EnemyPool", "class_rogue_genesia_1_1_data_1_1_level_object.html#aff89aa2d46884b091948414f3c056462", null ],

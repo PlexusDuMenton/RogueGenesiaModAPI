@@ -214,6 +214,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a640195ac9fef1744b4846c8d9263d6db"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#a640195ac9fef1744b4846c8d9263d6db">OtherAchievement</a> (string achievementName, Texture2D texture, <a class="el" href="struct_rogue_genesia_1_1_data_1_1_unlock_data.html">UnlockData</a> unlockData, <a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data_list.html">LocalizationDataList</a> localizedName, <a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data_list.html">LocalizationDataList</a> localizedDescription, bool isSecret=false, bool isSuperSecret=false)</td></tr>
 <tr class="memdesc:a640195ac9fef1744b4846c8d9263d6db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an achievement having custom requirement, you need to use AchievementManager.UnlockAchievement(AchievementName) to unlock it;.  <br /></td></tr>
 <tr class="separator:a640195ac9fef1744b4846c8d9263d6db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac04a69741d25759de1ad05773e9a1319"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mod_genesia_1_1_achievement_a_p_i.html#ac04a69741d25759de1ad05773e9a1319">CustomAchievement</a> (System.Type type, string achievementName, Texture2D texture, <a class="el" href="struct_rogue_genesia_1_1_data_1_1_unlock_data.html">UnlockData</a> unlockData, <a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data_list.html">LocalizationDataList</a> localizedName, <a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data_list.html">LocalizationDataList</a> localizedDescription, bool isSecret=false, bool isSuperSecret=false)</td></tr>
+<tr class="memdesc:ac04a69741d25759de1ad05773e9a1319"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an achievement having custom requirement, you need to use AchievementManager.UnlockAchievement(AchievementName) to unlock it;.  <br /></td></tr>
+<tr class="separator:ac04a69741d25759de1ad05773e9a1319"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Modding API for everything Achievement Related. </p>
@@ -564,6 +567,97 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">talent</td><td>Talent unlocked</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac04a69741d25759de1ad05773e9a1319" name="ac04a69741d25759de1ad05773e9a1319"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac04a69741d25759de1ad05773e9a1319">&#9670;&#160;</a></span>CustomAchievement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html">AchievementScriptableObject</a> ModGenesia.AchievementAPI.CustomAchievement </td>
+          <td>(</td>
+          <td class="paramtype">System::Type&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>achievementName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_rogue_genesia_1_1_data_1_1_unlock_data.html">UnlockData</a>&#160;</td>
+          <td class="paramname"><em>unlockData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data_list.html">LocalizationDataList</a>&#160;</td>
+          <td class="paramname"><em>localizedName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_localization_data_list.html">LocalizationDataList</a>&#160;</td>
+          <td class="paramname"><em>localizedDescription</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSecret</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSuperSecret</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an achievement having custom requirement, you need to use AchievementManager.UnlockAchievement(AchievementName) to unlock it;. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">achievementName</td><td>Achievement Name</td></tr>
+    <tr><td class="paramname">texture</td><td>Achievement Icon</td></tr>
+    <tr><td class="paramname">unlockData</td><td>Achievement unlocks, using CreateAchievement...Unlock() Functions</td></tr>
+    <tr><td class="paramname">localizedName</td><td>Localized name of the achievement</td></tr>
+    <tr><td class="paramname">localizedDescription</td><td>Localized Description of the achievement</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">isSecret</td><td>Should the Achievement icon be black and description hidden until it's unlocked</td></tr>
+    <tr><td class="paramname">isSuperSecret</td><td>Completely hide the achievement until it is unlocked</td></tr>
   </table>
   </dd>
 </dl>

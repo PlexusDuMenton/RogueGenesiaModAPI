@@ -135,9 +135,14 @@ $(document).ready(function(){initNavTree('class_rogue_genesia_1_1_u_i_1_1_toolti
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aeb73f5f9e459292bb84d3398f75e0eec"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#aeb73f5f9e459292bb84d3398f75e0eec">ETooltipSectionType</a> { <a class="el" href="class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#aeb73f5f9e459292bb84d3398f75e0eecab78a3223503896721cca1303f776159b">Title</a>
+<tr class="memitem:aeb73f5f9e459292bb84d3398f75e0eec"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#aeb73f5f9e459292bb84d3398f75e0eec">ETooltipSectionType</a> { <br />
+&#160;&#160;<a class="el" href="class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#aeb73f5f9e459292bb84d3398f75e0eecab78a3223503896721cca1303f776159b">Title</a>
 , <a class="el" href="class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#aeb73f5f9e459292bb84d3398f75e0eeca04b2e4188d4ef8051e4699da8af01335">Separator</a>
 , <a class="el" href="class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#aeb73f5f9e459292bb84d3398f75e0eeca9dffbf69ffba8bc38bc4e01abf4b1675">Text</a>
+, <a class="el" href="class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#aeb73f5f9e459292bb84d3398f75e0eeca1d565b9e5303987bb1b1938d5d458bca">Card</a>
+, <br />
+&#160;&#160;<a class="el" href="class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#aeb73f5f9e459292bb84d3398f75e0eecab96919a088e508abfbb1aa9c4cbb8f0b">Artifact</a>
+<br />
  }</td></tr>
 <tr class="separator:aeb73f5f9e459292bb84d3398f75e0eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -149,6 +154,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7530a7d7232b1f678fb135b7298587f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33bad42a472f673e1bdd89afac1ae519"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#a33bad42a472f673e1bdd89afac1ae519">TooltipSection</a> (string text, <a class="el" href="class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#aeb73f5f9e459292bb84d3398f75e0eec">ETooltipSectionType</a> tooltipType)</td></tr>
 <tr class="separator:a33bad42a472f673e1bdd89afac1ae519"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10b8a3f322954510bc56c17d7b0ef21d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#a10b8a3f322954510bc56c17d7b0ef21d">TooltipSection</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a> card, int cardLevel=-1, bool cardHiden=false, bool selectionStyle=false)</td></tr>
+<tr class="separator:a10b8a3f322954510bc56c17d7b0ef21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0adde9eed794b287aa25b6eca948a86"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#ab0adde9eed794b287aa25b6eca948a86">TooltipSection</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html">ArtifactScriptableObject</a> artifact, bool artifactHiden=false)</td></tr>
+<tr class="separator:ab0adde9eed794b287aa25b6eca948a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -156,6 +165,16 @@ Public Attributes</h2></td></tr>
 <tr class="separator:acbf55794e73b64b859068d484484c6c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7abc019121f2bb5efd3ab7d53c3fa4c1"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#a7abc019121f2bb5efd3ab7d53c3fa4c1">Text</a></td></tr>
 <tr class="separator:a7abc019121f2bb5efd3ab7d53c3fa4c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e45a0a85cbf89b9e75c16008305756b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#a9e45a0a85cbf89b9e75c16008305756b">Card</a></td></tr>
+<tr class="separator:a9e45a0a85cbf89b9e75c16008305756b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01db91326423fd2e86f5291161fc85cc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#a01db91326423fd2e86f5291161fc85cc">CardLevel</a></td></tr>
+<tr class="separator:a01db91326423fd2e86f5291161fc85cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a640a6cbc41148e800d6e43315496cbde"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#a640a6cbc41148e800d6e43315496cbde">SelectionStyle</a></td></tr>
+<tr class="separator:a640a6cbc41148e800d6e43315496cbde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a388f86fb55271e76cf5ceb0e864e3aa5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#a388f86fb55271e76cf5ceb0e864e3aa5">Hidden</a></td></tr>
+<tr class="separator:a388f86fb55271e76cf5ceb0e864e3aa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb9a5ff993b5153ee4813e1ba2f0f478"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html">ArtifactScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#adb9a5ff993b5153ee4813e1ba2f0f478">Artifact</a></td></tr>
+<tr class="separator:adb9a5ff993b5153ee4813e1ba2f0f478"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="aeb73f5f9e459292bb84d3398f75e0eec" name="aeb73f5f9e459292bb84d3398f75e0eec"></a>
@@ -173,13 +192,15 @@ Public Attributes</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aeb73f5f9e459292bb84d3398f75e0eecab78a3223503896721cca1303f776159b" name="aeb73f5f9e459292bb84d3398f75e0eecab78a3223503896721cca1303f776159b"></a>Title&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aeb73f5f9e459292bb84d3398f75e0eeca04b2e4188d4ef8051e4699da8af01335" name="aeb73f5f9e459292bb84d3398f75e0eeca04b2e4188d4ef8051e4699da8af01335"></a>Separator&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aeb73f5f9e459292bb84d3398f75e0eeca9dffbf69ffba8bc38bc4e01abf4b1675" name="aeb73f5f9e459292bb84d3398f75e0eeca9dffbf69ffba8bc38bc4e01abf4b1675"></a>Text&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aeb73f5f9e459292bb84d3398f75e0eeca1d565b9e5303987bb1b1938d5d458bca" name="aeb73f5f9e459292bb84d3398f75e0eeca1d565b9e5303987bb1b1938d5d458bca"></a>Card&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aeb73f5f9e459292bb84d3398f75e0eecab96919a088e508abfbb1aa9c4cbb8f0b" name="aeb73f5f9e459292bb84d3398f75e0eecab96919a088e508abfbb1aa9c4cbb8f0b"></a>Artifact&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab40622f8ca80f9d472483d2bbb9c9619" name="ab40622f8ca80f9d472483d2bbb9c9619"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab40622f8ca80f9d472483d2bbb9c9619">&#9670;&#160;</a></span>TooltipSection() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab40622f8ca80f9d472483d2bbb9c9619">&#9670;&#160;</a></span>TooltipSection() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204,7 +225,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a7530a7d7232b1f678fb135b7298587f8" name="a7530a7d7232b1f678fb135b7298587f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7530a7d7232b1f678fb135b7298587f8">&#9670;&#160;</a></span>TooltipSection() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7530a7d7232b1f678fb135b7298587f8">&#9670;&#160;</a></span>TooltipSection() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230,7 +251,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a33bad42a472f673e1bdd89afac1ae519" name="a33bad42a472f673e1bdd89afac1ae519"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33bad42a472f673e1bdd89afac1ae519">&#9670;&#160;</a></span>TooltipSection() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a33bad42a472f673e1bdd89afac1ae519">&#9670;&#160;</a></span>TooltipSection() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -265,7 +286,133 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a10b8a3f322954510bc56c17d7b0ef21d" name="a10b8a3f322954510bc56c17d7b0ef21d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10b8a3f322954510bc56c17d7b0ef21d">&#9670;&#160;</a></span>TooltipSection() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RogueGenesia.UI.TooltipSection.TooltipSection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a>&#160;</td>
+          <td class="paramname"><em>card</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cardLevel</em> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>cardHiden</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>selectionStyle</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab0adde9eed794b287aa25b6eca948a86" name="ab0adde9eed794b287aa25b6eca948a86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0adde9eed794b287aa25b6eca948a86">&#9670;&#160;</a></span>TooltipSection() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RogueGenesia.UI.TooltipSection.TooltipSection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html">ArtifactScriptableObject</a>&#160;</td>
+          <td class="paramname"><em>artifact</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>artifactHiden</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="adb9a5ff993b5153ee4813e1ba2f0f478" name="adb9a5ff993b5153ee4813e1ba2f0f478"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb9a5ff993b5153ee4813e1ba2f0f478">&#9670;&#160;</a></span>Artifact</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html">ArtifactScriptableObject</a> RogueGenesia.UI.TooltipSection.Artifact</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e45a0a85cbf89b9e75c16008305756b" name="a9e45a0a85cbf89b9e75c16008305756b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e45a0a85cbf89b9e75c16008305756b">&#9670;&#160;</a></span>Card</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a> RogueGenesia.UI.TooltipSection.Card</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a01db91326423fd2e86f5291161fc85cc" name="a01db91326423fd2e86f5291161fc85cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01db91326423fd2e86f5291161fc85cc">&#9670;&#160;</a></span>CardLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.UI.TooltipSection.CardLevel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="acbf55794e73b64b859068d484484c6c2" name="acbf55794e73b64b859068d484484c6c2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acbf55794e73b64b859068d484484c6c2">&#9670;&#160;</a></span>EType</h2>
 
@@ -274,6 +421,34 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#aeb73f5f9e459292bb84d3398f75e0eec">ETooltipSectionType</a> RogueGenesia.UI.TooltipSection.EType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a388f86fb55271e76cf5ceb0e864e3aa5" name="a388f86fb55271e76cf5ceb0e864e3aa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a388f86fb55271e76cf5ceb0e864e3aa5">&#9670;&#160;</a></span>Hidden</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.UI.TooltipSection.Hidden</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a640a6cbc41148e800d6e43315496cbde" name="a640a6cbc41148e800d6e43315496cbde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a640a6cbc41148e800d6e43315496cbde">&#9670;&#160;</a></span>SelectionStyle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.UI.TooltipSection.SelectionStyle</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -157,6 +157,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a2975e02c0522baaf46bc8729b68221ae"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_projectile_manager.html#a2975e02c0522baaf46bc8729b68221ae">SetTimeScale</a> (float timeScale)</td></tr>
+<tr class="separator:a2975e02c0522baaf46bc8729b68221ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2958755fd7c7830447474cf1f1a47590"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_projectile_manager.html#a2958755fd7c7830447474cf1f1a47590">GetTimeScale</a> ()</td></tr>
+<tr class="separator:a2958755fd7c7830447474cf1f1a47590"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b9e621088141346e9b3761ae8b88303"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_projectile_manager.html#a3b9e621088141346e9b3761ae8b88303">CleanProjectile</a> ()</td></tr>
 <tr class="separator:a3b9e621088141346e9b3761ae8b88303"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c48c51ee0c0dea54fc0454c5f0b7461"><td class="memItemLeft" align="right" valign="top">static GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_projectile_manager.html#a4c48c51ee0c0dea54fc0454c5f0b7461">SpawnProjectile</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectil_a_i.html">DefaultProjectilAI</a> ProjectileToSpawn, Vector3 posToSpawn, Quaternion rotation)</td></tr>
@@ -166,11 +170,15 @@ Static Public Member Functions</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:ad3087f30b351570c63e95cc35ec709d2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_projectile_manager.html">ProjectileManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_projectile_manager.html#ad3087f30b351570c63e95cc35ec709d2">instance</a></td></tr>
 <tr class="separator:ad3087f30b351570c63e95cc35ec709d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee2732193b6ede8e73d90e4274e49929"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_projectile_manager.html#aee2732193b6ede8e73d90e4274e49929">Timescale</a> = 1</td></tr>
+<tr class="separator:aee2732193b6ede8e73d90e4274e49929"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a31ae729bd81e122b7d38783e0430edbf"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_projectile_manager.html#a31ae729bd81e122b7d38783e0430edbf">GetProjectileCount</a><code> [get]</code></td></tr>
 <tr class="separator:a31ae729bd81e122b7d38783e0430edbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0d78502dfedb52bfd0595c02ed95c85"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_projectile_manager.html#af0d78502dfedb52bfd0595c02ed95c85">GlobalTimescale</a><code> [get]</code></td></tr>
+<tr class="separator:af0d78502dfedb52bfd0595c02ed95c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af278a81066111d4488d1148e1f30d20f" name="af278a81066111d4488d1148e1f30d20f"></a>
@@ -274,6 +282,31 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a2958755fd7c7830447474cf1f1a47590" name="a2958755fd7c7830447474cf1f1a47590"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2958755fd7c7830447474cf1f1a47590">&#9670;&#160;</a></span>GetTimeScale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float RogueGenesia.GameManager.ProjectileManager.GetTimeScale </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a011626f6514a488cba6fcf83ccb4d441" name="a011626f6514a488cba6fcf83ccb4d441"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a011626f6514a488cba6fcf83ccb4d441">&#9670;&#160;</a></span>RemoveProjectile()</h2>
 
@@ -319,6 +352,32 @@ Properties</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2975e02c0522baaf46bc8729b68221ae" name="a2975e02c0522baaf46bc8729b68221ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2975e02c0522baaf46bc8729b68221ae">&#9670;&#160;</a></span>SetTimeScale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.GameManager.ProjectileManager.SetTimeScale </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>timeScale</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -432,6 +491,28 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="aee2732193b6ede8e73d90e4274e49929" name="aee2732193b6ede8e73d90e4274e49929"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee2732193b6ede8e73d90e4274e49929">&#9670;&#160;</a></span>Timescale</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.GameManager.ProjectileManager.Timescale = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a id="a31ae729bd81e122b7d38783e0430edbf" name="a31ae729bd81e122b7d38783e0430edbf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a31ae729bd81e122b7d38783e0430edbf">&#9670;&#160;</a></span>GetProjectileCount</h2>
@@ -444,6 +525,28 @@ Properties</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">int RogueGenesia.GameManager.ProjectileManager.GetProjectileCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af0d78502dfedb52bfd0595c02ed95c85" name="af0d78502dfedb52bfd0595c02ed95c85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0d78502dfedb52bfd0595c02ed95c85">&#9670;&#160;</a></span>GlobalTimescale</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.GameManager.ProjectileManager.GlobalTimescale</td>
         </tr>
       </table>
   </td>

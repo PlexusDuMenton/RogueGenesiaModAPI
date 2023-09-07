@@ -2,6 +2,8 @@ var class_rogue_genesia_1_1_u_i_1_1_game_history_details =
 [
     [ "AddArtifact", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#ab2c9aef7a5ba681235ea92c2f99ffbd8", null ],
     [ "AddArtifactList", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#ad3797f30b72bd696328cd6828bce5066", null ],
+    [ "DisplayKillerTooltip", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#af4f0176b05392fa79714eba4d251ab08", null ],
+    [ "HideKillerTooltip", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#a8035d11ec0c8f6a7c495932acf582e43", null ],
     [ "Init", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#a65d679240d732fedad0bd726b8e0eb81", null ],
     [ "SetAchievements", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#a24db8ea04dd4b9b605f85e3c96613539", null ],
     [ "SetDamage", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#a4ef97ad79674584bdf3bd978ba17d543", null ],
@@ -24,7 +26,7 @@ var class_rogue_genesia_1_1_u_i_1_1_game_history_details =
     [ "GameState", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#a16ae4853005de8a95bdfa6ae298aeae5", null ],
     [ "Gold", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#a337defc0c53ceb81b83b5d13302824a3", null ],
     [ "Killed", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#ab1e49313ab6e96dbe6af0f97b06edbff", null ],
-    [ "KillerImage", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#a184c8f76266e451a8abc0aa4d634b2bb", null ],
+    [ "KillerImage", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#aef14d702450a7043e070ce9210540af7", null ],
     [ "KillerName", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#abd1b6c860f22f8c11ba524d3817386fa", null ],
     [ "Mastery", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#ad314b6f93b9e9411cc19e443e60d03d8", null ],
     [ "ObjectInstantiated", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#a2b899f7fe9b2ff126347f3091eae60ed", null ],

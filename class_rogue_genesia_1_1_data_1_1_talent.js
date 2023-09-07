@@ -9,6 +9,7 @@ var class_rogue_genesia_1_1_data_1_1_talent =
     [ "OnDash", "class_rogue_genesia_1_1_data_1_1_talent.html#a1b0860fdad05e8dd8646268cc37de78a", null ],
     [ "OnFlatStatUpdate", "class_rogue_genesia_1_1_data_1_1_talent.html#a052028b9ca216c6058e53cd99ca8b9d0", null ],
     [ "OnKill", "class_rogue_genesia_1_1_data_1_1_talent.html#aebc69b0334e1fdc55adab1b1c6c188d4", null ],
+    [ "OnLevelUp", "class_rogue_genesia_1_1_data_1_1_talent.html#af0d5529740e518b657713b12cb887e60", null ],
     [ "OnMultiplierStatUpdate", "class_rogue_genesia_1_1_data_1_1_talent.html#a9ec4a4652a95643eaae32d71a7c02ed8", null ],
     [ "OnPostStatUpdate", "class_rogue_genesia_1_1_data_1_1_talent.html#aaa362b7afbc11d86268bf3d73c7f7f98", null ],
     [ "OnRemove", "class_rogue_genesia_1_1_data_1_1_talent.html#a7650deaca3685445f7757f61b1de0dd0", null ],

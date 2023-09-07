@@ -27,7 +27,6 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_manager_survival =
     [ "ArtifactSelection", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_survival.html#a5c08a0a51a104a91a6694890cde123d7", null ],
     [ "EliteMonsterToTrack", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_survival.html#ae502c5cb1d6929773c7b6d062578935f", null ],
     [ "eliteSpawnModules", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_survival.html#a77191ff553d9222707480699715c47e8", null ],
-    [ "goldText", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_survival.html#aba70716b6d6885041a9654fdfd32fdb8", null ],
     [ "instance", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_survival.html#aa2bd6c4425e4a35626d23081a4cbcdb6", null ],
     [ "moduleList", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_survival.html#a83a280f94ae923e7868891c73ff8c91e", null ],
     [ "RichPresenceTiming", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_survival.html#a7dc0adf8ecaaba55610d0bee15e949ec", null ],

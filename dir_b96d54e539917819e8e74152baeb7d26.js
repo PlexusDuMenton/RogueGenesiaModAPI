@@ -2,6 +2,7 @@ var dir_b96d54e539917819e8e74152baeb7d26 =
 [
     [ "AutoShotgun.cs", "_auto_shotgun_8cs.html", "_auto_shotgun_8cs" ],
     [ "BoltAction.cs", "_bolt_action_8cs.html", "_bolt_action_8cs" ],
+    [ "Gatlingu.cs", "_gatlingu_8cs.html", "_gatlingu_8cs" ],
     [ "MachineGun.cs", "_machine_gun_8cs.html", "_machine_gun_8cs" ],
     [ "Pistol.cs", "_pistol_8cs.html", "_pistol_8cs" ],
     [ "Revolver.cs", "_revolver_8cs.html", "_revolver_8cs" ],

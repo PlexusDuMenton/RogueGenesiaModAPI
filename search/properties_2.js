@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['banishleft_0',['BanishLeft',['../class_rogue_genesia_1_1_u_i_1_1_u_i_level_up.html#a8c5939a1c667635446df3a1f7d733ed9',1,'RogueGenesia::UI::UILevelUp']]],
-  ['bannishedartifacts_1',['BannishedArtifacts',['../class_rogue_genesia_1_1_data_1_1_challenge_data.html#a059cf0c8a8299e5ade16489beea07d38',1,'RogueGenesia::Data::ChallengeData']]],
+  ['banishedartifacts_0',['BanishedArtifacts',['../class_rogue_genesia_1_1_data_1_1_challenge_data.html#a0d8a43c0c44de645289ce6d2bc1c8e79',1,'RogueGenesia::Data::ChallengeData']]],
+  ['banishleft_1',['BanishLeft',['../class_rogue_genesia_1_1_u_i_1_1_u_i_level_up.html#a8c5939a1c667635446df3a1f7d733ed9',1,'RogueGenesia::UI::UILevelUp']]],
   ['basedamagemultiplier_2',['BaseDamageMultiplier',['../class_rogue_genesia_1_1_data_1_1_avatar_data.html#a7aa32cd43d77244abcc9c7139247e0fb',1,'RogueGenesia::Data::AvatarData']]],
   ['basestats_3',['BaseStats',['../class_rogue_genesia_1_1_data_1_1_statistic.html#afafe6c9cfed8932709a9cadcdd187c27',1,'RogueGenesia::Data::Statistic']]],
   ['bonusammo_4',['BonusAmmo',['../class_rogue_genesia_1_1_data_1_1_player_stats.html#a9700dac973688a67950a34f89c699ff4',1,'RogueGenesia::Data::PlayerStats']]],

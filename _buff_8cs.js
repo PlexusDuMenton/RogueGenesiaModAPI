@@ -1,6 +1,7 @@
 var _buff_8cs =
 [
     [ "RogueGenesia.Data.BuffIDManager", "class_rogue_genesia_1_1_data_1_1_buff_i_d_manager.html", "class_rogue_genesia_1_1_data_1_1_buff_i_d_manager" ],
+    [ "RogueGenesia.Actors.Survival.BuffStack", "struct_rogue_genesia_1_1_actors_1_1_survival_1_1_buff_stack.html", "struct_rogue_genesia_1_1_actors_1_1_survival_1_1_buff_stack" ],
     [ "RogueGenesia.Actors.Survival.Buff", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff" ],
     [ "BuffStacking", "_buff_8cs.html#a33d9641bff7371123fe8d8ebd4abdb8a", [
       [ "Ignore", "_buff_8cs.html#a33d9641bff7371123fe8d8ebd4abdb8aafd038fc7f319e48f3115d92bf5bdbef9", null ],

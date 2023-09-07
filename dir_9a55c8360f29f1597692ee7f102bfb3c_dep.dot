@@ -12,6 +12,7 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/Weapon"
     dir_9a55c8360f29f1597692ee7f102bfb3c [shape=plaintext, label="Weapon"];
   dir_b96d54e539917819e8e74152baeb7d26 [label="Gunslinger", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_b96d54e539917819e8e74152baeb7d26.html",tooltip=""];
   dir_7377d056962abb6c231b2be32339b00b [label="Projectil", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_7377d056962abb6c231b2be32339b00b.html",tooltip=""];
+  dir_83b4f8e6d50085f44e192a8a26e6f9db [label="Summoner", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_83b4f8e6d50085f44e192a8a26e6f9db.html",tooltip=""];
   }
   }
 }

@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue: Genesia API" />
+<meta property="og:image" content="" />
+<meta property="og:description" content="Rogue: Genesia API for modders" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="" />
+<meta name="twitter:title" content="Rogue: Genesia API" />
+<meta name="twitter:description" content="Rogue: Genesia API for modders" />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.Data.SSUBanishesInfoClass Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_data_1_1_s_s_u_banishes_info_class.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="class_rogue_genesia_1_1_data_1_1_s_s_u_banishes_info_class-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.Data.SSUBanishesInfoClass Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.Data.SSUBanishesInfoClass:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:af0beba081b3d42c0d415da73eb6d5868"><td class="memItemLeft" align="right" valign="top">override float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_banishes_info_class.html#af0beba081b3d42c0d415da73eb6d5868">GetBaseValue</a> ()</td></tr>
+<tr class="separator:af0beba081b3d42c0d415da73eb6d5868"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81109ddb79936e649eac89f64aad53cc"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_banishes_info_class.html#a81109ddb79936e649eac89f64aad53cc">OnInitSSUUpgrade</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> avatarData, <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_s_s_u_data.html">PlayerSSUData</a> PSSUData)</td></tr>
+<tr class="separator:a81109ddb79936e649eac89f64aad53cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_reroll_info_class"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_reroll_info_class')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_reroll_info_class.html">RogueGenesia.Data.SSURerollInfoClass</a></td></tr>
+<tr class="memitem:ac1c4f44fc04d6f22efde7a6fcae5f083 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_reroll_info_class"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_reroll_info_class.html#ac1c4f44fc04d6f22efde7a6fcae5f083">GetSoulShopText</a> ()</td></tr>
+<tr class="separator:ac1c4f44fc04d6f22efde7a6fcae5f083 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_reroll_info_class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cc00790487f8ebc39ada474fe8efade inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_reroll_info_class"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_reroll_info_class.html#a0cc00790487f8ebc39ada474fe8efade">GetSoulShopDisplayedValue</a> ()</td></tr>
+<tr class="separator:a0cc00790487f8ebc39ada474fe8efade inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_reroll_info_class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c5abc299ed110e18c59e69a01c3b345 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_reroll_info_class"><td class="memItemLeft" align="right" valign="top">override float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_reroll_info_class.html#a1c5abc299ed110e18c59e69a01c3b345">GetBaseValue</a> ()</td></tr>
+<tr class="separator:a1c5abc299ed110e18c59e69a01c3b345 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_reroll_info_class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a226619a6b55ad39250e2360ac1882a30 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_reroll_info_class"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_reroll_info_class.html#a226619a6b55ad39250e2360ac1882a30">OnInitSSUUpgrade</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> avatarData, <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_s_s_u_data.html">PlayerSSUData</a> PSSUData)</td></tr>
+<tr class="separator:a226619a6b55ad39250e2360ac1882a30 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_reroll_info_class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html">RogueGenesia.Data.SSUInfoClass</a></td></tr>
+<tr class="memitem:acf419360353983ef23fcfe99fc66fd81 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#acf419360353983ef23fcfe99fc66fd81">GetName</a> ()</td></tr>
+<tr class="separator:acf419360353983ef23fcfe99fc66fd81 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f314bbe5df4e3e222e51cc9f0dc7351 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#a4f314bbe5df4e3e222e51cc9f0dc7351">GetShortName</a> ()</td></tr>
+<tr class="separator:a4f314bbe5df4e3e222e51cc9f0dc7351 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93f9ed5f017abcf655e4bab6a75e4023 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#a93f9ed5f017abcf655e4bab6a75e4023">GetSoulShopText</a> ()</td></tr>
+<tr class="separator:a93f9ed5f017abcf655e4bab6a75e4023 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cfad868ca3d316fc7a8519d053a371a inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#a9cfad868ca3d316fc7a8519d053a371a">GetSoulShopDisplayedValue</a> ()</td></tr>
+<tr class="separator:a9cfad868ca3d316fc7a8519d053a371a inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5db6897601a75871c181041a04a5d492 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#a5db6897601a75871c181041a04a5d492">CumulatedPrice</a> ()</td></tr>
+<tr class="separator:a5db6897601a75871c181041a04a5d492 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7415921bfbdfc954f0e39bc9547e665 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#ae7415921bfbdfc954f0e39bc9547e665">RefundValue</a> ()</td></tr>
+<tr class="separator:ae7415921bfbdfc954f0e39bc9547e665 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88cc06a0e93dceed664aabc1d937dcc2 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#a88cc06a0e93dceed664aabc1d937dcc2">UsePercent</a> ()</td></tr>
+<tr class="separator:a88cc06a0e93dceed664aabc1d937dcc2 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30cf0d4d9a176c091cb3ebbd28172de0 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#a30cf0d4d9a176c091cb3ebbd28172de0">GetBaseValue</a> ()</td></tr>
+<tr class="separator:a30cf0d4d9a176c091cb3ebbd28172de0 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed2410804cbe88eba8ceeedab67285a7 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#aed2410804cbe88eba8ceeedab67285a7">GetIncrease</a> (int level)</td></tr>
+<tr class="separator:aed2410804cbe88eba8ceeedab67285a7 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d2ce0af9a72725491984ce01b6b1e3e inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#a6d2ce0af9a72725491984ce01b6b1e3e">GetNextLevelValue</a> (float valuenow, float valuenext)</td></tr>
+<tr class="separator:a6d2ce0af9a72725491984ce01b6b1e3e inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a904606462990d226801eeda175f6140a inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#a904606462990d226801eeda175f6140a">GetStatsString</a> ()</td></tr>
+<tr class="separator:a904606462990d226801eeda175f6140a inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc5f710ff32b25d1b854d7b41a77d5b1 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#abc5f710ff32b25d1b854d7b41a77d5b1">OnStatUpdate</a> (ref <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a> actualStats, bool <a class="el" href="namespace_rogue_genesia_1_1_data.html#a47d989a11cfe7f97424639ee5961c644aee34a21131a5636ee8dcf521e2369bee">Multiplier</a>, bool baseState=false)</td></tr>
+<tr class="separator:abc5f710ff32b25d1b854d7b41a77d5b1 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef3c4c36f73d4eafd3181444ef20b946 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#aef3c4c36f73d4eafd3181444ef20b946">OnInitSSUUpgrade</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> avatarData, <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_s_s_u_data.html">PlayerSSUData</a> PSSUData)</td></tr>
+<tr class="separator:aef3c4c36f73d4eafd3181444ef20b946 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_attribs_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html">RogueGenesia.Data.SSUInfoClass</a></td></tr>
+<tr class="memitem:a4d8dc31517259a0318eadc60fb0bebbb inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html">SoulShopUpgradeSO</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#a4d8dc31517259a0318eadc60fb0bebbb">LinkedScriptableObject</a></td></tr>
+<tr class="separator:a4d8dc31517259a0318eadc60fb0bebbb inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_s_s_u_info_class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="af0beba081b3d42c0d415da73eb6d5868" name="af0beba081b3d42c0d415da73eb6d5868"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0beba081b3d42c0d415da73eb6d5868">&#9670;&#160;</a></span>GetBaseValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override float RogueGenesia.Data.SSUBanishesInfoClass.GetBaseValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#a30cf0d4d9a176c091cb3ebbd28172de0">RogueGenesia.Data.SSUInfoClass</a>.</p>
+
+</div>
+</div>
+<a id="a81109ddb79936e649eac89f64aad53cc" name="a81109ddb79936e649eac89f64aad53cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81109ddb79936e649eac89f64aad53cc">&#9670;&#160;</a></span>OnInitSSUUpgrade()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.Data.SSUBanishesInfoClass.OnInitSSUUpgrade </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a>&#160;</td>
+          <td class="paramname"><em>avatarData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_player_s_s_u_data.html">PlayerSSUData</a>&#160;</td>
+          <td class="paramname"><em>PSSUData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html#aef3c4c36f73d4eafd3181444ef20b946">RogueGenesia.Data.SSUInfoClass</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/ScriptableObjects/SoulShop/<a class="el" href="_s_s_u_banishes_info_class_8cs.html">SSUBanishesInfoClass.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_data.html">Data</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_data_1_1_s_s_u_banishes_info_class.html">SSUBanishesInfoClass</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -133,18 +133,18 @@ $(document).ready(function(){initNavTree('class_rogue_genesia_1_1_data_1_1_time_
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a8e3e5128f8e1586370d6f40fa9952b2c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_time_extension.html#a8e3e5128f8e1586370d6f40fa9952b2c">IsActive</a> (float proccTime, float activeTime)</td></tr>
-<tr class="separator:a8e3e5128f8e1586370d6f40fa9952b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb48f9ff4d6e5e547a6aa7bab1656227"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_time_extension.html#abb48f9ff4d6e5e547a6aa7bab1656227">IsTimePassed</a> (float proccTime, float activeTime)</td></tr>
-<tr class="separator:abb48f9ff4d6e5e547a6aa7bab1656227"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35f0912764f245e2d69eede044ad0078"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_time_extension.html#a35f0912764f245e2d69eede044ad0078">IsActive</a> (float proccTime, float activeTime, <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a> Owner)</td></tr>
+<tr class="separator:a35f0912764f245e2d69eede044ad0078"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51db3c5af942d3671bfc1b0bee8c7421"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_time_extension.html#a51db3c5af942d3671bfc1b0bee8c7421">IsTimePassed</a> (float proccTime, float activeTime, <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a> Owner)</td></tr>
+<tr class="separator:a51db3c5af942d3671bfc1b0bee8c7421"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdc1f6f4caa310ea489f73e6fcec6e05"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_time_extension.html#acdc1f6f4caa310ea489f73e6fcec6e05">IsUnscaledActive</a> (float proccTime, float activeTime)</td></tr>
 <tr class="separator:acdc1f6f4caa310ea489f73e6fcec6e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af66de597e66246f1cc52c7005d859e9a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_time_extension.html#af66de597e66246f1cc52c7005d859e9a">IsUnscaledTimePassed</a> (float proccTime, float activeTime)</td></tr>
 <tr class="separator:af66de597e66246f1cc52c7005d859e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8e3e5128f8e1586370d6f40fa9952b2c" name="a8e3e5128f8e1586370d6f40fa9952b2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e3e5128f8e1586370d6f40fa9952b2c">&#9670;&#160;</a></span>IsActive()</h2>
+<a id="a35f0912764f245e2d69eede044ad0078" name="a35f0912764f245e2d69eede044ad0078"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35f0912764f245e2d69eede044ad0078">&#9670;&#160;</a></span>IsActive()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -162,7 +162,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>activeTime</em>&#160;</td>
+          <td class="paramname"><em>activeTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a>&#160;</td>
+          <td class="paramname"><em>Owner</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -179,8 +185,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="abb48f9ff4d6e5e547a6aa7bab1656227" name="abb48f9ff4d6e5e547a6aa7bab1656227"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb48f9ff4d6e5e547a6aa7bab1656227">&#9670;&#160;</a></span>IsTimePassed()</h2>
+<a id="a51db3c5af942d3671bfc1b0bee8c7421" name="a51db3c5af942d3671bfc1b0bee8c7421"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51db3c5af942d3671bfc1b0bee8c7421">&#9670;&#160;</a></span>IsTimePassed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -198,7 +204,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>activeTime</em>&#160;</td>
+          <td class="paramname"><em>activeTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a>&#160;</td>
+          <td class="paramname"><em>Owner</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

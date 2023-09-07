@@ -13,6 +13,4 @@ digraph "RogueGenesia.GameManager.NormalShop"
   Node4 [label="MenuManager",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_u_i_1_1_menu_manager.html",tooltip=" "];
   Node5 -> Node4 [dir="back",color="steelblue1",style="solid"];
   Node5 [label="MonoBehaviour",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
-  Node1 -> Node6 [dir="back",color="steelblue1",style="solid"];
-  Node6 [label="RogueGenesia.GameManager.\lBlackSmith",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_game_manager_1_1_black_smith.html",tooltip=" "];
 }

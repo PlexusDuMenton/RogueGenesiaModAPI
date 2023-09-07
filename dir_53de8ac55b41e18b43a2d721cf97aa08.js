@@ -6,6 +6,6 @@ var dir_53de8ac55b41e18b43a2d721cf97aa08 =
     [ "ShamanBlink.cs", "_shaman_blink_8cs.html", "_shaman_blink_8cs" ],
     [ "ShamanBlinkStorm.cs", "_shaman_blink_storm_8cs.html", "_shaman_blink_storm_8cs" ],
     [ "ShamanMagicBullet.cs", "_shaman_magic_bullet_8cs.html", "_shaman_magic_bullet_8cs" ],
-    [ "ShamanMagicBulletStorm.cs", "_shaman_magic_bullet_storm_8cs.html", "_shaman_magic_bullet_storm_8cs" ],
+    [ "ShamanMagicBulletStormAbility.cs", "_shaman_magic_bullet_storm_ability_8cs.html", "_shaman_magic_bullet_storm_ability_8cs" ],
     [ "SummonGoblinAbility.cs", "_summon_goblin_ability_8cs.html", "_summon_goblin_ability_8cs" ]
 ];

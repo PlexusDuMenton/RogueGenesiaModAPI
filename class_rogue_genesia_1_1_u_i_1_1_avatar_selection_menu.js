@@ -14,7 +14,7 @@ var class_rogue_genesia_1_1_u_i_1_1_avatar_selection_menu =
     [ "DescriptionViewPort", "class_rogue_genesia_1_1_u_i_1_1_avatar_selection_menu.html#abb4e0fd2847eb01a97470ab4c4fbda31", null ],
     [ "HoveredAvatar", "class_rogue_genesia_1_1_u_i_1_1_avatar_selection_menu.html#a539e02ee013b2bcaf59c9f328f905783", null ],
     [ "SelectedAvatar", "class_rogue_genesia_1_1_u_i_1_1_avatar_selection_menu.html#ac09ce72405e8a959050e92629fb7d0fb", null ],
-    [ "TooltipDescription", "class_rogue_genesia_1_1_u_i_1_1_avatar_selection_menu.html#aa453df3d3fda4053635d501f0ef71d94", null ],
-    [ "TooltipName", "class_rogue_genesia_1_1_u_i_1_1_avatar_selection_menu.html#ab75a9eaa688776acfa7a62c273b6e3ff", null ],
-    [ "TooltipStat", "class_rogue_genesia_1_1_u_i_1_1_avatar_selection_menu.html#aadb888d16937b92e4390e72b58bdd58b", null ]
+    [ "TooltipDescription", "class_rogue_genesia_1_1_u_i_1_1_avatar_selection_menu.html#a40a641074693284fcd2b16fc14942349", null ],
+    [ "TooltipName", "class_rogue_genesia_1_1_u_i_1_1_avatar_selection_menu.html#a2972dd8e7a14dc3ceae78191f6340cef", null ],
+    [ "TooltipStat", "class_rogue_genesia_1_1_u_i_1_1_avatar_selection_menu.html#a3a94d966854c46a3728675941c90aba7", null ]
 ];

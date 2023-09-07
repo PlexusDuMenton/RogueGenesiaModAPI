@@ -1,0 +1,5 @@
+var class_rogue_genesia_1_1_data_1_1_s_s_u_banishes_info_class =
+[
+    [ "GetBaseValue", "class_rogue_genesia_1_1_data_1_1_s_s_u_banishes_info_class.html#af0beba081b3d42c0d415da73eb6d5868", null ],
+    [ "OnInitSSUUpgrade", "class_rogue_genesia_1_1_data_1_1_s_s_u_banishes_info_class.html#a81109ddb79936e649eac89f64aad53cc", null ]
+];

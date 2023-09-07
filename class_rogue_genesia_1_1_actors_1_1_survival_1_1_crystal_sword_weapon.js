@@ -1,7 +1,8 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_crystal_sword_weapon =
 [
     [ "CrystalSwordWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crystal_sword_weapon.html#a70a7878cf44e11def8059a146aa0a71d", null ],
-    [ "getCriticalMultiplier", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crystal_sword_weapon.html#a57573bddde0452e7157fbdead0506f4e", null ],
+    [ "BuildWeaponStatsForLocalization", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crystal_sword_weapon.html#a00472342bb0d3338471f796168a3c122", null ],
+    [ "getCriticalDamage", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crystal_sword_weapon.html#ad5ab4cc32ed6bddb7a019966e52b00fa", null ],
     [ "Init", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crystal_sword_weapon.html#a1c40f1e915bd58f5483979d825cca63a", null ],
     [ "LevelUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crystal_sword_weapon.html#a5dc119163c583df0f01ac0cfe4420fe3", null ],
     [ "OnAttack", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crystal_sword_weapon.html#aa6b395cb9dbe5df094f6b2c31d5bad55", null ],
