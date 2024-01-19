@@ -15,6 +15,7 @@ var class_unity_engine_1_1_u_i_1_1_extensions_1_1_u_i_scroll_to_selection =
     [ "IsManualScrollingAvailable", "class_unity_engine_1_1_u_i_1_1_extensions_1_1_u_i_scroll_to_selection.html#a722d7f70a8fb3b528132b5d897b5bc62", null ],
     [ "LastCheckedGameObject", "class_unity_engine_1_1_u_i_1_1_extensions_1_1_u_i_scroll_to_selection.html#a1128668ec2687856571b6a0dc4be9474", null ],
     [ "LayoutListGroup", "class_unity_engine_1_1_u_i_1_1_extensions_1_1_u_i_scroll_to_selection.html#a455b4991a3a1b5fdeb1e411d1c5eaa09", null ],
+    [ "ParentCanvas", "class_unity_engine_1_1_u_i_1_1_extensions_1_1_u_i_scroll_to_selection.html#a86b2ec851a2af6aad4ea0d48fcf542f4", null ],
     [ "ScrollDirection", "class_unity_engine_1_1_u_i_1_1_extensions_1_1_u_i_scroll_to_selection.html#ab3779b6ae2ca6b0d3a4e68aab6039254", null ],
     [ "ScrollSpeed", "class_unity_engine_1_1_u_i_1_1_extensions_1_1_u_i_scroll_to_selection.html#a2064f7a84cb3289727d2b024fc248d06", null ],
     [ "ScrollWindow", "class_unity_engine_1_1_u_i_1_1_extensions_1_1_u_i_scroll_to_selection.html#a934970214810ae119136f86e8d3fd526", null ],

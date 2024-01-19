@@ -8,5 +8,7 @@ digraph "RogueGenesia.Utils.PrefabPooling"
   Node2 -> Node1 [dir="back",color="steelblue1",style="solid"];
   Node2 [label="MonoBehaviour",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
   Node1 -> Node3 [dir="back",color="steelblue1",style="solid"];
-  Node3 [label="RogueGenesia.Pooling.Projectil\lPooling",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_pooling_1_1_projectil_pooling.html",tooltip=" "];
+  Node3 [label="RogueGenesia.Pooling.Pick\lUpPooling",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_pooling_1_1_pick_up_pooling.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="RogueGenesia.Pooling.Projectil\lPooling",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_pooling_1_1_projectil_pooling.html",tooltip=" "];
 }

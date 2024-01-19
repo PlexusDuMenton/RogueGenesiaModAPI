@@ -18,4 +18,8 @@ digraph "RogueGenesia.UI.ButtonSound"
   Node6 [label="ISubmitHandler",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
   Node7 -> Node1 [dir="back",color="steelblue1",style="solid"];
   Node7 [label="IMoveHandler",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node1 [dir="back",color="steelblue1",style="solid"];
+  Node8 [label="IPointerDownHandler",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
+  Node9 -> Node1 [dir="back",color="steelblue1",style="solid"];
+  Node9 [label="IPointerUpHandler",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
 }

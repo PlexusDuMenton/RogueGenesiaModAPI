@@ -18,6 +18,8 @@ var namespace_rogue_genesia_1_1_game_manager =
     [ "GameManagerRogue", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_rogue.html", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_rogue" ],
     [ "GameManagerSurvival", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_survival.html", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_survival" ],
     [ "GamePlayManager", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager" ],
+    [ "GunTraceData", "struct_rogue_genesia_1_1_game_manager_1_1_gun_trace_data.html", "struct_rogue_genesia_1_1_game_manager_1_1_gun_trace_data" ],
+    [ "HealthBarBuffer", "struct_rogue_genesia_1_1_game_manager_1_1_health_bar_buffer.html", "struct_rogue_genesia_1_1_game_manager_1_1_health_bar_buffer" ],
     [ "MouseCursorManager", "class_rogue_genesia_1_1_game_manager_1_1_mouse_cursor_manager.html", "class_rogue_genesia_1_1_game_manager_1_1_mouse_cursor_manager" ],
     [ "NormalShop", "class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html", "class_rogue_genesia_1_1_game_manager_1_1_normal_shop" ],
     [ "OrderedEvent", "class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html", "class_rogue_genesia_1_1_game_manager_1_1_ordered_event" ],
@@ -41,6 +43,7 @@ var namespace_rogue_genesia_1_1_game_manager =
     [ "SurvivalModuleTime", "class_rogue_genesia_1_1_game_manager_1_1_survival_module_time.html", "class_rogue_genesia_1_1_game_manager_1_1_survival_module_time" ],
     [ "ThunderFXData", "struct_rogue_genesia_1_1_game_manager_1_1_thunder_f_x_data.html", "struct_rogue_genesia_1_1_game_manager_1_1_thunder_f_x_data" ],
     [ "ThunderStrikeFXData", "struct_rogue_genesia_1_1_game_manager_1_1_thunder_strike_f_x_data.html", "struct_rogue_genesia_1_1_game_manager_1_1_thunder_strike_f_x_data" ],
+    [ "ZoneSelectionManager", "class_rogue_genesia_1_1_game_manager_1_1_zone_selection_manager.html", "class_rogue_genesia_1_1_game_manager_1_1_zone_selection_manager" ],
     [ "EEndGameState", "namespace_rogue_genesia_1_1_game_manager.html#a1c5c58caee0193317a25c371dd5e0ae6", [
       [ "GameOver", "namespace_rogue_genesia_1_1_game_manager.html#a1c5c58caee0193317a25c371dd5e0ae6a8f347bc7cebca9fa6d97e70c6bc29eb3", null ],
       [ "Victory", "namespace_rogue_genesia_1_1_game_manager.html#a1c5c58caee0193317a25c371dd5e0ae6a1f5c647d9066bc9e350b70aa2d16aec4", null ],

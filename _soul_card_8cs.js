@@ -1,6 +1,7 @@
 var _soul_card_8cs =
 [
     [ "RogueGenesia.Data.IStatEffector", "interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html", "interface_rogue_genesia_1_1_data_1_1_i_stat_effector" ],
+    [ "RogueGenesia.Data.WeaponModifierCard", "class_rogue_genesia_1_1_data_1_1_weapon_modifier_card.html", "class_rogue_genesia_1_1_data_1_1_weapon_modifier_card" ],
     [ "RogueGenesia.Data.SoulCard", "class_rogue_genesia_1_1_data_1_1_soul_card.html", "class_rogue_genesia_1_1_data_1_1_soul_card" ],
     [ "CardRarity", "_soul_card_8cs.html#a4d4f36c67bf0808606dbf18695e206aa", [
       [ "Curse", "_soul_card_8cs.html#a4d4f36c67bf0808606dbf18695e206aaa738ca3cb200c27b4996ed320eee15705", null ],
@@ -18,7 +19,7 @@ var _soul_card_8cs =
     [ "CardType", "_soul_card_8cs.html#afaec252bb0335013ba7cab942f28c663", [
       [ "UNDEFINED", "_soul_card_8cs.html#afaec252bb0335013ba7cab942f28c663a0db45d2a4141101bdfe48e3314cfbca3", null ],
       [ "Stats", "_soul_card_8cs.html#afaec252bb0335013ba7cab942f28c663a452a7601dbc6f2c38aa89e68bda8b603", null ],
-      [ "ProjectileModifier", "_soul_card_8cs.html#afaec252bb0335013ba7cab942f28c663a4171d5beb1a965669c9a885cff109b5a", null ],
+      [ "WeaponModifier", "_soul_card_8cs.html#afaec252bb0335013ba7cab942f28c663ae21ba99bb90b20fb8d2bf93f25128e28", null ],
       [ "Weapon", "_soul_card_8cs.html#afaec252bb0335013ba7cab942f28c663a18c83669920215a818638ad0e5421e4b", null ],
       [ "OnEffect", "_soul_card_8cs.html#afaec252bb0335013ba7cab942f28c663a90e85b9f43fd14d9aa0695c7bbe9a436", null ],
       [ "PlayerModifier", "_soul_card_8cs.html#afaec252bb0335013ba7cab942f28c663ac9a46d63688adc366456f9124b4cd7ab", null ],

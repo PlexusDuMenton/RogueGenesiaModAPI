@@ -1,7 +1,7 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_altar_entity =
 [
     [ "Init", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_altar_entity.html#a74aa99a4bed8d0c033c29c839b3f9fe3", null ],
-    [ "OnCollisionEnter", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_altar_entity.html#a348f696c7bcd48778ed9d272971e0934", null ],
+    [ "OnCollisionEnter2D", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_altar_entity.html#a795ae85c05bec7ea5609f379c39887e5", null ],
     [ "OnPlayerTouchEntity", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_altar_entity.html#ad172aa71711543b882330f16356c3906", null ],
     [ "Update", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_altar_entity.html#a64b7d2b8ec4c139a5d04aedfd65ea278", null ],
     [ "ChargePercent", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_altar_entity.html#afd40c43b96cf6d281403bafa2789beb9", null ],

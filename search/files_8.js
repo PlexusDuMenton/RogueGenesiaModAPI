@@ -1,15 +1,21 @@
 var searchData=
 [
-  ['icespirit_2ecs_0',['IceSpirit.cs',['../_ice_spirit_8cs.html',1,'']]],
-  ['icespiritdebuff_2ecs_1',['IceSpiritDebuff.cs',['../_ice_spirit_debuff_8cs.html',1,'']]],
-  ['icicle_2ecs_2',['Icicle.cs',['../_icicle_8cs.html',1,'']]],
-  ['immobilemonster_2ecs_3',['ImmobileMonster.cs',['../_immobile_monster_8cs.html',1,'']]],
-  ['immortalityshardbuff_2ecs_4',['ImmortalityShardBuff.cs',['../_immortality_shard_buff_8cs.html',1,'']]],
-  ['immortalityshardcollectible_2ecs_5',['ImmortalityShardCollectible.cs',['../_immortality_shard_collectible_8cs.html',1,'']]],
-  ['immovable_2ecs_6',['Immovable.cs',['../_immovable_8cs.html',1,'']]],
-  ['immovableactive_2ecs_7',['ImmovableActive.cs',['../_immovable_active_8cs.html',1,'']]],
-  ['immovablecd_2ecs_8',['ImmovableCD.cs',['../_immovable_c_d_8cs.html',1,'']]],
-  ['ingametalentui_2ecs_9',['InGameTalentUI.cs',['../_in_game_talent_u_i_8cs.html',1,'']]],
-  ['inputcheck_2ecs_10',['InputCheck.cs',['../_input_check_8cs.html',1,'']]],
-  ['interdimensionalroseweapon_2ecs_11',['InterdimensionalRoseWeapon.cs',['../_interdimensional_rose_weapon_8cs.html',1,'']]]
+  ['icenovaprojectileai_2ecs_0',['IceNovaProjectileAI.cs',['../_ice_nova_projectile_a_i_8cs.html',1,'']]],
+  ['icenovatalent_2ecs_1',['IceNovaTalent.cs',['../_ice_nova_talent_8cs.html',1,'']]],
+  ['icenovaweapon_2ecs_2',['IceNovaWeapon.cs',['../_ice_nova_weapon_8cs.html',1,'']]],
+  ['icespirit_2ecs_3',['IceSpirit.cs',['../_ice_spirit_8cs.html',1,'']]],
+  ['icespiritdebuff_2ecs_4',['IceSpiritDebuff.cs',['../_ice_spirit_debuff_8cs.html',1,'']]],
+  ['icespiritmodifier_2ecs_5',['IceSpiritModifier.cs',['../_ice_spirit_modifier_8cs.html',1,'']]],
+  ['icicle_2ecs_6',['Icicle.cs',['../_icicle_8cs.html',1,'']]],
+  ['immobilemonster_2ecs_7',['ImmobileMonster.cs',['../_immobile_monster_8cs.html',1,'']]],
+  ['immortalityshardbuff_2ecs_8',['ImmortalityShardBuff.cs',['../_immortality_shard_buff_8cs.html',1,'']]],
+  ['immortalityshardcollectible_2ecs_9',['ImmortalityShardCollectible.cs',['../_immortality_shard_collectible_8cs.html',1,'']]],
+  ['immovable_2ecs_10',['Immovable.cs',['../_immovable_8cs.html',1,'']]],
+  ['immovableactive_2ecs_11',['ImmovableActive.cs',['../_immovable_active_8cs.html',1,'']]],
+  ['immovablecd_2ecs_12',['ImmovableCD.cs',['../_immovable_c_d_8cs.html',1,'']]],
+  ['infobuff_2ecs_13',['InfoBuff.cs',['../_info_buff_8cs.html',1,'']]],
+  ['ingametalentui_2ecs_14',['InGameTalentUI.cs',['../_in_game_talent_u_i_8cs.html',1,'']]],
+  ['inputcheck_2ecs_15',['InputCheck.cs',['../_input_check_8cs.html',1,'']]],
+  ['inputfieldsteamlinker_2ecs_16',['InputFieldSteamLinker.cs',['../_input_field_steam_linker_8cs.html',1,'']]],
+  ['interdimensionalroseweapon_2ecs_17',['InterdimensionalRoseWeapon.cs',['../_interdimensional_rose_weapon_8cs.html',1,'']]]
 ];

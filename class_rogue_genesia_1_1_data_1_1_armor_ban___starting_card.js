@@ -1,8 +1,8 @@
 var class_rogue_genesia_1_1_data_1_1_armor_ban___starting_card =
 [
-    [ "GetModifierDescription", "class_rogue_genesia_1_1_data_1_1_armor_ban___starting_card.html#a485d31eb6f357275095342e51703175c", null ],
-    [ "OnEndRun", "class_rogue_genesia_1_1_data_1_1_armor_ban___starting_card.html#ae0d37551937b5f4611c4cb9597882477", null ],
-    [ "OnLoadRun", "class_rogue_genesia_1_1_data_1_1_armor_ban___starting_card.html#a1417c588df79a2b663d2f702a8435abe", null ],
-    [ "OnQuitRun", "class_rogue_genesia_1_1_data_1_1_armor_ban___starting_card.html#ad90ff165c3250f4660771a42c045d2dd", null ],
-    [ "OnStartRun", "class_rogue_genesia_1_1_data_1_1_armor_ban___starting_card.html#a359a97fb04aac53a2e1645264633eefb", null ]
+    [ "GetModifierDescription", "class_rogue_genesia_1_1_data_1_1_armor_ban___starting_card.html#ab22cc87e4f662e568f8f70811f537ef5", null ],
+    [ "OnEndRun", "class_rogue_genesia_1_1_data_1_1_armor_ban___starting_card.html#a53237ca5e6474f2233e07dd5e1b8e6b2", null ],
+    [ "OnLoadRun", "class_rogue_genesia_1_1_data_1_1_armor_ban___starting_card.html#af3d81c6d629f5215170295dd0b62b389", null ],
+    [ "OnQuitRun", "class_rogue_genesia_1_1_data_1_1_armor_ban___starting_card.html#a1543c2eb42332f14e17a0af846fd1fa1", null ],
+    [ "OnStartRun", "class_rogue_genesia_1_1_data_1_1_armor_ban___starting_card.html#ac1313c61d8da0ad8c2d0f53ec56f2700", null ]
 ];

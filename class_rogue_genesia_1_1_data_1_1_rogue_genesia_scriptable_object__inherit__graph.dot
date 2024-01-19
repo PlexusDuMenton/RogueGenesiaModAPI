@@ -40,4 +40,8 @@ digraph "RogueGenesia.Data.RogueGenesiaScriptableObject"
   Node17 [label="RogueGenesia.Data.SummonSO",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_summon_s_o.html",tooltip=" "];
   Node1 -> Node18 [dir="back",color="steelblue1",style="solid"];
   Node18 [label="RogueGenesia.Data.Talent\lScriptableObject",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_talent_scriptable_object.html",tooltip=" "];
+  Node1 -> Node19 [dir="back",color="steelblue1",style="solid"];
+  Node19 [label="RogueGenesia.Data.Weapon\lModifierSO",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_weapon_modifier_s_o.html",tooltip=" "];
+  Node1 -> Node20 [dir="back",color="steelblue1",style="solid"];
+  Node20 [label="RogueGenesia.RogueZoneSO",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_rogue_zone_s_o.html",tooltip=" "];
 }

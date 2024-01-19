@@ -1,5 +1,6 @@
 var dir_83b4f8e6d50085f44e192a8a26e6f9db =
 [
+    [ "DebugSummon.cs", "_debug_summon_8cs.html", "_debug_summon_8cs" ],
     [ "DriedMushroomSummon.cs", "_dried_mushroom_summon_8cs.html", "_dried_mushroom_summon_8cs" ],
     [ "GoblinMageStaffSummon.cs", "_goblin_mage_staff_summon_8cs.html", "_goblin_mage_staff_summon_8cs" ],
     [ "GoblinStaffSummon.cs", "_goblin_staff_summon_8cs.html", "_goblin_staff_summon_8cs" ],

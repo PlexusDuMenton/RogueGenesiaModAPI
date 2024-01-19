@@ -9,6 +9,7 @@ var _reward_button_8cs =
       [ "Experience", "_reward_button_8cs.html#a91d4e1618f3b219b62ca066355adf79da4038d5a85906029f46137a4164c51073", null ],
       [ "Banish", "_reward_button_8cs.html#a91d4e1618f3b219b62ca066355adf79da7ca293f6d492e305ec2cada24fd2d470", null ],
       [ "Reroll", "_reward_button_8cs.html#a91d4e1618f3b219b62ca066355adf79daef888f22750159936410b666f2ea7e22", null ],
-      [ "RarityReroll", "_reward_button_8cs.html#a91d4e1618f3b219b62ca066355adf79da9981e680569faed7c6405868543da3b2", null ]
+      [ "RarityReroll", "_reward_button_8cs.html#a91d4e1618f3b219b62ca066355adf79da9981e680569faed7c6405868543da3b2", null ],
+      [ "Card", "_reward_button_8cs.html#a91d4e1618f3b219b62ca066355adf79da1d565b9e5303987bb1b1938d5d458bca", null ]
     ] ]
 ];

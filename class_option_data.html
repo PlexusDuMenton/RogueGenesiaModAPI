@@ -170,6 +170,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae81f441051ec96947adea061dc747524"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc097630a28be82bbcbb515abf74b67d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_option_data.html#adc097630a28be82bbcbb515abf74b67d">SetLastGameModePlayed</a> (int lastGameModePlayed)</td></tr>
 <tr class="separator:adc097630a28be82bbcbb515abf74b67d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae08d86e676797eda924277059278fddc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_option_data.html#ae08d86e676797eda924277059278fddc">SetPlayedInQuickMode</a> (bool playedInQuickMode)</td></tr>
+<tr class="separator:ae08d86e676797eda924277059278fddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7d9a875da29b9b1f38b83062052c46b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_option_data.html#ac7d9a875da29b9b1f38b83062052c46b">SetLastCorruptionPlayed</a> (int lastCorruptionPlayed)</td></tr>
 <tr class="separator:ac7d9a875da29b9b1f38b83062052c46b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a742d653afc5318a01e5a1ebfadad9051"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_option_data.html#a742d653afc5318a01e5a1ebfadad9051">SetLastPlayerRank</a> (int lastGameModeRank)</td></tr>
@@ -199,6 +201,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:af09cf10bd2cd7c89e93c1323de3aee4a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_option_data.html#af09cf10bd2cd7c89e93c1323de3aee4a">MasterVolume</a><code> [get, set]</code></td></tr>
+<tr class="separator:af09cf10bd2cd7c89e93c1323de3aee4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a456f53068c9163965c4db19d13a18741"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_option_data.html#a456f53068c9163965c4db19d13a18741">MusicVolume</a><code> [get]</code></td></tr>
 <tr class="separator:a456f53068c9163965c4db19d13a18741"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad282535f7c238aa29700840b7a83e8f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_option_data.html#aad282535f7c238aa29700840b7a83e8f">SfxVolume</a><code> [get]</code></td></tr>
@@ -249,6 +253,8 @@ Properties</h2></td></tr>
 <tr class="separator:af9a6d93558f485a4ee996afc6c543700"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0459800d0b011f3cfb5c03a8507cc26"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_option_data.html#ac0459800d0b011f3cfb5c03a8507cc26">LastGameModePlayed</a><code> [get]</code></td></tr>
 <tr class="separator:ac0459800d0b011f3cfb5c03a8507cc26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbb174bee50aa6b15bfec8fc569b5952"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_option_data.html#adbb174bee50aa6b15bfec8fc569b5952">PlayedInQuickMode</a><code> [get]</code></td></tr>
+<tr class="separator:adbb174bee50aa6b15bfec8fc569b5952"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5935939b2e5fb47f2746b3b0d8b719dd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_option_data.html#a5935939b2e5fb47f2746b3b0d8b719dd">LastCorruptionPlayed</a><code> [get]</code></td></tr>
 <tr class="separator:a5935939b2e5fb47f2746b3b0d8b719dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8834f287e2d54474f2799a7bb42fe298"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_option_data.html#a8834f287e2d54474f2799a7bb42fe298">LastPlayedRank</a><code> [get]</code></td></tr>
@@ -869,6 +875,32 @@ Properties</h2></td></tr>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>volume</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae08d86e676797eda924277059278fddc" name="ae08d86e676797eda924277059278fddc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae08d86e676797eda924277059278fddc">&#9670;&#160;</a></span>SetPlayedInQuickMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OptionData.SetPlayedInQuickMode </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>playedInQuickMode</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1592,6 +1624,28 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="af09cf10bd2cd7c89e93c1323de3aee4a" name="af09cf10bd2cd7c89e93c1323de3aee4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af09cf10bd2cd7c89e93c1323de3aee4a">&#9670;&#160;</a></span>MasterVolume</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float OptionData.MasterVolume</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a63d4b648a9f8850e28640e6605e43616" name="a63d4b648a9f8850e28640e6605e43616"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a63d4b648a9f8850e28640e6605e43616">&#9670;&#160;</a></span>MaxFPS</h2>
 
@@ -1674,6 +1728,28 @@ Properties</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adbb174bee50aa6b15bfec8fc569b5952" name="adbb174bee50aa6b15bfec8fc569b5952"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbb174bee50aa6b15bfec8fc569b5952">&#9670;&#160;</a></span>PlayedInQuickMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OptionData.PlayedInQuickMode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

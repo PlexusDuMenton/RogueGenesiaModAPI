@@ -1,0 +1,803 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue: Genesia API" />
+<meta property="og:image" content="" />
+<meta property="og:description" content="Rogue: Genesia API for modders" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="" />
+<meta name="twitter:title" content="Rogue: Genesia API" />
+<meta name="twitter:description" content="Rogue: Genesia API for modders" />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.UI.WeaponTab Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.UI.WeaponTab Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.UI.WeaponTab:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aed3bc65f6f5850012df4a39ec5cf1798"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#aed3bc65f6f5850012df4a39ec5cf1798">OnOpen</a> ()</td></tr>
+<tr class="separator:aed3bc65f6f5850012df4a39ec5cf1798"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6046e984b8204e0d9475c1e37e3cc0ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a6046e984b8204e0d9475c1e37e3cc0ab">CreateWeaponSlot</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">Weapon</a> weapon)</td></tr>
+<tr class="separator:a6046e984b8204e0d9475c1e37e3cc0ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53f16213963d0eef8aecee61e458d517"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a53f16213963d0eef8aecee61e458d517">CreateEmptyWeaponSlot</a> ()</td></tr>
+<tr class="separator:a53f16213963d0eef8aecee61e458d517"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b59d63fbfb75ce401762731036c4c46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a1b59d63fbfb75ce401762731036c4c46">CreateModifierSlot</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier.html">WeaponModifier</a> modifier)</td></tr>
+<tr class="separator:a1b59d63fbfb75ce401762731036c4c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ac3a0c21b604d72af93bbf71f28ebc3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a3ac3a0c21b604d72af93bbf71f28ebc3">SelectWeapon</a> (<a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html">WeaponSlotScript</a> weapon)</td></tr>
+<tr class="separator:a3ac3a0c21b604d72af93bbf71f28ebc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1e90802e8e4ebd6b7133b9ef7ce147d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#aa1e90802e8e4ebd6b7133b9ef7ce147d">SelectModifier</a> (<a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_modifier_slot.html">WeaponModifierSlot</a> modifier)</td></tr>
+<tr class="separator:aa1e90802e8e4ebd6b7133b9ef7ce147d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6bdc0a85bd05f23ddaf4d195a1f1e65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#ab6bdc0a85bd05f23ddaf4d195a1f1e65">DeselectWeapon</a> (<a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html">WeaponSlotScript</a> weapon)</td></tr>
+<tr class="separator:ab6bdc0a85bd05f23ddaf4d195a1f1e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6654813af2b243b7bc403c02eb46434"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#ac6654813af2b243b7bc403c02eb46434">DeselectModifier</a> (<a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_modifier_slot.html">WeaponModifierSlot</a> modifier)</td></tr>
+<tr class="separator:ac6654813af2b243b7bc403c02eb46434"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad69a9e0411f2b90e4331dc064fa88cd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#ad69a9e0411f2b90e4331dc064fa88cd6">DisplayWeaponInfo</a> (<a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html">WeaponSlotScript</a> weapon)</td></tr>
+<tr class="separator:ad69a9e0411f2b90e4331dc064fa88cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2dcb01fb4228291a28217367e2433f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#ae2dcb01fb4228291a28217367e2433f0">DisplayModifierInfo</a> (<a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_modifier_slot.html">WeaponModifierSlot</a> modifier)</td></tr>
+<tr class="separator:ae2dcb01fb4228291a28217367e2433f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fb8b65a86fd509d50c5fdd264a15b66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a4fb8b65a86fd509d50c5fdd264a15b66">HideInfo</a> ()</td></tr>
+<tr class="separator:a4fb8b65a86fd509d50c5fdd264a15b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a31a3249caea24a488ef3312f6497cd4f"><td class="memItemLeft" align="right" valign="top">RectTransform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a31a3249caea24a488ef3312f6497cd4f">WeaponList</a></td></tr>
+<tr class="separator:a31a3249caea24a488ef3312f6497cd4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00611b1ec7a2a353d8a1436e1037a5ef"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a00611b1ec7a2a353d8a1436e1037a5ef">WeaponPrefab</a></td></tr>
+<tr class="separator:a00611b1ec7a2a353d8a1436e1037a5ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79b3f1e9ba4739042f154ea755d4c48b"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a79b3f1e9ba4739042f154ea755d4c48b">EmptySlotPrefab</a></td></tr>
+<tr class="separator:a79b3f1e9ba4739042f154ea755d4c48b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f979a339f9cf9735c46eab63b3aba47"><td class="memItemLeft" align="right" valign="top">RectTransform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a6f979a339f9cf9735c46eab63b3aba47">ModifierList</a></td></tr>
+<tr class="separator:a6f979a339f9cf9735c46eab63b3aba47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d0f37bf5b7406b9fdf961fe142af0cb"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a0d0f37bf5b7406b9fdf961fe142af0cb">ModifierPrefab</a></td></tr>
+<tr class="separator:a0d0f37bf5b7406b9fdf961fe142af0cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac62a4034f2a0205baf375d489f674b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html">WeaponSlotScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#aac62a4034f2a0205baf375d489f674b3">SelectedWeapon</a></td></tr>
+<tr class="separator:aac62a4034f2a0205baf375d489f674b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64fd4087f4636cc5008147024c63ccd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_modifier_slot.html">WeaponModifierSlot</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a64fd4087f4636cc5008147024c63ccd0">SelectedModifier</a></td></tr>
+<tr class="separator:a64fd4087f4636cc5008147024c63ccd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00ad283e28deb246e35b246e091f3694"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a00ad283e28deb246e35b246e091f3694">SelectedPannel</a></td></tr>
+<tr class="separator:a00ad283e28deb246e35b246e091f3694"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48d13b66814ead83dd6a8b736f7190c1"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a48d13b66814ead83dd6a8b736f7190c1">SelectedIcon</a></td></tr>
+<tr class="separator:a48d13b66814ead83dd6a8b736f7190c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada604f573cbc294e4ccfdcdb7e26ea74"><td class="memItemLeft" align="right" valign="top">Image[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#ada604f573cbc294e4ccfdcdb7e26ea74">SelectedImageToColor</a></td></tr>
+<tr class="separator:ada604f573cbc294e4ccfdcdb7e26ea74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03ccacd0c8ad6d17d09d72f925310ece"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a03ccacd0c8ad6d17d09d72f925310ece">SelectedName</a></td></tr>
+<tr class="separator:a03ccacd0c8ad6d17d09d72f925310ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30c98496eb59611c97341031d3a9f55e"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a30c98496eb59611c97341031d3a9f55e">SelectedInfoPannel</a></td></tr>
+<tr class="separator:a30c98496eb59611c97341031d3a9f55e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a570b5210940a50aff0c33ed933164221"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a570b5210940a50aff0c33ed933164221">SelectedInfoValue</a></td></tr>
+<tr class="separator:a570b5210940a50aff0c33ed933164221"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07ae6e96680ca3047e2dbbd5d6a3713b"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a07ae6e96680ca3047e2dbbd5d6a3713b">SelectedInfoText</a></td></tr>
+<tr class="separator:a07ae6e96680ca3047e2dbbd5d6a3713b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2e985ab355a9a28c20b8b6c4ff9d13e"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#af2e985ab355a9a28c20b8b6c4ff9d13e">SelectedDescription</a></td></tr>
+<tr class="separator:af2e985ab355a9a28c20b8b6c4ff9d13e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0504ac601dfbe79f53596a6d07e211b"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#ae0504ac601dfbe79f53596a6d07e211b">SelectedTags</a></td></tr>
+<tr class="separator:ae0504ac601dfbe79f53596a6d07e211b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab501a6b723cfa5a1c7452859b831a385"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#ab501a6b723cfa5a1c7452859b831a385">SelectedLevel</a></td></tr>
+<tr class="separator:ab501a6b723cfa5a1c7452859b831a385"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5818027db8bd48cb1d0da7037776e942"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a5818027db8bd48cb1d0da7037776e942">SelectedRarity</a></td></tr>
+<tr class="separator:a5818027db8bd48cb1d0da7037776e942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a553a41cee385db7e3cf3fc474ff01c65"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a553a41cee385db7e3cf3fc474ff01c65">SelectedModSource</a></td></tr>
+<tr class="separator:a553a41cee385db7e3cf3fc474ff01c65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63595505151d4e3d32b49335090ae831"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a63595505151d4e3d32b49335090ae831">SelectedDrop</a></td></tr>
+<tr class="separator:a63595505151d4e3d32b49335090ae831"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66b8d366c5ea10a47e604d4663ad5b86"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a66b8d366c5ea10a47e604d4663ad5b86">SelectedDropLevel</a></td></tr>
+<tr class="separator:a66b8d366c5ea10a47e604d4663ad5b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a53f16213963d0eef8aecee61e458d517" name="a53f16213963d0eef8aecee61e458d517"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53f16213963d0eef8aecee61e458d517">&#9670;&#160;</a></span>CreateEmptyWeaponSlot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.WeaponTab.CreateEmptyWeaponSlot </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b59d63fbfb75ce401762731036c4c46" name="a1b59d63fbfb75ce401762731036c4c46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b59d63fbfb75ce401762731036c4c46">&#9670;&#160;</a></span>CreateModifierSlot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.WeaponTab.CreateModifierSlot </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier.html">WeaponModifier</a>&#160;</td>
+          <td class="paramname"><em>modifier</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6046e984b8204e0d9475c1e37e3cc0ab" name="a6046e984b8204e0d9475c1e37e3cc0ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6046e984b8204e0d9475c1e37e3cc0ab">&#9670;&#160;</a></span>CreateWeaponSlot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.WeaponTab.CreateWeaponSlot </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">Weapon</a>&#160;</td>
+          <td class="paramname"><em>weapon</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6654813af2b243b7bc403c02eb46434" name="ac6654813af2b243b7bc403c02eb46434"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6654813af2b243b7bc403c02eb46434">&#9670;&#160;</a></span>DeselectModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.WeaponTab.DeselectModifier </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_modifier_slot.html">WeaponModifierSlot</a>&#160;</td>
+          <td class="paramname"><em>modifier</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6bdc0a85bd05f23ddaf4d195a1f1e65" name="ab6bdc0a85bd05f23ddaf4d195a1f1e65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6bdc0a85bd05f23ddaf4d195a1f1e65">&#9670;&#160;</a></span>DeselectWeapon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.WeaponTab.DeselectWeapon </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html">WeaponSlotScript</a>&#160;</td>
+          <td class="paramname"><em>weapon</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae2dcb01fb4228291a28217367e2433f0" name="ae2dcb01fb4228291a28217367e2433f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2dcb01fb4228291a28217367e2433f0">&#9670;&#160;</a></span>DisplayModifierInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.WeaponTab.DisplayModifierInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_modifier_slot.html">WeaponModifierSlot</a>&#160;</td>
+          <td class="paramname"><em>modifier</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad69a9e0411f2b90e4331dc064fa88cd6" name="ad69a9e0411f2b90e4331dc064fa88cd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad69a9e0411f2b90e4331dc064fa88cd6">&#9670;&#160;</a></span>DisplayWeaponInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.WeaponTab.DisplayWeaponInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html">WeaponSlotScript</a>&#160;</td>
+          <td class="paramname"><em>weapon</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4fb8b65a86fd509d50c5fdd264a15b66" name="a4fb8b65a86fd509d50c5fdd264a15b66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fb8b65a86fd509d50c5fdd264a15b66">&#9670;&#160;</a></span>HideInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.WeaponTab.HideInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed3bc65f6f5850012df4a39ec5cf1798" name="aed3bc65f6f5850012df4a39ec5cf1798"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed3bc65f6f5850012df4a39ec5cf1798">&#9670;&#160;</a></span>OnOpen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.WeaponTab.OnOpen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa1e90802e8e4ebd6b7133b9ef7ce147d" name="aa1e90802e8e4ebd6b7133b9ef7ce147d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1e90802e8e4ebd6b7133b9ef7ce147d">&#9670;&#160;</a></span>SelectModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.WeaponTab.SelectModifier </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_modifier_slot.html">WeaponModifierSlot</a>&#160;</td>
+          <td class="paramname"><em>modifier</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3ac3a0c21b604d72af93bbf71f28ebc3" name="a3ac3a0c21b604d72af93bbf71f28ebc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ac3a0c21b604d72af93bbf71f28ebc3">&#9670;&#160;</a></span>SelectWeapon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.UI.WeaponTab.SelectWeapon </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html">WeaponSlotScript</a>&#160;</td>
+          <td class="paramname"><em>weapon</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a79b3f1e9ba4739042f154ea755d4c48b" name="a79b3f1e9ba4739042f154ea755d4c48b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79b3f1e9ba4739042f154ea755d4c48b">&#9670;&#160;</a></span>EmptySlotPrefab</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.WeaponTab.EmptySlotPrefab</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6f979a339f9cf9735c46eab63b3aba47" name="a6f979a339f9cf9735c46eab63b3aba47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f979a339f9cf9735c46eab63b3aba47">&#9670;&#160;</a></span>ModifierList</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RectTransform RogueGenesia.UI.WeaponTab.ModifierList</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d0f37bf5b7406b9fdf961fe142af0cb" name="a0d0f37bf5b7406b9fdf961fe142af0cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d0f37bf5b7406b9fdf961fe142af0cb">&#9670;&#160;</a></span>ModifierPrefab</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.WeaponTab.ModifierPrefab</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af2e985ab355a9a28c20b8b6c4ff9d13e" name="af2e985ab355a9a28c20b8b6c4ff9d13e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2e985ab355a9a28c20b8b6c4ff9d13e">&#9670;&#160;</a></span>SelectedDescription</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI RogueGenesia.UI.WeaponTab.SelectedDescription</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a63595505151d4e3d32b49335090ae831" name="a63595505151d4e3d32b49335090ae831"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63595505151d4e3d32b49335090ae831">&#9670;&#160;</a></span>SelectedDrop</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI RogueGenesia.UI.WeaponTab.SelectedDrop</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a66b8d366c5ea10a47e604d4663ad5b86" name="a66b8d366c5ea10a47e604d4663ad5b86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66b8d366c5ea10a47e604d4663ad5b86">&#9670;&#160;</a></span>SelectedDropLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI RogueGenesia.UI.WeaponTab.SelectedDropLevel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a48d13b66814ead83dd6a8b736f7190c1" name="a48d13b66814ead83dd6a8b736f7190c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48d13b66814ead83dd6a8b736f7190c1">&#9670;&#160;</a></span>SelectedIcon</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Image RogueGenesia.UI.WeaponTab.SelectedIcon</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada604f573cbc294e4ccfdcdb7e26ea74" name="ada604f573cbc294e4ccfdcdb7e26ea74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada604f573cbc294e4ccfdcdb7e26ea74">&#9670;&#160;</a></span>SelectedImageToColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Image [] RogueGenesia.UI.WeaponTab.SelectedImageToColor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a30c98496eb59611c97341031d3a9f55e" name="a30c98496eb59611c97341031d3a9f55e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30c98496eb59611c97341031d3a9f55e">&#9670;&#160;</a></span>SelectedInfoPannel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.WeaponTab.SelectedInfoPannel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07ae6e96680ca3047e2dbbd5d6a3713b" name="a07ae6e96680ca3047e2dbbd5d6a3713b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07ae6e96680ca3047e2dbbd5d6a3713b">&#9670;&#160;</a></span>SelectedInfoText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI RogueGenesia.UI.WeaponTab.SelectedInfoText</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a570b5210940a50aff0c33ed933164221" name="a570b5210940a50aff0c33ed933164221"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a570b5210940a50aff0c33ed933164221">&#9670;&#160;</a></span>SelectedInfoValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI RogueGenesia.UI.WeaponTab.SelectedInfoValue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab501a6b723cfa5a1c7452859b831a385" name="ab501a6b723cfa5a1c7452859b831a385"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab501a6b723cfa5a1c7452859b831a385">&#9670;&#160;</a></span>SelectedLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI RogueGenesia.UI.WeaponTab.SelectedLevel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a64fd4087f4636cc5008147024c63ccd0" name="a64fd4087f4636cc5008147024c63ccd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64fd4087f4636cc5008147024c63ccd0">&#9670;&#160;</a></span>SelectedModifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_modifier_slot.html">WeaponModifierSlot</a> RogueGenesia.UI.WeaponTab.SelectedModifier</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a553a41cee385db7e3cf3fc474ff01c65" name="a553a41cee385db7e3cf3fc474ff01c65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a553a41cee385db7e3cf3fc474ff01c65">&#9670;&#160;</a></span>SelectedModSource</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI RogueGenesia.UI.WeaponTab.SelectedModSource</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a03ccacd0c8ad6d17d09d72f925310ece" name="a03ccacd0c8ad6d17d09d72f925310ece"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03ccacd0c8ad6d17d09d72f925310ece">&#9670;&#160;</a></span>SelectedName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI RogueGenesia.UI.WeaponTab.SelectedName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a00ad283e28deb246e35b246e091f3694" name="a00ad283e28deb246e35b246e091f3694"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00ad283e28deb246e35b246e091f3694">&#9670;&#160;</a></span>SelectedPannel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.WeaponTab.SelectedPannel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5818027db8bd48cb1d0da7037776e942" name="a5818027db8bd48cb1d0da7037776e942"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5818027db8bd48cb1d0da7037776e942">&#9670;&#160;</a></span>SelectedRarity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI RogueGenesia.UI.WeaponTab.SelectedRarity</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0504ac601dfbe79f53596a6d07e211b" name="ae0504ac601dfbe79f53596a6d07e211b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0504ac601dfbe79f53596a6d07e211b">&#9670;&#160;</a></span>SelectedTags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI RogueGenesia.UI.WeaponTab.SelectedTags</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac62a4034f2a0205baf375d489f674b3" name="aac62a4034f2a0205baf375d489f674b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac62a4034f2a0205baf375d489f674b3">&#9670;&#160;</a></span>SelectedWeapon</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html">WeaponSlotScript</a> RogueGenesia.UI.WeaponTab.SelectedWeapon</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31a3249caea24a488ef3312f6497cd4f" name="a31a3249caea24a488ef3312f6497cd4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31a3249caea24a488ef3312f6497cd4f">&#9670;&#160;</a></span>WeaponList</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RectTransform RogueGenesia.UI.WeaponTab.WeaponList</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a00611b1ec7a2a353d8a1436e1037a5ef" name="a00611b1ec7a2a353d8a1436e1037a5ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00611b1ec7a2a353d8a1436e1037a5ef">&#9670;&#160;</a></span>WeaponPrefab</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject RogueGenesia.UI.WeaponTab.WeaponPrefab</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/CustomUi/PauseMenu/<a class="el" href="_weapon_tab_8cs.html">WeaponTab.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_u_i.html">UI</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html">WeaponTab</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

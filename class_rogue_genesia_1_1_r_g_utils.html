@@ -135,8 +135,20 @@ $(document).ready(function(){initNavTree('class_rogue_genesia_1_1_r_g_utils.html
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a4645b993fc6f89de530fb0e064954dbe"><td class="memItemLeft" align="right" valign="top">static Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_r_g_utils.html#a4645b993fc6f89de530fb0e064954dbe">ToProxy</a> (Vector3 position)</td></tr>
+<tr class="separator:a4645b993fc6f89de530fb0e064954dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83731515ddcdd682a2270e7904a77256"><td class="memItemLeft" align="right" valign="top">static Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_r_g_utils.html#a83731515ddcdd682a2270e7904a77256">FromProxy</a> (Vector3 proxyPosition, float yPosition)</td></tr>
+<tr class="separator:a83731515ddcdd682a2270e7904a77256"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28892279968a59541bc78b3611e462e1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_r_g_utils.html#a28892279968a59541bc78b3611e462e1">LinearProgression</a> (float offsetSpeed, float TargetValue, ref float currentValue)</td></tr>
+<tr class="separator:a28892279968a59541bc78b3611e462e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa38bf82567aeb4ecc25ac59294991047"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_r_g_utils.html#aa38bf82567aeb4ecc25ac59294991047">GetProgressionString</a> (float baseValue, float nextValue, string additionalSymbol, bool positive=true)</td></tr>
+<tr class="separator:aa38bf82567aeb4ecc25ac59294991047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff2957dae5b5f86cee0ce1d0c81c3cd2"><td class="memItemLeft" align="right" valign="top">static GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_r_g_utils.html#aff2957dae5b5f86cee0ce1d0c81c3cd2">CreateProxyFromObject</a> (GameObject gameObject, Transform parent, out Rigidbody2D rigidbody2D)</td></tr>
+<tr class="separator:aff2957dae5b5f86cee0ce1d0c81c3cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72b8a37f0ddd5bf71904077d7c4aa92c"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_r_g_utils.html#a72b8a37f0ddd5bf71904077d7c4aa92c">RuneText</a> (string originalText)</td></tr>
 <tr class="separator:a72b8a37f0ddd5bf71904077d7c4aa92c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47c6b883fc74e9e9b452b447a5016f91"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_r_g_utils.html#a47c6b883fc74e9e9b452b447a5016f91">VectorToAngleDeg</a> (Vector2 vector)</td></tr>
+<tr class="separator:a47c6b883fc74e9e9b452b447a5016f91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a19d3f49fc5b71c240e7e23da05c98c"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_r_g_utils.html#a5a19d3f49fc5b71c240e7e23da05c98c">VectorToAngleDeg</a> (float x, float y)</td></tr>
 <tr class="separator:a5a19d3f49fc5b71c240e7e23da05c98c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef6cfb6c487868d991d5cb042202903e"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_r_g_utils.html#aef6cfb6c487868d991d5cb042202903e">VectorToAngleRad</a> (float x, float y)</td></tr>
@@ -263,6 +275,48 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="aff2957dae5b5f86cee0ce1d0c81c3cd2" name="aff2957dae5b5f86cee0ce1d0c81c3cd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff2957dae5b5f86cee0ce1d0c81c3cd2">&#9670;&#160;</a></span>CreateProxyFromObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static GameObject RogueGenesia.RGUtils.CreateProxyFromObject </td>
+          <td>(</td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>gameObject</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Transform&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out Rigidbody2D&#160;</td>
+          <td class="paramname"><em>rigidbody2D</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa0d273a489d8535e93abfd9ce1aa5412" name="aa0d273a489d8535e93abfd9ce1aa5412"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa0d273a489d8535e93abfd9ce1aa5412">&#9670;&#160;</a></span>DMCTD()</h2>
 
@@ -366,6 +420,42 @@ Properties</h2></td></tr>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>time</em></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a83731515ddcdd682a2270e7904a77256" name="a83731515ddcdd682a2270e7904a77256"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83731515ddcdd682a2270e7904a77256">&#9670;&#160;</a></span>FromProxy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Vector3 RogueGenesia.RGUtils.FromProxy </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>proxyPosition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>yPosition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -707,6 +797,54 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="aa38bf82567aeb4ecc25ac59294991047" name="aa38bf82567aeb4ecc25ac59294991047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa38bf82567aeb4ecc25ac59294991047">&#9670;&#160;</a></span>GetProgressionString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string RogueGenesia.RGUtils.GetProgressionString </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>baseValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>nextValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>additionalSymbol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>positive</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1e55f6c00fdf9ea155f2bcd6fcff03e0" name="a1e55f6c00fdf9ea155f2bcd6fcff03e0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1e55f6c00fdf9ea155f2bcd6fcff03e0">&#9670;&#160;</a></span>GetPurificationEffect()</h2>
 
@@ -972,6 +1110,48 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a28892279968a59541bc78b3611e462e1" name="a28892279968a59541bc78b3611e462e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28892279968a59541bc78b3611e462e1">&#9670;&#160;</a></span>LinearProgression()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.RGUtils.LinearProgression </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>offsetSpeed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>TargetValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref float&#160;</td>
+          <td class="paramname"><em>currentValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac19008a3179c0067d24518d2aefe49b0" name="ac19008a3179c0067d24518d2aefe49b0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac19008a3179c0067d24518d2aefe49b0">&#9670;&#160;</a></span>LookRight()</h2>
 
@@ -1066,6 +1246,32 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a4645b993fc6f89de530fb0e064954dbe" name="a4645b993fc6f89de530fb0e064954dbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4645b993fc6f89de530fb0e064954dbe">&#9670;&#160;</a></span>ToProxy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Vector3 RogueGenesia.RGUtils.ToProxy </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa2c8b0bd1a6bf43575319221f5cbea6c" name="aa2c8b0bd1a6bf43575319221f5cbea6c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa2c8b0bd1a6bf43575319221f5cbea6c">&#9670;&#160;</a></span>Vector3FromAngle()</h2>
 
@@ -1119,7 +1325,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a5a19d3f49fc5b71c240e7e23da05c98c" name="a5a19d3f49fc5b71c240e7e23da05c98c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a19d3f49fc5b71c240e7e23da05c98c">&#9670;&#160;</a></span>VectorToAngleDeg()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a19d3f49fc5b71c240e7e23da05c98c">&#9670;&#160;</a></span>VectorToAngleDeg() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1143,6 +1349,32 @@ Properties</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47c6b883fc74e9e9b452b447a5016f91" name="a47c6b883fc74e9e9b452b447a5016f91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47c6b883fc74e9e9b452b447a5016f91">&#9670;&#160;</a></span>VectorToAngleDeg() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float RogueGenesia.RGUtils.VectorToAngleDeg </td>
+          <td>(</td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>vector</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>

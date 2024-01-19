@@ -1,7 +1,6 @@
 var class_rogue_genesia_1_1_game_manager_1_1_game_play_manager =
 [
     [ "DoRumbling", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a022f2dfe658ef80890504578dec3e110", null ],
-    [ "actions", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a290c8e6f7a28a987d19cf4ebc61b0094", null ],
     [ "activeModuleList", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#ad66ec4e7baca24c2bb96d18b1b17a6b9", null ],
     [ "ArtifactSelection", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a9ba4f5733cc2fbe393aac0395a4fb439", null ],
     [ "BlessingText", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a8ba9054f662188c9199cc2c6c4fe9ba1", null ],
@@ -13,6 +12,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_play_manager =
     [ "DashList", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a6b33837d83fcad7d0288a5d6ccab29fa", null ],
     [ "DashPannel", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a406c8bb4054ba66d2b6fb8ddbfecc932", null ],
     [ "DashPrefab", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#aa4e351e47fdfe2aa4216f66f3be891b4", null ],
+    [ "FlatCollisionProxy", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#ae1da40eed1acdd47b2df9b6a658a7f48", null ],
     [ "floorText", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#aa150615ec79f9804d0e7b8a6927ed933", null ],
     [ "GameManagerFight", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#ab7bd55f384af62aa0af6885b33b4a557", null ],
     [ "GamePlayUI", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#aa16afa63fb3ef1a7334de87a6d487a44", null ],
@@ -33,5 +33,6 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_play_manager =
     [ "SmallIndicatorPrefab", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a578d2def7b4e23642d009dffee1948d9", null ],
     [ "TimeText", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a5578016afadbf77b38b3bf81dcc3a466", null ],
     [ "uILevelUp", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a5e53195a36e46c9b27f0d694d2031045", null ],
-    [ "zoneText", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#ac36ffb3863812318cf6bb7122971d7d7", null ]
+    [ "zoneText", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#ac36ffb3863812318cf6bb7122971d7d7", null ],
+    [ "actions", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a290c8e6f7a28a987d19cf4ebc61b0094", null ]
 ];

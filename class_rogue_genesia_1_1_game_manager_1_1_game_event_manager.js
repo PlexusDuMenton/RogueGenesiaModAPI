@@ -1,6 +1,7 @@
 var class_rogue_genesia_1_1_game_manager_1_1_game_event_manager =
 [
     [ "RemoveAllListener", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a0092edbe85ba45bcf2db2e311ef58fea", null ],
+    [ "RemoveAllListeners", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a0069a2efcc2115f08ec3e3a5cf0e8e6f", null ],
     [ "RemoveAllRunListener", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a2b3a9b4d36d705331495ae38fd624143", null ],
     [ "CalculateBudgetBossModifier", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a214085902a1504fb8b00be586b3e3978", null ],
     [ "CalculateCardPickCount", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a653e8dcb5ccbc3356fa6c7b946e15882", null ],
@@ -26,10 +27,12 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_event_manager =
     [ "OnCalculateMonsterDefenceLoss", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a5abbc8f5a2906c84c9644b2a4cacd157", null ],
     [ "OnCalculateMonsterStats", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a2d9261eaffa87530b8bbbdcb916b8837", null ],
     [ "OnCalculatePlayerDamage", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#af386685f6491e5f0652d66086328aead", null ],
-    [ "OnCardBanished", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#abc7639d8ae4b6219edd8a7e1915a1eb3", null ],
+    [ "OnCardBanished", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ae5ec1869d0543cd4fee70e83eb0b9cc5", null ],
     [ "OnCardLevelUp", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a559044f5b8f1ea96bd08ed62a34b506b", null ],
     [ "OnCardPickedUp", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ad29ef8d65c1310c6acfb8881443078c0", null ],
+    [ "OnCardRarityRerolled", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#af3e2a0bf35f848ab5ded62bef91cc7dd", null ],
     [ "OnCardRemoved", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#af95f013b15b4fb5f999068ce85569273", null ],
+    [ "OnCardsReroll", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a846af06e0c361b8b6658ee844e01917a", null ],
     [ "OnCardWeightCalculation", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#accf5d9a446ac7d7038795d60cde30aea", null ],
     [ "OnCastActiveTalentAbility", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a44e7236a935b7c9837c6ef4b24a200eb", null ],
     [ "OnCheckObjectiveCompleted", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a9ed16c9c029e8800e4b3514f74c8ad21", null ],
@@ -65,6 +68,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_event_manager =
     [ "OnPlayerLevelUp", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ae26d6bb761d88232a670ecd8c2e5e1c1", null ],
     [ "OnPlayerLoseHealth", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#af6f29dd66979df096bb6218f8c456871", null ],
     [ "OnPlayerTakeDamage_BeforeApplying", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a7a79b46b84c7b3cbe9c8fbcfb73b4ca7", null ],
+    [ "OnPlayerTakeDamage_CalculateDefence", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#acb622c61bf977ba17e6950dcd9fda1d4", null ],
     [ "OnPlayerTakeDamage_PostDefence", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a3d987337eda721059487ef438c14095a", null ],
     [ "OnPlayerTakeDamage_PreDeathCheck", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a39e994da546c419b0656cfcff7627328", null ],
     [ "OnPlayerTakeDamage_PreDefence", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a8d211477f525cf8c2a4e15af95865d81", null ],
@@ -79,5 +83,6 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_event_manager =
     [ "OnSelectStageObjective", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ace78c05557fdfa7532cb412de650b63e", null ],
     [ "OnStageCountDownStart", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a154dafdb41bacc09cbe9a7b5932ced7f", null ],
     [ "OnStageEnd", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a332f4a183dbe25a0b554d373c3190e5f", null ],
-    [ "OnStageStart", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ae37e40dd575ac6afbffe35a18b8e969d", null ]
+    [ "OnStageStart", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ae37e40dd575ac6afbffe35a18b8e969d", null ],
+    [ "UpdateFoliage", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ac12d823df253263a95f2217921046902", null ]
 ];

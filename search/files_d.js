@@ -13,6 +13,6 @@ var searchData=
   ['necrostartflyability_2ecs_10',['NecroStartFlyAbility.cs',['../_necro_start_fly_ability_8cs.html',1,'']]],
   ['necrosummonflyability_2ecs_11',['NecroSummonFlyAbility.cs',['../_necro_summon_fly_ability_8cs.html',1,'']]],
   ['necrosummonwalkability_2ecs_12',['NecroSummonWalkAbility.cs',['../_necro_summon_walk_ability_8cs.html',1,'']]],
-  ['negativearmorisdamage_2ecs_13',['NegativeArmorIsDamage.cs',['../_negative_armor_is_damage_8cs.html',1,'']]],
-  ['normalshop_2ecs_14',['NormalShop.cs',['../_normal_shop_8cs.html',1,'']]]
+  ['normalshop_2ecs_13',['NormalShop.cs',['../_normal_shop_8cs.html',1,'']]],
+  ['noticeboardevent_2ecs_14',['NoticeBoardEvent.cs',['../_notice_board_event_8cs.html',1,'']]]
 ];

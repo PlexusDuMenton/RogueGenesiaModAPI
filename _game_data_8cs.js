@@ -21,12 +21,14 @@ var _game_data_8cs =
     ] ],
     [ "EGameState", "_game_data_8cs.html#ad44f0911ce096d9919873f116fe32373", [
       [ "MainMenu", "_game_data_8cs.html#ad44f0911ce096d9919873f116fe32373aad1111b48f98329333237912fc3b371b", null ],
-      [ "Map", "_game_data_8cs.html#ad44f0911ce096d9919873f116fe32373a46f3ea056caa3126b91f3f70beea068c", null ],
+      [ "EMPTY", "_game_data_8cs.html#ad44f0911ce096d9919873f116fe32373aba2b45bdc11e2a4a6e86aab2ac693cbb", null ],
       [ "RoguePlay", "_game_data_8cs.html#ad44f0911ce096d9919873f116fe32373a009730a6eea31743809677215a4cb2c3", null ],
       [ "Event", "_game_data_8cs.html#ad44f0911ce096d9919873f116fe32373aa4ecfc70574394990cf17bd83df499f7", null ],
       [ "Shop", "_game_data_8cs.html#ad44f0911ce096d9919873f116fe32373a9f82518d468b9fee614fcc92f76bb163", null ],
       [ "Reward", "_game_data_8cs.html#ad44f0911ce096d9919873f116fe32373a35281ac0e8d77e142fdcd41c07ce47dd", null ],
       [ "Chest", "_game_data_8cs.html#ad44f0911ce096d9919873f116fe32373a080a546abcbea74459f27ba33313993d", null ],
+      [ "StageSelection", "_game_data_8cs.html#ad44f0911ce096d9919873f116fe32373a2f1acf7e463c3d18ecca9722018398a5", null ],
+      [ "ZoneSelection", "_game_data_8cs.html#ad44f0911ce096d9919873f116fe32373a3e7bf69411ca7bccaf01cad47eb2cd6d", null ],
       [ "SoulShop", "_game_data_8cs.html#ad44f0911ce096d9919873f116fe32373aaea9dddc30b2dd3c330bb9745637334f", null ],
       [ "Survivor", "_game_data_8cs.html#ad44f0911ce096d9919873f116fe32373af570adfe48b36bfdefcc6383d0d57350", null ],
       [ "GameOver", "_game_data_8cs.html#ad44f0911ce096d9919873f116fe32373a8f347bc7cebca9fa6d97e70c6bc29eb3", null ],
@@ -34,6 +36,7 @@ var _game_data_8cs =
       [ "Infinity", "_game_data_8cs.html#ad44f0911ce096d9919873f116fe32373aeb2ac5b04180d8d6011a016aeb8f75b3", null ]
     ] ],
     [ "EProfileGameMode", "_game_data_8cs.html#a11d6e4dd69d3c01685ecee972f8cc965", [
+      [ "Casual", "_game_data_8cs.html#a11d6e4dd69d3c01685ecee972f8cc965a28d5d53226be8aa8da42d9cbdd312e62", null ],
       [ "Normal", "_game_data_8cs.html#a11d6e4dd69d3c01685ecee972f8cc965a960b44c579bc2f6818d2daaf9e4c16f0", null ],
       [ "HeroSoul", "_game_data_8cs.html#a11d6e4dd69d3c01685ecee972f8cc965a6c2370d3ed9c831e7d49fddb6d1af01a", null ]
     ] ]

@@ -2,6 +2,7 @@ var namespace_rogue_genesia =
 [
     [ "Actors", "namespace_rogue_genesia_1_1_actors.html", "namespace_rogue_genesia_1_1_actors" ],
     [ "Data", "namespace_rogue_genesia_1_1_data.html", "namespace_rogue_genesia_1_1_data" ],
+    [ "Environement", "namespace_rogue_genesia_1_1_environement.html", "namespace_rogue_genesia_1_1_environement" ],
     [ "GameManager", "namespace_rogue_genesia_1_1_game_manager.html", "namespace_rogue_genesia_1_1_game_manager" ],
     [ "Pooling", "namespace_rogue_genesia_1_1_pooling.html", "namespace_rogue_genesia_1_1_pooling" ],
     [ "Save", "namespace_rogue_genesia_1_1_save.html", "namespace_rogue_genesia_1_1_save" ],
@@ -13,6 +14,7 @@ var namespace_rogue_genesia =
     [ "AchievementSaveData", "class_rogue_genesia_1_1_achievement_save_data.html", "class_rogue_genesia_1_1_achievement_save_data" ],
     [ "DifficultyWeightedPicker", "class_rogue_genesia_1_1_difficulty_weighted_picker.html", "class_rogue_genesia_1_1_difficulty_weighted_picker" ],
     [ "EditorRGUtils", "class_rogue_genesia_1_1_editor_r_g_utils.html", "class_rogue_genesia_1_1_editor_r_g_utils" ],
+    [ "RGDebug", "class_rogue_genesia_1_1_r_g_debug.html", "class_rogue_genesia_1_1_r_g_debug" ],
     [ "RGRichText", "class_rogue_genesia_1_1_r_g_rich_text.html", "class_rogue_genesia_1_1_r_g_rich_text" ],
     [ "RGUtils", "class_rogue_genesia_1_1_r_g_utils.html", "class_rogue_genesia_1_1_r_g_utils" ],
     [ "RogueZoneSO", "class_rogue_genesia_1_1_rogue_zone_s_o.html", "class_rogue_genesia_1_1_rogue_zone_s_o" ],

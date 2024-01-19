@@ -10,6 +10,7 @@ var searchData=
   ['level_7',['Level',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html#aba8c422fde57316bd585b383d9499e2a',1,'RogueGenesia.Actors.Survival.Monster.Level()'],['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html#ad9dbe43d472fccd71ede432191b71cd2',1,'RogueGenesia.Actors.Survival.Weapon.Level()'],['../class_rogue_genesia_1_1_data_1_1_talent.html#af76ddba3332b7ee0ecc413620a46f9a2',1,'RogueGenesia.Data.Talent.Level()']]],
   ['localizationname_8',['LocalizationName',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_artifact.html#ab3f956584c9a20dbea1408e6f48a3cf8',1,'RogueGenesia.Actors.Survival.Artifact.LocalizationName()'],['../class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html#a96f57f214e2838536829f973048f9cdb',1,'RogueGenesia.Data.SoulCardScriptableObject.LocalizationName()']]],
   ['lockedanglearea_9',['LockedAngleArea',['../class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a944062f3000a0befea8b5e600ef0ded7',1,'RogueGenesia::GameManager::EnemyManager']]],
-  ['lookdirection_10',['LookDirection',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_controller_survival.html#aced4e71084047334e80a1224a303de6f',1,'RogueGenesia::Actors::Survival::PlayerControllerSurvival']]],
-  ['lowhealtheffect_11',['LowHealtheffect',['../class_option_data.html#a5064e504e96c2b8fe1a5c57f198bda14',1,'OptionData']]]
+  ['lookangle_10',['LookAngle',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_controller_survival.html#af4f759cf6e4f9d2b9c64df1b1371a8e8',1,'RogueGenesia::Actors::Survival::PlayerControllerSurvival']]],
+  ['lookdirection_11',['LookDirection',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_controller_survival.html#aced4e71084047334e80a1224a303de6f',1,'RogueGenesia::Actors::Survival::PlayerControllerSurvival']]],
+  ['lowhealtheffect_12',['LowHealtheffect',['../class_option_data.html#a5064e504e96c2b8fe1a5c57f198bda14',1,'OptionData']]]
 ];

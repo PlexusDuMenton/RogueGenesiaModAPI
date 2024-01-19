@@ -15,6 +15,7 @@ var class_mod_genesia_1_1_soul_card_creation_data =
     [ "DropWeight", "class_mod_genesia_1_1_soul_card_creation_data.html#a93e36b94ffdbebace30c2f74c60a856e", null ],
     [ "LevelUpWeight", "class_mod_genesia_1_1_soul_card_creation_data.html#a82851da8c084bd614ddade19d0f2a74e", null ],
     [ "MaxLevel", "class_mod_genesia_1_1_soul_card_creation_data.html#a7c9506cd9fe27b1b4adc62e9d6167f27", null ],
+    [ "MinimumPlayerLevel", "class_mod_genesia_1_1_soul_card_creation_data.html#a15a9bdb47585cc40d5e2b9802e0a47c6", null ],
     [ "ModifyPlayerStat", "class_mod_genesia_1_1_soul_card_creation_data.html#a32ea1caca6348e76cac8a1a4f0ca39ad", null ],
     [ "ModSource", "class_mod_genesia_1_1_soul_card_creation_data.html#a1fd8b5729d52b96e19636a6ee3d84403", null ],
     [ "NameOverride", "class_mod_genesia_1_1_soul_card_creation_data.html#a03e2eaefaa9f542d0ab854dd40049bd0", null ],

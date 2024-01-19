@@ -1,5 +1,6 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_stone_hearth_artifact =
 [
+    [ "GetDescription", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_stone_hearth_artifact.html#ad9358c20b38072cee71a2c45213a0fab", null ],
     [ "Init", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_stone_hearth_artifact.html#a7eea1b9fbd545a003439b20aec256154", null ],
     [ "OnEatFood", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_stone_hearth_artifact.html#ad4a2b00a7e16d54d7bccff6e0f774bf0", null ],
     [ "OnMultiplierStatUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_stone_hearth_artifact.html#aa73da6538f62fdc250c96ccb71a4a86f", null ],

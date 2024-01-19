@@ -4,8 +4,6 @@ var class_rogue_genesia_1_1_save_1_1_player_save =
     [ "_artifactList", "class_rogue_genesia_1_1_save_1_1_player_save.html#ae00ed92bc4a7d28885fbb91f3bf9126b", null ],
     [ "_lastMonsterKilled", "class_rogue_genesia_1_1_save_1_1_player_save.html#a3ed1a6bc732afad3c0f835059fa4d798", null ],
     [ "_lastTimeSurvived", "class_rogue_genesia_1_1_save_1_1_player_save.html#a555d00611e210f024eb74ec9b57df120", null ],
-    [ "_playerModifierLevel", "class_rogue_genesia_1_1_save_1_1_player_save.html#a61db0c393c873112894f4e4060bc086a", null ],
-    [ "_projectileModifierLevel", "class_rogue_genesia_1_1_save_1_1_player_save.html#a9e6451cbb28febad358b32b7f99479d5", null ],
     [ "_soulCardList", "class_rogue_genesia_1_1_save_1_1_player_save.html#a241b3d2f0d3734e7b923aa37d9d9cfe2", null ],
     [ "_totalMonsterKilled", "class_rogue_genesia_1_1_save_1_1_player_save.html#aa27dacdf702235e88c1212529b94348f", null ],
     [ "_totalTimeSurvived", "class_rogue_genesia_1_1_save_1_1_player_save.html#a47a771ea684e7d3d1e3726f5fd828fa4", null ],
@@ -16,6 +14,7 @@ var class_rogue_genesia_1_1_save_1_1_player_save =
     [ "BanishLeft", "class_rogue_genesia_1_1_save_1_1_player_save.html#a5d567cde8c468de5d09c8898a325c101", null ],
     [ "CardPicked", "class_rogue_genesia_1_1_save_1_1_player_save.html#a704bddb6f4ed6df65f43537c9c5044ba", null ],
     [ "CardToPick", "class_rogue_genesia_1_1_save_1_1_player_save.html#ac68f7732f2a892cee2e3659bca536352", null ],
+    [ "Cheated", "class_rogue_genesia_1_1_save_1_1_player_save.html#afebdcdbb9d2b714d430d8a2f00af3d14", null ],
     [ "ChickenStatueProcc", "class_rogue_genesia_1_1_save_1_1_player_save.html#a60392c3ae19fa08a785e27822fa896b5", null ],
     [ "EventStatModifier", "class_rogue_genesia_1_1_save_1_1_player_save.html#a2fb5ef5f70a7770e069ef8ff7d7f04c0", null ],
     [ "gold", "class_rogue_genesia_1_1_save_1_1_player_save.html#a95044bee704adf1bd17f217f20f2fca5", null ],
@@ -29,5 +28,7 @@ var class_rogue_genesia_1_1_save_1_1_player_save =
     [ "SoulExperience", "class_rogue_genesia_1_1_save_1_1_player_save.html#a998c33225071b06499238f0359180ca8", null ],
     [ "SoulLevel", "class_rogue_genesia_1_1_save_1_1_player_save.html#a0966b81a44255bb879b7b3530f06b11a", null ],
     [ "totalGold", "class_rogue_genesia_1_1_save_1_1_player_save.html#a28e5a890fc0076104ee30e35fbee89e1", null ],
-    [ "UsedWanderTrick", "class_rogue_genesia_1_1_save_1_1_player_save.html#ac65b9c690cf2ab0ae7380100a6a485f0", null ]
+    [ "UsedWanderTrick", "class_rogue_genesia_1_1_save_1_1_player_save.html#ac65b9c690cf2ab0ae7380100a6a485f0", null ],
+    [ "WeaponDamageGraph", "class_rogue_genesia_1_1_save_1_1_player_save.html#abe22e4f78caca927876d2db59b4eb3e8", null ],
+    [ "WeaponTimePrecision", "class_rogue_genesia_1_1_save_1_1_player_save.html#ad69627f1188285934012ea4e4ff94b20", null ]
 ];

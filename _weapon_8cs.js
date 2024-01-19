@@ -31,7 +31,7 @@ var _weapon_8cs =
       [ "Percent", "_weapon_8cs.html#af4873c429ba54a76d0dfb65e328bb225aadaaee4b22041c27198d410c68d952c9", null ],
       [ "Distance", "_weapon_8cs.html#af4873c429ba54a76d0dfb65e328bb225a0aa6f4210bf373c95eda00232e93cd98", null ],
       [ "Time", "_weapon_8cs.html#af4873c429ba54a76d0dfb65e328bb225aa76d4ef5f3f6a672bbfab2865563e530", null ],
-      [ "Degree", "_weapon_8cs.html#af4873c429ba54a76d0dfb65e328bb225a6669c4dc00cb161446821b3529ca07d8", null ]
+      [ "Angle", "_weapon_8cs.html#af4873c429ba54a76d0dfb65e328bb225a45f4ce6c3306644b1efe333f4f8d6929", null ]
     ] ],
     [ "WeaponType", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390d", [
       [ "Other", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da6311ae17c1ee52b36e68aaf4ad066387", null ],
@@ -72,6 +72,12 @@ var _weapon_8cs =
       [ "FireAura", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da34d3f3a7075c0d37065090a5afd54b21", null ],
       [ "CrystalSword", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390dad9d15c32a4d8631f858f56157a2e49f1", null ],
       [ "SunSword", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390daf607a778f0d3b206567f907d3eff2ace", null ],
+      [ "Ballista", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390dad0a2e600040b35b7d25c1a1bd343889c", null ],
+      [ "SingularityGland", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390dab7e1ed4ba1819f71b71d77956b6c146b", null ],
+      [ "IceNova", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390daf5176af0c8e6db57989d418845889981", null ],
+      [ "AngelPrism", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da72d79d303769ebcfd2d46698e6a64034", null ],
+      [ "ExplosiveBow", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da8af1b3f42c473bd6135212a19bd93118", null ],
+      [ "ArcanicPike", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da8cd6d4c7d0ce198197207fa11bbade4b", null ],
       [ "SolaLance", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da13166015b612e45afc2b617c6a181d36", null ],
       [ "Pistol", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da524b64722661b303ed5754c492c0ef14", null ],
       [ "Revolver", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390dae450f76afe9b3844228bdf4846d6f301", null ],
@@ -83,7 +89,9 @@ var _weapon_8cs =
       [ "BoltAction", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da90cab377c0384a774d45cd45f676b91b", null ],
       [ "Sniper", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da007be3acd5669d100711b13d79e23369", null ],
       [ "ScatterGun", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390daa8c6fb3ab35d37d8f61e01b70a8f1f98", null ],
-      [ "Gatling", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da4c13a5caf9f58811ba349b2a7bd715e1", null ],
+      [ "DualGatling", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390dafdb45e77f923e42ac2d7e4ea5f000c24", null ],
+      [ "FlameThrower", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da17f596c976a445a714a05de86675fe23", null ],
+      [ "RailGun", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da4288b9cf02faf6f5925a537fd46d6d92", null ],
       [ "GoblinStaffSummon", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da903ef1fd2c9d57f046a578ec0016a399", null ],
       [ "GoblinMageStaffSummon", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390dad71268e4a7e501c6c862ba92398b93a7", null ],
       [ "DriedMushroomSummon", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390dabcecbeeec2c4047cf684dfe611a58568", null ],
@@ -99,7 +107,10 @@ var _weapon_8cs =
       [ "DivineSmite", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390daa04de11c6c55789071dcf63cbb9ec2f5", null ],
       [ "ArtificerPotion", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390daf13d562b604a23eae144448b94b610ed", null ],
       [ "VolcanicFury", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da9ae2826008af9f9ec664e9642c22113c", null ],
+      [ "GoldenGoblinHand", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390dac6c30d85ecdbd311a1f17bba31111128", null ],
+      [ "MushroomJelly", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390dac3eb6ec8bf59dd9095ab2a61c990bed5", null ],
       [ "DeathScythe_InstantKill", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390da2cd4d13a93b7ef960408b67e79ab3d08", null ],
+      [ "SelfDamage", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390daea955cdcbe9804fefd62edc38088bc89", null ],
       [ "EnemyDMG", "_weapon_8cs.html#a8fec1380e4709510c8c5abcb647f390dad9915c9ad3b5222cee806554b9c1e441", null ]
     ] ]
 ];

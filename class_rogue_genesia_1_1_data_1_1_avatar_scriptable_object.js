@@ -7,6 +7,7 @@ var class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object =
     [ "GetAvatarData", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#abf73b66bda4da318acf3bccfb4245c12", null ],
     [ "GetAvatarData", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#a251502911e3822c779dc751a414155b6", null ],
     [ "GetDescription", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#adf10a770c855bf7a8134e73061bd6675", null ],
+    [ "GetLinkName", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#ad6cc1bdb8ae64afa28c435e547fe2d14", null ],
     [ "GetModifier", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#ae94b65a5d36d5fa6e3a5f8cfefbdb10d", null ],
     [ "GetName", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#ad28ac52c57a39226dbefc67ef6f0e6a8", null ],
     [ "GetStats", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#a633c0c1c6bc9d92f8e0e045497bdd685", null ],
@@ -23,6 +24,7 @@ var class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object =
     [ "DefaultSkin", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#a05c98787028ea52026f64550059edc79", null ],
     [ "DescriptionOverride", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#a95c44a7d4a54f6c781101564139be547", null ],
     [ "Hidden", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#aaff38fc09ca5a3f7a535a96e55329fa3", null ],
+    [ "LevelRequirementMultiplier", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#a4488fff227e279423065b4e1afa7d96a", null ],
     [ "NameOverride", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#ab765bbbfc9554f97e2edb635b10b339e", null ],
     [ "PossibleSkinList", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#a62c2a4b617ba53aefba267b8a6c5ff35", null ],
     [ "Animations", "class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html#acba37cd947ca17101bbce156d4227abf", null ]

@@ -1,10 +1,12 @@
 var dir_9883dc07a49ab88139cf347eb629d6fd =
 [
     [ "AchievementInfoClass.cs", "_achievement_info_class_8cs.html", "_achievement_info_class_8cs" ],
+    [ "BTGR_AchievementInfoClass.cs", "_b_t_g_r___achievement_info_class_8cs.html", "_b_t_g_r___achievement_info_class_8cs" ],
     [ "CardLevelAchievementInfoClass.cs", "_card_level_achievement_info_class_8cs.html", "_card_level_achievement_info_class_8cs" ],
     [ "ChallengeAchievementInfoClass.cs", "_challenge_achievement_info_class_8cs.html", "_challenge_achievement_info_class_8cs" ],
     [ "ChallengeCompletionCountInfoClass.cs", "_challenge_completion_count_info_class_8cs.html", "_challenge_completion_count_info_class_8cs" ],
     [ "DeathCountAchievementInfoClass.cs", "_death_count_achievement_info_class_8cs.html", "_death_count_achievement_info_class_8cs" ],
+    [ "GettingScammedInfoClass.cs", "_getting_scammed_info_class_8cs.html", "_getting_scammed_info_class_8cs" ],
     [ "GlobalKillAchievementInfoClass.cs", "_global_kill_achievement_info_class_8cs.html", "_global_kill_achievement_info_class_8cs" ],
     [ "GoldAchievementInfoClass.cs", "_gold_achievement_info_class_8cs.html", "_gold_achievement_info_class_8cs" ],
     [ "MonsterKillCountAchievementInfoClass.cs", "_monster_kill_count_achievement_info_class_8cs.html", "_monster_kill_count_achievement_info_class_8cs" ],

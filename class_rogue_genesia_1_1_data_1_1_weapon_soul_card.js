@@ -1,5 +1,6 @@
 var class_rogue_genesia_1_1_data_1_1_weapon_soul_card =
 [
+    [ "GetName", "class_rogue_genesia_1_1_data_1_1_weapon_soul_card.html#ad1ff309e3f35a0d64fbf59b97458405d", null ],
     [ "Init", "class_rogue_genesia_1_1_data_1_1_weapon_soul_card.html#ae7914421c74b3532fa0171441f771d86", null ],
     [ "LevelUp", "class_rogue_genesia_1_1_data_1_1_weapon_soul_card.html#a4a61b0ee80f02294546e18129f54ca37", null ],
     [ "OnFlatStatUpdate", "class_rogue_genesia_1_1_data_1_1_weapon_soul_card.html#a5f966b1c4520c35f58e012563cd1bddb", null ],

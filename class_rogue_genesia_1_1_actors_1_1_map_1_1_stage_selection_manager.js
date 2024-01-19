@@ -1,6 +1,7 @@
 var class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager =
 [
     [ "ExitGame", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a8b956d90b73f9a4be8b37cb5771f698a", null ],
+    [ "InitIntro", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#aa71be420165ce512cc9c07d690cfd64a", null ],
     [ "LoadStage", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a891b1ae8ffab42062b1d8ac42a17dd28", null ],
     [ "OnInputSwap", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#ac4f13cdb0183b7ef1e34deb8415b5f0b", null ],
     [ "OpenPause", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a3af161af7e85448ef7e2bf05bd75399f", null ],
@@ -10,7 +11,6 @@ var class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager =
     [ "_pauseAction", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a9e8bbaed354f5da8a6e9ba493ccfc491", null ],
     [ "_PlaceMarkAction", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a56e7240ec4062efb14570eefaa1f3640", null ],
     [ "_toggleMapMark", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#aef70304766b5fc904b87994603101be1", null ],
-    [ "actions", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a7132a8c5d8fe2f5878f79e5c5db6bb1a", null ],
     [ "BeatenMaterial", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a42c08c8e74cc994edde7f189cccad84a", null ],
     [ "ChangeStageIcon", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#aa0d0b221e2daf45a0b193eaa367df195", null ],
     [ "DirtPatchPrefab", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a863f91af9ef59d96b956fdc52bd707d4", null ],
@@ -28,11 +28,13 @@ var class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager =
     [ "LevelPathList", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a66795c6ee3a37ad91477ac6046dce8ac", null ],
     [ "LevelSelectionEffect", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a6291e3d8e68b3a7940ced37770dad9f9", null ],
     [ "LevelSelectionLight", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a218aa5b9acbd63ab2b22c4ab5a36c325", null ],
+    [ "mapGeneration", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#aa4041b6a11f5f4f508d649b05b647a81", null ],
     [ "MapMark", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a8d03050a1cad46fe11162e348e44aa08", null ],
     [ "MapMarkIcon", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#aa543d71691503ed1649a85eadb101890", null ],
     [ "MapMarkList", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#afa406186d54994c60f633788f1dca925", null ],
     [ "MapmarkMode", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#ab6b52add9f432b8cde311b4f829e4840", null ],
     [ "MapPannel", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a679bf64c3a98bdd0a939d50b70805e6f", null ],
+    [ "maxYPosition", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a09d1cdcc5c6f16737d4c47019e2e42a4", null ],
     [ "NormalMark", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a8fdd2013860713faff4df311444655e1", null ],
     [ "PathPrefab", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a0f83b54b5d9e9077ec6c2563d4dd5051", null ],
     [ "pauseMenu", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a51d1962e9c063133162c80ce875e154e", null ],
@@ -47,10 +49,17 @@ var class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager =
     [ "StageIconPrefab", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#aec5ecc54de29a4ebace39ba529f49f40", null ],
     [ "StageLightIconPrefab", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a7680a11a3a3e2875fb84a9e2bbc387f2", null ],
     [ "StageObjectivePrefab", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a55c338a5be9d228abca5d93ebea1825e", null ],
+    [ "StageSelectionUI", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#aecd923181ee916ec4cf3dec88a4ec065", null ],
     [ "stageText", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a3b840aabb0e930d8269354b257ab86bf", null ],
     [ "StageWithBoss", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a8457d62a2e21752f690ae207b20f2975", null ],
     [ "UpText", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#af59fc0f88e50384e2c33b75939fc9f47", null ],
+    [ "ZoneDescription", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#ac815261f1f0bb33eb7ba03602757cbc5", null ],
     [ "zoneText", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#ad2b8c59ab192449decfe4d2b7db2d296", null ],
+    [ "ZoneTitle", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a2b11ce651ea781603d560f5d92c384aa", null ],
+    [ "ZoneTitleBG", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#ae032347d5b5ea725815e01ab26166e3d", null ],
+    [ "ZoneTitleParent", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a845da7eb3e8e8e1b5ceae2ba03064c5e", null ],
+    [ "actions", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a7132a8c5d8fe2f5878f79e5c5db6bb1a", null ],
     [ "GameIsPaused", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a29ee01d90bb8f4bdb8e725d249f48f77", null ],
-    [ "pd", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#ab8d1b2b4d0bb294e2a5c25b1a13e28cd", null ]
+    [ "pd", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#ab8d1b2b4d0bb294e2a5c25b1a13e28cd", null ],
+    [ "YAxisPositionMultiplier", "class_rogue_genesia_1_1_actors_1_1_map_1_1_stage_selection_manager.html#a826ac9ff258add9749bd8ac567d6f0e0", null ]
 ];

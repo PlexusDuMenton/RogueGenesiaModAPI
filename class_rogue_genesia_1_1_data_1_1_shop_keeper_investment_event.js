@@ -16,6 +16,7 @@ var class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event =
     [ "GetVisualScene", "class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#ac9f82423c7addb6776dfdf7fe963a936", null ],
     [ "IsAnswerEnabled", "class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#a86b4f1cfa939030a0b5d553cd480cfa0", null ],
     [ "NextAnswer", "class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#aa5c9386d7c44cd214d7f7f7cae29058f", null ],
+    [ "NextTextDisplayed", "class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#a2704edec7d2ee233ec1ab18444231d2c", null ],
     [ "OffOverAnswer", "class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#a016a60fbe0a557dc7ed6ca1ccecaf684", null ],
     [ "OnLevelLoaded", "class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#a2a5b139a335c958068ce6c7f6018aa07", null ],
     [ "OnOverAnswer", "class_rogue_genesia_1_1_data_1_1_shop_keeper_investment_event.html#a63996125f9eda16ee2ec476c293d975d", null ],

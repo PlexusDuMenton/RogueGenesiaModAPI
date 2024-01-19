@@ -129,6 +129,7 @@ $(document).ready(function(){initNavTree('class_rogue_genesia_1_1_soul_shop_upgr
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="class_rogue_genesia_1_1_soul_shop_upgrade_panel-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">RogueGenesia.SoulShopUpgradePanel Class Reference</div></div>
 </div><!--header-->
@@ -146,6 +147,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aeefdd87eaace740542b72090f8eb5261"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6540e588fbbab1b8f5e3859944a81872"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_soul_shop_upgrade_panel.html#a6540e588fbbab1b8f5e3859944a81872">UpdateText</a> ()</td></tr>
 <tr class="separator:a6540e588fbbab1b8f5e3859944a81872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15866eeedcfac291a0b7ff5fff1cc3bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_soul_shop_upgrade_panel.html#a15866eeedcfac291a0b7ff5fff1cc3bb">PositionUpdate</a> ()</td></tr>
+<tr class="separator:a15866eeedcfac291a0b7ff5fff1cc3bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a208b0efa9db195b1c6210a254e4829e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_soul_shop_upgrade_panel.html#a208b0efa9db195b1c6210a254e4829e8">OnPointerEnter</a> (PointerEventData eventData)</td></tr>
 <tr class="separator:a208b0efa9db195b1c6210a254e4829e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34535e2ba37a86da9be4b4412bea4ec1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_soul_shop_upgrade_panel.html#a34535e2ba37a86da9be4b4412bea4ec1">OnPointerExit</a> (PointerEventData eventData)</td></tr>
@@ -155,10 +158,10 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ae0b847202cd7f51b2ff77c781e039c84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html">SoulShopUpgradeSO</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_soul_shop_upgrade_panel.html#ae0b847202cd7f51b2ff77c781e039c84">soulShopUpgradeSO</a></td></tr>
 <tr class="separator:ae0b847202cd7f51b2ff77c781e039c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c5bec8296e7d0d118468be31b2e0898"><td class="memItemLeft" align="right" valign="top">InputActionAsset&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_soul_shop_upgrade_panel.html#a7c5bec8296e7d0d118468be31b2e0898">actions</a></td></tr>
-<tr class="separator:a7c5bec8296e7d0d118468be31b2e0898"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad96b39ad97be14e0cd57a6600a6170ef"><td class="memItemLeft" align="right" valign="top">Button&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_soul_shop_upgrade_panel.html#ad96b39ad97be14e0cd57a6600a6170ef">buttonObject</a></td></tr>
 <tr class="separator:ad96b39ad97be14e0cd57a6600a6170ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cd9448dfbe433c0268dbe2ff6ff91b2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_soul_shop_upgrade_panel.html#a1cd9448dfbe433c0268dbe2ff6ff91b2">OffsetTarget</a></td></tr>
+<tr class="separator:a1cd9448dfbe433c0268dbe2ff6ff91b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -169,6 +172,11 @@ Static Public Attributes</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:ad306a78d75e5f4734f0c1810a37ab173"><td class="memItemLeft" align="right" valign="top">InputAction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_soul_shop_upgrade_panel.html#ad306a78d75e5f4734f0c1810a37ab173">_ValidateAction</a></td></tr>
 <tr class="separator:ad306a78d75e5f4734f0c1810a37ab173"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a7c5bec8296e7d0d118468be31b2e0898"><td class="memItemLeft" align="right" valign="top">InputActionAsset&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_soul_shop_upgrade_panel.html#a7c5bec8296e7d0d118468be31b2e0898">actions</a><code> [get]</code></td></tr>
+<tr class="separator:a7c5bec8296e7d0d118468be31b2e0898"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="aeefdd87eaace740542b72090f8eb5261" name="aeefdd87eaace740542b72090f8eb5261"></a>
@@ -249,6 +257,31 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a15866eeedcfac291a0b7ff5fff1cc3bb" name="a15866eeedcfac291a0b7ff5fff1cc3bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15866eeedcfac291a0b7ff5fff1cc3bb">&#9670;&#160;</a></span>PositionUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.SoulShopUpgradePanel.PositionUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6540e588fbbab1b8f5e3859944a81872" name="a6540e588fbbab1b8f5e3859944a81872"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6540e588fbbab1b8f5e3859944a81872">&#9670;&#160;</a></span>UpdateText()</h2>
 
@@ -297,20 +330,6 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7c5bec8296e7d0d118468be31b2e0898" name="a7c5bec8296e7d0d118468be31b2e0898"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c5bec8296e7d0d118468be31b2e0898">&#9670;&#160;</a></span>actions</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">InputActionAsset RogueGenesia.SoulShopUpgradePanel.actions</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ad96b39ad97be14e0cd57a6600a6170ef" name="ad96b39ad97be14e0cd57a6600a6170ef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad96b39ad97be14e0cd57a6600a6170ef">&#9670;&#160;</a></span>buttonObject</h2>
 
@@ -319,6 +338,20 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">Button RogueGenesia.SoulShopUpgradePanel.buttonObject</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1cd9448dfbe433c0268dbe2ff6ff91b2" name="a1cd9448dfbe433c0268dbe2ff6ff91b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cd9448dfbe433c0268dbe2ff6ff91b2">&#9670;&#160;</a></span>OffsetTarget</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.SoulShopUpgradePanel.OffsetTarget</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -355,6 +388,29 @@ Protected Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a7c5bec8296e7d0d118468be31b2e0898" name="a7c5bec8296e7d0d118468be31b2e0898"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c5bec8296e7d0d118468be31b2e0898">&#9670;&#160;</a></span>actions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">InputActionAsset RogueGenesia.SoulShopUpgradePanel.actions</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

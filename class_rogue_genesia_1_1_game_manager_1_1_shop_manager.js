@@ -8,6 +8,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_shop_manager =
     [ "ExitGame", "class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#ac213585a3b56019f89e7be9ffa8da34b", null ],
     [ "GenerateShop", "class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a3ad4a7050c14ade07204b5225d8b0d8d", null ],
     [ "GetShopSeed", "class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#af5cc6531f7ef682a42b166df2c26fa95", null ],
+    [ "HideTooltip", "class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a0fec1306d7befa8de3047c67078baa14", null ],
     [ "InitBuyableVariable", "class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a94852bd2cc67f6dbd874b8ea6f0b6251", null ],
     [ "InitShopRoll", "class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#abe67aa470d14df7ee96f9ddb945ec4a5", null ],
     [ "Next_Stage", "class_rogue_genesia_1_1_game_manager_1_1_shop_manager.html#a7dce7cbe774f0735eaa09462e6172d68", null ],

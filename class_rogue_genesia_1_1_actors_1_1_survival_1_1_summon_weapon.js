@@ -5,6 +5,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_summon_weapon =
     [ "CanSummon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_summon_weapon.html#a891537617af8e932fceeb13ecb5b9e37", null ],
     [ "GetHealth", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_summon_weapon.html#a95768f09a7c2af6aa85acc9448d8c6f6", null ],
     [ "GetSummonCap", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_summon_weapon.html#a5e13a7824e74d2ecb0057eba03679799", null ],
+    [ "GetSummonDamageMitigation", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_summon_weapon.html#aebda8da74cbad4b6dbc2c580631a0fab", null ],
     [ "GetSummonDefence", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_summon_weapon.html#a218ae578d7bf6bc6016fd8ef1507cd89", null ],
     [ "GetSummonDefencePiercing", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_summon_weapon.html#a25ecc32305b774c805a2cc7eaa9b70be", null ],
     [ "GetSummonLifeTime", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_summon_weapon.html#aeb18fc37776207c5142dec09ea359099", null ],

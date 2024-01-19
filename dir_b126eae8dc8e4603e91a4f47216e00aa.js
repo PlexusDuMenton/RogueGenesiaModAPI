@@ -10,6 +10,7 @@ var dir_b126eae8dc8e4603e91a4f47216e00aa =
     [ "SoulCards", "dir_287e50e18b6c82b2c24b56580bce8da4.html", "dir_287e50e18b6c82b2c24b56580bce8da4" ],
     [ "SoulShop", "dir_544f47bd6961efd365cc80b7c7f5c627.html", "dir_544f47bd6961efd365cc80b7c7f5c627" ],
     [ "Stage", "dir_0b9b90b2aaa432f1a4d65179d77178d7.html", "dir_0b9b90b2aaa432f1a4d65179d77178d7" ],
+    [ "WeaponModifier", "dir_983076670978202e3e916c6d8efb132c.html", "dir_983076670978202e3e916c6d8efb132c" ],
     [ "Zone", "dir_69c72352cb9538458de2dd8c496db7ca.html", "dir_69c72352cb9538458de2dd8c496db7ca" ],
     [ "RogueGenesiaScriptableObject.cs", "_rogue_genesia_scriptable_object_8cs.html", "_rogue_genesia_scriptable_object_8cs" ]
 ];

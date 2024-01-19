@@ -7,10 +7,11 @@ var searchData=
   ['vector3fromangle_4',['Vector3FromAngle',['../class_rogue_genesia_1_1_r_g_utils.html#aa2c8b0bd1a6bf43575319221f5cbea6c',1,'RogueGenesia::RGUtils']]],
   ['vector3fromangledeg_5',['Vector3FromAngleDeg',['../class_rogue_genesia_1_1_r_g_utils.html#a3226468a0b24b9cd5d1e08996e4d4211',1,'RogueGenesia::RGUtils']]],
   ['vector3save_6',['Vector3Save',['../struct_rogue_genesia_1_1_save_1_1_vector3_save.html#a365bf2ae1aba18a35224e82feea7e68b',1,'RogueGenesia::Save::Vector3Save']]],
-  ['vectortoangledeg_7',['VectorToAngleDeg',['../class_rogue_genesia_1_1_r_g_utils.html#a5a19d3f49fc5b71c240e7e23da05c98c',1,'RogueGenesia::RGUtils']]],
+  ['vectortoangledeg_7',['VectorToAngleDeg',['../class_rogue_genesia_1_1_r_g_utils.html#a47c6b883fc74e9e9b452b447a5016f91',1,'RogueGenesia.RGUtils.VectorToAngleDeg(Vector2 vector)'],['../class_rogue_genesia_1_1_r_g_utils.html#a5a19d3f49fc5b71c240e7e23da05c98c',1,'RogueGenesia.RGUtils.VectorToAngleDeg(float x, float y)']]],
   ['vectortoanglerad_8',['VectorToAngleRad',['../class_rogue_genesia_1_1_r_g_utils.html#aef6cfb6c487868d991d5cb042202903e',1,'RogueGenesia::RGUtils']]],
-  ['vinedebuff_9',['VineDebuff',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_vine_debuff.html#a23792b4338a2ccd819ec52afc2e65e6e',1,'RogueGenesia::Actors::Survival::VineDebuff']]],
-  ['voidwispweapon_10',['VoidWispWeapon',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_wisp_weapon.html#a667e7b5305a4eb189d28a2de16cc01a0',1,'RogueGenesia::Actors::Survival::VoidWispWeapon']]],
-  ['voltcharge_11',['VoltCharge',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_volt_charge.html#abd40f0edc1f679d62a832815e9aced47',1,'RogueGenesia::Actors::Survival::VoltCharge']]],
-  ['voltstrike_12',['Voltstrike',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_voltstrike.html#aacdeac24092aba3f09fe671eb4584414',1,'RogueGenesia::Actors::Survival::Voltstrike']]]
+  ['vengefulshieldbuff_9',['VengefulShieldBuff',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_vengeful_shield_buff.html#ae77286d19686e345b8011594c598c2c6',1,'RogueGenesia::Actors::Survival::VengefulShieldBuff']]],
+  ['vinedebuff_10',['VineDebuff',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_vine_debuff.html#a23792b4338a2ccd819ec52afc2e65e6e',1,'RogueGenesia::Actors::Survival::VineDebuff']]],
+  ['voidwispweapon_11',['VoidWispWeapon',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_wisp_weapon.html#a667e7b5305a4eb189d28a2de16cc01a0',1,'RogueGenesia::Actors::Survival::VoidWispWeapon']]],
+  ['voltcharge_12',['VoltCharge',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_volt_charge.html#abd40f0edc1f679d62a832815e9aced47',1,'RogueGenesia::Actors::Survival::VoltCharge']]],
+  ['voltstrike_13',['Voltstrike',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_voltstrike.html#aacdeac24092aba3f09fe671eb4584414',1,'RogueGenesia::Actors::Survival::Voltstrike']]]
 ];

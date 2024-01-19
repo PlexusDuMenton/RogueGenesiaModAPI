@@ -1,6 +1,6 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_immortality_shard_buff =
 [
-    [ "ImmortalityShardBuff", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_immortality_shard_buff.html#a23f30189d39598743a96698a86508372", null ],
+    [ "ImmortalityShardBuff", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_immortality_shard_buff.html#a87565738d714630c44669d4291e4b99c", null ],
     [ "ImmortalityShardBuff", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_immortality_shard_buff.html#a114d3ba1c951ffd6cb88066a76911c4d", null ],
     [ "GetDescription", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_immortality_shard_buff.html#acc4802d1af25c9ab8352da39c7866833", null ],
     [ "GetName", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_immortality_shard_buff.html#a4745ccf904124b08def57b035758e501", null ],

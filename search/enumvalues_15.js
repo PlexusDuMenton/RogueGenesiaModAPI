@@ -1,17 +1,12 @@
 var searchData=
 [
-  ['wanderhelmet_0',['WanderHelmet',['../namespace_rogue_genesia_1_1_data.html#aaa9105a962017dc70f16a695f4a394b5ab4025188ecd5ef16ee6bfccf384abfea',1,'RogueGenesia::Data']]],
-  ['weapon_1',['Weapon',['../namespace_rogue_genesia_1_1_data.html#afaec252bb0335013ba7cab942f28c663a18c83669920215a818638ad0e5421e4b',1,'RogueGenesia::Data']]],
-  ['weightlesscrystalsummon_2',['WeightlessCrystalSummon',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da5000c1d99761744d120bb04c0360fbce',1,'RogueGenesia::Data']]],
-  ['white_3',['White',['../class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html#a682e4813451262d5b4cf9b14da788822a25a81701fbfa4a1efdf660a950c1d006',1,'RogueGenesia::Data::AchievementScriptableObject']]],
-  ['whitelist_4',['WhiteList',['../namespace_rogue_genesia_1_1_data.html#afeb0c7ca9865759b2b5e3f6074cc34dba4e51264c3f1e5807eba36e8a1be04e90',1,'RogueGenesia::Data']]],
-  ['wild_5',['Wild',['../namespace_rogue_genesia_1_1_data.html#abd1862bbeed96cf5d434cf1d2cfd4f55adc81f161d89ab15ceb29b7445dfee757',1,'RogueGenesia::Data']]],
-  ['wind_6',['Wind',['../namespace_rogue_genesia_1_1_data.html#abd1862bbeed96cf5d434cf1d2cfd4f55a52258b9eda406898436077f22a2ed11f',1,'RogueGenesia::Data']]],
-  ['windblade_7',['WindBlade',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da074554dcec3358cbb3855a941b467bab',1,'RogueGenesia::Data']]],
-  ['windfeathersummon_8',['WindFeatherSummon',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da41fa33be33c9469a54a8c97f051da786',1,'RogueGenesia::Data']]],
-  ['windkatana_9',['WindKatana',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da55e7b4e075c975279337c74b568a6510',1,'RogueGenesia::Data']]],
-  ['windlace_10',['WindLace',['../namespace_rogue_genesia_1_1_data.html#aaa9105a962017dc70f16a695f4a394b5ac77bc938f166d7683f76f84b8823aac2',1,'RogueGenesia::Data']]],
-  ['windring_11',['WindRing',['../class_charge_u_i.html#ab16056fe0715ed5a22ac79fea2ae4ca1a37197e553c9d3395a546caf511ad379c',1,'ChargeUI']]],
-  ['wormboss_12',['WormBoss',['../namespace_rogue_genesia_1_1_data.html#a92f74f9f28631581f2dfe01506ae4443a1f0b8b055672da81f569336a5a7ab6c9',1,'RogueGenesia::Data']]],
-  ['wormgland_13',['WormGland',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390daf376a79ce4ac85e2797b9323a85d7332',1,'RogueGenesia::Data']]]
+  ['vampire_0',['Vampire',['../namespace_rogue_genesia_1_1_data.html#adb76f445ee1b5f0678fdd5d1c67b48bfa41ad87cfc159526f62529db61162a2a7',1,'RogueGenesia::Data']]],
+  ['vertical_1',['VERTICAL',['../class_unity_engine_1_1_u_i_1_1_extensions_1_1_u_i_scroll_to_selection.html#a20b4e92320badba6fa7574ec405df7a0a3e1b74251c07310c5f1b968145bf00dc',1,'UnityEngine::UI::Extensions::UIScrollToSelection']]],
+  ['victory_2',['Victory',['../class_mod_genesia_1_1_avatar_a_p_i.html#a983909dbea99f2a0d52834125d4266faa1f5c647d9066bc9e350b70aa2d16aec4',1,'ModGenesia.AvatarAPI.Victory()'],['../namespace_rogue_genesia_1_1_data.html#ad44f0911ce096d9919873f116fe32373a1f5c647d9066bc9e350b70aa2d16aec4',1,'RogueGenesia.Data.Victory()'],['../namespace_rogue_genesia_1_1_game_manager.html#a1c5c58caee0193317a25c371dd5e0ae6a1f5c647d9066bc9e350b70aa2d16aec4',1,'RogueGenesia.GameManager.Victory()']]],
+  ['void_3',['Void',['../class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html#a533c07fa5483a1fa598ff27e7afcde54a81ceb48a978444906d80119200aa358d',1,'RogueGenesia.Data.AchievementScriptableObject.Void()'],['../namespace_rogue_genesia_1_1_actors_1_1_survival.html#a1aa93f399a00283ca0ca67318f7b7762a81ceb48a978444906d80119200aa358d',1,'RogueGenesia.Actors.Survival.Void()'],['../namespace_rogue_genesia_1_1_data.html#abd1862bbeed96cf5d434cf1d2cfd4f55a81ceb48a978444906d80119200aa358d',1,'RogueGenesia.Data.Void()']]],
+  ['voidmagnet_4',['VoidMagnet',['../namespace_rogue_genesia_1_1_data.html#aef4b698ecb1935357f0258cd8122149aae22a61fb263909d5d7db008e98345435',1,'RogueGenesia::Data']]],
+  ['voidmagnetpickgold_5',['VoidMagnetPickGold',['../class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc34381676ecd99288db3111ac3263ecaf2e5e3da97f28d473b73818c7be2cf97',1,'RogueGenesia::Data::SoulShopUpgradeSO']]],
+  ['voidwisp_6',['VoidWisp',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da1e630712c98664334b9fc98f0c385ac4',1,'RogueGenesia::Data']]],
+  ['volcanicfury_7',['VolcanicFury',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da9ae2826008af9f9ec664e9642c22113c',1,'RogueGenesia::Data']]],
+  ['volcano_8',['Volcano',['../namespace_rogue_genesia_1_1_environement.html#a56a8675aac8846a65e429f1fa1481cf3ac1258da2ebd7625dcb2a1bb6f176493e',1,'RogueGenesia::Environement']]]
 ];

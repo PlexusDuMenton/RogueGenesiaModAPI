@@ -1,0 +1,542 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue: Genesia API" />
+<meta property="og:image" content="" />
+<meta property="og:description" content="Rogue: Genesia API for modders" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="" />
+<meta name="twitter:title" content="Rogue: Genesia API" />
+<meta name="twitter:description" content="Rogue: Genesia API for modders" />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.Data.NoticeBoardEvent Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_data_1_1_notice_board_event.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="class_rogue_genesia_1_1_data_1_1_notice_board_event-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.Data.NoticeBoardEvent Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.Data.NoticeBoardEvent:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ae04d49118588124c83d97095ff8dc5ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_notice_board_event.html#ae04d49118588124c83d97095ff8dc5ab">LoadFightStageWithEnemy</a> (string VisualLevel, int requireLight=-1, <a class="el" href="class_rogue_genesia_1_1_environement_1_1_terrain_generation_s_o.html">Environement.TerrainGenerationSO</a> terrainGenerationPool=null)</td></tr>
+<tr class="separator:ae04d49118588124c83d97095ff8dc5ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbb277f4d9b589bde4810388b4c2f555"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_notice_board_event.html#acbb277f4d9b589bde4810388b4c2f555">GetExpReward</a> ()</td></tr>
+<tr class="separator:acbb277f4d9b589bde4810388b4c2f555"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add73849f3cae506a612df31b6013e464"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_notice_board_event.html#add73849f3cae506a612df31b6013e464">GetGoldReward</a> ()</td></tr>
+<tr class="separator:add73849f3cae506a612df31b6013e464"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4f801f3f4d4eb4c1dc32988fcbcc38e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html">ArtifactScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_notice_board_event.html#af4f801f3f4d4eb4c1dc32988fcbcc38e">GetSpecificArtifact</a> ()</td></tr>
+<tr class="separator:af4f801f3f4d4eb4c1dc32988fcbcc38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60dffc7c9f81798351b1c662f0dfb40d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_notice_board_event.html#a60dffc7c9f81798351b1c662f0dfb40d">GetSpecificCard</a> ()</td></tr>
+<tr class="separator:a60dffc7c9f81798351b1c662f0dfb40d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45770587559f7fcc1d2614ddf2417f64"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_notice_board_event.html#a45770587559f7fcc1d2614ddf2417f64">GetArtifactCount</a> ()</td></tr>
+<tr class="separator:a45770587559f7fcc1d2614ddf2417f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b4854865068d1de004b9b7eaebcafb7"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_notice_board_event.html#a7b4854865068d1de004b9b7eaebcafb7">GetCardCount</a> ()</td></tr>
+<tr class="separator:a7b4854865068d1de004b9b7eaebcafb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a447f530d91682be6f13622cc92ce14d4"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_notice_board_event.html#a447f530d91682be6f13622cc92ce14d4">GetMaxEliteAtOnce</a> ()</td></tr>
+<tr class="separator:a447f530d91682be6f13622cc92ce14d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a697cf6921408a63caf82d06db16fc445"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_notice_board_event.html#a697cf6921408a63caf82d06db16fc445">BuildObjective</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_level_object.html">LevelObject</a> level)</td></tr>
+<tr class="separator:a697cf6921408a63caf82d06db16fc445"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html">RogueGenesia.Data.EventRogue</a></td></tr>
+<tr class="memitem:a3ed06604651b573aa34aa05a64ac8059 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a3ed06604651b573aa34aa05a64ac8059">GetKey</a> ()</td></tr>
+<tr class="separator:a3ed06604651b573aa34aa05a64ac8059 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b16e55590173fc127b1cc9b71aba4a9 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a4b16e55590173fc127b1cc9b71aba4a9">GetVisualScene</a> ()</td></tr>
+<tr class="separator:a4b16e55590173fc127b1cc9b71aba4a9 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19a0f621240f07c1345ae89c031f93e3 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a19a0f621240f07c1345ae89c031f93e3">GetEventName</a> ()</td></tr>
+<tr class="separator:a19a0f621240f07c1345ae89c031f93e3 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a077d7e1cd18d7b679d21d1bc2419dfd2 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a077d7e1cd18d7b679d21d1bc2419dfd2">GetTitle</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager)</td></tr>
+<tr class="separator:a077d7e1cd18d7b679d21d1bc2419dfd2 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ef4cabf0b893be8d37afea499919cb6 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a6ef4cabf0b893be8d37afea499919cb6">GetDescription</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager)</td></tr>
+<tr class="separator:a6ef4cabf0b893be8d37afea499919cb6 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa331d23fd6e7565286687f291b1beff0 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract Sprite&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#aa331d23fd6e7565286687f291b1beff0">GetIcon</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager)</td></tr>
+<tr class="separator:aa331d23fd6e7565286687f291b1beff0 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55aae511cb051e6da8fda4b28f8bb1f3 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a55aae511cb051e6da8fda4b28f8bb1f3">GetNumberOfAnswer</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager)</td></tr>
+<tr class="separator:a55aae511cb051e6da8fda4b28f8bb1f3 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a399d7dce973c16e8af8f3753baa520de inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a399d7dce973c16e8af8f3753baa520de">IsAnswerEnabled</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:a399d7dce973c16e8af8f3753baa520de inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92a833214e07ed9a3da4eab6a502b75a inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a92a833214e07ed9a3da4eab6a502b75a">GetTitleAnswer</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:a92a833214e07ed9a3da4eab6a502b75a inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae73201c4f0453fbefe319001f1051a19 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#ae73201c4f0453fbefe319001f1051a19">GetDescriptionAnswer</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:ae73201c4f0453fbefe319001f1051a19 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa551bc2e082fe8dd3a2e61c5cd3edf88 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract Sprite&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#aa551bc2e082fe8dd3a2e61c5cd3edf88">GetIconAnswer</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:aa551bc2e082fe8dd3a2e61c5cd3edf88 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a89fd6e41921bf4ab18a2e8590bd6ba inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a1a89fd6e41921bf4ab18a2e8590bd6ba">OnOverAnswer</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:a1a89fd6e41921bf4ab18a2e8590bd6ba inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92e0be704e47b3279d2ad8d5ae56898d inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a92e0be704e47b3279d2ad8d5ae56898d">OffOverAnswer</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:a92e0be704e47b3279d2ad8d5ae56898d inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a594be07be2fd4991b18b1d1aad5e64c1 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a594be07be2fd4991b18b1d1aad5e64c1">SelectAnswer</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:a594be07be2fd4991b18b1d1aad5e64c1 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0adccd832771cec1190168a7f47ccad3 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a0adccd832771cec1190168a7f47ccad3">GetTitleAfterAnswerClicked</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:a0adccd832771cec1190168a7f47ccad3 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0c30e19a310c1e7fa9aa12f99b9b59 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a3f0c30e19a310c1e7fa9aa12f99b9b59">GetDescriptionAfterAnswerClicked</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:a3f0c30e19a310c1e7fa9aa12f99b9b59 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d2796581392851c87a4e0b951e15806 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract Sprite&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a0d2796581392851c87a4e0b951e15806">GetIconAfterAnswerClicked</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:a0d2796581392851c87a4e0b951e15806 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b838563c77d95d679fc133703912735 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a4b838563c77d95d679fc133703912735">NextAnswer</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:a4b838563c77d95d679fc133703912735 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25c118e1149c28f1286a427b60e08783 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a25c118e1149c28f1286a427b60e08783">NextTextDisplayed</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager, int index)</td></tr>
+<tr class="separator:a25c118e1149c28f1286a427b60e08783 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33302327b3ca0f3aeaa61e0972c39e72 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a33302327b3ca0f3aeaa61e0972c39e72">GetChanceToGetEvent</a> ()</td></tr>
+<tr class="separator:a33302327b3ca0f3aeaa61e0972c39e72 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f102d7280bba090b6c9eca0da484495 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a3f102d7280bba090b6c9eca0da484495">OnLevelLoaded</a> (<a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_menu_1_1_event_manager.html">EventManager</a> eventManager)</td></tr>
+<tr class="separator:a3f102d7280bba090b6c9eca0da484495 inherit pub_methods_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f2e3062a14f845116c2e7ac271098b0"><td class="memItemLeft" align="right" valign="top">abstract float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a0f2e3062a14f845116c2e7ac271098b0">GetExpReward</a> ()</td></tr>
+<tr class="separator:a0f2e3062a14f845116c2e7ac271098b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16fbbed9ef4eb25fe18612de0552b433"><td class="memItemLeft" align="right" valign="top">abstract float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a16fbbed9ef4eb25fe18612de0552b433">GetGoldReward</a> ()</td></tr>
+<tr class="separator:a16fbbed9ef4eb25fe18612de0552b433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23da05ceffc0b67976d5239014875ab9"><td class="memItemLeft" align="right" valign="top">abstract <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html">ArtifactScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a23da05ceffc0b67976d5239014875ab9">GetSpecificArtifact</a> ()</td></tr>
+<tr class="separator:a23da05ceffc0b67976d5239014875ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0874c996a1b0440ef37b5a088f6e3320"><td class="memItemLeft" align="right" valign="top">abstract <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a0874c996a1b0440ef37b5a088f6e3320">GetSpecificCard</a> ()</td></tr>
+<tr class="separator:a0874c996a1b0440ef37b5a088f6e3320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72e71caa16a52987b90e279260ba8a37"><td class="memItemLeft" align="right" valign="top">abstract int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a72e71caa16a52987b90e279260ba8a37">GetArtifactCount</a> ()</td></tr>
+<tr class="separator:a72e71caa16a52987b90e279260ba8a37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16efc4a913b0fbcfd3e95f97773bfc9a"><td class="memItemLeft" align="right" valign="top">abstract int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a16efc4a913b0fbcfd3e95f97773bfc9a">GetCardCount</a> ()</td></tr>
+<tr class="separator:a16efc4a913b0fbcfd3e95f97773bfc9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b91daafd367f12d1d79d817a68802c4"><td class="memItemLeft" align="right" valign="top">abstract int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a4b91daafd367f12d1d79d817a68802c4">GetMaxEliteAtOnce</a> ()</td></tr>
+<tr class="separator:a4b91daafd367f12d1d79d817a68802c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a062fe1cfe0a59d843710c3f4ef5373c2"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a062fe1cfe0a59d843710c3f4ef5373c2">BuildObjective</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_level_object.html">LevelObject</a> level)</td></tr>
+<tr class="separator:a062fe1cfe0a59d843710c3f4ef5373c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a5e326387ad85b095f1ed0176d85a3e18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_enemy_s_o.html">EnemySO</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_notice_board_event.html#a5e326387ad85b095f1ed0176d85a3e18">_enemiesArray</a></td></tr>
+<tr class="separator:a5e326387ad85b095f1ed0176d85a3e18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header properties_class_rogue_genesia_1_1_data_1_1_event_rogue"><td colspan="2" onclick="javascript:toggleInherit('properties_class_rogue_genesia_1_1_data_1_1_event_rogue')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html">RogueGenesia.Data.EventRogue</a></td></tr>
+<tr class="memitem:a08c363d6826fc2baa16240767be2c82e inherit properties_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_event_rogue.html#a08c363d6826fc2baa16240767be2c82e">Key</a><code> [get]</code></td></tr>
+<tr class="separator:a08c363d6826fc2baa16240767be2c82e inherit properties_class_rogue_genesia_1_1_data_1_1_event_rogue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a697cf6921408a63caf82d06db16fc445" name="a697cf6921408a63caf82d06db16fc445"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a697cf6921408a63caf82d06db16fc445">&#9670;&#160;</a></span>BuildObjective()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.NoticeBoardEvent.BuildObjective </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_level_object.html">LevelObject</a>&#160;</td>
+          <td class="paramname"><em>level</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a062fe1cfe0a59d843710c3f4ef5373c2">RogueGenesia.Data.ICombatEvent</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_notice_board_forest_event.html#ae711929797344701a19e1c435704a7e6">RogueGenesia.Data.NoticeBoardForestEvent</a>.</p>
+
+</div>
+</div>
+<a id="a45770587559f7fcc1d2614ddf2417f64" name="a45770587559f7fcc1d2614ddf2417f64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45770587559f7fcc1d2614ddf2417f64">&#9670;&#160;</a></span>GetArtifactCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int RogueGenesia.Data.NoticeBoardEvent.GetArtifactCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a72e71caa16a52987b90e279260ba8a37">RogueGenesia.Data.ICombatEvent</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_notice_board_forest_event.html#a61c3605fa2e6e73e3e3506f345e69a77">RogueGenesia.Data.NoticeBoardForestEvent</a>.</p>
+
+</div>
+</div>
+<a id="a7b4854865068d1de004b9b7eaebcafb7" name="a7b4854865068d1de004b9b7eaebcafb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b4854865068d1de004b9b7eaebcafb7">&#9670;&#160;</a></span>GetCardCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int RogueGenesia.Data.NoticeBoardEvent.GetCardCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a16efc4a913b0fbcfd3e95f97773bfc9a">RogueGenesia.Data.ICombatEvent</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_notice_board_forest_event.html#a9dcf90e3c8c3150099d306114a9298a2">RogueGenesia.Data.NoticeBoardForestEvent</a>.</p>
+
+</div>
+</div>
+<a id="acbb277f4d9b589bde4810388b4c2f555" name="acbb277f4d9b589bde4810388b4c2f555"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbb277f4d9b589bde4810388b4c2f555">&#9670;&#160;</a></span>GetExpReward()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual float RogueGenesia.Data.NoticeBoardEvent.GetExpReward </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a0f2e3062a14f845116c2e7ac271098b0">RogueGenesia.Data.ICombatEvent</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_notice_board_forest_event.html#abc1d4cd620003613d303d2b642b54155">RogueGenesia.Data.NoticeBoardForestEvent</a>.</p>
+
+</div>
+</div>
+<a id="add73849f3cae506a612df31b6013e464" name="add73849f3cae506a612df31b6013e464"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add73849f3cae506a612df31b6013e464">&#9670;&#160;</a></span>GetGoldReward()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual float RogueGenesia.Data.NoticeBoardEvent.GetGoldReward </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a16fbbed9ef4eb25fe18612de0552b433">RogueGenesia.Data.ICombatEvent</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_notice_board_forest_event.html#ae466a509b5565b8f89def9552040b2fa">RogueGenesia.Data.NoticeBoardForestEvent</a>.</p>
+
+</div>
+</div>
+<a id="a447f530d91682be6f13622cc92ce14d4" name="a447f530d91682be6f13622cc92ce14d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a447f530d91682be6f13622cc92ce14d4">&#9670;&#160;</a></span>GetMaxEliteAtOnce()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int RogueGenesia.Data.NoticeBoardEvent.GetMaxEliteAtOnce </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a4b91daafd367f12d1d79d817a68802c4">RogueGenesia.Data.ICombatEvent</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_notice_board_forest_event.html#a2391b72fc59bb38d5b14ff90ce1989b5">RogueGenesia.Data.NoticeBoardForestEvent</a>.</p>
+
+</div>
+</div>
+<a id="af4f801f3f4d4eb4c1dc32988fcbcc38e" name="af4f801f3f4d4eb4c1dc32988fcbcc38e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4f801f3f4d4eb4c1dc32988fcbcc38e">&#9670;&#160;</a></span>GetSpecificArtifact()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html">ArtifactScriptableObject</a> RogueGenesia.Data.NoticeBoardEvent.GetSpecificArtifact </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a23da05ceffc0b67976d5239014875ab9">RogueGenesia.Data.ICombatEvent</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_notice_board_forest_event.html#a2c36be9c4dea19f3e8ff29185a986a0d">RogueGenesia.Data.NoticeBoardForestEvent</a>.</p>
+
+</div>
+</div>
+<a id="a60dffc7c9f81798351b1c662f0dfb40d" name="a60dffc7c9f81798351b1c662f0dfb40d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60dffc7c9f81798351b1c662f0dfb40d">&#9670;&#160;</a></span>GetSpecificCard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a> RogueGenesia.Data.NoticeBoardEvent.GetSpecificCard </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a0874c996a1b0440ef37b5a088f6e3320">RogueGenesia.Data.ICombatEvent</a>.</p>
+
+</div>
+</div>
+<a id="ae04d49118588124c83d97095ff8dc5ab" name="ae04d49118588124c83d97095ff8dc5ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae04d49118588124c83d97095ff8dc5ab">&#9670;&#160;</a></span>LoadFightStageWithEnemy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.NoticeBoardEvent.LoadFightStageWithEnemy </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>VisualLevel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>requireLight</em> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_environement_1_1_terrain_generation_s_o.html">Environement::TerrainGenerationSO</a>&#160;</td>
+          <td class="paramname"><em>terrainGenerationPool</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5e326387ad85b095f1ed0176d85a3e18" name="a5e326387ad85b095f1ed0176d85a3e18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e326387ad85b095f1ed0176d85a3e18">&#9670;&#160;</a></span>_enemiesArray</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_enemy_s_o.html">EnemySO</a> [] RogueGenesia.Data.NoticeBoardEvent._enemiesArray</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/Event/<a class="el" href="_notice_board_event_8cs.html">NoticeBoardEvent.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_data.html">Data</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_data_1_1_notice_board_event.html">NoticeBoardEvent</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

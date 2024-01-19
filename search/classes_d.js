@@ -19,6 +19,7 @@ var searchData=
   ['necrostartflyability_16',['NecroStartFlyAbility',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_start_fly_ability.html',1,'RogueGenesia::Actors::Survival']]],
   ['necrosummonflyability_17',['NecroSummonFlyAbility',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_fly_ability.html',1,'RogueGenesia::Actors::Survival']]],
   ['necrosummonwalkability_18',['NecroSummonWalkAbility',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_walk_ability.html',1,'RogueGenesia::Actors::Survival']]],
-  ['negativearmorisdamage_19',['NegativeArmorIsDamage',['../class_rogue_genesia_1_1_data_1_1_negative_armor_is_damage.html',1,'RogueGenesia::Data']]],
-  ['normalshop_20',['NormalShop',['../class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html',1,'RogueGenesia::GameManager']]]
+  ['normalshop_19',['NormalShop',['../class_rogue_genesia_1_1_game_manager_1_1_normal_shop.html',1,'RogueGenesia::GameManager']]],
+  ['noticeboardevent_20',['NoticeBoardEvent',['../class_rogue_genesia_1_1_data_1_1_notice_board_event.html',1,'RogueGenesia::Data']]],
+  ['noticeboardforestevent_21',['NoticeBoardForestEvent',['../class_rogue_genesia_1_1_data_1_1_notice_board_forest_event.html',1,'RogueGenesia::Data']]]
 ];

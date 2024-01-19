@@ -1,7 +1,7 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_air_ground_missible_a_i =
 [
-    [ "Fractal", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_air_ground_missible_a_i.html#a66f83fb08cbec8ef9fa13319b4133c80", null ],
     [ "OnEnable", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_air_ground_missible_a_i.html#acd41308dbb67dbc9616048d9be81d5db", null ],
+    [ "SplitProjectile", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_air_ground_missible_a_i.html#ab459a6a4ecf0f0d963d5b593c70cf05c", null ],
     [ "TakeNewTarget", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_air_ground_missible_a_i.html#a427e3373d60dd00a07246ff2d82fc63e", null ],
     [ "Update", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_air_ground_missible_a_i.html#a77348d6da5311b4556062c48a41694c0", null ],
     [ "Acceleration", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_air_ground_missible_a_i.html#a7005a775c9ced0aae9318c86ba27a48a", null ],

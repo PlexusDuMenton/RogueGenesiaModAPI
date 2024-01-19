@@ -7,6 +7,7 @@ var dir_544f47bd6961efd365cc80b7c7f5c627 =
     [ "SSUAnachronisticTimeScaleInfoClass.cs", "_s_s_u_anachronistic_time_scale_info_class_8cs.html", "_s_s_u_anachronistic_time_scale_info_class_8cs" ],
     [ "SSUAnachronisticUnlockInfoClass.cs", "_s_s_u_anachronistic_unlock_info_class_8cs.html", "_s_s_u_anachronistic_unlock_info_class_8cs" ],
     [ "SSUBanishesInfoClass.cs", "_s_s_u_banishes_info_class_8cs.html", "_s_s_u_banishes_info_class_8cs" ],
+    [ "SSUCardSelectionChoiceCountInfoClass.cs", "_s_s_u_card_selection_choice_count_info_class_8cs.html", "_s_s_u_card_selection_choice_count_info_class_8cs" ],
     [ "SSUCardTypeDropChanceInfoClass.cs", "_s_s_u_card_type_drop_chance_info_class_8cs.html", "_s_s_u_card_type_drop_chance_info_class_8cs" ],
     [ "SSUDamageMultiplierInfoClass.cs", "_s_s_u_damage_multiplier_info_class_8cs.html", "_s_s_u_damage_multiplier_info_class_8cs" ],
     [ "SSUDisplayNormalrequirementsInfoClass.cs", "_s_s_u_display_normalrequirements_info_class_8cs.html", "_s_s_u_display_normalrequirements_info_class_8cs" ],

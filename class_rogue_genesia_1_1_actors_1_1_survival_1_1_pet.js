@@ -13,5 +13,6 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_pet =
     [ "PettingFX", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_pet.html#ad66acce901dae9bd9bde8d369fb3a9ff", null ],
     [ "Player", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_pet.html#acb73474dd3f3821792aefd976d08bb2f", null ],
     [ "PossibleBehaviours", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_pet.html#af95a3704638a3b286da3b819d1949a39", null ],
+    [ "Renderer", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_pet.html#a7c97484ee53363756cd80f8ad6e653f9", null ],
     [ "Sprite", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_pet.html#a6e14ef49dc7ad9c10044d22d34493f29", null ]
 ];

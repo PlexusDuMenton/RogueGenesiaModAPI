@@ -10,7 +10,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_collectible_manager =
     [ "OnPickXpGem", "class_rogue_genesia_1_1_game_manager_1_1_collectible_manager.html#a698c937867578049ae4715ee2d6e26ee", null ],
     [ "RemoveCollectible", "class_rogue_genesia_1_1_game_manager_1_1_collectible_manager.html#a989cb9e524b43672661c60cc5a03b3ac", null ],
     [ "Reset", "class_rogue_genesia_1_1_game_manager_1_1_collectible_manager.html#aaca0022e9f820ea6b4d7c90f324dd18a", null ],
-    [ "SpawnCollectible", "class_rogue_genesia_1_1_game_manager_1_1_collectible_manager.html#af270208117ab3d98f871e1fc2f578edc", null ],
+    [ "SpawnCollectible", "class_rogue_genesia_1_1_game_manager_1_1_collectible_manager.html#a4777eea65a2b84a888d70883922f58e2", null ],
     [ "Update", "class_rogue_genesia_1_1_game_manager_1_1_collectible_manager.html#aa36a6b7e18461e190e2cc5f9cce91f7d", null ],
     [ "_player", "class_rogue_genesia_1_1_game_manager_1_1_collectible_manager.html#a814658c243244038d910c3abe2f2cd64", null ],
     [ "CollectibleList", "class_rogue_genesia_1_1_game_manager_1_1_collectible_manager.html#ae0a318c56577c7443cc1b31873386c9e", null ],

@@ -1,0 +1,27 @@
+var class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i =
+[
+    [ "BeamEntityInfo", "struct_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i_1_1_beam_entity_info.html", "struct_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i_1_1_beam_entity_info" ],
+    [ "GetVFXComponent", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#ab15fdf29bd8fca994ef5a72250d86f8a", null ],
+    [ "OnEnable", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#abad83bfe6662c2f0a77ee903715f2f7c", null ],
+    [ "OnTouchedEnemy", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#aebcf33217504ed4f7e63a576746d93ba", null ],
+    [ "SplitProjectile", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#ae95a6ea02d81d878f4324cfd86d057cd", null ],
+    [ "Update", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#a891d4d49fe452e063162b7cb7387e7f4", null ],
+    [ "UpdateQuality", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#adc728a48f2e548af439045fffe3027c4", null ],
+    [ "_chargeTimeLeft", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#a747f1d5021cec60b82f7cd4852a782fa", null ],
+    [ "_tickTimeLeft", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#a67634275132cab85d3d9a7719c8981f2", null ],
+    [ "BeamWidth", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#a211af9dc6ae9cca919aaadc840b5ca78", null ],
+    [ "ChargeTime", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#ac341c269341876bafff30f0e1a53514f", null ],
+    [ "CritMultiplier", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#a164222c40658ee2c5f52f338aa34e093", null ],
+    [ "DamageRampUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#a652204b10cf1722ca1d3e5638cf7b369", null ],
+    [ "entitiesInfo", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#ac965e9cf43a5b03b78721bcb0d6acb2e", null ],
+    [ "ForceLowQuality", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#a80d14ad07f9c66480dc122b90c489d2e", null ],
+    [ "MaxRange", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#a10c655069ad2c51367b6c82ace766ca1", null ],
+    [ "offsetAngle", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#ac4da5f53f4faef9810d3c900db0af27e", null ],
+    [ "player", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#a9f1964efe84b39df136acff1a93fe5d8", null ],
+    [ "shootLaser", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#ae8283faa549c3ed350264312a2474963", null ],
+    [ "SoftCap", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#a709b209a0cd7ba1e324675bde2e34bbc", null ],
+    [ "sprite", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#a402ccfd90f7446f1c60c063aefb58a39", null ],
+    [ "SpriteSize", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#a65c0c1f8484d38553a627d4f70ff0c15", null ],
+    [ "TickTime", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#a5ceaae783406bf68433ce68b8e41f561", null ],
+    [ "TurnRate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcane_beam_projectile_a_i.html#a5353483d7eb9a2d5e0450427950bb32e", null ]
+];

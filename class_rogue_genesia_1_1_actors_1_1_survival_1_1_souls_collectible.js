@@ -4,7 +4,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_souls_collectible =
     [ "GetName", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_souls_collectible.html#a996a479cfca49b510075cecb4c525f8f", null ],
     [ "OnMergeCollectible", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_souls_collectible.html#a6a9797c001749feb31a1f093e322b3c8", null ],
     [ "OnPickUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_souls_collectible.html#ac0f25befe1b87da0a4d87ee9922c7413", null ],
-    [ "OnSpawn", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_souls_collectible.html#ae4df603600b13cf4ec45325c8348e770", null ],
+    [ "OnSpawn", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_souls_collectible.html#ae9779613d665f7fd95d0b044351c545b", null ],
     [ "SetTransform", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_souls_collectible.html#a2c678311cdd3678af2a8ba6d818639b6", null ],
     [ "UpdateColor", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_souls_collectible.html#aed8670cfca2818ff8e94c3c79ba5dcf1", null ],
     [ "Model", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_souls_collectible.html#adbcee9e3eb67b1a7ae63015c67395a7f", null ],

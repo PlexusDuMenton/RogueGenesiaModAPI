@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['icespirit_0',['IceSpirit',['../namespace_rogue_genesia_1_1_data.html#a52ccddfc7de723421a7d16b015ad1d5ea17c1732272dd6bed76ade476fb48f822',1,'RogueGenesia::Data']]],
+  ['icenova_0',['IceNova',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390daf5176af0c8e6db57989d418845889981',1,'RogueGenesia::Data']]],
   ['idle_1',['Idle',['../class_mod_genesia_1_1_avatar_a_p_i.html#a983909dbea99f2a0d52834125d4266faae599161956d626eda4cb0a5ffb85271c',1,'ModGenesia::AvatarAPI']]],
   ['idlehd_2',['IdleHD',['../class_mod_genesia_1_1_avatar_a_p_i.html#a983909dbea99f2a0d52834125d4266faa5d0d2f0b2b3b7617d719a02f835b7246',1,'ModGenesia::AvatarAPI']]],
   ['ignore_3',['Ignore',['../namespace_rogue_genesia_1_1_actors_1_1_survival.html#a33d9641bff7371123fe8d8ebd4abdb8aafd038fc7f319e48f3115d92bf5bdbef9',1,'RogueGenesia::Actors::Survival']]],

@@ -16,6 +16,7 @@ var class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event =
     [ "GetVisualScene", "class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#aabf96cb7933e008f1fa1c189e054ffd2", null ],
     [ "IsAnswerEnabled", "class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#ac84e56c919077bd8232d251735d48485", null ],
     [ "NextAnswer", "class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#ab3559fab8009288a094d9040dbd5bceb", null ],
+    [ "NextTextDisplayed", "class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#aea2929cbf44101e99b96b42e9ab26549", null ],
     [ "OffOverAnswer", "class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#a5ba2a4c4753c71848dab5f043c961a4c", null ],
     [ "OnLevelLoaded", "class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#a347af669887629a6324789a06109389c", null ],
     [ "OnOverAnswer", "class_rogue_genesia_1_1_data_1_1_save_villagers_give_card_event.html#a695ac0b3c96af6857c817ac0025c7868", null ],

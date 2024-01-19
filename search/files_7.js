@@ -10,5 +10,8 @@ var searchData=
   ['hermeshoodartifact_2ecs_7',['HermesHoodArtifact.cs',['../_hermes_hood_artifact_8cs.html',1,'']]],
   ['hitfx_2ecs_8',['HitFX.cs',['../_hit_f_x_8cs.html',1,'']]],
   ['holyconversion_2ecs_9',['HolyConversion.cs',['../_holy_conversion_8cs.html',1,'']]],
-  ['holycrossartifact_2ecs_10',['HolyCrossArtifact.cs',['../_holy_cross_artifact_8cs.html',1,'']]]
+  ['holycrossartifact_2ecs_10',['HolyCrossArtifact.cs',['../_holy_cross_artifact_8cs.html',1,'']]],
+  ['holyskin_2ecs_11',['HolySkin.cs',['../_holy_skin_8cs.html',1,'']]],
+  ['hoversound_2ecs_12',['HoverSound.cs',['../_hover_sound_8cs.html',1,'']]],
+  ['humility_2ecs_13',['Humility.cs',['../_humility_8cs.html',1,'']]]
 ];

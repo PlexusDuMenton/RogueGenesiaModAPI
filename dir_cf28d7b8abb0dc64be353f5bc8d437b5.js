@@ -1,5 +1,6 @@
 var dir_cf28d7b8abb0dc64be353f5bc8d437b5 =
 [
+    [ "ArcaneBeamTalent.cs", "_arcane_beam_talent_8cs.html", "_arcane_beam_talent_8cs" ],
     [ "BowTalent.cs", "_bow_talent_8cs.html", "_bow_talent_8cs" ],
     [ "CleaverTalent.cs", "_cleaver_talent_8cs.html", "_cleaver_talent_8cs" ],
     [ "CrossbowTalent.cs", "_crossbow_talent_8cs.html", "_crossbow_talent_8cs" ],
@@ -7,6 +8,7 @@ var dir_cf28d7b8abb0dc64be353f5bc8d437b5 =
     [ "DeathAuraTalent.cs", "_death_aura_talent_8cs.html", "_death_aura_talent_8cs" ],
     [ "ExplosiveVialTalent.cs", "_explosive_vial_talent_8cs.html", "_explosive_vial_talent_8cs" ],
     [ "FireRingTalent.cs", "_fire_ring_talent_8cs.html", "_fire_ring_talent_8cs" ],
+    [ "IceNovaTalent.cs", "_ice_nova_talent_8cs.html", "_ice_nova_talent_8cs" ],
     [ "KatanaTalent.cs", "_katana_talent_8cs.html", "_katana_talent_8cs" ],
     [ "KunaiTalent.cs", "_kunai_talent_8cs.html", "_kunai_talent_8cs" ],
     [ "MagicWandTalent.cs", "_magic_wand_talent_8cs.html", "_magic_wand_talent_8cs" ],

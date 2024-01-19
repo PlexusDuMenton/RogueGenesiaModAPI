@@ -40,6 +40,15 @@ var _enemy_scriptable_object_8cs =
       [ "Berserker", "_enemy_scriptable_object_8cs.html#adb76f445ee1b5f0678fdd5d1c67b48bfa5ee5ec9d8e6b181960c2be1df5f1ad81", null ],
       [ "Vampire", "_enemy_scriptable_object_8cs.html#adb76f445ee1b5f0678fdd5d1c67b48bfa41ad87cfc159526f62529db61162a2a7", null ],
       [ "Rifted", "_enemy_scriptable_object_8cs.html#adb76f445ee1b5f0678fdd5d1c67b48bfa229cf3fa080e962292152d2cfedb068a", null ],
+      [ "Priest", "_enemy_scriptable_object_8cs.html#adb76f445ee1b5f0678fdd5d1c67b48bfae5ea56a64dedf72d7bfffbd4251d52bc", null ],
+      [ "Fast", "_enemy_scriptable_object_8cs.html#adb76f445ee1b5f0678fdd5d1c67b48bfae16b5b7f26f54214445cbe38d72c2828", null ],
+      [ "Leader", "_enemy_scriptable_object_8cs.html#adb76f445ee1b5f0678fdd5d1c67b48bfa5158a250e30f1fb4415d86ded2c8e0c5", null ],
+      [ "Undying", "_enemy_scriptable_object_8cs.html#adb76f445ee1b5f0678fdd5d1c67b48bfa5d81ccb4266c1ebd5a8fedcb41b967fd", null ],
+      [ "Ethereal", "_enemy_scriptable_object_8cs.html#adb76f445ee1b5f0678fdd5d1c67b48bfab76023f563d8cbd946cebe305c36d12b", null ],
+      [ "Stalwart", "_enemy_scriptable_object_8cs.html#adb76f445ee1b5f0678fdd5d1c67b48bfa3cce09287c9accff73fcd230fc06c7dd", null ],
+      [ "Maiden", "_enemy_scriptable_object_8cs.html#adb76f445ee1b5f0678fdd5d1c67b48bfad6182c2fac305a56db89613f408882c3", null ],
+      [ "Giant", "_enemy_scriptable_object_8cs.html#adb76f445ee1b5f0678fdd5d1c67b48bfa6ff015f9a4c7dc3387263aa1a819131f", null ],
+      [ "Tiny", "_enemy_scriptable_object_8cs.html#adb76f445ee1b5f0678fdd5d1c67b48bfa383c05bda6f030a44990d354b24f3338", null ],
       [ "Split", "_enemy_scriptable_object_8cs.html#adb76f445ee1b5f0678fdd5d1c67b48bfa8a9e64d86ed12ad40de129bc7f4683b2", null ],
       [ "DoublingOnDeath8", "_enemy_scriptable_object_8cs.html#adb76f445ee1b5f0678fdd5d1c67b48bfabaa80bb8bcb2b571e7f5128903789d37", null ]
     ] ]

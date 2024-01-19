@@ -12,6 +12,7 @@ var class_rogue_genesia_1_1_u_i_1_1_pause_menu =
     [ "DetailCardUpdate", "class_rogue_genesia_1_1_u_i_1_1_pause_menu.html#a58d014ddd51c16ad387c7ecb398b835b", null ],
     [ "EndGame", "class_rogue_genesia_1_1_u_i_1_1_pause_menu.html#a671a7afe56e81ed48eaefdffbab9f4df", null ],
     [ "ExitGame", "class_rogue_genesia_1_1_u_i_1_1_pause_menu.html#aab153ff627957d771a69954affee11f1", null ],
+    [ "LoadAsyncScene", "class_rogue_genesia_1_1_u_i_1_1_pause_menu.html#af29b643c2aeadef9665e805860e4c86c", null ],
     [ "On_Confirm", "class_rogue_genesia_1_1_u_i_1_1_pause_menu.html#adc12744ee032cfd79859740ff7aab5d7", null ],
     [ "Open", "class_rogue_genesia_1_1_u_i_1_1_pause_menu.html#a47dd74561f0bb1544b12e08610875c26", null ],
     [ "OpenAchievements", "class_rogue_genesia_1_1_u_i_1_1_pause_menu.html#a0ad95cba46c5b3b4a8aa598ca4da0f06", null ],
@@ -33,6 +34,8 @@ var class_rogue_genesia_1_1_u_i_1_1_pause_menu =
     [ "AchievementMenu", "class_rogue_genesia_1_1_u_i_1_1_pause_menu.html#a26a00813f16e39ac925167b36150990b", null ],
     [ "ArtifactPanel", "class_rogue_genesia_1_1_u_i_1_1_pause_menu.html#a2da61ec525ea8dc0c53b11d131956d2e", null ],
     [ "ArtifactSelectionList", "class_rogue_genesia_1_1_u_i_1_1_pause_menu.html#a233e4ba79c9b95aa7e669ae14b717499", null ],
+    [ "BlurMaterial", "class_rogue_genesia_1_1_u_i_1_1_pause_menu.html#a6ebcffd4014901c76a5668e0da2fce27", null ],
+    [ "BlurVolume", "class_rogue_genesia_1_1_u_i_1_1_pause_menu.html#afd3d0eabbf36e69b9f8839ddbc07f366", null ],
     [ "ConfirmationScreen", "class_rogue_genesia_1_1_u_i_1_1_pause_menu.html#ae7ec12eba9f23b8d910320cf3e98268f", null ],
     [ "confirmationType", "class_rogue_genesia_1_1_u_i_1_1_pause_menu.html#a2d146a7d23faf7cdc17fa50be9619bce", null ],
     [ "DetailArtifact", "class_rogue_genesia_1_1_u_i_1_1_pause_menu.html#a2dd61480babc328f3ea83a4b795f4d12", null ],
@@ -46,5 +49,6 @@ var class_rogue_genesia_1_1_u_i_1_1_pause_menu =
     [ "SoulCards", "class_rogue_genesia_1_1_u_i_1_1_pause_menu.html#a521bf5da39e256cede3616192f9f14b0", null ],
     [ "soulCardsPanel", "class_rogue_genesia_1_1_u_i_1_1_pause_menu.html#a6c4f92efa0d38820fa1a3838877188cd", null ],
     [ "TabsList", "class_rogue_genesia_1_1_u_i_1_1_pause_menu.html#adefe0d4b72eda62bda606c2cc07620e9", null ],
+    [ "IsPaused", "class_rogue_genesia_1_1_u_i_1_1_pause_menu.html#a21600396f6726e7e2fb22d97ac294fcb", null ],
     [ "pd", "class_rogue_genesia_1_1_u_i_1_1_pause_menu.html#a09bb2220bcd6c79985993784802c979f", null ]
 ];

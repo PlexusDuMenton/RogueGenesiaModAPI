@@ -11,6 +11,6 @@ var class_rogue_genesia_1_1_data_1_1_s_s_u_stats_info_class =
     [ "GetStatsModifier", "class_rogue_genesia_1_1_data_1_1_s_s_u_stats_info_class.html#a4305aef1548e8b68aa01338744e586f0", null ],
     [ "GetStatsName", "class_rogue_genesia_1_1_data_1_1_s_s_u_stats_info_class.html#aec5bdd3ed7d2e45a6804fb87b52913dc", null ],
     [ "getStatValue", "class_rogue_genesia_1_1_data_1_1_s_s_u_stats_info_class.html#ae255c60bb844857f5b004871541a0cab", null ],
-    [ "OnStatUpdate", "class_rogue_genesia_1_1_data_1_1_s_s_u_stats_info_class.html#a1f12e65f93442fb6fb4b3010cb68c639", null ],
+    [ "OnInitStatUpdate", "class_rogue_genesia_1_1_data_1_1_s_s_u_stats_info_class.html#ab1ef7fb30596c66ed37e6652f14ef1e5", null ],
     [ "UsePercent", "class_rogue_genesia_1_1_data_1_1_s_s_u_stats_info_class.html#a895c4817472e23c9e73b1cc662d231c2", null ]
 ];

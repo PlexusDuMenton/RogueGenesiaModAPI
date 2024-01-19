@@ -5,6 +5,7 @@ var class_rogue_genesia_1_1_data_1_1_game_mode_s_o =
     [ "GetGameModeConstructor", "class_rogue_genesia_1_1_data_1_1_game_mode_s_o.html#a42714816b2b86a818fe199c18aa6850f", null ],
     [ "GetLocalizedDescription", "class_rogue_genesia_1_1_data_1_1_game_mode_s_o.html#a274f380cc383f6f6c31c62c6aa0815b9", null ],
     [ "GetLocalizedName", "class_rogue_genesia_1_1_data_1_1_game_mode_s_o.html#ac318799c727f2e5b4dd3c13fa65b68bc", null ],
+    [ "GetTerrainGeneration", "class_rogue_genesia_1_1_data_1_1_game_mode_s_o.html#ab6a98e23e294c85bf02880a9759b5939", null ],
     [ "RegisterGameManagerFightType", "class_rogue_genesia_1_1_data_1_1_game_mode_s_o.html#a117caa214bf7fb13b02a5f3d42f7755e", null ],
     [ "RegisterGameManagerFightType", "class_rogue_genesia_1_1_data_1_1_game_mode_s_o.html#a6e9d00b96b2eb86d0a91947ac4198737", null ],
     [ "RegisterGameModeType", "class_rogue_genesia_1_1_data_1_1_game_mode_s_o.html#acd0c4c8c38c82aebdc57d971d046b714", null ],
@@ -19,6 +20,7 @@ var class_rogue_genesia_1_1_data_1_1_game_mode_s_o =
     [ "LocalizationID", "class_rogue_genesia_1_1_data_1_1_game_mode_s_o.html#a1bfcc0ad9120c71df0b18da13df95c37", null ],
     [ "ObjectsToSpawn", "class_rogue_genesia_1_1_data_1_1_game_mode_s_o.html#a43815f2fe70b08a295f32442829afb85", null ],
     [ "RequireGold", "class_rogue_genesia_1_1_data_1_1_game_mode_s_o.html#a80865b7e359a7b7dae5e901657f2346a", null ],
+    [ "SupportQuickGame", "class_rogue_genesia_1_1_data_1_1_game_mode_s_o.html#a7136f22983dcd853d67cc658a3f96163", null ],
     [ "ActiveDifficulty", "class_rogue_genesia_1_1_data_1_1_game_mode_s_o.html#aa51a4bc07fa7c270c9a7565c4f99ef84", null ],
     [ "hasChallenge", "class_rogue_genesia_1_1_data_1_1_game_mode_s_o.html#a151d1361dbef57813eb1e419f1d21a85", null ]
 ];

@@ -4,6 +4,8 @@ var class_rogue_genesia_1_1_save_1_1_save_manager =
     [ "Base64Decode", "class_rogue_genesia_1_1_save_1_1_save_manager.html#a131d03d1e3f770a23950c15f1e3c02fb", null ],
     [ "Base64Encode", "class_rogue_genesia_1_1_save_1_1_save_manager.html#a6447285ae4f1d4e09d0107aa9f419655", null ],
     [ "ClearSavedRun", "class_rogue_genesia_1_1_save_1_1_save_manager.html#a934fc6b0691554060bff0e763095897a", null ],
+    [ "DecodeGameSave", "class_rogue_genesia_1_1_save_1_1_save_manager.html#a48d05504e9114a449be4b3f2675ff3f2", null ],
+    [ "EncodeGameSave", "class_rogue_genesia_1_1_save_1_1_save_manager.html#a916ebcdff3a146739700e546ffae76da", null ],
     [ "IsThereARogRunInProgress", "class_rogue_genesia_1_1_save_1_1_save_manager.html#aced99cf19b1910201560954f1c6e431b", null ],
     [ "IsThereASurvivorsRunInProgress", "class_rogue_genesia_1_1_save_1_1_save_manager.html#accd194a435ef23225f5b6e038f01a169", null ],
     [ "LoadCurrentGame", "class_rogue_genesia_1_1_save_1_1_save_manager.html#ad5197cf5b5f934e3388243c00503bc8e", null ],

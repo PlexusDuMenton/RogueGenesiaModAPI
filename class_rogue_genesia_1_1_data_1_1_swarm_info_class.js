@@ -9,5 +9,6 @@ var class_rogue_genesia_1_1_data_1_1_swarm_info_class =
     [ "GetGoldReward", "class_rogue_genesia_1_1_data_1_1_swarm_info_class.html#a856a5e71d4c654c0ddea00ffb09ca434", null ],
     [ "GetLevelToLoad", "class_rogue_genesia_1_1_data_1_1_swarm_info_class.html#a484d8e3adf07135733c1fe6a82e92e5e", null ],
     [ "GetLevelVisualToLoad", "class_rogue_genesia_1_1_data_1_1_swarm_info_class.html#ad28acffdec1f728749b2d5558fc5e99e", null ],
+    [ "GetScaledTime", "class_rogue_genesia_1_1_data_1_1_swarm_info_class.html#add2c213507ff846c4ccc835fb6ff6d8b", null ],
     [ "StageGeneration", "class_rogue_genesia_1_1_data_1_1_swarm_info_class.html#ab42b3dda3eb3af632707a772efeb80fb", null ]
 ];

@@ -1,6 +1,7 @@
 var class_rogue_genesia_1_1_game_manager_1_1_sound_manager =
 [
-    [ "ChangeMusic", "class_rogue_genesia_1_1_game_manager_1_1_sound_manager.html#abebb4f3a255b78d9af28503cd27c5426", null ],
+    [ "ChangeMusic", "class_rogue_genesia_1_1_game_manager_1_1_sound_manager.html#ac75607c2cd7322187d523b19bfe90fb8", null ],
+    [ "ChangeMusicVolume", "class_rogue_genesia_1_1_game_manager_1_1_sound_manager.html#af49f916d3265dbd6129afba8bb71f96d", null ],
     [ "GetAudioMixerGroup", "class_rogue_genesia_1_1_game_manager_1_1_sound_manager.html#a56ae7e82a32ea996f7a2ea917d89c4c3", null ],
     [ "PlaySound", "class_rogue_genesia_1_1_game_manager_1_1_sound_manager.html#a2f16ad0c2deafb3802d33293c2529156", null ],
     [ "PlaySound", "class_rogue_genesia_1_1_game_manager_1_1_sound_manager.html#a7d5fdc8943f37698daa4b4853e3d0500", null ],

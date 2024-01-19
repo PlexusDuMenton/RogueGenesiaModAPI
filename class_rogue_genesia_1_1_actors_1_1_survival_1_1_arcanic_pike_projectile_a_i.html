@@ -1,0 +1,658 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Rogue: Genesia API" />
+<meta property="og:image" content="" />
+<meta property="og:description" content="Rogue: Genesia API for modders" />
+<meta property="og:url" content="https://plexusdumenton.github.io/RogueGenesiaModAPI" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="" />
+<meta name="twitter:title" content="Rogue: Genesia API" />
+<meta name="twitter:description" content="Rogue: Genesia API for modders" />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.Actors.Survival.ArcanicPikeProjectileAI Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanic_pike_projectile_a_i.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanic_pike_projectile_a_i-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RogueGenesia.Actors.Survival.ArcanicPikeProjectileAI Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.Actors.Survival.ArcanicPikeProjectileAI:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aa3718b181bd1dd1f10e80175bba9685b"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanic_pike_projectile_a_i.html#aa3718b181bd1dd1f10e80175bba9685b">OnEnable</a> ()</td></tr>
+<tr class="separator:aa3718b181bd1dd1f10e80175bba9685b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af67650182938d78d57a1c7941e1a5da4"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanic_pike_projectile_a_i.html#af67650182938d78d57a1c7941e1a5da4">GetVFXComponent</a> ()</td></tr>
+<tr class="separator:af67650182938d78d57a1c7941e1a5da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c994284259b8c27631d30f13b4e4247"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanic_pike_projectile_a_i.html#a7c994284259b8c27631d30f13b4e4247">Update</a> ()</td></tr>
+<tr class="separator:a7c994284259b8c27631d30f13b4e4247"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3845cbf8eb6394ea819d27f29fcd219"><td class="memItemLeft" align="right" valign="top">override List&lt; <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html">DefaultProjectileAI</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanic_pike_projectile_a_i.html#ac3845cbf8eb6394ea819d27f29fcd219">SplitProjectile</a> (int count)</td></tr>
+<tr class="separator:ac3845cbf8eb6394ea819d27f29fcd219"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html">RogueGenesia.Actors.Survival.DefaultProjectileAI</a></td></tr>
+<tr class="memitem:a548021b599fc06a18fa11b8f321c0104 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a548021b599fc06a18fa11b8f321c0104">GetTimeScale</a> ()</td></tr>
+<tr class="separator:a548021b599fc06a18fa11b8f321c0104 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ca1831f63f2da28977d7ea50094b59f inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">Material&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a1ca1831f63f2da28977d7ea50094b59f">GetMaterial</a> ()</td></tr>
+<tr class="separator:a1ca1831f63f2da28977d7ea50094b59f inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dee90b13dab3aac7a2ec9dcc59126ce inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a5dee90b13dab3aac7a2ec9dcc59126ce">MakeMaterialInstancied</a> ()</td></tr>
+<tr class="separator:a5dee90b13dab3aac7a2ec9dcc59126ce inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23135bf629e560de9c31eb036395ca74 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a23135bf629e560de9c31eb036395ca74">Awake</a> ()</td></tr>
+<tr class="separator:a23135bf629e560de9c31eb036395ca74 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81c49666e61d2d93f24fff6cc89bc3ad inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a81c49666e61d2d93f24fff6cc89bc3ad">GetVFXComponent</a> ()</td></tr>
+<tr class="separator:a81c49666e61d2d93f24fff6cc89bc3ad inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28dbee1696d0fcfe76c5412c65fbd45b inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a28dbee1696d0fcfe76c5412c65fbd45b">OnEnable</a> ()</td></tr>
+<tr class="separator:a28dbee1696d0fcfe76c5412c65fbd45b inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86d79f5d0934a3bffea97e76147d5d3c inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a86d79f5d0934a3bffea97e76147d5d3c">KillProjectile</a> ()</td></tr>
+<tr class="separator:a86d79f5d0934a3bffea97e76147d5d3c inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecc1462bf3ff5ff89ed54e85144283de inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#aecc1462bf3ff5ff89ed54e85144283de">ProjectileFade</a> ()</td></tr>
+<tr class="separator:aecc1462bf3ff5ff89ed54e85144283de inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c0f7c695e0580b78f36487299330e03 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a6c0f7c695e0580b78f36487299330e03">Update</a> ()</td></tr>
+<tr class="separator:a6c0f7c695e0580b78f36487299330e03 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3091b06183d78fce7cb8fa2920074899 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a3091b06183d78fce7cb8fa2920074899">CreateProxy</a> ()</td></tr>
+<tr class="separator:a3091b06183d78fce7cb8fa2920074899 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a390f17f85f944af46eb4e70b160e81 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a4a390f17f85f944af46eb4e70b160e81">UpdateProxy</a> ()</td></tr>
+<tr class="separator:a4a390f17f85f944af46eb4e70b160e81 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affcde81cb1efe8dcef69597e7b001b38 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#affcde81cb1efe8dcef69597e7b001b38">CheckForLooping</a> ()</td></tr>
+<tr class="separator:affcde81cb1efe8dcef69597e7b001b38 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cad8d0d76662b0e10e92ee44754752c inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a3cad8d0d76662b0e10e92ee44754752c">TakeDamage</a> (Collider2D collision)</td></tr>
+<tr class="separator:a3cad8d0d76662b0e10e92ee44754752c inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ff0cdc8103f1f97e8eccc24c6a5f028 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a0ff0cdc8103f1f97e8eccc24c6a5f028">OnTriggerEnter</a> (Collider2D collision)</td></tr>
+<tr class="separator:a0ff0cdc8103f1f97e8eccc24c6a5f028 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae018ab6640bd58ed5a0aebe34b38b813 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#ae018ab6640bd58ed5a0aebe34b38b813">OnTriggerExit</a> (Collider2D collision)</td></tr>
+<tr class="separator:ae018ab6640bd58ed5a0aebe34b38b813 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a686af8c65279faca17546e9c586ab09f inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a686af8c65279faca17546e9c586ab09f">OnTriggerStay</a> (Collider2D collision)</td></tr>
+<tr class="separator:a686af8c65279faca17546e9c586ab09f inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c6c4f94ac4b6f1767c5c0d0db6da949 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">virtual List&lt; <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html">DefaultProjectileAI</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a2c6c4f94ac4b6f1767c5c0d0db6da949">SplitProjectile</a> (int count)</td></tr>
+<tr class="separator:a2c6c4f94ac4b6f1767c5c0d0db6da949 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8dfe4df7838104152d9b404b43ed283 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#ac8dfe4df7838104152d9b404b43ed283">OnLifeTimeEnd</a> ()</td></tr>
+<tr class="separator:ac8dfe4df7838104152d9b404b43ed283 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cc2d45c5628dac06144644994608a73 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a4cc2d45c5628dac06144644994608a73">OnDestroy</a> ()</td></tr>
+<tr class="separator:a4cc2d45c5628dac06144644994608a73 inherit pub_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_rogue_genesia_1_1_utils_1_1_poolable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_rogue_genesia_1_1_utils_1_1_poolable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_rogue_genesia_1_1_utils_1_1_poolable.html">RogueGenesia.Utils.Poolable</a></td></tr>
+<tr class="memitem:a6298f7dd89f826716c4102eb7db4dfc0 inherit pub_methods_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_utils_1_1_poolable.html#a6298f7dd89f826716c4102eb7db4dfc0">Poolable</a> ()</td></tr>
+<tr class="separator:a6298f7dd89f826716c4102eb7db4dfc0 inherit pub_methods_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa06aa248879b9c523a14a8fc957780a2 inherit pub_methods_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_utils_1_1_poolable.html#aa06aa248879b9c523a14a8fc957780a2">OnValidate</a> ()</td></tr>
+<tr class="separator:aa06aa248879b9c523a14a8fc957780a2 inherit pub_methods_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf5e33c5284a14d84b2cb6639218b8a1 inherit pub_methods_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_utils_1_1_poolable.html#acf5e33c5284a14d84b2cb6639218b8a1">getPoolID</a> ()</td></tr>
+<tr class="separator:acf5e33c5284a14d84b2cb6639218b8a1 inherit pub_methods_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a728e4d396d09e5a7882979d6ee923eef inherit pub_methods_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_utils_1_1_poolable.html#a728e4d396d09e5a7882979d6ee923eef">OnDestroy</a> ()</td></tr>
+<tr class="separator:a728e4d396d09e5a7882979d6ee923eef inherit pub_methods_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:acc957ba02d9a947bec2dc009c289b43f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanic_pike_projectile_a_i.html#acc957ba02d9a947bec2dc009c289b43f">SpriteSize</a> = 1</td></tr>
+<tr class="separator:acc957ba02d9a947bec2dc009c289b43f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54bfd1b1ad41b424975412afcd5c0959"><td class="memItemLeft" align="right" valign="top">SpriteRenderer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanic_pike_projectile_a_i.html#a54bfd1b1ad41b424975412afcd5c0959">sprite</a></td></tr>
+<tr class="separator:a54bfd1b1ad41b424975412afcd5c0959"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac28e0ad0f43acc603dabb82e0ec0b0ca"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanic_pike_projectile_a_i.html#ac28e0ad0f43acc603dabb82e0ec0b0ca">offsetAngle</a> = 0</td></tr>
+<tr class="separator:ac28e0ad0f43acc603dabb82e0ec0b0ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6a6de6f216e624240f81119ccdef479"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanic_pike_projectile_a_i.html#ac6a6de6f216e624240f81119ccdef479">player</a></td></tr>
+<tr class="separator:ac6a6de6f216e624240f81119ccdef479"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1cc069e285f888e6e67177cc9e2194e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanic_pike_projectile_a_i.html#ae1cc069e285f888e6e67177cc9e2194e">CritMultiplier</a> = 1</td></tr>
+<tr class="separator:ae1cc069e285f888e6e67177cc9e2194e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ffcdc3a7b15da117f3bc09ea9145039"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanic_pike_projectile_a_i.html#a1ffcdc3a7b15da117f3bc09ea9145039">shootLaser</a> = false</td></tr>
+<tr class="separator:a1ffcdc3a7b15da117f3bc09ea9145039"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ed9581d3262bfd074ff79dd61ee6269"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanic_pike_projectile_a_i.html#a2ed9581d3262bfd074ff79dd61ee6269">timeScale</a> = 6</td></tr>
+<tr class="separator:a2ed9581d3262bfd074ff79dd61ee6269"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0c50ae4196fc21e62914fe4b46bf6b4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanic_pike_projectile_a_i.html#af0c50ae4196fc21e62914fe4b46bf6b4">BeamWidth</a> = 0.75f</td></tr>
+<tr class="separator:af0c50ae4196fc21e62914fe4b46bf6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9fa7f453cc1ad0e668b807cc298c552"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanic_pike_projectile_a_i.html#af9fa7f453cc1ad0e668b807cc298c552">entities</a> = new List&lt;<a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a>&gt;()</td></tr>
+<tr class="separator:af9fa7f453cc1ad0e668b807cc298c552"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html">RogueGenesia.Actors.Survival.DefaultProjectileAI</a></td></tr>
+<tr class="memitem:a5656049dd1eedc2a0a89ec96fda87a54 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html">DefaultProjectileAI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a5656049dd1eedc2a0a89ec96fda87a54">DefaultProjectilAIPrefab</a></td></tr>
+<tr class="separator:a5656049dd1eedc2a0a89ec96fda87a54 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acef58664b036b496e5f3d46c1d089409 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#acef58664b036b496e5f3d46c1d089409">PersonalTimeScale</a> = 1</td></tr>
+<tr class="separator:acef58664b036b496e5f3d46c1d089409 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ce3384149e75e1e8aeceb49ff43a3bf inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a5ce3384149e75e1e8aeceb49ff43a3bf">hasInstancedMaterial</a></td></tr>
+<tr class="separator:a5ce3384149e75e1e8aeceb49ff43a3bf inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79ee10b0c00a5d864049f5903cd01961 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a79ee10b0c00a5d864049f5903cd01961">damageSource</a> = nameof(WeaponType.Other)</td></tr>
+<tr class="separator:a79ee10b0c00a5d864049f5903cd01961 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a216fc8fbcbf5e95b7990639b30e8118b inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a216fc8fbcbf5e95b7990639b30e8118b">CriticalStack</a> = 0</td></tr>
+<tr class="separator:a216fc8fbcbf5e95b7990639b30e8118b inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a463b8d15d6306d7e67540698ee443ff0 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a463b8d15d6306d7e67540698ee443ff0">LifeTime</a> = 0.5f</td></tr>
+<tr class="separator:a463b8d15d6306d7e67540698ee443ff0 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a622d2bb4ddc34df501db9570cb86b188 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a622d2bb4ddc34df501db9570cb86b188">Speed</a> = 5</td></tr>
+<tr class="separator:a622d2bb4ddc34df501db9570cb86b188 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c4fb3b2eba44a0ce8f02836c388f0f inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a80c4fb3b2eba44a0ce8f02836c388f0f">DefencePiercing</a> = 0</td></tr>
+<tr class="separator:a80c4fb3b2eba44a0ce8f02836c388f0f inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add84cb52c2796211cbb0d883da88e889 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#add84cb52c2796211cbb0d883da88e889">DefenceShredding</a> = 0.1f</td></tr>
+<tr class="separator:add84cb52c2796211cbb0d883da88e889 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a700ad132439338fcac6211b702c628b8 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a700ad132439338fcac6211b702c628b8">despawnTime</a> = 0.5f</td></tr>
+<tr class="separator:a700ad132439338fcac6211b702c628b8 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3470d9f34c729320945859c6257c5e4f inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a3470d9f34c729320945859c6257c5e4f">ImmediateDamageDeathCheck</a> = false</td></tr>
+<tr class="separator:a3470d9f34c729320945859c6257c5e4f inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08d9acecc743d056a38abaf35751b1ad inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_rogue_genesia_1_1_actors_1_1_survival.html#a1aa93f399a00283ca0ca67318f7b7762">EDamageType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a08d9acecc743d056a38abaf35751b1ad">DamageType</a> = <a class="el" href="namespace_rogue_genesia_1_1_actors_1_1_survival.html#a1aa93f399a00283ca0ca67318f7b7762a0db377921f4ce762c62526131097968f">EDamageType.General</a></td></tr>
+<tr class="separator:a08d9acecc743d056a38abaf35751b1ad inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a903a881752c5eccbd24441660c286a61 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a903a881752c5eccbd24441660c286a61">IgnoreDefence</a> = false</td></tr>
+<tr class="separator:a903a881752c5eccbd24441660c286a61 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06604e9f1cac9fcbfc2c6c57ae035a7f inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a06604e9f1cac9fcbfc2c6c57ae035a7f">touchTimeReHit</a> = -1</td></tr>
+<tr class="separator:a06604e9f1cac9fcbfc2c6c57ae035a7f inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2972ddcd282f33e7e84962c62a95f83c inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a2972ddcd282f33e7e84962c62a95f83c">Proxy</a></td></tr>
+<tr class="separator:a2972ddcd282f33e7e84962c62a95f83c inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace0ad8ea87d68ae0c75131b138f31a1f inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">Rigidbody2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#ace0ad8ea87d68ae0c75131b138f31a1f">ProxyRigidBody</a></td></tr>
+<tr class="separator:ace0ad8ea87d68ae0c75131b138f31a1f inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af895b0bbc75935d317f0a41b5c6f2cdc inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_rogue_genesia_1_1_pooling_1_1_pool_mask.html">PoolMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#af895b0bbc75935d317f0a41b5c6f2cdc">ProxyPoolMask</a></td></tr>
+<tr class="separator:af895b0bbc75935d317f0a41b5c6f2cdc inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10d7f2d122792bc6e03f9c4932655dbd inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a10d7f2d122792bc6e03f9c4932655dbd">DamageValue</a> = 1</td></tr>
+<tr class="separator:a10d7f2d122792bc6e03f9c4932655dbd inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3649a20f289ba113c9686024b6986752 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a3649a20f289ba113c9686024b6986752">knockback</a> = 1</td></tr>
+<tr class="separator:a3649a20f289ba113c9686024b6986752 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af46091b1e5e3790d44bbf534c747be5c inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#af46091b1e5e3790d44bbf534c747be5c">fade</a></td></tr>
+<tr class="separator:af46091b1e5e3790d44bbf534c747be5c inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6297cc35f10f108a0972431724e4eeb1 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a6297cc35f10f108a0972431724e4eeb1">particleFade</a></td></tr>
+<tr class="separator:a6297cc35f10f108a0972431724e4eeb1 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6e0bd0418e6c9e129f806b035960434 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">Renderer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#ad6e0bd0418e6c9e129f806b035960434">Visual</a></td></tr>
+<tr class="separator:ad6e0bd0418e6c9e129f806b035960434 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53bba01c61e3e1394a30457155daa6e4 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a53bba01c61e3e1394a30457155daa6e4">Owner</a></td></tr>
+<tr class="separator:a53bba01c61e3e1394a30457155daa6e4 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0c9f82fb48910d6b9c35f736c70d4f2 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#ac0c9f82fb48910d6b9c35f736c70d4f2">IsPlayerProjectile</a> = true</td></tr>
+<tr class="separator:ac0c9f82fb48910d6b9c35f736c70d4f2 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a551514d3d8504dae0d5736692487b73f inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">VisualEffect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a551514d3d8504dae0d5736692487b73f">ProjectileVFX</a> = null</td></tr>
+<tr class="separator:a551514d3d8504dae0d5736692487b73f inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab48412e36add2e80276dd89e3e37d0b2 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#ab48412e36add2e80276dd89e3e37d0b2">IsDiePlayerTouched</a></td></tr>
+<tr class="separator:ab48412e36add2e80276dd89e3e37d0b2 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcbc02a2b1af1ec6e40a8a2926b94989 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#abcbc02a2b1af1ec6e40a8a2926b94989">direction</a> = Vector3.forward</td></tr>
+<tr class="separator:abcbc02a2b1af1ec6e40a8a2926b94989 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18ce4e65cba476cf72d72b728a916a19 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html">DefaultProjectileAI</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information_ref.html">DamageInformationRef</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a18ce4e65cba476cf72d72b728a916a19">OnHitEnemy</a> = new()</td></tr>
+<tr class="separator:a18ce4e65cba476cf72d72b728a916a19 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d631c892ee5aed6bd9727a253ac9112 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html">DefaultProjectileAI</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a8d631c892ee5aed6bd9727a253ac9112">OnKillEnemy</a> = new()</td></tr>
+<tr class="separator:a8d631c892ee5aed6bd9727a253ac9112 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae280df2d827ad94ee6491e1d70bacd0e inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html">DefaultProjectileAI</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#ae280df2d827ad94ee6491e1d70bacd0e">OnDie</a> = new()</td></tr>
+<tr class="separator:ae280df2d827ad94ee6491e1d70bacd0e inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65b2329d3a07bcb21bebb67a81e9f313 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html">DefaultProjectileAI</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a65b2329d3a07bcb21bebb67a81e9f313">OnUpdate</a> = new()</td></tr>
+<tr class="separator:a65b2329d3a07bcb21bebb67a81e9f313 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00bed361b31a1745971d6ed0a9125179 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">float[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a00bed361b31a1745971d6ed0a9125179">CustomFloat</a></td></tr>
+<tr class="separator:a00bed361b31a1745971d6ed0a9125179 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6f4486bf37b09dc59e49552888419c3 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">Vector3[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#aa6f4486bf37b09dc59e49552888419c3">CustomVector</a></td></tr>
+<tr class="separator:aa6f4486bf37b09dc59e49552888419c3 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d03fe19fb7b13ce06815878c93d1f38 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">object[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a9d03fe19fb7b13ce06815878c93d1f38">CustomObject</a></td></tr>
+<tr class="separator:a9d03fe19fb7b13ce06815878c93d1f38 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bf7263ea21988a6281976c6f45bd150 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a0bf7263ea21988a6281976c6f45bd150">Looping</a> = true</td></tr>
+<tr class="separator:a0bf7263ea21988a6281976c6f45bd150 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18e58caee3e3294e9a7a70fde76f5da0 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a18e58caee3e3294e9a7a70fde76f5da0">frameskiping</a> = -1</td></tr>
+<tr class="separator:a18e58caee3e3294e9a7a70fde76f5da0 inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a829c6d6ece0240b07e757b43cced9acd inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">Material&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a829c6d6ece0240b07e757b43cced9acd">_instancedMaterial</a></td></tr>
+<tr class="separator:a829c6d6ece0240b07e757b43cced9acd inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e6023b6e64b144c0e9f536832bd98cc inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">Material&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a9e6023b6e64b144c0e9f536832bd98cc">sharedMaterial</a></td></tr>
+<tr class="separator:a9e6023b6e64b144c0e9f536832bd98cc inherit pub_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_class_rogue_genesia_1_1_utils_1_1_poolable"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_rogue_genesia_1_1_utils_1_1_poolable')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_rogue_genesia_1_1_utils_1_1_poolable.html">RogueGenesia.Utils.Poolable</a></td></tr>
+<tr class="memitem:ae9a7ddbf13690809869d77f176bb41ea inherit pub_attribs_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_utils_1_1_poolable.html#ae9a7ddbf13690809869d77f176bb41ea">PoolTypeName</a></td></tr>
+<tr class="separator:ae9a7ddbf13690809869d77f176bb41ea inherit pub_attribs_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeecdd73e54751ed396166444d0fe6235 inherit pub_attribs_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_utils_1_1_poolable.html#aeecdd73e54751ed396166444d0fe6235">PoolPrefabAssociated</a></td></tr>
+<tr class="separator:aeecdd73e54751ed396166444d0fe6235 inherit pub_attribs_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77b755a4f9ccd728abdf934e35dd1310 inherit pub_attribs_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_utils_1_1_poolable.html#a77b755a4f9ccd728abdf934e35dd1310">gameObject</a></td></tr>
+<tr class="separator:a77b755a4f9ccd728abdf934e35dd1310 inherit pub_attribs_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88ef514fe9d29b779001b82fbff4013e inherit pub_attribs_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_utils_1_1_poolable.html#a88ef514fe9d29b779001b82fbff4013e">transform</a></td></tr>
+<tr class="separator:a88ef514fe9d29b779001b82fbff4013e inherit pub_attribs_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69fa6be6110ada6691fb2d72b809c170 inherit pub_attribs_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_utils_1_1_poolable.html#a69fa6be6110ada6691fb2d72b809c170">debugPoolItemID</a></td></tr>
+<tr class="separator:a69fa6be6110ada6691fb2d72b809c170 inherit pub_attribs_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6269b90f1591577213a39b50c62531fb inherit pub_attribs_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_utils_1_1_poolable.html#a6269b90f1591577213a39b50c62531fb">toDestroy</a></td></tr>
+<tr class="separator:a6269b90f1591577213a39b50c62531fb inherit pub_attribs_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a282dece23dbb504666f94226d0086614"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanic_pike_projectile_a_i.html#a282dece23dbb504666f94226d0086614">UpdateQuality</a> ()</td></tr>
+<tr class="separator:a282dece23dbb504666f94226d0086614"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4f6b91b874239e8822a55e13929d633"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanic_pike_projectile_a_i.html#ad4f6b91b874239e8822a55e13929d633">OnTouchedEnemy</a> (<a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a> entity, Vector2 Direction)</td></tr>
+<tr class="separator:ad4f6b91b874239e8822a55e13929d633"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html">RogueGenesia.Actors.Survival.DefaultProjectileAI</a></td></tr>
+<tr class="memitem:adfa621e55171632194cca2a17672bc85 inherit pro_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#adfa621e55171632194cca2a17672bc85">OnTouchedEnemy</a> (<a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a> entity, Vector2 Direction)</td></tr>
+<tr class="separator:adfa621e55171632194cca2a17672bc85 inherit pro_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8671667f94d96b88ec4cbbc33f1382ff inherit pro_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a8671667f94d96b88ec4cbbc33f1382ff">OnPlayerTouched</a> (<a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a> entity, Vector2 Direction)</td></tr>
+<tr class="separator:a8671667f94d96b88ec4cbbc33f1382ff inherit pro_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5a2c916cd63b34e4f2a8cbad2b47ae7 inherit pro_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#ac5a2c916cd63b34e4f2a8cbad2b47ae7">UpdateQuality</a> ()</td></tr>
+<tr class="separator:ac5a2c916cd63b34e4f2a8cbad2b47ae7 inherit pro_methods_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html">RogueGenesia.Actors.Survival.DefaultProjectileAI</a></td></tr>
+<tr class="memitem:a96f6b251d4bb09cdd635f4bc6154991e inherit pro_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i_1_1_collider_hit_time.html">ColliderHitTime</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a96f6b251d4bb09cdd635f4bc6154991e">colliderHit</a></td></tr>
+<tr class="separator:a96f6b251d4bb09cdd635f4bc6154991e inherit pro_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae8f03fcef974b783457fe01e6f773e6 inherit pro_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#aae8f03fcef974b783457fe01e6f773e6">maxPiercing</a> = 1</td></tr>
+<tr class="separator:aae8f03fcef974b783457fe01e6f773e6 inherit pro_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2066466c74a5b9e57681b8e7c068a2b inherit pro_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#af2066466c74a5b9e57681b8e7c068a2b">actualPiercing</a> = 1</td></tr>
+<tr class="separator:af2066466c74a5b9e57681b8e7c068a2b inherit pro_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aa82c6abd0406df2d9df41bcc820645 inherit pro_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a0aa82c6abd0406df2d9df41bcc820645">_spawnTime</a></td></tr>
+<tr class="separator:a0aa82c6abd0406df2d9df41bcc820645 inherit pro_attribs_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td colspan="2" onclick="javascript:toggleInherit('properties_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html">RogueGenesia.Actors.Survival.DefaultProjectileAI</a></td></tr>
+<tr class="memitem:aea7a6fbba2f62f05367e79e8c73fc9a1 inherit properties_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#aea7a6fbba2f62f05367e79e8c73fc9a1">TimeScale</a><code> [get]</code></td></tr>
+<tr class="separator:aea7a6fbba2f62f05367e79e8c73fc9a1 inherit properties_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adff965c1141cb4543cecb550fb5b480f inherit properties_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#adff965c1141cb4543cecb550fb5b480f">Piercing</a><code> [get, set]</code></td></tr>
+<tr class="separator:adff965c1141cb4543cecb550fb5b480f inherit properties_class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="af67650182938d78d57a1c7941e1a5da4" name="af67650182938d78d57a1c7941e1a5da4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af67650182938d78d57a1c7941e1a5da4">&#9670;&#160;</a></span>GetVFXComponent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.Actors.Survival.ArcanicPikeProjectileAI.GetVFXComponent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a81c49666e61d2d93f24fff6cc89bc3ad">RogueGenesia.Actors.Survival.DefaultProjectileAI</a>.</p>
+
+</div>
+</div>
+<a id="aa3718b181bd1dd1f10e80175bba9685b" name="aa3718b181bd1dd1f10e80175bba9685b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3718b181bd1dd1f10e80175bba9685b">&#9670;&#160;</a></span>OnEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.Actors.Survival.ArcanicPikeProjectileAI.OnEnable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a28dbee1696d0fcfe76c5412c65fbd45b">RogueGenesia.Actors.Survival.DefaultProjectileAI</a>.</p>
+
+</div>
+</div>
+<a id="ad4f6b91b874239e8822a55e13929d633" name="ad4f6b91b874239e8822a55e13929d633"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4f6b91b874239e8822a55e13929d633">&#9670;&#160;</a></span>OnTouchedEnemy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.Actors.Survival.ArcanicPikeProjectileAI.OnTouchedEnemy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a>&#160;</td>
+          <td class="paramname"><em>entity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>Direction</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#adfa621e55171632194cca2a17672bc85">RogueGenesia.Actors.Survival.DefaultProjectileAI</a>.</p>
+
+</div>
+</div>
+<a id="ac3845cbf8eb6394ea819d27f29fcd219" name="ac3845cbf8eb6394ea819d27f29fcd219"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3845cbf8eb6394ea819d27f29fcd219">&#9670;&#160;</a></span>SplitProjectile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override List&lt; <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html">DefaultProjectileAI</a> &gt; RogueGenesia.Actors.Survival.ArcanicPikeProjectileAI.SplitProjectile </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>count</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a2c6c4f94ac4b6f1767c5c0d0db6da949">RogueGenesia.Actors.Survival.DefaultProjectileAI</a>.</p>
+
+</div>
+</div>
+<a id="a7c994284259b8c27631d30f13b4e4247" name="a7c994284259b8c27631d30f13b4e4247"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c994284259b8c27631d30f13b4e4247">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.Actors.Survival.ArcanicPikeProjectileAI.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#a6c0f7c695e0580b78f36487299330e03">RogueGenesia.Actors.Survival.DefaultProjectileAI</a>.</p>
+
+</div>
+</div>
+<a id="a282dece23dbb504666f94226d0086614" name="a282dece23dbb504666f94226d0086614"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a282dece23dbb504666f94226d0086614">&#9670;&#160;</a></span>UpdateQuality()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.Actors.Survival.ArcanicPikeProjectileAI.UpdateQuality </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html#ac5a2c916cd63b34e4f2a8cbad2b47ae7">RogueGenesia.Actors.Survival.DefaultProjectileAI</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="af0c50ae4196fc21e62914fe4b46bf6b4" name="af0c50ae4196fc21e62914fe4b46bf6b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0c50ae4196fc21e62914fe4b46bf6b4">&#9670;&#160;</a></span>BeamWidth</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Actors.Survival.ArcanicPikeProjectileAI.BeamWidth = 0.75f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae1cc069e285f888e6e67177cc9e2194e" name="ae1cc069e285f888e6e67177cc9e2194e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1cc069e285f888e6e67177cc9e2194e">&#9670;&#160;</a></span>CritMultiplier</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Actors.Survival.ArcanicPikeProjectileAI.CritMultiplier = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9fa7f453cc1ad0e668b807cc298c552" name="af9fa7f453cc1ad0e668b807cc298c552"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9fa7f453cc1ad0e668b807cc298c552">&#9670;&#160;</a></span>entities</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a>&gt; RogueGenesia.Actors.Survival.ArcanicPikeProjectileAI.entities = new List&lt;<a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">IEntity</a>&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac28e0ad0f43acc603dabb82e0ec0b0ca" name="ac28e0ad0f43acc603dabb82e0ec0b0ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac28e0ad0f43acc603dabb82e0ec0b0ca">&#9670;&#160;</a></span>offsetAngle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Actors.Survival.ArcanicPikeProjectileAI.offsetAngle = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6a6de6f216e624240f81119ccdef479" name="ac6a6de6f216e624240f81119ccdef479"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6a6de6f216e624240f81119ccdef479">&#9670;&#160;</a></span>player</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a> RogueGenesia.Actors.Survival.ArcanicPikeProjectileAI.player</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ffcdc3a7b15da117f3bc09ea9145039" name="a1ffcdc3a7b15da117f3bc09ea9145039"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ffcdc3a7b15da117f3bc09ea9145039">&#9670;&#160;</a></span>shootLaser</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Actors.Survival.ArcanicPikeProjectileAI.shootLaser = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a54bfd1b1ad41b424975412afcd5c0959" name="a54bfd1b1ad41b424975412afcd5c0959"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54bfd1b1ad41b424975412afcd5c0959">&#9670;&#160;</a></span>sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SpriteRenderer RogueGenesia.Actors.Survival.ArcanicPikeProjectileAI.sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acc957ba02d9a947bec2dc009c289b43f" name="acc957ba02d9a947bec2dc009c289b43f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc957ba02d9a947bec2dc009c289b43f">&#9670;&#160;</a></span>SpriteSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Actors.Survival.ArcanicPikeProjectileAI.SpriteSize = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2ed9581d3262bfd074ff79dd61ee6269" name="a2ed9581d3262bfd074ff79dd61ee6269"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ed9581d3262bfd074ff79dd61ee6269">&#9670;&#160;</a></span>timeScale</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Actors.Survival.ArcanicPikeProjectileAI.timeScale = 6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/Weapon/Projectil/<a class="el" href="_arcanic_pike_projectile_a_i_8cs.html">ArcanicPikeProjectileAI.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_actors.html">Actors</a></li><li class="navelem"><a class="el" href="namespace_rogue_genesia_1_1_actors_1_1_survival.html">Survival</a></li><li class="navelem"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanic_pike_projectile_a_i.html">ArcanicPikeProjectileAI</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

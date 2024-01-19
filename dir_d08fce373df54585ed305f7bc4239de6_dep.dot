@@ -10,6 +10,7 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Utils"
   subgraph clusterdir_d08fce373df54585ed305f7bc4239de6 {
     graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_d08fce373df54585ed305f7bc4239de6.html",tooltip=""]
     dir_d08fce373df54585ed305f7bc4239de6 [shape=plaintext, label="Utils"];
+  dir_3a6c008193993ac1898b641cf5257fce [label="MeshInstancing", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_3a6c008193993ac1898b641cf5257fce.html",tooltip=""];
   dir_91e4ee03d1ada9541682eda135d5f7b5 [label="Pooling", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_91e4ee03d1ada9541682eda135d5f7b5.html",tooltip=""];
   }
   }

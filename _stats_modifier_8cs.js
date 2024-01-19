@@ -27,7 +27,7 @@ var _stats_modifier_8cs =
       [ "MoveSpeed", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da3dfb8a09b650ce66270c54fdf5c2aa74", null ],
       [ "AttackCoolDown", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da07d04b3215126bf60ce386d6b832cd24", null ],
       [ "AttackDelay", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da41f3b8cb5d40bce04e76cbbc3755c859", null ],
-      [ "Damage", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4dab9f24e83531326204197015b2f43a93f", null ],
+      [ "Power", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4dadd4fe0cc913f704600b97d1f5dd285de", null ],
       [ "CriticalChance", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da828137831f162f7aa57898695214bc3f", null ],
       [ "CriticalDamage", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da8840670f16ffad8542f45ad80dbe5ca3", null ],
       [ "DashSpeed", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da1e528f1ff3083abce150c9d9ceb770a2", null ],
@@ -45,9 +45,10 @@ var _stats_modifier_8cs =
       [ "Purification", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da8758ab48bdb48a785d167ff0dc9bf537", null ],
       [ "SurvivorsTimerScale", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4dafde8d8239533ed8c5fb020dea24cf58f", null ],
       [ "BonusAmmo", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da3136e2430b56ff2a1ca12a6a94ceed7c", null ],
-      [ "AmmoCostMultiplier", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da0bc1133496c7166c532dddaad46ff783", null ],
+      [ "AmmoCost", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4daa7c23862e0bf944168e9a8f76b299040", null ],
       [ "ReloadSpeed", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da2e7ee0624a2afacb290d0a98cc6f7c43", null ],
-      [ "AnachronisticDurationMultiplier", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4dac6d86c30743eab8a22103a3fc1f07201", null ],
+      [ "Faith", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da3d0e515ea3ccfd88e1cf2d17bca8ff52", null ],
+      [ "AnachronisticDuration", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da5a174eec4100c50d39e377148d85f59c", null ],
       [ "CardDropChance_Tainted", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4dae424b3ab017bce4c42081eaeccf1bb90", null ],
       [ "CardDropChance_Normal", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da230d9b3aa86551a3ac3acce2ec1ed467", null ],
       [ "CardDropChance_Uncommon", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da16bbb72c8a3588b401ffd80fc1dc9057", null ],
@@ -69,7 +70,7 @@ var _stats_modifier_8cs =
       [ "TalentChargeRate", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4daa9c37f66b9ba178a4a0218d6c1178e23", null ],
       [ "TalentChargeCost", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da87f33486be3acdd92a050dd75e90cd60", null ],
       [ "TalentChargeMaxCharge", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da50bca5caa016470f275cb502febfea5e", null ],
-      [ "EnemyCountMultiplier", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da50ac8ce1f0bcf7d65993339a5955e87b", null ],
-      [ "StageObjectiveRequirementMultiplier", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da6daf37de9a0f698ef36cc380cb7c3dd4", null ]
+      [ "EnemyCount", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da60f50bcbe1a5d71ebccd5f3bf44f1972", null ],
+      [ "StageObjectiveRequirement", "_stats_modifier_8cs.html#aad4ecd86d7d77229db7138bc35d46f4da4d87580edb6f9a6f58ab104c6d6747ae", null ]
     ] ]
 ];

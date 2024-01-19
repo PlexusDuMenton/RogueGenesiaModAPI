@@ -3,13 +3,13 @@ var indexSectionsWithContent =
   0: "$[_abcdefghijklmnopqrstuvwxyz",
   1: "abcdefghijklmnopqrstuvwz",
   2: "mru",
-  3: "abcdefghijklmnopqrstuvw",
+  3: "abcdefghijklmnopqrstuvwz",
   4: "[abcdefghijklmnopqrstuvw",
   5: "_abcdefghiklmnopqrstuvwxyz",
   6: "aor",
   7: "abcdeglmopqsuw",
-  8: "abcdefghijklmnoprstuvwxyz",
-  9: "_abcdefghiklmnopqrstuvwxy",
+  8: "abcdefghijklmnopqrstuvwxyz",
+  9: "_abcdefghiklmnopqrstuvwxyz",
   10: "d"
 };
 

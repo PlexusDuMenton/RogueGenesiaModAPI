@@ -1,8 +1,8 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_orbital_projectile_a_i =
 [
-    [ "Fractal", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_orbital_projectile_a_i.html#a0bdbc7a7160c27a0429f31167484f67e", null ],
     [ "OnEnable", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_orbital_projectile_a_i.html#a8d803a1fb563976eadf7e9aa5c60739e", null ],
     [ "OnTouchedEnemy", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_orbital_projectile_a_i.html#ab6ffb889e1f69495acbd206ad06131b4", null ],
+    [ "SplitProjectile", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_orbital_projectile_a_i.html#af4a0d87bde997967ae32c5d7112d5e4d", null ],
     [ "Update", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_orbital_projectile_a_i.html#ab36032be4a645d9323445fa3537391c5", null ],
     [ "actualDistance", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_orbital_projectile_a_i.html#a0967c061819ecc8eabf37f61037c48c7", null ],
     [ "angle", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_orbital_projectile_a_i.html#aa5294e1f00d3871fd36e4c29aa243f39", null ],

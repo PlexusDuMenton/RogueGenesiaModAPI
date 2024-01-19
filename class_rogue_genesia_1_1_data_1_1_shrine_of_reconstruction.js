@@ -16,6 +16,7 @@ var class_rogue_genesia_1_1_data_1_1_shrine_of_reconstruction =
     [ "GetVisualScene", "class_rogue_genesia_1_1_data_1_1_shrine_of_reconstruction.html#a89f945115b456acaa233c57c0dd38bd6", null ],
     [ "IsAnswerEnabled", "class_rogue_genesia_1_1_data_1_1_shrine_of_reconstruction.html#afd465ac79e8cde47d7501c5676b0f057", null ],
     [ "NextAnswer", "class_rogue_genesia_1_1_data_1_1_shrine_of_reconstruction.html#a17de8fe9793e6eedecf8b94a38fea70c", null ],
+    [ "NextTextDisplayed", "class_rogue_genesia_1_1_data_1_1_shrine_of_reconstruction.html#a6f267d013867b61db5acfdccf1b593bb", null ],
     [ "OffOverAnswer", "class_rogue_genesia_1_1_data_1_1_shrine_of_reconstruction.html#aeb9eddde1d3bb20a99584ce7a6f5b967", null ],
     [ "OnLevelLoaded", "class_rogue_genesia_1_1_data_1_1_shrine_of_reconstruction.html#aa19921966d2f00b2ecbb4e2362571541", null ],
     [ "OnOverAnswer", "class_rogue_genesia_1_1_data_1_1_shrine_of_reconstruction.html#ae5df8fa72c08350c9ea05f03646d8605", null ],

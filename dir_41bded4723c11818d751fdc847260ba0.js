@@ -7,6 +7,7 @@ var dir_41bded4723c11818d751fdc847260ba0 =
     [ "GoldCollect.cs", "_gold_collect_8cs.html", "_gold_collect_8cs" ],
     [ "KillCount.cs", "_kill_count_8cs.html", "_kill_count_8cs" ],
     [ "KillCountAndSurvival.cs", "_kill_count_and_survival_8cs.html", "_kill_count_and_survival_8cs" ],
+    [ "KillCountEvent.cs", "_kill_count_event_8cs.html", "_kill_count_event_8cs" ],
     [ "KillEliteCount.cs", "_kill_elite_count_8cs.html", "_kill_elite_count_8cs" ],
     [ "KillEliteCountAndSurvival.cs", "_kill_elite_count_and_survival_8cs.html", "_kill_elite_count_and_survival_8cs" ],
     [ "KillTarget.cs", "_kill_target_8cs.html", "_kill_target_8cs" ],

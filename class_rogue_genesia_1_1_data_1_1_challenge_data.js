@@ -5,6 +5,7 @@ var class_rogue_genesia_1_1_data_1_1_challenge_data =
     [ "OnPostInitPlayer", "class_rogue_genesia_1_1_data_1_1_challenge_data.html#a22496c2fe3878a6291406cc47b29e32a", null ],
     [ "OnPreInitPlayer", "class_rogue_genesia_1_1_data_1_1_challenge_data.html#a0eac45eb1d901be7e40eab63abf97627", null ],
     [ "ActualChallenge", "class_rogue_genesia_1_1_data_1_1_challenge_data.html#abc649aa4a6a099e91646e36ddb678fe3", null ],
+    [ "ChallengeLevel", "class_rogue_genesia_1_1_data_1_1_challenge_data.html#acf3a0303cf8ed3a1157e648fd8cf2c26", null ],
     [ "InChallenge", "class_rogue_genesia_1_1_data_1_1_challenge_data.html#ae6a9ba132f34f4ddb490cd4ce040b442", null ],
     [ "Modifier", "class_rogue_genesia_1_1_data_1_1_challenge_data.html#a700c250172f9df3ff7c45f2d6190f63a", null ],
     [ "BanishedArtifacts", "class_rogue_genesia_1_1_data_1_1_challenge_data.html#a0d8a43c0c44de645289ce6d2bc1c8e79", null ],

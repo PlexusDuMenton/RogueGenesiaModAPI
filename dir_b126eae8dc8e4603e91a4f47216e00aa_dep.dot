@@ -20,6 +20,7 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/ScriptableObjects"
   dir_287e50e18b6c82b2c24b56580bce8da4 [label="SoulCards", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_287e50e18b6c82b2c24b56580bce8da4.html",tooltip=""];
   dir_544f47bd6961efd365cc80b7c7f5c627 [label="SoulShop", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_544f47bd6961efd365cc80b7c7f5c627.html",tooltip=""];
   dir_0b9b90b2aaa432f1a4d65179d77178d7 [label="Stage", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_0b9b90b2aaa432f1a4d65179d77178d7.html",tooltip=""];
+  dir_983076670978202e3e916c6d8efb132c [label="WeaponModifier", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_983076670978202e3e916c6d8efb132c.html",tooltip=""];
   dir_69c72352cb9538458de2dd8c496db7ca [label="Zone", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_69c72352cb9538458de2dd8c496db7ca.html",tooltip=""];
   }
   }

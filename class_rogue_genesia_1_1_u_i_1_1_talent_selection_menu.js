@@ -22,7 +22,7 @@ var class_rogue_genesia_1_1_u_i_1_1_talent_selection_menu =
     [ "SelectedTalent", "class_rogue_genesia_1_1_u_i_1_1_talent_selection_menu.html#a6a318310fff7ab63e92765d42f266740", null ],
     [ "SelectionList", "class_rogue_genesia_1_1_u_i_1_1_talent_selection_menu.html#a44b3603575973029b6a50676d1d448cc", null ],
     [ "SelectionViewPort", "class_rogue_genesia_1_1_u_i_1_1_talent_selection_menu.html#a1f4b8b5d86ef91dc34e4e631784b03de", null ],
-    [ "TooltipDescription", "class_rogue_genesia_1_1_u_i_1_1_talent_selection_menu.html#add69a9835aba9dc6ca9ae335da945d92", null ],
+    [ "TooltipDescription", "class_rogue_genesia_1_1_u_i_1_1_talent_selection_menu.html#a22e8757a6b46c8aa6c532140955f6111", null ],
     [ "TooltipLevel", "class_rogue_genesia_1_1_u_i_1_1_talent_selection_menu.html#afd713ed964ebfe9ca01e198778d8e762", null ],
     [ "TooltipMastery", "class_rogue_genesia_1_1_u_i_1_1_talent_selection_menu.html#a2171d87de2826463e78bd5ccdd392921", null ],
     [ "ToolTipMasteryBar", "class_rogue_genesia_1_1_u_i_1_1_talent_selection_menu.html#aac743d3aeb17a161d6748e01541f4c7c", null ],

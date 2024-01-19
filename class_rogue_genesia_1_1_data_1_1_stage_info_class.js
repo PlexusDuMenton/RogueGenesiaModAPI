@@ -1,5 +1,6 @@
 var class_rogue_genesia_1_1_data_1_1_stage_info_class =
 [
+    [ "ArtifactChance", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a41045429a841397a164c46f528d53507", null ],
     [ "ArtifactReward", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a19ceefb2ec3e52263565a9ca80ec585e", null ],
     [ "BuildObjective", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#ab02dfb9bd9078f0d1232e41b1045d3aa", null ],
     [ "CardSelectionReward", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a16f1917a7727dd4239bd289eb79ef7b3", null ],
@@ -14,6 +15,9 @@ var class_rogue_genesia_1_1_data_1_1_stage_info_class =
     [ "GetLevelVisualToLoad", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#ac9a15cbf1ba819fd6d847282f3276cf0", null ],
     [ "GetMaxEliteAtOnce", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a28434ee8d894a4999dfac20a78d62383", null ],
     [ "GetObjectiveText", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a7833081e2000568e24a53d2c4cad2da5", null ],
+    [ "GetScaledTime", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#acad6873bf55264d42e8c58b9302554c9", null ],
+    [ "GetSpecificArtifact", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a701496063c4b73ebe6cf8110c53ea3fb", null ],
+    [ "GetSpecificCard", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a73bc7d0aeee618e39e726023ac7fc3ca", null ],
     [ "IgnoreChallengeRewardRestriction", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a09a51a5eee55a34987de8c3d9e3d87bb", null ],
     [ "OnStageStart", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#af108d0bdc850def9494701cd50edb2f7", null ],
     [ "PickRandomObjective", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a0c358e02715d68df53a9e2903f366bff", null ],

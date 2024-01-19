@@ -16,6 +16,7 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/GameManager"
   dir_b242f640a82df07d2f97ffa6afdb9c78 [label="Menu", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_b242f640a82df07d2f97ffa6afdb9c78.html",tooltip=""];
   dir_a6c58c8915b7fe265ff8055cb1b475c9 [label="Shop", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_a6c58c8915b7fe265ff8055cb1b475c9.html",tooltip=""];
   dir_67b9c16431d5c1533ca72af7c8ae0723 [label="Stats", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_67b9c16431d5c1533ca72af7c8ae0723.html",tooltip=""];
+  dir_092baf598eeb2a8469f6a796751c6584 [label="TerrainGeneration", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_092baf598eeb2a8469f6a796751c6584.html",tooltip=""];
   }
   }
 }

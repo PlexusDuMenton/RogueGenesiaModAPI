@@ -9,6 +9,7 @@ var class_rogue_genesia_1_1_data_1_1_survivors_mode_class_info =
     [ "GetEnvironementName", "class_rogue_genesia_1_1_data_1_1_survivors_mode_class_info.html#a280d5ff20000d626c7996c410b6f2583", null ],
     [ "GetRunEndData", "class_rogue_genesia_1_1_data_1_1_survivors_mode_class_info.html#a50d7ea37b942a2eb10b1efb47ca6268c", null ],
     [ "GetSaveName", "class_rogue_genesia_1_1_data_1_1_survivors_mode_class_info.html#ad83edde393c6311f81777e5b11cf1530", null ],
+    [ "GetTerrainGeneration", "class_rogue_genesia_1_1_data_1_1_survivors_mode_class_info.html#aae201da0da6c8c9795a356d024b62063", null ],
     [ "getZoneMusic", "class_rogue_genesia_1_1_data_1_1_survivors_mode_class_info.html#abea21b2c9dcbb68a85f73459640c34af", null ],
     [ "LoadSave", "class_rogue_genesia_1_1_data_1_1_survivors_mode_class_info.html#a75f903df34575bf32af0fd6c71cad673", null ],
     [ "OnRunEnd", "class_rogue_genesia_1_1_data_1_1_survivors_mode_class_info.html#af1609e3daccb434b2879e435d71e5fff", null ],

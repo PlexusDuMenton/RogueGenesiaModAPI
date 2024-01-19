@@ -12,6 +12,7 @@ var struct_rogue_genesia_1_1_data_1_1_unlock_data =
     [ "GetSoulCard", "struct_rogue_genesia_1_1_data_1_1_unlock_data.html#a4b7a2dae5138a03bbb8facc063c34885", null ],
     [ "Unlock", "struct_rogue_genesia_1_1_data_1_1_unlock_data.html#a70b4fd421e9285ce795eb3cd65b3c035", null ],
     [ "_unlocked", "struct_rogue_genesia_1_1_data_1_1_unlock_data.html#ab125c914ab0fc8f3a6edb78478f5646f", null ],
+    [ "AddToThePool", "struct_rogue_genesia_1_1_data_1_1_unlock_data.html#a2ebc2c9cb16db9f0c84b9a24e26223ce", null ],
     [ "Unlockables", "struct_rogue_genesia_1_1_data_1_1_unlock_data.html#ac7d5467e81dddd552bb1cd4fc428f1da", null ],
     [ "unlockType", "struct_rogue_genesia_1_1_data_1_1_unlock_data.html#a044c675be1ea0fea6dd1b8752a070b80", null ],
     [ "IsUnlocked", "struct_rogue_genesia_1_1_data_1_1_unlock_data.html#a051cbc1bf60aa306adf8d3ab54367d87", null ]

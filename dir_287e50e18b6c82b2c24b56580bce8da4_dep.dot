@@ -11,6 +11,7 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/ScriptableObjects/SoulCa
     graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_287e50e18b6c82b2c24b56580bce8da4.html",tooltip=""]
     dir_287e50e18b6c82b2c24b56580bce8da4 [shape=plaintext, label="SoulCards"];
   dir_d98f80bbac272d14a7c84c9b1d9aafbd [label="Other", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_d98f80bbac272d14a7c84c9b1d9aafbd.html",tooltip=""];
+  dir_b7393bc2c3f8e8dea13f0bde8c06c214 [label="WeaponModifier", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_b7393bc2c3f8e8dea13f0bde8c06c214.html",tooltip=""];
   }
   }
 }

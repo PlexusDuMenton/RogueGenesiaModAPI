@@ -16,6 +16,7 @@ var class_rogue_genesia_1_1_data_1_1_god_statuette_event =
     [ "GetVisualScene", "class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a0f1e5759ebda311b31d0746ac96a7d9e", null ],
     [ "IsAnswerEnabled", "class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a4b110a5482176d749af360f29edb6a56", null ],
     [ "NextAnswer", "class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a46b1cb3045ed0ecadbed55ecb4016e3f", null ],
+    [ "NextTextDisplayed", "class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a3e52f03a3fd883058a18c33b46a1e932", null ],
     [ "OffOverAnswer", "class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a05d05fb3c7a3be0c7a4cffe084be68f4", null ],
     [ "OnLevelLoaded", "class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a25bce11886743bc82b82851b6399931f", null ],
     [ "OnOverAnswer", "class_rogue_genesia_1_1_data_1_1_god_statuette_event.html#a8f66d28b5d14ea07f57f23436e89c1b2", null ],

@@ -12,6 +12,7 @@ var struct_mod_genesia_1_1_soul_card_json_reader =
     [ "DropWeight", "struct_mod_genesia_1_1_soul_card_json_reader.html#a738a66e8002893982735f9bcd3db8d41", null ],
     [ "LevelUpWeight", "struct_mod_genesia_1_1_soul_card_json_reader.html#a9f73aacda47e7deebf45118c510e7be2", null ],
     [ "MaxLevel", "struct_mod_genesia_1_1_soul_card_json_reader.html#a9477e8106f20d911725102f644dfb357", null ],
+    [ "MinimumLevel", "struct_mod_genesia_1_1_soul_card_json_reader.html#a34581231e87dd742dd10117becbcd0d1", null ],
     [ "ModSource", "struct_mod_genesia_1_1_soul_card_json_reader.html#a3e15f0abd502054e256c8e0e346c8968", null ],
     [ "NameOverride", "struct_mod_genesia_1_1_soul_card_json_reader.html#aec1f5b3f6a09a7d0aea7815b94033827", null ],
     [ "Rarity", "struct_mod_genesia_1_1_soul_card_json_reader.html#a20d43a85425de34e775afb2638e538d5", null ],

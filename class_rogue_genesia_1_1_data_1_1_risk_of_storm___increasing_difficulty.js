@@ -1,8 +1,8 @@
 var class_rogue_genesia_1_1_data_1_1_risk_of_storm___increasing_difficulty =
 [
-    [ "GetModifierDescription", "class_rogue_genesia_1_1_data_1_1_risk_of_storm___increasing_difficulty.html#a1ab13c20ac2acea0fb6e107b92341694", null ],
-    [ "OnEndRun", "class_rogue_genesia_1_1_data_1_1_risk_of_storm___increasing_difficulty.html#a26b7085902a62c212b3e267c355bb808", null ],
-    [ "OnLoadRun", "class_rogue_genesia_1_1_data_1_1_risk_of_storm___increasing_difficulty.html#a71f9c10d9111e7b8bcf11906b9305610", null ],
-    [ "OnQuitRun", "class_rogue_genesia_1_1_data_1_1_risk_of_storm___increasing_difficulty.html#af4b391a6e421f14331e9fa7b779a993d", null ],
-    [ "OnStartRun", "class_rogue_genesia_1_1_data_1_1_risk_of_storm___increasing_difficulty.html#af1afebb3cda16c36383e16b0c7807645", null ]
+    [ "GetModifierDescription", "class_rogue_genesia_1_1_data_1_1_risk_of_storm___increasing_difficulty.html#a7ca5dae8b2f807b49d534d40a9a1a4d1", null ],
+    [ "OnEndRun", "class_rogue_genesia_1_1_data_1_1_risk_of_storm___increasing_difficulty.html#a58e91bbde6976b08952aae0da557ebd2", null ],
+    [ "OnLoadRun", "class_rogue_genesia_1_1_data_1_1_risk_of_storm___increasing_difficulty.html#a2069ff4598b665b9c07a7473a1fa3fd1", null ],
+    [ "OnQuitRun", "class_rogue_genesia_1_1_data_1_1_risk_of_storm___increasing_difficulty.html#a98dc66b7bdf72c9eaf6126be0097707a", null ],
+    [ "OnStartRun", "class_rogue_genesia_1_1_data_1_1_risk_of_storm___increasing_difficulty.html#afb1d3d68598984abe4949e6e0ddd6aa9", null ]
 ];

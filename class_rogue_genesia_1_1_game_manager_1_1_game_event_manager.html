@@ -134,6 +134,8 @@ $(document).ready(function(){initNavTree('class_rogue_genesia_1_1_game_manager_1
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a0069a2efcc2115f08ec3e3a5cf0e8e6f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a0069a2efcc2115f08ec3e3a5cf0e8e6f">RemoveAllListeners</a> ()</td></tr>
+<tr class="separator:a0069a2efcc2115f08ec3e3a5cf0e8e6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b3a9b4d36d705331495ae38fd624143"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a2b3a9b4d36d705331495ae38fd624143">RemoveAllRunListener</a> ()</td></tr>
 <tr class="separator:a2b3a9b4d36d705331495ae38fd624143"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0092edbe85ba45bcf2db2e311ef58fea"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a0092edbe85ba45bcf2db2e311ef58fea">RemoveAllListener</a> (this object obj)</td></tr>
@@ -240,14 +242,26 @@ Static Public Attributes</h2></td></tr>
 </ul>
 <p>All listenter are removed upon leaving/starting a game   <br /></td></tr>
 <tr class="separator:ad247dbcf046dfdf459470a424a1c162c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc7639d8ae4b6219edd8a7e1915a1eb3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#abc7639d8ae4b6219edd8a7e1915a1eb3">OnCardBanished</a> = new()</td></tr>
-<tr class="memdesc:abc7639d8ae4b6219edd8a7e1915a1eb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when banishing a card<br  />
+<tr class="memitem:ae5ec1869d0543cd4fee70e83eb0b9cc5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ae5ec1869d0543cd4fee70e83eb0b9cc5">OnCardBanished</a> = new()</td></tr>
+<tr class="memdesc:ae5ec1869d0543cd4fee70e83eb0b9cc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when banishing a card<br  />
 <br  />
  SoulCardScriptableObject - Card scriptable object banished<br  />
+ SoulCardScriptableObject - Replacement for card<br  />
  </p><ul>
 </ul>
 <p>All listenter are removed upon leaving/starting a game   <br /></td></tr>
-<tr class="separator:abc7639d8ae4b6219edd8a7e1915a1eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ae5ec1869d0543cd4fee70e83eb0b9cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a846af06e0c361b8b6658ee844e01917a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt; List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a> &gt;, List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a846af06e0c361b8b6658ee844e01917a">OnCardsReroll</a> = new()</td></tr>
+<tr class="separator:a846af06e0c361b8b6658ee844e01917a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3e2a0bf35f848ab5ded62bef91cc7dd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#af3e2a0bf35f848ab5ded62bef91cc7dd">OnCardRarityRerolled</a> = new()</td></tr>
+<tr class="memdesc:af3e2a0bf35f848ab5ded62bef91cc7dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when rarity rerolling a card<br  />
+<br  />
+ SoulCardScriptableObject - Card rarityRerolled<br  />
+ SoulCardScriptableObject - New Card<br  />
+ </p><ul>
+</ul>
+<p>All listenter are removed upon leaving/starting a game   <br /></td></tr>
+<tr class="separator:af3e2a0bf35f848ab5ded62bef91cc7dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af95f013b15b4fb5f999068ce85569273"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">SoulCard</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#af95f013b15b4fb5f999068ce85569273">OnCardRemoved</a> = new()</td></tr>
 <tr class="memdesc:af95f013b15b4fb5f999068ce85569273"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when removing a card from player<br  />
 <br  />
@@ -426,6 +440,15 @@ Static Public Attributes</h2></td></tr>
 </ul>
 <p>All listenter are removed upon leaving/starting a game   <br /></td></tr>
 <tr class="separator:a8d211477f525cf8c2a4e15af95865d81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb622c61bf977ba17e6950dcd9fda1d4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt; <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information_ref.html">DamageInformationRef</a>, <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_float_value.html">FloatValue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#acb622c61bf977ba17e6950dcd9fda1d4">OnPlayerTakeDamage_CalculateDefence</a> = new()</td></tr>
+<tr class="memdesc:acb622c61bf977ba17e6950dcd9fda1d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when Player is taking damage, called when calculating defence<br  />
+<br  />
+ PlayerEntity - Player entity <br  />
+ DamageInformationRef - Damage informations<br  />
+ FloatValue - Defence value </p><ul>
+</ul>
+<p>All listenter are removed upon leaving/starting a game   <br /></td></tr>
+<tr class="separator:acb622c61bf977ba17e6950dcd9fda1d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d987337eda721059487ef438c14095a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt; <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information_ref.html">DamageInformationRef</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a3d987337eda721059487ef438c14095a">OnPlayerTakeDamage_PostDefence</a> = new()</td></tr>
 <tr class="memdesc:a3d987337eda721059487ef438c14095a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when Player is taking damage, called after defence calculation<br  />
 <br  />
@@ -632,6 +655,8 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a0aabc788f253595cc6e77b9b10e8520b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3210baec8319e84f75e2d2d8ebab14a3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#a3210baec8319e84f75e2d2d8ebab14a3">OnFightUpdate</a> = new()</td></tr>
 <tr class="separator:a3210baec8319e84f75e2d2d8ebab14a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac12d823df253263a95f2217921046902"><td class="memItemLeft" align="right" valign="top">static UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html#ac12d823df253263a95f2217921046902">UpdateFoliage</a> = new UnityEvent()</td></tr>
+<tr class="separator:ac12d823df253263a95f2217921046902"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a0092edbe85ba45bcf2db2e311ef58fea" name="a0092edbe85ba45bcf2db2e311ef58fea"></a>
@@ -648,6 +673,31 @@ Static Public Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">this object&#160;</td>
           <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0069a2efcc2115f08ec3e3a5cf0e8e6f" name="a0069a2efcc2115f08ec3e3a5cf0e8e6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0069a2efcc2115f08ec3e3a5cf0e8e6f">&#9670;&#160;</a></span>RemoveAllListeners()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RogueGenesia.GameManager.GameEventManager.RemoveAllListeners </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1296,8 +1346,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abc7639d8ae4b6219edd8a7e1915a1eb3" name="abc7639d8ae4b6219edd8a7e1915a1eb3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc7639d8ae4b6219edd8a7e1915a1eb3">&#9670;&#160;</a></span>OnCardBanished</h2>
+<a id="ae5ec1869d0543cd4fee70e83eb0b9cc5" name="ae5ec1869d0543cd4fee70e83eb0b9cc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5ec1869d0543cd4fee70e83eb0b9cc5">&#9670;&#160;</a></span>OnCardBanished</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1306,7 +1356,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a>&gt; RogueGenesia.GameManager.GameEventManager.OnCardBanished = new()</td>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a>&gt; RogueGenesia.GameManager.GameEventManager.OnCardBanished = new()</td>
         </tr>
       </table>
   </td>
@@ -1319,6 +1369,7 @@ Static Public Attributes</h2></td></tr>
 <p>Called when banishing a card<br  />
 <br  />
  SoulCardScriptableObject - Card scriptable object banished<br  />
+ SoulCardScriptableObject - Replacement for card<br  />
  </p><ul>
 </ul>
 <p>All listenter are removed upon leaving/starting a game  </p>
@@ -1384,6 +1435,36 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="af3e2a0bf35f848ab5ded62bef91cc7dd" name="af3e2a0bf35f848ab5ded62bef91cc7dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3e2a0bf35f848ab5ded62bef91cc7dd">&#9670;&#160;</a></span>OnCardRarityRerolled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a>&gt; RogueGenesia.GameManager.GameEventManager.OnCardRarityRerolled = new()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when rarity rerolling a card<br  />
+<br  />
+ SoulCardScriptableObject - Card rarityRerolled<br  />
+ SoulCardScriptableObject - New Card<br  />
+ </p><ul>
+</ul>
+<p>All listenter are removed upon leaving/starting a game  </p>
+
+</div>
+</div>
 <a id="af95f013b15b4fb5f999068ce85569273" name="af95f013b15b4fb5f999068ce85569273"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af95f013b15b4fb5f999068ce85569273">&#9670;&#160;</a></span>OnCardRemoved</h2>
 
@@ -1407,6 +1488,35 @@ Static Public Attributes</h2></td></tr>
 <p>Called when removing a card from player<br  />
 <br  />
  SoulCard - Card removed<br  />
+ </p><ul>
+</ul>
+<p>All listenter are removed upon leaving/starting a game  </p>
+
+</div>
+</div>
+<a id="a846af06e0c361b8b6658ee844e01917a" name="a846af06e0c361b8b6658ee844e01917a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a846af06e0c361b8b6658ee844e01917a">&#9670;&#160;</a></span>OnCardsReroll</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a>&gt;, List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html">SoulCardScriptableObject</a>&gt; &gt; RogueGenesia.GameManager.GameEventManager.OnCardsReroll = new()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Called when Rerolling Cards<br  />
+<br  />
+ List&lt;SoulCardScriptableObject&gt; - List of rerolled cards<br  />
+ List&lt;SoulCardScriptableObject&gt; - List of news cards<br  />
  </p><ul>
 </ul>
 <p>All listenter are removed upon leaving/starting a game  </p>
@@ -2368,6 +2478,36 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="acb622c61bf977ba17e6950dcd9fda1d4" name="acb622c61bf977ba17e6950dcd9fda1d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb622c61bf977ba17e6950dcd9fda1d4">&#9670;&#160;</a></span>OnPlayerTakeDamage_CalculateDefence</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html">OrderedEvent</a>&lt;<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_information_ref.html">DamageInformationRef</a>, <a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_float_value.html">FloatValue</a>&gt; RogueGenesia.GameManager.GameEventManager.OnPlayerTakeDamage_CalculateDefence = new()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when Player is taking damage, called when calculating defence<br  />
+<br  />
+ PlayerEntity - Player entity <br  />
+ DamageInformationRef - Damage informations<br  />
+ FloatValue - Defence value </p><ul>
+</ul>
+<p>All listenter are removed upon leaving/starting a game  </p>
+
+</div>
+</div>
 <a id="a3d987337eda721059487ef438c14095a" name="a3d987337eda721059487ef438c14095a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d987337eda721059487ef438c14095a">&#9670;&#160;</a></span>OnPlayerTakeDamage_PostDefence</h2>
 
@@ -2790,6 +2930,28 @@ Static Public Attributes</h2></td></tr>
  </p><ul>
 </ul>
 <p>All listenter are removed upon leaving/starting a game  </p>
+
+</div>
+</div>
+<a id="ac12d823df253263a95f2217921046902" name="ac12d823df253263a95f2217921046902"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac12d823df253263a95f2217921046902">&#9670;&#160;</a></span>UpdateFoliage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UnityEvent RogueGenesia.GameManager.GameEventManager.UpdateFoliage = new UnityEvent()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

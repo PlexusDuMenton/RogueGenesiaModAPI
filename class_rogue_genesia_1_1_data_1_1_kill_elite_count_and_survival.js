@@ -6,7 +6,8 @@ var class_rogue_genesia_1_1_data_1_1_kill_elite_count_and_survival =
     [ "GetFinalBudgetMultiplier", "class_rogue_genesia_1_1_data_1_1_kill_elite_count_and_survival.html#ac2b8570a3454f02a779ec36d25f85df1", null ],
     [ "GetMaxEliteAtOnce", "class_rogue_genesia_1_1_data_1_1_kill_elite_count_and_survival.html#a7bf5d0effdc8e225718ae8cb9f033d85", null ],
     [ "GetObjectiveText", "class_rogue_genesia_1_1_data_1_1_kill_elite_count_and_survival.html#a4fe1dec0296bb17408c213c05312becb", null ],
+    [ "GetShortDescription", "class_rogue_genesia_1_1_data_1_1_kill_elite_count_and_survival.html#a526054c4dcc68b0239664e6657b8f163", null ],
     [ "HasXpDropSoftCap", "class_rogue_genesia_1_1_data_1_1_kill_elite_count_and_survival.html#a5803123d6f81ecb13d8331ab17ebf725", null ],
     [ "OnStageAwake", "class_rogue_genesia_1_1_data_1_1_kill_elite_count_and_survival.html#a6afbbaae8bba206f582f1c368938929c", null ],
-    [ "SetObjective", "class_rogue_genesia_1_1_data_1_1_kill_elite_count_and_survival.html#af02fd59e1e96e3416c8e610f32fcd58e", null ]
+    [ "SetObjective", "class_rogue_genesia_1_1_data_1_1_kill_elite_count_and_survival.html#ab87ae949367fa8379fad1beaab1ec5e1", null ]
 ];

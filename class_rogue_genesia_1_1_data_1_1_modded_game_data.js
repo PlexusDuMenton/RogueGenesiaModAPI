@@ -1,5 +1,6 @@
 var class_rogue_genesia_1_1_data_1_1_modded_game_data =
 [
+    [ "GetAllModdedScriptableObjectOfType< T >", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a588e157de051f1c761f4718cf5f828d1", null ],
     [ "OnUnloadMods", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a50fa8cc1a886e9c561a2f2a29ca0b26e", null ],
     [ "SetModded", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#ab48a9cd837d052bb04b4c19b016c70ed", null ],
     [ "ModdedAchievements", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#add846649a17329caebe239bba689de87", null ],
@@ -14,6 +15,7 @@ var class_rogue_genesia_1_1_data_1_1_modded_game_data =
     [ "ModdedEnemies", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a519938adeeb5404a846892c1ab8902af", null ],
     [ "ModdedGameMode", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a0e8255ff902bf307fd1e57d4bab89331", null ],
     [ "ModdedGeneralAbility", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a55f20f85a06371e2b8857f8b711bef84", null ],
+    [ "ModdedKeybinds", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a0b82476b57b67ae59c8b785985fd0593", null ],
     [ "ModdedOption", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a33b69264e406bfaa3e6d9d82b097bf44", null ],
     [ "ModdedPets", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a67c1fdd3ccc51a6298af0e7860bbdfb8", null ],
     [ "ModdedShopBuyable", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a41e213e7275b64767bf61a3bab32c4b1", null ],
@@ -23,5 +25,6 @@ var class_rogue_genesia_1_1_data_1_1_modded_game_data =
     [ "ModdedStageType", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#ae457ea75c1a22eac465af8d9662c8f22", null ],
     [ "ModdedStats", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#adca6b58d3fc4c0fa66b2bf21fddc3c23", null ],
     [ "ModdedTalent", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a3a85c40e4d5201cda514fe559c405095", null ],
+    [ "ModdedZone", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#a92b504e252f47860b3a29d767978bcad", null ],
     [ "IsModded", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html#ab747d763268f65467ad79af3d151dca2", null ]
 ];

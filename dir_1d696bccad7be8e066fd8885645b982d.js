@@ -11,5 +11,6 @@ var dir_1d696bccad7be8e066fd8885645b982d =
     [ "ProceduralObjectPlacement.cs", "_procedural_object_placement_8cs.html", "_procedural_object_placement_8cs" ],
     [ "ProjectileManager.cs", "_projectile_manager_8cs.html", "_projectile_manager_8cs" ],
     [ "StageSelectionManager.cs", "_stage_selection_manager_8cs.html", "_stage_selection_manager_8cs" ],
-    [ "SummonManager.cs", "_summon_manager_8cs.html", "_summon_manager_8cs" ]
+    [ "SummonManager.cs", "_summon_manager_8cs.html", "_summon_manager_8cs" ],
+    [ "ZoneSelectionManager.cs", "_zone_selection_manager_8cs.html", "_zone_selection_manager_8cs" ]
 ];

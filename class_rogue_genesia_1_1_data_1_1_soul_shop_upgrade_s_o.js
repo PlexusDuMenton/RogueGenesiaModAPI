@@ -23,6 +23,7 @@ var class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o =
       [ "AnachronicWatchSlowDownRatio", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc34381676ecd99288db3111ac3263ecaf3872e468cefbfcc546b74dfc4e2852a", null ],
       [ "AnachronicWatchSlowDownMoveSpeed", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc34381676ecd99288db3111ac3263eca559aa6cb54a9f300a34e54f21af3cf64", null ],
       [ "BonusTalentSlot", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc34381676ecd99288db3111ac3263eca6bbe90c7d237b878bffc05bdb2f9df4a", null ],
+      [ "CardSelectionChoiceCount", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc34381676ecd99288db3111ac3263ecad4d447f7ff1f127aea0a5353bdd73adc", null ],
       [ "HyperCritUnlock", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc34381676ecd99288db3111ac3263ecad84ad73bf18dd7c5dfe99d769a28a0f4", null ],
       [ "HyperCritStack", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc34381676ecd99288db3111ac3263ecab59ad7b62234ce5a51d9c17bdb8c576e", null ],
       [ "Custom", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc34381676ecd99288db3111ac3263eca90589c47f06eb971d548591f23c285af", null ]
@@ -38,6 +39,12 @@ var class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o =
       [ "S", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acda6fffa3a458f99fbc59a754c20180ca5dbc98dcc983a70728bd082d1a47546e", null ],
       [ "MAX", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acda6fffa3a458f99fbc59a754c20180ca26a4b44a837bf97b972628509912b4a5", null ]
     ] ],
+    [ "UpgradeCategory", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc412c6b64a7d92d366759c2a7b8f884", [
+      [ "Default", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc412c6b64a7d92d366759c2a7b8f884a7a1920d61156abc05a60135aefe8bc67", null ],
+      [ "Stats", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc412c6b64a7d92d366759c2a7b8f884a452a7601dbc6f2c38aa89e68bda8b603", null ],
+      [ "Super", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc412c6b64a7d92d366759c2a7b8f884a0ce3266d4eb71ad50f7a90aee6d21dcd", null ],
+      [ "Unique", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc412c6b64a7d92d366759c2a7b8f884ad019979a29c88c8d69bab3a63388da97", null ]
+    ] ],
     [ "CreateInfoClass", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#abe51e421fce93a003e11142df226ae54", null ],
     [ "CumulatedPrice", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#af57cbc8721c49afab524224e7df6bb1f", null ],
     [ "GetBaseValue", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#a45bde8069f4f09682b343d79937bf90c", null ],
@@ -50,7 +57,9 @@ var class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o =
     [ "GetStatsModifier", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#ab3027cae34aa54672c987cc713b939dd", null ],
     [ "GetStatsString", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#a453033ab3ce4bad7dad33b8c553fd759", null ],
     [ "GetTypeConstructor", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#a3d0ae2ec59f26cfa960f4809545df1ed", null ],
+    [ "GetUpgradeColor", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#ae03f2692318daf6aa12936981b06b78e", null ],
     [ "OnInitPlayer", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#a48db39cb794d9c89b70e95128c226708", null ],
+    [ "OnInitStatUpdate", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#a0c756dd4419f7f92aa1d8542334aea1d", null ],
     [ "OnStatUpdate", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#a4bdff02dcd50d0179e5b6bb89843ad62", null ],
     [ "OnValidate", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#aeafd523201ce995e01365a4c0ec7bf61", null ],
     [ "RefundValue", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#aa79e43e261839bb0afbfb26c98b08db6", null ],
@@ -67,6 +76,7 @@ var class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o =
     [ "SSOrder", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#a02df59db70d6eb80aca0e829aeacb3ef", null ],
     [ "StatsModifier", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#a79d55434945250ae27fd4aebfbf07819", null ],
     [ "TypeConstructor", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#a695e32415c63884dc18c87c364bf1444", null ],
+    [ "UpgradeCat", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#ab3aa1af33d5144e21b2ae698b841a1ab", null ],
     [ "UpgradeTier", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#a302a9e242f4498aafbbaeda7a0ff9740", null ],
     [ "UpgradeType", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#abbc6ae50ba554a1b0cb36becae11fb8e", null ],
     [ "Values", "class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#a481f5521cae732def6af13ee91c8f5c5", null ],

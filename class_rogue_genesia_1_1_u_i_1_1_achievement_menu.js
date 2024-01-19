@@ -16,7 +16,6 @@ var class_rogue_genesia_1_1_u_i_1_1_achievement_menu =
     [ "SwapOldSystem", "class_rogue_genesia_1_1_u_i_1_1_achievement_menu.html#aa0b971822fca54552f9c42bfd1c16579", null ],
     [ "ToggleLockedOnly", "class_rogue_genesia_1_1_u_i_1_1_achievement_menu.html#a5dfd8dc0d91941eddff1448ce61f617a", null ],
     [ "Update", "class_rogue_genesia_1_1_u_i_1_1_achievement_menu.html#a9de7c1458ab606305f2cc78292c824d3", null ],
-    [ "actions", "class_rogue_genesia_1_1_u_i_1_1_achievement_menu.html#aa30ef47ec3f04a0c98a7530222208edb", null ],
     [ "BackButton", "class_rogue_genesia_1_1_u_i_1_1_achievement_menu.html#a7b70288eb9e0231fbe3b481af0473ddc", null ],
     [ "displayLockedOnly", "class_rogue_genesia_1_1_u_i_1_1_achievement_menu.html#aac4a61458c9808ef835c58e48d458aa0", null ],
     [ "FilterButton", "class_rogue_genesia_1_1_u_i_1_1_achievement_menu.html#a0921594438242fa6fc7c3a1744ebb030", null ],
@@ -26,5 +25,6 @@ var class_rogue_genesia_1_1_u_i_1_1_achievement_menu =
     [ "NextPageButton", "class_rogue_genesia_1_1_u_i_1_1_achievement_menu.html#ad5f5ac7c244fd49c5c0d83da87427f74", null ],
     [ "PageText", "class_rogue_genesia_1_1_u_i_1_1_achievement_menu.html#a90f4bf1f5a79f009e5039850478a369b", null ],
     [ "PrevPageButton", "class_rogue_genesia_1_1_u_i_1_1_achievement_menu.html#abb71ab562b326bc8ce8086732155917b", null ],
-    [ "RunOnlyAchievements", "class_rogue_genesia_1_1_u_i_1_1_achievement_menu.html#ab9dec81617386ae1fa8d23f7aa0eea9a", null ]
+    [ "RunOnlyAchievements", "class_rogue_genesia_1_1_u_i_1_1_achievement_menu.html#ab9dec81617386ae1fa8d23f7aa0eea9a", null ],
+    [ "actions", "class_rogue_genesia_1_1_u_i_1_1_achievement_menu.html#aa30ef47ec3f04a0c98a7530222208edb", null ]
 ];

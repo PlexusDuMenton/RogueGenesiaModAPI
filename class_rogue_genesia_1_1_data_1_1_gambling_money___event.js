@@ -16,6 +16,7 @@ var class_rogue_genesia_1_1_data_1_1_gambling_money___event =
     [ "GetVisualScene", "class_rogue_genesia_1_1_data_1_1_gambling_money___event.html#a173e6396a7425d561906dfcbc8e640f8", null ],
     [ "IsAnswerEnabled", "class_rogue_genesia_1_1_data_1_1_gambling_money___event.html#ae064e8709c2431591c8b80e01924cf8a", null ],
     [ "NextAnswer", "class_rogue_genesia_1_1_data_1_1_gambling_money___event.html#ada26b428ec4b5028fb042d31a5857c1f", null ],
+    [ "NextTextDisplayed", "class_rogue_genesia_1_1_data_1_1_gambling_money___event.html#a225ae048c7ce299ed5247ea20ec67c23", null ],
     [ "OffOverAnswer", "class_rogue_genesia_1_1_data_1_1_gambling_money___event.html#ab45edd91b020575980b621bf70be005e", null ],
     [ "OnLevelLoaded", "class_rogue_genesia_1_1_data_1_1_gambling_money___event.html#af2649a997d5b68a17c51f9e3fc387091", null ],
     [ "OnOverAnswer", "class_rogue_genesia_1_1_data_1_1_gambling_money___event.html#abd7efa36766a3b089c5459e4307a73f7", null ],

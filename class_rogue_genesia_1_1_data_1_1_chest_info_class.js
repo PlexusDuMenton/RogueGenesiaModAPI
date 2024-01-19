@@ -1,5 +1,6 @@
 var class_rogue_genesia_1_1_data_1_1_chest_info_class =
 [
+    [ "ArtifactChance", "class_rogue_genesia_1_1_data_1_1_chest_info_class.html#a2484830c18e384484f6c7e8e2ff11954", null ],
     [ "ArtifactReward", "class_rogue_genesia_1_1_data_1_1_chest_info_class.html#acb27f9e3f9748497dbeecb3ceb0219ed", null ],
     [ "CardSelectionReward", "class_rogue_genesia_1_1_data_1_1_chest_info_class.html#a34150c951c5b85274cec9187c743a9fb", null ],
     [ "GetExpReward", "class_rogue_genesia_1_1_data_1_1_chest_info_class.html#a56e17866f208555fb7d4e6768b4a726d", null ],

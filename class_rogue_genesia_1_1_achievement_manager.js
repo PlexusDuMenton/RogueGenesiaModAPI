@@ -22,6 +22,7 @@ var class_rogue_genesia_1_1_achievement_manager =
     [ "LoadAchievement", "class_rogue_genesia_1_1_achievement_manager.html#abcd968b86288bed0f1d13d9490299c87", null ],
     [ "LockLockable", "class_rogue_genesia_1_1_achievement_manager.html#a475f098cfcfccef2c30e31e9e0e7c052", null ],
     [ "OnAchievementUnlocked", "class_rogue_genesia_1_1_achievement_manager.html#a039b71674668d51c7d38ab7bfcb7c06f", null ],
+    [ "OnGameInit", "class_rogue_genesia_1_1_achievement_manager.html#a182204df6969bee3c1a061133ad93b06", null ],
     [ "OnLoadSaveCheck", "class_rogue_genesia_1_1_achievement_manager.html#a2432c06ec8c2bc8e360ce9151946f146", null ],
     [ "ReInit", "class_rogue_genesia_1_1_achievement_manager.html#ae625828acc15dea5ac6ca2678e3d7b78", null ],
     [ "ResendAllAchievementToSteam", "class_rogue_genesia_1_1_achievement_manager.html#a02d4133194fbe67988da241b6cb275bc", null ],

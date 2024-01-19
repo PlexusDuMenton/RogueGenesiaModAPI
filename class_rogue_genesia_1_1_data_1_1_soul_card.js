@@ -1,6 +1,7 @@
 var class_rogue_genesia_1_1_data_1_1_soul_card =
 [
     [ "Equals", "class_rogue_genesia_1_1_data_1_1_soul_card.html#ae29888580b3199e16bcd26840bed0b59", null ],
+    [ "GetBiome", "class_rogue_genesia_1_1_data_1_1_soul_card.html#ac545a138ef754192412155a8cb1afbb5", null ],
     [ "GetDescription", "class_rogue_genesia_1_1_data_1_1_soul_card.html#a433e3a64f04ed0f01f478059c1e00b5e", null ],
     [ "GetEvolutionDetail", "class_rogue_genesia_1_1_data_1_1_soul_card.html#acbd88f077670d69e5682e92543697c9c", null ],
     [ "GetHashCode", "class_rogue_genesia_1_1_data_1_1_soul_card.html#af8993c8c9804399ff6a0498855ccbf34", null ],
@@ -11,6 +12,7 @@ var class_rogue_genesia_1_1_data_1_1_soul_card =
     [ "OnAttack", "class_rogue_genesia_1_1_data_1_1_soul_card.html#a64ecd357389e7b640566f0814f4fe395", null ],
     [ "OnDash", "class_rogue_genesia_1_1_data_1_1_soul_card.html#ad9e989433cc981a3c6a06a595183fd72", null ],
     [ "OnFlatStatUpdate", "class_rogue_genesia_1_1_data_1_1_soul_card.html#a232435ac6479dfc9909686198b7b7914", null ],
+    [ "OnGameInit", "class_rogue_genesia_1_1_data_1_1_soul_card.html#a892f4bce91cca70b118d86d3ca875de9", null ],
     [ "OnKill", "class_rogue_genesia_1_1_data_1_1_soul_card.html#a0f6161b0ff7277f0a79f985333546f4b", null ],
     [ "OnMultiplierStatUpdate", "class_rogue_genesia_1_1_data_1_1_soul_card.html#afc8ea87dbef4cd41d828c8b0348549b4", null ],
     [ "OnPostStatUpdate", "class_rogue_genesia_1_1_data_1_1_soul_card.html#a39fa09b65a6f5040404968bc00e05c24", null ],
