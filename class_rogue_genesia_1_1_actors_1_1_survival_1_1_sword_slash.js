@@ -10,6 +10,5 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_sword_slash =
     [ "SourceTransform", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_sword_slash.html#a15a3bf2af21d349431313b9d9744caed", null ],
     [ "TotalLifeTime", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_sword_slash.html#a401be59327c02efaf7f9ccc91d9163fa", null ],
     [ "UpdateTime", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_sword_slash.html#abfc454a8e0cc5aba69b82da800ce9ded", null ],
-    [ "Weapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_sword_slash.html#af2beb5336eb99b2812224833c3193b49", null ],
-    [ "WeaponDamage", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_sword_slash.html#a3fe86e9a5f0e9e7f1e059d571a4c1556", null ]
+    [ "Weapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_sword_slash.html#af2beb5336eb99b2812224833c3193b49", null ]
 ];

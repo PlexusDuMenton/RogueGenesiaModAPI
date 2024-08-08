@@ -11,6 +11,7 @@ var dir_6ab8a7d0872e9a3a0e6545037fb7dc98 =
     [ "TabScript.cs", "_tab_script_8cs.html", "_tab_script_8cs" ],
     [ "UILevelUp.cs", "_u_i_level_up_8cs.html", "_u_i_level_up_8cs" ],
     [ "WeaponModifierSlot.cs", "_weapon_modifier_slot_8cs.html", "_weapon_modifier_slot_8cs" ],
+    [ "WeaponModifierSlotGamePad.cs", "_weapon_modifier_slot_game_pad_8cs.html", "_weapon_modifier_slot_game_pad_8cs" ],
     [ "WeaponSlotScript.cs", "_weapon_slot_script_8cs.html", "_weapon_slot_script_8cs" ],
     [ "WeaponTab.cs", "_weapon_tab_8cs.html", "_weapon_tab_8cs" ]
 ];

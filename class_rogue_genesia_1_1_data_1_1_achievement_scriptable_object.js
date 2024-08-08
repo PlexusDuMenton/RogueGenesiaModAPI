@@ -87,7 +87,7 @@ var class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object =
     [ "SoulLevelToReach", "class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html#a1171cf634268003121b28b09394ea51f", null ],
     [ "StatsName", "class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html#a3b79b09103b54aecf4ac5ed1664a22b0", null ],
     [ "StatsThreadhold", "class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html#a78db9a190e78e9d928e7e879aff464d2", null ],
-    [ "StatsType", "class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html#a76c6521850b3a3fc7a68b8cedc16b86b", null ],
+    [ "StatsType", "class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html#aff0a4a2c530d25df2c62a7d1656d752e", null ],
     [ "SteamAchievementID", "class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html#ab0d456d0a44ed16b7be7c579ee10b0b5", null ],
     [ "SuperSecret", "class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html#abbeafbcc55ea6e4d7e9fbe4b8cad5e74", null ],
     [ "texture", "class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html#a0d4c1a8918fa433287236e939631a852", null ],

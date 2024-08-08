@@ -1,0 +1,27 @@
+digraph "RogueGenesia.Actors.Survival.SummonAbility"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="RogueGenesia.Actors.Survival.\lSummonAbility",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="RogueGenesia.Actors.Survival.\lNecroBurstAttack",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_burst_attack.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="RogueGenesia.Actors.Survival.\lNecroSummonAbility",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_summon_ability.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="RogueGenesia.Actors.Survival.\lShamanBurstAttack",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_burst_attack.html",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="RogueGenesia.Actors.Survival.\lShamanRafaleAttack",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_rafale_attack.html",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="RogueGenesia.Actors.Survival.\lShamanSummonHeal",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_summon_heal.html",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node7 [label="RogueGenesia.Actors.Survival.\lShamanSummoningGoblin",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_summoning_goblin.html",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="steelblue1",style="solid"];
+  Node8 [label="RogueGenesia.Actors.Survival.\lShamanSummoningGoblinMage",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_summoning_goblin_mage.html",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="steelblue1",style="solid"];
+  Node9 [label="RogueGenesia.Actors.Survival.\lWormSummonDashAttack",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_summon_dash_attack.html",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="steelblue1",style="solid"];
+  Node10 [label="RogueGenesia.Actors.Survival.\lWormSummonSpitAttack",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_summon_spit_attack.html",tooltip=" "];
+}

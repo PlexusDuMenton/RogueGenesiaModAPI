@@ -2,9 +2,11 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss =
 [
     [ "DestroyEndFlyZone", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#ac99bbee49421f027b519156b9d50b159", null ],
     [ "GetIntroDuration", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#a2543dda2b30351933f79a69868de54ea", null ],
+    [ "GetRessourceValue", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#a5a786bc148039baa471acfb9f443f1d3", null ],
+    [ "HasRessource", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#aab5c765637d829f4487e1a86773bb33f", null ],
     [ "Idle", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#abc9f020880cb80586a820113b36bb699", null ],
     [ "InitMonster", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#affdbeb40d3ef35f24e3b4c0de8d9679d", null ],
-    [ "InstantDeath", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#affe52e75393d652833bd8364858d3e32", null ],
+    [ "InstantDeath", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#a01ae351eca0b29ac872065d24fd5279d", null ],
     [ "Move", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#a95911850c77f536e4bbbd78da12f4a8e", null ],
     [ "MoveToPositionOverride", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#a8d6b1fa56be5b8149dd2c861b662eee7", null ],
     [ "OnDeath", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_necro_mancer_boss.html#aa025d4a61fec94d24e27064ce2fb0fef", null ],

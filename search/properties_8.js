@@ -13,5 +13,7 @@ var searchData=
   ['healthregenbuff_10',['HealthRegenBuff',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_desynchronised_heart_buff.html#af61709fe87e701112a97790777575fd1',1,'RogueGenesia::Actors::Survival::DesynchronisedHeartBuff']]],
   ['hiddenstage_11',['HiddenStage',['../class_rogue_genesia_1_1_data_1_1_challenge_data.html#a962c58b0cdceaf09aac0a271dcc2097a',1,'RogueGenesia::Data::ChallengeData']]],
   ['higgercompleteddifficulty_12',['HiggerCompletedDifficulty',['../class_rogue_genesia_1_1_data_1_1_game_data_save.html#a31f27a058a8101379d44cec148e07415',1,'RogueGenesia::Data::GameDataSave']]],
-  ['hourglass_13',['HourGlass',['../class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a36c0cd283bdec0e957a2939117c3b2a9',1,'RogueGenesia::Data::ChallengeModifier']]]
+  ['hourglass_13',['HourGlass',['../class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a36c0cd283bdec0e957a2939117c3b2a9',1,'RogueGenesia::Data::ChallengeModifier']]],
+  ['hypercrit_14',['HyperCrit',['../class_rogue_genesia_1_1_data_1_1_player_s_s_u_data.html#ab85102f520b9797d6970ffe524b7c35c',1,'RogueGenesia::Data::PlayerSSUData']]],
+  ['hypercritstack_15',['HyperCritStack',['../class_rogue_genesia_1_1_data_1_1_player_s_s_u_data.html#aa8bfc8b356bec865526892ac793e45d1',1,'RogueGenesia::Data::PlayerSSUData']]]
 ];

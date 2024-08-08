@@ -29,5 +29,6 @@ var class_rogue_genesia_1_1_game_manager_1_1_zone_selection_manager =
     [ "ZoneTitle", "class_rogue_genesia_1_1_game_manager_1_1_zone_selection_manager.html#a92286370dc8cf47fedf243cfc6b6520c", null ],
     [ "ZoneTitleBG", "class_rogue_genesia_1_1_game_manager_1_1_zone_selection_manager.html#a565950e5d3ec348e1f601ab0b59fd3a1", null ],
     [ "ZoneTitleParent", "class_rogue_genesia_1_1_game_manager_1_1_zone_selection_manager.html#aee2cd4c2e87134ab0210d5e19c1497bf", null ],
+    [ "_gameMenuAction", "class_rogue_genesia_1_1_game_manager_1_1_zone_selection_manager.html#af7edc132626d09a469ef42f7c3a5ab26", null ],
     [ "actions", "class_rogue_genesia_1_1_game_manager_1_1_zone_selection_manager.html#aa175b280e307c655b948feb1e6c608e0", null ]
 ];

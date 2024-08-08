@@ -1,7 +1,9 @@
 var class_rogue_genesia_1_1_data_1_1_stage_objective =
 [
+    [ "AddEnnemyToETK", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#ac8b93bb836228df0ba55884755ca83fc", null ],
     [ "CanBePickedAsOptional", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#ae890893a04097984efc4c2b079e4f494", null ],
     [ "CheckObjective", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a6d760d0b2094858dc9868e0ebfd0db13", null ],
+    [ "ForceMinimalEliteCount", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a7406e9742333b87cc41a06e746d05ce7", null ],
     [ "GetBudgetFromObjective", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a137da2fe3fe81fb24d09ac0fac3367e9", null ],
     [ "GetDescription", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a7fd45e52c44365677451609d01f14b2e", null ],
     [ "GetEliteSpawnChanceMultiplier", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a65c83f3b5461a6dbccbe739ad0b9c837", null ],
@@ -23,6 +25,7 @@ var class_rogue_genesia_1_1_data_1_1_stage_objective =
     [ "OnOptionalStageEnd", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a38817ae97a9a9eac7131fcbb2e11e315", null ],
     [ "OnStageAwake", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#afb3419e8f194d59e7be083b1c1529197", null ],
     [ "OnStageStart", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a641fb0ba00a7bd0d0a70ed9194d60a8f", null ],
+    [ "OnUpdate", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a52c3dc5867ba36dd24fd3eb1f4dffef4", null ],
     [ "SetObjective", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a1bbc373d412bfb9f6d8e93ea3ecbbafb", null ],
     [ "SetOptionalObjective", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a8cfe391261fc5d56c831489a237d60bc", null ],
     [ "SpawnTarget", "class_rogue_genesia_1_1_data_1_1_stage_objective.html#a39f71add42f8f1e6d7e1f40b4268f7f3", null ],

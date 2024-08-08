@@ -19,7 +19,12 @@ var dir_7377d056962abb6c231b2be32339b00b =
     [ "OrbitalProjectileAI.cs", "_orbital_projectile_a_i_8cs.html", "_orbital_projectile_a_i_8cs" ],
     [ "PikeProjectileAi.cs", "_pike_projectile_ai_8cs.html", "_pike_projectile_ai_8cs" ],
     [ "PlanetaryProjectileAI.cs", "_planetary_projectile_a_i_8cs.html", "_planetary_projectile_a_i_8cs" ],
+    [ "QueenAnachronisticProjectileAI.cs", "_queen_anachronistic_projectile_a_i_8cs.html", "_queen_anachronistic_projectile_a_i_8cs" ],
+    [ "SpecialEffectAOE_AffectProjectiles_AI.cs", "_special_effect_a_o_e___affect_projectiles___a_i_8cs.html", "_special_effect_a_o_e___affect_projectiles___a_i_8cs" ],
     [ "SpecialEffectAOEAI.cs", "_special_effect_a_o_e_a_i_8cs.html", "_special_effect_a_o_e_a_i_8cs" ],
+    [ "TelegraphLaserProjectileAI.cs", "_telegraph_laser_projectile_a_i_8cs.html", "_telegraph_laser_projectile_a_i_8cs" ],
+    [ "VampireQueenKnifeProjectile.cs", "_vampire_queen_knife_projectile_8cs.html", "_vampire_queen_knife_projectile_8cs" ],
     [ "VisualProjectileAI.cs", "_visual_projectile_a_i_8cs.html", "_visual_projectile_a_i_8cs" ],
-    [ "WispProjectileAI.cs", "_wisp_projectile_a_i_8cs.html", "_wisp_projectile_a_i_8cs" ]
+    [ "WispProjectileAI.cs", "_wisp_projectile_a_i_8cs.html", "_wisp_projectile_a_i_8cs" ],
+    [ "WispProjectileAI_V2.cs", "_wisp_projectile_a_i___v2_8cs.html", "_wisp_projectile_a_i___v2_8cs" ]
 ];

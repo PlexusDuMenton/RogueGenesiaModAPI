@@ -36,6 +36,7 @@ var _game_data_8cs =
       [ "Infinity", "_game_data_8cs.html#ad44f0911ce096d9919873f116fe32373aeb2ac5b04180d8d6011a016aeb8f75b3", null ]
     ] ],
     [ "EProfileGameMode", "_game_data_8cs.html#a11d6e4dd69d3c01685ecee972f8cc965", [
+      [ "UltraCasual", "_game_data_8cs.html#a11d6e4dd69d3c01685ecee972f8cc965a3355c0f90152f2898fcf89e0850af62e", null ],
       [ "Casual", "_game_data_8cs.html#a11d6e4dd69d3c01685ecee972f8cc965a28d5d53226be8aa8da42d9cbdd312e62", null ],
       [ "Normal", "_game_data_8cs.html#a11d6e4dd69d3c01685ecee972f8cc965a960b44c579bc2f6818d2daaf9e4c16f0", null ],
       [ "HeroSoul", "_game_data_8cs.html#a11d6e4dd69d3c01685ecee972f8cc965a6c2370d3ed9c831e7d49fddb6d1af01a", null ]

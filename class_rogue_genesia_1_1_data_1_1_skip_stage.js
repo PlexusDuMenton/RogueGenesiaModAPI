@@ -1,8 +1,8 @@
 var class_rogue_genesia_1_1_data_1_1_skip_stage =
 [
-    [ "GetModifierDescription", "class_rogue_genesia_1_1_data_1_1_skip_stage.html#a06fccaf5d34dc718ea4a7d22696dd495", null ],
-    [ "OnEndRun", "class_rogue_genesia_1_1_data_1_1_skip_stage.html#ac75f305dffe6ed871a2cd276111aa661", null ],
-    [ "OnLoadRun", "class_rogue_genesia_1_1_data_1_1_skip_stage.html#ad7006ca60e3e7610d6e193fc3c6ff945", null ],
-    [ "OnQuitRun", "class_rogue_genesia_1_1_data_1_1_skip_stage.html#aa6016a80c8471999f15eea7a547ce173", null ],
-    [ "OnStartRun", "class_rogue_genesia_1_1_data_1_1_skip_stage.html#a787cdc568c653acf64cfef8d34fbd09f", null ]
+    [ "GetModifierDescription", "class_rogue_genesia_1_1_data_1_1_skip_stage.html#a1c9e4e363265cc3057ff9b592d040546", null ],
+    [ "OnEndRun", "class_rogue_genesia_1_1_data_1_1_skip_stage.html#a58547a61c8e96b45619995ebf3ad1edd", null ],
+    [ "OnLoadRun", "class_rogue_genesia_1_1_data_1_1_skip_stage.html#a214abf61d61bf695375a119444fc0b68", null ],
+    [ "OnQuitRun", "class_rogue_genesia_1_1_data_1_1_skip_stage.html#a0d71c5e959d7cdc4b73ac91582f2846b", null ],
+    [ "OnStartRun", "class_rogue_genesia_1_1_data_1_1_skip_stage.html#a05b039d0d91b98346053d05df2b69244", null ]
 ];

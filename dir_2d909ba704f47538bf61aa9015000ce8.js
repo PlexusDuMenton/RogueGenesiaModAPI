@@ -15,6 +15,7 @@ var dir_2d909ba704f47538bf61aa9015000ce8 =
     [ "Weapon", "dir_9a55c8360f29f1597692ee7f102bfb3c.html", "dir_9a55c8360f29f1597692ee7f102bfb3c" ],
     [ "AchievementTrigger.cs", "_achievement_trigger_8cs.html", "_achievement_trigger_8cs" ],
     [ "Entity.cs", "_entity_8cs.html", "_entity_8cs" ],
+    [ "EntityTime.cs", "_entity_time_8cs.html", "_entity_time_8cs" ],
     [ "Statistic.cs", "_statistic_8cs.html", "_statistic_8cs" ],
     [ "StatisticContainer.cs", "_statistic_container_8cs.html", "_statistic_container_8cs" ],
     [ "SurvivorsModeModuleSO.cs", "_survivors_mode_module_s_o_8cs.html", "_survivors_mode_module_s_o_8cs" ]

@@ -2,8 +2,9 @@ var interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity =
 [
     [ "AddBuff", "interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a477fca1f46faca49dd350ad43b833f2f", null ],
     [ "DeathSource", "interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a83edacc4d542ada96d3cc87dcf82bcc9", null ],
-    [ "GetEntityTime", "interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#aa543b539bb1b144b6af047341e8eb724", null ],
+    [ "GetEntityTime", "interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#ac49ef31229ec533f329c93bd2d3c004d", null ],
     [ "GetLinkedGameObject", "interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a90e8de6b1c0ad259ee1833a945df09ed", null ],
+    [ "GetProxyRigidBody", "interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a584f94ec1c8ecbf02dd4b571224874c2", null ],
     [ "GetSubEntity", "interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a57e7c0e58764244ffdf25d96512c3d38", null ],
     [ "GetTimeScale", "interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a64d53807b144fb3c47199f49c74e2a99", null ],
     [ "HasBuff", "interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a758ee12f4e23abaccf0956804cbad257", null ],
@@ -15,7 +16,7 @@ var interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity =
     [ "SetPoisonDamageDisplay", "interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#aac9756eff4448540145c042294f48d67", null ],
     [ "TakeDamage", "interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a43c3323075797b7a705952d8e5f37a52", null ],
     [ "TakeDamageProjectile", "interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a43b872286ea8b1f7633c7185158b052a", null ],
-    [ "EntityTime", "interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a1f648bbaa8c8fa43a469602506d0b9bf", null ],
+    [ "EntityTime", "interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a76cc1340a370e3c1521201545ddaf218", null ],
     [ "HasASubEntity", "interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#acdfa7161fd59115db0abf6c56cf6e2d2", null ],
     [ "SubEntity", "interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a9831424d61c4ceb9ea4a6acf1d02d535", null ],
     [ "TimeScale", "interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html#a02fee01401b532b75db41e3cca484758", null ]

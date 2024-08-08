@@ -17,5 +17,7 @@ digraph "RogueGenesia.Actors.Survival.BossMonster"
   Node1 -> Node6 [dir="back",color="steelblue1",style="solid"];
   Node6 [label="RogueGenesia.Actors.Survival.\lShamanBoss",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_boss.html",tooltip=" "];
   Node1 -> Node7 [dir="back",color="steelblue1",style="solid"];
-  Node7 [label="RogueGenesia.Actors.Survival.\lWormBoss",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_boss.html",tooltip=" "];
+  Node7 [label="RogueGenesia.Actors.Survival.\lVampireQueenBoss",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_vampire_queen_boss.html",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="steelblue1",style="solid"];
+  Node8 [label="RogueGenesia.Actors.Survival.\lWormBoss",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_boss.html",tooltip=" "];
 }

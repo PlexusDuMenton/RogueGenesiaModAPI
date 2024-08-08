@@ -5,6 +5,8 @@ var dir_0fd15cf76cb3539c3478213ea7e4b685 =
     [ "FontSizeManager.cs", "_font_size_manager_8cs.html", "_font_size_manager_8cs" ],
     [ "GameEventManager.cs", "_game_event_manager_8cs.html", "_game_event_manager_8cs" ],
     [ "GlobalIndicatorHelper.cs", "_global_indicator_helper_8cs.html", "_global_indicator_helper_8cs" ],
+    [ "GlobalKeywordManager.cs", "_global_keyword_manager_8cs.html", "_global_keyword_manager_8cs" ],
+    [ "GlobalMessageManager.cs", "_global_message_manager_8cs.html", "_global_message_manager_8cs" ],
     [ "GlobalToolTipManager.cs", "_global_tool_tip_manager_8cs.html", "_global_tool_tip_manager_8cs" ],
     [ "InputCheck.cs", "_input_check_8cs.html", "_input_check_8cs" ],
     [ "MouseCursorManager.cs", "_mouse_cursor_manager_8cs.html", "_mouse_cursor_manager_8cs" ],

@@ -7,10 +7,6 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/TalentSystem/Talents/Pas
   compound=true
   subgraph clusterdir_436dbab514520e3dd848c5db67b8a2f6 {
     graph [ bgcolor="#daedff", pencolor="grey50", label="Talents", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_436dbab514520e3dd848c5db67b8a2f6.html",tooltip=""]
-  subgraph clusterdir_c9a7f2eecfbbd6b6f4a57cc710561f25 {
-    graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_c9a7f2eecfbbd6b6f4a57cc710561f25.html",tooltip=""]
-    dir_c9a7f2eecfbbd6b6f4a57cc710561f25 [shape=plaintext, label="Passive"];
-  dir_be5fe6b617a4deefff5be785c056d6fe [label="GodStone", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_be5fe6b617a4deefff5be785c056d6fe.html",tooltip=""];
-  }
+  dir_c9a7f2eecfbbd6b6f4a57cc710561f25 [label="Passive", fillcolor="#daedff", color="grey25", style="filled,bold", URL="dir_c9a7f2eecfbbd6b6f4a57cc710561f25.html",tooltip=""];
   }
 }

@@ -7,9 +7,21 @@ digraph "RogueGenesia.Data.CustomChallengeDescription"
   rankdir="LR";
   Node1 [label="RogueGenesia.Data.Custom\lChallengeDescription",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
   Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
-  Node2 [label="RogueGenesia.Data.Endurance\lChallengeDescription",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_endurance_challenge_description.html",tooltip=" "];
+  Node2 [label="RogueGenesia.Data.Arcade\lDescription",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_arcade_description.html",tooltip=" "];
   Node1 -> Node3 [dir="back",color="steelblue1",style="solid"];
-  Node3 [label="RogueGenesia.Data.Vanilla\lCustomChallengeModifierDescription",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_vanilla_custom_challenge_modifier_description.html",tooltip=" "];
+  Node3 [label="RogueGenesia.Data.ColdSteel\lDescription",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_cold_steel_description.html",tooltip=" "];
   Node1 -> Node4 [dir="back",color="steelblue1",style="solid"];
-  Node4 [label="RogueGenesia.Data.VildCurse\lChallengeDescription",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_vild_curse_challenge_description.html",tooltip=" "];
+  Node4 [label="RogueGenesia.Data.Dwindling\lFireDescription",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_dwindling_fire_description.html",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="RogueGenesia.Data.Endurance\lChallengeDescription",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_endurance_challenge_description.html",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="RogueGenesia.Data.LeftImpairment\lDescription",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_left_impairment_description.html",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node7 [label="RogueGenesia.Data.OverGeared\lDescription",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_over_geared_description.html",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="steelblue1",style="solid"];
+  Node8 [label="RogueGenesia.Data.TimeParadox\lDescription",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_time_paradox_description.html",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="steelblue1",style="solid"];
+  Node9 [label="RogueGenesia.Data.Vanilla\lCustomChallengeModifierDescription",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_vanilla_custom_challenge_modifier_description.html",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="steelblue1",style="solid"];
+  Node10 [label="RogueGenesia.Data.VildCurse\lChallengeDescription",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_vild_curse_challenge_description.html",tooltip=" "];
 }

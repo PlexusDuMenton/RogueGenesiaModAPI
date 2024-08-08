@@ -13,6 +13,7 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/Monster/AI/Boss
   dir_260a9a2a5510b106f8374b7b885b5509 [label="LavaTitan", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_260a9a2a5510b106f8374b7b885b5509.html",tooltip=""];
   dir_ab4ca7eccdad56827a35a43090489d4a [label="NecroMancer", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_ab4ca7eccdad56827a35a43090489d4a.html",tooltip=""];
   dir_53de8ac55b41e18b43a2d721cf97aa08 [label="Shaman", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_53de8ac55b41e18b43a2d721cf97aa08.html",tooltip=""];
+  dir_79c53b150b5fa8a3655b9dbb33b514ac [label="VampireQueen", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_79c53b150b5fa8a3655b9dbb33b514ac.html",tooltip=""];
   dir_badc001985ec04516ecd24134b8013a5 [label="Worm", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_badc001985ec04516ecd24134b8013a5.html",tooltip=""];
   }
   }

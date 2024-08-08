@@ -9,6 +9,7 @@ var dir_481c683296c0ed668e34510e3a4fba65 =
     [ "GunSlingerData.cs", "_gun_slinger_data_8cs.html", "_gun_slinger_data_8cs" ],
     [ "LagRogData.cs", "_lag_rog_data_8cs.html", "_lag_rog_data_8cs" ],
     [ "RogData.cs", "_rog_data_8cs.html", "_rog_data_8cs" ],
+    [ "RogNGesusData.cs", "_rog_n_gesus_data_8cs.html", "_rog_n_gesus_data_8cs" ],
     [ "RogueData.cs", "_rogue_data_8cs.html", "_rogue_data_8cs" ],
     [ "SummonerData.cs", "_summoner_data_8cs.html", "_summoner_data_8cs" ]
 ];

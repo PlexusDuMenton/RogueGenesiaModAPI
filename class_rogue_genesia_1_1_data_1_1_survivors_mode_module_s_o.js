@@ -12,6 +12,7 @@ var class_rogue_genesia_1_1_data_1_1_survivors_mode_module_s_o =
     [ "EnemyModulesList", "class_rogue_genesia_1_1_data_1_1_survivors_mode_module_s_o.html#a84d47032dfe6cad7e1ed4a08a74d3b7c", null ],
     [ "enemyTotalWeight", "class_rogue_genesia_1_1_data_1_1_survivors_mode_module_s_o.html#a25c2280ebe0c6e3d2fd1ffd178a5875e", null ],
     [ "enemyWeight", "class_rogue_genesia_1_1_data_1_1_survivors_mode_module_s_o.html#a45b298bd63cfc3c44e3e1ac7b99dcf88", null ],
+    [ "EquivalentZone", "class_rogue_genesia_1_1_data_1_1_survivors_mode_module_s_o.html#a9bdb7dd48807cc5df5437000367d78a3", null ],
     [ "nonEliteWeight", "class_rogue_genesia_1_1_data_1_1_survivors_mode_module_s_o.html#a7ac0ea85158c1c8069a6d3caadd48ece", null ],
     [ "PatternModulesList", "class_rogue_genesia_1_1_data_1_1_survivors_mode_module_s_o.html#a1b91579e84334933c58f03e5823d7f7f", null ],
     [ "patternTotalWeight", "class_rogue_genesia_1_1_data_1_1_survivors_mode_module_s_o.html#a099126ad6d3c5701f2297459270162ca", null ],

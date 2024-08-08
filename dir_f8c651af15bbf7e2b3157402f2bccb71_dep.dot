@@ -7,6 +7,10 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/Buff/Talent"
   compound=true
   subgraph clusterdir_fd73079aba80a91e057034f675db5c1f {
     graph [ bgcolor="#daedff", pencolor="grey50", label="Buff", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_fd73079aba80a91e057034f675db5c1f.html",tooltip=""]
-  dir_f8c651af15bbf7e2b3157402f2bccb71 [label="Talent", fillcolor="#daedff", color="grey25", style="filled,bold", URL="dir_f8c651af15bbf7e2b3157402f2bccb71.html",tooltip=""];
+  subgraph clusterdir_f8c651af15bbf7e2b3157402f2bccb71 {
+    graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_f8c651af15bbf7e2b3157402f2bccb71.html",tooltip=""]
+    dir_f8c651af15bbf7e2b3157402f2bccb71 [shape=plaintext, label="Talent"];
+  dir_4301f5f15e3761d4db3175f089bcb4cb [label="Summoner", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_4301f5f15e3761d4db3175f089bcb4cb.html",tooltip=""];
+  }
   }
 }

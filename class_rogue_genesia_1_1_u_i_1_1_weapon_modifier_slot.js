@@ -15,5 +15,7 @@ var class_rogue_genesia_1_1_u_i_1_1_weapon_modifier_slot =
     [ "LinkedWeaponModifier", "class_rogue_genesia_1_1_u_i_1_1_weapon_modifier_slot.html#aa865bb1ca9300041a9dd5de96cd5b536", null ],
     [ "ModifierBorder", "class_rogue_genesia_1_1_u_i_1_1_weapon_modifier_slot.html#add2afb1866529bddcc1f663b9263feaa", null ],
     [ "ModifierGlow", "class_rogue_genesia_1_1_u_i_1_1_weapon_modifier_slot.html#a407d2996b836718204daf7744747905b", null ],
-    [ "ModifierIcon", "class_rogue_genesia_1_1_u_i_1_1_weapon_modifier_slot.html#ad077b30453bc9aa22e4ae9559daa9f61", null ]
+    [ "ModifierIcon", "class_rogue_genesia_1_1_u_i_1_1_weapon_modifier_slot.html#ad077b30453bc9aa22e4ae9559daa9f61", null ],
+    [ "SlotGamepad", "class_rogue_genesia_1_1_u_i_1_1_weapon_modifier_slot.html#acf557ce4e71390f1b4b64f1c9a4614c5", null ],
+    [ "WeaponSlot", "class_rogue_genesia_1_1_u_i_1_1_weapon_modifier_slot.html#af9e52e19fba219834518dbef212526e1", null ]
 ];

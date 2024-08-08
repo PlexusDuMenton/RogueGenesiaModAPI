@@ -7,6 +7,10 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/Event"
   compound=true
   subgraph clusterdir_2d909ba704f47538bf61aa9015000ce8 {
     graph [ bgcolor="#daedff", pencolor="grey50", label="Survival", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_2d909ba704f47538bf61aa9015000ce8.html",tooltip=""]
-  dir_4d1fc50a78b772daaae6b7fbd80eabcc [label="Event", fillcolor="#daedff", color="grey25", style="filled,bold", URL="dir_4d1fc50a78b772daaae6b7fbd80eabcc.html",tooltip=""];
+  subgraph clusterdir_4d1fc50a78b772daaae6b7fbd80eabcc {
+    graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_4d1fc50a78b772daaae6b7fbd80eabcc.html",tooltip=""]
+    dir_4d1fc50a78b772daaae6b7fbd80eabcc [shape=plaintext, label="Event"];
+  dir_3a41351d87585f9644a3fb1aff7128b7 [label="NoticeBoard", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_3a41351d87585f9644a3fb1aff7128b7.html",tooltip=""];
+  }
   }
 }

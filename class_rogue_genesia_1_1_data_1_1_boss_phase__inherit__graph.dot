@@ -23,11 +23,17 @@ digraph "RogueGenesia.Data.BossPhase"
   Node8 -> Node9 [dir="back",color="steelblue1",style="solid"];
   Node9 [label="RogueGenesia.Actors.Survival.\lShamanPhaseTwo",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_phase_two.html",tooltip=" "];
   Node1 -> Node10 [dir="back",color="steelblue1",style="solid"];
-  Node10 [label="RogueGenesia.Actors.Survival.\lWormPhase",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_phase.html",tooltip=" "];
+  Node10 [label="RogueGenesia.Actors.Survival.\lVampireQueenPhase",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_vampire_queen_phase.html",tooltip=" "];
   Node10 -> Node11 [dir="back",color="steelblue1",style="solid"];
-  Node11 [label="RogueGenesia.Actors.Survival.\lWormPhase2",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_phase2.html",tooltip=" "];
+  Node11 [label="RogueGenesia.Actors.Survival.\lVampireQueenPhase2",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_vampire_queen_phase2.html",tooltip=" "];
   Node10 -> Node12 [dir="back",color="steelblue1",style="solid"];
-  Node12 [label="RogueGenesia.Actors.Survival.\lWormPhase3",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_phase3.html",tooltip=" "];
-  Node10 -> Node13 [dir="back",color="steelblue1",style="solid"];
-  Node13 [label="RogueGenesia.Actors.Survival.\lWormPhase4",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_phase4.html",tooltip=" "];
+  Node12 [label="RogueGenesia.Actors.Survival.\lVampireQueenPhase3",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_vampire_queen_phase3.html",tooltip=" "];
+  Node1 -> Node13 [dir="back",color="steelblue1",style="solid"];
+  Node13 [label="RogueGenesia.Actors.Survival.\lWormPhase",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_phase.html",tooltip=" "];
+  Node13 -> Node14 [dir="back",color="steelblue1",style="solid"];
+  Node14 [label="RogueGenesia.Actors.Survival.\lWormPhase2",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_phase2.html",tooltip=" "];
+  Node13 -> Node15 [dir="back",color="steelblue1",style="solid"];
+  Node15 [label="RogueGenesia.Actors.Survival.\lWormPhase3",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_phase3.html",tooltip=" "];
+  Node13 -> Node16 [dir="back",color="steelblue1",style="solid"];
+  Node16 [label="RogueGenesia.Actors.Survival.\lWormPhase4",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_worm_phase4.html",tooltip=" "];
 }

@@ -1,0 +1,5 @@
+var _special_effect_a_o_e___affect_projectiles___a_i_8cs =
+[
+    [ "RogueGenesia.Actors.Survival.TouchingProjectile", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_touching_projectile.html", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_touching_projectile" ],
+    [ "RogueGenesia.Actors.Survival.SpecialEffectAOE_AffectProjectiles_AI", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_special_effect_a_o_e___affect_projectiles___a_i.html", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_special_effect_a_o_e___affect_projectiles___a_i" ]
+];

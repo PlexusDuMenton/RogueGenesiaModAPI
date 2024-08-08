@@ -1,6 +1,7 @@
 var class_rogue_genesia_1_1_data_1_1_kill_elite_count_and_survival =
 [
     [ "CheckObjective", "class_rogue_genesia_1_1_data_1_1_kill_elite_count_and_survival.html#a54b497c80ab50078f57b79415ff749ca", null ],
+    [ "ForceMinimalEliteCount", "class_rogue_genesia_1_1_data_1_1_kill_elite_count_and_survival.html#a98a65080413d0e1ff875834fd17b0a14", null ],
     [ "GetBudgetFromObjective", "class_rogue_genesia_1_1_data_1_1_kill_elite_count_and_survival.html#a5b4e60ce9f46a117d9488a7b80c5317c", null ],
     [ "GetEliteSpawnChanceMultiplier", "class_rogue_genesia_1_1_data_1_1_kill_elite_count_and_survival.html#a9e96837fb468c2bb5f16c0e64dcd56a8", null ],
     [ "GetFinalBudgetMultiplier", "class_rogue_genesia_1_1_data_1_1_kill_elite_count_and_survival.html#ac2b8570a3454f02a779ec36d25f85df1", null ],

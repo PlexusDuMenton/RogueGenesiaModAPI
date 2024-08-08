@@ -1,5 +1,6 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible =
 [
+    [ "CheckIfPositionIsValid", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a3e4b24e88d991caac6cbd3028e9bd159", null ],
     [ "GetCategory", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a2ab04d40509c84bee859ef8dfa9c6a46", null ],
     [ "GetDescription", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#afff62e8706937d50749926af33d1b821", null ],
     [ "GetDropChanceFromCrate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#acd2c946888d1acd336ad25e612e1f3c2", null ],
@@ -20,6 +21,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible =
     [ "_player", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#aadf8ded87941c31e5bd7d563013cf733", null ],
     [ "_spriteRenderer", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#aa80dd19efb757008f373e7a35d86b6b8", null ],
     [ "_transform", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a2f2265e7123f1e071a42e08fe01442fc", null ],
+    [ "Attracted", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a6be3b430cc606749d5ccf03d387ac616", null ],
     [ "CoolDown", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a519be668ff8f8dc32984ba783c21f991", null ],
     [ "hasInstancedMaterial", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a831249300ff4f895798abe7ff6d1cf29", null ],
     [ "KillMe", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a63f9917fdcbbf643e4e4b89851d85b87", null ],
@@ -27,7 +29,8 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible =
     [ "LinkedSO", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a5d451e02ddf32095e90b4a74c08782b4", null ],
     [ "ProjectileVFX", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a374a7255b0d498f3ef1caeaec7f60991", null ],
     [ "sharedMaterial", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a5faca20daead4471de199d43cda39cf1", null ],
-    [ "VoidBonus", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a2130633dc43093426e290fe23995925b", null ],
+    [ "SpawnedInWrongPosition", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#adb8316a5823c88f1a0b32f731b6a0550", null ],
+    [ "TargetPosition", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a200621c9d8fb296f4780f7a5dee1336e", null ],
     [ "CollectibleType", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a1dba08a03f75107481d9afac417beaba", null ],
     [ "MaxCount", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#af375c40846aafe7bf15c3c3a19cbf4e2", null ],
     [ "PickUpSound", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a02728278f347109abc1c8571b59966a5", null ],

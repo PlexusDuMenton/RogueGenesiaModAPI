@@ -9,6 +9,7 @@ var class_rogue_genesia_1_1_data_1_1_event_combat_info_class =
     [ "GetLevelToLoad", "class_rogue_genesia_1_1_data_1_1_event_combat_info_class.html#ab66ba0aa5be1db171b4804b78712bf4c", null ],
     [ "GetLevelVisualToLoad", "class_rogue_genesia_1_1_data_1_1_event_combat_info_class.html#a246af0fab77ed96fc7b25a364425b084", null ],
     [ "GetMaxEliteAtOnce", "class_rogue_genesia_1_1_data_1_1_event_combat_info_class.html#aff8159e5a31ada1adfcde38e8f02ed6e", null ],
+    [ "GetMusicTrack", "class_rogue_genesia_1_1_data_1_1_event_combat_info_class.html#a6ab074dc4232c1396c49f1b1ea3f7962", null ],
     [ "GetScaledTime", "class_rogue_genesia_1_1_data_1_1_event_combat_info_class.html#a3f77681a147eb0a65664c1215d630326", null ],
     [ "GetSpecificArtifact", "class_rogue_genesia_1_1_data_1_1_event_combat_info_class.html#a082f4b4570d176e9145f913df6331345", null ],
     [ "GetSpecificCard", "class_rogue_genesia_1_1_data_1_1_event_combat_info_class.html#a111a902bc273c5d15b00c1079a53e204", null ],

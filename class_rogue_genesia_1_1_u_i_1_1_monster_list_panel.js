@@ -4,6 +4,7 @@ var class_rogue_genesia_1_1_u_i_1_1_monster_list_panel =
     [ "ClearPage", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#a6043285e88d512c2bdde413078f7a576", null ],
     [ "DecreaseLevel", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#acd545a95ddbddb1377bd9268bea12d94", null ],
     [ "DisplayElement", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#aab195360eacc6ed052951d920eb86c11", null ],
+    [ "EmptyInformation", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#ab7e8a220da401475e20be7197a7676c4", null ],
     [ "IncreaseLevel", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#a158307948e11ca50798facd95006cbc2", null ],
     [ "OnSelectEnemy", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#aa4abd6e5f2a187e6675c790976aad0a5", null ],
     [ "SetElementPrefab", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#ae6859f87890c9261d5faa35a50342fc9", null ],

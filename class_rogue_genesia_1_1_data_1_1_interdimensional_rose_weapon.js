@@ -2,7 +2,7 @@ var class_rogue_genesia_1_1_data_1_1_interdimensional_rose_weapon =
 [
     [ "InterdimensionalRoseWeapon", "class_rogue_genesia_1_1_data_1_1_interdimensional_rose_weapon.html#ac895a1a9b0d440617bd0d78b88273a9d", null ],
     [ "getDamage", "class_rogue_genesia_1_1_data_1_1_interdimensional_rose_weapon.html#accb9707ca0894ae8d444b43b977bb5c7", null ],
-    [ "getProjectiles", "class_rogue_genesia_1_1_data_1_1_interdimensional_rose_weapon.html#acc233c4d76a62f4cd93da94602b3cfcd", null ],
+    [ "getProjectilesfloat", "class_rogue_genesia_1_1_data_1_1_interdimensional_rose_weapon.html#a90b32581d3a760dd2e01346ab5114f1c", null ],
     [ "LevelUp", "class_rogue_genesia_1_1_data_1_1_interdimensional_rose_weapon.html#a79a2b07a9371cdf2ceb2a9f52b60ebfb", null ],
     [ "OnEnemyHit", "class_rogue_genesia_1_1_data_1_1_interdimensional_rose_weapon.html#ae1c0405c211a41971142403904f86953", null ],
     [ "OnMultiplierStatUpdate", "class_rogue_genesia_1_1_data_1_1_interdimensional_rose_weapon.html#ad54e60aea479d9e7370336e8977f9ee0", null ],

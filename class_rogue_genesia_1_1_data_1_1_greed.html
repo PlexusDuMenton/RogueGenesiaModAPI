@@ -143,6 +143,8 @@ Inheritance diagram for RogueGenesia.Data.Greed:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac5a001fa9784af88714978ed269ec8fb"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_greed.html#ac5a001fa9784af88714978ed269ec8fb">Init</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> owner)</td></tr>
 <tr class="separator:ac5a001fa9784af88714978ed269ec8fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af40cdcb45ad52ef972a3964d17ff1075"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_greed.html#af40cdcb45ad52ef972a3964d17ff1075">GetDescription</a> (int level, int comparisonLevel)</td></tr>
+<tr class="separator:af40cdcb45ad52ef972a3964d17ff1075"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bec4ea6c03975fa23d2913050030344"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_greed.html#a3bec4ea6c03975fa23d2913050030344">OnRemove</a> ()</td></tr>
 <tr class="separator:a3bec4ea6c03975fa23d2913050030344"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbea170cc6abdd0c451f664e90209933"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_greed.html#afbea170cc6abdd0c451f664e90209933">OnMultiplierStatUpdate</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> owner, ref <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a> actualStats, bool fakeStats=false, bool baseState=false)</td></tr>
@@ -209,8 +211,8 @@ Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a2ed235cd266958cf06fdf2f2b96c837c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_greed.html#a2ed235cd266958cf06fdf2f2b96c837c">GetCap</a> ()</td></tr>
 <tr class="separator:a2ed235cd266958cf06fdf2f2b96c837c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1757d4d52cb8b87963ee7561701c2823"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_greed.html#a1757d4d52cb8b87963ee7561701c2823">OnStageEnd</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_level_object.html">LevelObject</a> stage)</td></tr>
-<tr class="separator:a1757d4d52cb8b87963ee7561701c2823"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25d81cef5890ce21fc55ae17bdcb32e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_greed.html#a25d81cef5890ce21fc55ae17bdcb32e4">OnStageEnd</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_level_object.html">LevelObject</a> stage, bool completed)</td></tr>
+<tr class="separator:a25d81cef5890ce21fc55ae17bdcb32e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78ab3753430c871ff34946d557d0927c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_greed.html#a78ab3753430c871ff34946d557d0927c">OnCollectible</a> (string lootType, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html">Collectible</a> collectible)</td></tr>
 <tr class="separator:a78ab3753430c871ff34946d557d0927c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -281,6 +283,44 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="af40cdcb45ad52ef972a3964d17ff1075" name="af40cdcb45ad52ef972a3964d17ff1075"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af40cdcb45ad52ef972a3964d17ff1075">&#9670;&#160;</a></span>GetDescription()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override string RogueGenesia.Data.Greed.GetDescription </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>comparisonLevel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a433e3a64f04ed0f01f478059c1e00b5e">RogueGenesia.Data.SoulCard</a>.</p>
 
 </div>
 </div>
@@ -425,8 +465,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a1757d4d52cb8b87963ee7561701c2823" name="a1757d4d52cb8b87963ee7561701c2823"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1757d4d52cb8b87963ee7561701c2823">&#9670;&#160;</a></span>OnStageEnd()</h2>
+<a id="a25d81cef5890ce21fc55ae17bdcb32e4" name="a25d81cef5890ce21fc55ae17bdcb32e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25d81cef5890ce21fc55ae17bdcb32e4">&#9670;&#160;</a></span>OnStageEnd()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -438,8 +478,18 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">void RogueGenesia.Data.Greed.OnStageEnd </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_level_object.html">LevelObject</a>&#160;</td>
-          <td class="paramname"><em>stage</em></td><td>)</td>
+          <td class="paramname"><em>stage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>completed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>

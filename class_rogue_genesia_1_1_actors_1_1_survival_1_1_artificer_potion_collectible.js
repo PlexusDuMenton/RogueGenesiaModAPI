@@ -7,6 +7,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_artificer_potion_collectible
     [ "GetPickUpRange", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artificer_potion_collectible.html#a9870065ba5828cf045759738f579abd5", null ],
     [ "OnPickUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artificer_potion_collectible.html#a7aacefab6c60cc80d8d019eedd3f46f8", null ],
     [ "SetTransform", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artificer_potion_collectible.html#a408152d1584af07d6c7913fd30effa8a", null ],
+    [ "buffDuration", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artificer_potion_collectible.html#abf6b4d96656b6b7b0869d398c571ba99", null ],
     [ "Model", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artificer_potion_collectible.html#a108ffb1f352ece222bc03253e99574b8", null ],
     [ "CollectibleType", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_artificer_potion_collectible.html#a04124e518ca877c5d85407c7a159f67f", null ]
 ];

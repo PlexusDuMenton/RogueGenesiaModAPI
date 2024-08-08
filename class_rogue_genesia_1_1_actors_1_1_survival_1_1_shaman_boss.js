@@ -1,6 +1,8 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_boss =
 [
     [ "GetIntroDuration", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_boss.html#a48daa5c33e6ec93d9e9ae654741cfe38", null ],
+    [ "GetRessourceValue", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_boss.html#afd50d140947ec042f604fd7c4d3df758", null ],
+    [ "HasRessource", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_boss.html#ac378616bc8a42cca9568c6e8deaa1b8a", null ],
     [ "Idle", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_boss.html#a38ce66758fba0c19acf84b7c9975b2c6", null ],
     [ "InitMonster", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_boss.html#a7f64a21fdf464833df4fbfcd3533d6cb", null ],
     [ "Move", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_boss.html#a8391e123b0f09ecefb838b0fd783e6e8", null ],
@@ -9,6 +11,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_boss =
     [ "OnIntroEnd", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_boss.html#aa653c8369b97ca2a3ffd94ff8d00a2bf", null ],
     [ "OnIntroStart", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_boss.html#aa3f2b65a403e06a75c74d0fe5cf1e03b", null ],
     [ "OnIntroUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_boss.html#ac376a434dbd848f79777fe66c73018b5", null ],
+    [ "OnKill", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_boss.html#aad48f28ac5c7c9b566b16ddb5c0b34ff", null ],
     [ "OnSkipIntro", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_boss.html#aa4b4a46f959d6df2f2202ebe3f488620", null ],
     [ "TakeDamage", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_boss.html#ae6d3d5690960ea049f7b01b3ab45d316", null ],
     [ "TakeDamageImmediate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shaman_boss.html#ab9156f8d5f1ae3c5a665c44f7febbc9f", null ],

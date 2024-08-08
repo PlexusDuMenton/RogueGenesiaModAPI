@@ -1,6 +1,7 @@
 var dir_788c42c405973d98c2f3d37f79352838 =
 [
     [ "AgileAbility.cs", "_agile_ability_8cs.html", "_agile_ability_8cs" ],
+    [ "AnachronisticAbility.cs", "_anachronistic_ability_8cs.html", "_anachronistic_ability_8cs" ],
     [ "BerserkerAbility.cs", "_berserker_ability_8cs.html", "_berserker_ability_8cs" ],
     [ "EtherealAbility.cs", "_ethereal_ability_8cs.html", "_ethereal_ability_8cs" ],
     [ "FastAbility.cs", "_fast_ability_8cs.html", "_fast_ability_8cs" ],

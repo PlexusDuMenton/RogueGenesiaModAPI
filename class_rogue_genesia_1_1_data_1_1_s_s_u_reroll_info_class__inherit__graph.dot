@@ -4,6 +4,7 @@ digraph "RogueGenesia.Data.SSURerollInfoClass"
   bgcolor="transparent";
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
   Node1 [label="RogueGenesia.Data.SSUReroll\lInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
   Node2 -> Node1 [dir="back",color="steelblue1",style="solid"];
   Node2 [label="SSUInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_s_s_u_info_class.html",tooltip=" "];
@@ -11,4 +12,6 @@ digraph "RogueGenesia.Data.SSURerollInfoClass"
   Node3 [label="RogueGenesia.Data.SSUBanishes\lInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_s_s_u_banishes_info_class.html",tooltip=" "];
   Node1 -> Node4 [dir="back",color="steelblue1",style="solid"];
   Node4 [label="RogueGenesia.Data.SSURarity\lRerollInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_s_s_u_rarity_reroll_info_class.html",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="RogueGenesia.Data.SSUShop\lLockInfoClass",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_s_s_u_shop_lock_info_class.html",tooltip=" "];
 }

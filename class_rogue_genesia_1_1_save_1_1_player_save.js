@@ -30,5 +30,6 @@ var class_rogue_genesia_1_1_save_1_1_player_save =
     [ "totalGold", "class_rogue_genesia_1_1_save_1_1_player_save.html#a28e5a890fc0076104ee30e35fbee89e1", null ],
     [ "UsedWanderTrick", "class_rogue_genesia_1_1_save_1_1_player_save.html#ac65b9c690cf2ab0ae7380100a6a485f0", null ],
     [ "WeaponDamageGraph", "class_rogue_genesia_1_1_save_1_1_player_save.html#abe22e4f78caca927876d2db59b4eb3e8", null ],
+    [ "WeaponModifier", "class_rogue_genesia_1_1_save_1_1_player_save.html#a9747bea17f0e495c8933b7c3f3a87945", null ],
     [ "WeaponTimePrecision", "class_rogue_genesia_1_1_save_1_1_player_save.html#ad69627f1188285934012ea4e4ff94b20", null ]
 ];

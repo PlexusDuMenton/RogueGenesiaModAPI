@@ -5,5 +5,7 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="ModGenesia.AchievementAPI",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_mod_genesia_1_1_achievement_a_p_i.html",tooltip="Modding API for everything Achievement Related."];
+  Node0 [label="ListPanel\< GeneralMonster\lAbilitySO \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_list_panel.html",tooltip=" "];
+  Node0 -> Node1 [dir="back",color="steelblue1",style="solid"];
+  Node1 [label="RogueGenesia.UI.MonsterAbilities\lListPanel",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_u_i_1_1_monster_abilities_list_panel.html",tooltip=" "];
 }

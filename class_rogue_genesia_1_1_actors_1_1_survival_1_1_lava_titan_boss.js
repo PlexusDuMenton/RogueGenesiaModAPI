@@ -1,6 +1,7 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan_boss =
 [
     [ "DealDamageToPlayer", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan_boss.html#a038426b7258c43d7dbb4a9c946b71e04", null ],
+    [ "ForcePlayerInArena", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan_boss.html#adb227c3ce94c1c10bc545cf4a816fb57", null ],
     [ "GetIntroDuration", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan_boss.html#a75c7e2b69c64acc04f171bea5211bbd1", null ],
     [ "Idle", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan_boss.html#a307123b986beb21e14569f98cab65632", null ],
     [ "InitMonster", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan_boss.html#a27a1e79508664cfb807e931a683d8e45", null ],

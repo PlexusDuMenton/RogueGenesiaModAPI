@@ -8,6 +8,7 @@ var class_rogue_genesia_1_1_data_1_1_previous_game_data =
     [ "_bannishedSoulCardList", "class_rogue_genesia_1_1_data_1_1_previous_game_data.html#a69fbb606236fc3f863fef5b9ff2939cd", null ],
     [ "_challenge", "class_rogue_genesia_1_1_data_1_1_previous_game_data.html#a596fd109187b366c5248337b3fe620e6", null ],
     [ "_challengeLevel", "class_rogue_genesia_1_1_data_1_1_previous_game_data.html#a5e1044417be0a0b7d6ed9c8dfaf753a2", null ],
+    [ "_challenges", "class_rogue_genesia_1_1_data_1_1_previous_game_data.html#a2f5dc304e930a47c5f17bcd59642c6bf", null ],
     [ "_customValues", "class_rogue_genesia_1_1_data_1_1_previous_game_data.html#a9073e0ecd6a6597552ed00f4cf051ed9", null ],
     [ "_date", "class_rogue_genesia_1_1_data_1_1_previous_game_data.html#a9f10b4ac7b9b69e3d8c171dc11d926f1", null ],
     [ "_endGameState", "class_rogue_genesia_1_1_data_1_1_previous_game_data.html#a1a91d61b103d9786215cee411dce9470", null ],

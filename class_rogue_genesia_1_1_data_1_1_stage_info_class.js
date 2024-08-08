@@ -4,6 +4,7 @@ var class_rogue_genesia_1_1_data_1_1_stage_info_class =
     [ "ArtifactReward", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a19ceefb2ec3e52263565a9ca80ec585e", null ],
     [ "BuildObjective", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#ab02dfb9bd9078f0d1232e41b1045d3aa", null ],
     [ "CardSelectionReward", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a16f1917a7727dd4239bd289eb79ef7b3", null ],
+    [ "EquipmentReward", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#ab0de6e48f98e2dbc9b1c0791140d75d5", null ],
     [ "GameDirector", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#ab47f15a412da09b7c93102356a0e9965", null ],
     [ "GetEnemyBonusLevel", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a91dd9746ffd97c3c8e3df188741a4b25", null ],
     [ "GetEnemyList", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a4664327bc984c0f4ed139b6f26480972", null ],
@@ -14,6 +15,7 @@ var class_rogue_genesia_1_1_data_1_1_stage_info_class =
     [ "GetLevelToLoadOnFinish", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a4b46e460a86f8300f3affdff34512b5a", null ],
     [ "GetLevelVisualToLoad", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#ac9a15cbf1ba819fd6d847282f3276cf0", null ],
     [ "GetMaxEliteAtOnce", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a28434ee8d894a4999dfac20a78d62383", null ],
+    [ "GetMusicTrack", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a8e5529697d4de9a63f929febaf015177", null ],
     [ "GetObjectiveText", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a7833081e2000568e24a53d2c4cad2da5", null ],
     [ "GetScaledTime", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#acad6873bf55264d42e8c58b9302554c9", null ],
     [ "GetSpecificArtifact", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a701496063c4b73ebe6cf8110c53ea3fb", null ],
@@ -22,6 +24,7 @@ var class_rogue_genesia_1_1_data_1_1_stage_info_class =
     [ "OnStageStart", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#af108d0bdc850def9494701cd50edb2f7", null ],
     [ "PickRandomObjective", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a0c358e02715d68df53a9e2903f366bff", null ],
     [ "SpawnBoss", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a976ce0b6c41c3689fd2056894d2ba06c", null ],
+    [ "SpawnMidBoss", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#ad4c9d21cb8b94a79cf73a8de18f98f50", null ],
     [ "StageGeneration", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a35545a252748be29dc5d4078f41378e9", null ],
     [ "LastStage", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a69b2e72deb7f959156cade18cee345f3", null ],
     [ "CurrentStageObjectives", "class_rogue_genesia_1_1_data_1_1_stage_info_class.html#a4802844f8b4fc93e4291a6d6af69756e", null ]

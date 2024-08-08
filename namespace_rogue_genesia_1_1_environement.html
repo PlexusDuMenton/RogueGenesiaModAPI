@@ -133,6 +133,8 @@ $(document).ready(function(){initNavTree('namespace_rogue_genesia_1_1_environeme
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_rogue_genesia_1_1_environement_1_1_connection.html">Connection</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_environement_1_1_foliage_manager.html">FoliageManager</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_rogue_genesia_1_1_environement_1_1_terrain_border.html">TerrainBorder</a></td></tr>
@@ -153,7 +155,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:a56a8675aac8846a65e429f1fa1481cf3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_rogue_genesia_1_1_environement.html#a56a8675aac8846a65e429f1fa1481cf3">ETerrainType</a> : int { <br />
-&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_environement.html#a56a8675aac8846a65e429f1fa1481cf3ace2c8aed9c2fa0cfbed56cbda4d8bf07">Empty</a> = -1
+&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_environement.html#a56a8675aac8846a65e429f1fa1481cf3aed36a1ef76a59ee3f15180e0441188ad">Any</a> = -1
 , <a class="el" href="namespace_rogue_genesia_1_1_environement.html#a56a8675aac8846a65e429f1fa1481cf3aac12ee4aedb176eb73ce3f6c0d1e9036">Forest</a> = 0
 , <a class="el" href="namespace_rogue_genesia_1_1_environement.html#a56a8675aac8846a65e429f1fa1481cf3a7609e215a761f8c47a3040a8cbe25bdd">SnowForest</a> = 10
 , <a class="el" href="namespace_rogue_genesia_1_1_environement.html#a56a8675aac8846a65e429f1fa1481cf3aac70412e939d72a9234cdebb1af5867b">Path</a> = 50
@@ -164,6 +166,17 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a56a8675aac8846a65e429f1fa1481cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a911277e2790e2e95d4ed715d1041ca05"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_rogue_genesia_1_1_environement.html#a911277e2790e2e95d4ed715d1041ca05">EBorderType</a> : uint { <br />
+&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_environement.html#a911277e2790e2e95d4ed715d1041ca05aed36a1ef76a59ee3f15180e0441188ad">Any</a> = 0
+, <a class="el" href="namespace_rogue_genesia_1_1_environement.html#a911277e2790e2e95d4ed715d1041ca05a7a1920d61156abc05a60135aefe8bc67">Default</a> = 1 &lt;&lt; 0
+, <a class="el" href="namespace_rogue_genesia_1_1_environement.html#a911277e2790e2e95d4ed715d1041ca05ad11aed2ff81f20a2e2b7e0cf06ee1a37">Road</a> = 1 &lt;&lt; 1
+, <a class="el" href="namespace_rogue_genesia_1_1_environement.html#a911277e2790e2e95d4ed715d1041ca05a94e8a499539d1a472f3b5dbbb85508c0">Wall</a> = 1 &lt;&lt; 2
+, <br />
+&#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_environement.html#a911277e2790e2e95d4ed715d1041ca05acd9aff70b6e031ddc3e265ccf104e7fe">Pit</a> = 1 &lt;&lt; 3
+, <a class="el" href="namespace_rogue_genesia_1_1_environement.html#a911277e2790e2e95d4ed715d1041ca05a0c7d6cf19426e01dcfa32434828ed266">Secondary</a> = 1 &lt;&lt; 4
+<br />
+ }</td></tr>
+<tr class="separator:a911277e2790e2e95d4ed715d1041ca05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98516f27b20aa700c1402372630dd3f8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_rogue_genesia_1_1_environement.html#a98516f27b20aa700c1402372630dd3f8">ETerrainRotation</a> : int { <br />
 &#160;&#160;<a class="el" href="namespace_rogue_genesia_1_1_environement.html#a98516f27b20aa700c1402372630dd3f8a6adf97f83acf6453d4a6a4b1070f3754">None</a> = 0
 , <a class="el" href="namespace_rogue_genesia_1_1_environement.html#a98516f27b20aa700c1402372630dd3f8ab25cde1e74f3d27f678c2e309e06102e">Quarter</a> = 90
@@ -176,6 +189,28 @@ Enumerations</h2></td></tr>
 <tr class="separator:a98516f27b20aa700c1402372630dd3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a911277e2790e2e95d4ed715d1041ca05" name="a911277e2790e2e95d4ed715d1041ca05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a911277e2790e2e95d4ed715d1041ca05">&#9670;&#160;</a></span>EBorderType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_rogue_genesia_1_1_environement.html#a911277e2790e2e95d4ed715d1041ca05">RogueGenesia.Environement.EBorderType</a> : uint</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a911277e2790e2e95d4ed715d1041ca05aed36a1ef76a59ee3f15180e0441188ad" name="a911277e2790e2e95d4ed715d1041ca05aed36a1ef76a59ee3f15180e0441188ad"></a>Any&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a911277e2790e2e95d4ed715d1041ca05a7a1920d61156abc05a60135aefe8bc67" name="a911277e2790e2e95d4ed715d1041ca05a7a1920d61156abc05a60135aefe8bc67"></a>Default&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a911277e2790e2e95d4ed715d1041ca05ad11aed2ff81f20a2e2b7e0cf06ee1a37" name="a911277e2790e2e95d4ed715d1041ca05ad11aed2ff81f20a2e2b7e0cf06ee1a37"></a>Road&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a911277e2790e2e95d4ed715d1041ca05a94e8a499539d1a472f3b5dbbb85508c0" name="a911277e2790e2e95d4ed715d1041ca05a94e8a499539d1a472f3b5dbbb85508c0"></a>Wall&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a911277e2790e2e95d4ed715d1041ca05acd9aff70b6e031ddc3e265ccf104e7fe" name="a911277e2790e2e95d4ed715d1041ca05acd9aff70b6e031ddc3e265ccf104e7fe"></a>Pit&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a911277e2790e2e95d4ed715d1041ca05a0c7d6cf19426e01dcfa32434828ed266" name="a911277e2790e2e95d4ed715d1041ca05a0c7d6cf19426e01dcfa32434828ed266"></a>Secondary&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="a98516f27b20aa700c1402372630dd3f8" name="a98516f27b20aa700c1402372630dd3f8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a98516f27b20aa700c1402372630dd3f8">&#9670;&#160;</a></span>ETerrainRotation</h2>
 
@@ -209,7 +244,7 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a56a8675aac8846a65e429f1fa1481cf3ace2c8aed9c2fa0cfbed56cbda4d8bf07" name="a56a8675aac8846a65e429f1fa1481cf3ace2c8aed9c2fa0cfbed56cbda4d8bf07"></a>Empty&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a56a8675aac8846a65e429f1fa1481cf3aed36a1ef76a59ee3f15180e0441188ad" name="a56a8675aac8846a65e429f1fa1481cf3aed36a1ef76a59ee3f15180e0441188ad"></a>Any&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a56a8675aac8846a65e429f1fa1481cf3aac12ee4aedb176eb73ce3f6c0d1e9036" name="a56a8675aac8846a65e429f1fa1481cf3aac12ee4aedb176eb73ce3f6c0d1e9036"></a>Forest&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a56a8675aac8846a65e429f1fa1481cf3a7609e215a761f8c47a3040a8cbe25bdd" name="a56a8675aac8846a65e429f1fa1481cf3a7609e215a761f8c47a3040a8cbe25bdd"></a>SnowForest&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a56a8675aac8846a65e429f1fa1481cf3aac70412e939d72a9234cdebb1af5867b" name="a56a8675aac8846a65e429f1fa1481cf3aac70412e939d72a9234cdebb1af5867b"></a>Path&#160;</td><td class="fielddoc"></td></tr>

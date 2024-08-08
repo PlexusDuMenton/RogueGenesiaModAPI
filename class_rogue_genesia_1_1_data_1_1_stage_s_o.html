@@ -163,8 +163,8 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aa05c92d50aa00afb62d69cea4ba7911f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#aa05c92d50aa00afb62d69cea4ba7911f">IsBoss</a></td></tr>
-<tr class="separator:aa05c92d50aa00afb62d69cea4ba7911f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3954c0dcca776f0433404622b543a0f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#ae3954c0dcca776f0433404622b543a0f">LastStageOfZone</a></td></tr>
+<tr class="separator:ae3954c0dcca776f0433404622b543a0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5391b660787c28621012dfb2e8fe6674"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a5391b660787c28621012dfb2e8fe6674">NeedLight</a></td></tr>
 <tr class="separator:a5391b660787c28621012dfb2e8fe6674"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a4d4b8cda9cee4e0c8c438402ccce0d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a0a4d4b8cda9cee4e0c8c438402ccce0d">LightIntensity</a> = 6000</td></tr>
@@ -193,6 +193,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a7ac982f8f5893e9311c2bbd6e61bada4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31d32266f3ac78bc57a7bfc9a961fccf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a31d32266f3ac78bc57a7bfc9a961fccf">maximumStageBeforeEnd</a></td></tr>
 <tr class="separator:a31d32266f3ac78bc57a7bfc9a961fccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeccec17485f09fe4e20f45251ceabb0e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#aeccec17485f09fe4e20f45251ceabb0e">DisableTerrainGeneration</a> = false</td></tr>
+<tr class="separator:aeccec17485f09fe4e20f45251ceabb0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3853489e54be6259a294032bcdd75c1e"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o_1_1_stage_weight_modifier.html">StageWeightModifier</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a3853489e54be6259a294032bcdd75c1e">WeightModifierForNextStage</a> = new()</td></tr>
 <tr class="separator:a3853489e54be6259a294032bcdd75c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a9d513b9e3d63f2cd2e12edfbbf883e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_info_class.html">StageInfoClass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a8a9d513b9e3d63f2cd2e12edfbbf883e">StageInfo</a> = new()</td></tr>
@@ -416,6 +418,20 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="aeccec17485f09fe4e20f45251ceabb0e" name="aeccec17485f09fe4e20f45251ceabb0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeccec17485f09fe4e20f45251ceabb0e">&#9670;&#160;</a></span>DisableTerrainGeneration</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.StageSO.DisableTerrainGeneration = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a757656f55131618e1e57203c7465002a" name="a757656f55131618e1e57203c7465002a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a757656f55131618e1e57203c7465002a">&#9670;&#160;</a></span>DisplayStatsOnEnd</h2>
 
@@ -430,14 +446,14 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="aa05c92d50aa00afb62d69cea4ba7911f" name="aa05c92d50aa00afb62d69cea4ba7911f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa05c92d50aa00afb62d69cea4ba7911f">&#9670;&#160;</a></span>IsBoss</h2>
+<a id="ae3954c0dcca776f0433404622b543a0f" name="ae3954c0dcca776f0433404622b543a0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3954c0dcca776f0433404622b543a0f">&#9670;&#160;</a></span>LastStageOfZone</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool RogueGenesia.Data.StageSO.IsBoss</td>
+          <td class="memname">bool RogueGenesia.Data.StageSO.LastStageOfZone</td>
         </tr>
       </table>
 </div><div class="memdoc">

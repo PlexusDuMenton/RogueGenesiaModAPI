@@ -5,21 +5,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="RogueGenesia.Data.Custom\lChallengeModifier",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_custom_challenge_modifier.html",tooltip=" "];
-  Node0 -> Node1 [dir="back",color="steelblue1",style="solid"];
-  Node1 [label="RogueGenesia.Data.ArmorBan\l_CardBan",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_armor_ban___card_ban.html",tooltip=" "];
-  Node0 -> Node2 [dir="back",color="steelblue1",style="solid"];
-  Node2 [label="RogueGenesia.Data.ArmorBan\l_StartingCard",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_armor_ban___starting_card.html",tooltip=" "];
-  Node0 -> Node3 [dir="back",color="steelblue1",style="solid"];
-  Node3 [label="RogueGenesia.Data.Endurance\lChallenge",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_endurance_challenge.html",tooltip=" "];
-  Node0 -> Node4 [dir="back",color="steelblue1",style="solid"];
-  Node4 [label="RogueGenesia.Data.RiskOf\lMonsoon_IncreasingDifficulty",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_risk_of_monsoon___increasing_difficulty.html",tooltip=" "];
-  Node0 -> Node5 [dir="back",color="steelblue1",style="solid"];
-  Node5 [label="RogueGenesia.Data.RiskOf\lStorm_AltarStage",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_risk_of_storm___altar_stage.html",tooltip=" "];
-  Node0 -> Node6 [dir="back",color="steelblue1",style="solid"];
-  Node6 [label="RogueGenesia.Data.RiskOf\lStorm_IncreasingDifficulty",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_risk_of_storm___increasing_difficulty.html",tooltip=" "];
-  Node0 -> Node7 [dir="back",color="steelblue1",style="solid"];
-  Node7 [label="RogueGenesia.Data.SkipStage",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_skip_stage.html",tooltip=" "];
-  Node0 -> Node8 [dir="back",color="steelblue1",style="solid"];
-  Node8 [label="RogueGenesia.Data.VildCurse\lChallenge",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_vild_curse_challenge.html",tooltip=" "];
+  Node0 [label="RogueGenesia.Data.ChallengeData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_challenge_data.html",tooltip=" "];
 }

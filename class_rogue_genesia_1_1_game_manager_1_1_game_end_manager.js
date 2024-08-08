@@ -1,5 +1,6 @@
 var class_rogue_genesia_1_1_game_manager_1_1_game_end_manager =
 [
+    [ "Awake", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#aa6cb1c8fcbad99e871f425c8af32d5e8", null ],
     [ "BuildGraphFromName", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a529eacde2a6fa0eb697120f65c3cb895", null ],
     [ "BuildGraphFromValues", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#ace497dde653b404f44cb86e95d019886", null ],
     [ "CleanList", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a11da8a4c6b6931055e35fa3ab14a2f3a", null ],
@@ -11,7 +12,9 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_end_manager =
     [ "MainMenu", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a2a0f56b73abe47272ba3cb59493bac13", null ],
     [ "MakeTextureFromValue", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#ad048513b9a6ded1fb49ba145acab6aef", null ],
     [ "MakeTextureFromValue", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a14515f6b4b3349e2b9a96b2d6d8d9888", null ],
-    [ "OnPauseMenu", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a62fc7d6355427e039da0216aa873920a", null ],
+    [ "OnDestroy", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#aa1ed7cc23960d21bf7df934f71b9799d", null ],
+    [ "OnGamePaused", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#ac682c632d788b04593ecf9dd373fc419", null ],
+    [ "OnGameUnpaused", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a5e2615b2b4d34f36001e8921155255db", null ],
     [ "OpenArtifacts", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#af3aae496968509bfee8b71ef03a5de55", null ],
     [ "OpenDamageGraph", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#acb3abd58f8f58b199df3e4414fd3d268", null ],
     [ "OpenNewAchievements", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#ab3b501cf3be8562dbe2a05cc499bda46", null ],
@@ -21,6 +24,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_end_manager =
     [ "Retry", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#aeb603c37d256f8ba1baae488c5e477a6", null ],
     [ "ScaleValue", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a8a61d099a6fcaee0f692d0974835f94b", null ],
     [ "SwapDisplay", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a4b936f7fccea42289c373267e632d204", null ],
+    [ "TryPause", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a04faf111f33174d88ebd7dff0723f6e9", null ],
     [ "AchievementButton", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#aa77b21ece52b1591a78137bf1df589f6", null ],
     [ "AchievementMenu", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a86055f9780ae202c35e0fac46b876d02", null ],
     [ "DamageAxis", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a89633d63467300ad058bc82c01c74190", null ],
@@ -37,6 +41,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_end_manager =
     [ "MaxTime", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a581389ca91fd695d215ec7f1c7eeaf6d", null ],
     [ "MinTime", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a580e6922014afbafb03cab078bf7e301", null ],
     [ "pauseMenu", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a8b5d805dfc5b2f26ef497143fcbddd42", null ],
+    [ "PlayerID", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#af11dcac870c6673fa101e369fbee0a6a", null ],
     [ "RecapContainer", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a6499cf460a0361a0414dad78e87a2f04", null ],
     [ "RecapDataLeft", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a0c5a9f80c61042dde09747ca5d104c39", null ],
     [ "RecapElementPrefab", "class_rogue_genesia_1_1_game_manager_1_1_game_end_manager.html#a97244e394c0fc92568336488e32322f5", null ],

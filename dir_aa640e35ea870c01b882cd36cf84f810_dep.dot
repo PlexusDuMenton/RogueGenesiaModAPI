@@ -7,6 +7,13 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/Buff/BossBuff"
   compound=true
   subgraph clusterdir_fd73079aba80a91e057034f675db5c1f {
     graph [ bgcolor="#daedff", pencolor="grey50", label="Buff", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_fd73079aba80a91e057034f675db5c1f.html",tooltip=""]
-  dir_aa640e35ea870c01b882cd36cf84f810 [label="BossBuff", fillcolor="#daedff", color="grey25", style="filled,bold", URL="dir_aa640e35ea870c01b882cd36cf84f810.html",tooltip=""];
+  subgraph clusterdir_aa640e35ea870c01b882cd36cf84f810 {
+    graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_aa640e35ea870c01b882cd36cf84f810.html",tooltip=""]
+    dir_aa640e35ea870c01b882cd36cf84f810 [shape=plaintext, label="BossBuff"];
+  dir_e80dde3c0bd62085a563bc00e6ffdb0e [label="Necromancer", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_e80dde3c0bd62085a563bc00e6ffdb0e.html",tooltip=""];
+  dir_d2a60e2939dd70d5ed20334544315a4b [label="Shaman", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_d2a60e2939dd70d5ed20334544315a4b.html",tooltip=""];
+  dir_88ba9cff2d682385891dfdf272acb52e [label="VampireQueen", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_88ba9cff2d682385891dfdf272acb52e.html",tooltip=""];
+  dir_62f5ac071685ac463d5e9a2cff86d244 [label="Worm", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_62f5ac071685ac463d5e9a2cff86d244.html",tooltip=""];
+  }
   }
 }

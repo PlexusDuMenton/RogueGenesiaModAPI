@@ -9,6 +9,8 @@ var class_rebind =
     [ "SaveBinds", "class_rebind.html#a3f601b14db50e6d1bf4c4c93a75aadc5", null ],
     [ "CategoryPrefab", "class_rebind.html#a218b73cdba7e939c02bc18ce7bb8fbcc", null ],
     [ "CompositePrefab", "class_rebind.html#a87d9fb2c4a34ba9124eeadd0d3a983fa", null ],
+    [ "MenuButtons", "class_rebind.html#a9451b99afa685310aa0fbd4d78ca778f", null ],
+    [ "objectToRemove", "class_rebind.html#afedb57efeca5eb47c9f36dfe3222619c", null ],
     [ "RebindList", "class_rebind.html#a46aa76294b1b51e61bf234db91e063d7", null ],
     [ "RebindPrefab", "class_rebind.html#a69fa6bd681f3963b2afd27ea994f3099", null ],
     [ "SeparatorPrefab", "class_rebind.html#a8c2a4ee13d6d5bc0072c34319e3c294e", null ],

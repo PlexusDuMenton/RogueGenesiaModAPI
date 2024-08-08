@@ -7,6 +7,10 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/TalentSystem/Talents/Act
   compound=true
   subgraph clusterdir_436dbab514520e3dd848c5db67b8a2f6 {
     graph [ bgcolor="#daedff", pencolor="grey50", label="Talents", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_436dbab514520e3dd848c5db67b8a2f6.html",tooltip=""]
-  dir_cf28d7b8abb0dc64be353f5bc8d437b5 [label="Actives", fillcolor="#daedff", color="grey25", style="filled,bold", URL="dir_cf28d7b8abb0dc64be353f5bc8d437b5.html",tooltip=""];
+  subgraph clusterdir_cf28d7b8abb0dc64be353f5bc8d437b5 {
+    graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_cf28d7b8abb0dc64be353f5bc8d437b5.html",tooltip=""]
+    dir_cf28d7b8abb0dc64be353f5bc8d437b5 [shape=plaintext, label="Actives"];
+  dir_eb4e6bee589cba9d0b56dea111752df8 [label="Otheravatar", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_eb4e6bee589cba9d0b56dea111752df8.html",tooltip=""];
+  }
   }
 }

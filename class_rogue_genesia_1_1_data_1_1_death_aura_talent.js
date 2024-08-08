@@ -5,5 +5,6 @@ var class_rogue_genesia_1_1_data_1_1_death_aura_talent =
     [ "GetDescription", "class_rogue_genesia_1_1_data_1_1_death_aura_talent.html#aa3c1cc9d9b1c9db3357ef53b65780eef", null ],
     [ "HasEnoughCharge", "class_rogue_genesia_1_1_data_1_1_death_aura_talent.html#a2499a7aa9cd68c0b9b386d5182226a46", null ],
     [ "OnActivateAbility", "class_rogue_genesia_1_1_data_1_1_death_aura_talent.html#a4fac2cafe393d872c1f54bbe84d83241", null ],
-    [ "OnUpdate", "class_rogue_genesia_1_1_data_1_1_death_aura_talent.html#aade9ccef4df04f51c314173d471aed1e", null ]
+    [ "OnActiveUpdate", "class_rogue_genesia_1_1_data_1_1_death_aura_talent.html#a632fdb814d705582b0088daa04c0d148", null ],
+    [ "OnMultiplierStatUpdate", "class_rogue_genesia_1_1_data_1_1_death_aura_talent.html#a06f308ef48385b716ca200699cf45c9a", null ]
 ];

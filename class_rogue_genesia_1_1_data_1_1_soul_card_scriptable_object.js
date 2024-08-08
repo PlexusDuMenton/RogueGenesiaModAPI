@@ -46,7 +46,7 @@ var class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object =
     [ "CardRequirementOnEverylevel", "class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html#a6fa8df21f1643d3ef76b01287a8f7074", null ],
     [ "CardToRemoveString", "class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html#a6f56363337731298ac3d8f090b3f0187", null ],
     [ "CardTypeList", "class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html#a2abbf16d314778e82d7f6670fbca9924", null ],
-    [ "CardWithStatsToBan", "class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html#a5260f5f33def8a10d1ec9ccb8df49f22", null ],
+    [ "CardWithStatsToBan", "class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html#a3cf688b4f20268774484318b0c1f4dc6", null ],
     [ "CardWithTagsToBan", "class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html#af9f264958752ba508359b1e189186150", null ],
     [ "ComponentFor", "class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html#ad6b9f11897e90a0a86765f90884e1682", null ],
     [ "DescriptionOverride", "class_rogue_genesia_1_1_data_1_1_soul_card_scriptable_object.html#a28a662c18e596bfcb2d49929e468a36c", null ],

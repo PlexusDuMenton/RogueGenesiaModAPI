@@ -1,8 +1,10 @@
 var class_rogue_genesia_1_1_environement_1_1_terrain_generation =
 [
+    [ "ChangeModuleColor", "class_rogue_genesia_1_1_environement_1_1_terrain_generation.html#a53c4b3bbefc98a3c1f043dfb36e6fab4", null ],
     [ "CheckForSectorToDisable", "class_rogue_genesia_1_1_environement_1_1_terrain_generation.html#abc0d5f7918b9efd702e23885aa0a4786", null ],
     [ "CheckForSectorToGenerate", "class_rogue_genesia_1_1_environement_1_1_terrain_generation.html#a95f8e425ea81f0f2df78988b8ee5da4f", null ],
     [ "CheckForSectorToRemove", "class_rogue_genesia_1_1_environement_1_1_terrain_generation.html#a4bc866e02dc63b4433e6730a2d2b9418", null ],
+    [ "GetTerrainSectorAtPosition", "class_rogue_genesia_1_1_environement_1_1_terrain_generation.html#a505e93198e632de0b1de13a24d741a6d", null ],
     [ "Update", "class_rogue_genesia_1_1_environement_1_1_terrain_generation.html#a91a869138f78d5e8b90a5e57b5985e16", null ],
     [ "ActiveSectorRange", "class_rogue_genesia_1_1_environement_1_1_terrain_generation.html#ac3b83db7044fd34393a6aa5fc883d3bc", null ],
     [ "DisabledSectorRange", "class_rogue_genesia_1_1_environement_1_1_terrain_generation.html#a8a2c24e551c304cbf9243cdbab58585b", null ],

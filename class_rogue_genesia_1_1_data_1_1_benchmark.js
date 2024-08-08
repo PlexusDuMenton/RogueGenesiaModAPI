@@ -10,6 +10,7 @@ var class_rogue_genesia_1_1_data_1_1_benchmark =
     [ "GetLevelToLoad", "class_rogue_genesia_1_1_data_1_1_benchmark.html#aa3c3619c6acdcf37f30d96a801bf22df", null ],
     [ "GetLevelVisualToLoad", "class_rogue_genesia_1_1_data_1_1_benchmark.html#a3ca76016ed923af69dd5f0912b3bb54e", null ],
     [ "GetMaxEliteAtOnce", "class_rogue_genesia_1_1_data_1_1_benchmark.html#ae2d21d4374d8eb9658c59af3dca9a47b", null ],
+    [ "GetMusicTrack", "class_rogue_genesia_1_1_data_1_1_benchmark.html#ac4349b3b4903b0c69451cacb02b94b48", null ],
     [ "GetScaledTime", "class_rogue_genesia_1_1_data_1_1_benchmark.html#aa4884e1ea7ecb5895525886b0c291a12", null ],
     [ "StageGeneration", "class_rogue_genesia_1_1_data_1_1_benchmark.html#abeb86d51516204bcb07d689c8e6e2573", null ]
 ];

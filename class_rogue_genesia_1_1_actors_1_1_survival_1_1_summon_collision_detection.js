@@ -2,8 +2,9 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_summon_collision_detection =
 [
     [ "AddBuff", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_summon_collision_detection.html#a6bbdafa18607194ba962b3e1735538e8", null ],
     [ "DeathSource", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_summon_collision_detection.html#a70f68548eb7dae2ebacc6b1dea15b73d", null ],
-    [ "GetEntityTime", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_summon_collision_detection.html#a65eca5b601ba20e62d6d41c9aa1bf397", null ],
+    [ "GetEntityTime", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_summon_collision_detection.html#a3c995c373430622be37499a965e2ff4e", null ],
     [ "GetLinkedGameObject", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_summon_collision_detection.html#a92a3fb5a03c2965fa6a44f78a08be389", null ],
+    [ "GetProxyRigidBody", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_summon_collision_detection.html#ae085211a370e0a61d72f8727e27f7b7b", null ],
     [ "GetSubEntity", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_summon_collision_detection.html#a08983c9e4cfe47c8b53c54b95e27f130", null ],
     [ "GetTimeScale", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_summon_collision_detection.html#a41d110668612ac452740e6fb6832fba0", null ],
     [ "HasBuff", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_summon_collision_detection.html#abfb2ea70d0f62f2d50e8ef6f93068815", null ],

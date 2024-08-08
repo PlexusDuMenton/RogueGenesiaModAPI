@@ -5,7 +5,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="RogueGenesia.Actors.Survival.\lSoulLevel",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html",tooltip=" "];
-  Node0 -> Node1 [dir="back",color="steelblue1",style="solid"];
-  Node1 [label="RogueGenesia.Actors.Survival.\lSoulLevelShopKeeper",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level_shop_keeper.html",tooltip=" "];
+  Node0 [label="RogueGenesia.Actors.Survival.\lGameObjectArena",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$struct_rogue_genesia_1_1_actors_1_1_survival_1_1_game_object_arena.html",tooltip=" "];
 }

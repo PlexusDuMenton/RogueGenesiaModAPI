@@ -8,5 +8,7 @@ digraph "RogueGenesia.Data.CollectibleSO"
   Node2 -> Node1 [dir="back",color="steelblue1",style="solid"];
   Node2 [label="RogueGenesiaScriptableObject",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_rogue_genesia_scriptable_object.html",tooltip=" "];
   Node3 -> Node2 [dir="back",color="steelblue1",style="solid"];
-  Node3 [label="ScriptableObject",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
+  Node3 [label="RGScriptableObject",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_r_g_scriptable_object.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="ScriptableObject",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
 }

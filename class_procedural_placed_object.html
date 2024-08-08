@@ -127,7 +127,7 @@ $(document).ready(function(){initNavTree('class_procedural_placed_object.html','
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="class_procedural_placed_object-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ProceduralPlacedObject Class Reference</div></div>
 </div><!--header-->
@@ -158,11 +158,19 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a636a06fb274c9d5eefbe07910eaeac24"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_procedural_placed_object.html#a636a06fb274c9d5eefbe07910eaeac24">_proxy</a></td></tr>
 <tr class="separator:a636a06fb274c9d5eefbe07910eaeac24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
 <tr class="memitem:a87b3ec24e65720b5b01c5e22d8e84787"><td class="memItemLeft" align="right" valign="top">Rigidbody2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_procedural_placed_object.html#a87b3ec24e65720b5b01c5e22d8e84787">_proxyRigidbody</a></td></tr>
 <tr class="separator:a87b3ec24e65720b5b01c5e22d8e84787"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0def8938fe18cb6adeed0bbbfa15d29d"><td class="memItemLeft" align="right" valign="top">List&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_procedural_placed_object.html#a0def8938fe18cb6adeed0bbbfa15d29d">_subProxy</a></td></tr>
+<tr class="separator:a0def8938fe18cb6adeed0bbbfa15d29d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaa999697e4ed148f32dc26f18e94c63"><td class="memItemLeft" align="right" valign="top">List&lt; Rigidbody2D &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_procedural_placed_object.html#afaa999697e4ed148f32dc26f18e94c63">_subProxyRigidBody</a></td></tr>
+<tr class="separator:afaa999697e4ed148f32dc26f18e94c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a1838b4c7a231e8c916cffb242a1041b5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_procedural_placed_object.html#a1838b4c7a231e8c916cffb242a1041b5">OnTerrainModuleSpawned</a> (<a class="el" href="struct_rogue_genesia_1_1_environement_1_1_terrain_sector.html">RogueGenesia.Environement.TerrainSector</a> terrain)</td></tr>
+<tr class="separator:a1838b4c7a231e8c916cffb242a1041b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2977fb5f635065ec84f5ca33b5deb194"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_procedural_placed_object.html#a2977fb5f635065ec84f5ca33b5deb194">OnDestroy</a> ()</td></tr>
+<tr class="separator:a2977fb5f635065ec84f5ca33b5deb194"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa1209b35ad5ee6598942796d43d3f757" name="aa1209b35ad5ee6598942796d43d3f757"></a>
@@ -187,6 +195,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#aaad7265f293f592ff5372db4e0e30b57">RogueGenesia.Actors.Survival.CrateCollisionDetection</a>.</p>
 
 </div>
 </div>
@@ -217,6 +227,33 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a2977fb5f635065ec84f5ca33b5deb194" name="a2977fb5f635065ec84f5ca33b5deb194"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2977fb5f635065ec84f5ca33b5deb194">&#9670;&#160;</a></span>OnDestroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ProceduralPlacedObject.OnDestroy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a100cef21bcb60ee57a40436cb85063c7">RogueGenesia.Actors.Survival.CrateCollisionDetection</a>.</p>
+
+</div>
+</div>
 <a id="a560ce00dc112d0194f1d21d4f106cdc4" name="a560ce00dc112d0194f1d21d4f106cdc4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a560ce00dc112d0194f1d21d4f106cdc4">&#9670;&#160;</a></span>OnManualDestroy()</h2>
 
@@ -236,6 +273,32 @@ Protected Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1838b4c7a231e8c916cffb242a1041b5" name="a1838b4c7a231e8c916cffb242a1041b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1838b4c7a231e8c916cffb242a1041b5">&#9670;&#160;</a></span>OnTerrainModuleSpawned()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ProceduralPlacedObject.OnTerrainModuleSpawned </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_rogue_genesia_1_1_environement_1_1_terrain_sector.html">RogueGenesia::Environement::TerrainSector</a>&#160;</td>
+          <td class="paramname"><em>terrain</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -340,19 +403,39 @@ Protected Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Rigidbody2D ProceduralPlacedObject._proxyRigidbody</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0def8938fe18cb6adeed0bbbfa15d29d" name="a0def8938fe18cb6adeed0bbbfa15d29d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0def8938fe18cb6adeed0bbbfa15d29d">&#9670;&#160;</a></span>_subProxy</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;GameObject&gt; ProceduralPlacedObject._subProxy</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afaa999697e4ed148f32dc26f18e94c63" name="afaa999697e4ed148f32dc26f18e94c63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afaa999697e4ed148f32dc26f18e94c63">&#9670;&#160;</a></span>_subProxyRigidBody</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;Rigidbody2D&gt; ProceduralPlacedObject._subProxyRigidBody</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

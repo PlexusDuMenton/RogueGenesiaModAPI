@@ -140,19 +140,23 @@ Inheritance diagram for RogueGenesia.Environement.TerrainGenerationSO:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a504611760149c2cc1dc0c713fbcfd075"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_rogue_genesia_1_1_environement_1_1_terrain_module_with_rotation.html">TerrainModuleWithRotation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_environement_1_1_terrain_generation_s_o.html#a504611760149c2cc1dc0c713fbcfd075">GetModules</a> (<a class="el" href="struct_rogue_genesia_1_1_environement_1_1_terrain_border.html">TerrainBorder</a> terrainModuleState, ulong seed)</td></tr>
-<tr class="separator:a504611760149c2cc1dc0c713fbcfd075"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b344816bde3f2715d477b6458648e0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_environement_1_1_terrain_generation_s_o.html#a5b344816bde3f2715d477b6458648e0d">OnValidate</a> ()</td></tr>
+<tr class="separator:a5b344816bde3f2715d477b6458648e0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe1f7fd802aa86dfc4193a78695efe90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_rogue_genesia_1_1_environement_1_1_terrain_module_with_rotation.html">TerrainModuleWithRotation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_environement_1_1_terrain_generation_s_o.html#abe1f7fd802aa86dfc4193a78695efe90">GetModules</a> (<a class="el" href="struct_rogue_genesia_1_1_environement_1_1_terrain_border.html">TerrainBorder</a> terrainModuleState, ulong seed, bool initialModule)</td></tr>
+<tr class="separator:abe1f7fd802aa86dfc4193a78695efe90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a2bdcabdd55a6d81b10b70a7174d3cefb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_environement_1_1_terrain_generation_s_o.html#a2bdcabdd55a6d81b10b70a7174d3cefb">GridSize</a></td></tr>
 <tr class="separator:a2bdcabdd55a6d81b10b70a7174d3cefb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc7d0d222db1adfbb823aa480b43d646"><td class="memItemLeft" align="right" valign="top">ColorSchemeSO&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_environement_1_1_terrain_generation_s_o.html#afc7d0d222db1adfbb823aa480b43d646">ColorScheme</a></td></tr>
+<tr class="separator:afc7d0d222db1adfbb823aa480b43d646"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95c9816e7905c55489b89f857b7f6e78"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_environement_1_1_terrain_module.html">TerrainModule</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_environement_1_1_terrain_generation_s_o.html#a95c9816e7905c55489b89f857b7f6e78">Modules</a></td></tr>
 <tr class="separator:a95c9816e7905c55489b89f857b7f6e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a504611760149c2cc1dc0c713fbcfd075" name="a504611760149c2cc1dc0c713fbcfd075"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a504611760149c2cc1dc0c713fbcfd075">&#9670;&#160;</a></span>GetModules()</h2>
+<a id="abe1f7fd802aa86dfc4193a78695efe90" name="abe1f7fd802aa86dfc4193a78695efe90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe1f7fd802aa86dfc4193a78695efe90">&#9670;&#160;</a></span>GetModules()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -170,7 +174,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">ulong&#160;</td>
-          <td class="paramname"><em>seed</em>&#160;</td>
+          <td class="paramname"><em>seed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>initialModule</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -187,7 +197,46 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5b344816bde3f2715d477b6458648e0d" name="a5b344816bde3f2715d477b6458648e0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b344816bde3f2715d477b6458648e0d">&#9670;&#160;</a></span>OnValidate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Environement.TerrainGenerationSO.OnValidate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="afc7d0d222db1adfbb823aa480b43d646" name="afc7d0d222db1adfbb823aa480b43d646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc7d0d222db1adfbb823aa480b43d646">&#9670;&#160;</a></span>ColorScheme</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ColorSchemeSO RogueGenesia.Environement.TerrainGenerationSO.ColorScheme</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2bdcabdd55a6d81b10b70a7174d3cefb" name="a2bdcabdd55a6d81b10b70a7174d3cefb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2bdcabdd55a6d81b10b70a7174d3cefb">&#9670;&#160;</a></span>GridSize</h2>
 

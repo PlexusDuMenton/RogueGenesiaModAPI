@@ -2,9 +2,11 @@ var class_rogue_genesia_1_1_rogue_zone_s_o =
 [
     [ "GetDescription", "class_rogue_genesia_1_1_rogue_zone_s_o.html#a1c53221ba95f46513dcc6bce7a9825d2", null ],
     [ "GetName", "class_rogue_genesia_1_1_rogue_zone_s_o.html#ab118f905a57dec61feb1d01b76145a28", null ],
+    [ "BossStage", "class_rogue_genesia_1_1_rogue_zone_s_o.html#ac8dd227819b172ad7bfd07acf3486da3", null ],
     [ "enemyPool", "class_rogue_genesia_1_1_rogue_zone_s_o.html#a1609781999452ffb881359ecb3691bc8", null ],
     [ "environementName", "class_rogue_genesia_1_1_rogue_zone_s_o.html#aecc7f6aa418d8c56b2320081198fc9c9", null ],
     [ "ForbidenStagePosition", "class_rogue_genesia_1_1_rogue_zone_s_o.html#aa78648a5ba5e15af94abb044de7075da", null ],
+    [ "ForcedMonsterAbility", "class_rogue_genesia_1_1_rogue_zone_s_o.html#a1f252911819e3e37eb3ad3b5fd50c6be", null ],
     [ "GroundPatch", "class_rogue_genesia_1_1_rogue_zone_s_o.html#a4f37d232105b85a43f15cd3135253c23", null ],
     [ "LevelSelectionVisual", "class_rogue_genesia_1_1_rogue_zone_s_o.html#a3d48d29437209c5f7b1b35541b662584", null ],
     [ "MaxPath", "class_rogue_genesia_1_1_rogue_zone_s_o.html#afc93c2844a7cf486c9d6da98e753929f", null ],

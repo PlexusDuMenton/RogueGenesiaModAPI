@@ -8,7 +8,9 @@ var searchData=
   ['liferegen_5',['LifeRegen',['../namespace_rogue_genesia_1_1_data.html#adb76f445ee1b5f0678fdd5d1c67b48bfa5553c7f5544a184f61324288db1b25f2',1,'RogueGenesia::Data']]],
   ['lightmagiccrystalsummon_6',['LightMagicCrystalSummon',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da9494868c38830889b27ed5b4b13eda08',1,'RogueGenesia::Data']]],
   ['lightningboots_7',['LightningBoots',['../namespace_rogue_genesia_1_1_data.html#aaa9105a962017dc70f16a695f4a394b5a798081506898426fc9906fb05648509a',1,'RogueGenesia::Data']]],
-  ['longnailsummon_8',['LongNailSummon',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da5065348f384b5de726e464f9fcb989af',1,'RogueGenesia::Data']]],
-  ['lowquality_9',['LowQuality',['../namespace_rogue_genesia_1_1_u_i.html#aa282cef6c9cdd57ed74358999e5f5f9ca80a8e87e8a2d74ac0f02bdd282c78259',1,'RogueGenesia.UI.LowQuality()'],['../namespace_rogue_genesia_1_1_u_i.html#a15a4ff829cef47c7b2fcee888c92725da80a8e87e8a2d74ac0f02bdd282c78259',1,'RogueGenesia.UI.LowQuality()']]],
-  ['luna_10',['Luna',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_shrine_entity.html#a39f070bd1b17a2765432f1ee146e3952a818468ddb460c3bd842a28f371bca99e',1,'RogueGenesia::Actors::Survival::ShrineEntity']]]
+  ['limitbreakimprovement_8',['LimitBreakImprovement',['../class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc34381676ecd99288db3111ac3263eca715cb3c534981bb79d47a49b421e67b3',1,'RogueGenesia::Data::SoulShopUpgradeSO']]],
+  ['logam_9',['Logam',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_shrine_entity.html#a39f070bd1b17a2765432f1ee146e3952a712462a7ad652ba4fa9e30c2b30665da',1,'RogueGenesia::Actors::Survival::ShrineEntity']]],
+  ['longnailsummon_10',['LongNailSummon',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390da5065348f384b5de726e464f9fcb989af',1,'RogueGenesia::Data']]],
+  ['lowquality_11',['LowQuality',['../namespace_rogue_genesia_1_1_u_i.html#aa282cef6c9cdd57ed74358999e5f5f9ca80a8e87e8a2d74ac0f02bdd282c78259',1,'RogueGenesia.UI.LowQuality()'],['../namespace_rogue_genesia_1_1_u_i.html#a15a4ff829cef47c7b2fcee888c92725da80a8e87e8a2d74ac0f02bdd282c78259',1,'RogueGenesia.UI.LowQuality()']]],
+  ['luna_12',['Luna',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_shrine_entity.html#a39f070bd1b17a2765432f1ee146e3952a818468ddb460c3bd842a28f371bca99e',1,'RogueGenesia::Actors::Survival::ShrineEntity']]]
 ];

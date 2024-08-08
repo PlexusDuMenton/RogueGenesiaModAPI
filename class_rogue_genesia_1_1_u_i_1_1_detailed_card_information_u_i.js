@@ -32,6 +32,8 @@ var class_rogue_genesia_1_1_u_i_1_1_detailed_card_information_u_i =
     [ "cardToolTip", "class_rogue_genesia_1_1_u_i_1_1_detailed_card_information_u_i.html#a88a6a6c88136c5e4310a09ae148191c6", null ],
     [ "CardTree", "class_rogue_genesia_1_1_u_i_1_1_detailed_card_information_u_i.html#a4ba43bd299fc66577108868ff4c4376f", null ],
     [ "CardTreeTransform", "class_rogue_genesia_1_1_u_i_1_1_detailed_card_information_u_i.html#a6fb2bb3fe8a31362182987b7c6f7aca7", null ],
+    [ "CardTypeText", "class_rogue_genesia_1_1_u_i_1_1_detailed_card_information_u_i.html#a7fcb2cb7a1819ffaf9e8086aee7a9baf", null ],
+    [ "CheckingPlayerID", "class_rogue_genesia_1_1_u_i_1_1_detailed_card_information_u_i.html#ad86e615165eae825e18b148445bf85e4", null ],
     [ "displayCardTimeStart", "class_rogue_genesia_1_1_u_i_1_1_detailed_card_information_u_i.html#ab8b4f227e58add3f2dc7096b6d590fb5", null ],
     [ "displayCardTimeStop", "class_rogue_genesia_1_1_u_i_1_1_detailed_card_information_u_i.html#a4a870279ce7286d8531b6585a1164981", null ],
     [ "EvolutionCardPannel", "class_rogue_genesia_1_1_u_i_1_1_detailed_card_information_u_i.html#a4a6fb7b92a6b8283e435f71442bf6191", null ],

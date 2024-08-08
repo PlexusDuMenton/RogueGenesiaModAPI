@@ -166,6 +166,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acc9702d0e6308b4b3f06fcab802142f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19313b236fd19c63db5d4828436a14db"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a19313b236fd19c63db5d4828436a14db">GetName</a> (int ID)</td></tr>
 <tr class="separator:a19313b236fd19c63db5d4828436a14db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e4b24e88d991caac6cbd3028e9bd159"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a3e4b24e88d991caac6cbd3028e9bd159">CheckIfPositionIsValid</a> ()</td></tr>
+<tr class="separator:a3e4b24e88d991caac6cbd3028e9bd159"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cfb8856e22f6c6003b5126e2bd2d9cf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a2cfb8856e22f6c6003b5126e2bd2d9cf">OnSpawn</a> (GameObject linkedObject, double[] lootData, float addLevel, float overKillMult, ref float coolDown, float dropMultiplier)</td></tr>
 <tr class="separator:a2cfb8856e22f6c6003b5126e2bd2d9cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd2c946888d1acd336ad25e612e1f3c2"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#acd2c946888d1acd336ad25e612e1f3c2">GetDropChanceFromCrate</a> ()</td></tr>
@@ -196,6 +198,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a5faca20daead4471de199d43cda39cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a374a7255b0d498f3ef1caeaec7f60991"><td class="memItemLeft" align="right" valign="top">VisualEffect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a374a7255b0d498f3ef1caeaec7f60991">ProjectileVFX</a> = null</td></tr>
 <tr class="separator:a374a7255b0d498f3ef1caeaec7f60991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb8316a5823c88f1a0b32f731b6a0550"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#adb8316a5823c88f1a0b32f731b6a0550">SpawnedInWrongPosition</a> = false</td></tr>
+<tr class="separator:adb8316a5823c88f1a0b32f731b6a0550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a200621c9d8fb296f4780f7a5dee1336e"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a200621c9d8fb296f4780f7a5dee1336e">TargetPosition</a></td></tr>
+<tr class="separator:a200621c9d8fb296f4780f7a5dee1336e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44566819fe171b3eff5dd3e7f90eee3c"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a44566819fe171b3eff5dd3e7f90eee3c">LinkedObject</a></td></tr>
 <tr class="separator:a44566819fe171b3eff5dd3e7f90eee3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63f9917fdcbbf643e4e4b89851d85b87"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a63f9917fdcbbf643e4e4b89851d85b87">KillMe</a> = false</td></tr>
@@ -204,8 +210,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a519be668ff8f8dc32984ba783c21f991"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d451e02ddf32095e90b4a74c08782b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_collectible_s_o.html">CollectibleSO</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a5d451e02ddf32095e90b4a74c08782b4">LinkedSO</a></td></tr>
 <tr class="separator:a5d451e02ddf32095e90b4a74c08782b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2130633dc43093426e290fe23995925b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a2130633dc43093426e290fe23995925b">VoidBonus</a> = false</td></tr>
-<tr class="separator:a2130633dc43093426e290fe23995925b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6be3b430cc606749d5ccf03d387ac616"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a6be3b430cc606749d5ccf03d387ac616">Attracted</a> = false</td></tr>
+<tr class="separator:a6be3b430cc606749d5ccf03d387ac616"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_rogue_genesia_1_1_utils_1_1_poolable"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_rogue_genesia_1_1_utils_1_1_poolable')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_rogue_genesia_1_1_utils_1_1_poolable.html">RogueGenesia.Utils.Poolable</a></td></tr>
 <tr class="memitem:ae9a7ddbf13690809869d77f176bb41ea inherit pub_attribs_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_utils_1_1_poolable.html#ae9a7ddbf13690809869d77f176bb41ea">PoolTypeName</a></td></tr>
 <tr class="separator:ae9a7ddbf13690809869d77f176bb41ea inherit pub_attribs_class_rogue_genesia_1_1_utils_1_1_poolable"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -239,6 +245,31 @@ Properties</h2></td></tr>
 <tr class="separator:af375c40846aafe7bf15c3c3a19cbf4e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3e4b24e88d991caac6cbd3028e9bd159" name="a3e4b24e88d991caac6cbd3028e9bd159"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e4b24e88d991caac6cbd3028e9bd159">&#9670;&#160;</a></span>CheckIfPositionIsValid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Actors.Survival.Collectible.CheckIfPositionIsValid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2ab04d40509c84bee859ef8dfa9c6a46" name="a2ab04d40509c84bee859ef8dfa9c6a46"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2ab04d40509c84bee859ef8dfa9c6a46">&#9670;&#160;</a></span>GetCategory()</h2>
 
@@ -697,7 +728,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_artificer_potion_collectible.html#a408152d1584af07d6c7913fd30effa8a">RogueGenesia.Actors.Survival.ArtificerPotionCollectible</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_chest_collectible.html#aac63226843694b63a0c78fc249b89299">RogueGenesia.Actors.Survival.ChestCollectible</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_crit_strike_infusion_collectible.html#ae6c6d8882c1f02d3a9b20b8b759224b3">RogueGenesia.Actors.Survival.CritStrikeInfusionCollectible</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_fire_wine_collectible.html#af09524a41a76a9657ce9d6b297665dd8">RogueGenesia.Actors.Survival.FireWineCollectible</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_gold_collectible.html#afc9055bab90969416baf7a6100ab8f82">RogueGenesia.Actors.Survival.GoldCollectible</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_hastestrike_serum_collectible.html#ac4a30b584d3a82931e146090d0ab9a2e">RogueGenesia.Actors.Survival.HastestrikeSerumCollectible</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_immortality_shard_collectible.html#a31322078e5d56318aaf7b24efb5bc3bb">RogueGenesia.Actors.Survival.ImmortalityShardCollectible</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_objective_collectible.html#a822a3267d2488318ea25abbc7eb9dd6c">RogueGenesia.Actors.Survival.ObjectiveCollectible</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_souls_collectible.html#a2c678311cdd3678af2a8ba6d818639b6">RogueGenesia.Actors.Survival.SoulsCollectible</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_swift_elixir_collectible.html#a2d05c413dcb479b0e6677dd5399876d2">RogueGenesia.Actors.Survival.SwiftElixirCollectible</a>.</p>
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_artificer_potion_collectible.html#a408152d1584af07d6c7913fd30effa8a">RogueGenesia.Actors.Survival.ArtificerPotionCollectible</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_chest_collectible.html#aac63226843694b63a0c78fc249b89299">RogueGenesia.Actors.Survival.ChestCollectible</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_crit_strike_infusion_collectible.html#ae6c6d8882c1f02d3a9b20b8b759224b3">RogueGenesia.Actors.Survival.CritStrikeInfusionCollectible</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_fire_wine_collectible.html#af09524a41a76a9657ce9d6b297665dd8">RogueGenesia.Actors.Survival.FireWineCollectible</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_gold_collectible.html#afc9055bab90969416baf7a6100ab8f82">RogueGenesia.Actors.Survival.GoldCollectible</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_hastestrike_serum_collectible.html#ac4a30b584d3a82931e146090d0ab9a2e">RogueGenesia.Actors.Survival.HastestrikeSerumCollectible</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_heal_collectible.html#a613a17455eef1e1106edb355a121463c">RogueGenesia.Actors.Survival.HealCollectible</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_immortality_shard_collectible.html#a31322078e5d56318aaf7b24efb5bc3bb">RogueGenesia.Actors.Survival.ImmortalityShardCollectible</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_objective_collectible.html#a822a3267d2488318ea25abbc7eb9dd6c">RogueGenesia.Actors.Survival.ObjectiveCollectible</a>, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_souls_collectible.html#a2c678311cdd3678af2a8ba6d818639b6">RogueGenesia.Actors.Survival.SoulsCollectible</a>, and <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_swift_elixir_collectible.html#a2d05c413dcb479b0e6677dd5399876d2">RogueGenesia.Actors.Survival.SwiftElixirCollectible</a>.</p>
 
 </div>
 </div>
@@ -770,6 +801,20 @@ Properties</h2></td></tr>
 <span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6be3b430cc606749d5ccf03d387ac616" name="a6be3b430cc606749d5ccf03d387ac616"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6be3b430cc606749d5ccf03d387ac616">&#9670;&#160;</a></span>Attracted</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Actors.Survival.Collectible.Attracted = false</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -872,14 +917,28 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a2130633dc43093426e290fe23995925b" name="a2130633dc43093426e290fe23995925b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2130633dc43093426e290fe23995925b">&#9670;&#160;</a></span>VoidBonus</h2>
+<a id="adb8316a5823c88f1a0b32f731b6a0550" name="adb8316a5823c88f1a0b32f731b6a0550"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb8316a5823c88f1a0b32f731b6a0550">&#9670;&#160;</a></span>SpawnedInWrongPosition</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool RogueGenesia.Actors.Survival.Collectible.VoidBonus = false</td>
+          <td class="memname">bool RogueGenesia.Actors.Survival.Collectible.SpawnedInWrongPosition = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a200621c9d8fb296f4780f7a5dee1336e" name="a200621c9d8fb296f4780f7a5dee1336e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a200621c9d8fb296f4780f7a5dee1336e">&#9670;&#160;</a></span>TargetPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector2 RogueGenesia.Actors.Survival.Collectible.TargetPosition</td>
         </tr>
       </table>
 </div><div class="memdoc">

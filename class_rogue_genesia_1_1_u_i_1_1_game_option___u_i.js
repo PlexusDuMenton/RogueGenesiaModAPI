@@ -12,6 +12,8 @@ var class_rogue_genesia_1_1_u_i_1_1_game_option___u_i =
     [ "InitSlider", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#a8315352940eb522e708f04f6909c65ed", null ],
     [ "InitSliderWithNumber", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#a6ab1ba82118c0cc10c71ce7854c98a5e", null ],
     [ "InitToggle", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#ac8c1ed80de3b14a58ab5225e4244a959", null ],
+    [ "OnMouseOffOption", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#a877e9d37f7562058a0bd87e68bd30226", null ],
+    [ "OnMouseOverOption", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#a67e27ffddd995a8a2f42e59f6d58928d", null ],
     [ "OnUpdateInputField", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#a191b3ec2b92aadb5ec2f375a309aa3dd", null ],
     [ "OnUpdateValueCustomSliderNumber", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#aafb0143dcb679274e729d0b64d4b23df", null ],
     [ "OnUpdateValueCustomSliderText", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#a69935f4b09fb9cc94c9ea556d7baac48", null ],
@@ -19,7 +21,10 @@ var class_rogue_genesia_1_1_u_i_1_1_game_option___u_i =
     [ "OnUpdateValueSlider", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#ae7f3131b81f1b92c9835099ac5a4d64d", null ],
     [ "OnUpdateValueToggle", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#a6a1edbce4561c07d8f7ac13974c54db5", null ],
     [ "SetNavigationDown", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#a40508578766c2a4f147f4458c6b4b049", null ],
+    [ "SetNavigationLeft", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#a68a78a77a38b1fb603b4cad974093738", null ],
     [ "SetNavigationUp", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#a698cb20d8fca09b5f0fd6a92141dae7d", null ],
+    [ "SetSliderValueFromField", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#a8477538d1b9e2d8be00742aa7690fca3", null ],
+    [ "BackGroundLine", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#a16ca063f80c4ddc5aa380449b7cc49da", null ],
     [ "dropdown", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#a8c91f0f24e637ef6acde5dd7f9db661e", null ],
     [ "gameOptionData", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#adb8b0831711977bd8d099cf2c2b32807", null ],
     [ "initDone", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#a48d16b32dd308dca07a661e72bae2c60", null ],
@@ -28,6 +33,7 @@ var class_rogue_genesia_1_1_u_i_1_1_game_option___u_i =
     [ "optionValue", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#a0a384ba5aefc9f3915f6421e53547571", null ],
     [ "parent", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#af7b9bed287964056fe16896495f3a861", null ],
     [ "slider", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#aa4c24d6e4ff357159713eb6b42d38001", null ],
+    [ "TmpField", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#a99df4c2b01ea1286cbce28baecbec6b0", null ],
     [ "toggle", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#a3a9b876da79632c0dbdb781b5c12ce46", null ],
     [ "OptionName", "class_rogue_genesia_1_1_u_i_1_1_game_option___u_i.html#ae505214a5322dcf58722cc590ec13dff", null ]
 ];

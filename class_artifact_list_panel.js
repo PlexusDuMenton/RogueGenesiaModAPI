@@ -21,6 +21,7 @@ var class_artifact_list_panel =
     [ "offset", "class_artifact_list_panel.html#a7f59ecf72bf2bf1b85f5d77837c80bf0", null ],
     [ "PageText", "class_artifact_list_panel.html#a9ce7e6a03db446254e5055619e85fff9", null ],
     [ "PannelGrid", "class_artifact_list_panel.html#a5b88c24c5355bd9a320c1f2910a73d37", null ],
+    [ "PlayerID", "class_artifact_list_panel.html#aa45edd5b899e90d53fa20602a28dd127", null ],
     [ "PrevButton", "class_artifact_list_panel.html#ad8be87c3d5d4b909759446167e7a2501", null ],
     [ "ArtifactPerPage", "class_artifact_list_panel.html#a1e590e0b094298401c4a9099b86f8007", null ]
 ];

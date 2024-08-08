@@ -9,4 +9,6 @@ digraph "RogueGenesia.Actors.Survival.SpecialEffectAOEAI"
   Node2 [label="DefaultProjectileAI",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html",tooltip=" "];
   Node3 -> Node2 [dir="back",color="steelblue1",style="solid"];
   Node3 [label="Poolable",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_utils_1_1_poolable.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="RogueGenesia.Actors.Survival.\lSpecialEffectAOE_AffectProjectiles_AI",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_actors_1_1_survival_1_1_special_effect_a_o_e___affect_projectiles___a_i.html",tooltip=" "];
 }

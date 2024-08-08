@@ -11,6 +11,7 @@ var class_rogue_genesia_1_1_data_1_1_monster_ability =
     [ "GetAbilityConstructor", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#a78926f0be961289d5b9e8e329839ae84", null ],
     [ "GetAbilityIcon", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#aea0a09792fea080c7b8b4732504e2a2d", null ],
     [ "GetAbilityWeight", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#ac7667fb7c076b8cc6304fcfb7ba8deef", null ],
+    [ "GetDeltaTime", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#af9fd0fbe208135a0d95144cfe1c46c8c", null ],
     [ "getGeneralAbilityTag", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#a68bbe9f9740b695038a6784cdd5ffe4d", null ],
     [ "IsChannelling", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#a9f400b41a85c8cf4424cff646fd4797c", null ],
     [ "IsReady", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#abaf64e06f2c07ffd3cfe7cbc020f6345", null ],

@@ -4,6 +4,8 @@ var class_option_data =
     [ "DisableParticles", "class_option_data.html#a66d9669744ac2fb80135ff61e80542c2", null ],
     [ "GetStringValue", "class_option_data.html#aa602e6d79439ce19321f4bb8dbafeec3", null ],
     [ "GetValue", "class_option_data.html#af589da87a267220b03415b16beea3df3", null ],
+    [ "GetValueFLoat", "class_option_data.html#a5788e091e402e163a06d7c0d46547230", null ],
+    [ "GetValueInt", "class_option_data.html#a872ea32abb47228b954160e340efed5f", null ],
     [ "HasValue", "class_option_data.html#ae239105ce0bd40a9bb35c4a5001ee1d9", null ],
     [ "LegacyV1FloatLoad", "class_option_data.html#a57c13b0cded8afa64fc0740ad53112a1", null ],
     [ "LegacyV1Load", "class_option_data.html#a84ae63db1c1eb7c3c275379fe5461897", null ],

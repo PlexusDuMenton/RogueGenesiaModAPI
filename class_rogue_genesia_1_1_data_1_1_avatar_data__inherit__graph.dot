@@ -21,7 +21,9 @@ digraph "RogueGenesia.Data.AvatarData"
   Node1 -> Node8 [dir="back",color="steelblue1",style="solid"];
   Node8 [label="RogueGenesia.Data.RogData",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_rog_data.html",tooltip=" "];
   Node1 -> Node9 [dir="back",color="steelblue1",style="solid"];
-  Node9 [label="RogueGenesia.Data.RogueData",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_rogue_data.html",tooltip=" "];
+  Node9 [label="RogueGenesia.Data.RogNGesusData",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_rog_n_gesus_data.html",tooltip=" "];
   Node1 -> Node10 [dir="back",color="steelblue1",style="solid"];
-  Node10 [label="RogueGenesia.Data.SummonerData",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_summoner_data.html",tooltip=" "];
+  Node10 [label="RogueGenesia.Data.RogueData",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_rogue_data.html",tooltip=" "];
+  Node1 -> Node11 [dir="back",color="steelblue1",style="solid"];
+  Node11 [label="RogueGenesia.Data.SummonerData",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_summoner_data.html",tooltip=" "];
 }

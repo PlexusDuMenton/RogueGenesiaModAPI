@@ -8,6 +8,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_sound_manager =
     [ "PlaySoundEffect", "class_rogue_genesia_1_1_game_manager_1_1_sound_manager.html#a593f0ad56d6f8f100f9d916f80289d02", null ],
     [ "Update", "class_rogue_genesia_1_1_game_manager_1_1_sound_manager.html#a97b97d46cd6ae65394fc101595efaf6b", null ],
     [ "UpdateSound", "class_rogue_genesia_1_1_game_manager_1_1_sound_manager.html#a39911f8bc826b1991cb266b036619357", null ],
+    [ "ActiveMusic", "class_rogue_genesia_1_1_game_manager_1_1_sound_manager.html#a748457937631f411d5e0c8a7d3a4ecbb", null ],
     [ "AudioMixerList", "class_rogue_genesia_1_1_game_manager_1_1_sound_manager.html#a8b5b7558f806bb3dcb795bf36aab289d", null ],
     [ "CurrentMusicTrack", "class_rogue_genesia_1_1_game_manager_1_1_sound_manager.html#a5a43533d3bdbd46332041e26803aed04", null ],
     [ "FlatSound", "class_rogue_genesia_1_1_game_manager_1_1_sound_manager.html#a26710bb7cdfb314e4c8e1e80de6238d3", null ],

@@ -7,6 +7,10 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/Summon"
   compound=true
   subgraph clusterdir_2d909ba704f47538bf61aa9015000ce8 {
     graph [ bgcolor="#daedff", pencolor="grey50", label="Survival", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_2d909ba704f47538bf61aa9015000ce8.html",tooltip=""]
-  dir_5ef2c5805e6cebce8cd2007e6fdd3e75 [label="Summon", fillcolor="#daedff", color="grey25", style="filled,bold", URL="dir_5ef2c5805e6cebce8cd2007e6fdd3e75.html",tooltip=""];
+  subgraph clusterdir_5ef2c5805e6cebce8cd2007e6fdd3e75 {
+    graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_5ef2c5805e6cebce8cd2007e6fdd3e75.html",tooltip=""]
+    dir_5ef2c5805e6cebce8cd2007e6fdd3e75 [shape=plaintext, label="Summon"];
+  dir_53d4109f712e3a1172e7713e6a39d5ec [label="SummonAbility", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_53d4109f712e3a1172e7713e6a39d5ec.html",tooltip=""];
+  }
   }
 }

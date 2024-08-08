@@ -24,6 +24,7 @@ var _enemy_scriptable_object_8cs =
       [ "D3", "_enemy_scriptable_object_8cs.html#a160e6ab93945a7b89abdd0b08198be94aa3deb6e481689f1d3303caecb8a6c401", null ]
     ] ],
     [ "EEnemyTier", "_enemy_scriptable_object_8cs.html#aa2874d11f1bb6952757a9b633f0f504e", [
+      [ "None", "_enemy_scriptable_object_8cs.html#aa2874d11f1bb6952757a9b633f0f504ea6adf97f83acf6453d4a6a4b1070f3754", null ],
       [ "Normal", "_enemy_scriptable_object_8cs.html#aa2874d11f1bb6952757a9b633f0f504ea960b44c579bc2f6818d2daaf9e4c16f0", null ],
       [ "Elite", "_enemy_scriptable_object_8cs.html#aa2874d11f1bb6952757a9b633f0f504eab13082ea3fe2642f1fd1fb76de03058b", null ],
       [ "Boss", "_enemy_scriptable_object_8cs.html#aa2874d11f1bb6952757a9b633f0f504ea5859831e2b3db23528c710b1451e13fc", null ],
@@ -50,6 +51,7 @@ var _enemy_scriptable_object_8cs =
       [ "Giant", "_enemy_scriptable_object_8cs.html#adb76f445ee1b5f0678fdd5d1c67b48bfa6ff015f9a4c7dc3387263aa1a819131f", null ],
       [ "Tiny", "_enemy_scriptable_object_8cs.html#adb76f445ee1b5f0678fdd5d1c67b48bfa383c05bda6f030a44990d354b24f3338", null ],
       [ "Split", "_enemy_scriptable_object_8cs.html#adb76f445ee1b5f0678fdd5d1c67b48bfa8a9e64d86ed12ad40de129bc7f4683b2", null ],
-      [ "DoublingOnDeath8", "_enemy_scriptable_object_8cs.html#adb76f445ee1b5f0678fdd5d1c67b48bfabaa80bb8bcb2b571e7f5128903789d37", null ]
+      [ "DoublingOnDeath8", "_enemy_scriptable_object_8cs.html#adb76f445ee1b5f0678fdd5d1c67b48bfabaa80bb8bcb2b571e7f5128903789d37", null ],
+      [ "Anachronistic", "_enemy_scriptable_object_8cs.html#adb76f445ee1b5f0678fdd5d1c67b48bfaac799b4dfe4b7fc707f277135ffc2ad4", null ]
     ] ]
 ];

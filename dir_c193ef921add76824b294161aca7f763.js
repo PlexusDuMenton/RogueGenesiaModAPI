@@ -19,6 +19,8 @@ var dir_c193ef921add76824b294161aca7f763 =
     [ "GoldCounter.cs", "_gold_counter_8cs.html", "_gold_counter_8cs" ],
     [ "HoverSound.cs", "_hover_sound_8cs.html", "_hover_sound_8cs" ],
     [ "InputFieldSteamLinker.cs", "_input_field_steam_linker_8cs.html", "_input_field_steam_linker_8cs" ],
+    [ "InputFieldSteamLinkerTMP.cs", "_input_field_steam_linker_t_m_p_8cs.html", "_input_field_steam_linker_t_m_p_8cs" ],
+    [ "KeyWordPromptSlot.cs", "_key_word_prompt_slot_8cs.html", "_key_word_prompt_slot_8cs" ],
     [ "MapIcon.cs", "_map_icon_8cs.html", "_map_icon_8cs" ],
     [ "MenuManager.cs", "_menu_manager_8cs.html", "_menu_manager_8cs" ],
     [ "OptionMenu.cs", "_option_menu_8cs.html", "_option_menu_8cs" ],

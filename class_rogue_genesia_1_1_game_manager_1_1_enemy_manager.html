@@ -125,6 +125,7 @@ $(document).ready(function(){initNavTree('class_rogue_genesia_1_1_game_manager_1
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
@@ -144,12 +145,10 @@ Inheritance diagram for RogueGenesia.GameManager.EnemyManager:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a82d4ea2971154e5531bf10ee727f2708"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a82d4ea2971154e5531bf10ee727f2708">GetLockedAngle</a> ()</td></tr>
-<tr class="separator:a82d4ea2971154e5531bf10ee727f2708"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49aa91d736bb8ad8156f0ea522ba298c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a49aa91d736bb8ad8156f0ea522ba298c">GetSpawnAngle</a> ()</td></tr>
-<tr class="separator:a49aa91d736bb8ad8156f0ea522ba298c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b8f1c7902cc8b44b33b6b973b37ffd5"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a2b8f1c7902cc8b44b33b6b973b37ffd5">GetSpawnPosition</a> (Vector3 spawnCenter, float enemySpawnDistance)</td></tr>
-<tr class="separator:a2b8f1c7902cc8b44b33b6b973b37ffd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a089c8bb52d91188c19ae93a61b9762b1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a089c8bb52d91188c19ae93a61b9762b1">isAABBOverlapCircle</a> (Vector2 playerPosition, Bounds bounds)</td></tr>
+<tr class="separator:a089c8bb52d91188c19ae93a61b9762b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3434b83e312a50b445b18c0df2965473"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a3434b83e312a50b445b18c0df2965473">CalculateBlockingAngle</a> (Vector2 playerPosition, List&lt; Collider2D &gt; Colliders)</td></tr>
+<tr class="separator:a3434b83e312a50b445b18c0df2965473"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90b46235d1492851c6d507dd0aa286b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a90b46235d1492851c6d507dd0aa286b8">Awake</a> ()</td></tr>
 <tr class="separator:a90b46235d1492851c6d507dd0aa286b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15d7360c80e92d9ed1b36f0ff9d1cdea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a15d7360c80e92d9ed1b36f0ff9d1cdea">EnemyManager</a> ()</td></tr>
@@ -165,14 +164,24 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:af7c9fede4ee368afdb9b29c289ccd119"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#af7c9fede4ee368afdb9b29c289ccd119">GetLockedAngle</a> ()</td></tr>
+<tr class="separator:af7c9fede4ee368afdb9b29c289ccd119"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9f996c25c3fb78b787769524bc58b63"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#ad9f996c25c3fb78b787769524bc58b63">GetSpawnAngle</a> (bool flyingMonster)</td></tr>
+<tr class="separator:ad9f996c25c3fb78b787769524bc58b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74883a819c3109b4780ad5e5c2d29b9c"><td class="memItemLeft" align="right" valign="top">static Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a74883a819c3109b4780ad5e5c2d29b9c">GetSpawnPosition</a> (Vector2 spawnCenter, float enemySpawnDistance, float monsterSize, bool flyingMonster)</td></tr>
+<tr class="separator:a74883a819c3109b4780ad5e5c2d29b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f3230ea6fde6ffd45593d112029d957"><td class="memItemLeft" align="right" valign="top">static Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a8f3230ea6fde6ffd45593d112029d957">GetClosestValidSpawnPosition</a> (Vector2 originalPosition, Vector2 spawnCenter, float originalAngle, float distance, bool flyingMonster)</td></tr>
+<tr class="separator:a8f3230ea6fde6ffd45593d112029d957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2fc89bd20f9b325d9cd2f5c52e229f4"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#ad2fc89bd20f9b325d9cd2f5c52e229f4">GetTimeScale</a> ()</td></tr>
 <tr class="separator:ad2fc89bd20f9b325d9cd2f5c52e229f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a788b76cec90fcc7f372b38924dd7b7d7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a788b76cec90fcc7f372b38924dd7b7d7">SetTimeScale</a> (float timeScale)</td></tr>
 <tr class="separator:a788b76cec90fcc7f372b38924dd7b7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6edca4947b575d0fd150a246c5c88f7e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a6edca4947b575d0fd150a246c5c88f7e">GetRandomTargetableEnemy</a> (Vector3 PlayerPosition)</td></tr>
-<tr class="separator:a6edca4947b575d0fd150a246c5c88f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83c8febe0a63f6e5ca9d6e0059f44629"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a83c8febe0a63f6e5ca9d6e0059f44629">GetRandomTargetableEnemy</a> ()</td></tr>
+<tr class="separator:a83c8febe0a63f6e5ca9d6e0059f44629"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35c54383459a8d3340d4b3baa4a7ac3e"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a35c54383459a8d3340d4b3baa4a7ac3e">getAllMonsterInArea</a> (Vector3 position, float areaSize)</td></tr>
 <tr class="separator:a35c54383459a8d3340d4b3baa4a7ac3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90e9aa21cca88a28147eb68daf447bce"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a90e9aa21cca88a28147eb68daf447bce">getAllMonsterInAreaPhysic</a> (Vector3 position, float areaSize)</td></tr>
+<tr class="separator:a90e9aa21cca88a28147eb68daf447bce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9392f974f3c0f8e705129f8cf3d7eb6b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a9392f974f3c0f8e705129f8cf3d7eb6b">GetEnemy</a> (int index)</td></tr>
 <tr class="separator:a9392f974f3c0f8e705129f8cf3d7eb6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac268bc01d03869c13cbca3db1acbe60f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#ac268bc01d03869c13cbca3db1acbe60f">CleanMonster</a> ()</td></tr>
@@ -191,12 +200,14 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a9125bcc0731182c82fad83bfc96fe9d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a912564873d94c10c6bfa0c9d7bae75b5"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a912564873d94c10c6bfa0c9d7bae75b5">SpawnEnemyPattern</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a> player, <a class="el" href="class_rogue_genesia_1_1_data_1_1_enemy_pattern_scriptable_object.html">EnemyPatternScriptableObject</a> patternScriptableObject, float level, float DropLevelCap=-1)</td></tr>
 <tr class="separator:a912564873d94c10c6bfa0c9d7bae75b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab49810d1773735f200f0fb59a5e52103"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#ab49810d1773735f200f0fb59a5e52103">SpawnEnemyCustomAI</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_enemy_s_o.html">EnemySO</a> EnemyToSpawn, System.Type AIType)</td></tr>
-<tr class="separator:ab49810d1773735f200f0fb59a5e52103"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a351bfded1bfa15d71469c4460b043aa9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a351bfded1bfa15d71469c4460b043aa9">SpawnEnemyCustomAI</a> (System.Type AIType)</td></tr>
+<tr class="separator:a351bfded1bfa15d71469c4460b043aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8058c11a54a81299e8977d6b484bf26"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#ac8058c11a54a81299e8977d6b484bf26">SpawnEnemyCustomAI</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_enemy_a_i_s_o.html">EnemyAISO</a> AIType)</td></tr>
+<tr class="separator:ac8058c11a54a81299e8977d6b484bf26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a815dff3288b74ab3945dbfcb7b73504c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a815dff3288b74ab3945dbfcb7b73504c">SpawnEnemyByType</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_enemy_s_o.html">EnemySO</a> EnemyToSpawn)</td></tr>
 <tr class="separator:a815dff3288b74ab3945dbfcb7b73504c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a917090646cec83f653b50c47491ea356"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a917090646cec83f653b50c47491ea356">SpawnEnemy</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a> player, GameObject toInstantiate, Vector3 posToSpawn, float level, <a class="el" href="class_rogue_genesia_1_1_data_1_1_enemy_s_o.html">EnemySO</a> EnemyToSpawn, float dropLevelCap=-1, bool TargetToKill=false, bool disableGeneralAbility=false, bool noBudgetCost=false, System.Type forcedEnemyAI=null)</td></tr>
-<tr class="separator:a917090646cec83f653b50c47491ea356"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8352c8e96f2bb85bf2c3d12687295117"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a8352c8e96f2bb85bf2c3d12687295117">SpawnEnemy</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a> player, GameObject toInstantiate, Vector3 posToSpawn, float level, <a class="el" href="class_rogue_genesia_1_1_data_1_1_enemy_s_o.html">EnemySO</a> EnemyToSpawn, float dropLevelCap=-1, bool TargetToKill=false, bool disableGeneralAbility=false, bool noBudgetCost=false, <a class="el" href="namespace_rogue_genesia_1_1_data.html#aa2874d11f1bb6952757a9b633f0f504e">EEnemyTier</a> ForcedEnemyTier=EEnemyTier.None, <a class="el" href="class_rogue_genesia_1_1_data_1_1_enemy_a_i_s_o.html">EnemyAISO</a> forcedEnemyAI=null)</td></tr>
+<tr class="separator:a8352c8e96f2bb85bf2c3d12687295117"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -208,6 +219,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a4194375c366d065dbf4ca8f76b6b2e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf3b0c7ce7f0dff4c5610d31d4c84f85"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#adf3b0c7ce7f0dff4c5610d31d4c84f85">GameTime</a></td></tr>
 <tr class="separator:adf3b0c7ce7f0dff4c5610d31d4c84f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa58f3a11743e83f54f8195270cc5615c"><td class="memItemLeft" align="right" valign="top">List&lt; Collider2D &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#aa58f3a11743e83f54f8195270cc5615c">BlockColliders</a> = new List&lt;Collider2D&gt;()</td></tr>
+<tr class="separator:aa58f3a11743e83f54f8195270cc5615c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -215,6 +228,8 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a3d9020107ac08f6ba4857aa65bd77255"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ea2353cc2d7fa83a8392a7f5cb4e33b"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a8ea2353cc2d7fa83a8392a7f5cb4e33b">LockedAngle</a> = -1</td></tr>
 <tr class="separator:a8ea2353cc2d7fa83a8392a7f5cb4e33b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9484e4050db4f6585a97f31892acc4e"><td class="memItemLeft" align="right" valign="top">static Bounds&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#ad9484e4050db4f6585a97f31892acc4e">ViewportAABB</a></td></tr>
+<tr class="separator:ad9484e4050db4f6585a97f31892acc4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3603b515c9199c10d913df77ef121e54"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#a3603b515c9199c10d913df77ef121e54">Timescale</a> = 1</td></tr>
 <tr class="separator:a3603b515c9199c10d913df77ef121e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -275,6 +290,42 @@ Properties</h2></td></tr>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3434b83e312a50b445b18c0df2965473" name="a3434b83e312a50b445b18c0df2965473"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3434b83e312a50b445b18c0df2965473">&#9670;&#160;</a></span>CalculateBlockingAngle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.GameManager.EnemyManager.CalculateBlockingAngle </td>
+          <td>(</td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>playerPosition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; Collider2D &gt;&#160;</td>
+          <td class="paramname"><em>Colliders</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -398,6 +449,42 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a90e9aa21cca88a28147eb68daf447bce" name="a90e9aa21cca88a28147eb68daf447bce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90e9aa21cca88a28147eb68daf447bce">&#9670;&#160;</a></span>getAllMonsterInAreaPhysic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static List&lt; <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> &gt; RogueGenesia.GameManager.EnemyManager.getAllMonsterInAreaPhysic </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>areaSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa7142a7f61e36b120240eb850c60ac50" name="aa7142a7f61e36b120240eb850c60ac50"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa7142a7f61e36b120240eb850c60ac50">&#9670;&#160;</a></span>GetBossMonsterCount()</h2>
 
@@ -412,6 +499,60 @@ Properties</h2></td></tr>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f3230ea6fde6ffd45593d112029d957" name="a8f3230ea6fde6ffd45593d112029d957"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f3230ea6fde6ffd45593d112029d957">&#9670;&#160;</a></span>GetClosestValidSpawnPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Vector2 RogueGenesia.GameManager.EnemyManager.GetClosestValidSpawnPosition </td>
+          <td>(</td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>originalPosition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>spawnCenter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>originalAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>distance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>flyingMonster</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -474,8 +615,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a82d4ea2971154e5531bf10ee727f2708" name="a82d4ea2971154e5531bf10ee727f2708"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82d4ea2971154e5531bf10ee727f2708">&#9670;&#160;</a></span>GetLockedAngle()</h2>
+<a id="af7c9fede4ee368afdb9b29c289ccd119" name="af7c9fede4ee368afdb9b29c289ccd119"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7c9fede4ee368afdb9b29c289ccd119">&#9670;&#160;</a></span>GetLockedAngle()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -484,35 +625,9 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float RogueGenesia.GameManager.EnemyManager.GetLockedAngle </td>
+          <td class="memname">static float RogueGenesia.GameManager.EnemyManager.GetLockedAngle </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6edca4947b575d0fd150a246c5c88f7e" name="a6edca4947b575d0fd150a246c5c88f7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6edca4947b575d0fd150a246c5c88f7e">&#9670;&#160;</a></span>GetRandomTargetableEnemy()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> RogueGenesia.GameManager.EnemyManager.GetRandomTargetableEnemy </td>
-          <td>(</td>
-          <td class="paramtype">Vector3&#160;</td>
-          <td class="paramname"><em>PlayerPosition</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -525,8 +640,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a49aa91d736bb8ad8156f0ea522ba298c" name="a49aa91d736bb8ad8156f0ea522ba298c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49aa91d736bb8ad8156f0ea522ba298c">&#9670;&#160;</a></span>GetSpawnAngle()</h2>
+<a id="a83c8febe0a63f6e5ca9d6e0059f44629" name="a83c8febe0a63f6e5ca9d6e0059f44629"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83c8febe0a63f6e5ca9d6e0059f44629">&#9670;&#160;</a></span>GetRandomTargetableEnemy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -535,7 +650,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float RogueGenesia.GameManager.EnemyManager.GetSpawnAngle </td>
+          <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> RogueGenesia.GameManager.EnemyManager.GetRandomTargetableEnemy </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -543,15 +658,15 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a2b8f1c7902cc8b44b33b6b973b37ffd5" name="a2b8f1c7902cc8b44b33b6b973b37ffd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b8f1c7902cc8b44b33b6b973b37ffd5">&#9670;&#160;</a></span>GetSpawnPosition()</h2>
+<a id="ad9f996c25c3fb78b787769524bc58b63" name="ad9f996c25c3fb78b787769524bc58b63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9f996c25c3fb78b787769524bc58b63">&#9670;&#160;</a></span>GetSpawnAngle()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -560,16 +675,54 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Vector3 RogueGenesia.GameManager.EnemyManager.GetSpawnPosition </td>
+          <td class="memname">static float RogueGenesia.GameManager.EnemyManager.GetSpawnAngle </td>
           <td>(</td>
-          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>flyingMonster</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a74883a819c3109b4780ad5e5c2d29b9c" name="a74883a819c3109b4780ad5e5c2d29b9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74883a819c3109b4780ad5e5c2d29b9c">&#9670;&#160;</a></span>GetSpawnPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Vector2 RogueGenesia.GameManager.EnemyManager.GetSpawnPosition </td>
+          <td>(</td>
+          <td class="paramtype">Vector2&#160;</td>
           <td class="paramname"><em>spawnCenter</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>enemySpawnDistance</em>&#160;</td>
+          <td class="paramname"><em>enemySpawnDistance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>monsterSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>flyingMonster</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -579,7 +732,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -637,6 +790,42 @@ Properties</h2></td></tr>
           <td></td>
           <td class="paramtype">Quaternion&#160;</td>
           <td class="paramname"><em>rotation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a089c8bb52d91188c19ae93a61b9762b1" name="a089c8bb52d91188c19ae93a61b9762b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a089c8bb52d91188c19ae93a61b9762b1">&#9670;&#160;</a></span>isAABBOverlapCircle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.GameManager.EnemyManager.isAABBOverlapCircle </td>
+          <td>(</td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>playerPosition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Bounds&#160;</td>
+          <td class="paramname"><em>bounds</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -778,8 +967,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a917090646cec83f653b50c47491ea356" name="a917090646cec83f653b50c47491ea356"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a917090646cec83f653b50c47491ea356">&#9670;&#160;</a></span>SpawnEnemy()</h2>
+<a id="a8352c8e96f2bb85bf2c3d12687295117" name="a8352c8e96f2bb85bf2c3d12687295117"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8352c8e96f2bb85bf2c3d12687295117">&#9670;&#160;</a></span>SpawnEnemy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -844,7 +1033,13 @@ Properties</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">System::Type&#160;</td>
+          <td class="paramtype"><a class="el" href="namespace_rogue_genesia_1_1_data.html#aa2874d11f1bb6952757a9b633f0f504e">EEnemyTier</a>&#160;</td>
+          <td class="paramname"><em>ForcedEnemyTier</em> = <code>EEnemyTier::None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_enemy_a_i_s_o.html">EnemyAISO</a>&#160;</td>
           <td class="paramname"><em>forcedEnemyAI</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -888,8 +1083,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ab49810d1773735f200f0fb59a5e52103" name="ab49810d1773735f200f0fb59a5e52103"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab49810d1773735f200f0fb59a5e52103">&#9670;&#160;</a></span>SpawnEnemyCustomAI()</h2>
+<a id="ac8058c11a54a81299e8977d6b484bf26" name="ac8058c11a54a81299e8977d6b484bf26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8058c11a54a81299e8977d6b484bf26">&#9670;&#160;</a></span>SpawnEnemyCustomAI() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -900,19 +1095,35 @@ Properties</h2></td></tr>
         <tr>
           <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> RogueGenesia.GameManager.EnemyManager.SpawnEnemyCustomAI </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_enemy_s_o.html">EnemySO</a>&#160;</td>
-          <td class="paramname"><em>EnemyToSpawn</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_enemy_a_i_s_o.html">EnemyAISO</a>&#160;</td>
+          <td class="paramname"><em>AIType</em></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a351bfded1bfa15d71469c4460b043aa9" name="a351bfded1bfa15d71469c4460b043aa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a351bfded1bfa15d71469c4460b043aa9">&#9670;&#160;</a></span>SpawnEnemyCustomAI() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html">Monster</a> RogueGenesia.GameManager.EnemyManager.SpawnEnemyCustomAI </td>
+          <td>(</td>
           <td class="paramtype">System::Type&#160;</td>
-          <td class="paramname"><em>AIType</em>&#160;</td>
-        </tr>
-        <tr>
+          <td class="paramname"><em>AIType</em></td><td>)</td>
           <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1082,6 +1293,20 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa58f3a11743e83f54f8195270cc5615c" name="aa58f3a11743e83f54f8195270cc5615c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa58f3a11743e83f54f8195270cc5615c">&#9670;&#160;</a></span>BlockColliders</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;Collider2D&gt; RogueGenesia.GameManager.EnemyManager.BlockColliders = new List&lt;Collider2D&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4194375c366d065dbf4ca8f76b6b2e97" name="a4194375c366d065dbf4ca8f76b6b2e97"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4194375c366d065dbf4ca8f76b6b2e97">&#9670;&#160;</a></span>FlatCollisionProxy</h2>
 
@@ -1193,6 +1418,28 @@ Properties</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">float RogueGenesia.GameManager.EnemyManager.Timescale = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad9484e4050db4f6585a97f31892acc4e" name="ad9484e4050db4f6585a97f31892acc4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9484e4050db4f6585a97f31892acc4e">&#9670;&#160;</a></span>ViewportAABB</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Bounds RogueGenesia.GameManager.EnemyManager.ViewportAABB</td>
         </tr>
       </table>
   </td>

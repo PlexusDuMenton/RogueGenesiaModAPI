@@ -10,5 +10,5 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_ballista_weapon =
     [ "OnKillEnemy", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_ballista_weapon.html#a42a1670e9132ffffb2163055ec7a15a1", null ],
     [ "OnPostStatUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_ballista_weapon.html#a51ce35e4cb3ce80b03132b915c08d0d9", null ],
     [ "OnUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_ballista_weapon.html#ae14d8997bac6a5a54c242b7e6e6b2bf2", null ],
-    [ "lastProccTime", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_ballista_weapon.html#ad61a3ce421207351b586d8e97646f694", null ]
+    [ "lastProccTime", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_ballista_weapon.html#a0cd97e1ebff039d65abb14697c3d030c", null ]
 ];

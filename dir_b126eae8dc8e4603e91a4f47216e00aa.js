@@ -12,5 +12,6 @@ var dir_b126eae8dc8e4603e91a4f47216e00aa =
     [ "Stage", "dir_0b9b90b2aaa432f1a4d65179d77178d7.html", "dir_0b9b90b2aaa432f1a4d65179d77178d7" ],
     [ "WeaponModifier", "dir_983076670978202e3e916c6d8efb132c.html", "dir_983076670978202e3e916c6d8efb132c" ],
     [ "Zone", "dir_69c72352cb9538458de2dd8c496db7ca.html", "dir_69c72352cb9538458de2dd8c496db7ca" ],
+    [ "ResourcesReferencer.cs", "_resources_referencer_8cs.html", "_resources_referencer_8cs" ],
     [ "RogueGenesiaScriptableObject.cs", "_rogue_genesia_scriptable_object_8cs.html", "_rogue_genesia_scriptable_object_8cs" ]
 ];

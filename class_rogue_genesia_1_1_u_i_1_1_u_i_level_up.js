@@ -16,6 +16,7 @@ var class_rogue_genesia_1_1_u_i_1_1_u_i_level_up =
     [ "_banishAction", "class_rogue_genesia_1_1_u_i_1_1_u_i_level_up.html#a5d0a730e91bf067512ce03f74aff0a25", null ],
     [ "_rarityRerollAction", "class_rogue_genesia_1_1_u_i_1_1_u_i_level_up.html#a88e42648b9822433fb8cfa2a2b5b0f02", null ],
     [ "_rerollAction", "class_rogue_genesia_1_1_u_i_1_1_u_i_level_up.html#aafe624d00bd1e1cc1691bf184a988427", null ],
+    [ "AutoSelect", "class_rogue_genesia_1_1_u_i_1_1_u_i_level_up.html#a1a7e549d7c40068486262816957d1899", null ],
     [ "Banish", "class_rogue_genesia_1_1_u_i_1_1_u_i_level_up.html#a64341ef1b0481464eb7d8125552ec2c6", null ],
     [ "BanishActivated", "class_rogue_genesia_1_1_u_i_1_1_u_i_level_up.html#af49ca76562182f7c841ad988fce0a230", null ],
     [ "BGPannel", "class_rogue_genesia_1_1_u_i_1_1_u_i_level_up.html#a0d1a4cee6dde0370458b6ab3d5193618", null ],

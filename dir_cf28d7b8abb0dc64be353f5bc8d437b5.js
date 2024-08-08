@@ -1,6 +1,8 @@
 var dir_cf28d7b8abb0dc64be353f5bc8d437b5 =
 [
+    [ "Otheravatar", "dir_eb4e6bee589cba9d0b56dea111752df8.html", "dir_eb4e6bee589cba9d0b56dea111752df8" ],
     [ "ArcaneBeamTalent.cs", "_arcane_beam_talent_8cs.html", "_arcane_beam_talent_8cs" ],
+    [ "BloodSyphoonTalent.cs", "_blood_syphoon_talent_8cs.html", "_blood_syphoon_talent_8cs" ],
     [ "BowTalent.cs", "_bow_talent_8cs.html", "_bow_talent_8cs" ],
     [ "CleaverTalent.cs", "_cleaver_talent_8cs.html", "_cleaver_talent_8cs" ],
     [ "CrossbowTalent.cs", "_crossbow_talent_8cs.html", "_crossbow_talent_8cs" ],
@@ -14,7 +16,6 @@ var dir_cf28d7b8abb0dc64be353f5bc8d437b5 =
     [ "MagicWandTalent.cs", "_magic_wand_talent_8cs.html", "_magic_wand_talent_8cs" ],
     [ "MagicWispTalent.cs", "_magic_wisp_talent_8cs.html", "_magic_wisp_talent_8cs" ],
     [ "PikeTalent.cs", "_pike_talent_8cs.html", "_pike_talent_8cs" ],
-    [ "PistolTalent.cs", "_pistol_talent_8cs.html", "_pistol_talent_8cs" ],
     [ "ShamanStaffTalent.cs", "_shaman_staff_talent_8cs.html", "_shaman_staff_talent_8cs" ],
     [ "ShurikenTalent.cs", "_shuriken_talent_8cs.html", "_shuriken_talent_8cs" ],
     [ "SpearTalent.cs", "_spear_talent_8cs.html", "_spear_talent_8cs" ],

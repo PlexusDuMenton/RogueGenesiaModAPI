@@ -10,6 +10,5 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_flame_throw =
     [ "SourcePosition", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_flame_throw.html#a93986e82e54342b2d8b4cfa2895a9f90", null ],
     [ "TotalLifeTime", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_flame_throw.html#a5fa8a69d5b6781ca0bdc745c60949769", null ],
     [ "UpdateTime", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_flame_throw.html#a090feb7369efeb1fed3c831a6e349795", null ],
-    [ "Weapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_flame_throw.html#a17ae963579dae6905fc48aead5aa1c01", null ],
-    [ "WeaponDamage", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_flame_throw.html#a0b7b3606cd7e7157f63525d3a8d50470", null ]
+    [ "Weapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_flame_throw.html#a17ae963579dae6905fc48aead5aa1c01", null ]
 ];

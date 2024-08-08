@@ -1,13 +1,18 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster =
 [
-    [ "CheckForDeath", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a972b8636b8875294e8ae00eeb4423311", null ],
+    [ "CheckForDeath", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a17057a41900888313efe87e5e00f61b0", null ],
     [ "CheckPhaseChange", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a002754e8a03d61dcf45afcc81f553eee", null ],
     [ "GetIntroDuration", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#ae41d6d2e1988e8557ebbd589de0b6efc", null ],
+    [ "GetRessourceColor", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#ad54cfb6c0d4f7637e21b904cf196c30f", null ],
+    [ "GetRessourceValue", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a0f1f7859b0ca6fee9db96d8c0b27eed9", null ],
+    [ "HasRessource", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a293392de0608e6488207c22b3e5d0fc6", null ],
+    [ "InitMonster", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a9d15d5cbbc97eadf225ca34e48f1f23c", null ],
     [ "IntroUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a900014c9bc0a8e113cd229bd8ff9f8f8", null ],
     [ "OnDamagesProcessed", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a253179ac5ab79b182d4d4b972cfd592b", null ],
     [ "OnIntroEnd", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a3fb5360ea8cc6e527d162d634fae940c", null ],
     [ "OnIntroStart", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a93e1d19cc8cf2e3b1c3f661433a41f85", null ],
     [ "OnIntroUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#afe770f7b5d0dde504c313bac3843b3b9", null ],
+    [ "OnLoot", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a00082bb4a8fb277efa513e9801dc36bf", null ],
     [ "OnSkipIntro", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#ac8ab870d63184772aea5418e0029688d", null ],
     [ "PressSkip", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#ad219597dbfcc001a4098cfe1d9fdb07d", null ],
     [ "TakeDamage", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#aa1d83679128bac4e7763a160b360b847", null ],
@@ -18,5 +23,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster =
     [ "InShielding", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a0e4bb1082630419d68a84d659b07a2c7", null ],
     [ "IntroStarted", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a06578ecfe8952ab599aa575a1fda2eb6", null ],
     [ "IntroTimeLeft", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a9546272ff94585e26f8b25ce91c36bea", null ],
-    [ "RemainingPhases", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a40952472abb0e5eeb8837e6271c37c1b", null ]
+    [ "PreviousPhase", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a3c96615da8c8865f44591e3e4faf6a1d", null ],
+    [ "RemainingPhases", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a40952472abb0e5eeb8837e6271c37c1b", null ],
+    [ "ShieldFX", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a8f349884eb87d484c6f959bc43b4103f", null ]
 ];

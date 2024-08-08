@@ -11,6 +11,7 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/Survival/Monster/AI"
     graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_befd5c0ec8b1e2fefcf5dc2dd2093e48.html",tooltip=""]
     dir_befd5c0ec8b1e2fefcf5dc2dd2093e48 [shape=plaintext, label="AI"];
   dir_c3cdb3834d5d3bbe5feeafd248d94d3b [label="BossAbility", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_c3cdb3834d5d3bbe5feeafd248d94d3b.html",tooltip=""];
+  dir_9cdb0399ebdc2ea460372b79c498999e [label="Manor", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_9cdb0399ebdc2ea460372b79c498999e.html",tooltip=""];
   }
   }
 }

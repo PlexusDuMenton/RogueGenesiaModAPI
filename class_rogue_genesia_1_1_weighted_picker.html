@@ -145,10 +145,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8aba4302a44c2400a46169cce1a2c126"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf406f2b79f4ab13d99bcfc68e424838"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_weighted_picker.html#acf406f2b79f4ab13d99bcfc68e424838">RemoveAt</a> (int index)</td></tr>
 <tr class="separator:acf406f2b79f4ab13d99bcfc68e424838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ba09eac2994fda68afcc9a0e212f868"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_weighted_picker.html#a0ba09eac2994fda68afcc9a0e212f868">PickRandom</a> (ref int index, PcgExtended randomToUse=null)</td></tr>
+<tr class="separator:a0ba09eac2994fda68afcc9a0e212f868"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d937bccb975ad80d276294661f43fc3"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_weighted_picker.html#a1d937bccb975ad80d276294661f43fc3">PickRandom</a> (PCGSharp.Pcg randomToUse=null)</td></tr>
 <tr class="separator:a1d937bccb975ad80d276294661f43fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26bf44c189bdec961791e23dd7ac90c7"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_weighted_picker.html#a26bf44c189bdec961791e23dd7ac90c7">PickAndRemove</a> (PCGSharp.Pcg randomToUse=null)</td></tr>
 <tr class="separator:a26bf44c189bdec961791e23dd7ac90c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc6ee10c25d694d4e9089660da8a4d74"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_weighted_picker.html#acc6ee10c25d694d4e9089660da8a4d74">PickAndRemovePcgExtended</a> (PcgExtended randomToUse)</td></tr>
+<tr class="separator:acc6ee10c25d694d4e9089660da8a4d74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ebca03196acb8d76d82546c968af681"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_weighted_picker.html#a3ebca03196acb8d76d82546c968af681">PickRandom</a> (ref int index, PCGSharp.Pcg randomToUse=null)</td></tr>
 <tr class="separator:a3ebca03196acb8d76d82546c968af681"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -161,6 +165,8 @@ Public Attributes</h2></td></tr>
 Properties</h2></td></tr>
 <tr class="memitem:adc8deda2c6f5579a00e8169a434f652b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_weighted_picker.html#adc8deda2c6f5579a00e8169a434f652b">Count</a><code> [get]</code></td></tr>
 <tr class="separator:adc8deda2c6f5579a00e8169a434f652b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc7e70ebbb9f1b23ac838ab7e0ef8028"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_weighted_picker.html#adc7e70ebbb9f1b23ac838ab7e0ef8028">this[int key]</a><code> [get]</code></td></tr>
+<tr class="separator:adc7e70ebbb9f1b23ac838ab7e0ef8028"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a8aba4302a44c2400a46169cce1a2c126" name="a8aba4302a44c2400a46169cce1a2c126"></a>
@@ -225,8 +231,34 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="acc6ee10c25d694d4e9089660da8a4d74" name="acc6ee10c25d694d4e9089660da8a4d74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc6ee10c25d694d4e9089660da8a4d74">&#9670;&#160;</a></span>PickAndRemovePcgExtended()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="class_rogue_genesia_1_1_weighted_picker.html">RogueGenesia.WeightedPicker</a>&lt; T &gt;.PickAndRemovePcgExtended </td>
+          <td>(</td>
+          <td class="paramtype">PcgExtended&#160;</td>
+          <td class="paramname"><em>randomToUse</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1d937bccb975ad80d276294661f43fc3" name="a1d937bccb975ad80d276294661f43fc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d937bccb975ad80d276294661f43fc3">&#9670;&#160;</a></span>PickRandom() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d937bccb975ad80d276294661f43fc3">&#9670;&#160;</a></span>PickRandom() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -251,8 +283,44 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a0ba09eac2994fda68afcc9a0e212f868" name="a0ba09eac2994fda68afcc9a0e212f868"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ba09eac2994fda68afcc9a0e212f868">&#9670;&#160;</a></span>PickRandom() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="class_rogue_genesia_1_1_weighted_picker.html">RogueGenesia.WeightedPicker</a>&lt; T &gt;.PickRandom </td>
+          <td>(</td>
+          <td class="paramtype">ref int&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PcgExtended&#160;</td>
+          <td class="paramname"><em>randomToUse</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3ebca03196acb8d76d82546c968af681" name="a3ebca03196acb8d76d82546c968af681"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ebca03196acb8d76d82546c968af681">&#9670;&#160;</a></span>PickRandom() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ebca03196acb8d76d82546c968af681">&#9670;&#160;</a></span>PickRandom() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,6 +408,28 @@ Properties</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">int <a class="el" href="class_rogue_genesia_1_1_weighted_picker.html">RogueGenesia.WeightedPicker</a>&lt; T &gt;.Count</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc7e70ebbb9f1b23ac838ab7e0ef8028" name="adc7e70ebbb9f1b23ac838ab7e0ef8028"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc7e70ebbb9f1b23ac838ab7e0ef8028">&#9670;&#160;</a></span>this[int key]</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="class_rogue_genesia_1_1_weighted_picker.html">RogueGenesia.WeightedPicker</a>&lt; T &gt;.this[int key]</td>
         </tr>
       </table>
   </td>

@@ -17,6 +17,7 @@ digraph "Q:/IdleWave/Projet/Assets/Scripts/RogueGenesia/ScriptableObjects/SoulCa
   dir_16d5a751f4ca74ca979f103dd90a0456 [label="OnKill", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_16d5a751f4ca74ca979f103dd90a0456.html",tooltip=""];
   dir_b01510eaf68995dfbae7888ca186f209 [label="OnTakeDamage", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_b01510eaf68995dfbae7888ca186f209.html",tooltip=""];
   dir_d5c8e23300909f9910de284f69569630 [label="SevenSins", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_d5c8e23300909f9910de284f69569630.html",tooltip=""];
+  dir_f680b0a493d009e14789bbad7d3f7e49 [label="Summoner", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_f680b0a493d009e14789bbad7d3f7e49.html",tooltip=""];
   }
   }
 }

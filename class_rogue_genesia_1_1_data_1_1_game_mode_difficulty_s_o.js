@@ -11,6 +11,7 @@ var class_rogue_genesia_1_1_data_1_1_game_mode_difficulty_s_o =
     [ "GameModeDifficultyCITypeConstructors", "class_rogue_genesia_1_1_data_1_1_game_mode_difficulty_s_o.html#a628cfc4f8323695c04b147432841f48f", null ],
     [ "InfoClass", "class_rogue_genesia_1_1_data_1_1_game_mode_difficulty_s_o.html#af40bed834084e99ddfa38cb277a98360", null ],
     [ "LinkedGameMode", "class_rogue_genesia_1_1_data_1_1_game_mode_difficulty_s_o.html#a7977c18dc236e57d5fbd166ff3ca6473", null ],
+    [ "Menu_Visual_Name", "class_rogue_genesia_1_1_data_1_1_game_mode_difficulty_s_o.html#a734285ab0e3ebe91f5d4deb396219a5d", null ],
     [ "Rank", "class_rogue_genesia_1_1_data_1_1_game_mode_difficulty_s_o.html#a0678838cf00a725113fd4ef866361ec7", null ],
     [ "hasChallenge", "class_rogue_genesia_1_1_data_1_1_game_mode_difficulty_s_o.html#a2c967e5c6741764f92a028fa3516a6a9", null ]
 ];

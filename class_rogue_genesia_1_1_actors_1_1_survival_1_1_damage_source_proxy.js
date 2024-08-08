@@ -2,8 +2,9 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_source_proxy =
 [
     [ "AddBuff", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_source_proxy.html#a384426702649e49fe6b282ea82508d19", null ],
     [ "DeathSource", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_source_proxy.html#ab2cd93734499d3b7608e4a76a4667afb", null ],
-    [ "GetEntityTime", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_source_proxy.html#affc4a428fd86bade1a2bbeff8e72407d", null ],
+    [ "GetEntityTime", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_source_proxy.html#a80e1ebba662708ad93f793f6f99cc852", null ],
     [ "GetLinkedGameObject", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_source_proxy.html#ab6e59d82423851e8647aa0e8873178fd", null ],
+    [ "GetProxyRigidBody", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_source_proxy.html#aa99fd949fa93634593cbfd84a202d0a5", null ],
     [ "GetSubEntity", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_source_proxy.html#a29b25c24d875b42a5797864710b18e68", null ],
     [ "GetTimeScale", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_source_proxy.html#a1e7c8ce0882ad54df32c50966318c48c", null ],
     [ "HasBuff", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_damage_source_proxy.html#a9a200cce7f9e5b23ba9ed539b613684b", null ],

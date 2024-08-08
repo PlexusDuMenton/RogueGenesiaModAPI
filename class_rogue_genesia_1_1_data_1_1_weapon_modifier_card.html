@@ -126,6 +126,7 @@ $(document).ready(function(){initNavTree('class_rogue_genesia_1_1_data_1_1_weapo
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_rogue_genesia_1_1_data_1_1_weapon_modifier_card-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">RogueGenesia.Data.WeaponModifierCard Class Reference</div></div>
 </div><!--header-->
@@ -147,6 +148,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a04f2bc9b937fbaa531ec330b22172f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cab72aa8f8fa27652dea8f67c65c9a8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier_card.html#a4cab72aa8f8fa27652dea8f67c65c9a8">RemoveModifier</a> ()</td></tr>
 <tr class="separator:a4cab72aa8f8fa27652dea8f67c65c9a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab469e946fb7ec59d847fc03335f04d09"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier_card.html#ab469e946fb7ec59d847fc03335f04d09">LevelUp</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> owner)</td></tr>
+<tr class="separator:ab469e946fb7ec59d847fc03335f04d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_rogue_genesia_1_1_data_1_1_soul_card"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_rogue_genesia_1_1_data_1_1_soul_card')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">RogueGenesia.Data.SoulCard</a></td></tr>
 <tr class="memitem:aef7fed606291cdf3fe32d3ccce89775b inherit pub_methods_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#aef7fed606291cdf3fe32d3ccce89775b">InitData</a> (string name, int ID, <a class="el" href="namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aa">CardRarity</a> rarity=<a class="el" href="namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aaaca1d36b689ff205441f6a2ca78a86fb5">CardRarity.Tainted</a>, double dropWeight=1, int level=1, <a class="el" href="namespace_rogue_genesia_1_1_data.html#afaec252bb0335013ba7cab942f28c663">CardType</a> cardType=<a class="el" href="namespace_rogue_genesia_1_1_data.html#afaec252bb0335013ba7cab942f28c663a0db45d2a4141101bdfe48e3314cfbca3">CardType.UNDEFINED</a>)</td></tr>
 <tr class="separator:aef7fed606291cdf3fe32d3ccce89775b inherit pub_methods_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,6 +208,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a27c9c02cf801e5e51721099383fc4a53"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html#a27c9c02cf801e5e51721099383fc4a53">OnTakeDamagePreDefence</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">Actors.Survival.PlayerEntity</a> owner, <a class="el" href="interface_rogue_genesia_1_1_actors_1_1_survival_1_1_i_entity.html">Actors.Survival.IEntity</a> damageOwner, ref float modifierDamageValue, float damageValue)</td></tr>
 <tr class="separator:a27c9c02cf801e5e51721099383fc4a53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a981e498f8b328edf6442ed07d4a0e7e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier.html">WeaponModifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier_card.html#a981e498f8b328edf6442ed07d4a0e7e4">_linkedWeaponModifier</a></td></tr>
+<tr class="separator:a981e498f8b328edf6442ed07d4a0e7e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">RogueGenesia.Data.SoulCard</a></td></tr>
+<tr class="memitem:af88f55d7d79d7c219f896201f8715b3a inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#af88f55d7d79d7c219f896201f8715b3a">_soulBonusID</a></td></tr>
+<tr class="separator:af88f55d7d79d7c219f896201f8715b3a inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a624d8872e93a8f2b00c39be66c661090 inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a624d8872e93a8f2b00c39be66c661090">_level</a> = 1</td></tr>
+<tr class="separator:a624d8872e93a8f2b00c39be66c661090 inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05363f4990bb36f4a82cf5e6cfd98ca1 inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a05363f4990bb36f4a82cf5e6cfd98ca1">_name</a> = &quot;Test&quot;</td></tr>
+<tr class="separator:a05363f4990bb36f4a82cf5e6cfd98ca1 inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7159488701814c37c263bd3995af88ef inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aa">CardRarity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a7159488701814c37c263bd3995af88ef">_soulRarity</a> = <a class="el" href="namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aaaca1d36b689ff205441f6a2ca78a86fb5">CardRarity.Tainted</a></td></tr>
+<tr class="separator:a7159488701814c37c263bd3995af88ef inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93e8eb3a1b720a0a5d49953530da30e7 inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_rogue_genesia_1_1_data.html#afaec252bb0335013ba7cab942f28c663">CardType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a93e8eb3a1b720a0a5d49953530da30e7">_cardType</a> = <a class="el" href="namespace_rogue_genesia_1_1_data.html#afaec252bb0335013ba7cab942f28c663a0db45d2a4141101bdfe48e3314cfbca3">CardType.UNDEFINED</a></td></tr>
+<tr class="separator:a93e8eb3a1b720a0a5d49953530da30e7 inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa4d5fba7410368d8981be1c302d5ccb inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#afa4d5fba7410368d8981be1c302d5ccb">_dropWeight</a> = 1</td></tr>
+<tr class="separator:afa4d5fba7410368d8981be1c302d5ccb inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_static_methods_class_rogue_genesia_1_1_data_1_1_soul_card"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_class_rogue_genesia_1_1_data_1_1_soul_card')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">RogueGenesia.Data.SoulCard</a></td></tr>
@@ -221,19 +242,6 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:acc4675b6371c087fd04820322e529ec5 inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae264b5af2fb59270810eec54ab8be87b inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#ae264b5af2fb59270810eec54ab8be87b">AvatarOwner</a></td></tr>
 <tr class="separator:ae264b5af2fb59270810eec54ab8be87b inherit pub_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">RogueGenesia.Data.SoulCard</a></td></tr>
-<tr class="memitem:af88f55d7d79d7c219f896201f8715b3a inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#af88f55d7d79d7c219f896201f8715b3a">_soulBonusID</a></td></tr>
-<tr class="separator:af88f55d7d79d7c219f896201f8715b3a inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a624d8872e93a8f2b00c39be66c661090 inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a624d8872e93a8f2b00c39be66c661090">_level</a> = 1</td></tr>
-<tr class="separator:a624d8872e93a8f2b00c39be66c661090 inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05363f4990bb36f4a82cf5e6cfd98ca1 inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a05363f4990bb36f4a82cf5e6cfd98ca1">_name</a> = &quot;Test&quot;</td></tr>
-<tr class="separator:a05363f4990bb36f4a82cf5e6cfd98ca1 inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7159488701814c37c263bd3995af88ef inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aa">CardRarity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a7159488701814c37c263bd3995af88ef">_soulRarity</a> = <a class="el" href="namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aaaca1d36b689ff205441f6a2ca78a86fb5">CardRarity.Tainted</a></td></tr>
-<tr class="separator:a7159488701814c37c263bd3995af88ef inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93e8eb3a1b720a0a5d49953530da30e7 inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_rogue_genesia_1_1_data.html#afaec252bb0335013ba7cab942f28c663">CardType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#a93e8eb3a1b720a0a5d49953530da30e7">_cardType</a> = <a class="el" href="namespace_rogue_genesia_1_1_data.html#afaec252bb0335013ba7cab942f28c663a0db45d2a4141101bdfe48e3314cfbca3">CardType.UNDEFINED</a></td></tr>
-<tr class="separator:a93e8eb3a1b720a0a5d49953530da30e7 inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa4d5fba7410368d8981be1c302d5ccb inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#afa4d5fba7410368d8981be1c302d5ccb">_dropWeight</a> = 1</td></tr>
-<tr class="separator:afa4d5fba7410368d8981be1c302d5ccb inherit pro_attribs_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_rogue_genesia_1_1_data_1_1_soul_card"><td colspan="2" onclick="javascript:toggleInherit('properties_class_rogue_genesia_1_1_data_1_1_soul_card')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">RogueGenesia.Data.SoulCard</a></td></tr>
 <tr class="memitem:aeb4f04ad9cf023615ee77ada0ebf7742 inherit properties_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_rogue_genesia_1_1_data.html#afaec252bb0335013ba7cab942f28c663">CardType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#aeb4f04ad9cf023615ee77ada0ebf7742">CardType</a><code> [get]</code></td></tr>
 <tr class="separator:aeb4f04ad9cf023615ee77ada0ebf7742 inherit properties_class_rogue_genesia_1_1_data_1_1_soul_card"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -298,7 +306,37 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_divine_smite.html#a9aceacbf7ca16c65c3ddc856d106b856">RogueGenesia.Data.DivineSmite</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_fire_spirit_soul_card.html#a87b351379b4077cb8d155b83d90176b4">RogueGenesia.Data.FireSpiritSoulCard</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_fractal_soul_card.html#adda091c3c15d1aee862304e39c1c8a5b">RogueGenesia.Data.FractalSoulCard</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_ice_spirit.html#abf2548a13043cbadc8f0854d707b95d9">RogueGenesia.Data.IceSpirit</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_thunder_spirit.html#a5e91d1c31ee3d2bc0178b4ea66fafa63">RogueGenesia.Data.ThunderSpirit</a>.</p>
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_blood_spirit.html#a1f8e923154151d440fd1d4dfee24116c">RogueGenesia.Data.BloodSpirit</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_concentration.html#ac4c8818e96b847d8a4f567004d3103c3">RogueGenesia.Data.Concentration</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_divine_smite.html#a9aceacbf7ca16c65c3ddc856d106b856">RogueGenesia.Data.DivineSmite</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_fire_spirit_soul_card.html#a87b351379b4077cb8d155b83d90176b4">RogueGenesia.Data.FireSpiritSoulCard</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_fractal_soul_card.html#adda091c3c15d1aee862304e39c1c8a5b">RogueGenesia.Data.FractalSoulCard</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_gigantification.html#aa1ddb2f7d68eb484bdf1962a575fc5da">RogueGenesia.Data.Gigantification</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_ice_spirit.html#abf2548a13043cbadc8f0854d707b95d9">RogueGenesia.Data.IceSpirit</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_alacrity.html#a52edd386345c8e133dd3049848deb34b">RogueGenesia.Data.RuneOfAlacrity</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_consolidation.html#a3b2b9f3a9a8063af94c20edb805ca094">RogueGenesia.Data.RuneOfConsolidation</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_heaviness.html#a8eaba9ee164cdcc9078b8ab5c627bc2b">RogueGenesia.Data.RuneOfHeaviness</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_luck.html#a7c09b027805eac80a0bb0e7f8e004068">RogueGenesia.Data.RuneOfLuck</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_necromancy.html#a59645dc58a0be1f28dfae23267345e8c">RogueGenesia.Data.RuneOfNecromancy</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_thunder_spirit.html#a5e91d1c31ee3d2bc0178b4ea66fafa63">RogueGenesia.Data.ThunderSpirit</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_aura.html#a0ec71306349bdf7c88f13e476ae103b5">RogueGenesia.Data.WeaponAura</a>.</p>
+
+</div>
+</div>
+<a id="ab469e946fb7ec59d847fc03335f04d09" name="ab469e946fb7ec59d847fc03335f04d09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab469e946fb7ec59d847fc03335f04d09">&#9670;&#160;</a></span>LevelUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void RogueGenesia.Data.WeaponModifierCard.LevelUp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a>&#160;</td>
+          <td class="paramname"><em>owner</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html#ae774d2ae521b71efaf73414681e0ffd0">RogueGenesia.Data.SoulCard</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_divine_smite.html#a33a772ca9601815b40e22f30436cd0a5">RogueGenesia.Data.DivineSmite</a>.</p>
 
 </div>
 </div>
@@ -354,7 +392,28 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_divine_smite.html#a2ce37ac4d9434799a701ba24f4be8eea">RogueGenesia.Data.DivineSmite</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_fire_spirit_soul_card.html#aa43112066661dafc677bbbacd4c0f62f">RogueGenesia.Data.FireSpiritSoulCard</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_fractal_soul_card.html#a6d7243c1f609935c414b7ebabab991b3">RogueGenesia.Data.FractalSoulCard</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_ice_spirit.html#a4492eb6238eaa4d0916cb123e9d2dfe5">RogueGenesia.Data.IceSpirit</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_thunder_spirit.html#a19515b600d46c1a6de416399df59d83f">RogueGenesia.Data.ThunderSpirit</a>.</p>
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a981e498f8b328edf6442ed07d4a0e7e4" name="a981e498f8b328edf6442ed07d4a0e7e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a981e498f8b328edf6442ed07d4a0e7e4">&#9670;&#160;</a></span>_linkedWeaponModifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier.html">WeaponModifier</a> RogueGenesia.Data.WeaponModifierCard._linkedWeaponModifier</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

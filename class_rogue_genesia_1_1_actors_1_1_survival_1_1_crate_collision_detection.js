@@ -1,9 +1,11 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection =
 [
     [ "AddBuff", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#afb53c91409345237b73cd464b9c3a547", null ],
+    [ "Awake", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#aaad7265f293f592ff5372db4e0e30b57", null ],
     [ "DeathSource", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#aff4317eeef1ca41c5359cdceb5b04dca", null ],
-    [ "GetEntityTime", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a3dc17ec121beb5c2730199160673d78f", null ],
+    [ "GetEntityTime", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a41f1af3781207037550946a5f4cb0c3c", null ],
     [ "GetLinkedGameObject", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#af48b5913dfbeea6591bcbade5c7b4071", null ],
+    [ "GetProxyRigidBody", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a9f0390d3946c336c651b5319bbb55f7a", null ],
     [ "GetSubEntity", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#accab4f402086792424b781d440de6163", null ],
     [ "GetTimeScale", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a717b05bd914bdbbad24204f4afe32c43", null ],
     [ "HasBuff", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a522c4706d07869acea29070939add80c", null ],
@@ -12,7 +14,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection =
     [ "IsEntityDead", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#acb3c2793b62cdbf14ede77808ca827b5", null ],
     [ "isPlayer", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a796a69db04d727e88d202aa345319e05", null ],
     [ "OnBreak", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a3a63c1388a08d7d6d2c791ae7419e3a2", null ],
-    [ "OnDestroy", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a4cd75d012df5144bd58ff1e423d5dd38", null ],
+    [ "OnDestroy", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a100cef21bcb60ee57a40436cb85063c7", null ],
     [ "ProjectileTarget", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a2607e6854239e012df4701db69cf272c", null ],
     [ "RemoveBuff", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#ac009e495066f2fc503ee0d77383650a7", null ],
     [ "Start", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#aa6cec71ab5128e63f09f096731b3403d", null ],
@@ -22,6 +24,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection =
     [ "Update", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a3bbb352abfa95240f9a5e26998242ba7", null ],
     [ "_hp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a8b78ad3d1e71f6cce4dbb570e7564d1a", null ],
     [ "_time", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a6bc3dfef36572550c100211ef174cc55", null ],
+    [ "DropChance", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#aaa8dd3fe7a6420e969bdf56cb0398d9d", null ],
     [ "GoldMultiplier", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a97227764af284a08bc4913c40fcc3df5", null ],
     [ "OtherChance", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a2276c542977374f6d130120dbfacea69", null ],
     [ "TimeScale", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_crate_collision_detection.html#a864bfb363820c4fe4ca9a7430010057d", null ]

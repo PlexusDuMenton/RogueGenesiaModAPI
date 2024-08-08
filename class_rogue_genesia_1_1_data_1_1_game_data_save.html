@@ -192,8 +192,20 @@ Public Attributes</h2></td></tr>
 <tr class="separator:af046574aca902338543a55b8ee9655fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeebde90acf9ee70fe6c2018a6dd03d1d"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_game_data_save.html#aeebde90acf9ee70fe6c2018a6dd03d1d">ProfileGameMode</a> = nameof(<a class="el" href="namespace_rogue_genesia_1_1_data.html#a11d6e4dd69d3c01685ecee972f8cc965a960b44c579bc2f6818d2daaf9e4c16f0">EProfileGameMode.Normal</a>)</td></tr>
 <tr class="separator:aeebde90acf9ee70fe6c2018a6dd03d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59341c6ea1a73ed684e9fe079d3b754d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_game_data_save.html#a59341c6ea1a73ed684e9fe079d3b754d">EquipmentProgressionState</a></td></tr>
+<tr class="separator:a59341c6ea1a73ed684e9fe079d3b754d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb4848d9040bf7766aefd0d9169cacbc"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_data_container.html">DataContainer</a>&lt; float &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_game_data_save.html#acb4848d9040bf7766aefd0d9169cacbc">SoulCoinRecord</a> = new()</td></tr>
 <tr class="separator:acb4848d9040bf7766aefd0d9169cacbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a696bee76d9876f36ccb7a61d01d4bcbf"><td class="memItemLeft" align="right" valign="top">List&lt; EquipmentInformation &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_game_data_save.html#a696bee76d9876f36ccb7a61d01d4bcbf">Inventory</a> = new()</td></tr>
+<tr class="separator:a696bee76d9876f36ccb7a61d01d4bcbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb0a8329c20b5b8ab1f97ad6ae116a51"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, Dictionary&lt; string, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_game_data_save.html#abb0a8329c20b5b8ab1f97ad6ae116a51">Equipment</a> = new()</td></tr>
+<tr class="separator:abb0a8329c20b5b8ab1f97ad6ae116a51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b19054ee0be0374d79b42dd4520401d"><td class="memItemLeft" align="right" valign="top">List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_game_data_save.html#a5b19054ee0be0374d79b42dd4520401d">LearnedModifiers</a> = new()</td></tr>
+<tr class="separator:a5b19054ee0be0374d79b42dd4520401d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaed2cce149608376c81e98d875c18dd0"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; int, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_game_data_save.html#aaed2cce149608376c81e98d875c18dd0">Materials</a> = new()</td></tr>
+<tr class="separator:aaed2cce149608376c81e98d875c18dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87d47f4dbe23fcf24d805440b586ccbe"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, List&lt; LoadoutSaveInfo &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_game_data_save.html#a87d47f4dbe23fcf24d805440b586ccbe">EquipmentLoadout</a> = new ()</td></tr>
+<tr class="separator:a87d47f4dbe23fcf24d805440b586ccbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3677d14406a123467b898c2951144629"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_game_data_save.html#a3677d14406a123467b898c2951144629">LastCorruptionPlayed</a></td></tr>
 <tr class="separator:a3677d14406a123467b898c2951144629"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4465a1fc2a9fa86be8535bb6957732c7"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_game_data_save.html#a4465a1fc2a9fa86be8535bb6957732c7">TotalDamageSource</a> = new()</td></tr>
@@ -741,6 +753,48 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="abb0a8329c20b5b8ab1f97ad6ae116a51" name="abb0a8329c20b5b8ab1f97ad6ae116a51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb0a8329c20b5b8ab1f97ad6ae116a51">&#9670;&#160;</a></span>Equipment</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;string, Dictionary&lt;string, int&gt; &gt; RogueGenesia.Data.GameDataSave.Equipment = new()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87d47f4dbe23fcf24d805440b586ccbe" name="a87d47f4dbe23fcf24d805440b586ccbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87d47f4dbe23fcf24d805440b586ccbe">&#9670;&#160;</a></span>EquipmentLoadout</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;string, List&lt;LoadoutSaveInfo&gt; &gt; RogueGenesia.Data.GameDataSave.EquipmentLoadout = new ()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a59341c6ea1a73ed684e9fe079d3b754d" name="a59341c6ea1a73ed684e9fe079d3b754d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59341c6ea1a73ed684e9fe079d3b754d">&#9670;&#160;</a></span>EquipmentProgressionState</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.GameDataSave.EquipmentProgressionState</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8e593b06c490c15a6974ab274f272358" name="a8e593b06c490c15a6974ab274f272358"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8e593b06c490c15a6974ab274f272358">&#9670;&#160;</a></span>HighestReachedStats</h2>
 
@@ -749,6 +803,20 @@ Properties</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_simplified_character_stat.html">SimplifiedCharacterStat</a> RogueGenesia.Data.GameDataSave.HighestReachedStats = new()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a696bee76d9876f36ccb7a61d01d4bcbf" name="a696bee76d9876f36ccb7a61d01d4bcbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a696bee76d9876f36ccb7a61d01d4bcbf">&#9670;&#160;</a></span>Inventory</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;EquipmentInformation&gt; RogueGenesia.Data.GameDataSave.Inventory = new()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -769,6 +837,20 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a5b19054ee0be0374d79b42dd4520401d" name="a5b19054ee0be0374d79b42dd4520401d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b19054ee0be0374d79b42dd4520401d">&#9670;&#160;</a></span>LearnedModifiers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;string&gt; RogueGenesia.Data.GameDataSave.LearnedModifiers = new()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aaf656bdd7c8e2255a95b64d03dec9eb3" name="aaf656bdd7c8e2255a95b64d03dec9eb3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaf656bdd7c8e2255a95b64d03dec9eb3">&#9670;&#160;</a></span>LowestReachedStats</h2>
 
@@ -777,6 +859,20 @@ Properties</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_simplified_character_stat.html">SimplifiedCharacterStat</a> RogueGenesia.Data.GameDataSave.LowestReachedStats = new()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaed2cce149608376c81e98d875c18dd0" name="aaed2cce149608376c81e98d875c18dd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaed2cce149608376c81e98d875c18dd0">&#9670;&#160;</a></span>Materials</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;int, float&gt; RogueGenesia.Data.GameDataSave.Materials = new()</td>
         </tr>
       </table>
 </div><div class="memdoc">

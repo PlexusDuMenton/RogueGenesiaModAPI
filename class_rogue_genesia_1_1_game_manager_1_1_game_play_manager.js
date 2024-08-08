@@ -6,7 +6,6 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_play_manager =
     [ "BlessingText", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a8ba9054f662188c9199cc2c6c4fe9ba1", null ],
     [ "BlessingTextDescription", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#aca9562f297cb000aed1b5c801fa12d0f", null ],
     [ "CardLeftToPick", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a8cba21edca56afde3b827acacb8b8f43", null ],
-    [ "CardLeftToPickKeyText", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a566178b756e7cab81c4b7d3d5edbf529", null ],
     [ "CardLeftToPickText", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#afbb057df368e05d4ed58cbd96cd7a254", null ],
     [ "DashButton", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a204d190f8fba3459272da121c9d6f860", null ],
     [ "DashList", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a6b33837d83fcad7d0288a5d6ccab29fa", null ],
@@ -23,7 +22,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_play_manager =
     [ "LevelUpEffectScreen", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a923d5992dfe0cfb87d70044bbddbe280", null ],
     [ "LevelUpUI", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#acc1e63b54bff39a281bd0f5daea9ba63", null ],
     [ "LocalizationSettings", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#afd0e79c487f3d3d9ffaca15682b46f12", null ],
-    [ "ObjectiveText", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a96396f8973b467c48d3524f23526ad3d", null ],
+    [ "ObjectiveText", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a006784331375ac525beaf90aad682189", null ],
     [ "PauseMenu", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#ad639a84f96a70bd0362e23c085cad297", null ],
     [ "player", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a7aaa7119f561746763242f57523d2bb1", null ],
     [ "PlayerInfoGlow", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a4e587a26e63b434a24489a41c3f7cd2d", null ],
@@ -33,6 +32,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_play_manager =
     [ "SmallIndicatorPrefab", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a578d2def7b4e23642d009dffee1948d9", null ],
     [ "TimeText", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a5578016afadbf77b38b3bf81dcc3a466", null ],
     [ "uILevelUp", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a5e53195a36e46c9b27f0d694d2031045", null ],
+    [ "WeaponModifierText", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a305c0656a3db77884ec93b4368fbbd64", null ],
     [ "zoneText", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#ac36ffb3863812318cf6bb7122971d7d7", null ],
     [ "actions", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a290c8e6f7a28a987d19cf4ebc61b0094", null ]
 ];

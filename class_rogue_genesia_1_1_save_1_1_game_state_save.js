@@ -1,6 +1,7 @@
 var class_rogue_genesia_1_1_save_1_1_game_state_save =
 [
     [ "AchievementsUnlockedDuringRun", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#a7da8117503ab3c9f2ded634721b55220", null ],
+    [ "activeChallenges", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#a2af8a5bd11590ee29d37697481eb1e17", null ],
     [ "actualChallenge", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#ac5770abd75491991f57001c6a5e6d131", null ],
     [ "actualChallengeLevel", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#a38787c551b0d58e558b7eea61345d86a", null ],
     [ "AlreadyRolledArtifact", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#a43e18fc569df0cec98d3260bde722bb7", null ],
@@ -11,6 +12,7 @@ var class_rogue_genesia_1_1_save_1_1_game_state_save =
     [ "challengeModifier", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#ac74c09bdbef38b77633c595da8ea66e3", null ],
     [ "challengeSoulCoinMultiplier", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#a17d9b78e7e6defdc1c613fc30f055bd8", null ],
     [ "ChestDroppedFromCrate", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#ae3c8ec60b002d178cffa31d90a84d7e9", null ],
+    [ "CorruptionSliderStep", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#afeaacbd23d55f94e1b6607f0f2ad8847", null ],
     [ "CrateWithoutChest", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#adc554a110bc3cc4e5d3b423fa346e725", null ],
     [ "CrateWithoutMagnet", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#af2e37bc9be9e7c132b4be9d10bccecd2", null ],
     [ "CurrentAvatar", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#a4dc359dbb70ed2ba7d2ff14dde723210", null ],
@@ -32,6 +34,7 @@ var class_rogue_genesia_1_1_save_1_1_game_state_save =
     [ "RewardRandom", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#aa0500a1954d647b06abe8d49aa42667c", null ],
     [ "Seed", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#ae183ba15dfb0234a39a6596d35097b1e", null ],
     [ "selectedZone", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#a6f0053992eda0606a6224e7f0e375655", null ],
+    [ "ShopLockInfo", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#a7d03881b82e06fbb17959a55218b5f52", null ],
     [ "ShopRandom", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#adb6a00953fba7d530cbd3df42554444f", null ],
     [ "SoulBonusList", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#a7d088a5563cc0e8e6c180a2980896988", null ],
     [ "SoulBonusWeaponList", "class_rogue_genesia_1_1_save_1_1_game_state_save.html#a2f9721b34a8371d49d121c729e179426", null ],

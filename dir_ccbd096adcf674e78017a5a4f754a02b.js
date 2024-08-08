@@ -16,5 +16,6 @@ var dir_ccbd096adcf674e78017a5a4f754a02b =
     [ "ProjectileCollisionDetection.cs", "_projectile_collision_detection_8cs.html", "_projectile_collision_detection_8cs" ],
     [ "ProxyCreator.cs", "_proxy_creator_8cs.html", "_proxy_creator_8cs" ],
     [ "ProxyCreatorPlayerCollisions.cs", "_proxy_creator_player_collisions_8cs.html", "_proxy_creator_player_collisions_8cs" ],
+    [ "ProxyCreatorTerrain.cs", "_proxy_creator_terrain_8cs.html", "_proxy_creator_terrain_8cs" ],
     [ "SummonCollisionDetection.cs", "_summon_collision_detection_8cs.html", "_summon_collision_detection_8cs" ]
 ];

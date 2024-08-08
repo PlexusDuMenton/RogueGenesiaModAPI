@@ -1,5 +1,6 @@
 var class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script =
 [
+    [ "ClearAdditionalModifier", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#ad7fff8d194b5b4212bc5e03d08caee2d", null ],
     [ "ClearModifier", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#a533b95deff7ff31ca8a89bd68eab60c2", null ],
     [ "OnAddModifier", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#ae054f99127e730e779066565e1552f00", null ],
     [ "OnDeselect", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#a449be007ae4e877721fcfcc4f1f9e412", null ],
@@ -8,8 +9,11 @@ var class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script =
     [ "OnPointerExit", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#ab2f3321e22dc4ac48b1fc9772ab52d56", null ],
     [ "OnRemoveModifier", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#a21638116084c27b5046183336c8a5534", null ],
     [ "OnSelect", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#a3efa0b7b7e250e2e6e35737f82e53ef6", null ],
+    [ "ResetInvalid", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#a861746822d6f0c31473c2022d42efc13", null ],
+    [ "SetInvalid", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#ab403df01a1fb621687afd94ef65d44c8", null ],
     [ "UpdateModifier", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#a8cb9f89262c005388fa51b6dc9823c20", null ],
     [ "UpdateStats", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#a2a7477fe32e393f07f4a4e8adbaf5184", null ],
+    [ "_instanciedModifier", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#a3e805beb259cbeed002702a30d79d96b", null ],
     [ "_rectTransform", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#af2bf0358c7653286201cd3a94ea6f413", null ],
     [ "BGGradients", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#a783dd5f0772bf2a229520146b7e5b1f2", null ],
     [ "Gradients", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#a0e406d885f0a192a9d4c92e729cb3156", null ],
@@ -23,6 +27,7 @@ var class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script =
     [ "WeaponBorder", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#a6bbe99357a6eb29a9a1a56e6ee32067e", null ],
     [ "WeaponImage", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#a6069532a6ecdb3c3a1b16bc6d6b99aec", null ],
     [ "WeaponLevel", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#af1c60916d6197286a2a9eee0af1872fc", null ],
+    [ "WeaponModifierSlotGamePad", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#a2fe811ad4102478e9ebe87de87aff539", null ],
     [ "WeaponName", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#a95cdd353aca1155fa90072bce74a2da9", null ],
     [ "WeaponTag", "class_rogue_genesia_1_1_u_i_1_1_weapon_slot_script.html#aede98cbcfd7a44bf30bbb2eba3e6c48d", null ]
 ];

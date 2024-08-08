@@ -3,7 +3,7 @@ var searchData=
   ['weaponcounttoreachachievementachievement_0',['WeaponCountToReachAchievementAchievement',['../class_mod_genesia_1_1_achievement_a_p_i.html#aad703295d6d0240442f85364ca984ddc',1,'ModGenesia::AchievementAPI']]],
   ['weaponkillcountachievement_1',['WeaponKillCountAchievement',['../class_mod_genesia_1_1_achievement_a_p_i.html#a7d6b9577aec98e6d0655ad3bf90ec1ee',1,'ModGenesia::AchievementAPI']]],
   ['weaponleveltoreachachievementachievement_2',['WeaponLevelToReachAchievementAchievement',['../class_mod_genesia_1_1_achievement_a_p_i.html#a5b49176b4b00cf00ff72ed3ea940a5a9',1,'ModGenesia::AchievementAPI']]],
-  ['weaponstat_3',['WeaponStat',['../struct_rogue_genesia_1_1_data_1_1_weapon_stat.html#ac40d161eec449a4e1463c3b49a3109f5',1,'RogueGenesia::Data::WeaponStat']]],
+  ['weaponstat_3',['WeaponStat',['../struct_rogue_genesia_1_1_data_1_1_weapon_stat.html#a25cb9b5d2048e03e56ca053ad0fdf9fe',1,'RogueGenesia::Data::WeaponStat']]],
   ['weaponstats_4',['WeaponStats',['../class_rogue_genesia_1_1_data_1_1_weapon_stats.html#a0cb78254e18c55531cb259eb4714a090',1,'RogueGenesia::Data::WeaponStats']]],
   ['weightlesscrystalsummon_5',['WeightlessCrystalSummon',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_weightless_crystal_summon.html#aed2e2666d3b975e6f41ee8993044c729',1,'RogueGenesia::Actors::Survival::WeightlessCrystalSummon']]],
   ['windbladeweapon_6',['WindBladeWeapon',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_wind_blade_weapon.html#adb33bfe77701df371b6e52882f2058c7',1,'RogueGenesia::Actors::Survival::WindBladeWeapon']]],

@@ -8,7 +8,7 @@ var class_mod_genesia_1_1_soul_card_creation_data =
     [ "CardHardRequirement", "class_mod_genesia_1_1_soul_card_creation_data.html#a3294e75d0e6c921b557bc284bc37011b", null ],
     [ "CardRequirement", "class_mod_genesia_1_1_soul_card_creation_data.html#ad33fdb755bf0f52bcd0571c12a15de14", null ],
     [ "CardToRemove", "class_mod_genesia_1_1_soul_card_creation_data.html#a598a269fe603cec42d9514df714675a9", null ],
-    [ "CardWithStatsToBan", "class_mod_genesia_1_1_soul_card_creation_data.html#a21a6d2ec3ac812832488fd8b4b30287d", null ],
+    [ "CardWithStatsToBan", "class_mod_genesia_1_1_soul_card_creation_data.html#aabd61425ca1921c4d3cf001ef144a9ac", null ],
     [ "DescriptionOverride", "class_mod_genesia_1_1_soul_card_creation_data.html#ad33389bf1ba5c05a5ee2cf76eb05624d", null ],
     [ "DisableInRogMode", "class_mod_genesia_1_1_soul_card_creation_data.html#a6478638a016c9404a06dbcc4a7daf2eb", null ],
     [ "DisableInSurvivorsMode", "class_mod_genesia_1_1_soul_card_creation_data.html#ad5c6aec8d2831942d23baa976bbbcad3", null ],

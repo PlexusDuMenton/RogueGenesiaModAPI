@@ -127,6 +127,8 @@ $(document).ready(function(){initNavTree('class_rogue_genesia_1_1_data_1_1_weapo
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="class_rogue_genesia_1_1_data_1_1_weapon_modifier-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">RogueGenesia.Data.WeaponModifier Class Reference</div></div>
 </div><!--header-->
@@ -140,6 +142,8 @@ Inheritance diagram for RogueGenesia.Data.WeaponModifier:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a1eb15a4ea07eaec88311f95e0592ab06"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#a1eb15a4ea07eaec88311f95e0592ab06">MaximumAttachedWeaponCount</a> ()</td></tr>
+<tr class="separator:a1eb15a4ea07eaec88311f95e0592ab06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61e0888dd4943816840a7115de6c844d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#a61e0888dd4943816840a7115de6c844d">CanBeEquipedOnWeapon</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">Weapon</a> weapon)</td></tr>
 <tr class="separator:a61e0888dd4943816840a7115de6c844d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a955a328f4e59f6c222d4a36af6dfd614"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#a955a328f4e59f6c222d4a36af6dfd614">GetName</a> ()</td></tr>
@@ -150,15 +154,31 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a66a9b66beb87b37f96452a95a8504ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd87715bea547d564b781d343cb069df"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#acd87715bea547d564b781d343cb069df">AttachToProjectile</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_default_projectile_a_i.html">DefaultProjectileAI</a> projectilAI, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">Weapon</a> weaponSource)</td></tr>
 <tr class="separator:acd87715bea547d564b781d343cb069df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0513090bc7154c8528e57cd16ddc70a0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#a0513090bc7154c8528e57cd16ddc70a0">OnEquipModifier</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a> Owner, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">Weapon</a> weapon)</td></tr>
-<tr class="separator:a0513090bc7154c8528e57cd16ddc70a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a615a3a75325049a15414b9d4f5424b35"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#a615a3a75325049a15414b9d4f5424b35">OnRemoveModifier</a> (<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a> Owner, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">Weapon</a> weapon)</td></tr>
-<tr class="separator:a615a3a75325049a15414b9d4f5424b35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48d5b2a8c26116bb5f9a4a4fcd1f24e1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#a48d5b2a8c26116bb5f9a4a4fcd1f24e1">OnEquipModifier</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> Owner, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">Weapon</a> weapon)</td></tr>
+<tr class="separator:a48d5b2a8c26116bb5f9a4a4fcd1f24e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a229a3714da1e813ec42f7dcb2a0d6b21"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#a229a3714da1e813ec42f7dcb2a0d6b21">OnRemoveModifier</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> Owner, <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">Weapon</a> weapon)</td></tr>
+<tr class="separator:a229a3714da1e813ec42f7dcb2a0d6b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17964e9a5dc7be313cf7bbc8fca22553"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">Weapon</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#a17964e9a5dc7be313cf7bbc8fca22553">GetBestWeapon</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> avatar)</td></tr>
+<tr class="separator:a17964e9a5dc7be313cf7bbc8fca22553"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a287f80e1410c4caa51d85a5a6f044105"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">SoulCard</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#a287f80e1410c4caa51d85a5a6f044105">LinkedSoulCard</a></td></tr>
 <tr class="separator:a287f80e1410c4caa51d85a5a6f044105"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76201d38bbe83d53d7d303489c3f5d87"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#a76201d38bbe83d53d7d303489c3f5d87">BaseAttachedWeaponCount</a> = 0</td></tr>
+<tr class="separator:a76201d38bbe83d53d7d303489c3f5d87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4978b99dbdf378a17f61585317526224"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">Weapon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#a4978b99dbdf378a17f61585317526224">AttachedWeapon</a> = new List&lt;<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">Weapon</a>&gt;()</td></tr>
+<tr class="separator:a4978b99dbdf378a17f61585317526224"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ac3d682a2f552473212afb4b121e85b50"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_rogue_genesia_1_1_data.html#a0dd446a3d48026e37d86acb7f483682d">ModifierAutomaticPriority</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#ac3d682a2f552473212afb4b121e85b50">GetWeaponPriority</a> ()</td></tr>
+<tr class="separator:ac3d682a2f552473212afb4b121e85b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:ab92c6c2269adec6e2124fa0c513a097b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#ab92c6c2269adec6e2124fa0c513a097b">MaxAttachedWeaponCount</a><code> [get]</code></td></tr>
+<tr class="separator:ab92c6c2269adec6e2124fa0c513a097b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a66a9b66beb87b37f96452a95a8504ec8" name="a66a9b66beb87b37f96452a95a8504ec8"></a>
@@ -207,7 +227,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_critical_reroll_weapon_modifier.html#a85fca161fc053865959baa4fa4f97231">RogueGenesia.Data.CriticalRerollWeaponModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_fire_spirit_modifier.html#a5c6979075473346bcd6d398e6011074b">RogueGenesia.Data.FireSpiritModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_ice_spirit_modifier.html#aab3d0746b8772c9415956ae10d17f0ee">RogueGenesia.Data.IceSpiritModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_thunder_spirit_modifier.html#a1bd331d4c4b99b16dc6ad308c38b03e0">RogueGenesia.Data.ThunderSpiritModifier</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_divine_smite_modifier.html#a3552ea3667b517d712d93b5008da0c00">RogueGenesia.Data.DivineSmiteModifier</a>.</p>
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_blood_spirit___weapon_modifier.html#a456163f1f533e3155439bd7ffd1e5860">RogueGenesia.Data.BloodSpirit_WeaponModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_fire_spirit_modifier.html#a5c6979075473346bcd6d398e6011074b">RogueGenesia.Data.FireSpiritModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_ice_spirit_modifier.html#aab3d0746b8772c9415956ae10d17f0ee">RogueGenesia.Data.IceSpiritModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_alacrity_modifier.html#a7d3eaeef01990cd2eebd507b5d33a045">RogueGenesia.Data.RuneOfAlacrityModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_consolidation___weapon_modifier.html#ac0ff590172b5fecfe9eb1193586f3664">RogueGenesia.Data.RuneOfConsolidation_WeaponModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_luck_modifier.html#ae46aa5a4e817e338a85d55e557371681">RogueGenesia.Data.RuneOfLuckModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_thunder_spirit_modifier.html#a1bd331d4c4b99b16dc6ad308c38b03e0">RogueGenesia.Data.ThunderSpiritModifier</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_divine_smite_modifier.html#a3552ea3667b517d712d93b5008da0c00">RogueGenesia.Data.DivineSmiteModifier</a>.</p>
 
 </div>
 </div>
@@ -245,7 +265,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_critical_reroll_weapon_modifier.html#af22eb289ed426735847c9c67b7ee6b1e">RogueGenesia.Data.CriticalRerollWeaponModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_divine_smite_modifier.html#afd5189b3a7bd3434562dde71377e336a">RogueGenesia.Data.DivineSmiteModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_fire_spirit_modifier.html#af5a739f7d95227c5203f5a6d99d9ec27">RogueGenesia.Data.FireSpiritModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_fractal_weapon_modifier.html#a7ed2f874de4955e7ee62a2f25859e2d8">RogueGenesia.Data.FractalWeaponModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_ice_spirit_modifier.html#abe77beca898f607b8dfa9e3ce0ca9c68">RogueGenesia.Data.IceSpiritModifier</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_thunder_spirit_modifier.html#ab04e557e4dad47613c8891554df0984e">RogueGenesia.Data.ThunderSpiritModifier</a>.</p>
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_blood_spirit___weapon_modifier.html#ad711c6f704d7264d7a5a38aa6cb9cd69">RogueGenesia.Data.BloodSpirit_WeaponModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_divine_smite_modifier.html#afd5189b3a7bd3434562dde71377e336a">RogueGenesia.Data.DivineSmiteModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_fire_spirit_modifier.html#af5a739f7d95227c5203f5a6d99d9ec27">RogueGenesia.Data.FireSpiritModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_fractal_weapon_modifier.html#a7ed2f874de4955e7ee62a2f25859e2d8">RogueGenesia.Data.FractalWeaponModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_gigantification_modifier.html#ad7440d4f435caf7dde41375f346a7933">RogueGenesia.Data.GigantificationModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_ice_spirit_modifier.html#abe77beca898f607b8dfa9e3ce0ca9c68">RogueGenesia.Data.IceSpiritModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_alacrity_modifier.html#a4f13020f35255c06bee11bb74be12059">RogueGenesia.Data.RuneOfAlacrityModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_consolidation___weapon_modifier.html#a7c86db96e6e1e0a18edce14dcf1519e7">RogueGenesia.Data.RuneOfConsolidation_WeaponModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_luck_modifier.html#a64ca4c98079945667eb033899f979d2f">RogueGenesia.Data.RuneOfLuckModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_necromancy___weapon_modifier.html#a9ffed2ba9a5ab7438f77628c04fa273c">RogueGenesia.Data.RuneOfNecromancy_WeaponModifier</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_thunder_spirit_modifier.html#ab04e557e4dad47613c8891554df0984e">RogueGenesia.Data.ThunderSpiritModifier</a>.</p>
 
 </div>
 </div>
@@ -273,7 +293,33 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_fractal_weapon_modifier.html#a6482ea1da299e61a9def49c35ebfa4c7">RogueGenesia.Data.FractalWeaponModifier</a>.</p>
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_concentration_modifier.html#add52202fe91d7ba9b65cb4af3831f361">RogueGenesia.Data.ConcentrationModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_divine_smite_modifier.html#ae7db2a47aa11cd976f9ec321adcbe361">RogueGenesia.Data.DivineSmiteModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_fractal_weapon_modifier.html#a6482ea1da299e61a9def49c35ebfa4c7">RogueGenesia.Data.FractalWeaponModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_gigantification_modifier.html#a46a0bb4daf16d4550b7bd249444a5c0f">RogueGenesia.Data.GigantificationModifier</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_luck_modifier.html#ab0a4229d4932da521347e768ef721683">RogueGenesia.Data.RuneOfLuckModifier</a>.</p>
+
+</div>
+</div>
+<a id="a17964e9a5dc7be313cf7bbc8fca22553" name="a17964e9a5dc7be313cf7bbc8fca22553"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17964e9a5dc7be313cf7bbc8fca22553">&#9670;&#160;</a></span>GetBestWeapon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">Weapon</a> RogueGenesia.Data.WeaponModifier.GetBestWeapon </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a>&#160;</td>
+          <td class="paramname"><em>avatar</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -327,8 +373,62 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0513090bc7154c8528e57cd16ddc70a0" name="a0513090bc7154c8528e57cd16ddc70a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0513090bc7154c8528e57cd16ddc70a0">&#9670;&#160;</a></span>OnEquipModifier()</h2>
+<a id="ac3d682a2f552473212afb4b121e85b50" name="ac3d682a2f552473212afb4b121e85b50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3d682a2f552473212afb4b121e85b50">&#9670;&#160;</a></span>GetWeaponPriority()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="namespace_rogue_genesia_1_1_data.html#a0dd446a3d48026e37d86acb7f483682d">ModifierAutomaticPriority</a> RogueGenesia.Data.WeaponModifier.GetWeaponPriority </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_blood_spirit___weapon_modifier.html#a03630388a1a7a86e48bef7f00fc81b8f">RogueGenesia.Data.BloodSpirit_WeaponModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_divine_smite_modifier.html#a89bbd1efe9563ea77470aec313173985">RogueGenesia.Data.DivineSmiteModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_gigantification_modifier.html#a248105ae9f8b32ac9d344525f63b63b9">RogueGenesia.Data.GigantificationModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_ice_spirit_modifier.html#a72d9f3aea011dce53b64fb2688494f9e">RogueGenesia.Data.IceSpiritModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_consolidation___weapon_modifier.html#ae096f197e28d7c9ddce88cfb04f4882d">RogueGenesia.Data.RuneOfConsolidation_WeaponModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_necromancy___weapon_modifier.html#ae43732dcea524199fefc38912bbf0aa0">RogueGenesia.Data.RuneOfNecromancy_WeaponModifier</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_thunder_spirit_modifier.html#a05b01ecc3627abe689d319a27d233fa9">RogueGenesia.Data.ThunderSpiritModifier</a>.</p>
+
+</div>
+</div>
+<a id="a1eb15a4ea07eaec88311f95e0592ab06" name="a1eb15a4ea07eaec88311f95e0592ab06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1eb15a4ea07eaec88311f95e0592ab06">&#9670;&#160;</a></span>MaximumAttachedWeaponCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int RogueGenesia.Data.WeaponModifier.MaximumAttachedWeaponCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_consolidation___weapon_modifier.html#aa7665fe119b97391c99e2ff23b0c7ab9">RogueGenesia.Data.RuneOfConsolidation_WeaponModifier</a>.</p>
+
+</div>
+</div>
+<a id="a48d5b2a8c26116bb5f9a4a4fcd1f24e1" name="a48d5b2a8c26116bb5f9a4a4fcd1f24e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48d5b2a8c26116bb5f9a4a4fcd1f24e1">&#9670;&#160;</a></span>OnEquipModifier()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -339,7 +439,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual void RogueGenesia.Data.WeaponModifier.OnEquipModifier </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a>&#160;</td>
           <td class="paramname"><em>Owner</em>, </td>
         </tr>
         <tr>
@@ -361,10 +461,12 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_blood_spirit___weapon_modifier.html#a37f75c1fdeb179fbbc8f748d1503e8f4">RogueGenesia.Data.BloodSpirit_WeaponModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_concentration_modifier.html#a69e2abccdbf947e94d40336a33196176">RogueGenesia.Data.ConcentrationModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_gigantification_modifier.html#a2011cdde6190cbcfc948f3ff75820a60">RogueGenesia.Data.GigantificationModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_alacrity_modifier.html#aeea7486a2c5f63a598bce9a172283056">RogueGenesia.Data.RuneOfAlacrityModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_consolidation___weapon_modifier.html#a409d166c94a83851e24071a8810699e0">RogueGenesia.Data.RuneOfConsolidation_WeaponModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_heaviness_modifier.html#aa93bc0f70bf14eb86422f65778b9a219">RogueGenesia.Data.RuneOfHeavinessModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_necromancy___weapon_modifier.html#ae9017245427b472e16d405bb42308b49">RogueGenesia.Data.RuneOfNecromancy_WeaponModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_thunder_spirit_modifier.html#aa375920c72b950daa0d7b9ef6a5cb0c6">RogueGenesia.Data.ThunderSpiritModifier</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_aura_modifier.html#a7636b8166c130752316337e1444f28d6">RogueGenesia.Data.WeaponAuraModifier</a>.</p>
+
 </div>
 </div>
-<a id="a615a3a75325049a15414b9d4f5424b35" name="a615a3a75325049a15414b9d4f5424b35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a615a3a75325049a15414b9d4f5424b35">&#9670;&#160;</a></span>OnRemoveModifier()</h2>
+<a id="a229a3714da1e813ec42f7dcb2a0d6b21" name="a229a3714da1e813ec42f7dcb2a0d6b21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a229a3714da1e813ec42f7dcb2a0d6b21">&#9670;&#160;</a></span>OnRemoveModifier()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -375,7 +477,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual void RogueGenesia.Data.WeaponModifier.OnRemoveModifier </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_player_entity.html">PlayerEntity</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a>&#160;</td>
           <td class="paramname"><em>Owner</em>, </td>
         </tr>
         <tr>
@@ -397,9 +499,39 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_blood_spirit___weapon_modifier.html#adda8d4f1eaff9d729f341af18af7c1df">RogueGenesia.Data.BloodSpirit_WeaponModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_concentration_modifier.html#acbfd727188f2bc84f2824142234808dc">RogueGenesia.Data.ConcentrationModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_gigantification_modifier.html#add06cc0e25421846a6a65e7eec4ec7de">RogueGenesia.Data.GigantificationModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_alacrity_modifier.html#a10757fafd6b6eaf8f3755931e95d8b8a">RogueGenesia.Data.RuneOfAlacrityModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_consolidation___weapon_modifier.html#a30def90d280d7b8372d67e8103e834cf">RogueGenesia.Data.RuneOfConsolidation_WeaponModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_heaviness_modifier.html#a5fc098db57a0e9fe5e5cf02a4c371107">RogueGenesia.Data.RuneOfHeavinessModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_rune_of_necromancy___weapon_modifier.html#a92295026469eabf0c25742a4fd3bd83b">RogueGenesia.Data.RuneOfNecromancy_WeaponModifier</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_thunder_spirit_modifier.html#a4efc08b5f3dac09237e09d8072f740ea">RogueGenesia.Data.ThunderSpiritModifier</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_weapon_aura_modifier.html#ab107e2346e2a1c5ec28d54ab9ec2428a">RogueGenesia.Data.WeaponAuraModifier</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4978b99dbdf378a17f61585317526224" name="a4978b99dbdf378a17f61585317526224"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4978b99dbdf378a17f61585317526224">&#9670;&#160;</a></span>AttachedWeapon</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">Weapon</a>&gt; RogueGenesia.Data.WeaponModifier.AttachedWeapon = new List&lt;<a class="el" href="class_rogue_genesia_1_1_actors_1_1_survival_1_1_weapon.html">Weapon</a>&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76201d38bbe83d53d7d303489c3f5d87" name="a76201d38bbe83d53d7d303489c3f5d87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76201d38bbe83d53d7d303489c3f5d87">&#9670;&#160;</a></span>BaseAttachedWeaponCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.WeaponModifier.BaseAttachedWeaponCount = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a287f80e1410c4caa51d85a5a6f044105" name="a287f80e1410c4caa51d85a5a6f044105"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a287f80e1410c4caa51d85a5a6f044105">&#9670;&#160;</a></span>LinkedSoulCard</h2>
 
@@ -410,6 +542,29 @@ Public Attributes</h2></td></tr>
           <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_soul_card.html">SoulCard</a> RogueGenesia.Data.WeaponModifier.LinkedSoulCard</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="ab92c6c2269adec6e2124fa0c513a097b" name="ab92c6c2269adec6e2124fa0c513a097b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab92c6c2269adec6e2124fa0c513a097b">&#9670;&#160;</a></span>MaxAttachedWeaponCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.WeaponModifier.MaxAttachedWeaponCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
