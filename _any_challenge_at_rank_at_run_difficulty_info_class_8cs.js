@@ -1,0 +1,4 @@
+var _any_challenge_at_rank_at_run_difficulty_info_class_8cs =
+[
+    [ "RogueGenesia.Data.AnyChallengeAtRankAtRunDifficultyInfoClass", "class_rogue_genesia_1_1_data_1_1_any_challenge_at_rank_at_run_difficulty_info_class.html", "class_rogue_genesia_1_1_data_1_1_any_challenge_at_rank_at_run_difficulty_info_class" ]
+];

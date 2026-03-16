@@ -8,6 +8,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_manager_survival =
     [ "GetEnemySpawnRate", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_survival.html#ac0af3ad79a5ce3e8e45beac9e825f026", null ],
     [ "GetMaxBudget", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_survival.html#ad6a1a0cbbbd81a7193e4396681ae4a53", null ],
     [ "GetPattern", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_survival.html#a8bf664823950c5a47cc40b3bda2456ad", null ],
+    [ "GetRunProgress", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_survival.html#ab4406de41e04435fca529c0f83c29778", null ],
     [ "Infinity", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_survival.html#aaae0cdd97ec34305bf40eb0c3503e44f", null ],
     [ "InfinityUpdate", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_survival.html#ad0667cfe0617d8682ec391ff70dc04db", null ],
     [ "InitVariables", "class_rogue_genesia_1_1_game_manager_1_1_game_manager_survival.html#a2e0643968bf57004eca2c9e1548c51fb", null ],

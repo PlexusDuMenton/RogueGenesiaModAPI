@@ -4,6 +4,7 @@ var class_rogue_genesia_1_1_data_1_1_enemy_stat =
     [ "EnemyStat", "class_rogue_genesia_1_1_data_1_1_enemy_stat.html#aed5106071c7f9c6a063e94fc64977f94", null ],
     [ "Clone", "class_rogue_genesia_1_1_data_1_1_enemy_stat.html#aba1519d485422fb20d7ae5efebff4c86", null ],
     [ "onValidate", "class_rogue_genesia_1_1_data_1_1_enemy_stat.html#ada50efbf5f6113bcce165cdc8389dce4", null ],
+    [ "cap", "class_rogue_genesia_1_1_data_1_1_enemy_stat.html#af3a833e94841727217a52b00c497113c", null ],
     [ "forcedExperience", "class_rogue_genesia_1_1_data_1_1_enemy_stat.html#a79543e9edf26a46fb7a8390f8848039f", null ],
     [ "LevelExponent", "class_rogue_genesia_1_1_data_1_1_enemy_stat.html#a25dfb704d1ef1c5fd2c71af23b651253", null ],
     [ "Stat", "class_rogue_genesia_1_1_data_1_1_enemy_stat.html#ade2c5b2640caabd8c8fe95b88e637737", null ],

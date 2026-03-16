@@ -3,7 +3,7 @@ var class_rogue_genesia_1_1_data_1_1_weapon_modifier =
     [ "ApplyModifier", "class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#a66a9b66beb87b37f96452a95a8504ec8", null ],
     [ "AttachToProjectile", "class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#acd87715bea547d564b781d343cb069df", null ],
     [ "CanBeEquipedOnWeapon", "class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#a61e0888dd4943816840a7115de6c844d", null ],
-    [ "GetBestWeapon", "class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#a17964e9a5dc7be313cf7bbc8fca22553", null ],
+    [ "GetBestWeapons", "class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#a91940d40ce216fc450aa1a8ae4997a2d", null ],
     [ "GetDescription", "class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#ab326d5c9dcb25045fef6be82ee3c2108", null ],
     [ "GetName", "class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#a955a328f4e59f6c222d4a36af6dfd614", null ],
     [ "GetWeaponPriority", "class_rogue_genesia_1_1_data_1_1_weapon_modifier.html#ac3d682a2f552473212afb4b121e85b50", null ],

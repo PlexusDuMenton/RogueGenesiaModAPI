@@ -1,0 +1,27 @@
+var class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss =
+[
+    [ "ForcePlayerInArena", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#a3d9e5b369bb220dbe9775fd1cb8f1b67", null ],
+    [ "GetIntroDuration", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#ae06c95c70cf4248aa9f6fcfdd0fcea22", null ],
+    [ "InitMonster", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#aa5710149fe52e64674fcdc03f84163d9", null ],
+    [ "MovementUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#ab9339d25262354c65eb36ec949345639", null ],
+    [ "OnDeath", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#a973e2441722e9defda811c4546efe70b", null ],
+    [ "OnIntroEnd", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#a73774d77cd59d085c941d6d11f27c367", null ],
+    [ "OnIntroStart", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#abebd90d70104fc5e79a336beb19c7285", null ],
+    [ "OnIntroUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#ad7a5f804377d90318e1394f420a5500d", null ],
+    [ "OnSkipIntro", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#ad8bd204397c15da01e8c6baf09e0b9cf", null ],
+    [ "SpawnShard", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#a3fb8edc96d9f0bf7a9bf0e408791a48b", null ],
+    [ "SpawnShield", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#a2377009093ca22408fca4e3e6adbcb20", null ],
+    [ "TakeDamage", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#a6cc1ae89a7667699df63f2ff770cc246", null ],
+    [ "TakeDamageImmediate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#aa1219123db487382a78729853a3e2435", null ],
+    [ "TakeDamageProjectile", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#ad12868e4285fb07a2e0065c3a145518b", null ],
+    [ "TakeDamageProjectileImmediate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#ad0d3df215293109fb504e55c839fcb3b", null ],
+    [ "Update", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#a5e35524f4386eb452f55248bf7308ef1", null ],
+    [ "HandToSpawn", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#acc5d4d253e98a277008c3f3700f2908f", null ],
+    [ "Interphase", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#a0be2153ebae0d5c8566d92c3f033aac9", null ],
+    [ "LaserSwipe", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#a9bc4aef2665c3cf36cfc4013275fd391", null ],
+    [ "LaserSwipePhase", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#a17ae95c8c43d13ba4ecfaec4ab992571", null ],
+    [ "MeteorFall", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#a0082da2e9207a13e895ca6bc77729e2f", null ],
+    [ "MeteorFallPhase", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#ad9bb5ae08432f1771f12faf0294f1ed4", null ],
+    [ "ShardList", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#aaa3d5ea9917ee59d1357eda2c551d03e", null ],
+    [ "ShieldList", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan_boss.html#aa9ac497588b6a74c91b1fc581c04607c", null ]
+];

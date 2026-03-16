@@ -1,0 +1,25 @@
+var class_rogue_genesia_1_1_data_1_1_soul_forge_event =
+[
+    [ "GetChanceToGetEvent", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#abfb2b1144e57899ea784dd7ad6643f7b", null ],
+    [ "GetDescription", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#a4d61c5b242cf881efb8b62076371759e", null ],
+    [ "GetDescriptionAfterAnswerClicked", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#aa9dc9ed4e83fcaaa8087a4fa6529f391", null ],
+    [ "GetDescriptionAnswer", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#aca05271e4a208d7f5b38c525f9ecb565", null ],
+    [ "GetEventName", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#a781264345ff0ba2175d65c6d418bcb95", null ],
+    [ "GetIcon", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#a8ac4f060a3de6715ce39e67a12951988", null ],
+    [ "GetIconAfterAnswerClicked", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#a7ef4601b2e0bb7aedb5bf519fa4d18b5", null ],
+    [ "GetIconAnswer", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#a790e1b25458fcc9c593bf02660c49e79", null ],
+    [ "GetKey", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#a76ad96fa8b4b5c9409582873371e1aa4", null ],
+    [ "GetNumberOfAnswer", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#a55b3f22b088a512a7571cb657d26780d", null ],
+    [ "GetTitle", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#a3a9f484c5cbf7854c4622e11dcc39755", null ],
+    [ "GetTitleAfterAnswerClicked", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#a8cf6f6c3a09597adc667048f7e4ee874", null ],
+    [ "GetTitleAnswer", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#a3bed7c8a9f6bc34d45dad051f9b7b3dd", null ],
+    [ "GetVisualScene", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#adee1a708adc9706626546e0c5dc91c5b", null ],
+    [ "IsAnswerEnabled", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#a78ca5d3aab2584f72d91f9dc53cd93ca", null ],
+    [ "NextAnswer", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#afcf42d1208dddbfb4a5d1938ef0a7a8b", null ],
+    [ "NextTextDisplayed", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#a71eaa34f3c634c518b848521da392abc", null ],
+    [ "OffOverAnswer", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#a1a78efe377978494ac9f8898ff44a26c", null ],
+    [ "OnEventSet", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#a9caee24a5f959efd5e0f2d5778f16dbe", null ],
+    [ "OnLevelLoaded", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#aa2d6b847be95070abde781fdb8fb7433", null ],
+    [ "OnOverAnswer", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#a2ad2d888ac55d54c71960fa75366e703", null ],
+    [ "SelectAnswer", "class_rogue_genesia_1_1_data_1_1_soul_forge_event.html#a2eeec7918b97c8fa36d883e6d9d7259d", null ]
+];

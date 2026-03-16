@@ -5,5 +5,6 @@ var class_rogue_genesia_1_1_data_1_1_weapon_modifier_card =
     [ "LevelUp", "class_rogue_genesia_1_1_data_1_1_weapon_modifier_card.html#ab469e946fb7ec59d847fc03335f04d09", null ],
     [ "OnRemove", "class_rogue_genesia_1_1_data_1_1_weapon_modifier_card.html#a0e780479e848e3f10dc0c9e5535f1ff5", null ],
     [ "RemoveModifier", "class_rogue_genesia_1_1_data_1_1_weapon_modifier_card.html#a4cab72aa8f8fa27652dea8f67c65c9a8", null ],
+    [ "RequiredTags", "class_rogue_genesia_1_1_data_1_1_weapon_modifier_card.html#a48124768f110638faea8d16461645b70", null ],
     [ "_linkedWeaponModifier", "class_rogue_genesia_1_1_data_1_1_weapon_modifier_card.html#a981e498f8b328edf6442ed07d4a0e7e4", null ]
 ];

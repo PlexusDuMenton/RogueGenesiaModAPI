@@ -14,7 +14,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible =
     [ "OnDropFromCrate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#af8806d8480df0e91689766135291d108", null ],
     [ "OnMergeCollectible", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a2f260f6d8fc51b40e578fbbd433d86db", null ],
     [ "OnPickUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a55832505e5e6b47b6b2abc5f982938a2", null ],
-    [ "OnSpawn", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a2cfb8856e22f6c6003b5126e2bd2d9cf", null ],
+    [ "OnSpawn", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a89dbfe186a6b4a6c44c1f246110070cc", null ],
     [ "SetPlayer", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#aef709a50aca3c3cc642d45878ae4ec27", null ],
     [ "SetTransform", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a4b3e41e93068dbc9bb531cdf4c7ce8bd", null ],
     [ "_instancedMaterial", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_collectible.html#a53c45a81bdfc0048b41de1a2f202168c", null ],

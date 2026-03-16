@@ -18,5 +18,6 @@ var class_rogue_genesia_1_1_game_manager_1_1_summon_manager =
     [ "instance", "class_rogue_genesia_1_1_game_manager_1_1_summon_manager.html#a992fe967c741e796177667b5449be44a", null ],
     [ "SummonList", "class_rogue_genesia_1_1_game_manager_1_1_summon_manager.html#a6ce86d1f4e14b9f6edafad1af0ace858", null ],
     [ "Timescale", "class_rogue_genesia_1_1_game_manager_1_1_summon_manager.html#ad92a79eaed24b4dab46bccb5089c101f", null ],
+    [ "GetSummonCount", "class_rogue_genesia_1_1_game_manager_1_1_summon_manager.html#af622b78d5d507da00c5ab47cb566d687", null ],
     [ "SummonTimescale", "class_rogue_genesia_1_1_game_manager_1_1_summon_manager.html#a292ef5b983a9ab98d7182619e11ea646", null ]
 ];

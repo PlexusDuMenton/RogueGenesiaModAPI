@@ -14,5 +14,10 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_shrine_entity =
     [ "Awake", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shrine_entity.html#a300000c4bbd10cfa4a30637267899025", null ],
     [ "OnDestroy", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shrine_entity.html#a90d53596e1389bc9f408724128e18c21", null ],
     [ "OnPlayerTouchEntity", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shrine_entity.html#a1e0bc34769147a1e4b276cf58025d079", null ],
-    [ "Blessing", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shrine_entity.html#a4247bafe975a97b96cb1b5448371c2a9", null ]
+    [ "Refill", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shrine_entity.html#a1624bd2c39b2bf7e6ae98038a1acb58d", null ],
+    [ "UpdateClosestShrine", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shrine_entity.html#abb8440b150bab2aae60549a24fc40918", null ],
+    [ "ActiveShrine", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shrine_entity.html#a5996e862e277222c6cbfbf38f99481f4", null ],
+    [ "Blessing", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shrine_entity.html#a4247bafe975a97b96cb1b5448371c2a9", null ],
+    [ "ClosestShrine", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shrine_entity.html#a23a5e49e52364e744a510b79a90fdf04", null ],
+    [ "Indicator", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_shrine_entity.html#a07221338a7875ec6a4a945673ee80c73", null ]
 ];

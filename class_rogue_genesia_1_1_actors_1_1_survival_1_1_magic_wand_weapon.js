@@ -4,6 +4,6 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_magic_wand_weapon =
     [ "BuildWeaponStatsForLocalization", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_magic_wand_weapon.html#aeed8a2cd52e6ad2cb1417987df5d21d7", null ],
     [ "LevelUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_magic_wand_weapon.html#aaeacdb9921c3855362b706e562d915dc", null ],
     [ "OnAttack", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_magic_wand_weapon.html#a7629004e4b7657c2dc1db9e872239cc1", null ],
-    [ "OnPostStatUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_magic_wand_weapon.html#a50f661a62c368fc44408187179324182", null ],
+    [ "OnPostStatUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_magic_wand_weapon.html#a7750e5accd12ff7b20feed53e2f8eac4", null ],
     [ "OnRemove", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_magic_wand_weapon.html#afddd761092e673887e4cde28b407604b", null ]
 ];

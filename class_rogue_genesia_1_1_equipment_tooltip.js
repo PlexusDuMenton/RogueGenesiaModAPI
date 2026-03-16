@@ -1,5 +1,6 @@
 var class_rogue_genesia_1_1_equipment_tooltip =
 [
+    [ "DisplayDestailedComparison", "class_rogue_genesia_1_1_equipment_tooltip.html#afa411f5e761e7e66b14e065371f650ad", null ],
     [ "Init", "class_rogue_genesia_1_1_equipment_tooltip.html#ad4f2f25977e8f28fc6d4d2b029046172", null ],
     [ "EquipmentMenu", "class_rogue_genesia_1_1_equipment_tooltip.html#ad2959aaee0fab8aff1992bcddc4f87bf", null ],
     [ "LinePrefab", "class_rogue_genesia_1_1_equipment_tooltip.html#a7c8f73d9380b62a45193031678504f6e", null ],

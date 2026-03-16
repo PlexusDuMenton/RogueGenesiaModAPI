@@ -1,0 +1,684 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.Data.StatisticLayer Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+<div id="theme-selection">
+ <label for="theme-select">Theme:</label>
+ <select id="theme-select">
+  <option value="theme-default">Default</option>
+  <option value="theme-round">Round</option>
+  <option value="theme-robot">Robot</option>
+ </select>
+</div>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_rogue_genesia_1_1_data_1_1_statistic_layer.html','','class_rogue_genesia_1_1_data_1_1_statistic_layer-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">RogueGenesia.Data.StatisticLayer Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:aaf8b0eea1007173c0df89b1a6557d292" id="r_aaf8b0eea1007173c0df89b1a6557d292"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#aaf8b0eea1007173c0df89b1a6557d292">ELayerType</a> { <a class="el" href="#aaf8b0eea1007173c0df89b1a6557d292a3f7b3d8ee7bf0d542bd50821c083888f">Additive</a>
+, <a class="el" href="#aaf8b0eea1007173c0df89b1a6557d292a0d73bf5decac382ed6a8adc3838fd7e2">Multiplicative</a>
+ }</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:abf647824961ec5d913acc988a54ffbf6" id="r_abf647824961ec5d913acc988a54ffbf6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abf647824961ec5d913acc988a54ffbf6">UpdateDynamicValue</a> ()</td></tr>
+<tr class="memitem:a15239484d97c398865acba6d033e82aa" id="r_a15239484d97c398865acba6d033e82aa"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a15239484d97c398865acba6d033e82aa">UpdateFinalValue</a> ()</td></tr>
+<tr class="memitem:aa7aa277cb2fb24eeb942d50ab2d23a26" id="r_aa7aa277cb2fb24eeb942d50ab2d23a26"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa7aa277cb2fb24eeb942d50ab2d23a26">AddToStaticValue</a> (double modification)</td></tr>
+<tr class="memitem:acf1b6faeed68217640413e356d7cff75" id="r_acf1b6faeed68217640413e356d7cff75"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acf1b6faeed68217640413e356d7cff75">MultiplyToStaticValue</a> (double modification)</td></tr>
+<tr class="memitem:aa48ffc101c3430234824c94486586b66" id="r_aa48ffc101c3430234824c94486586b66"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa48ffc101c3430234824c94486586b66">Reset</a> ()</td></tr>
+<tr class="memitem:ab1b2c12b87165ffa748844ae9a8679fe" id="r_ab1b2c12b87165ffa748844ae9a8679fe"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ab1b2c12b87165ffa748844ae9a8679fe">StatisticLayer</a> (int layerOrder, string layerName, <a class="el" href="#aaf8b0eea1007173c0df89b1a6557d292">ELayerType</a> layerType, double defaultValue, <a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a> owner)</td></tr>
+<tr class="memitem:a4773353b9cd31d53237d854afd8a99dd" id="r_a4773353b9cd31d53237d854afd8a99dd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4773353b9cd31d53237d854afd8a99dd">RemoveDynamicValue</a> (string name, bool notify=true)</td></tr>
+<tr class="memitem:a0a1a390640b4018c909f23d46ff94551" id="r_a0a1a390640b4018c909f23d46ff94551"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0a1a390640b4018c909f23d46ff94551">SetDynamicValue</a> (string name, double value, string displayName=&quot;&quot;, bool notify=true)</td></tr>
+<tr class="memitem:ab01d88a9a073b4ce5b4947cf05f61aa7" id="r_ab01d88a9a073b4ce5b4947cf05f61aa7"><td class="memItemLeft">override string&#160;</td><td class="memItemRight"><a class="el" href="#ab01d88a9a073b4ce5b4947cf05f61aa7">ToString</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a777994898ae5b42ac7b2184f4a86ab4f" id="r_a777994898ae5b42ac7b2184f4a86ab4f"><td class="memItemLeft"><a class="el" href="#aaf8b0eea1007173c0df89b1a6557d292">ELayerType</a>&#160;</td><td class="memItemRight"><a class="el" href="#a777994898ae5b42ac7b2184f4a86ab4f">LayerType</a></td></tr>
+<tr class="memitem:a2c267b5baaf40c462511f4f2e17470da" id="r_a2c267b5baaf40c462511f4f2e17470da"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a2c267b5baaf40c462511f4f2e17470da">LayerOrder</a></td></tr>
+<tr class="memitem:a834d66c458d3d2e7acf564f059eb3819" id="r_a834d66c458d3d2e7acf564f059eb3819"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#a834d66c458d3d2e7acf564f059eb3819">LayerName</a></td></tr>
+<tr class="memitem:adb182a68fb83b1e73d62ae63161afdee" id="r_adb182a68fb83b1e73d62ae63161afdee"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#adb182a68fb83b1e73d62ae63161afdee">ValueAtLayerStart</a></td></tr>
+<tr class="memitem:a9c6dac541ad1925f7ffb2be6a5399419" id="r_a9c6dac541ad1925f7ffb2be6a5399419"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#a9c6dac541ad1925f7ffb2be6a5399419">StaticValueAtLayerStart</a></td></tr>
+<tr class="memitem:abe514cb69a529dc96f369a1f44c37b8b" id="r_abe514cb69a529dc96f369a1f44c37b8b"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#abe514cb69a529dc96f369a1f44c37b8b">ValueAtLayerEnd</a></td></tr>
+<tr class="memitem:a26b869bf5281ee4baa432972758a6323" id="r_a26b869bf5281ee4baa432972758a6323"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#a26b869bf5281ee4baa432972758a6323">StaticValueAtLayerEnd</a></td></tr>
+<tr class="memitem:adf6b48ba104e3989d5cacfd9b4c3436b" id="r_adf6b48ba104e3989d5cacfd9b4c3436b"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#adf6b48ba104e3989d5cacfd9b4c3436b">DefaultValue</a></td></tr>
+<tr class="memitem:a26a7972d47fa28d4d24d95a8b20f8381" id="r_a26a7972d47fa28d4d24d95a8b20f8381"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#a26a7972d47fa28d4d24d95a8b20f8381">FinalValue</a></td></tr>
+<tr class="memitem:ac7f57680f64490b383471d430aaeff60" id="r_ac7f57680f64490b383471d430aaeff60"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#ac7f57680f64490b383471d430aaeff60">DynamicValue</a></td></tr>
+<tr class="memitem:a18fe028053b3998854138e24ac4bb33e" id="r_a18fe028053b3998854138e24ac4bb33e"><td class="memItemLeft">Dictionary&lt; string, <a class="el" href="class_rogue_genesia_1_1_data_1_1_dynamic_modifier.html">DynamicModifier</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a18fe028053b3998854138e24ac4bb33e">DynamicValues</a> = new()</td></tr>
+<tr class="memitem:aee2938922016fb0c65e1c78fa7101a6f" id="r_aee2938922016fb0c65e1c78fa7101a6f"><td class="memItemLeft">UnityEvent&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>, <a class="el" href="#ab1b2c12b87165ffa748844ae9a8679fe">StatisticLayer</a>, double, double &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aee2938922016fb0c65e1c78fa7101a6f">OnDynamiValueChanged</a> = new()</td></tr>
+<tr class="memitem:aa214e9081bb1dca3728c872c107ee5ef" id="r_aa214e9081bb1dca3728c872c107ee5ef"><td class="memItemLeft"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>&#160;</td><td class="memItemRight"><a class="el" href="#aa214e9081bb1dca3728c872c107ee5ef">Owner</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a3fb6109d1b7b3d15dde4dfde98a6cbc4" id="r_a3fb6109d1b7b3d15dde4dfde98a6cbc4"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#a3fb6109d1b7b3d15dde4dfde98a6cbc4">CurrentStaticValue</a><code> [get, set]</code></td></tr>
+</table>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
+<a id="aaf8b0eea1007173c0df89b1a6557d292" name="aaf8b0eea1007173c0df89b1a6557d292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf8b0eea1007173c0df89b1a6557d292">&#9670;&#160;</a></span>ELayerType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#aaf8b0eea1007173c0df89b1a6557d292">RogueGenesia.Data.StatisticLayer.ELayerType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aaf8b0eea1007173c0df89b1a6557d292a3f7b3d8ee7bf0d542bd50821c083888f" name="aaf8b0eea1007173c0df89b1a6557d292a3f7b3d8ee7bf0d542bd50821c083888f"></a>Additive&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaf8b0eea1007173c0df89b1a6557d292a0d73bf5decac382ed6a8adc3838fd7e2" name="aaf8b0eea1007173c0df89b1a6557d292a0d73bf5decac382ed6a8adc3838fd7e2"></a>Multiplicative&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ab1b2c12b87165ffa748844ae9a8679fe" name="ab1b2c12b87165ffa748844ae9a8679fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1b2c12b87165ffa748844ae9a8679fe">&#9670;&#160;</a></span>StatisticLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RogueGenesia.Data.StatisticLayer.StatisticLayer </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>layerOrder</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>layerName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aaf8b0eea1007173c0df89b1a6557d292">ELayerType</a></td>          <td class="paramname"><span class="paramname"><em>layerType</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>defaultValue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a></td>          <td class="paramname"><span class="paramname"><em>owner</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="aa7aa277cb2fb24eeb942d50ab2d23a26" name="aa7aa277cb2fb24eeb942d50ab2d23a26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7aa277cb2fb24eeb942d50ab2d23a26">&#9670;&#160;</a></span>AddToStaticValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.StatisticLayer.AddToStaticValue </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>modification</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acf1b6faeed68217640413e356d7cff75" name="acf1b6faeed68217640413e356d7cff75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf1b6faeed68217640413e356d7cff75">&#9670;&#160;</a></span>MultiplyToStaticValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.StatisticLayer.MultiplyToStaticValue </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>modification</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4773353b9cd31d53237d854afd8a99dd" name="a4773353b9cd31d53237d854afd8a99dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4773353b9cd31d53237d854afd8a99dd">&#9670;&#160;</a></span>RemoveDynamicValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.StatisticLayer.RemoveDynamicValue </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>notify</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa48ffc101c3430234824c94486586b66" name="aa48ffc101c3430234824c94486586b66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa48ffc101c3430234824c94486586b66">&#9670;&#160;</a></span>Reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.StatisticLayer.Reset </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a1a390640b4018c909f23d46ff94551" name="a0a1a390640b4018c909f23d46ff94551"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a1a390640b4018c909f23d46ff94551">&#9670;&#160;</a></span>SetDynamicValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.StatisticLayer.SetDynamicValue </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>displayName</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;&quot;</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>notify</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab01d88a9a073b4ce5b4947cf05f61aa7" name="ab01d88a9a073b4ce5b4947cf05f61aa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab01d88a9a073b4ce5b4947cf05f61aa7">&#9670;&#160;</a></span>ToString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override string RogueGenesia.Data.StatisticLayer.ToString </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf647824961ec5d913acc988a54ffbf6" name="abf647824961ec5d913acc988a54ffbf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf647824961ec5d913acc988a54ffbf6">&#9670;&#160;</a></span>UpdateDynamicValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.StatisticLayer.UpdateDynamicValue </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a15239484d97c398865acba6d033e82aa" name="a15239484d97c398865acba6d033e82aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15239484d97c398865acba6d033e82aa">&#9670;&#160;</a></span>UpdateFinalValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.StatisticLayer.UpdateFinalValue </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="adf6b48ba104e3989d5cacfd9b4c3436b" name="adf6b48ba104e3989d5cacfd9b4c3436b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf6b48ba104e3989d5cacfd9b4c3436b">&#9670;&#160;</a></span>DefaultValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double RogueGenesia.Data.StatisticLayer.DefaultValue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7f57680f64490b383471d430aaeff60" name="ac7f57680f64490b383471d430aaeff60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7f57680f64490b383471d430aaeff60">&#9670;&#160;</a></span>DynamicValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double RogueGenesia.Data.StatisticLayer.DynamicValue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18fe028053b3998854138e24ac4bb33e" name="a18fe028053b3998854138e24ac4bb33e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18fe028053b3998854138e24ac4bb33e">&#9670;&#160;</a></span>DynamicValues</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;string, <a class="el" href="class_rogue_genesia_1_1_data_1_1_dynamic_modifier.html">DynamicModifier</a>&gt; RogueGenesia.Data.StatisticLayer.DynamicValues = new()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a26a7972d47fa28d4d24d95a8b20f8381" name="a26a7972d47fa28d4d24d95a8b20f8381"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26a7972d47fa28d4d24d95a8b20f8381">&#9670;&#160;</a></span>FinalValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double RogueGenesia.Data.StatisticLayer.FinalValue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a834d66c458d3d2e7acf564f059eb3819" name="a834d66c458d3d2e7acf564f059eb3819"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a834d66c458d3d2e7acf564f059eb3819">&#9670;&#160;</a></span>LayerName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RogueGenesia.Data.StatisticLayer.LayerName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c267b5baaf40c462511f4f2e17470da" name="a2c267b5baaf40c462511f4f2e17470da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c267b5baaf40c462511f4f2e17470da">&#9670;&#160;</a></span>LayerOrder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.StatisticLayer.LayerOrder</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a777994898ae5b42ac7b2184f4a86ab4f" name="a777994898ae5b42ac7b2184f4a86ab4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a777994898ae5b42ac7b2184f4a86ab4f">&#9670;&#160;</a></span>LayerType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#aaf8b0eea1007173c0df89b1a6557d292">ELayerType</a> RogueGenesia.Data.StatisticLayer.LayerType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aee2938922016fb0c65e1c78fa7101a6f" name="aee2938922016fb0c65e1c78fa7101a6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee2938922016fb0c65e1c78fa7101a6f">&#9670;&#160;</a></span>OnDynamiValueChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UnityEvent&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a>, <a class="el" href="#ab1b2c12b87165ffa748844ae9a8679fe">StatisticLayer</a>, double, double&gt; RogueGenesia.Data.StatisticLayer.OnDynamiValueChanged = new()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa214e9081bb1dca3728c872c107ee5ef" name="aa214e9081bb1dca3728c872c107ee5ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa214e9081bb1dca3728c872c107ee5ef">&#9670;&#160;</a></span>Owner</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_statistic.html">Statistic</a> RogueGenesia.Data.StatisticLayer.Owner</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a26b869bf5281ee4baa432972758a6323" name="a26b869bf5281ee4baa432972758a6323"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26b869bf5281ee4baa432972758a6323">&#9670;&#160;</a></span>StaticValueAtLayerEnd</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double RogueGenesia.Data.StatisticLayer.StaticValueAtLayerEnd</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9c6dac541ad1925f7ffb2be6a5399419" name="a9c6dac541ad1925f7ffb2be6a5399419"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c6dac541ad1925f7ffb2be6a5399419">&#9670;&#160;</a></span>StaticValueAtLayerStart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double RogueGenesia.Data.StatisticLayer.StaticValueAtLayerStart</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe514cb69a529dc96f369a1f44c37b8b" name="abe514cb69a529dc96f369a1f44c37b8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe514cb69a529dc96f369a1f44c37b8b">&#9670;&#160;</a></span>ValueAtLayerEnd</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double RogueGenesia.Data.StatisticLayer.ValueAtLayerEnd</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb182a68fb83b1e73d62ae63161afdee" name="adb182a68fb83b1e73d62ae63161afdee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb182a68fb83b1e73d62ae63161afdee">&#9670;&#160;</a></span>ValueAtLayerStart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double RogueGenesia.Data.StatisticLayer.ValueAtLayerStart</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">Property Documentation</h2>
+<a id="a3fb6109d1b7b3d15dde4dfde98a6cbc4" name="a3fb6109d1b7b3d15dde4dfde98a6cbc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fb6109d1b7b3d15dde4dfde98a6cbc4">&#9670;&#160;</a></span>CurrentStaticValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double RogueGenesia.Data.StatisticLayer.CurrentStaticValue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/IdleWave/Rogue_Genesia_GameProject/RogueGenesia/Assets/Scripts/RogueGenesia/Survival/<a class="el" href="_statistic_8cs.html">Statistic.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a href="namespace_rogue_genesia_1_1_data.html">Data</a></li><li class="navelem"><a href="class_rogue_genesia_1_1_data_1_1_statistic_layer.html">StatisticLayer</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+digraph "D:/IdleWave/Rogue_Genesia_GameProject/RogueGenesia/Assets/Scripts/RogueGenesia/ScriptableObjects/Stage/StageInfoClass"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_04090bbce4cbb938b2647006529016c0 {
+    graph [ bgcolor="#daedff", pencolor="grey50", label="Stage", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_04090bbce4cbb938b2647006529016c0.html",tooltip=""]
+  dir_73836ba305addaa8299e54707317dc66 [label="StageInfoClass", fillcolor="#daedff", color="grey25", style="filled,bold", URL="dir_73836ba305addaa8299e54707317dc66.html",tooltip=""];
+  }
+}

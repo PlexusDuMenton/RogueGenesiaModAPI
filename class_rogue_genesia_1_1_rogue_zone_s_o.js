@@ -3,6 +3,7 @@ var class_rogue_genesia_1_1_rogue_zone_s_o =
     [ "GetDescription", "class_rogue_genesia_1_1_rogue_zone_s_o.html#a1c53221ba95f46513dcc6bce7a9825d2", null ],
     [ "GetName", "class_rogue_genesia_1_1_rogue_zone_s_o.html#ab118f905a57dec61feb1d01b76145a28", null ],
     [ "BossStage", "class_rogue_genesia_1_1_rogue_zone_s_o.html#ac8dd227819b172ad7bfd07acf3486da3", null ],
+    [ "EnemiesCountMultiplier", "class_rogue_genesia_1_1_rogue_zone_s_o.html#ad8d9795ecd2382d7351e65f00718d589", null ],
     [ "enemyPool", "class_rogue_genesia_1_1_rogue_zone_s_o.html#a1609781999452ffb881359ecb3691bc8", null ],
     [ "environementName", "class_rogue_genesia_1_1_rogue_zone_s_o.html#aecc7f6aa418d8c56b2320081198fc9c9", null ],
     [ "ForbidenStagePosition", "class_rogue_genesia_1_1_rogue_zone_s_o.html#aa78648a5ba5e15af94abb044de7075da", null ],

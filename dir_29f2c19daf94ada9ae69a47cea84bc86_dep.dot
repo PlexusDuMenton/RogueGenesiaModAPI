@@ -1,0 +1,18 @@
+digraph "D:/IdleWave/Rogue_Genesia_GameProject/RogueGenesia/Assets/Scripts/RogueGenesia/ScriptableObjects/ZoneModifier"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_71df23a57650168c1b1196b6e0de7407 {
+    graph [ bgcolor="#daedff", pencolor="grey50", label="ScriptableObjects", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_71df23a57650168c1b1196b6e0de7407.html",tooltip=""]
+  subgraph clusterdir_29f2c19daf94ada9ae69a47cea84bc86 {
+    graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_29f2c19daf94ada9ae69a47cea84bc86.html",tooltip=""]
+    dir_29f2c19daf94ada9ae69a47cea84bc86 [shape=plaintext, label="ZoneModifier"];
+  dir_b55052326e16364e2ba21df6ae74bcd2 [label="Negative", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_b55052326e16364e2ba21df6ae74bcd2.html",tooltip=""];
+  dir_c1ec2732daebe6aff72a0a94a570a4fd [label="Neutral", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_c1ec2732daebe6aff72a0a94a570a4fd.html",tooltip=""];
+  dir_c6b8ba247d9d74e6c7109f85d4673c04 [label="Positive", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_c6b8ba247d9d74e6c7109f85d4673c04.html",tooltip=""];
+  }
+  }
+}

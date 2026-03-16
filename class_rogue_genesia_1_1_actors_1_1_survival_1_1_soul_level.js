@@ -2,10 +2,12 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level =
 [
     [ "AddExperience", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#a4885eb621479b84481ea6d75b7993680", null ],
     [ "CheckForLevelUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#ae196e665a00590ba7f886b1c5534221b", null ],
+    [ "DefaultExpToLevel", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#a162ebe26eb872c774f3e1e2a610e523b", null ],
     [ "HasEnoughExperienceToLevelUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#a61dc61207fd0b69f7a778e48aa4a5830", null ],
     [ "LevelUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#ad6761801c4c8426ef598ce2413787166", null ],
     [ "OpenLevelUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#aa83e66c4686a6ed9aa79b11a37fb4987", null ],
     [ "Reset", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#ab7b3c865be239eff1a749b0f6d6abe9a", null ],
+    [ "SetEquivalentLevel", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#abf455f112001003475e56c3e7115ad6a", null ],
     [ "SetExp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#a0b806a7bf94f587b7e2586f054c487b4", null ],
     [ "SetExpToNextLevel", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#a0dfff38ba7b15a19fe6a3dc3e33b6386", null ],
     [ "SetLevel", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#aa10a26ccceb9219c0bbde7808fb683d3", null ],
@@ -16,5 +18,6 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level =
     [ "GetExperience", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#afd41c40e0b428c3f7c9abef19a970e99", null ],
     [ "GetExperienceToNextLevel", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#a2d07c725c8d0a8ce3a192b1812de8fa0", null ],
     [ "GetLevel", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#a5e6ab6a3655a5a5ba16ca01d8952e3eb", null ],
-    [ "pd", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#a4e5cd04b6658ea9744882772ed245644", null ]
+    [ "pd", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#a4e5cd04b6658ea9744882772ed245644", null ],
+    [ "ScaledPlayerLevel", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_soul_level.html#addd589b8b467a11976963ad4c1eecba8", null ]
 ];

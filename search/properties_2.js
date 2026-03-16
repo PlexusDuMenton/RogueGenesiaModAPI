@@ -1,5 +1,22 @@
 var searchData=
 [
-  ['modlocation_0',['ModLocation',['../class_mod_genesia_1_1_mod_loader.html#a37c9f82c34c05f163411fe827327c9ff',1,'ModGenesia.ModLoader.ModLocation'],['../class_mod_genesia_1_1_steam_work_shop.html#a4a3bf64ed7652d02c6bcbc10c39b1881',1,'ModGenesia.SteamWorkShop.ModLocation']]],
-  ['modsourcelocation_1',['ModSourceLocation',['../class_mod_genesia_1_1_mod_loader.html#a1687f5699406df4daadfa11d4e6f9776',1,'ModGenesia::ModLoader']]]
+  ['bakedfogsettings_0',['BakedFogSettings',['../class_rogue_genesia_1_1_color_management.html#a350fea1515ccd39b0800666f55914127',1,'RogueGenesia::ColorManagement']]],
+  ['banishedartifacts_1',['BanishedArtifacts',['../class_rogue_genesia_1_1_data_1_1_challenge_data.html#a0d8a43c0c44de645289ce6d2bc1c8e79',1,'RogueGenesia.Data.ChallengeData.BanishedArtifacts'],['../class_rogue_genesia_1_1_data_1_1_custom_game_data.html#ae019063450ebaf7f0b96130d9e950a43',1,'RogueGenesia.Data.CustomGameData.BanishedArtifacts']]],
+  ['banishleft_2',['BanishLeft',['../class_rogue_genesia_1_1_u_i_1_1_u_i_level_up.html#a8c5939a1c667635446df3a1f7d733ed9',1,'RogueGenesia::UI::UILevelUp']]],
+  ['basebanish_3',['BaseBanish',['../class_rogue_genesia_1_1_data_1_1_player_s_s_u_data.html#a253a55148bc08a51d5646c398fc7dfbe',1,'RogueGenesia::Data::PlayerSSUData']]],
+  ['baserarityreroll_4',['BaseRarityReroll',['../class_rogue_genesia_1_1_data_1_1_player_s_s_u_data.html#a5b147ea2a96828dfa9a04108d0d30862',1,'RogueGenesia::Data::PlayerSSUData']]],
+  ['basereroll_5',['BaseReroll',['../class_rogue_genesia_1_1_data_1_1_player_s_s_u_data.html#af48799d9abe1db8d170299edb28f204c',1,'RogueGenesia::Data::PlayerSSUData']]],
+  ['basestats_6',['BaseStats',['../class_rogue_genesia_1_1_data_1_1_statistic.html#aa26a98909ffab89bcd087bb335328584',1,'RogueGenesia::Data::Statistic']]],
+  ['bestiarybonusdamage_7',['BestiaryBonusDamage',['../class_rogue_genesia_1_1_data_1_1_player_s_s_u_data.html#afcd0b7212900cb14d37ea87dbca51a31',1,'RogueGenesia::Data::PlayerSSUData']]],
+  ['bestiarybonusxp_8',['BestiaryBonusXP',['../class_rogue_genesia_1_1_data_1_1_player_s_s_u_data.html#a309fa03eb82ab14876496066a0087a3b',1,'RogueGenesia::Data::PlayerSSUData']]],
+  ['bestiaryreduceddamage_9',['BestiaryReducedDamage',['../class_rogue_genesia_1_1_data_1_1_player_s_s_u_data.html#ae8075ae2d206582f09b4af24f3cbca68',1,'RogueGenesia::Data::PlayerSSUData']]],
+  ['bonusammo_10',['BonusAmmo',['../class_rogue_genesia_1_1_data_1_1_player_stats.html#a9700dac973688a67950a34f89c699ff4',1,'RogueGenesia::Data::PlayerStats']]],
+  ['bonusartifacts_11',['BonusArtifacts',['../class_rogue_genesia_1_1_data_1_1_challenge_data.html#a1d72a1310cd445f4deb174ccf8fb9971',1,'RogueGenesia.Data.ChallengeData.BonusArtifacts'],['../class_rogue_genesia_1_1_data_1_1_custom_game_data.html#ab37d9d581c5424bc1ca884ef90c0144e',1,'RogueGenesia.Data.CustomGameData.BonusArtifacts']]],
+  ['bonuscardpick_12',['BonusCardPick',['../class_rogue_genesia_1_1_data_1_1_player_s_s_u_data.html#a49fc0e4b808538ff05f4acf38635049d',1,'RogueGenesia::Data::PlayerSSUData']]],
+  ['boss_13',['Boss',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_monster.html#a3b8dfe9c3691e2695f713e2b60e11e84',1,'RogueGenesia::Actors::Survival::Monster']]],
+  ['bossabilitychance_14',['BossAbilityChance',['../class_rogue_genesia_1_1_data_1_1_challenge_modifier.html#a86547fec8f3ea3a2e91443c2b8ee77ef',1,'RogueGenesia::Data::ChallengeModifier']]],
+  ['bossmusic_15',['BossMusic',['../class_rogue_genesia_1_1_data_1_1_game_data_getter.html#a0c8d5577bfd96f6180906eb681fec88c',1,'RogueGenesia::Data::GameDataGetter']]],
+  ['brightness_16',['Brightness',['../class_option_data.html#af70e3f7d9c140d10d204d3afd8b22415',1,'OptionData']]],
+  ['bufficon_17',['BuffIcon',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#a718d5d821b73a4c08704af18aaefb252',1,'RogueGenesia::Actors::Survival::Buff']]],
+  ['buffstacking_18',['BuffStacking',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_buff.html#a1af2176dc4e44b90e3489765300df8cd',1,'RogueGenesia::Actors::Survival::Buff']]]
 ];

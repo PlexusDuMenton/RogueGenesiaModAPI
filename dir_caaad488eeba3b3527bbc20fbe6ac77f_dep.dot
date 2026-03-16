@@ -1,0 +1,23 @@
+digraph "D:/IdleWave/Rogue_Genesia_GameProject/RogueGenesia/Assets/Scripts/RogueGenesia/Survival/Buff"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_3d39b05a738d11f01ae4d4271308f2d8 {
+    graph [ bgcolor="#daedff", pencolor="grey50", label="Survival", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_3d39b05a738d11f01ae4d4271308f2d8.html",tooltip=""]
+  subgraph clusterdir_caaad488eeba3b3527bbc20fbe6ac77f {
+    graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_caaad488eeba3b3527bbc20fbe6ac77f.html",tooltip=""]
+    dir_caaad488eeba3b3527bbc20fbe6ac77f [shape=plaintext, label="Buff"];
+  dir_62ce82bfd9a31b92aba2f9fe3bc59b5f [label="Artifact", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_62ce82bfd9a31b92aba2f9fe3bc59b5f.html",tooltip=""];
+  dir_7dbcf9f8c5a904783bbfff53459d6942 [label="BossBuff", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_7dbcf9f8c5a904783bbfff53459d6942.html",tooltip=""];
+  dir_31f2c09cf07988fc9aceaef5efc54392 [label="CardBuff", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_31f2c09cf07988fc9aceaef5efc54392.html",tooltip=""];
+  dir_89bd0e74fbaa7bce18f711495aa69798 [label="GunSlinger", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_89bd0e74fbaa7bce18f711495aa69798.html",tooltip=""];
+  dir_effbce4afbf66a5d6aaff68bbe9c82e7 [label="PickUp", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_effbce4afbf66a5d6aaff68bbe9c82e7.html",tooltip=""];
+  dir_48d61ee991fe88ac971ec0f2ada47efc [label="SevenSins", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_48d61ee991fe88ac971ec0f2ada47efc.html",tooltip=""];
+  dir_e12f3f61e857f38544965f63b1f11997 [label="Shrine", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_e12f3f61e857f38544965f63b1f11997.html",tooltip=""];
+  dir_ce261c3eccba9bde853a2d563023b669 [label="Talent", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_ce261c3eccba9bde853a2d563023b669.html",tooltip=""];
+  }
+  }
+}

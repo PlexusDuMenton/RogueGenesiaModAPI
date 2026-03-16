@@ -11,6 +11,7 @@ digraph "D:/IdleWave/Rogue_Genesia_GameProject/RogueGenesia/Assets/Scripts"
     graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_22bc82a552e4e866a84c42c72a230980.html",tooltip=""]
     dir_22bc82a552e4e866a84c42c72a230980 [shape=plaintext, label="Scripts"];
   dir_17369dcbef4b26a1a5030ede6a5556c7 [label="ModGenesia", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_17369dcbef4b26a1a5030ede6a5556c7.html",tooltip=""];
+  dir_a1e7091f6736ca5036dbd140d4e9fc75 [label="RogueGenesia", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_a1e7091f6736ca5036dbd140d4e9fc75.html",tooltip=""];
   }
   }
 }

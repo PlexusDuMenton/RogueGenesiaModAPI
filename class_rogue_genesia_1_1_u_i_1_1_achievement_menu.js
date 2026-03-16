@@ -26,5 +26,6 @@ var class_rogue_genesia_1_1_u_i_1_1_achievement_menu =
     [ "PageText", "class_rogue_genesia_1_1_u_i_1_1_achievement_menu.html#a90f4bf1f5a79f009e5039850478a369b", null ],
     [ "PrevPageButton", "class_rogue_genesia_1_1_u_i_1_1_achievement_menu.html#abb71ab562b326bc8ce8086732155917b", null ],
     [ "RunOnlyAchievements", "class_rogue_genesia_1_1_u_i_1_1_achievement_menu.html#ab9dec81617386ae1fa8d23f7aa0eea9a", null ],
+    [ "_CancelAction", "class_rogue_genesia_1_1_u_i_1_1_achievement_menu.html#a2c954f43780e968cfaf6735ae59c3dbe", null ],
     [ "actions", "class_rogue_genesia_1_1_u_i_1_1_achievement_menu.html#aa30ef47ec3f04a0c98a7530222208edb", null ]
 ];

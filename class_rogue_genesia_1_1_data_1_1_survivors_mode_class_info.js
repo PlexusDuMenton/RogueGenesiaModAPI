@@ -1,7 +1,7 @@
 var class_rogue_genesia_1_1_data_1_1_survivors_mode_class_info =
 [
-    [ "CalculateMasteryGain", "class_rogue_genesia_1_1_data_1_1_survivors_mode_class_info.html#a9120e86b07d4d7bf8f7b4e5023caa8b9", null ],
-    [ "CalculateSoulCoinGain", "class_rogue_genesia_1_1_data_1_1_survivors_mode_class_info.html#adcfe19946d985ab0352f69ce060efde6", null ],
+    [ "CalculateMasteryGain", "class_rogue_genesia_1_1_data_1_1_survivors_mode_class_info.html#a0376fb16f57863c0a35044a8e50108f0", null ],
+    [ "CalculateSoulCoinGain", "class_rogue_genesia_1_1_data_1_1_survivors_mode_class_info.html#a9ce6ca1a1b6dcb9cfa11bb624d06953c", null ],
     [ "GetCorruptionPerStage", "class_rogue_genesia_1_1_data_1_1_survivors_mode_class_info.html#ac3fb134919477b5c6f418f2c008161e6", null ],
     [ "GetCorruptionPerZone", "class_rogue_genesia_1_1_data_1_1_survivors_mode_class_info.html#a86e1a84879f47f31f80097f4b1bd9458", null ],
     [ "GetDefaultMap", "class_rogue_genesia_1_1_data_1_1_survivors_mode_class_info.html#ae36a2f91c46b30c801416e6c6dc5ebda", null ],

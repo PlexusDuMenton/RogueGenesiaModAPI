@@ -1,9 +1,11 @@
 var class_rogue_genesia_1_1_equipment_modifier___creation_u_i =
 [
-    [ "Init", "class_rogue_genesia_1_1_equipment_modifier___creation_u_i.html#a2d7108905d3557a39513747e17968902", null ],
+    [ "Init", "class_rogue_genesia_1_1_equipment_modifier___creation_u_i.html#ace4611db43030d30d39cd9f98e918467", null ],
     [ "_learned", "class_rogue_genesia_1_1_equipment_modifier___creation_u_i.html#a4b58c276fb61ea084d7885927341166f", null ],
     [ "BackGround", "class_rogue_genesia_1_1_equipment_modifier___creation_u_i.html#a27ee2421db6458fc227543cfe42747a1", null ],
     [ "Borders", "class_rogue_genesia_1_1_equipment_modifier___creation_u_i.html#acf1d9b6bd6e053c240e0df0eaf75343d", null ],
+    [ "ChildOffset", "class_rogue_genesia_1_1_equipment_modifier___creation_u_i.html#ad91c24a274c350bdc0ca02c0f1f54b8d", null ],
+    [ "Cursor", "class_rogue_genesia_1_1_equipment_modifier___creation_u_i.html#a5f05ebd9a0b8cb65719a32a0a5162647", null ],
     [ "Effect", "class_rogue_genesia_1_1_equipment_modifier___creation_u_i.html#a0e8d6e98634f671666608dd404dd9472", null ],
     [ "Fitter", "class_rogue_genesia_1_1_equipment_modifier___creation_u_i.html#a4f4697ea7da29521bf47fe26b52df6fa", null ],
     [ "LinkedModifier", "class_rogue_genesia_1_1_equipment_modifier___creation_u_i.html#a6ae866045ceb743d26e7b3360d398e48", null ],

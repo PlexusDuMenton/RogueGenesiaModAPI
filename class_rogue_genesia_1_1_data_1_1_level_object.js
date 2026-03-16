@@ -3,6 +3,7 @@ var class_rogue_genesia_1_1_data_1_1_level_object =
     [ "LevelObject", "class_rogue_genesia_1_1_data_1_1_level_object.html#ac5b973afe783e3c22f21de5754239974", null ],
     [ "LevelObject", "class_rogue_genesia_1_1_data_1_1_level_object.html#a99a6964b580ef2da0bd7e856725386f2", null ],
     [ "clone", "class_rogue_genesia_1_1_data_1_1_level_object.html#a69f9b7f2b2345de95f8782b60bf6ef34", null ],
+    [ "CompletedEndOfStageEvent", "class_rogue_genesia_1_1_data_1_1_level_object.html#a61a6c614aab3ea73f6d7727c13baf60a", null ],
     [ "AreaID", "class_rogue_genesia_1_1_data_1_1_level_object.html#a9ad2c8df6bea33fc3bb59d12b37c2904", null ],
     [ "CustomData", "class_rogue_genesia_1_1_data_1_1_level_object.html#a0b988a589be0fb7b1bd0383217921bd3", null ],
     [ "displayRequirement", "class_rogue_genesia_1_1_data_1_1_level_object.html#ae7591d67709b4e76a2b19d40df63be48", null ],
@@ -22,6 +23,8 @@ var class_rogue_genesia_1_1_data_1_1_level_object =
     [ "Stage", "class_rogue_genesia_1_1_data_1_1_level_object.html#a15d17e8f08e2e3746a19c319f8124da6", null ],
     [ "TerrainGenerationPool", "class_rogue_genesia_1_1_data_1_1_level_object.html#a0377bf088e3371af76cd1913bbc3c42f", null ],
     [ "TimeToSurvive", "class_rogue_genesia_1_1_data_1_1_level_object.html#af91d25c0d2b4f4a4579910de44a4989a", null ],
+    [ "EndOfStageEvent", "class_rogue_genesia_1_1_data_1_1_level_object.html#a4976876fe22d0388eba0d4249eb133c6", null ],
+    [ "LocalizedName", "class_rogue_genesia_1_1_data_1_1_level_object.html#aca81b798d233ff184b8d00311d9d3347", null ],
     [ "StageName", "class_rogue_genesia_1_1_data_1_1_level_object.html#abfb0ffa36e884a6b4ce8b2a0ed548d5f", null ],
     [ "x", "class_rogue_genesia_1_1_data_1_1_level_object.html#ae5317eaa2a172f25f270eb872f187114", null ],
     [ "y", "class_rogue_genesia_1_1_data_1_1_level_object.html#ab145e29e68b5799594d745479a29da14", null ]

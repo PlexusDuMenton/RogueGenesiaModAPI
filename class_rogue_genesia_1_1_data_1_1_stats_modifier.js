@@ -8,7 +8,9 @@ var class_rogue_genesia_1_1_data_1_1_stats_modifier =
     [ "MergeStatsModifier", "class_rogue_genesia_1_1_data_1_1_stats_modifier.html#a7a63fe6309da8fe64c3ce16195105f2d", null ],
     [ "OnValidate", "class_rogue_genesia_1_1_data_1_1_stats_modifier.html#a4a2b839e774ef3622a86791a44aa2ff6", null ],
     [ "StatModifier", "class_rogue_genesia_1_1_data_1_1_stats_modifier.html#ac80ee16263855fc1bb3db71481f4805e", null ],
-    [ "UpdateStats", "class_rogue_genesia_1_1_data_1_1_stats_modifier.html#af7ff1409cde7cd7229c62b42c01d2955", null ],
+    [ "ToString", "class_rogue_genesia_1_1_data_1_1_stats_modifier.html#a567f5e4102fefed0e1daac989c980144", null ],
+    [ "UpdateStats", "class_rogue_genesia_1_1_data_1_1_stats_modifier.html#a085e5e77336b0014806a193b9e934ed8", null ],
+    [ "UpdateStats", "class_rogue_genesia_1_1_data_1_1_stats_modifier.html#ac9a1ff52ec1bd59db9a6717f38831d18", null ],
     [ "ModifiersList", "class_rogue_genesia_1_1_data_1_1_stats_modifier.html#a53eb3c7628e038aeb37a1a977381e58f", null ],
     [ "SHModifierList", "class_rogue_genesia_1_1_data_1_1_stats_modifier.html#a301eba2dd3859898c978ac6b63d88b4a", null ]
 ];

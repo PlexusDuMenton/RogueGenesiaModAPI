@@ -1,0 +1,4 @@
+var _equip_all_equipment_at_rank_or_greater_info_class_8cs =
+[
+    [ "RogueGenesia.Data.EquipAllEquipmentAtRankOrGreaterInfoClass", "class_rogue_genesia_1_1_data_1_1_equip_all_equipment_at_rank_or_greater_info_class.html", "class_rogue_genesia_1_1_data_1_1_equip_all_equipment_at_rank_or_greater_info_class" ]
+];

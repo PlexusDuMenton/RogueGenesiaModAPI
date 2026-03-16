@@ -1,14 +1,14 @@
 var namespace_rogue_genesia_1_1_environement =
 [
-    [ "Connection", "struct_rogue_genesia_1_1_environement_1_1_connection.html", "struct_rogue_genesia_1_1_environement_1_1_connection" ],
     [ "FoliageManager", "class_rogue_genesia_1_1_environement_1_1_foliage_manager.html", "class_rogue_genesia_1_1_environement_1_1_foliage_manager" ],
-    [ "TerrainBorder", "struct_rogue_genesia_1_1_environement_1_1_terrain_border.html", "struct_rogue_genesia_1_1_environement_1_1_terrain_border" ],
+    [ "TerrainSector", "struct_rogue_genesia_1_1_environement_1_1_terrain_sector.html", "struct_rogue_genesia_1_1_environement_1_1_terrain_sector" ],
     [ "TerrainGeneration", "class_rogue_genesia_1_1_environement_1_1_terrain_generation.html", "class_rogue_genesia_1_1_environement_1_1_terrain_generation" ],
     [ "TerrainGenerationManager", "class_rogue_genesia_1_1_environement_1_1_terrain_generation_manager.html", "class_rogue_genesia_1_1_environement_1_1_terrain_generation_manager" ],
+    [ "Connection", "struct_rogue_genesia_1_1_environement_1_1_connection.html", "struct_rogue_genesia_1_1_environement_1_1_connection" ],
+    [ "TerrainBorder", "struct_rogue_genesia_1_1_environement_1_1_terrain_border.html", "struct_rogue_genesia_1_1_environement_1_1_terrain_border" ],
+    [ "TerrainModuleWithRotation", "struct_rogue_genesia_1_1_environement_1_1_terrain_module_with_rotation.html", "struct_rogue_genesia_1_1_environement_1_1_terrain_module_with_rotation" ],
     [ "TerrainGenerationSO", "class_rogue_genesia_1_1_environement_1_1_terrain_generation_s_o.html", "class_rogue_genesia_1_1_environement_1_1_terrain_generation_s_o" ],
     [ "TerrainModule", "class_rogue_genesia_1_1_environement_1_1_terrain_module.html", "class_rogue_genesia_1_1_environement_1_1_terrain_module" ],
-    [ "TerrainModuleWithRotation", "struct_rogue_genesia_1_1_environement_1_1_terrain_module_with_rotation.html", "struct_rogue_genesia_1_1_environement_1_1_terrain_module_with_rotation" ],
-    [ "TerrainSector", "struct_rogue_genesia_1_1_environement_1_1_terrain_sector.html", "struct_rogue_genesia_1_1_environement_1_1_terrain_sector" ],
     [ "EBorderType", "namespace_rogue_genesia_1_1_environement.html#a911277e2790e2e95d4ed715d1041ca05", [
       [ "Any", "namespace_rogue_genesia_1_1_environement.html#a911277e2790e2e95d4ed715d1041ca05aed36a1ef76a59ee3f15180e0441188ad", null ],
       [ "Default", "namespace_rogue_genesia_1_1_environement.html#a911277e2790e2e95d4ed715d1041ca05a7a1920d61156abc05a60135aefe8bc67", null ],

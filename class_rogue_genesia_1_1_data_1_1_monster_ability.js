@@ -7,6 +7,11 @@ var class_rogue_genesia_1_1_data_1_1_monster_ability =
       [ "IsChanneled", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#a3ef2f4cc9673771225273d74d6380106aad629df4b2315c1481c5d1dff55f49ea", null ],
       [ "CoolDownStartOnActivate", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#a3ef2f4cc9673771225273d74d6380106a605443920d564b6b61181dc0ca701024", null ]
     ] ],
+    [ "EMonsterAbilityStep", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#ae644f9604c18e235095ffc932e2e69fa", [
+      [ "ReadyToCast", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#ae644f9604c18e235095ffc932e2e69faa686880a46022bb3e17b512c5910310aa", null ],
+      [ "Casting", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#ae644f9604c18e235095ffc932e2e69faa86a59ad7ba2334ad7505f303d3f2ab6e", null ],
+      [ "Channeling", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#ae644f9604c18e235095ffc932e2e69faa062d045c9caf1f3e3dcab5133a201c65", null ]
+    ] ],
     [ "DoDisplayAbilityIcon", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#a62581cfabd9eb8dbf7cbfcb1a2a9d2c9", null ],
     [ "GetAbilityConstructor", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#a78926f0be961289d5b9e8e329839ae84", null ],
     [ "GetAbilityIcon", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#aea0a09792fea080c7b8b4732504e2a2d", null ],
@@ -40,6 +45,7 @@ var class_rogue_genesia_1_1_data_1_1_monster_ability =
     [ "_channelTimeLeft", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#a7e96785dd1047dcfbc2bf87d24a5d1f4", null ],
     [ "_coolDown", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#aec1bf0e5e1ec45715dcfee437f0d3c7a", null ],
     [ "_coolDownLeft", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#afd395c800df59aaf62948ee6a9628f70", null ],
+    [ "AbilityStep", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#a9c591b8d50f687c76410757484025b39", null ],
     [ "GeneralAbilityList", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#af183f83b6c90fa82e9b7aaa8eec92ba8", null ],
     [ "LinkedIcon", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#a0b5bd9a56f374d36b4d97f6c6584cf54", null ],
     [ "RessourceEnemy", "class_rogue_genesia_1_1_data_1_1_monster_ability.html#a13403dc1e5b1c2fdd1ca09a29ce8ac24", null ],

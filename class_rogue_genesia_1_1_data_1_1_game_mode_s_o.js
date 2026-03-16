@@ -21,6 +21,7 @@ var class_rogue_genesia_1_1_data_1_1_game_mode_s_o =
     [ "ObjectsToSpawn", "class_rogue_genesia_1_1_data_1_1_game_mode_s_o.html#a43815f2fe70b08a295f32442829afb85", null ],
     [ "RequireGold", "class_rogue_genesia_1_1_data_1_1_game_mode_s_o.html#a80865b7e359a7b7dae5e901657f2346a", null ],
     [ "SupportQuickGame", "class_rogue_genesia_1_1_data_1_1_game_mode_s_o.html#a7136f22983dcd853d67cc658a3f96163", null ],
+    [ "TestStuff", "class_rogue_genesia_1_1_data_1_1_game_mode_s_o.html#ac7f306b0da1eafe07894c5dc3093101b", null ],
     [ "ActiveDifficulty", "class_rogue_genesia_1_1_data_1_1_game_mode_s_o.html#aa51a4bc07fa7c270c9a7565c4f99ef84", null ],
     [ "hasChallenge", "class_rogue_genesia_1_1_data_1_1_game_mode_s_o.html#a151d1361dbef57813eb1e419f1d21a85", null ]
 ];

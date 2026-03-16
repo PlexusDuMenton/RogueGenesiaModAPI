@@ -1,0 +1,16 @@
+digraph "D:/IdleWave/Rogue_Genesia_GameProject/RogueGenesia/Assets/Scripts/RogueGenesia/TalentSystem/Talents/Actives"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_4bcd7e8e2c2dcc0de5aaa8ec7eb17075 {
+    graph [ bgcolor="#daedff", pencolor="grey50", label="Talents", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_4bcd7e8e2c2dcc0de5aaa8ec7eb17075.html",tooltip=""]
+  subgraph clusterdir_37aea62228c49a6012f4382477d3b400 {
+    graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_37aea62228c49a6012f4382477d3b400.html",tooltip=""]
+    dir_37aea62228c49a6012f4382477d3b400 [shape=plaintext, label="Actives"];
+  dir_db73183de1d1ec4ad5856502b1020d15 [label="Otheravatar", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_db73183de1d1ec4ad5856502b1020d15.html",tooltip=""];
+  }
+  }
+}

@@ -7,6 +7,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster =
     [ "GetRessourceValue", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a0f1f7859b0ca6fee9db96d8c0b27eed9", null ],
     [ "HasRessource", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a293392de0608e6488207c22b3e5d0fc6", null ],
     [ "InitMonster", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a9d15d5cbbc97eadf225ca34e48f1f23c", null ],
+    [ "InstantDeath", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a0775a0c0e2328c91b03cf527c099e03b", null ],
     [ "IntroUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a900014c9bc0a8e113cd229bd8ff9f8f8", null ],
     [ "OnDamagesProcessed", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a253179ac5ab79b182d4d4b972cfd592b", null ],
     [ "OnIntroEnd", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a3fb5360ea8cc6e527d162d634fae940c", null ],
@@ -23,7 +24,10 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster =
     [ "InShielding", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a0e4bb1082630419d68a84d659b07a2c7", null ],
     [ "IntroStarted", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a06578ecfe8952ab599aa575a1fda2eb6", null ],
     [ "IntroTimeLeft", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a9546272ff94585e26f8b25ce91c36bea", null ],
+    [ "NoIntro", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#ae93a9211fa1833b12881603fc393fa82", null ],
+    [ "PacifistMode", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a50688da0a10553b1c38b394983ff5919", null ],
     [ "PreviousPhase", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a3c96615da8c8865f44591e3e4faf6a1d", null ],
     [ "RemainingPhases", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a40952472abb0e5eeb8837e6271c37c1b", null ],
-    [ "ShieldFX", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a8f349884eb87d484c6f959bc43b4103f", null ]
+    [ "ShieldFX", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a8f349884eb87d484c6f959bc43b4103f", null ],
+    [ "WaitForOtherIntro", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_monster.html#a9d5d4ddee31cdf9168414bf1bde47485", null ]
 ];

@@ -1,7 +1,7 @@
 var class_rogue_genesia_1_1_data_1_1_arena_info_class =
 [
     [ "BuildObjective", "class_rogue_genesia_1_1_data_1_1_arena_info_class.html#a183044cdeec14171d38ead59a6721ec2", null ],
-    [ "EquipmentReward", "class_rogue_genesia_1_1_data_1_1_arena_info_class.html#a752bb7225e121f1ca6a353033077abc1", null ],
+    [ "EquipmentReward", "class_rogue_genesia_1_1_data_1_1_arena_info_class.html#a1e35d35b51ad49bae490ec22f80f84e2", null ],
     [ "GameDirector", "class_rogue_genesia_1_1_data_1_1_arena_info_class.html#a693874a87a3b13504615aa6abf5f4bdd", null ],
     [ "GetLevelToLoad", "class_rogue_genesia_1_1_data_1_1_arena_info_class.html#a1d0ec8049bc6968458d968e0a071584e", null ],
     [ "GetLevelVisualToLoad", "class_rogue_genesia_1_1_data_1_1_arena_info_class.html#abedcb11e8d0179e9ab1502b74c5feaa8", null ],

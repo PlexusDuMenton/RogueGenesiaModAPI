@@ -5,6 +5,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_projectile_manager =
     [ "Awake", "class_rogue_genesia_1_1_game_manager_1_1_projectile_manager.html#abcb2c40f5b948cc1601899368db8a60e", null ],
     [ "CleanProjectile", "class_rogue_genesia_1_1_game_manager_1_1_projectile_manager.html#a3b9e621088141346e9b3761ae8b88303", null ],
     [ "GetAllPlayerProjectile", "class_rogue_genesia_1_1_game_manager_1_1_projectile_manager.html#ad3b3a1186eab1ccbcf261239be006df4", null ],
+    [ "GetProjectileCount", "class_rogue_genesia_1_1_game_manager_1_1_projectile_manager.html#acb3c46d6c3d364970d86a7b4fb628782", null ],
     [ "GetProjectileCount", "class_rogue_genesia_1_1_game_manager_1_1_projectile_manager.html#a8a4c37c94a2cbe33ed8805561cd3e8cb", null ],
     [ "GetProjectileCountSafe", "class_rogue_genesia_1_1_game_manager_1_1_projectile_manager.html#a342e3e65de40656b30cad94284f06b4d", null ],
     [ "GetTimeScale", "class_rogue_genesia_1_1_game_manager_1_1_projectile_manager.html#a2958755fd7c7830447474cf1f1a47590", null ],

@@ -10,6 +10,7 @@ var class_rogue_genesia_1_1_u_i_1_1_stats_menu =
     [ "OpenGeneralStats", "class_rogue_genesia_1_1_u_i_1_1_stats_menu.html#a561d3273454ca94939e58f01e2b7d275", null ],
     [ "OpenSoulCard", "class_rogue_genesia_1_1_u_i_1_1_stats_menu.html#abdd2c8923d21b9c00c2c7ab48649aee3", null ],
     [ "OpenStatsMenu", "class_rogue_genesia_1_1_u_i_1_1_stats_menu.html#a8f553993c0bfcbd33e51582e4ece148a", null ],
+    [ "OpenTutorial", "class_rogue_genesia_1_1_u_i_1_1_stats_menu.html#aba9b395bb5da01fccfb9c84cd73fce31", null ],
     [ "ReturnToPreviousMenu", "class_rogue_genesia_1_1_u_i_1_1_stats_menu.html#a8d0ba1412cfd0ebc7e23b3a9d1ab1486", null ],
     [ "Update", "class_rogue_genesia_1_1_u_i_1_1_stats_menu.html#a2c240c34311939fbfca152493c84804b", null ],
     [ "AchievementsButton", "class_rogue_genesia_1_1_u_i_1_1_stats_menu.html#a6887659f60095979d518022f846ea172", null ],
@@ -39,5 +40,8 @@ var class_rogue_genesia_1_1_u_i_1_1_stats_menu =
     [ "SoulCardPanel", "class_rogue_genesia_1_1_u_i_1_1_stats_menu.html#a12a72b96557462c71132c6bd8885b907", null ],
     [ "SoulCardsButton", "class_rogue_genesia_1_1_u_i_1_1_stats_menu.html#ae61545b23bf310fb1604bad91d953735", null ],
     [ "SoulCardsFirstButton", "class_rogue_genesia_1_1_u_i_1_1_stats_menu.html#adf1e70d51b836213aa85259fa5371c35", null ],
-    [ "StatsFirstButton", "class_rogue_genesia_1_1_u_i_1_1_stats_menu.html#ad58d776f615a8f456500db79c3bdc02a", null ]
+    [ "StatsFirstButton", "class_rogue_genesia_1_1_u_i_1_1_stats_menu.html#ad58d776f615a8f456500db79c3bdc02a", null ],
+    [ "TutorialButton", "class_rogue_genesia_1_1_u_i_1_1_stats_menu.html#ac939183c4d3733ad6709278b0ada6a5e", null ],
+    [ "TutorialFirstButton", "class_rogue_genesia_1_1_u_i_1_1_stats_menu.html#a57863aa0f392e82411d0629ac8331267", null ],
+    [ "Tutorials", "class_rogue_genesia_1_1_u_i_1_1_stats_menu.html#a1be5e304c9acd30b844f080789aa254e", null ]
 ];

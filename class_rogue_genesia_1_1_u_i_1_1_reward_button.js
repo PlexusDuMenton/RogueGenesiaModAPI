@@ -1,12 +1,10 @@
 var class_rogue_genesia_1_1_u_i_1_1_reward_button =
 [
-    [ "AddReroll", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#aecfb6f018e4f188980f73d580bec3b55", null ],
-    [ "OnReroll", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#aabb665b681d0ed1cfe01fd48d1cc312d", null ],
-    [ "RemoveReroll", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#a1c14604f81fbe17de54d4d82738b1b50", null ],
-    [ "Artifact", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#a0e87ed539987ac1fa10ad6a3ca2df66b", null ],
-    [ "Card", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#aaa7b9a0cfadcd5be9a7907e393814a72", null ],
+    [ "DisplaySubButton", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#abc01ee12fb01ba40e7bd4f400ad115bb", null ],
+    [ "OnSubButtonPressed", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#a24528c99f2b8db570bb69105773dbaf9", null ],
+    [ "RemoveSubButton", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#a08b38eb7360915b80124b8ffd6ac090c", null ],
+    [ "AdditionalText", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#af7b2281736ee1b0fc5c64859986ef32e", null ],
     [ "Equipment", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#accebcbdfb7925fbe18a8f9d7c18da0bd", null ],
-    [ "GoldReward", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#a31b263af7a4ab954f4a9ff3c1ced37c0", null ],
     [ "Icon", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#a8d8d34b5b59ff54c2352382b8f01a047", null ],
     [ "IconBG", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#ae52f2483ba6c2994fbefcaf986e841fb", null ],
     [ "IconBGGradient", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#a1f720460e2dd6294f081016c49049f63", null ],
@@ -14,7 +12,10 @@ var class_rogue_genesia_1_1_u_i_1_1_reward_button =
     [ "MainButtonTransform", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#a130968b3b068fff3e8c1ce78705279f5", null ],
     [ "OnRerollButton", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#a25c8594fd6b55de4619e692da090a954", null ],
     [ "OptionalSource", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#a24be3b5835afc693914f561fd6bb1c64", null ],
-    [ "RerollButton", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#a82c615273b2be196bd6c7265e3a26397", null ],
-    [ "RewardType", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#a0306b110bf7ad50239961a58d77088d6", null ],
+    [ "rewardInfoClass", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#a9d9d65a558589dd1f8047fb6b6accb15", null ],
+    [ "SubButton", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#aca455ebab09a8dded90c6beb635585f7", null ],
+    [ "SubIcon", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#a78492e9d3d2bc0dec79b5e4aae567fbf", null ],
+    [ "SubIconBG", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#aaeb517d87cf670c35d0e4a1c75c79089", null ],
+    [ "SubIconBGGradient", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#a866eda5b56ceb5c1d6e8af746fd765dd", null ],
     [ "Text", "class_rogue_genesia_1_1_u_i_1_1_reward_button.html#a0ff5cc515cfaccc031c0abddd39af0bd", null ]
 ];

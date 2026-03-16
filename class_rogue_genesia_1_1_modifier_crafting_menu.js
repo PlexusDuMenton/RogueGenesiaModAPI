@@ -1,10 +1,8 @@
 var class_rogue_genesia_1_1_modifier_crafting_menu =
 [
     [ "CleanModifierList", "class_rogue_genesia_1_1_modifier_crafting_menu.html#a7dd0c60c471a0c0341c2a809f0f74617", null ],
-    [ "CloseModifierCraftingMenu", "class_rogue_genesia_1_1_modifier_crafting_menu.html#acd6ed628ed873b119f90533b15142999", null ],
     [ "OpenModifierCraftingMenu", "class_rogue_genesia_1_1_modifier_crafting_menu.html#a314741496b0583d8dae87420ca94da18", null ],
     [ "OpenModifierCreationMenu", "class_rogue_genesia_1_1_modifier_crafting_menu.html#af0ac2e66dac55000b3c30f5870083709", null ],
-    [ "ReplaceModifier", "class_rogue_genesia_1_1_modifier_crafting_menu.html#aff3fc9a2a205afa5308e3442c60e1114", null ],
     [ "UpdateItemInformation", "class_rogue_genesia_1_1_modifier_crafting_menu.html#a72275fd02f9d09decb3f9811b922e970", null ],
     [ "UpdateItemInformationWihoutModifier", "class_rogue_genesia_1_1_modifier_crafting_menu.html#aa9a92484d83c8db20b9da50c0c16903c", null ],
     [ "EmptyModifierPrefab", "class_rogue_genesia_1_1_modifier_crafting_menu.html#af139ecf10dafbc6f5cdd35459a44d0cd", null ],

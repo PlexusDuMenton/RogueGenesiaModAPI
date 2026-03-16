@@ -1,0 +1,718 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.EquipmentFXUtils Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+<div id="theme-selection">
+ <label for="theme-select">Theme:</label>
+ <select id="theme-select">
+  <option value="theme-default">Default</option>
+  <option value="theme-round">Round</option>
+  <option value="theme-robot">Robot</option>
+ </select>
+</div>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_rogue_genesia_1_1_equipment_f_x_utils.html','','class_rogue_genesia_1_1_equipment_f_x_utils-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">RogueGenesia.EquipmentFXUtils Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ae9154268fc7d66da46a40e08d4af8d94" id="r_ae9154268fc7d66da46a40e08d4af8d94"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ae9154268fc7d66da46a40e08d4af8d94">ResetGradientColor</a> (Material material)</td></tr>
+<tr class="memitem:ae1567acaa27f670b9fb8c7b665a7adea" id="r_ae1567acaa27f670b9fb8c7b665a7adea"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ae1567acaa27f670b9fb8c7b665a7adea">FillInfinityGradientBorder</a> (Material material, <a class="el" href="class_rogue_genesia_1_1_infinity_color_data.html">InfinityColorData</a> infinityColorData, bool sharpCorner)</td></tr>
+<tr class="memitem:a64a3bf995a51ffcbb22ce70366b8ca6c" id="r_a64a3bf995a51ffcbb22ce70366b8ca6c"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a64a3bf995a51ffcbb22ce70366b8ca6c">IsInfinity</a> (<a class="el" href="namespace_rogue_genesia_1_1_data.html#a4672bf4cb9055d9a2f5d678cdee4eba6">EDifficulty</a> difficulty)</td></tr>
+<tr class="memitem:ab175388ee138c001cc04d7bdb722cd0d" id="r_ab175388ee138c001cc04d7bdb722cd0d"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ab175388ee138c001cc04d7bdb722cd0d">IsInfinity</a> (int difficulty)</td></tr>
+<tr class="memitem:a53ed7d46fe60de2b14cceb50ede7c627" id="r_a53ed7d46fe60de2b14cceb50ede7c627"><td class="memItemLeft">static float&#160;</td><td class="memItemRight"><a class="el" href="#a53ed7d46fe60de2b14cceb50ede7c627">GetModifierRarityRating</a> (ModifierRarity rarity)</td></tr>
+<tr class="memitem:a8c25ec7a87adbeccbce46faff902f3d9" id="r_a8c25ec7a87adbeccbce46faff902f3d9"><td class="memItemLeft">static Color&#160;</td><td class="memItemRight"><a class="el" href="#a8c25ec7a87adbeccbce46faff902f3d9">GetRarityColor</a> (ModifierRarity rarity, bool light=false)</td></tr>
+<tr class="memitem:ab28f972c679456d78fd0a374d7ba719c" id="r_ab28f972c679456d78fd0a374d7ba719c"><td class="memItemLeft">static float&#160;</td><td class="memItemRight"><a class="el" href="#ab28f972c679456d78fd0a374d7ba719c">GetInfinityGradientCoverage</a> (int equipmentTier)</td></tr>
+<tr class="memitem:acb29a0bb51fc7ee6669eef31bc02a38f" id="r_acb29a0bb51fc7ee6669eef31bc02a38f"><td class="memItemLeft">static float&#160;</td><td class="memItemRight"><a class="el" href="#acb29a0bb51fc7ee6669eef31bc02a38f">GetInfinityBackground</a> (int equipmentTier)</td></tr>
+<tr class="memitem:a7433bcd235baeacc6ccd3da9285db167" id="r_a7433bcd235baeacc6ccd3da9285db167"><td class="memItemLeft">static float&#160;</td><td class="memItemRight"><a class="el" href="#a7433bcd235baeacc6ccd3da9285db167">GetInfinityBackgroundSaturation</a> (int equipmentTier)</td></tr>
+<tr class="memitem:aba3effa3d567d0fa1b329eae41bd7009" id="r_aba3effa3d567d0fa1b329eae41bd7009"><td class="memItemLeft">static float&#160;</td><td class="memItemRight"><a class="el" href="#aba3effa3d567d0fa1b329eae41bd7009">GetInfinityFoilSaturation</a> (int equipmentTier)</td></tr>
+<tr class="memitem:acbba1f0a04298628483d88e75e7dbac1" id="r_acbba1f0a04298628483d88e75e7dbac1"><td class="memItemLeft">static float&#160;</td><td class="memItemRight"><a class="el" href="#acbba1f0a04298628483d88e75e7dbac1">GetInfinityBackgroundRightCoverage</a> (int equipmentTier)</td></tr>
+<tr class="memitem:a62ca3b75b0c6e4e3222564d6781b6810" id="r_a62ca3b75b0c6e4e3222564d6781b6810"><td class="memItemLeft">static float&#160;</td><td class="memItemRight"><a class="el" href="#a62ca3b75b0c6e4e3222564d6781b6810">GetInfinityFoilStrength</a> (int equipmentTier)</td></tr>
+<tr class="memitem:acb2a7b3bc237d34aeae3792b2f2e0a38" id="r_acb2a7b3bc237d34aeae3792b2f2e0a38"><td class="memItemLeft">static float&#160;</td><td class="memItemRight"><a class="el" href="#acb2a7b3bc237d34aeae3792b2f2e0a38">GetInfinityFoilHue</a> (int equipmentTier)</td></tr>
+<tr class="memitem:a9d80532f6c1a3a8b26dc8603dccbb168" id="r_a9d80532f6c1a3a8b26dc8603dccbb168"><td class="memItemLeft">static float&#160;</td><td class="memItemRight"><a class="el" href="#a9d80532f6c1a3a8b26dc8603dccbb168">GetInfinityTopLeftCoverage</a> (int equipmentTier)</td></tr>
+<tr class="memitem:a21e22cc92b51fbe0e67a008805a31ea4" id="r_a21e22cc92b51fbe0e67a008805a31ea4"><td class="memItemLeft">static Color&#160;</td><td class="memItemRight"><a class="el" href="#a21e22cc92b51fbe0e67a008805a31ea4">GetInfinityColor</a> (int equipmentTier)</td></tr>
+<tr class="memitem:af5267092e1facb4a7a981407509d97d2" id="r_af5267092e1facb4a7a981407509d97d2"><td class="memItemLeft">static Color&#160;</td><td class="memItemRight"><a class="el" href="#af5267092e1facb4a7a981407509d97d2">GetInfinityBottomRightColor</a> (int equipmentTier)</td></tr>
+<tr class="memitem:a7b298ca9638d64607b8d03142916bd34" id="r_a7b298ca9638d64607b8d03142916bd34"><td class="memItemLeft">static float&#160;</td><td class="memItemRight"><a class="el" href="#a7b298ca9638d64607b8d03142916bd34">GetInfinityGradientScale</a> (int equipmentTier)</td></tr>
+<tr class="memitem:a02b222d25e0f57fd14afe319fb5b75b5" id="r_a02b222d25e0f57fd14afe319fb5b75b5"><td class="memItemLeft">static Color&#160;</td><td class="memItemRight"><a class="el" href="#a02b222d25e0f57fd14afe319fb5b75b5">GetTierColor</a> (<a class="el" href="namespace_rogue_genesia_1_1_data.html#a4672bf4cb9055d9a2f5d678cdee4eba6">EDifficulty</a> tier)</td></tr>
+<tr class="memitem:ad7ce5888fac751ed7359252b150ef94c" id="r_ad7ce5888fac751ed7359252b150ef94c"><td class="memItemLeft">static Sprite&#160;</td><td class="memItemRight"><a class="el" href="#ad7ce5888fac751ed7359252b150ef94c">GetBorderByRarity</a> (ModifierRarity rarity)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a5d1126632caf4487022e278e988d4676" id="r_a5d1126632caf4487022e278e988d4676"><td class="memItemLeft">static Color&#160;</td><td class="memItemRight"><a class="el" href="#a5d1126632caf4487022e278e988d4676">POSITIVE_COLOR</a><code> [get]</code></td></tr>
+<tr class="memitem:a89e42d14b38fb833508235c423d9d599" id="r_a89e42d14b38fb833508235c423d9d599"><td class="memItemLeft">static Color&#160;</td><td class="memItemRight"><a class="el" href="#a89e42d14b38fb833508235c423d9d599">NEGATIVE_COLOR</a><code> [get]</code></td></tr>
+</table>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ae1567acaa27f670b9fb8c7b665a7adea" name="ae1567acaa27f670b9fb8c7b665a7adea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1567acaa27f670b9fb8c7b665a7adea">&#9670;&#160;</a></span>FillInfinityGradientBorder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.EquipmentFXUtils.FillInfinityGradientBorder </td>
+          <td>(</td>
+          <td class="paramtype">Material</td>          <td class="paramname"><span class="paramname"><em>material</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_infinity_color_data.html">InfinityColorData</a></td>          <td class="paramname"><span class="paramname"><em>infinityColorData</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>sharpCorner</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad7ce5888fac751ed7359252b150ef94c" name="ad7ce5888fac751ed7359252b150ef94c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7ce5888fac751ed7359252b150ef94c">&#9670;&#160;</a></span>GetBorderByRarity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Sprite RogueGenesia.EquipmentFXUtils.GetBorderByRarity </td>
+          <td>(</td>
+          <td class="paramtype">ModifierRarity</td>          <td class="paramname"><span class="paramname"><em>rarity</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb29a0bb51fc7ee6669eef31bc02a38f" name="acb29a0bb51fc7ee6669eef31bc02a38f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb29a0bb51fc7ee6669eef31bc02a38f">&#9670;&#160;</a></span>GetInfinityBackground()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.EquipmentFXUtils.GetInfinityBackground </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>equipmentTier</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acbba1f0a04298628483d88e75e7dbac1" name="acbba1f0a04298628483d88e75e7dbac1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbba1f0a04298628483d88e75e7dbac1">&#9670;&#160;</a></span>GetInfinityBackgroundRightCoverage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.EquipmentFXUtils.GetInfinityBackgroundRightCoverage </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>equipmentTier</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7433bcd235baeacc6ccd3da9285db167" name="a7433bcd235baeacc6ccd3da9285db167"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7433bcd235baeacc6ccd3da9285db167">&#9670;&#160;</a></span>GetInfinityBackgroundSaturation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.EquipmentFXUtils.GetInfinityBackgroundSaturation </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>equipmentTier</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af5267092e1facb4a7a981407509d97d2" name="af5267092e1facb4a7a981407509d97d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5267092e1facb4a7a981407509d97d2">&#9670;&#160;</a></span>GetInfinityBottomRightColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color RogueGenesia.EquipmentFXUtils.GetInfinityBottomRightColor </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>equipmentTier</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a21e22cc92b51fbe0e67a008805a31ea4" name="a21e22cc92b51fbe0e67a008805a31ea4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21e22cc92b51fbe0e67a008805a31ea4">&#9670;&#160;</a></span>GetInfinityColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color RogueGenesia.EquipmentFXUtils.GetInfinityColor </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>equipmentTier</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb2a7b3bc237d34aeae3792b2f2e0a38" name="acb2a7b3bc237d34aeae3792b2f2e0a38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb2a7b3bc237d34aeae3792b2f2e0a38">&#9670;&#160;</a></span>GetInfinityFoilHue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.EquipmentFXUtils.GetInfinityFoilHue </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>equipmentTier</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba3effa3d567d0fa1b329eae41bd7009" name="aba3effa3d567d0fa1b329eae41bd7009"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba3effa3d567d0fa1b329eae41bd7009">&#9670;&#160;</a></span>GetInfinityFoilSaturation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.EquipmentFXUtils.GetInfinityFoilSaturation </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>equipmentTier</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62ca3b75b0c6e4e3222564d6781b6810" name="a62ca3b75b0c6e4e3222564d6781b6810"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62ca3b75b0c6e4e3222564d6781b6810">&#9670;&#160;</a></span>GetInfinityFoilStrength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.EquipmentFXUtils.GetInfinityFoilStrength </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>equipmentTier</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab28f972c679456d78fd0a374d7ba719c" name="ab28f972c679456d78fd0a374d7ba719c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab28f972c679456d78fd0a374d7ba719c">&#9670;&#160;</a></span>GetInfinityGradientCoverage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.EquipmentFXUtils.GetInfinityGradientCoverage </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>equipmentTier</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b298ca9638d64607b8d03142916bd34" name="a7b298ca9638d64607b8d03142916bd34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b298ca9638d64607b8d03142916bd34">&#9670;&#160;</a></span>GetInfinityGradientScale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.EquipmentFXUtils.GetInfinityGradientScale </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>equipmentTier</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9d80532f6c1a3a8b26dc8603dccbb168" name="a9d80532f6c1a3a8b26dc8603dccbb168"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d80532f6c1a3a8b26dc8603dccbb168">&#9670;&#160;</a></span>GetInfinityTopLeftCoverage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.EquipmentFXUtils.GetInfinityTopLeftCoverage </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>equipmentTier</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a53ed7d46fe60de2b14cceb50ede7c627" name="a53ed7d46fe60de2b14cceb50ede7c627"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53ed7d46fe60de2b14cceb50ede7c627">&#9670;&#160;</a></span>GetModifierRarityRating()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.EquipmentFXUtils.GetModifierRarityRating </td>
+          <td>(</td>
+          <td class="paramtype">ModifierRarity</td>          <td class="paramname"><span class="paramname"><em>rarity</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c25ec7a87adbeccbce46faff902f3d9" name="a8c25ec7a87adbeccbce46faff902f3d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c25ec7a87adbeccbce46faff902f3d9">&#9670;&#160;</a></span>GetRarityColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color RogueGenesia.EquipmentFXUtils.GetRarityColor </td>
+          <td>(</td>
+          <td class="paramtype">ModifierRarity</td>          <td class="paramname"><span class="paramname"><em>rarity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>light</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a02b222d25e0f57fd14afe319fb5b75b5" name="a02b222d25e0f57fd14afe319fb5b75b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02b222d25e0f57fd14afe319fb5b75b5">&#9670;&#160;</a></span>GetTierColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color RogueGenesia.EquipmentFXUtils.GetTierColor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a4672bf4cb9055d9a2f5d678cdee4eba6">EDifficulty</a></td>          <td class="paramname"><span class="paramname"><em>tier</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a64a3bf995a51ffcbb22ce70366b8ca6c" name="a64a3bf995a51ffcbb22ce70366b8ca6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64a3bf995a51ffcbb22ce70366b8ca6c">&#9670;&#160;</a></span>IsInfinity() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.EquipmentFXUtils.IsInfinity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a4672bf4cb9055d9a2f5d678cdee4eba6">EDifficulty</a></td>          <td class="paramname"><span class="paramname"><em>difficulty</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab175388ee138c001cc04d7bdb722cd0d" name="ab175388ee138c001cc04d7bdb722cd0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab175388ee138c001cc04d7bdb722cd0d">&#9670;&#160;</a></span>IsInfinity() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.EquipmentFXUtils.IsInfinity </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>difficulty</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9154268fc7d66da46a40e08d4af8d94" name="ae9154268fc7d66da46a40e08d4af8d94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9154268fc7d66da46a40e08d4af8d94">&#9670;&#160;</a></span>ResetGradientColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.EquipmentFXUtils.ResetGradientColor </td>
+          <td>(</td>
+          <td class="paramtype">Material</td>          <td class="paramname"><span class="paramname"><em>material</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">Property Documentation</h2>
+<a id="a89e42d14b38fb833508235c423d9d599" name="a89e42d14b38fb833508235c423d9d599"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89e42d14b38fb833508235c423d9d599">&#9670;&#160;</a></span>NEGATIVE_COLOR</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color RogueGenesia.EquipmentFXUtils.NEGATIVE_COLOR</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d1126632caf4487022e278e988d4676" name="a5d1126632caf4487022e278e988d4676"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d1126632caf4487022e278e988d4676">&#9670;&#160;</a></span>POSITIVE_COLOR</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color RogueGenesia.EquipmentFXUtils.POSITIVE_COLOR</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/IdleWave/Rogue_Genesia_GameProject/RogueGenesia/Assets/Scripts/RogueGenesia/Utils/<a class="el" href="_equipment_f_x_utils_8cs.html">EquipmentFXUtils.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a href="class_rogue_genesia_1_1_equipment_f_x_utils.html">EquipmentFXUtils</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

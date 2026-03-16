@@ -27,6 +27,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_game_play_manager =
     [ "player", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a7aaa7119f561746763242f57523d2bb1", null ],
     [ "PlayerInfoGlow", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a4e587a26e63b434a24489a41c3f7cd2d", null ],
     [ "PlayerInfoUI", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a54dee456a2f8c559388e2f3f004ed14a", null ],
+    [ "RainFX", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a54fdd0027f01f1910abf94e9c62572ec", null ],
     [ "shopKeeperUI", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a291e854ef0610175eb5191a7f122bda5", null ],
     [ "SmallIndicatorBar", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#af20aed2d425fd1216869a12e98d8cf65", null ],
     [ "SmallIndicatorPrefab", "class_rogue_genesia_1_1_game_manager_1_1_game_play_manager.html#a578d2def7b4e23642d009dffee1948d9", null ],

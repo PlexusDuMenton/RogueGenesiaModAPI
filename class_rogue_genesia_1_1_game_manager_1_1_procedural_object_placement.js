@@ -2,6 +2,7 @@ var class_rogue_genesia_1_1_game_manager_1_1_procedural_object_placement =
 [
     [ "ForbidenProceduralCircle", "struct_rogue_genesia_1_1_game_manager_1_1_procedural_object_placement_1_1_forbiden_procedural_circle.html", "struct_rogue_genesia_1_1_game_manager_1_1_procedural_object_placement_1_1_forbiden_procedural_circle" ],
     [ "ForbidenProceduralRectangle", "struct_rogue_genesia_1_1_game_manager_1_1_procedural_object_placement_1_1_forbiden_procedural_rectangle.html", "struct_rogue_genesia_1_1_game_manager_1_1_procedural_object_placement_1_1_forbiden_procedural_rectangle" ],
+    [ "Awake", "class_rogue_genesia_1_1_game_manager_1_1_procedural_object_placement.html#af2cbd4f98dc66dcf95666cfc65a01622", null ],
     [ "ClearProceduralObjectInCircle", "class_rogue_genesia_1_1_game_manager_1_1_procedural_object_placement.html#af9c1462d77843f4e61c0dd0c580b97f5", null ],
     [ "ClearProceduralObjectInRectangle", "class_rogue_genesia_1_1_game_manager_1_1_procedural_object_placement.html#a00b8f1eee48a81b1f891afbce1e71878", null ],
     [ "UpdateWeight", "class_rogue_genesia_1_1_game_manager_1_1_procedural_object_placement.html#a8def586c71a9b23cc597157f2626e809", null ],

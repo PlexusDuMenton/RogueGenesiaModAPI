@@ -6,5 +6,6 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_da
     [ "OnChannelling", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_dash_worm_ability.html#aa88beacfdd934205f0727a243730800d", null ],
     [ "OnEnd", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_dash_worm_ability.html#ad03206900b82a9ea47f660507e5375dc", null ],
     [ "OnStartCast", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_dash_worm_ability.html#afcbb8a78c7802c0432ea5dbdecd87f7c", null ],
-    [ "OnStartChannelling", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_dash_worm_ability.html#aa328f40460fb122fdee0fe1eb03130d3", null ]
+    [ "OnStartChannelling", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_dash_worm_ability.html#aa328f40460fb122fdee0fe1eb03130d3", null ],
+    [ "_telegraphFX", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_boss_ability_1_1_worm_1_1_dash_worm_ability.html#a1e314cb3c480c2283cc17eddd4ce8c83", null ]
 ];

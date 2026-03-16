@@ -1,6 +1,9 @@
 var class_rogue_genesia_1_1_u_i_1_1_profile_button =
 [
+    [ "DisplayAchievementBackUpTT", "class_rogue_genesia_1_1_u_i_1_1_profile_button.html#a3546d2eb720a17380c9a1501fcab826b", null ],
+    [ "DisplayBackUpTT", "class_rogue_genesia_1_1_u_i_1_1_profile_button.html#aaf4e8db3aaac1e5e564b7f6aec0c8a27", null ],
     [ "HideSCIcon", "class_rogue_genesia_1_1_u_i_1_1_profile_button.html#a2f2514d20c191f7c928ece2fba3b39d2", null ],
+    [ "HideTT", "class_rogue_genesia_1_1_u_i_1_1_profile_button.html#abc2ed7cb9b0269bfd8112c87f7d10adc", null ],
     [ "LoadAchievementBackUp", "class_rogue_genesia_1_1_u_i_1_1_profile_button.html#a138ccb44c0629e667f7d343ecaa0753b", null ],
     [ "LoadBackUp", "class_rogue_genesia_1_1_u_i_1_1_profile_button.html#a4bcc540179af59cc3675d99f01245f83", null ],
     [ "OnClick", "class_rogue_genesia_1_1_u_i_1_1_profile_button.html#aaad5753358e41d6d5e13a28bbd4190f8", null ],

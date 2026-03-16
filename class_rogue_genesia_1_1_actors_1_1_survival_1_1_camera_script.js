@@ -12,10 +12,15 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script =
     [ "Followed", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script.html#a8d686a634f8c7b34fcce41438645623f", null ],
     [ "GameplayBlurVolumeProfile", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script.html#a790522cb5288a920ed76942f5c2786e9", null ],
     [ "instance", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script.html#a5bfb59f3a10d1ed331b231100613eaa0", null ],
+    [ "LevelUpFX", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script.html#a5a7b19534b2d3c70ddbfbee050a2628f", null ],
     [ "MaxBonusHeight", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script.html#a8709cd8c3c384174e3342b607a8c1e71", null ],
+    [ "OverrideAlt", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script.html#aa9c1f7ebb391398683a70142ae368c97", null ],
     [ "PermanentCameraShake", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script.html#a14323dabfb9c697c13103f7ccf813238", null ],
     [ "PositionOffset", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script.html#a227f845eaab9c06276d997a7af9fde11", null ],
+    [ "RainFX", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script.html#ab3a486d41f0bb5d297619ebf5e3832e2", null ],
     [ "Speed", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script.html#a86165a91cc059c97aac208b76d90566e", null ],
     [ "ZSpeed", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script.html#abe8af54c6ca560d638b1616cc311b0f6", null ],
-    [ "GetActualZoomLevel", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script.html#ab5ab9e42c7c27186bd567f37cf51a34a", null ]
+    [ "AltCamera", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script.html#a9b695d76faf80899e1d5fec4e17f6bf8", null ],
+    [ "GetActualZoomLevel", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script.html#ab5ab9e42c7c27186bd567f37cf51a34a", null ],
+    [ "GetPositionOffset", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_camera_script.html#a14e9a6af32dd53794f40162df30a2213", null ]
 ];

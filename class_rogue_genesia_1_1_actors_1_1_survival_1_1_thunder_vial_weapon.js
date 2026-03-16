@@ -6,6 +6,6 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_thunder_vial_weapon =
     [ "LevelUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_thunder_vial_weapon.html#a4d930c7f8f472307ee144be784e011ea", null ],
     [ "OnAttack", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_thunder_vial_weapon.html#a22306e659fcbff6d0bf70de142949d37", null ],
     [ "OnDie", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_thunder_vial_weapon.html#ad6fbf8d6ad135a7ba65a4c3147e4a779", null ],
-    [ "OnFlatStatUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_thunder_vial_weapon.html#ae7bb78973e09f05098b051bd1d54783c", null ],
-    [ "OnMultiplierStatUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_thunder_vial_weapon.html#a56eb1ebcd84961cb8bc7baa1c30b238c", null ]
+    [ "OnFlatStatUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_thunder_vial_weapon.html#a8c01b08051d17c90fd291973c18a18dc", null ],
+    [ "OnMultiplierStatUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_thunder_vial_weapon.html#aae022da44ee8db0c51bcc93917644185", null ]
 ];

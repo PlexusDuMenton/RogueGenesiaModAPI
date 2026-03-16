@@ -1,5 +1,6 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_telegraphed_effect =
 [
+    [ "Destroy", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_telegraphed_effect.html#a42280cdc00f08b1f722f71ae5894d68c", null ],
     [ "InflictEffect", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_telegraphed_effect.html#a76cb0918fe11bf82720742edafdc530d", null ],
     [ "OnCreated", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_telegraphed_effect.html#accaa2d22d96bbb2594b105d465195598", null ],
     [ "OnEffectFinished", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_telegraphed_effect.html#a49450cc1f374943538573a1f89fd42a9", null ],
@@ -24,9 +25,10 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_telegraphed_effect =
     [ "AffectEnemy", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_telegraphed_effect.html#a9572986c13ff31ce9f66f18241d1b64a", null ],
     [ "AffectPlayer", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_telegraphed_effect.html#aedd111590a854828f4f5b25b4e4affce", null ],
     [ "AttackOwner", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_telegraphed_effect.html#a9925e678f7a5c94223ebaaa0d0adbfde", null ],
-    [ "Damage", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_telegraphed_effect.html#ada460c71ad19849386504de31658973c", null ],
-    [ "DefencePiercing", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_telegraphed_effect.html#afda7473189c5f0d228b2604783904645", null ],
-    [ "DefenceShredding", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_telegraphed_effect.html#a82b7ef69b1d0fc129d57587717977d78", null ],
+    [ "BeenDestroy", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_telegraphed_effect.html#a89e9d9600565bf64a9d242f90bb254c8", null ],
+    [ "Damage", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_telegraphed_effect.html#a8fef54214aabf91552b4f26adcebd1aa", null ],
+    [ "DefencePiercing", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_telegraphed_effect.html#ac345b35ff85d235490080820cf2f7726", null ],
+    [ "DefenceShredding", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_telegraphed_effect.html#ac9eec9726c307a06cea468b66c1746b4", null ],
     [ "EffectCoolDown", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_telegraphed_effect.html#ac4e947337d3b60d75016f9e5b0d51ede", null ],
     [ "EffectDuration", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_telegraphed_effect.html#acf9bbe930d175eac55f388168b0d91f5", null ],
     [ "EffectWindUpDuration", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_telegraphed_effect.html#af17533f36d513425cb8a299abce869a5", null ],

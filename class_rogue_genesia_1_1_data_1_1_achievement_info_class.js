@@ -4,8 +4,11 @@ var class_rogue_genesia_1_1_data_1_1_achievement_info_class =
     [ "CheckUnlock", "class_rogue_genesia_1_1_data_1_1_achievement_info_class.html#adc354d1d3cb987d78b7617c50e46940c", null ],
     [ "GetDescription", "class_rogue_genesia_1_1_data_1_1_achievement_info_class.html#a44d5889d86c4cd189686e1314a9d2115", null ],
     [ "GetDescriptionRequirement", "class_rogue_genesia_1_1_data_1_1_achievement_info_class.html#ae6d9bc4c6beb4dbb974324c8933024ac", null ],
+    [ "GetTrackerDescription", "class_rogue_genesia_1_1_data_1_1_achievement_info_class.html#a53b2a04e35cccb48ef4bf300efbcfb63", null ],
     [ "GetUnlockDescription", "class_rogue_genesia_1_1_data_1_1_achievement_info_class.html#a83fafaf0187c424a130e9bc0282768b8", null ],
     [ "OnInit", "class_rogue_genesia_1_1_data_1_1_achievement_info_class.html#af66a001ea1ed6ca9cb5085d6a588e101", null ],
+    [ "RateDisplayPriority", "class_rogue_genesia_1_1_data_1_1_achievement_info_class.html#a8a127b701e1e13e257cc56965a96bc59", null ],
     [ "Unlock", "class_rogue_genesia_1_1_data_1_1_achievement_info_class.html#ad946cdc8ee7c606bbf1c54ebeccb21c1", null ],
+    [ "UpdateCompletionRate", "class_rogue_genesia_1_1_data_1_1_achievement_info_class.html#afad40af9cd4316c399929ce0dd5d0cd1", null ],
     [ "LinkedScriptableObject", "class_rogue_genesia_1_1_data_1_1_achievement_info_class.html#ac1b8ecd68124dd32a0d323e22adeb820", null ]
 ];

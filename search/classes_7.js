@@ -1,10 +1,26 @@
 var searchData=
 [
-  ['scsorequirementjsonreader_0',['SCSORequirementJsonReader',['../struct_mod_genesia_1_1_s_c_s_o_requirement_json_reader.html',1,'ModGenesia']]],
-  ['soulcardcreationdata_1',['SoulCardCreationData',['../class_mod_genesia_1_1_soul_card_creation_data.html',1,'ModGenesia']]],
-  ['soulcardjsonreader_2',['SoulCardJsonReader',['../struct_mod_genesia_1_1_soul_card_json_reader.html',1,'ModGenesia']]],
-  ['stageapi_3',['StageAPI',['../class_mod_genesia_1_1_stage_a_p_i.html',1,'ModGenesia']]],
-  ['stagecreationinfo_4',['StageCreationInfo',['../class_mod_genesia_1_1_stage_creation_info.html',1,'ModGenesia']]],
-  ['statsmodifierjsonreaser_5',['StatsModifierJSonReaser',['../struct_mod_genesia_1_1_stats_modifier_j_son_reaser.html',1,'ModGenesia']]],
-  ['steamworkshop_6',['SteamWorkShop',['../class_mod_genesia_1_1_steam_work_shop.html',1,'ModGenesia']]]
+  ['handpetbehaviour_5fidle_0',['HandPetBehaviour_Idle',['../class_rogue_genesia_1_1_data_1_1_hand_pet_behaviour___idle.html',1,'RogueGenesia::Data']]],
+  ['handpetbehaviour_5fmove_1',['HandPetBehaviour_Move',['../class_rogue_genesia_1_1_data_1_1_hand_pet_behaviour___move.html',1,'RogueGenesia::Data']]],
+  ['hastestrikeserumbuff_2',['HastestrikeSerumBuff',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_hastestrike_serum_buff.html',1,'RogueGenesia::Actors::Survival']]],
+  ['hastestrikeserumcollectible_3',['HastestrikeSerumCollectible',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_hastestrike_serum_collectible.html',1,'RogueGenesia::Actors::Survival']]],
+  ['haulergolemsummon_4',['HaulerGolemSummon',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_hauler_golem_summon.html',1,'RogueGenesia::Actors::Survival']]],
+  ['healcollectible_5',['HealCollectible',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_heal_collectible.html',1,'RogueGenesia::Actors::Survival']]],
+  ['healthbarbuffer_6',['HealthBarBuffer',['../struct_rogue_genesia_1_1_game_manager_1_1_health_bar_buffer.html',1,'RogueGenesia::GameManager']]],
+  ['healthtodamagesoulcard_7',['HealthToDamageSoulCard',['../class_rogue_genesia_1_1_data_1_1_health_to_damage_soul_card.html',1,'RogueGenesia::Data']]],
+  ['heavybouldersummon_8',['HeavyBoulderSummon',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_heavy_boulder_summon.html',1,'RogueGenesia::Actors::Survival']]],
+  ['heavyshelterartifact_9',['HeavyShelterArtifact',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_heavy_shelter_artifact.html',1,'RogueGenesia::Actors::Survival']]],
+  ['hemokinesis_10',['Hemokinesis',['../class_rogue_genesia_1_1_data_1_1_hemokinesis.html',1,'RogueGenesia::Data']]],
+  ['hemostasis_11',['Hemostasis',['../class_rogue_genesia_1_1_data_1_1_hemostasis.html',1,'RogueGenesia::Data']]],
+  ['hemostasisbuff_12',['HemostasisBuff',['../class_rogue_genesia_1_1_data_1_1_hemostasis_buff.html',1,'RogueGenesia::Data']]],
+  ['hemotempora_13',['Hemotempora',['../class_rogue_genesia_1_1_data_1_1_hemotempora.html',1,'RogueGenesia::Data']]],
+  ['hermeshoodartifact_14',['HermesHoodArtifact',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_hermes_hood_artifact.html',1,'RogueGenesia::Actors::Survival']]],
+  ['hitfx_15',['HitFX',['../class_rogue_genesia_1_1_u_i_1_1_hit_f_x.html',1,'RogueGenesia::UI']]],
+  ['hoarder_16',['Hoarder',['../class_rogue_genesia_1_1_data_1_1_hoarder.html',1,'RogueGenesia::Data']]],
+  ['holy_5fzonemodifierclass_17',['Holy_ZoneModifierClass',['../class_rogue_genesia_1_1_data_1_1_holy___zone_modifier_class.html',1,'RogueGenesia::Data']]],
+  ['holyconversion_18',['HolyConversion',['../class_rogue_genesia_1_1_data_1_1_holy_conversion.html',1,'RogueGenesia::Data']]],
+  ['holycrossartifact_19',['HolyCrossArtifact',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_holy_cross_artifact.html',1,'RogueGenesia::Actors::Survival']]],
+  ['holyskin_20',['HolySkin',['../class_rogue_genesia_1_1_data_1_1_holy_skin.html',1,'RogueGenesia::Data']]],
+  ['hoversound_21',['HoverSound',['../class_rogue_genesia_1_1_u_i_1_1_hover_sound.html',1,'RogueGenesia::UI']]],
+  ['humility_22',['Humility',['../class_rogue_genesia_1_1_data_1_1_humility.html',1,'RogueGenesia::Data']]]
 ];

@@ -1,7 +1,7 @@
 var class_rogue_genesia_1_1_data_1_1_ribon_stage_info_class =
 [
     [ "BuildObjective", "class_rogue_genesia_1_1_data_1_1_ribon_stage_info_class.html#a1ecfb9e4d1a5e5087d1036c7cf251b91", null ],
-    [ "EquipmentReward", "class_rogue_genesia_1_1_data_1_1_ribon_stage_info_class.html#aca7ba252175dc94bb8d49ddbe05f3578", null ],
+    [ "EquipmentReward", "class_rogue_genesia_1_1_data_1_1_ribon_stage_info_class.html#a1359e82c3dbb5fe7646e583629b6eb55", null ],
     [ "GameDirector", "class_rogue_genesia_1_1_data_1_1_ribon_stage_info_class.html#a3582083664cb03c6d86bc3232899d064", null ],
     [ "GetLevelToLoad", "class_rogue_genesia_1_1_data_1_1_ribon_stage_info_class.html#adfea7990303da33c716f607980c22e19", null ],
     [ "GetLevelVisualToLoad", "class_rogue_genesia_1_1_data_1_1_ribon_stage_info_class.html#a19390bbb84c259372a7875c78785a23b", null ],

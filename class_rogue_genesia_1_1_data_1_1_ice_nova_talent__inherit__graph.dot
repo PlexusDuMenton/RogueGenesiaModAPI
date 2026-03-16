@@ -4,11 +4,11 @@ digraph "RogueGenesia.Data.IceNovaTalent"
   bgcolor="transparent";
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
-  Node1 [label="RogueGenesia.Data.IceNova\lTalent",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
-  Node2 -> Node1 [dir="back",color="steelblue1",style="solid"];
-  Node2 [label="ActiveTalent",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_active_talent.html",tooltip=" "];
-  Node3 -> Node2 [dir="back",color="steelblue1",style="solid"];
-  Node3 [label="Talent",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_talent.html",tooltip=" "];
-  Node4 -> Node3 [dir="back",color="steelblue1",style="solid"];
-  Node4 [label="IStatEffector",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html",tooltip=" "];
+  Node1 [id="Node000001",label="RogueGenesia.Data.IceNova\lTalent",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="RogueGenesia.Data.Active\lTalent",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_active_talent.html",tooltip=" "];
+  Node3 -> Node2 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="RogueGenesia.Data.Talent",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_talent.html",tooltip=" "];
+  Node4 -> Node3 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="RogueGenesia.Data.IStatEffector",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$interface_rogue_genesia_1_1_data_1_1_i_stat_effector.html",tooltip=" "];
 }

@@ -1,5 +1,6 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_explosion_fx_projectile_a_i =
 [
+    [ "GetProjectileOpacity", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_explosion_fx_projectile_a_i.html#a2349c10e3bb5c8b48fadd3869cfc69a7", null ],
     [ "OnEnable", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_explosion_fx_projectile_a_i.html#ab58cc83d98d1520ab63d9e10e2ba8e59", null ],
     [ "OnTouchedEnemy", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_explosion_fx_projectile_a_i.html#aeef63b48ea4eb9bde415d2e6eb98e52c", null ],
     [ "SplitProjectile", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_explosion_fx_projectile_a_i.html#aee248f5dcacb01bb269564eb1615dda9", null ],

@@ -1,5 +1,6 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_fire_katana_a_o_e =
 [
+    [ "GetProjectileOpacity", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_fire_katana_a_o_e.html#aea313a99c0b1f27adeb7924b05197540", null ],
     [ "OnEnable", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_fire_katana_a_o_e.html#af2b4e4815093992028b61bede6749c74", null ],
     [ "OnTouchedEnemy", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_fire_katana_a_o_e.html#a68eabb4d6b4fc0a16bc476de0e6abfc6", null ],
     [ "SplitProjectile", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_fire_katana_a_o_e.html#a61dce29453e59ef302314898a4e232a6", null ],

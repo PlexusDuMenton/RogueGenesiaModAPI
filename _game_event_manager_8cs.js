@@ -6,6 +6,10 @@ var _game_event_manager_8cs =
     [ "RogueGenesia.GameManager.FloatValue", "class_rogue_genesia_1_1_game_manager_1_1_float_value.html", "class_rogue_genesia_1_1_game_manager_1_1_float_value" ],
     [ "RogueGenesia.GameManager.IntValue", "class_rogue_genesia_1_1_game_manager_1_1_int_value.html", "class_rogue_genesia_1_1_game_manager_1_1_int_value" ],
     [ "RogueGenesia.GameManager.StringValue", "class_rogue_genesia_1_1_game_manager_1_1_string_value.html", "class_rogue_genesia_1_1_game_manager_1_1_string_value" ],
-    [ "RogueGenesia.GameManager.OrderedEvent< T0 >", "class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html", "class_rogue_genesia_1_1_game_manager_1_1_ordered_event" ],
+    [ "RogueGenesia.GameManager.OrderedEvent&lt; T0, T1, T2, T3 &gt;", "class_rogue_genesia_1_1_game_manager_1_1_ordered_event-4-g.html", "class_rogue_genesia_1_1_game_manager_1_1_ordered_event-4-g" ],
+    [ "RogueGenesia.GameManager.OrderedEvent&lt; T0, T1, T2 &gt;", "class_rogue_genesia_1_1_game_manager_1_1_ordered_event-3-g.html", "class_rogue_genesia_1_1_game_manager_1_1_ordered_event-3-g" ],
+    [ "RogueGenesia.GameManager.OrderedEvent&lt; T0, T1 &gt;", "class_rogue_genesia_1_1_game_manager_1_1_ordered_event-2-g.html", "class_rogue_genesia_1_1_game_manager_1_1_ordered_event-2-g" ],
+    [ "RogueGenesia.GameManager.OrderedEvent&lt; T0 &gt;", "class_rogue_genesia_1_1_game_manager_1_1_ordered_event-1-g.html", "class_rogue_genesia_1_1_game_manager_1_1_ordered_event-1-g" ],
+    [ "RogueGenesia.GameManager.OrderedEvent", "class_rogue_genesia_1_1_game_manager_1_1_ordered_event.html", "class_rogue_genesia_1_1_game_manager_1_1_ordered_event" ],
     [ "RogueGenesia.GameManager.GameEventManager", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager.html", "class_rogue_genesia_1_1_game_manager_1_1_game_event_manager" ]
 ];

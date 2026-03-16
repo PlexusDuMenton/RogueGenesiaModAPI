@@ -7,7 +7,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity =
     [ "OnCollisionEnter2D", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#a5ada3a8ae0d111b30b43168cbd00156a", null ],
     [ "OnDestroy", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#a8ba8e6fd176274142aee20e6cf659b6b", null ],
     [ "OnPlayerTouchEntity", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#a69d4959365ef9fb4a4ecc5b34de6f295", null ],
-    [ "Refill", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#acc2e5c2faf6f44f975cab49feafa134c", null ],
+    [ "Refill", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#a0c67289e2662a5c2f84dd8e3a9c184db", null ],
     [ "Update", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#a56ed0c79c3e291cccf64a77b51b0b859", null ],
     [ "UpdateProxy", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#a32cf8b65fb9d93411d32fe9bdddb9957", null ],
     [ "UpdateRididBodyPosition", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_activable_entity.html#ae5c90b13701807016b1ce1358fe1ce8b", null ],

@@ -1,11 +1,11 @@
 var interface_rogue_genesia_1_1_data_1_1_i_combat_event =
 [
-    [ "BuildObjective", "interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a062fe1cfe0a59d843710c3f4ef5373c2", null ],
-    [ "GetArtifactCount", "interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a72e71caa16a52987b90e279260ba8a37", null ],
-    [ "GetCardCount", "interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a16efc4a913b0fbcfd3e95f97773bfc9a", null ],
-    [ "GetExpReward", "interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a0f2e3062a14f845116c2e7ac271098b0", null ],
-    [ "GetGoldReward", "interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a16fbbed9ef4eb25fe18612de0552b433", null ],
-    [ "GetMaxEliteAtOnce", "interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a4b91daafd367f12d1d79d817a68802c4", null ],
-    [ "GetSpecificArtifact", "interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a23da05ceffc0b67976d5239014875ab9", null ],
-    [ "GetSpecificCard", "interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a0874c996a1b0440ef37b5a088f6e3320", null ]
+    [ "BuildObjective", "interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a7fa3e4ecd0ed0ced47aef2d99d6c8564", null ],
+    [ "GetArtifactCount", "interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#af414c5b92d6fb78401ebecb3cd9e4036", null ],
+    [ "GetCardCount", "interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a56b65d400b8b2276237041675c7ef3b6", null ],
+    [ "GetExpReward", "interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a4ca2f6774cd82837a2aa97072994d8a1", null ],
+    [ "GetGoldReward", "interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a25d5675d5add6bbc2c7773fdc5aaf635", null ],
+    [ "GetMaxEliteAtOnce", "interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#ac347a4d2eed9f77ea45f98dc93790999", null ],
+    [ "GetSpecificArtifact", "interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#ac6fef8c92b53996f077676e6e199b699", null ],
+    [ "GetSpecificCard", "interface_rogue_genesia_1_1_data_1_1_i_combat_event.html#a02e0cb89537fd1324f730cfdda3f5aac", null ]
 ];

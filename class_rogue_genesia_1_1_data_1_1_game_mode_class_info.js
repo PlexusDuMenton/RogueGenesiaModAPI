@@ -1,12 +1,13 @@
 var class_rogue_genesia_1_1_data_1_1_game_mode_class_info =
 [
-    [ "CalculateMasteryGain", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#a0b79e2f24e0b817ba2da14f6cb497310", null ],
-    [ "CalculateSoulCoinGain", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#a709619dd55498db01c78031c793782be", null ],
+    [ "CalculateMasteryGain", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#ad9f6d3c0dd45af7ff30dcfeb97cccc4a", null ],
+    [ "CalculateSoulCoinGain", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#abc53667077daeafe28e685aab57d3c1d", null ],
     [ "ClearSave", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#af5ebd1f41369b631640a11567570fa11", null ],
     [ "GetCorruptionPerStage", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#a8f3bf26bf746b62f42ad9cf4809dd81e", null ],
     [ "GetCorruptionPerZone", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#a5040d3a41a8b378372ffc8bc792a0c8d", null ],
     [ "GetDefaultMap", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#a72812ed185b6cf4ff4a73ca5b4a6545b", null ],
     [ "GetDefaultVisualMap", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#af09052f1ac9966d801614ccc27ebbba0", null ],
+    [ "GetDynamicDifficultyManager", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#aaf3f02960e8113130277b236044fc39c", null ],
     [ "GetEnemyList", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#a37baf0fb103f8b82799274d2813699a2", null ],
     [ "GetEnemyPatternList", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#ac2eec9758bbc397aee5c3f5554d6d964", null ],
     [ "GetEnvironementName", "class_rogue_genesia_1_1_data_1_1_game_mode_class_info.html#ac372e4598b548758304e25f7340b81ae", null ],

@@ -1,5 +1,6 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_vicious_mimic_monster =
 [
+    [ "SetAnimation", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_vicious_mimic_monster.html#ac49cad0d796be32c26faf42ad48c823e", null ],
     [ "TakeDamage", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_vicious_mimic_monster.html#a91bce9cf60747940d0081744047e1754", null ],
     [ "TakeDamageImmediate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_vicious_mimic_monster.html#a03e7f5ff62c756db518d190e98fcfafb", null ],
     [ "Update", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_vicious_mimic_monster.html#ae4f9a5c172564a44ece94ddb8b5a92d4", null ],

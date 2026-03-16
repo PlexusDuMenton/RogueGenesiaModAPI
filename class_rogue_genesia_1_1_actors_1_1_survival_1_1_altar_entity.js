@@ -14,5 +14,6 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_altar_entity =
     [ "IdleColor", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_altar_entity.html#a1c046ff2936e5a76ab0e375641520c9b", null ],
     [ "MaxChargeDistance", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_altar_entity.html#ab06a92fc183b35ed33d24acb7fa31beb", null ],
     [ "QuestObjective", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_altar_entity.html#a0e5796081dd2700b24756571b628562f", null ],
+    [ "AltarAlreadyActive", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_altar_entity.html#ace16e2d4965aeb99176a40134e7c2e91", null ],
     [ "ChargeActivated", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_altar_entity.html#ab6f564cbf2d67076b6893851424e84fb", null ]
 ];

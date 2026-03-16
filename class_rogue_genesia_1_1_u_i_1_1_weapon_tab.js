@@ -16,6 +16,7 @@ var class_rogue_genesia_1_1_u_i_1_1_weapon_tab =
     [ "OnStartDrag", "class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#ac4960b554faa006b4bce68eb6b0911a0", null ],
     [ "OnStopDragging", "class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a1f44ee77b42cc6c321cff5a0ee21f417", null ],
     [ "OnUnhoverWeapon", "class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a5bd9701f9d1d26f9546513742df235b5", null ],
+    [ "OptimiseWeapnModifier", "class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a9894fa1102d6742fa89c8348ff272c56", null ],
     [ "RebuildNavigation", "class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#af96081485c3b5246a5a5ae71f5f61ef4", null ],
     [ "SelectModifier", "class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#aa1e90802e8e4ebd6b7133b9ef7ce147d", null ],
     [ "SelectWeapon", "class_rogue_genesia_1_1_u_i_1_1_weapon_tab.html#a3ac3a0c21b604d72af93bbf71f28ebc3", null ],

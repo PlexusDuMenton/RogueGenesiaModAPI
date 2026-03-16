@@ -2,6 +2,7 @@ var class_option_data =
 [
     [ "OptionData", "class_option_data.html#a6f66fcdd57ddb6cfc37bf2ed5eb94678", null ],
     [ "DisableParticles", "class_option_data.html#a66d9669744ac2fb80135ff61e80542c2", null ],
+    [ "GetOptionList", "class_option_data.html#aeeb9bd8156d18a1fc147b04b76c83df3", null ],
     [ "GetStringValue", "class_option_data.html#aa602e6d79439ce19321f4bb8dbafeec3", null ],
     [ "GetValue", "class_option_data.html#af589da87a267220b03415b16beea3df3", null ],
     [ "GetValueFLoat", "class_option_data.html#a5788e091e402e163a06d7c0d46547230", null ],
@@ -44,7 +45,10 @@ var class_option_data =
     [ "DamageNumber", "class_option_data.html#ae27649970ff7efa1d8dff5b01cd2d111", null ],
     [ "DisableBackGroundSound", "class_option_data.html#a143dc2312f2d3031c451df743db8cc54", null ],
     [ "EnemyFlashing", "class_option_data.html#a7a430468b1fa7f548bae3a0976c09c0b", null ],
+    [ "ExplosionOpacity", "class_option_data.html#aba1128a11bf16ede03b30dacecc3734a", null ],
     [ "Fog", "class_option_data.html#abea2fa4b25803bd98cb0da128d8078a0", null ],
+    [ "FSREnabled", "class_option_data.html#a1cce1a8ea85ec06eeabf313261accc89", null ],
+    [ "FSRQuality", "class_option_data.html#af95b2a555d48743027d80e4d3652ffc0", null ],
     [ "FullScreen", "class_option_data.html#a67f9634e38c8ccfc3fb6fbfb238f55d5", null ],
     [ "GI", "class_option_data.html#aee964d3713fc695dd55a0c4beddceb76", null ],
     [ "LanguageSetting", "class_option_data.html#ae685810b0d815bad061cae0852796ca2", null ],

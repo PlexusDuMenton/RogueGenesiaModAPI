@@ -2,6 +2,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_sword_slash =
 [
     [ "Update", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_sword_slash.html#ab662ebcaebf55668e2ca84efd41489b4", null ],
     [ "Angle", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_sword_slash.html#a5470779a7d11d59157ea1dcc483b3386", null ],
+    [ "DamageMultiplier", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_sword_slash.html#a52cd98528956469159602d3f19056b50", null ],
     [ "Inverted", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_sword_slash.html#a4b67e2042d179fc2f568063931aa4137", null ],
     [ "LifeTime", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_sword_slash.html#a5ddae70406f5387f326a9688381d3df4", null ],
     [ "LookDirection", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_sword_slash.html#ade09e2e355e050b59efabbd7069e6185", null ],

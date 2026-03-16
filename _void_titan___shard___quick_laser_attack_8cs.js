@@ -1,0 +1,4 @@
+var _void_titan___shard___quick_laser_attack_8cs =
+[
+    [ "RogueGenesia.Actors.Survival.VoidTitan_Shard_QuickLaserAttack", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan___shard___quick_laser_attack.html", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_void_titan___shard___quick_laser_attack" ]
+];

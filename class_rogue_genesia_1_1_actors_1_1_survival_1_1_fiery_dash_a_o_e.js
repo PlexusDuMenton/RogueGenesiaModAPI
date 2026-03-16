@@ -1,5 +1,6 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_fiery_dash_a_o_e =
 [
+    [ "GetProjectileOpacity", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_fiery_dash_a_o_e.html#a0bbdf675e59e70a37e48b99596009e7c", null ],
     [ "OnEnable", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_fiery_dash_a_o_e.html#ab2b5cad1983de63c9f48faa073a1dd2d", null ],
     [ "OnTouchedEnemy", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_fiery_dash_a_o_e.html#a36505e8fd4bbb81cb73b5fb72b695fbf", null ],
     [ "SplitProjectile", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_fiery_dash_a_o_e.html#a4684df81e71f32af46d9f7f049569ff0", null ],

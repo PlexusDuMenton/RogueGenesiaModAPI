@@ -17,6 +17,7 @@ var class_rogue_genesia_1_1_data_1_1_game_random =
     [ "MapGenerationRange", "class_rogue_genesia_1_1_data_1_1_game_random.html#a34e7c3fc27f64bbd1aef3bf60effc66a", null ],
     [ "MapGenerationRange", "class_rogue_genesia_1_1_data_1_1_game_random.html#ad88035bdf04146c77ff61ca52379ab3e", null ],
     [ "PseudoRandomCheck", "class_rogue_genesia_1_1_data_1_1_game_random.html#a4361fbc5bc7f95fbac25cdd1868781fe", null ],
+    [ "RandomFloatToInt", "class_rogue_genesia_1_1_data_1_1_game_random.html#a0be2df74e8892cbc28c37bdd363793d4", null ],
     [ "RandomFloatToInt", "class_rogue_genesia_1_1_data_1_1_game_random.html#a6595706ee5b7c88c1096bc1b89e5c6b5", null ],
     [ "RandomRoll", "class_rogue_genesia_1_1_data_1_1_game_random.html#af62bd65475156f93b9716340f31ccb54", null ],
     [ "RandomRoll", "class_rogue_genesia_1_1_data_1_1_game_random.html#aed4e4f24009a34da875a9e57d0e009f2", null ],

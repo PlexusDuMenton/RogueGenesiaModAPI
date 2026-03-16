@@ -1,6 +1,7 @@
 var class_rogue_genesia_1_1_game_manager_1_1_survival_module_time =
 [
     [ "CanBeUsed", "class_rogue_genesia_1_1_game_manager_1_1_survival_module_time.html#a3697fe8249e4848678e0de96e83cfc52", null ],
+    [ "GetAnElite", "class_rogue_genesia_1_1_game_manager_1_1_survival_module_time.html#abb3be77a1b26d0f446dcae93484761a4", null ],
     [ "GetAnEnemy", "class_rogue_genesia_1_1_game_manager_1_1_survival_module_time.html#a6264df9f7780d71b5fc05028b99f0af9", null ],
     [ "GetAnPattern", "class_rogue_genesia_1_1_game_manager_1_1_survival_module_time.html#a6833016fcc4acaec38a248b1dd7682d3", null ],
     [ "GetBudget", "class_rogue_genesia_1_1_game_manager_1_1_survival_module_time.html#a0fbee88cdb0b04fab49287a14ff944e1", null ],

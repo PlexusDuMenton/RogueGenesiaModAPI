@@ -1,6 +1,7 @@
 var class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object =
 [
     [ "EArtifactDropPool", "class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893d", [
+      [ "None", "class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893da6adf97f83acf6453d4a6a4b1070f3754", null ],
       [ "Boss", "class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893da5859831e2b3db23528c710b1451e13fc", null ],
       [ "Chest", "class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893da080a546abcbea74459f27ba33313993d", null ],
       [ "Stage", "class_rogue_genesia_1_1_data_1_1_artifact_scriptable_object.html#a166e60f2e234516bc24d478ba8c4893da64c6da2436465d11573858d46056b95d", null ],

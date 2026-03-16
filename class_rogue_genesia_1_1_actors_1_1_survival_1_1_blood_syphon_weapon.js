@@ -2,8 +2,10 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_blood_syphon_weapon =
 [
     [ "BloodSyphonWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_blood_syphon_weapon.html#a97a17022d5804f4321f116853d52de50", null ],
     [ "BuildWeaponStatsForLocalization", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_blood_syphon_weapon.html#a85ded09bbcb77dc3546ead0d851e597f", null ],
-    [ "getAttackDelay", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_blood_syphon_weapon.html#af222ee7e9a7a81d949de618e11b2d93a", null ],
-    [ "getComboDelay", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_blood_syphon_weapon.html#a76215d521e3a83038ccdc49e91bc1e8d", null ],
+    [ "DisableWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_blood_syphon_weapon.html#a5dbabc1ad1ffa3379a18b970cbb3839e", null ],
+    [ "EnableWeapon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_blood_syphon_weapon.html#aadf4fff71e16e6c9723c0aa6090c5211", null ],
+    [ "getAttackDelay", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_blood_syphon_weapon.html#acdd52bf93ed366494f1fc8e408dbaf7c", null ],
+    [ "getComboDelay", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_blood_syphon_weapon.html#ad2a01cab6b26269c8bfb4ded078a5de4", null ],
     [ "LevelUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_blood_syphon_weapon.html#a78f8ac84f884c7ed23244e114247ca88", null ],
     [ "OnAttack", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_blood_syphon_weapon.html#ae01e06f571f154735e880267fcef1f56", null ],
     [ "OnRemove", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_blood_syphon_weapon.html#a7a0bcc376fb120267415f7b4f7f95aaf", null ],

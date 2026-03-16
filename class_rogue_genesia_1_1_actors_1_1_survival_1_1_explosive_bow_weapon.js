@@ -5,7 +5,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_explosive_bow_weapon =
     [ "getPiercing", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_explosive_bow_weapon.html#a3f8288be675594f739412bc0d0784e9d", null ],
     [ "LevelUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_explosive_bow_weapon.html#ac1295d3a7712b532bc4dde3576361ddb", null ],
     [ "OnAttack", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_explosive_bow_weapon.html#a86dcc9297111b3a006855a85f75a5797", null ],
-    [ "OnFlatStatUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_explosive_bow_weapon.html#a44ac84668193dc0c27e3957741bbc123", null ],
+    [ "OnFlatStatUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_explosive_bow_weapon.html#a7d5d90d2f2183560127eb6e4fb9a21ac", null ],
     [ "OnHitEnemy", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_explosive_bow_weapon.html#a2e9054ff5e61b8cf506951607b5186f4", null ],
-    [ "OnMultiplierStatUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_explosive_bow_weapon.html#a233a9db7f13d634ca7a718d819a30830", null ]
+    [ "OnMultiplierStatUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_explosive_bow_weapon.html#ae1cf137bfa6c7d18737f90de7b77ba05", null ]
 ];

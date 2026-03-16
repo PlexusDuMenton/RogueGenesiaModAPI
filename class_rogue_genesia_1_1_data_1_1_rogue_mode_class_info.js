@@ -1,9 +1,10 @@
 var class_rogue_genesia_1_1_data_1_1_rogue_mode_class_info =
 [
-    [ "CalculateMasteryGain", "class_rogue_genesia_1_1_data_1_1_rogue_mode_class_info.html#a0dd47ade74fab6b7b9119a8a7b4d1772", null ],
-    [ "CalculateSoulCoinGain", "class_rogue_genesia_1_1_data_1_1_rogue_mode_class_info.html#a425c001b27931320561039cadca0f5f2", null ],
+    [ "CalculateMasteryGain", "class_rogue_genesia_1_1_data_1_1_rogue_mode_class_info.html#acf3dda1d679308e9e9f8b30d5152ff28", null ],
+    [ "CalculateSoulCoinGain", "class_rogue_genesia_1_1_data_1_1_rogue_mode_class_info.html#a11d5759e7e0eac67c9c76940d8d74419", null ],
     [ "GetDefaultMap", "class_rogue_genesia_1_1_data_1_1_rogue_mode_class_info.html#af76870835e9fa9002e9b8984c6b00bf7", null ],
     [ "GetDefaultVisualMap", "class_rogue_genesia_1_1_data_1_1_rogue_mode_class_info.html#ad0c9355f54ca17eff096157e7117afa4", null ],
+    [ "GetDynamicDifficultyManager", "class_rogue_genesia_1_1_data_1_1_rogue_mode_class_info.html#a6d1b02afcf4105e6a9c71cadbf85f992", null ],
     [ "GetEnemyList", "class_rogue_genesia_1_1_data_1_1_rogue_mode_class_info.html#a48708f0d47f9e4075507b8999e1d2e04", null ],
     [ "GetEnemyPatternList", "class_rogue_genesia_1_1_data_1_1_rogue_mode_class_info.html#a489b07ee3ef051c526b2f24021b4d0f7", null ],
     [ "GetEnvironementName", "class_rogue_genesia_1_1_data_1_1_rogue_mode_class_info.html#ac1d57adec048787c7a2a648f15a046e5", null ],

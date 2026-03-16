@@ -6,5 +6,5 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_vild_blessing =
     [ "LoadBuffIcon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_vild_blessing.html#a4ee3b02341be518c46fcbe87725503b6", null ],
     [ "OnUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_vild_blessing.html#a11f26b4c773a6bb973276509b26029ba", null ],
     [ "UpdateStats", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_vild_blessing.html#aa9a5e7c91afd28a446bc1d3fd4fe9bee", null ],
-    [ "previousCheckMaxHealth", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_vild_blessing.html#af2cf6b5f6c32419d9fd921b6b7775d4c", null ]
+    [ "previousCheckMaxHealth", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_vild_blessing.html#a764a1a913702efd20e0089593f192615", null ]
 ];

@@ -7,7 +7,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_pike_projectile_ai =
     [ "TouchWall", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_pike_projectile_ai.html#a558783c958664c15dc14eaed2c71de3c", null ],
     [ "Update", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_pike_projectile_ai.html#aa03d0493889ab29681d4bd787d0d82b4", null ],
     [ "UpdateProxy", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_pike_projectile_ai.html#a2ba2bb06f4b1922393b5e7fbb545ba65", null ],
-    [ "CritMultiplier", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_pike_projectile_ai.html#a766ded29dc97d4b0e6dc085c2b9dc086", null ],
+    [ "CritMultiplier", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_pike_projectile_ai.html#a9e5d5200bbed35608b96624cb948bd61", null ],
     [ "entities", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_pike_projectile_ai.html#a56612eeadc5b22131deeb34dc8c1d7cc", null ],
     [ "offsetAngle", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_pike_projectile_ai.html#a9b05439f27767156d3827d8b4318a3f3", null ],
     [ "PikeRange", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_pike_projectile_ai.html#a4ceb9e1f5467a1e231023136fbc29e92", null ],

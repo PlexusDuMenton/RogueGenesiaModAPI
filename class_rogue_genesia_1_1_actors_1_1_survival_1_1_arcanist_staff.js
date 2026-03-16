@@ -5,7 +5,7 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanist_staff =
     [ "getProjectilesfloat", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanist_staff.html#a2fc28774fcf3576a0f3420f172e66f85", null ],
     [ "LevelUp", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanist_staff.html#ad779d5b967c4dc6a6dbb716fafe17d4a", null ],
     [ "OnAttack", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanist_staff.html#aea8b3488f8c60461d2d7ebe06cc9b2ad", null ],
-    [ "OnFlatStatUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanist_staff.html#a2e43725ee1014a5b9abc50e386375039", null ],
-    [ "OnPostStatUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanist_staff.html#a1990b409d7c29e0d57119f3587c263b1", null ],
+    [ "OnFlatStatUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanist_staff.html#a60221f79c94f3a930ac9e69826fec637", null ],
+    [ "OnPostStatUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanist_staff.html#a6ff5351cea08a570173106ec5aeb7bfb", null ],
     [ "OnRemove", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_arcanist_staff.html#af650a29b1e3142c02cc53a3a658aa868", null ]
 ];

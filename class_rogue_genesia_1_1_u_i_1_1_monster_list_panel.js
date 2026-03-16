@@ -24,7 +24,7 @@ var class_rogue_genesia_1_1_u_i_1_1_monster_list_panel =
     [ "EnemyTierSprite", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#a8fc5043762578739fc3a7093cdce6dba", null ],
     [ "ExperienceDrop", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#a1d2163127f1e1f07ca0dfe962d4b1426", null ],
     [ "Health", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#a3a21cf89b495685c6a3723bd52729aa4", null ],
-    [ "KillCount", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#a199fa3b01143852875b932c8c452dbfb", null ],
+    [ "KillCount", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#ad34f596c8e691a280050b89fedbfa0e3", null ],
     [ "Speed", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#aa850390d635a7b846d8516a0f501ded5", null ],
     [ "SpriteAnimation", "class_rogue_genesia_1_1_u_i_1_1_monster_list_panel.html#a9e2927e84ada4513c472bc59552266b7", null ]
 ];

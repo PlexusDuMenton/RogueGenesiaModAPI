@@ -10,7 +10,9 @@ var class_rogue_genesia_1_1_u_i_1_1_tool_tip_over =
     [ "ProcessToolTipStatic", "class_rogue_genesia_1_1_u_i_1_1_tool_tip_over.html#a1cd365f690aa3846959e0c05b7f96fe6", null ],
     [ "ProcessToolTipStatic", "class_rogue_genesia_1_1_u_i_1_1_tool_tip_over.html#a3b2e49e155df5879d5f8cb4e0e66ab60", null ],
     [ "Update", "class_rogue_genesia_1_1_u_i_1_1_tool_tip_over.html#a941acd48baa9289fc58f22d44df64569", null ],
+    [ "EquipmentDictionary", "class_rogue_genesia_1_1_u_i_1_1_tool_tip_over.html#addc73c7aca30c0791f97516fe2f48dfe", null ],
     [ "GetKeyWordEvent", "class_rogue_genesia_1_1_u_i_1_1_tool_tip_over.html#a2cb5707a103db1bafa87721f31ace5aa", null ],
     [ "MARK_REG", "class_rogue_genesia_1_1_u_i_1_1_tool_tip_over.html#a8b8bed1dcf9691c4e6aaf82904c8887a", null ],
-    [ "ParentButton", "class_rogue_genesia_1_1_u_i_1_1_tool_tip_over.html#adfb8856af3369e4905363e888436101c", null ]
+    [ "ParentButton", "class_rogue_genesia_1_1_u_i_1_1_tool_tip_over.html#adfb8856af3369e4905363e888436101c", null ],
+    [ "ParentSelectable", "class_rogue_genesia_1_1_u_i_1_1_tool_tip_over.html#abebb26cb28907c03fd9a9854775e815b", null ]
 ];

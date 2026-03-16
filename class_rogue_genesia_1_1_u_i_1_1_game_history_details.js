@@ -30,6 +30,7 @@ var class_rogue_genesia_1_1_u_i_1_1_game_history_details =
     [ "KillerName", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#abd1b6c860f22f8c11ba524d3817386fa", null ],
     [ "Mastery", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#ad314b6f93b9e9411cc19e443e60d03d8", null ],
     [ "ObjectInstantiated", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#a2b899f7fe9b2ff126347f3091eae60ed", null ],
+    [ "RunDifficulty", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#af9090db5acbd78f3d42f20fb322010b5", null ],
     [ "Seed", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#a4b33c778512621e72bbf6178d433c1f3", null ],
     [ "SoulCards", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#a5f55d249a449bfc82c03d89442c20dda", null ],
     [ "SoulCoin", "class_rogue_genesia_1_1_u_i_1_1_game_history_details.html#a781a87709d4ea860ab5d0a28779d20bb", null ],

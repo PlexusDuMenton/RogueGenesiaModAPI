@@ -1,5 +1,6 @@
 var class_rogue_genesia_1_1_data_1_1_survivors_mode_module_s_o =
 [
+    [ "GetAnElite", "class_rogue_genesia_1_1_data_1_1_survivors_mode_module_s_o.html#ac1d0b8d72aa21d929b1b066d34a53221", null ],
     [ "GetAnEnnemy", "class_rogue_genesia_1_1_data_1_1_survivors_mode_module_s_o.html#ad632371f7a9a4bbff5ad8cf117b2091d", null ],
     [ "GetAnPattern", "class_rogue_genesia_1_1_data_1_1_survivors_mode_module_s_o.html#ade4ac313b098d975250eb82c599c39fd", null ],
     [ "GetBudget", "class_rogue_genesia_1_1_data_1_1_survivors_mode_module_s_o.html#a7dfee4414ff839eba8ae820e9a02818a", null ],

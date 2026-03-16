@@ -1,0 +1,28 @@
+var class_rogue_genesia_1_1_color_set =
+[
+    [ "ColorSet", "class_rogue_genesia_1_1_color_set.html#a4f8b6aace813ca1e7c50a8bfeb6539ec", null ],
+    [ "ColorSet", "class_rogue_genesia_1_1_color_set.html#ae92c7cee21673fa5ca8f05f6cbae7c97", null ],
+    [ "HSLtoRGB", "class_rogue_genesia_1_1_color_set.html#a713844e40adf45e4b9fa17df682d13cf", null ],
+    [ "operator*", "class_rogue_genesia_1_1_color_set.html#a77552c3cd7bab8e267b60f0759611299", null ],
+    [ "operator*", "class_rogue_genesia_1_1_color_set.html#ae8055095f2b1518d30962ab80258016c", null ],
+    [ "operator+", "class_rogue_genesia_1_1_color_set.html#ad42f17a622f656daafe115efc26e4e11", null ],
+    [ "operator+", "class_rogue_genesia_1_1_color_set.html#a313fec03256f821582795615531fe87b", null ],
+    [ "operator-", "class_rogue_genesia_1_1_color_set.html#a9bb0a574b6a94723766e4bee52c1e2bf", null ],
+    [ "operator-", "class_rogue_genesia_1_1_color_set.html#ac974778cdc1320165a369252e33288db", null ],
+    [ "operator/", "class_rogue_genesia_1_1_color_set.html#a6dc4136ed5a84a8d2e0d4718ba044445", null ],
+    [ "operator/", "class_rogue_genesia_1_1_color_set.html#aae495df9258f04ece04244ebd42a4830", null ],
+    [ "RGBToHSL", "class_rogue_genesia_1_1_color_set.html#ab2587de379d32d6b6a835edb90a99f92", null ],
+    [ "ChallengeOnly", "class_rogue_genesia_1_1_color_set.html#a3eec6bc3b2aaa2597100b29c941f22a8", null ],
+    [ "colors", "class_rogue_genesia_1_1_color_set.html#a9c14a6ca549416f1a6d70990244ce755", null ],
+    [ "colorSettings", "class_rogue_genesia_1_1_color_set.html#ab177ba5da55984c52b1f59f18d4aa183", null ],
+    [ "HardModeOnly", "class_rogue_genesia_1_1_color_set.html#ac4f23c528d190095c62f44e1db24ac80", null ],
+    [ "lightingSettings", "class_rogue_genesia_1_1_color_set.html#a6c0dddfcd846ff47884e2d5e77379840", null ],
+    [ "LinkedChallenge", "class_rogue_genesia_1_1_color_set.html#a599f8ff6e8f1c514c0216b1e9a87603b", null ],
+    [ "MaximumDifficultyRequired", "class_rogue_genesia_1_1_color_set.html#af69359c7433ca40942dd9a28a0c804af", null ],
+    [ "MinimumDifficultyRequired", "class_rogue_genesia_1_1_color_set.html#a0ac58b0047a399366058b34aa7f2a0c1", null ],
+    [ "modeName", "class_rogue_genesia_1_1_color_set.html#ade9022cc30b77e652e2d01f61093945f", null ],
+    [ "name", "class_rogue_genesia_1_1_color_set.html#ae1dfece406f65a42aeac9d8a4a218df4", null ],
+    [ "stageSettings", "class_rogue_genesia_1_1_color_set.html#aec3d8841d7b398cb4d6fdff35351ad8a", null ],
+    [ "weight", "class_rogue_genesia_1_1_color_set.html#a74f921ff4008b41f63e35ea01da8c6df", null ],
+    [ "Chance", "class_rogue_genesia_1_1_color_set.html#ab5b6994d65f774cd7b312ee4862b3b91", null ]
+];

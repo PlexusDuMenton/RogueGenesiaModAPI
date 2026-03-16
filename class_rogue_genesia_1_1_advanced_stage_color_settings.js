@@ -1,0 +1,26 @@
+var class_rogue_genesia_1_1_advanced_stage_color_settings =
+[
+    [ "ambientColor", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#a2b77b8c7ce2df94b0554c31b4034e9d6", null ],
+    [ "bloomColor", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#ac6d849809ec60e477eac828838d3a50c", null ],
+    [ "cloudColor", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#a85a7161820fd2e28176653fdadd7cd30", null ],
+    [ "cloudEmissive", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#ab47abdf3d964b6e3e9dda170ec5246d2", null ],
+    [ "cloudSpeedMult", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#a7c2937b2cec995e4699e3a52b121600c", null ],
+    [ "enableRain", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#a75392e72ac630c8f4afc46ee48dbb00e", null ],
+    [ "fogColor", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#adc7fdf724a81af864a5eb0bd95e1f148", null ],
+    [ "groundColor", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#a12a3ed6509b98c59a1a5e2c3afe01a45", null ],
+    [ "groundNormal", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#a5a455227a4856e11a5635d629d5ca610", null ],
+    [ "groundSmoothnessRemapping", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#ab65182dc6447b9cb07107ccf1043eed3", null ],
+    [ "pathColor", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#ac1aef7eb6804787884723b93cc1a8850", null ],
+    [ "pathSmoothnessRemapping", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#af54d7d6dcdb2d382ba9712708225e0c1", null ],
+    [ "rainColor", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#aee0d265ec39a9d2c6de901e7d83914d8", null ],
+    [ "rainDropletCount", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#a46e1d4c117e139bf85be859ae1a87221", null ],
+    [ "rainIsSnow", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#ae3bfcc72e273cd15ef40595f732238a6", null ],
+    [ "rainSplashColor", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#a4bcd4a3b56c2f6736a633525e7a84a21", null ],
+    [ "rainWindDirection", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#a7697b9539d956e1c701c2f1da74a3083", null ],
+    [ "skyColor", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#adf57afb2c09a7b67f60502d1c11090e9", null ],
+    [ "skyEmissive", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#a93408c0904005dcc9da23fa1057f04fe", null ],
+    [ "sunColor", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#aca8debfc036bd5a50a0d20d21fdf95f3", null ],
+    [ "SunCookies", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#a5d4a0a351b776c32279ef8ee331920f0", null ],
+    [ "updateReflection", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#a94223ce104692ed5a8a1be494455ae6e", null ],
+    [ "volumetricFogColor", "class_rogue_genesia_1_1_advanced_stage_color_settings.html#a18ee457abaac4e12ca67b4c63b2b0b75", null ]
+];

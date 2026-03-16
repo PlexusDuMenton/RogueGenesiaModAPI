@@ -9,7 +9,9 @@ var class_rogue_genesia_1_1_r_g_rich_text =
     [ "ItalicBold", "class_rogue_genesia_1_1_r_g_rich_text.html#aca3b0df93dbcada5c4c63317781f4d6c", null ],
     [ "LightDebuffLevel", "class_rogue_genesia_1_1_r_g_rich_text.html#aa9d6cae8f0a9dc5cbbb1e569b9d6e782", null ],
     [ "LightNextLevel", "class_rogue_genesia_1_1_r_g_rich_text.html#a443bdfa23d0790b71465664b8e915c4c", null ],
+    [ "Negative", "class_rogue_genesia_1_1_r_g_rich_text.html#af1c0c83d170d379b97963e8d87e41ce2", null ],
     [ "NextLevel", "class_rogue_genesia_1_1_r_g_rich_text.html#ab05247105368eed8d91e2097277c750c", null ],
     [ "NextLevelOverCap", "class_rogue_genesia_1_1_r_g_rich_text.html#ab6041ee9d7999e7dcd7b4d3cc29f25ef", null ],
+    [ "Positive", "class_rogue_genesia_1_1_r_g_rich_text.html#a603b617f964e2e32523893bd5242d187", null ],
     [ "PreviousLevel", "class_rogue_genesia_1_1_r_g_rich_text.html#ae7ce9e8c965b778e1a4bb9667859c313", null ]
 ];

@@ -1,7 +1,7 @@
 var class_rogue_genesia_1_1_data_1_1_stage_s_o =
 [
-    [ "StageObjectiveWeight", "class_rogue_genesia_1_1_data_1_1_stage_s_o_1_1_stage_objective_weight.html", "class_rogue_genesia_1_1_data_1_1_stage_s_o_1_1_stage_objective_weight" ],
     [ "StageWeightModifier", "class_rogue_genesia_1_1_data_1_1_stage_s_o_1_1_stage_weight_modifier.html", "class_rogue_genesia_1_1_data_1_1_stage_s_o_1_1_stage_weight_modifier" ],
+    [ "StageObjectiveWeight", "class_rogue_genesia_1_1_data_1_1_stage_s_o_1_1_stage_objective_weight.html", "class_rogue_genesia_1_1_data_1_1_stage_s_o_1_1_stage_objective_weight" ],
     [ "GetConstructor", "class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a081a809161a93bc6eddd56ad0099ac54", null ],
     [ "GetTypeConstructor", "class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a92041041ef0f8a178ab2afaa7c3b348b", null ],
     [ "RegisterType", "class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a19f0e41b627d4c4a0846e01e3addbbf3", null ],
@@ -19,6 +19,7 @@ var class_rogue_genesia_1_1_data_1_1_stage_s_o =
     [ "LightRange", "class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a16e28a463b6cff2456a76bb4df341975", null ],
     [ "MaterialOverride", "class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a71b368a7e7442375a6daecf71a9fe219", null ],
     [ "maximumStageBeforeEnd", "class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a31d32266f3ac78bc57a7bfc9a961fccf", null ],
+    [ "MinimumRankItAppear", "class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a46b992c5b36464d3d8c5b9b234c2047a", null ],
     [ "minimumStage", "class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a7ac982f8f5893e9311c2bbd6e61bada4", null ],
     [ "NeedLight", "class_rogue_genesia_1_1_data_1_1_stage_s_o.html#a5391b660787c28621012dfb2e8fe6674", null ],
     [ "PlacementWeight", "class_rogue_genesia_1_1_data_1_1_stage_s_o.html#af09a4eac77af2777577c86f1873bcbb0", null ],

@@ -1,0 +1,17 @@
+digraph "D:/IdleWave/Rogue_Genesia_GameProject/RogueGenesia/Assets/Scripts/RogueGenesia/Survival/Monster"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_3d39b05a738d11f01ae4d4271308f2d8 {
+    graph [ bgcolor="#daedff", pencolor="grey50", label="Survival", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_3d39b05a738d11f01ae4d4271308f2d8.html",tooltip=""]
+  subgraph clusterdir_b6ee85123fe5d0cef83512df003ef84b {
+    graph [ bgcolor="#daedff", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_b6ee85123fe5d0cef83512df003ef84b.html",tooltip=""]
+    dir_b6ee85123fe5d0cef83512df003ef84b [shape=plaintext, label="Monster"];
+  dir_12dd1a9e5b22d7785e0b818695b64bb0 [label="AI", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_12dd1a9e5b22d7785e0b818695b64bb0.html",tooltip=""];
+  dir_686df27a198cf613113d235a74380500 [label="MonsterAbility", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_686df27a198cf613113d235a74380500.html",tooltip=""];
+  }
+  }
+}

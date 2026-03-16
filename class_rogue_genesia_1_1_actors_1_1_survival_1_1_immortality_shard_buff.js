@@ -7,5 +7,6 @@ var class_rogue_genesia_1_1_actors_1_1_survival_1_1_immortality_shard_buff =
     [ "IsPersistent", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_immortality_shard_buff.html#adcc64547027a4e92eb44f6f90356cb2a", null ],
     [ "LoadBuffIcon", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_immortality_shard_buff.html#a8c1c4a7243124f5a584ccdeb2e93ca06", null ],
     [ "OnBuffEnd", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_immortality_shard_buff.html#a16b0815c3c75b0bf96dee8f0de13b0bc", null ],
-    [ "OnBuffStart", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_immortality_shard_buff.html#a4e92dd32eab28e52267396da525938e2", null ]
+    [ "OnBuffStart", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_immortality_shard_buff.html#a4e92dd32eab28e52267396da525938e2", null ],
+    [ "OnUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_immortality_shard_buff.html#a2b835fcef9d4ae808a0ee6abaf9ab2e5", null ]
 ];

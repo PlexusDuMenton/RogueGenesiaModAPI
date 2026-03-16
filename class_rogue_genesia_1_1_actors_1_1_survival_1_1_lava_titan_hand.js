@@ -1,8 +1,8 @@
 var class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan_hand =
 [
     [ "DealDamageToPlayer", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan_hand.html#a02c1a235aabad12f2970204511de43bf", null ],
-    [ "Idle", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan_hand.html#a5356a0b4c8ebc9e0952c871177eb6124", null ],
     [ "InitMonster", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan_hand.html#abbe5c88a9a56d51c1608fcf45a835a8e", null ],
+    [ "MovementUpdate", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan_hand.html#a4f3ec2a3ca17553e9163b2be6d5e7bba", null ],
     [ "OnDeath", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan_hand.html#a119877d8722a261bf4ba7a26067ab2c7", null ],
     [ "SetCrushAttackPosition", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan_hand.html#aa2eae58d5493ad389f0bd0df7faf8fd1", null ],
     [ "SetQuickCrushAttackPosition", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_lava_titan_hand.html#a2d0f2391f75993e8eae1b95cc284e295", null ],
