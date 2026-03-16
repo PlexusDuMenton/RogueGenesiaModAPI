@@ -1,0 +1,1321 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.Data.EquipmentModifier Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+<div id="theme-selection">
+ <label for="theme-select">Theme:</label>
+ <select id="theme-select">
+  <option value="theme-default">Default</option>
+  <option value="theme-round">Round</option>
+  <option value="theme-robot">Robot</option>
+ </select>
+</div>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_rogue_genesia_1_1_data_1_1_equipment_modifier.html','','class_rogue_genesia_1_1_data_1_1_equipment_modifier-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">RogueGenesia.Data.EquipmentModifier Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.Data.EquipmentModifier:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 --></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ac20044f0a8f006360570093b2fe19521" id="r_ac20044f0a8f006360570093b2fe19521"><td class="memItemLeft"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac20044f0a8f006360570093b2fe19521">GetAvatar</a> ()</td></tr>
+<tr class="memitem:a642df1516ac28698477f8370867268b2" id="r_a642df1516ac28698477f8370867268b2"><td class="memItemLeft">virtual List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment_modifier_variant_info.html">EquipmentModifierVariantInfo</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a642df1516ac28698477f8370867268b2">GetVariantsList</a> ()</td></tr>
+<tr class="memitem:a59a80714e29ce332e949d6554584fe3b" id="r_a59a80714e29ce332e949d6554584fe3b"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a59a80714e29ce332e949d6554584fe3b">ApplyVariant</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment_modifier_variant_info.html">EquipmentModifierVariantInfo</a> variantInfo)</td></tr>
+<tr class="memitem:a4faca46848506c7817601e0f01ccc4d0" id="r_a4faca46848506c7817601e0f01ccc4d0"><td class="memItemLeft">virtual <a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment_modifier_variant_info.html">EquipmentModifierVariantInfo</a>&#160;</td><td class="memItemRight"><a class="el" href="#a4faca46848506c7817601e0f01ccc4d0">GetCurrentVariant</a> ()</td></tr>
+<tr class="memitem:a5b52282ea9fd0108db8a8131a01bf000" id="r_a5b52282ea9fd0108db8a8131a01bf000"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a5b52282ea9fd0108db8a8131a01bf000">OnModifierCreated</a> ()</td></tr>
+<tr class="memitem:aedc3e08eea5d8ecf527fda57ab31a9f9" id="r_aedc3e08eea5d8ecf527fda57ab31a9f9"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#aedc3e08eea5d8ecf527fda57ab31a9f9">OnEquipmentTierChange</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a> equipment, int tier, int delta)</td></tr>
+<tr class="memitem:a4f7de36dea807275dd10923373c1fa19" id="r_a4f7de36dea807275dd10923373c1fa19"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a4f7de36dea807275dd10923373c1fa19">OnEquipmentLevelChange</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a> equipment, int tier, int delta)</td></tr>
+<tr class="memitem:a4955f549bcc25dd5bdd9c5d545454c20" id="r_a4955f549bcc25dd5bdd9c5d545454c20"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a4955f549bcc25dd5bdd9c5d545454c20">LoadModifierInformation</a> (<a class="el" href="struct_rogue_genesia_1_1_data_1_1_modifier_information.html">ModifierInformation</a> modifierInfo)</td></tr>
+<tr class="memitem:a3bac6a28d2938283f2a570d55fabb69b" id="r_a3bac6a28d2938283f2a570d55fabb69b"><td class="memItemLeft">virtual <a class="el" href="struct_rogue_genesia_1_1_data_1_1_modifier_information.html">ModifierInformation</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3bac6a28d2938283f2a570d55fabb69b">SaveModifierInformation</a> ()</td></tr>
+<tr class="memitem:aec5998ca3bad6c57f572f93cdd6d23e0" id="r_aec5998ca3bad6c57f572f93cdd6d23e0"><td class="memItemLeft">virtual double&#160;</td><td class="memItemRight"><a class="el" href="#aec5998ca3bad6c57f572f93cdd6d23e0">GetBaseValue</a> ()</td></tr>
+<tr class="memitem:a4f658fd72dd3dabe179bec1e6c627d70" id="r_a4f658fd72dd3dabe179bec1e6c627d70"><td class="memItemLeft">virtual double&#160;</td><td class="memItemRight"><a class="el" href="#a4f658fd72dd3dabe179bec1e6c627d70">GetValuePerLevel</a> ()</td></tr>
+<tr class="memitem:a614b8d755adf91eed2749f5a1ed118d1" id="r_a614b8d755adf91eed2749f5a1ed118d1"><td class="memItemLeft">virtual double&#160;</td><td class="memItemRight"><a class="el" href="#a614b8d755adf91eed2749f5a1ed118d1">GetEfficiencyBaseValue</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a> equipementSource)</td></tr>
+<tr class="memitem:ae94d3daaa543bb1a24d8290e4d1127c6" id="r_ae94d3daaa543bb1a24d8290e4d1127c6"><td class="memItemLeft">virtual double&#160;</td><td class="memItemRight"><a class="el" href="#ae94d3daaa543bb1a24d8290e4d1127c6">GetEfficiencyValuePerLevel</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a> equipementSource)</td></tr>
+<tr class="memitem:a10dbe554c6dd2681343d59ad41c5461b" id="r_a10dbe554c6dd2681343d59ad41c5461b"><td class="memItemLeft">virtual double&#160;</td><td class="memItemRight"><a class="el" href="#a10dbe554c6dd2681343d59ad41c5461b">GetFixedValue</a> (float playerLevel, float itemTier, float itemLevel, <a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a> equipementSource)</td></tr>
+<tr class="memitem:a44b260fff08063960b2357f656607e92" id="r_a44b260fff08063960b2357f656607e92"><td class="memItemLeft">virtual double&#160;</td><td class="memItemRight"><a class="el" href="#a44b260fff08063960b2357f656607e92">GetVariableValue</a> (float playerLevel, float itemTier, float itemLevel, <a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a> equipementSource)</td></tr>
+<tr class="memitem:a27bd5ab4ee001ea2e1f8976a6844d59b" id="r_a27bd5ab4ee001ea2e1f8976a6844d59b"><td class="memItemLeft">virtual double&#160;</td><td class="memItemRight"><a class="el" href="#a27bd5ab4ee001ea2e1f8976a6844d59b">GetFinalValue</a> (float playerLevel, float itemTier, float itemLevel, <a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a> equipementSource)</td></tr>
+<tr class="memitem:acdd432ce5ecf7062d87391ab84ddda66" id="r_acdd432ce5ecf7062d87391ab84ddda66"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#acdd432ce5ecf7062d87391ab84ddda66">GetModifierEffect</a> (float itemTier, float itemLevel, ref Dictionary&lt; string, double &gt; dictionary, <a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a> equipementSource)</td></tr>
+<tr class="memitem:a2e086a98bbaf310d02658cb5bf9884df" id="r_a2e086a98bbaf310d02658cb5bf9884df"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#a2e086a98bbaf310d02658cb5bf9884df">GetModifierText</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a> equipementSource)</td></tr>
+<tr class="memitem:a2ca72c36e108140d7c59e9eca422c127" id="r_a2ca72c36e108140d7c59e9eca422c127"><td class="memItemLeft">virtual string&#160;</td><td class="memItemRight"><a class="el" href="#a2ca72c36e108140d7c59e9eca422c127">GetModifierText</a> (float itemTier, float itemLevel, <a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a> equipementSource)</td></tr>
+<tr class="memitem:a14b767aea843c7187192291c8965921a" id="r_a14b767aea843c7187192291c8965921a"><td class="memItemLeft">virtual string&#160;</td><td class="memItemRight"><a class="el" href="#a14b767aea843c7187192291c8965921a">GetModifierComparisonText</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a> equipementSource, <a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a> otherItem, <a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment_modifier.html">EquipmentModifier</a> otherModifier)</td></tr>
+<tr class="memitem:ae3e7ee644675761a1528c9195dd152b8" id="r_ae3e7ee644675761a1528c9195dd152b8"><td class="memItemLeft">virtual string&#160;</td><td class="memItemRight"><a class="el" href="#ae3e7ee644675761a1528c9195dd152b8">GetNoneDescription</a> ()</td></tr>
+<tr class="memitem:a4947ec1f6137ff4c24c28fc6d5dab5d6" id="r_a4947ec1f6137ff4c24c28fc6d5dab5d6"><td class="memItemLeft">virtual string&#160;</td><td class="memItemRight"><a class="el" href="#a4947ec1f6137ff4c24c28fc6d5dab5d6">GetModifierTextInForge</a> (float itemTier, float itemLevel, float compareItemTier, float compareItemLevel, <a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a> equipementSource)</td></tr>
+<tr class="memitem:a2671cc2922e715df91e7e6c5d4157c6b" id="r_a2671cc2922e715df91e7e6c5d4157c6b"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a2671cc2922e715df91e7e6c5d4157c6b">OnEquip</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> avatar, int playerLevel, <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a> playerStat, <a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a> equipementSource, int statID, string slot)</td></tr>
+<tr class="memitem:ab292bba8207f2657286ffcfac4b1a151" id="r_ab292bba8207f2657286ffcfac4b1a151"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#ab292bba8207f2657286ffcfac4b1a151">OnRemove</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> avatar, int playerLevel, <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a> playerStat, <a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a> equipementSource, int statID)</td></tr>
+<tr class="memitem:a10a8082bfa2da1b925df5501470ba37e" id="r_a10a8082bfa2da1b925df5501470ba37e"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a10a8082bfa2da1b925df5501470ba37e">ApplyStatsToPlayer</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> avatar, int playerLevel, <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a> playerStat, <a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a> equipementSource, int statID, string slot, ref List&lt; string &gt; Stats)</td></tr>
+<tr class="memitem:aea23c995afc8590cc166857cf6a1746b" id="r_aea23c995afc8590cc166857cf6a1746b"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#aea23c995afc8590cc166857cf6a1746b">RemoveStatsFromPlayer</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> avatar, <a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a> playerStat, <a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a> equipementSource, int statID, string slot, ref List&lt; string &gt; Stats)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a46da4826160181f87dcee9f7ebea8eda" id="r_a46da4826160181f87dcee9f7ebea8eda"><td class="memItemLeft"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment_modifier_s_o.html">EquipmentModifierSO</a>&#160;</td><td class="memItemRight"><a class="el" href="#a46da4826160181f87dcee9f7ebea8eda">LinkedModifierSO</a></td></tr>
+<tr class="memitem:aa9d630560a27558c38ffedfc0c38bbfd" id="r_aa9d630560a27558c38ffedfc0c38bbfd"><td class="memItemLeft"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a>&#160;</td><td class="memItemRight"><a class="el" href="#aa9d630560a27558c38ffedfc0c38bbfd">EquipmentOwner</a></td></tr>
+<tr class="memitem:a4d7f3d2c2ed548fbfe9e7776ebe356cf" id="r_a4d7f3d2c2ed548fbfe9e7776ebe356cf"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#a4d7f3d2c2ed548fbfe9e7776ebe356cf">Slot</a></td></tr>
+<tr class="memitem:ad365ed341c27078a6d00003acd618efa" id="r_ad365ed341c27078a6d00003acd618efa"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ad365ed341c27078a6d00003acd618efa">StatID</a></td></tr>
+<tr class="memitem:a75c19af4d0826631d0ef8d94d458f91d" id="r_a75c19af4d0826631d0ef8d94d458f91d"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#a75c19af4d0826631d0ef8d94d458f91d">BaseValue</a></td></tr>
+<tr class="memitem:a6d44e9204000754a2b75576345d2d729" id="r_a6d44e9204000754a2b75576345d2d729"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#a6d44e9204000754a2b75576345d2d729">ValuePerLevel</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ae46ba4f522571649d005a34bcfc74744" id="r_ae46ba4f522571649d005a34bcfc74744"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae46ba4f522571649d005a34bcfc74744">AddStatToDictionary</a> (string Category, string <a class="el" href="#a44e6ca4c3829190bbd0512a431b7542e">StatName</a>, string Fixed, double value, ref Dictionary&lt; string, double &gt; dictionary)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:ac6ce4710b04867a31ee96636821e6c1b" id="r_ac6ce4710b04867a31ee96636821e6c1b"><td class="memItemLeft"><a class="el" href="namespace_rogue_genesia_1_1_data.html#acbdbcb972417abfb20cd2d6207071b60">StatsApplicationType</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac6ce4710b04867a31ee96636821e6c1b">StatsType</a><code> [get]</code></td></tr>
+<tr class="memitem:a80f6b30b0beabb6b2304125258b9cdc3" id="r_a80f6b30b0beabb6b2304125258b9cdc3"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#a80f6b30b0beabb6b2304125258b9cdc3">StatLayer</a><code> [get]</code></td></tr>
+<tr class="memitem:a44e6ca4c3829190bbd0512a431b7542e" id="r_a44e6ca4c3829190bbd0512a431b7542e"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#a44e6ca4c3829190bbd0512a431b7542e">StatName</a><code> [get]</code></td></tr>
+<tr class="memitem:aac71e1f2f0787c2f8446ec88d97bef3d" id="r_aac71e1f2f0787c2f8446ec88d97bef3d"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aac71e1f2f0787c2f8446ec88d97bef3d">ScaleWithItemTierAndLevel</a><code> [get]</code></td></tr>
+</table>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ae46ba4f522571649d005a34bcfc74744" name="ae46ba4f522571649d005a34bcfc74744"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae46ba4f522571649d005a34bcfc74744">&#9670;&#160;</a></span>AddStatToDictionary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RogueGenesia.Data.EquipmentModifier.AddStatToDictionary </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>Category</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>StatName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>Fixed</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref Dictionary&lt; string, double &gt;</td>          <td class="paramname"><span class="paramname"><em>dictionary</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a10a8082bfa2da1b925df5501470ba37e" name="a10a8082bfa2da1b925df5501470ba37e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10a8082bfa2da1b925df5501470ba37e">&#9670;&#160;</a></span>ApplyStatsToPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.EquipmentModifier.ApplyStatsToPlayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a></td>          <td class="paramname"><span class="paramname"><em>avatar</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>playerLevel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a></td>          <td class="paramname"><span class="paramname"><em>playerStat</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a></td>          <td class="paramname"><span class="paramname"><em>equipementSource</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>statID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>slot</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref List&lt; string &gt;</td>          <td class="paramname"><span class="paramname"><em>Stats</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___acclimatized_legging.html#a0d8ed31bc84f6acb045a87f61684ba93">RogueGenesia.Data.EM_AcclimatizedLegging</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___band_of_valiance.html#afd5e5aa9b2df5edd4048c81c7175a336">RogueGenesia.Data.EM_BandOfValiance</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___bloodied_towel.html#aeb72bbf1a5e892d16ee206f841990a35">RogueGenesia.Data.EM_BloodiedTowel</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___blood_seal.html#ab0106bde71ebff206aa62ee1ce8d7794">RogueGenesia.Data.EM_BloodSeal</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___dark.html#a173233ff457eae7fcd1d50a15a630c42">RogueGenesia.Data.EM_CloakOfWorship_Dark</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___fire.html#a8d5956746f94da052d5802ab08b95a3b">RogueGenesia.Data.EM_CloakOfWorship_Fire</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___hunt.html#a62918adad984c1a754cd9690a0d4e533">RogueGenesia.Data.EM_CloakOfWorship_Hunt</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___metal.html#a0f82b22be71ad2e87db2ea7ce48eb784">RogueGenesia.Data.EM_CloakOfWorship_Metal</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___moon.html#a06d441601ac03b3b47c82319631a3b1d">RogueGenesia.Data.EM_CloakOfWorship_Moon</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___sun.html#a5bba847ef3acbdb34c8e30f2ae71bd3b">RogueGenesia.Data.EM_CloakOfWorship_Sun</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___void.html#a6b14570a08b4d19ccc659bd7aa1a0173">RogueGenesia.Data.EM_CloakOfWorship_Void</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___wild.html#a97916ba521dd2a6895c2df4cfc677a51">RogueGenesia.Data.EM_CloakOfWorship_Wild</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___wind.html#ae547e044eb73e918f1160808b5d3f8d7">RogueGenesia.Data.EM_CloakOfWorship_Wind</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___expert_monocle.html#a7851d007a4d6010186c14da3032ff660">RogueGenesia.Data.EM_ExpertMonocle</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___fancy_hat.html#a44a41547665be2c1eea97e5e3266d484">RogueGenesia.Data.EM_FancyHat</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___fire_stone.html#a395425c973ab3a7ebea814700afc822d">RogueGenesia.Data.EM_FireStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___golden_plate.html#ac76a786c3b09e8d7ef41572b0ade586e">RogueGenesia.Data.EM_GoldenPlate</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___golden_ring.html#a423c7982de0e5c8d7657c77cf14508f2">RogueGenesia.Data.EM_GoldenRing</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___halo.html#a2d174f19a2fc98d38e5c355096a5c8e9">RogueGenesia.Data.EM_Halo</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___hands_of_the_guilty.html#abec19c6d3bf8e327c224d62547853371">RogueGenesia.Data.EM_HandsOfTheGuilty</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___holy_crossguard.html#a8afa72fdc9bebaf6174ae7e0bdfba6b9">RogueGenesia.Data.EM_HolyCrossguard</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___hypercube_manifold.html#a579cfcd2a52beaa48fc2bc580fc74539">RogueGenesia.Data.EM_HypercubeManifold</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___king_slayer.html#aaa5a65d97214e08bcbd1368586829240">RogueGenesia.Data.EM_KingSlayer</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___knight_pendant.html#a16f445f3618841b12874ef911ccc3876">RogueGenesia.Data.EM_KnightPendant</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___monocle_revelation.html#ab560bc7095f74fabdb05b4c440ac2cfc">RogueGenesia.Data.EM_MonocleRevelation</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___moon_stone.html#a806aa155ea702b0f74d1a651604cda8f">RogueGenesia.Data.EM_MoonStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___ninja_tabi.html#a8389ec983592338c44263410542c3fd8">RogueGenesia.Data.EM_NinjaTabi</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___noble_slayer.html#a170498fe8c9de2f8d67235eb902fa350">RogueGenesia.Data.EM_NobleSlayer</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___no_more_food_drop.html#a86d3e122591f938ee79e7a22affaa144">RogueGenesia.Data.EM_NoMoreFoodDrop</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___recursive_polychoron.html#aeb3adf1a9f26ab2a4ce9db4c90ce5355">RogueGenesia.Data.EM_RecursivePolychoron</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___reduced_food_heal.html#a219848451ea2aeb1ef6b1ff32c443b5d">RogueGenesia.Data.EM_ReducedFoodHeal</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___roots_of_endless_growth.html#a248e9325deb867d920407dae2f19f36f">RogueGenesia.Data.EM_RootsOfEndlessGrowth</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___sights_of_the_specialist.html#af5b444994be4a70425ef27630ba7724f">RogueGenesia.Data.EM_SightsOfTheSpecialist</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___soul_jar.html#a7abd8c50caf989c4ebd58793cb76a11a">RogueGenesia.Data.EM_SoulJar</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___specialization.html#a875d0e8f6c75e1e0d486bf0cf1523abf">RogueGenesia.Data.EM_Specialization</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___stelar_stone.html#a939bc67e6ee6aadab7ceab223ca10c66">RogueGenesia.Data.EM_StelarStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___storm_stone.html#a7feaf80c5d974024d446c5019c37a9fa">RogueGenesia.Data.EM_StormStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___sun_stone.html#a9d13b85dd8b0ff2fb9bcbcfcd3f6b768">RogueGenesia.Data.EM_SunStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___the_tesseract.html#a22bfec7f2af18cc044925790f5959578">RogueGenesia.Data.EM_TheTesseract</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___tower_shield.html#a089fa3a8656c26f706dfc284c5839f3e">RogueGenesia.Data.EM_TowerShield</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___trainer.html#a9a6be69492e9ed604500dd853e3d5ee4">RogueGenesia.Data.EM_Trainer</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___weapon_finale_damage.html#a0fb15bf83a65b189162240585d87bb2f">RogueGenesia.Data.EM_WeaponFinaleDamage</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___weaponmasters_grip.html#af4e7a719fe6ac3798c0aa90b2c0e683a">RogueGenesia.Data.EM_WeaponmastersGrip</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___wind_stone.html#aca669823666b4e490ef8658da0858bff">RogueGenesia.Data.EM_WindStone</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___wraps_of_the_humble.html#a791ef95e3cd1320c8b9236f39e2c228f">RogueGenesia.Data.EM_WrapsOfTheHumble</a>.</p>
+
+</div>
+</div>
+<a id="a59a80714e29ce332e949d6554584fe3b" name="a59a80714e29ce332e949d6554584fe3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59a80714e29ce332e949d6554584fe3b">&#9670;&#160;</a></span>ApplyVariant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.EquipmentModifier.ApplyVariant </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment_modifier_variant_info.html">EquipmentModifierVariantInfo</a></td>          <td class="paramname"><span class="paramname"><em>variantInfo</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___knight_pendant.html#a5be356c9b10b45bcdda69cb74fd59145">RogueGenesia.Data.EM_KnightPendant</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___weapon_finale_damage.html#a4bdca7a0ab1280f5ff4763b3583a7521">RogueGenesia.Data.EM_WeaponFinaleDamage</a>.</p>
+
+</div>
+</div>
+<a id="ac20044f0a8f006360570093b2fe19521" name="ac20044f0a8f006360570093b2fe19521"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac20044f0a8f006360570093b2fe19521">&#9670;&#160;</a></span>GetAvatar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a> RogueGenesia.Data.EquipmentModifier.GetAvatar </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec5998ca3bad6c57f572f93cdd6d23e0" name="aec5998ca3bad6c57f572f93cdd6d23e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec5998ca3bad6c57f572f93cdd6d23e0">&#9670;&#160;</a></span>GetBaseValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double RogueGenesia.Data.EquipmentModifier.GetBaseValue </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4faca46848506c7817601e0f01ccc4d0" name="a4faca46848506c7817601e0f01ccc4d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4faca46848506c7817601e0f01ccc4d0">&#9670;&#160;</a></span>GetCurrentVariant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment_modifier_variant_info.html">EquipmentModifierVariantInfo</a> RogueGenesia.Data.EquipmentModifier.GetCurrentVariant </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___knight_pendant.html#a944922c0905f87112e3652a6221d8426">RogueGenesia.Data.EM_KnightPendant</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___weapon_finale_damage.html#acbdcfc2437c48bb5e683f6b23c573416">RogueGenesia.Data.EM_WeaponFinaleDamage</a>.</p>
+
+</div>
+</div>
+<a id="a614b8d755adf91eed2749f5a1ed118d1" name="a614b8d755adf91eed2749f5a1ed118d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a614b8d755adf91eed2749f5a1ed118d1">&#9670;&#160;</a></span>GetEfficiencyBaseValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double RogueGenesia.Data.EquipmentModifier.GetEfficiencyBaseValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a></td>          <td class="paramname"><span class="paramname"><em>equipementSource</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae94d3daaa543bb1a24d8290e4d1127c6" name="ae94d3daaa543bb1a24d8290e4d1127c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae94d3daaa543bb1a24d8290e4d1127c6">&#9670;&#160;</a></span>GetEfficiencyValuePerLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double RogueGenesia.Data.EquipmentModifier.GetEfficiencyValuePerLevel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a></td>          <td class="paramname"><span class="paramname"><em>equipementSource</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a27bd5ab4ee001ea2e1f8976a6844d59b" name="a27bd5ab4ee001ea2e1f8976a6844d59b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27bd5ab4ee001ea2e1f8976a6844d59b">&#9670;&#160;</a></span>GetFinalValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double RogueGenesia.Data.EquipmentModifier.GetFinalValue </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>playerLevel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>itemTier</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>itemLevel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a></td>          <td class="paramname"><span class="paramname"><em>equipementSource</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a10dbe554c6dd2681343d59ad41c5461b" name="a10dbe554c6dd2681343d59ad41c5461b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10dbe554c6dd2681343d59ad41c5461b">&#9670;&#160;</a></span>GetFixedValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double RogueGenesia.Data.EquipmentModifier.GetFixedValue </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>playerLevel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>itemTier</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>itemLevel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a></td>          <td class="paramname"><span class="paramname"><em>equipementSource</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14b767aea843c7187192291c8965921a" name="a14b767aea843c7187192291c8965921a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14b767aea843c7187192291c8965921a">&#9670;&#160;</a></span>GetModifierComparisonText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string RogueGenesia.Data.EquipmentModifier.GetModifierComparisonText </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a></td>          <td class="paramname"><span class="paramname"><em>equipementSource</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a></td>          <td class="paramname"><span class="paramname"><em>otherItem</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment_modifier.html">EquipmentModifier</a></td>          <td class="paramname"><span class="paramname"><em>otherModifier</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___acclimatized_legging.html#ae70d16cfc89f4f0fb57c8c8d74b299d5">RogueGenesia.Data.EM_AcclimatizedLegging</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___band_of_valiance.html#ac513672e14f49350241005abd170aada">RogueGenesia.Data.EM_BandOfValiance</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___bloodied_towel.html#a7c8529ef87fdd5a3f7165c3dbbad3ed4">RogueGenesia.Data.EM_BloodiedTowel</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___blood_seal.html#a3fc7708d31af9cfd8d6d82f129ea728b">RogueGenesia.Data.EM_BloodSeal</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___dark.html#af6030f7fd7b66f60dbbfa37622781527">RogueGenesia.Data.EM_CloakOfWorship_Dark</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___fire.html#a6243444e6eea6aa99e10e55cffe61d24">RogueGenesia.Data.EM_CloakOfWorship_Fire</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___hunt.html#a5f66cec17b4ab6358ad3178bdd403944">RogueGenesia.Data.EM_CloakOfWorship_Hunt</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___metal.html#a6eace57677dfa354933ee2ab8abbbd48">RogueGenesia.Data.EM_CloakOfWorship_Metal</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___moon.html#a5f4cc61cce48ebb772fa0df3e4fb7101">RogueGenesia.Data.EM_CloakOfWorship_Moon</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___sun.html#adcdcfe8b884ac6e24e05017c775aa016">RogueGenesia.Data.EM_CloakOfWorship_Sun</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___void.html#adbdeacea5ace1d059e10b4fa86dbf72a">RogueGenesia.Data.EM_CloakOfWorship_Void</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___wild.html#a21861ba74f66c57afb792762ec75eec5">RogueGenesia.Data.EM_CloakOfWorship_Wild</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___wind.html#ade1d969d77a560eb59402bc99359813a">RogueGenesia.Data.EM_CloakOfWorship_Wind</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___expert_monocle.html#adb1fc6015ba1a597ff8f0768de1fc8c5">RogueGenesia.Data.EM_ExpertMonocle</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___fancy_hat.html#a461c24d23dd569fece354889059cfc7e">RogueGenesia.Data.EM_FancyHat</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___fire_stone.html#a69a0cabc51ae6a30281381d917ea995f">RogueGenesia.Data.EM_FireStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___golden_plate.html#ae09a14d263b5af0979035523efd8cb44">RogueGenesia.Data.EM_GoldenPlate</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___golden_ring.html#a62a4bc198973fb447f94c2a7e7175860">RogueGenesia.Data.EM_GoldenRing</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___halo.html#a00b28e61ae6df293064f36acedaf7a04">RogueGenesia.Data.EM_Halo</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___hands_of_the_guilty.html#aab411fd96f483d2d508de56866ef7768">RogueGenesia.Data.EM_HandsOfTheGuilty</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___holy_crossguard.html#a3d73790d2336e99a55a5234d6f29051e">RogueGenesia.Data.EM_HolyCrossguard</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___hypercube_manifold.html#aeac86a0e7053d4cacc17e777059411d2">RogueGenesia.Data.EM_HypercubeManifold</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___king_slayer.html#affc65fdf2bbfdf0ddb38dd521c2f619a">RogueGenesia.Data.EM_KingSlayer</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___knight_pendant.html#ac850b1d234d63dc43571e50528d6df5e">RogueGenesia.Data.EM_KnightPendant</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___monocle_revelation.html#a8a3cb8c8cf1df3d8925e9597d9514e77">RogueGenesia.Data.EM_MonocleRevelation</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___moon_stone.html#aa13ebe4730c833bf6f452d36e97bc7fa">RogueGenesia.Data.EM_MoonStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___ninja_tabi.html#aefa965164410d518895fe22423f51448">RogueGenesia.Data.EM_NinjaTabi</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___noble_slayer.html#a6d8cd1151092cac0d36c6784e1b5f107">RogueGenesia.Data.EM_NobleSlayer</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___no_more_food_drop.html#ad564a5bcbddc975fbf18cdfdddedf264">RogueGenesia.Data.EM_NoMoreFoodDrop</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___recursive_polychoron.html#a9c0c45f69345e84cbb33b5c1f69db48c">RogueGenesia.Data.EM_RecursivePolychoron</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___reduced_food_heal.html#a76c175ad25bcf9bc016c17a7e7463f4d">RogueGenesia.Data.EM_ReducedFoodHeal</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___roots_of_endless_growth.html#aeb0d111a4bd7804e3df66575015642ac">RogueGenesia.Data.EM_RootsOfEndlessGrowth</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___sights_of_the_specialist.html#a3deee6f647550951aecf987223d55a9a">RogueGenesia.Data.EM_SightsOfTheSpecialist</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___soul_jar.html#a00f1a46ecca2d0b05bd03112fe43f4e0">RogueGenesia.Data.EM_SoulJar</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___specialization.html#a0507d27236e3e781417e137fc9fd73cf">RogueGenesia.Data.EM_Specialization</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___stelar_stone.html#a71639cf5f40a384fcbf1de511845b30c">RogueGenesia.Data.EM_StelarStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___storm_stone.html#a12278ee84d30f06b2e074e8218c893a3">RogueGenesia.Data.EM_StormStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___sun_stone.html#a0b3cab786ea8030211722d9f506abbbd">RogueGenesia.Data.EM_SunStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___the_tesseract.html#a64e06c5ac5b0b4a4a9c10cfcfe7d62f8">RogueGenesia.Data.EM_TheTesseract</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___tower_shield.html#a9b7320f0e81f1a6e2a876e89390dc94e">RogueGenesia.Data.EM_TowerShield</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___trainer.html#afdaa5666535bac19be5e7dc549c1f10b">RogueGenesia.Data.EM_Trainer</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___weapon_finale_damage.html#a24b2d4b89324a6aac28effa0d9675f42">RogueGenesia.Data.EM_WeaponFinaleDamage</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___weaponmasters_grip.html#a5e236f5fdf0e8790e7871e64609165e9">RogueGenesia.Data.EM_WeaponmastersGrip</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___wind_stone.html#afedb348ea34d3b30fa0bd0b7ab3fcd9e">RogueGenesia.Data.EM_WindStone</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___wraps_of_the_humble.html#adea019f5119b37b89a185144ea524b40">RogueGenesia.Data.EM_WrapsOfTheHumble</a>.</p>
+
+</div>
+</div>
+<a id="acdd432ce5ecf7062d87391ab84ddda66" name="acdd432ce5ecf7062d87391ab84ddda66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdd432ce5ecf7062d87391ab84ddda66">&#9670;&#160;</a></span>GetModifierEffect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.EquipmentModifier.GetModifierEffect </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>itemTier</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>itemLevel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref Dictionary&lt; string, double &gt;</td>          <td class="paramname"><span class="paramname"><em>dictionary</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a></td>          <td class="paramname"><span class="paramname"><em>equipementSource</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___acclimatized_legging.html#a17dd2a1e0c2e996553610b6a184d2fb0">RogueGenesia.Data.EM_AcclimatizedLegging</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___band_of_valiance.html#afb57ed30a7e0a9373670061e8c278ffc">RogueGenesia.Data.EM_BandOfValiance</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___bloodied_towel.html#a182be905847d22b380f5e9a87b2594a1">RogueGenesia.Data.EM_BloodiedTowel</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___blood_seal.html#af6c532535c6b0daa06271dbad3f04c74">RogueGenesia.Data.EM_BloodSeal</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___dark.html#affd8f975905741b00bd19a476e3844bd">RogueGenesia.Data.EM_CloakOfWorship_Dark</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___fire.html#a144d18b0351c9cf38efbf5b94923102f">RogueGenesia.Data.EM_CloakOfWorship_Fire</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___hunt.html#adf4688e07aac7c2f97541cfd098c3ecc">RogueGenesia.Data.EM_CloakOfWorship_Hunt</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___metal.html#abfd26245349167cd63a9a95dbc007df7">RogueGenesia.Data.EM_CloakOfWorship_Metal</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___moon.html#ab33433295eb8ba84cc6ddd7a118b2658">RogueGenesia.Data.EM_CloakOfWorship_Moon</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___sun.html#ad699d08ad22645556e0b5e8598ed053c">RogueGenesia.Data.EM_CloakOfWorship_Sun</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___void.html#ac469c2cf8e2abeafd6ded0f74b332c33">RogueGenesia.Data.EM_CloakOfWorship_Void</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___wild.html#a45b7bf6586eb405e40298ff76fb6480f">RogueGenesia.Data.EM_CloakOfWorship_Wild</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___wind.html#ac1dc41894debf2161ee5270d12fd3fdc">RogueGenesia.Data.EM_CloakOfWorship_Wind</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___expert_monocle.html#aa2357ed434ec73d2796e41eebf81e417">RogueGenesia.Data.EM_ExpertMonocle</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___fancy_hat.html#a9e813d2fcd21978008c755247353cb24">RogueGenesia.Data.EM_FancyHat</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___fire_stone.html#a6c5a06d81d9c8dce4553717d3f7d40a4">RogueGenesia.Data.EM_FireStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___god_stone.html#ab283995cd4ce12b67ed8f14b192f122d">RogueGenesia.Data.EM_GodStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___golden_plate.html#ae3e701bc69001297860a53654402735b">RogueGenesia.Data.EM_GoldenPlate</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___golden_ring.html#a46411d99796be3dbcfa5d95d295f592f">RogueGenesia.Data.EM_GoldenRing</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___halo.html#a96e36754d938937d93b41a75c272da7f">RogueGenesia.Data.EM_Halo</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___hands_of_the_guilty.html#a03b3e6fefca6ffc0cecc977f3d23e704">RogueGenesia.Data.EM_HandsOfTheGuilty</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___holy_crossguard.html#a0aea5be7c1a15754c4c37b255af8937d">RogueGenesia.Data.EM_HolyCrossguard</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___hypercube_manifold.html#a86dd7e6e41a8fd71fafc7165ffab5614">RogueGenesia.Data.EM_HypercubeManifold</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___king_slayer.html#a5d17b1214322431c54df598f296eee53">RogueGenesia.Data.EM_KingSlayer</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___knight_pendant.html#ae8f40f7e2eb622c4cd6b79dbc16a8774">RogueGenesia.Data.EM_KnightPendant</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___monocle_revelation.html#a1783cfc97b9d20fef5c6fb961f7ec03b">RogueGenesia.Data.EM_MonocleRevelation</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___moon_stone.html#abef0f1448db48c1f8463c54bfb0a902e">RogueGenesia.Data.EM_MoonStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___ninja_tabi.html#adc3126ecb75b1203c4541876c540fd1f">RogueGenesia.Data.EM_NinjaTabi</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___noble_slayer.html#a10f500409709728e49c08f5f22af27ec">RogueGenesia.Data.EM_NobleSlayer</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___no_more_food_drop.html#a3e321c7dc95cc3e2f91fabe26c4dec93">RogueGenesia.Data.EM_NoMoreFoodDrop</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___recursive_polychoron.html#aeffefacd8213acec02a9c62956c142d0">RogueGenesia.Data.EM_RecursivePolychoron</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___reduced_food_heal.html#a327b0df10f35c3b775056e8e37f504dd">RogueGenesia.Data.EM_ReducedFoodHeal</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___roots_of_endless_growth.html#ad16de15627dab1677d004a8df244cf8e">RogueGenesia.Data.EM_RootsOfEndlessGrowth</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___sights_of_the_specialist.html#a4a310096fd637fb1ab5b864e8e19d661">RogueGenesia.Data.EM_SightsOfTheSpecialist</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___soul_jar.html#a10ac052daa0fd6c3342cfdbd837e9759">RogueGenesia.Data.EM_SoulJar</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___specialization.html#a666a2bc3b95bd2e00701b27b111392bd">RogueGenesia.Data.EM_Specialization</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___stelar_stone.html#a7c1ecb5c1831b20acc830e977115ce0b">RogueGenesia.Data.EM_StelarStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___storm_stone.html#a929ecd757d480f748018bcf4aa0df15a">RogueGenesia.Data.EM_StormStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___sun_stone.html#ab305139e56a492c07092265308444709">RogueGenesia.Data.EM_SunStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___the_tesseract.html#a48df738fc0abe70c1ee81c3817c2be71">RogueGenesia.Data.EM_TheTesseract</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___tower_shield.html#a6270aefca23383f0301ec4b2340393a9">RogueGenesia.Data.EM_TowerShield</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___wanderstriders.html#af84a0defb3c0479dc9958f93f2ce9c3d">RogueGenesia.Data.EM_Wanderstriders</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___weaponmasters_grip.html#a7002198f68a9d9a5d840243f302b9f7d">RogueGenesia.Data.EM_WeaponmastersGrip</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___wind_stone.html#af717ad80dd1c4eea9f37ed7f89081413">RogueGenesia.Data.EM_WindStone</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___wraps_of_the_humble.html#a138854fc6f1b0067e7acd43edc5fc526">RogueGenesia.Data.EM_WrapsOfTheHumble</a>.</p>
+
+</div>
+</div>
+<a id="a2e086a98bbaf310d02658cb5bf9884df" name="a2e086a98bbaf310d02658cb5bf9884df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e086a98bbaf310d02658cb5bf9884df">&#9670;&#160;</a></span>GetModifierText() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RogueGenesia.Data.EquipmentModifier.GetModifierText </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a></td>          <td class="paramname"><span class="paramname"><em>equipementSource</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2ca72c36e108140d7c59e9eca422c127" name="a2ca72c36e108140d7c59e9eca422c127"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ca72c36e108140d7c59e9eca422c127">&#9670;&#160;</a></span>GetModifierText() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string RogueGenesia.Data.EquipmentModifier.GetModifierText </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>itemTier</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>itemLevel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a></td>          <td class="paramname"><span class="paramname"><em>equipementSource</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___acclimatized_legging.html#a0b45d01a307e61857a9645ce4fe5031f">RogueGenesia.Data.EM_AcclimatizedLegging</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___band_of_valiance.html#a8a841157949cdaf55c583c98f4d5549d">RogueGenesia.Data.EM_BandOfValiance</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___bloodied_towel.html#aaab9fc3348406c4f65273bd720b2b1de">RogueGenesia.Data.EM_BloodiedTowel</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___blood_seal.html#a093e2d3c0f9d26f9a54c72e2bd9275a7">RogueGenesia.Data.EM_BloodSeal</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___dark.html#abec84a9fa522a5176c808d078ec58d37">RogueGenesia.Data.EM_CloakOfWorship_Dark</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___fire.html#a004dd024aa67933e6835e7b5ff83bbfe">RogueGenesia.Data.EM_CloakOfWorship_Fire</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___hunt.html#a2b4fea6c0c0434e02ac49c8525fa6160">RogueGenesia.Data.EM_CloakOfWorship_Hunt</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___metal.html#a850ca0e82af03f66e4587e63c2305671">RogueGenesia.Data.EM_CloakOfWorship_Metal</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___moon.html#a7240467245671b71cad514527c688559">RogueGenesia.Data.EM_CloakOfWorship_Moon</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___sun.html#a880e420947a49884673407f8a0884270">RogueGenesia.Data.EM_CloakOfWorship_Sun</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___void.html#a17651e191fcbf8cc1ae846bbb5fe126d">RogueGenesia.Data.EM_CloakOfWorship_Void</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___wild.html#a40bc6dd3d87202cf948b1129fa6e670b">RogueGenesia.Data.EM_CloakOfWorship_Wild</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___wind.html#a0f70014cb8b3a388eb9c6f098453cef2">RogueGenesia.Data.EM_CloakOfWorship_Wind</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___expert_monocle.html#afe28b42b62438aa2445c7a43898cd69a">RogueGenesia.Data.EM_ExpertMonocle</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___fancy_hat.html#a2db4585cbba4cb9abf901845acab16d0">RogueGenesia.Data.EM_FancyHat</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___fire_stone.html#a531ce8297148682f8efa2656bb3a6b8a">RogueGenesia.Data.EM_FireStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___golden_plate.html#a84ff870d650ed9bff299328f42ebf5b2">RogueGenesia.Data.EM_GoldenPlate</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___golden_ring.html#a44dd0b1be0fe8c6abfd851530e27c406">RogueGenesia.Data.EM_GoldenRing</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___halo.html#a46f691e124f637e307d3b91a34348653">RogueGenesia.Data.EM_Halo</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___hands_of_the_guilty.html#a19bf58abdf8bf1e9686e65a95738a3fe">RogueGenesia.Data.EM_HandsOfTheGuilty</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___holy_crossguard.html#ac455f47c8053f974793a6e25be13919e">RogueGenesia.Data.EM_HolyCrossguard</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___hypercube_manifold.html#afc9d607660a04999ddba24435004362b">RogueGenesia.Data.EM_HypercubeManifold</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___king_slayer.html#a0c5af69d6f67d8433b6ada8d69d3dff7">RogueGenesia.Data.EM_KingSlayer</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___knight_pendant.html#a858b5f7d3c3faa554d41b9a836412e3d">RogueGenesia.Data.EM_KnightPendant</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___monocle_revelation.html#ab8cbef3fa4624c5b2db0d560eadf8948">RogueGenesia.Data.EM_MonocleRevelation</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___moon_stone.html#af1350808d8eaa7d84dc7bf81a712c3b7">RogueGenesia.Data.EM_MoonStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___ninja_tabi.html#aea8e4e750cd70d71134daf6877ad30ae">RogueGenesia.Data.EM_NinjaTabi</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___noble_slayer.html#a2e1c41dad8d70d390c0036d182e7cf87">RogueGenesia.Data.EM_NobleSlayer</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___no_more_food_drop.html#af72ffc5e2c42ae902076e6a3cec7e939">RogueGenesia.Data.EM_NoMoreFoodDrop</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___recursive_polychoron.html#a460202b5c9bd27b240f5280bb628e5a9">RogueGenesia.Data.EM_RecursivePolychoron</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___reduced_food_heal.html#af97e789c0be38aaad1012fc7129061d7">RogueGenesia.Data.EM_ReducedFoodHeal</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___roots_of_endless_growth.html#af149e5b8e1a5ddd6ac67bf3df31ba93f">RogueGenesia.Data.EM_RootsOfEndlessGrowth</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___sights_of_the_specialist.html#a955f2fc058f0ef85687cfc004ddf5165">RogueGenesia.Data.EM_SightsOfTheSpecialist</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___soul_jar.html#a9fe96f04e50bfc23fc2daebe0c65f19a">RogueGenesia.Data.EM_SoulJar</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___specialization.html#a963fe229633776fbcf2612871f1d783b">RogueGenesia.Data.EM_Specialization</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___stelar_stone.html#a9f5d8ad6820b117c050cc499c78e9775">RogueGenesia.Data.EM_StelarStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___storm_stone.html#afc5f30cf8b41d76e7d3dc96f1543e275">RogueGenesia.Data.EM_StormStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___sun_stone.html#a85aa2a925913eb2a26f314dec5b70ff3">RogueGenesia.Data.EM_SunStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___the_tesseract.html#a36ba3503ebb9047efccdb0669acc7d16">RogueGenesia.Data.EM_TheTesseract</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___tower_shield.html#a982856d1e9acc0cea5250688af113851">RogueGenesia.Data.EM_TowerShield</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___trainer.html#ab1a61928f84387b035ebab3038a0940b">RogueGenesia.Data.EM_Trainer</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___wanderstriders.html#a7bcc85a4aa204c976edb97a9665973d9">RogueGenesia.Data.EM_Wanderstriders</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___weapon_finale_damage.html#ac246b9f8b75569abea4295ee293d011e">RogueGenesia.Data.EM_WeaponFinaleDamage</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___weaponmasters_grip.html#a375d5cfbbfdaabe01aa753daabfc6354">RogueGenesia.Data.EM_WeaponmastersGrip</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___wind_stone.html#a2cb769e42a9f043a63291f7b3b48d779">RogueGenesia.Data.EM_WindStone</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___wraps_of_the_humble.html#ac9d1b8262f0f24735f0e7535b5c31862">RogueGenesia.Data.EM_WrapsOfTheHumble</a>.</p>
+
+</div>
+</div>
+<a id="a4947ec1f6137ff4c24c28fc6d5dab5d6" name="a4947ec1f6137ff4c24c28fc6d5dab5d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4947ec1f6137ff4c24c28fc6d5dab5d6">&#9670;&#160;</a></span>GetModifierTextInForge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string RogueGenesia.Data.EquipmentModifier.GetModifierTextInForge </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>itemTier</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>itemLevel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>compareItemTier</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>compareItemLevel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a></td>          <td class="paramname"><span class="paramname"><em>equipementSource</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___acclimatized_legging.html#a0d27cd999b3000e9b3c159f8c8b624c4">RogueGenesia.Data.EM_AcclimatizedLegging</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___band_of_valiance.html#a9fe5df02b01884e5742608c35d09b400">RogueGenesia.Data.EM_BandOfValiance</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___bloodied_towel.html#aff1fc5288d1ff18c4b1012461d703218">RogueGenesia.Data.EM_BloodiedTowel</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___blood_seal.html#a7cca46d4670393010c4a53323bb15943">RogueGenesia.Data.EM_BloodSeal</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___dark.html#ab209847d6b43cedd7c5f2034d8447221">RogueGenesia.Data.EM_CloakOfWorship_Dark</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___fire.html#a2f7e237c6265e63db38e0ab170040f72">RogueGenesia.Data.EM_CloakOfWorship_Fire</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___hunt.html#a2f61e7efe21e7c75eb281c67a4c71e5d">RogueGenesia.Data.EM_CloakOfWorship_Hunt</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___metal.html#ae1ae3516a883292254822a280b258725">RogueGenesia.Data.EM_CloakOfWorship_Metal</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___moon.html#a3ade9c4a9716d60b1ef265c255c1e010">RogueGenesia.Data.EM_CloakOfWorship_Moon</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___sun.html#a79f925f9d4d393018f6ccfbbcbea43c3">RogueGenesia.Data.EM_CloakOfWorship_Sun</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___void.html#a308a799c343b96e7948d8d961216134c">RogueGenesia.Data.EM_CloakOfWorship_Void</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___wild.html#a5e333eddcd5fac65ce10780d3f4afacc">RogueGenesia.Data.EM_CloakOfWorship_Wild</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___wind.html#a3dd55ce363a13cbb13d330a70e0ad5f5">RogueGenesia.Data.EM_CloakOfWorship_Wind</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___expert_monocle.html#aec3b9d21c07291b61e5824d0e0d13d7b">RogueGenesia.Data.EM_ExpertMonocle</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___fancy_hat.html#ab244336dfff54ac6e6c5a017e9f3a62d">RogueGenesia.Data.EM_FancyHat</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___fire_stone.html#a60f51212033edb2e20b7dd9edc6cc831">RogueGenesia.Data.EM_FireStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___golden_plate.html#a2221d08f3b494bcf66f70a10a9f02adb">RogueGenesia.Data.EM_GoldenPlate</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___golden_ring.html#ad3ed91ba8723d68e0f31d88deccbfe4d">RogueGenesia.Data.EM_GoldenRing</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___halo.html#adfb44374652abc479f1335e7ac940ed8">RogueGenesia.Data.EM_Halo</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___hands_of_the_guilty.html#a43243b44e1aff9b284492047c26590e4">RogueGenesia.Data.EM_HandsOfTheGuilty</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___holy_crossguard.html#a616ee1844c80fcc8a50bbb056e8d29ae">RogueGenesia.Data.EM_HolyCrossguard</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___hypercube_manifold.html#abf90d894089f76294d38c2345d505509">RogueGenesia.Data.EM_HypercubeManifold</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___king_slayer.html#ae523b8016378ec961cac74d597354697">RogueGenesia.Data.EM_KingSlayer</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___knight_pendant.html#a388f6b5748ff27aadcf04f69ba0d9a2e">RogueGenesia.Data.EM_KnightPendant</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___monocle_revelation.html#abbd70c8e7b42f6cc34ced41580c5a16f">RogueGenesia.Data.EM_MonocleRevelation</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___moon_stone.html#a36b0d73d0bba9e42a7a3ace8cf8d4b26">RogueGenesia.Data.EM_MoonStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___ninja_tabi.html#af33c57534d0b8877a87c56f515cc0558">RogueGenesia.Data.EM_NinjaTabi</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___noble_slayer.html#a606f82ce779fff1d253cf6cac144ea67">RogueGenesia.Data.EM_NobleSlayer</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___no_more_food_drop.html#ac40ef8f4a27668175181f93d019fac6b">RogueGenesia.Data.EM_NoMoreFoodDrop</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___recursive_polychoron.html#a67a58860a3a283e6b25c429dc93f5458">RogueGenesia.Data.EM_RecursivePolychoron</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___reduced_food_heal.html#afd32ef5c13dfde9603f0e20c4610b16b">RogueGenesia.Data.EM_ReducedFoodHeal</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___roots_of_endless_growth.html#a50d1540819f10f93cf6200140f79ae76">RogueGenesia.Data.EM_RootsOfEndlessGrowth</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___sights_of_the_specialist.html#a68571d5058abd61cf44bd89b7c4a9d36">RogueGenesia.Data.EM_SightsOfTheSpecialist</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___soul_jar.html#a5c97f886dd1eaf6d230e29bc590cd99d">RogueGenesia.Data.EM_SoulJar</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___specialization.html#afd887b6248d96bd778d6c1d7ac4e0005">RogueGenesia.Data.EM_Specialization</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___stelar_stone.html#a1a6846076dacf3c904d23900f33309da">RogueGenesia.Data.EM_StelarStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___storm_stone.html#a5fbee67fcc3e64fd8f46beef63d93e69">RogueGenesia.Data.EM_StormStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___sun_stone.html#a976cb55a5846ae31ae6064583f3562a0">RogueGenesia.Data.EM_SunStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___the_tesseract.html#a4207451f998e307525e73a08fcca3a1e">RogueGenesia.Data.EM_TheTesseract</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___tower_shield.html#abcf02eb5e1766aba4e2b4f797301e44a">RogueGenesia.Data.EM_TowerShield</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___trainer.html#ac81c7ffb2b4ce3a3a048cd1efcf359ae">RogueGenesia.Data.EM_Trainer</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___wanderstriders.html#a441195199aa1b149fbd76d26d0633c1a">RogueGenesia.Data.EM_Wanderstriders</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___weapon_finale_damage.html#a6ff52e9256031e9c4c8df1497d0df6f7">RogueGenesia.Data.EM_WeaponFinaleDamage</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___weaponmasters_grip.html#a81fb3f6448e755e84a4b9cfa18e9ed02">RogueGenesia.Data.EM_WeaponmastersGrip</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___wind_stone.html#a161a60ed8d7696e4a3e26dbcdb427599">RogueGenesia.Data.EM_WindStone</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___wraps_of_the_humble.html#a9aeff822e020d6ddc8f5133091eb7a60">RogueGenesia.Data.EM_WrapsOfTheHumble</a>.</p>
+
+</div>
+</div>
+<a id="ae3e7ee644675761a1528c9195dd152b8" name="ae3e7ee644675761a1528c9195dd152b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3e7ee644675761a1528c9195dd152b8">&#9670;&#160;</a></span>GetNoneDescription()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string RogueGenesia.Data.EquipmentModifier.GetNoneDescription </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_main_equipment_modifier.html#a154006cb8e091bd70f5f91a88e48ad19">RogueGenesia.Data.MainEquipmentModifier</a>.</p>
+
+</div>
+</div>
+<a id="a4f658fd72dd3dabe179bec1e6c627d70" name="a4f658fd72dd3dabe179bec1e6c627d70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f658fd72dd3dabe179bec1e6c627d70">&#9670;&#160;</a></span>GetValuePerLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double RogueGenesia.Data.EquipmentModifier.GetValuePerLevel </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44b260fff08063960b2357f656607e92" name="a44b260fff08063960b2357f656607e92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44b260fff08063960b2357f656607e92">&#9670;&#160;</a></span>GetVariableValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double RogueGenesia.Data.EquipmentModifier.GetVariableValue </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>playerLevel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>itemTier</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>itemLevel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a></td>          <td class="paramname"><span class="paramname"><em>equipementSource</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a642df1516ac28698477f8370867268b2" name="a642df1516ac28698477f8370867268b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a642df1516ac28698477f8370867268b2">&#9670;&#160;</a></span>GetVariantsList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment_modifier_variant_info.html">EquipmentModifierVariantInfo</a> &gt; RogueGenesia.Data.EquipmentModifier.GetVariantsList </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___knight_pendant.html#ae164d198d1ea4cc8fed1add135e69b80">RogueGenesia.Data.EM_KnightPendant</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___weapon_finale_damage.html#a4a5815720079c0faf79b640a516df085">RogueGenesia.Data.EM_WeaponFinaleDamage</a>.</p>
+
+</div>
+</div>
+<a id="a4955f549bcc25dd5bdd9c5d545454c20" name="a4955f549bcc25dd5bdd9c5d545454c20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4955f549bcc25dd5bdd9c5d545454c20">&#9670;&#160;</a></span>LoadModifierInformation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.EquipmentModifier.LoadModifierInformation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_rogue_genesia_1_1_data_1_1_modifier_information.html">ModifierInformation</a></td>          <td class="paramname"><span class="paramname"><em>modifierInfo</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___hypercube_manifold.html#ac978c1c849af2c30725bdb3d087ff6a5">RogueGenesia.Data.EM_HypercubeManifold</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___knight_pendant.html#addbc30dcf970d05a24c6e1238f86cd1a">RogueGenesia.Data.EM_KnightPendant</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___recursive_polychoron.html#a5e660e96ff59af820fb7ba00eb9cec4c">RogueGenesia.Data.EM_RecursivePolychoron</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___sights_of_the_specialist.html#aa8eaf15adeb808727f9fb5f45958edb1">RogueGenesia.Data.EM_SightsOfTheSpecialist</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___the_tesseract.html#a4e5196916f9d085125753ffc0acab9a5">RogueGenesia.Data.EM_TheTesseract</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___trainer.html#aefcadd9f429707274a5cdddffad8668a">RogueGenesia.Data.EM_Trainer</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___wanderstriders.html#a291a7f3d5cf4dd820f1d7f5441deaa42">RogueGenesia.Data.EM_Wanderstriders</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___weapon_finale_damage.html#aef6310a8d42c13849fd0358652918497">RogueGenesia.Data.EM_WeaponFinaleDamage</a>.</p>
+
+</div>
+</div>
+<a id="a2671cc2922e715df91e7e6c5d4157c6b" name="a2671cc2922e715df91e7e6c5d4157c6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2671cc2922e715df91e7e6c5d4157c6b">&#9670;&#160;</a></span>OnEquip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.EquipmentModifier.OnEquip </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a></td>          <td class="paramname"><span class="paramname"><em>avatar</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>playerLevel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a></td>          <td class="paramname"><span class="paramname"><em>playerStat</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a></td>          <td class="paramname"><span class="paramname"><em>equipementSource</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>statID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>slot</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___trainer.html#a8f93404f346f2c8349e130ee852bad33">RogueGenesia.Data.EM_Trainer</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___wanderstriders.html#aba7f1b0b95366dd2f471a24be8a635d6">RogueGenesia.Data.EM_Wanderstriders</a>.</p>
+
+</div>
+</div>
+<a id="a4f7de36dea807275dd10923373c1fa19" name="a4f7de36dea807275dd10923373c1fa19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f7de36dea807275dd10923373c1fa19">&#9670;&#160;</a></span>OnEquipmentLevelChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.EquipmentModifier.OnEquipmentLevelChange </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a></td>          <td class="paramname"><span class="paramname"><em>equipment</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>tier</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___the_tesseract.html#ace953bdb8a6c0af7200a4cfd8b95864c">RogueGenesia.Data.EM_TheTesseract</a>.</p>
+
+</div>
+</div>
+<a id="aedc3e08eea5d8ecf527fda57ab31a9f9" name="aedc3e08eea5d8ecf527fda57ab31a9f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedc3e08eea5d8ecf527fda57ab31a9f9">&#9670;&#160;</a></span>OnEquipmentTierChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.EquipmentModifier.OnEquipmentTierChange </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a></td>          <td class="paramname"><span class="paramname"><em>equipment</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>tier</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___the_tesseract.html#ac4787c65537cd2f3e3dbd79b4441af27">RogueGenesia.Data.EM_TheTesseract</a>.</p>
+
+</div>
+</div>
+<a id="a5b52282ea9fd0108db8a8131a01bf000" name="a5b52282ea9fd0108db8a8131a01bf000"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b52282ea9fd0108db8a8131a01bf000">&#9670;&#160;</a></span>OnModifierCreated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.EquipmentModifier.OnModifierCreated </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___hypercube_manifold.html#a366f6608beb4c6cd3dffbb8cab8029f4">RogueGenesia.Data.EM_HypercubeManifold</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___knight_pendant.html#ad3f9c0187591e401487c41473dea7968">RogueGenesia.Data.EM_KnightPendant</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___recursive_polychoron.html#a0fa07a0464b64d902e2fbbccf51428e9">RogueGenesia.Data.EM_RecursivePolychoron</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___sights_of_the_specialist.html#ae82d74586756884836dffa3afcbc4e63">RogueGenesia.Data.EM_SightsOfTheSpecialist</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___the_tesseract.html#ad8ef3b3f318f58e2bab218369bd0309b">RogueGenesia.Data.EM_TheTesseract</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___trainer.html#a06b55a5980486834e0be1cd512508001">RogueGenesia.Data.EM_Trainer</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___wanderstriders.html#ad8a0f31c3fc4790df1eb54727e1da3fa">RogueGenesia.Data.EM_Wanderstriders</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___weapon_finale_damage.html#a24c2f10c0fb89d0b87424825c43ac4f4">RogueGenesia.Data.EM_WeaponFinaleDamage</a>.</p>
+
+</div>
+</div>
+<a id="ab292bba8207f2657286ffcfac4b1a151" name="ab292bba8207f2657286ffcfac4b1a151"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab292bba8207f2657286ffcfac4b1a151">&#9670;&#160;</a></span>OnRemove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.EquipmentModifier.OnRemove </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a></td>          <td class="paramname"><span class="paramname"><em>avatar</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>playerLevel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a></td>          <td class="paramname"><span class="paramname"><em>playerStat</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a></td>          <td class="paramname"><span class="paramname"><em>equipementSource</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>statID</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___wanderstriders.html#afb6e99f9f3ec2cffeb37bd6ac711e612">RogueGenesia.Data.EM_Wanderstriders</a>.</p>
+
+</div>
+</div>
+<a id="aea23c995afc8590cc166857cf6a1746b" name="aea23c995afc8590cc166857cf6a1746b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea23c995afc8590cc166857cf6a1746b">&#9670;&#160;</a></span>RemoveStatsFromPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void RogueGenesia.Data.EquipmentModifier.RemoveStatsFromPlayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_data.html">AvatarData</a></td>          <td class="paramname"><span class="paramname"><em>avatar</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_player_stats.html">PlayerStats</a></td>          <td class="paramname"><span class="paramname"><em>playerStat</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a></td>          <td class="paramname"><span class="paramname"><em>equipementSource</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>statID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>slot</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref List&lt; string &gt;</td>          <td class="paramname"><span class="paramname"><em>Stats</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___acclimatized_legging.html#af47e900ed561fbb3a224f3ae137bde64">RogueGenesia.Data.EM_AcclimatizedLegging</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___band_of_valiance.html#a7f5dfb49a91d2bc354a8c45217f8ef7c">RogueGenesia.Data.EM_BandOfValiance</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___bloodied_towel.html#a3771bbda0ce91f13b6ba78e151429d7d">RogueGenesia.Data.EM_BloodiedTowel</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___blood_seal.html#aacd5a1fc316b38bf7e3698eb9dec3321">RogueGenesia.Data.EM_BloodSeal</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___dark.html#a11425df9279edb8205e6950c100bfaf9">RogueGenesia.Data.EM_CloakOfWorship_Dark</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___fire.html#a8a1daf7e0092c480bf2c12969c99fa32">RogueGenesia.Data.EM_CloakOfWorship_Fire</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___hunt.html#a0fff4efe1c291dd673d488fd7625d463">RogueGenesia.Data.EM_CloakOfWorship_Hunt</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___metal.html#ab3cf110b0566a4198e8c691f81055a41">RogueGenesia.Data.EM_CloakOfWorship_Metal</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___moon.html#a6a278960ad297437362e457c8e0ce0ee">RogueGenesia.Data.EM_CloakOfWorship_Moon</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___sun.html#a50263d318b86f8ee99a064dbd80aa046">RogueGenesia.Data.EM_CloakOfWorship_Sun</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___void.html#a26c8c99c8e3fc5df1c27a9c46ed072f7">RogueGenesia.Data.EM_CloakOfWorship_Void</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___wild.html#a8b3b49118b7091cb1148617f641866e6">RogueGenesia.Data.EM_CloakOfWorship_Wild</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___wind.html#a0c48ce4e3161dbcfd9c152241f9c0583">RogueGenesia.Data.EM_CloakOfWorship_Wind</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___expert_monocle.html#ac748628d29222ed66837fad3f3fc9a4b">RogueGenesia.Data.EM_ExpertMonocle</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___fancy_hat.html#a3ad081ace39e8e3f8fadcf68faabfa03">RogueGenesia.Data.EM_FancyHat</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___fire_stone.html#a0db52debb1eb6fe740ef30a8f874f5eb">RogueGenesia.Data.EM_FireStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___golden_plate.html#a2a11867271bb9b50f2494258070dd70a">RogueGenesia.Data.EM_GoldenPlate</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___golden_ring.html#a1fd4b2f466b16a8ce2c16da161c42300">RogueGenesia.Data.EM_GoldenRing</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___halo.html#a3f2af83ce4996e337e9f0212eb3eb940">RogueGenesia.Data.EM_Halo</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___hands_of_the_guilty.html#a9ea76336f95716829d77980e74d3be9e">RogueGenesia.Data.EM_HandsOfTheGuilty</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___holy_crossguard.html#af6b7ed5cdc09258f70765187643aba48">RogueGenesia.Data.EM_HolyCrossguard</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___hypercube_manifold.html#a7d950b59b5d525ce39bd29769d2974a8">RogueGenesia.Data.EM_HypercubeManifold</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___king_slayer.html#a8f58e27432dea3e609adff37425c7aa4">RogueGenesia.Data.EM_KingSlayer</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___knight_pendant.html#abfbd92e0ec73d5c56997c5f4941ab830">RogueGenesia.Data.EM_KnightPendant</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___monocle_revelation.html#a24d6a0f435d1de43b89bd1d46f72c2ea">RogueGenesia.Data.EM_MonocleRevelation</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___moon_stone.html#a5d5b649e5625c5696e2c5c7d397fa8b3">RogueGenesia.Data.EM_MoonStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___ninja_tabi.html#a354887bee808e29372415377aa80fcfa">RogueGenesia.Data.EM_NinjaTabi</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___noble_slayer.html#a94fc8716ac6b4ff70676cf8c97f84192">RogueGenesia.Data.EM_NobleSlayer</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___no_more_food_drop.html#ace13b37ea509fe3e0d84c8a7b1a72cb6">RogueGenesia.Data.EM_NoMoreFoodDrop</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___recursive_polychoron.html#a9a482d620b2f006ff6ad159207a255f4">RogueGenesia.Data.EM_RecursivePolychoron</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___reduced_food_heal.html#aff49cbbd35f063413c5ea545177ccaca">RogueGenesia.Data.EM_ReducedFoodHeal</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___roots_of_endless_growth.html#a5b65e501f105a70cd7affa3e206075a2">RogueGenesia.Data.EM_RootsOfEndlessGrowth</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___sights_of_the_specialist.html#ab60c3dcab1f39fec00dd05cb0ed0bb9c">RogueGenesia.Data.EM_SightsOfTheSpecialist</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___soul_jar.html#aa5279dd21188ff531c96d9cbe5649cd4">RogueGenesia.Data.EM_SoulJar</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___specialization.html#a88b73595c97164f76d40de6c04cbbdfe">RogueGenesia.Data.EM_Specialization</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___stelar_stone.html#a310667ce70d2617f053532d2b9992dbd">RogueGenesia.Data.EM_StelarStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___storm_stone.html#abbce7eae56e0d1bd44ad4ab4f06a3c24">RogueGenesia.Data.EM_StormStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___sun_stone.html#a034f4b40e385fa025e06d0482c4071b4">RogueGenesia.Data.EM_SunStone</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___the_tesseract.html#afbef1befb75960f581e6c996e37d5843">RogueGenesia.Data.EM_TheTesseract</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___tower_shield.html#aea29bfea67c0c048eff2c8b20321fae2">RogueGenesia.Data.EM_TowerShield</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___trainer.html#aa5eaea7017f328741c9b27f552a22a1d">RogueGenesia.Data.EM_Trainer</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___weapon_finale_damage.html#ad335072d62047c53b01bcfbc517f6d60">RogueGenesia.Data.EM_WeaponFinaleDamage</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___weaponmasters_grip.html#afaac9c45ba22c1a90db6dc61d796e85d">RogueGenesia.Data.EM_WeaponmastersGrip</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___wind_stone.html#a29b4be1a4874ae53fc8423ccfb78a0a8">RogueGenesia.Data.EM_WindStone</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___wraps_of_the_humble.html#ae53283f7530477bf244b7cb8938c980b">RogueGenesia.Data.EM_WrapsOfTheHumble</a>.</p>
+
+</div>
+</div>
+<a id="a3bac6a28d2938283f2a570d55fabb69b" name="a3bac6a28d2938283f2a570d55fabb69b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bac6a28d2938283f2a570d55fabb69b">&#9670;&#160;</a></span>SaveModifierInformation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_rogue_genesia_1_1_data_1_1_modifier_information.html">ModifierInformation</a> RogueGenesia.Data.EquipmentModifier.SaveModifierInformation </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___hypercube_manifold.html#af6cd6d815caeac1666cbdf7fbf20a2da">RogueGenesia.Data.EM_HypercubeManifold</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___knight_pendant.html#aab5bd36712eb166595442f3876e42e2b">RogueGenesia.Data.EM_KnightPendant</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___recursive_polychoron.html#a4be818836a246a440294eb269c6fee2d">RogueGenesia.Data.EM_RecursivePolychoron</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___sights_of_the_specialist.html#a4bc264fb51f872973b2d2c03b62d5379">RogueGenesia.Data.EM_SightsOfTheSpecialist</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___the_tesseract.html#aedb051212e4012aab550dda441eb06e0">RogueGenesia.Data.EM_TheTesseract</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___trainer.html#a5615a69802413e82b643b627ddc0f6f3">RogueGenesia.Data.EM_Trainer</a>, <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___wanderstriders.html#a7d866ece2ef1bd3cfb6e276285a9f9c3">RogueGenesia.Data.EM_Wanderstriders</a>, and <a class="el" href="class_rogue_genesia_1_1_data_1_1_e_m___weapon_finale_damage.html#aba4464d19a69e16c4202518dec401910">RogueGenesia.Data.EM_WeaponFinaleDamage</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a75c19af4d0826631d0ef8d94d458f91d" name="a75c19af4d0826631d0ef8d94d458f91d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75c19af4d0826631d0ef8d94d458f91d">&#9670;&#160;</a></span>BaseValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double RogueGenesia.Data.EquipmentModifier.BaseValue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa9d630560a27558c38ffedfc0c38bbfd" name="aa9d630560a27558c38ffedfc0c38bbfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9d630560a27558c38ffedfc0c38bbfd">&#9670;&#160;</a></span>EquipmentOwner</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a> RogueGenesia.Data.EquipmentModifier.EquipmentOwner</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a46da4826160181f87dcee9f7ebea8eda" name="a46da4826160181f87dcee9f7ebea8eda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46da4826160181f87dcee9f7ebea8eda">&#9670;&#160;</a></span>LinkedModifierSO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment_modifier_s_o.html">EquipmentModifierSO</a> RogueGenesia.Data.EquipmentModifier.LinkedModifierSO</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d7f3d2c2ed548fbfe9e7776ebe356cf" name="a4d7f3d2c2ed548fbfe9e7776ebe356cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d7f3d2c2ed548fbfe9e7776ebe356cf">&#9670;&#160;</a></span>Slot</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RogueGenesia.Data.EquipmentModifier.Slot</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad365ed341c27078a6d00003acd618efa" name="ad365ed341c27078a6d00003acd618efa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad365ed341c27078a6d00003acd618efa">&#9670;&#160;</a></span>StatID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.EquipmentModifier.StatID</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6d44e9204000754a2b75576345d2d729" name="a6d44e9204000754a2b75576345d2d729"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d44e9204000754a2b75576345d2d729">&#9670;&#160;</a></span>ValuePerLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double RogueGenesia.Data.EquipmentModifier.ValuePerLevel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">Property Documentation</h2>
+<a id="aac71e1f2f0787c2f8446ec88d97bef3d" name="aac71e1f2f0787c2f8446ec88d97bef3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac71e1f2f0787c2f8446ec88d97bef3d">&#9670;&#160;</a></span>ScaleWithItemTierAndLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.EquipmentModifier.ScaleWithItemTierAndLevel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80f6b30b0beabb6b2304125258b9cdc3" name="a80f6b30b0beabb6b2304125258b9cdc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80f6b30b0beabb6b2304125258b9cdc3">&#9670;&#160;</a></span>StatLayer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RogueGenesia.Data.EquipmentModifier.StatLayer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44e6ca4c3829190bbd0512a431b7542e" name="a44e6ca4c3829190bbd0512a431b7542e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44e6ca4c3829190bbd0512a431b7542e">&#9670;&#160;</a></span>StatName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RogueGenesia.Data.EquipmentModifier.StatName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6ce4710b04867a31ee96636821e6c1b" name="ac6ce4710b04867a31ee96636821e6c1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6ce4710b04867a31ee96636821e6c1b">&#9670;&#160;</a></span>StatsType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_rogue_genesia_1_1_data.html#acbdbcb972417abfb20cd2d6207071b60">StatsApplicationType</a> RogueGenesia.Data.EquipmentModifier.StatsType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/IdleWave/Rogue_Genesia_GameProject/RogueGenesia/Assets/Scripts/RogueGenesia/Equipement/Modifier/Instancied/<a class="el" href="_equipment_modifier_8cs.html">EquipmentModifier.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a href="namespace_rogue_genesia_1_1_data.html">Data</a></li><li class="navelem"><a href="class_rogue_genesia_1_1_data_1_1_equipment_modifier.html">EquipmentModifier</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

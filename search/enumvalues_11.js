@@ -4,7 +4,7 @@ var searchData=
   ['randomwalk_1',['RandomWalk',['../namespace_rogue_genesia_1_1_actors_1_1_survival.html#a812aa5033e32de6604d74146283fb72ea9a63e51619bf3fbf6c1888dfc19b7edc',1,'RogueGenesia::Actors::Survival']]],
   ['rangearroundplayer_2',['RangeArroundPlayer',['../namespace_rogue_genesia_1_1_data.html#ade1c39d4a8007da6d58244c2df291e4cab958005268362181937e5e9de92ead1d',1,'RogueGenesia::Data']]],
   ['rankincrease_3',['RankIncrease',['../class_rogue_genesia_1_1_data_1_1_challenge_s_o.html#ad5001ebf528c07cd7ce29a7df8cbfc86acba6a79bc933f0eed9e451fd829c2580',1,'RogueGenesia::Data::ChallengeSO']]],
-  ['rare_4',['Rare',['../namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aaaa2cc588f2ab07ad61b05400f593eeb0a',1,'RogueGenesia::Data']]],
+  ['rare_4',['Rare',['../namespace_rogue_genesia_1_1_data.html#a4d4f36c67bf0808606dbf18695e206aaaa2cc588f2ab07ad61b05400f593eeb0a',1,'RogueGenesia.Data.Rare'],['../namespace_rogue_genesia_1_1_data.html#ab4a0525d8f74442225ccadc471167e47aa2cc588f2ab07ad61b05400f593eeb0a',1,'RogueGenesia.Data.Rare']]],
   ['rarityreroll_5',['RarityReroll',['../namespace_rogue_genesia_1_1_data.html#a91d4e1618f3b219b62ca066355adf79da9981e680569faed7c6405868543da3b2',1,'RogueGenesia::Data']]],
   ['rarityrerollcount_6',['RarityRerollCount',['../class_rogue_genesia_1_1_data_1_1_soul_shop_upgrade_s_o.html#acc34381676ecd99288db3111ac3263ecaf436ca87279698a0f5f9a03d22f5f138',1,'RogueGenesia::Data::SoulShopUpgradeSO']]],
   ['reachsoullevel_7',['reachSoulLevel',['../class_rogue_genesia_1_1_data_1_1_achievement_scriptable_object.html#ada4b91b89aafa1701f9b7b4b1838cb27a19d6b710f9643ab79737a909b9587a44',1,'RogueGenesia::Data::AchievementScriptableObject']]],

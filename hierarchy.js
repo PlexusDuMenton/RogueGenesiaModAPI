@@ -297,10 +297,90 @@ var hierarchy =
     [ "RogueGenesia.Data.EnemyTierContainer", "class_rogue_genesia_1_1_data_1_1_enemy_tier_container.html", null ],
     [ "RogueGenesia.Data.EnemyTierData", "class_rogue_genesia_1_1_data_1_1_enemy_tier_data.html", null ],
     [ "RogueGenesia.Actors.Survival.EntityTime", "class_rogue_genesia_1_1_actors_1_1_survival_1_1_entity_time.html", null ],
+    [ "RogueGenesia.Data.EquipedEquipmentInformation", "class_rogue_genesia_1_1_data_1_1_equiped_equipment_information.html", null ],
     [ "RogueGenesia.Data.EquipedSaveTalent", "class_rogue_genesia_1_1_data_1_1_equiped_save_talent.html", null ],
+    [ "RogueGenesia.Data.Equipment", "class_rogue_genesia_1_1_data_1_1_equipment.html", null ],
     [ "ModGenesia.EquipmentAPI", "class_mod_genesia_1_1_equipment_a_p_i.html", null ],
     [ "RogueGenesia.Data.EquipmentData", "class_rogue_genesia_1_1_data_1_1_equipment_data.html", null ],
+    [ "RogueGenesia.Data.EquipmentDropRule", "class_rogue_genesia_1_1_data_1_1_equipment_drop_rule.html", [
+      [ "RogueGenesia.Data.EDR_Boss", "class_rogue_genesia_1_1_data_1_1_e_d_r___boss.html", null ],
+      [ "RogueGenesia.Data.EDR_Challenge", "class_rogue_genesia_1_1_data_1_1_e_d_r___challenge.html", null ],
+      [ "RogueGenesia.Data.EDR_ChallengeAndBoss", "class_rogue_genesia_1_1_data_1_1_e_d_r___challenge_and_boss.html", null ],
+      [ "RogueGenesia.Data.EDR_Multi_Challenge_A", "class_rogue_genesia_1_1_data_1_1_e_d_r___multi___challenge___a.html", null ],
+      [ "RogueGenesia.Data.EDR_Multi_Challenge_B", "class_rogue_genesia_1_1_data_1_1_e_d_r___multi___challenge___b.html", null ],
+      [ "RogueGenesia.Data.EDR_Multi_Challenge_C", "class_rogue_genesia_1_1_data_1_1_e_d_r___multi___challenge___c.html", null ],
+      [ "RogueGenesia.Data.EDR_Multi_Challenge_D", "class_rogue_genesia_1_1_data_1_1_e_d_r___multi___challenge___d.html", null ],
+      [ "RogueGenesia.Data.EDR_Multi_Challenge_E", "class_rogue_genesia_1_1_data_1_1_e_d_r___multi___challenge___e.html", null ],
+      [ "RogueGenesia.Data.EDR_Multi_Challenge_F", "class_rogue_genesia_1_1_data_1_1_e_d_r___multi___challenge___f.html", null ],
+      [ "RogueGenesia.Data.EDR_Rooted100", "class_rogue_genesia_1_1_data_1_1_e_d_r___rooted100.html", null ],
+      [ "RogueGenesia.Data.EDR_Stones", "class_rogue_genesia_1_1_data_1_1_e_d_r___stones.html", null ]
+    ] ],
     [ "RogueGenesia.EquipmentFXUtils", "class_rogue_genesia_1_1_equipment_f_x_utils.html", null ],
+    [ "RogueGenesia.Data.EquipmentInformation", "class_rogue_genesia_1_1_data_1_1_equipment_information.html", null ],
+    [ "RogueGenesia.Data.EquipmentModifier", "class_rogue_genesia_1_1_data_1_1_equipment_modifier.html", [
+      [ "RogueGenesia.Data.MainEquipmentModifier", "class_rogue_genesia_1_1_data_1_1_main_equipment_modifier.html", [
+        [ "RogueGenesia.Data.EM_AcclimatizedLegging", "class_rogue_genesia_1_1_data_1_1_e_m___acclimatized_legging.html", null ],
+        [ "RogueGenesia.Data.EM_BandOfValiance", "class_rogue_genesia_1_1_data_1_1_e_m___band_of_valiance.html", null ],
+        [ "RogueGenesia.Data.EM_BloodSeal", "class_rogue_genesia_1_1_data_1_1_e_m___blood_seal.html", null ],
+        [ "RogueGenesia.Data.EM_BloodiedTowel", "class_rogue_genesia_1_1_data_1_1_e_m___bloodied_towel.html", null ],
+        [ "RogueGenesia.Data.EM_CloakOfWorship_Dark", "class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___dark.html", null ],
+        [ "RogueGenesia.Data.EM_CloakOfWorship_Fire", "class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___fire.html", null ],
+        [ "RogueGenesia.Data.EM_CloakOfWorship_Hunt", "class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___hunt.html", null ],
+        [ "RogueGenesia.Data.EM_CloakOfWorship_Metal", "class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___metal.html", null ],
+        [ "RogueGenesia.Data.EM_CloakOfWorship_Moon", "class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___moon.html", null ],
+        [ "RogueGenesia.Data.EM_CloakOfWorship_Sun", "class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___sun.html", null ],
+        [ "RogueGenesia.Data.EM_CloakOfWorship_Void", "class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___void.html", null ],
+        [ "RogueGenesia.Data.EM_CloakOfWorship_Wild", "class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___wild.html", null ],
+        [ "RogueGenesia.Data.EM_CloakOfWorship_Wind", "class_rogue_genesia_1_1_data_1_1_e_m___cloak_of_worship___wind.html", null ],
+        [ "RogueGenesia.Data.EM_ExpertMonocle", "class_rogue_genesia_1_1_data_1_1_e_m___expert_monocle.html", null ],
+        [ "RogueGenesia.Data.EM_FancyHat", "class_rogue_genesia_1_1_data_1_1_e_m___fancy_hat.html", null ],
+        [ "RogueGenesia.Data.EM_GodStone", "class_rogue_genesia_1_1_data_1_1_e_m___god_stone.html", [
+          [ "RogueGenesia.Data.EM_FireStone", "class_rogue_genesia_1_1_data_1_1_e_m___fire_stone.html", [
+            [ "RogueGenesia.Data.EM_FieryStone", "class_rogue_genesia_1_1_data_1_1_e_m___fiery_stone.html", null ]
+          ] ],
+          [ "RogueGenesia.Data.EM_MoonStone", "class_rogue_genesia_1_1_data_1_1_e_m___moon_stone.html", [
+            [ "RogueGenesia.Data.EM_LunarStone", "class_rogue_genesia_1_1_data_1_1_e_m___lunar_stone.html", null ]
+          ] ],
+          [ "RogueGenesia.Data.EM_StelarStone", "class_rogue_genesia_1_1_data_1_1_e_m___stelar_stone.html", null ],
+          [ "RogueGenesia.Data.EM_StormStone", "class_rogue_genesia_1_1_data_1_1_e_m___storm_stone.html", null ],
+          [ "RogueGenesia.Data.EM_SunStone", "class_rogue_genesia_1_1_data_1_1_e_m___sun_stone.html", [
+            [ "RogueGenesia.Data.EM_SolarStone", "class_rogue_genesia_1_1_data_1_1_e_m___solar_stone.html", null ]
+          ] ],
+          [ "RogueGenesia.Data.EM_WindStone", "class_rogue_genesia_1_1_data_1_1_e_m___wind_stone.html", [
+            [ "RogueGenesia.Data.EM_GaleStone", "class_rogue_genesia_1_1_data_1_1_e_m___gale_stone.html", null ]
+          ] ]
+        ] ],
+        [ "RogueGenesia.Data.EM_GoldenPlate", "class_rogue_genesia_1_1_data_1_1_e_m___golden_plate.html", null ],
+        [ "RogueGenesia.Data.EM_GoldenRing", "class_rogue_genesia_1_1_data_1_1_e_m___golden_ring.html", null ],
+        [ "RogueGenesia.Data.EM_Halo", "class_rogue_genesia_1_1_data_1_1_e_m___halo.html", null ],
+        [ "RogueGenesia.Data.EM_HandsOfTheGuilty", "class_rogue_genesia_1_1_data_1_1_e_m___hands_of_the_guilty.html", null ],
+        [ "RogueGenesia.Data.EM_HolyCrossguard", "class_rogue_genesia_1_1_data_1_1_e_m___holy_crossguard.html", null ],
+        [ "RogueGenesia.Data.EM_HypercubeManifold", "class_rogue_genesia_1_1_data_1_1_e_m___hypercube_manifold.html", null ],
+        [ "RogueGenesia.Data.EM_KingSlayer", "class_rogue_genesia_1_1_data_1_1_e_m___king_slayer.html", null ],
+        [ "RogueGenesia.Data.EM_KnightPendant", "class_rogue_genesia_1_1_data_1_1_e_m___knight_pendant.html", null ],
+        [ "RogueGenesia.Data.EM_MonocleRevelation", "class_rogue_genesia_1_1_data_1_1_e_m___monocle_revelation.html", null ],
+        [ "RogueGenesia.Data.EM_NinjaTabi", "class_rogue_genesia_1_1_data_1_1_e_m___ninja_tabi.html", null ],
+        [ "RogueGenesia.Data.EM_NobleSlayer", "class_rogue_genesia_1_1_data_1_1_e_m___noble_slayer.html", null ],
+        [ "RogueGenesia.Data.EM_RecursivePolychoron", "class_rogue_genesia_1_1_data_1_1_e_m___recursive_polychoron.html", null ],
+        [ "RogueGenesia.Data.EM_RootsOfEndlessGrowth", "class_rogue_genesia_1_1_data_1_1_e_m___roots_of_endless_growth.html", null ],
+        [ "RogueGenesia.Data.EM_SightsOfTheSpecialist", "class_rogue_genesia_1_1_data_1_1_e_m___sights_of_the_specialist.html", null ],
+        [ "RogueGenesia.Data.EM_SoulJar", "class_rogue_genesia_1_1_data_1_1_e_m___soul_jar.html", null ],
+        [ "RogueGenesia.Data.EM_Specialization", "class_rogue_genesia_1_1_data_1_1_e_m___specialization.html", null ],
+        [ "RogueGenesia.Data.EM_TheTesseract", "class_rogue_genesia_1_1_data_1_1_e_m___the_tesseract.html", null ],
+        [ "RogueGenesia.Data.EM_TowerShield", "class_rogue_genesia_1_1_data_1_1_e_m___tower_shield.html", null ],
+        [ "RogueGenesia.Data.EM_Trainer", "class_rogue_genesia_1_1_data_1_1_e_m___trainer.html", null ],
+        [ "RogueGenesia.Data.EM_Wanderstriders", "class_rogue_genesia_1_1_data_1_1_e_m___wanderstriders.html", null ],
+        [ "RogueGenesia.Data.EM_WeaponmastersGrip", "class_rogue_genesia_1_1_data_1_1_e_m___weaponmasters_grip.html", null ],
+        [ "RogueGenesia.Data.EM_WrapsOfTheHumble", "class_rogue_genesia_1_1_data_1_1_e_m___wraps_of_the_humble.html", null ]
+      ] ],
+      [ "RogueGenesia.Data.SecondaryEquipmentModifier", "class_rogue_genesia_1_1_data_1_1_secondary_equipment_modifier.html", [
+        [ "RogueGenesia.Data.EM_NoMoreFoodDrop", "class_rogue_genesia_1_1_data_1_1_e_m___no_more_food_drop.html", null ],
+        [ "RogueGenesia.Data.EM_ReducedFoodHeal", "class_rogue_genesia_1_1_data_1_1_e_m___reduced_food_heal.html", null ],
+        [ "RogueGenesia.Data.EM_WeaponFinaleDamage", "class_rogue_genesia_1_1_data_1_1_e_m___weapon_finale_damage.html", null ]
+      ] ]
+    ] ],
+    [ "RogueGenesia.Data.EquipmentModifierVariantInfo", "class_rogue_genesia_1_1_data_1_1_equipment_modifier_variant_info.html", null ],
+    [ "RogueGenesia.Data.EquipmentPrefix", "class_rogue_genesia_1_1_data_1_1_equipment_prefix.html", null ],
     [ "RogueGenesia.Data.EventRogue", "class_rogue_genesia_1_1_data_1_1_event_rogue.html", [
       [ "RogueGenesia.Data.BankerEvent", "class_rogue_genesia_1_1_data_1_1_banker_event.html", null ],
       [ "RogueGenesia.Data.BardEvent", "class_rogue_genesia_1_1_data_1_1_bard_event.html", null ],
@@ -870,6 +950,8 @@ var hierarchy =
     [ "RogueGenesia.Data.LevelObject", "class_rogue_genesia_1_1_data_1_1_level_object.html", null ],
     [ "RogueGenesia.Save.LevelObjectSave", "class_rogue_genesia_1_1_save_1_1_level_object_save.html", null ],
     [ "RogueGenesia.Data.ListCleaner&lt; T &gt;", "class_rogue_genesia_1_1_data_1_1_list_cleaner-1-g.html", null ],
+    [ "RogueGenesia.Data.Loadout", "class_rogue_genesia_1_1_data_1_1_loadout.html", null ],
+    [ "RogueGenesia.Data.LoadoutSaveInfo", "struct_rogue_genesia_1_1_data_1_1_loadout_save_info.html", null ],
     [ "RogueGenesia.Data.LocalizationData", "class_rogue_genesia_1_1_data_1_1_localization_data.html", null ],
     [ "RogueGenesia.Data.LocalizationDataList", "class_rogue_genesia_1_1_data_1_1_localization_data_list.html", null ],
     [ "RogueGenesia.Data.Loot", "struct_rogue_genesia_1_1_data_1_1_loot.html", null ],
@@ -881,6 +963,7 @@ var hierarchy =
     [ "RogueGenesia.Data.ModdedGameData", "class_rogue_genesia_1_1_data_1_1_modded_game_data.html", null ],
     [ "RogueGenesia.Data.ModdedStatsContainer", "class_rogue_genesia_1_1_data_1_1_modded_stats_container.html", null ],
     [ "ModGenesia.ModGenesia", "class_mod_genesia_1_1_mod_genesia.html", null ],
+    [ "RogueGenesia.Data.ModifierInformation", "struct_rogue_genesia_1_1_data_1_1_modifier_information.html", null ],
     [ "RogueGenesia.Save.ModifierSave", "class_rogue_genesia_1_1_save_1_1_modifier_save.html", null ],
     [ "ModGenesia.ModInfo", "class_mod_genesia_1_1_mod_info.html", null ],
     [ "ModGenesia.SteamWorkShop.ModInstallInfo", "class_mod_genesia_1_1_steam_work_shop_1_1_mod_install_info.html", null ],
@@ -1321,6 +1404,18 @@ var hierarchy =
         [ "RogueGenesia.Data.ChallengeSO", "class_rogue_genesia_1_1_data_1_1_challenge_s_o.html", null ],
         [ "RogueGenesia.Data.EnemyAISO", "class_rogue_genesia_1_1_data_1_1_enemy_a_i_s_o.html", null ],
         [ "RogueGenesia.Data.EnemySOConversion", "class_rogue_genesia_1_1_data_1_1_enemy_s_o_conversion.html", null ],
+        [ "RogueGenesia.Data.EquipmentDropRuleSO", "class_rogue_genesia_1_1_data_1_1_equipment_drop_rule_s_o.html", null ],
+        [ "RogueGenesia.Data.EquipmentEvolutionSO", "class_rogue_genesia_1_1_data_1_1_equipment_evolution_s_o.html", null ],
+        [ "RogueGenesia.Data.EquipmentModifierSO", "class_rogue_genesia_1_1_data_1_1_equipment_modifier_s_o.html", [
+          [ "RogueGenesia.Data.EquipmentModifierSO_Main", "class_rogue_genesia_1_1_data_1_1_equipment_modifier_s_o___main.html", [
+            [ "RogueGenesia.Data.EquipmentModifierSO_Custom_Main", "class_rogue_genesia_1_1_data_1_1_equipment_modifier_s_o___custom___main.html", null ]
+          ] ],
+          [ "RogueGenesia.Data.EquipmentModifierSO_Secondary", "class_rogue_genesia_1_1_data_1_1_equipment_modifier_s_o___secondary.html", [
+            [ "RogueGenesia.Data.EquipmentModifierSO_Custom_Secondary", "class_rogue_genesia_1_1_data_1_1_equipment_modifier_s_o___custom___secondary.html", null ]
+          ] ]
+        ] ],
+        [ "RogueGenesia.Data.EquipmentPrefixSO", "class_rogue_genesia_1_1_data_1_1_equipment_prefix_s_o.html", null ],
+        [ "RogueGenesia.Data.EquipmentSO", "class_rogue_genesia_1_1_data_1_1_equipment_s_o.html", null ],
         [ "RogueGenesia.Data.GameModeDifficultySO", "class_rogue_genesia_1_1_data_1_1_game_mode_difficulty_s_o.html", [
           [ "RogueGenesia.Data.CorridorModeDifficultySO", "class_rogue_genesia_1_1_data_1_1_corridor_mode_difficulty_s_o.html", null ],
           [ "RogueGenesia.Data.RogueModeDifficultySO", "class_rogue_genesia_1_1_data_1_1_rogue_mode_difficulty_s_o.html", null ],
@@ -1337,6 +1432,7 @@ var hierarchy =
           [ "RogueGenesia.Data.EnemyPatternScriptableObject", "class_rogue_genesia_1_1_data_1_1_enemy_pattern_scriptable_object.html", null ],
           [ "RogueGenesia.Data.EnemySO", "class_rogue_genesia_1_1_data_1_1_enemy_s_o.html", null ],
           [ "RogueGenesia.Data.EnemyScriptableObject", "class_rogue_genesia_1_1_data_1_1_enemy_scriptable_object.html", null ],
+          [ "RogueGenesia.Data.EquipmentSlot", "class_rogue_genesia_1_1_data_1_1_equipment_slot.html", null ],
           [ "RogueGenesia.Data.GeneralMonsterAbilitySO", "class_rogue_genesia_1_1_data_1_1_general_monster_ability_s_o.html", null ],
           [ "RogueGenesia.Data.MonsterTypeScriptableObject", "class_rogue_genesia_1_1_data_1_1_monster_type_scriptable_object.html", null ],
           [ "RogueGenesia.Data.PetScriptableObject", "class_rogue_genesia_1_1_data_1_1_pet_scriptable_object.html", null ],

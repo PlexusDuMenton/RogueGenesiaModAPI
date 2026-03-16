@@ -39,6 +39,7 @@ var menudata={children:[
 {text:"o",url:"namespacemembers.html#index_o"},
 {text:"p",url:"namespacemembers.html#index_p"},
 {text:"q",url:"namespacemembers.html#index_q"},
+{text:"s",url:"namespacemembers.html#index_s"},
 {text:"w",url:"namespacemembers.html#index_w"}]},
 {text:"Enumerations",url:"namespacemembers_enum.html",children:[
 {text:"a",url:"namespacemembers_enum.html#index_a"},
@@ -52,6 +53,7 @@ var menudata={children:[
 {text:"o",url:"namespacemembers_enum.html#index_o"},
 {text:"p",url:"namespacemembers_enum.html#index_p"},
 {text:"q",url:"namespacemembers_enum.html#index_q"},
+{text:"s",url:"namespacemembers_enum.html#index_s"},
 {text:"w",url:"namespacemembers_enum.html#index_w"}]}]}]},
 {text:"Classes",url:"annotated.html",children:[
 {text:"Class List",url:"annotated.html"},
@@ -112,6 +114,7 @@ var menudata={children:[
 {text:"u",url:"functions_func_u.html#index_u"},
 {text:"v",url:"functions_func_v.html#index_v"},
 {text:"w",url:"functions_func_w.html#index_w"},
+{text:"x",url:"functions_func_x.html#index_x"},
 {text:"z",url:"functions_func_z.html#index_z"},
 {text:"ŧ",url:"functions_func_0xc5a7.html#index_a0xc5a7"},
 {text:"σ",url:"functions_func_0xcf83.html#index_a0xcf83"}]},

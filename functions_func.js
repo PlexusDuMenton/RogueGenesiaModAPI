@@ -23,6 +23,7 @@ var functions_func =
     [ "u", "functions_func_u.html", null ],
     [ "v", "functions_func_v.html", null ],
     [ "w", "functions_func_w.html", null ],
+    [ "x", "functions_func_x.html", null ],
     [ "z", "functions_func_z.html", null ],
     [ "ŧ", "functions_func_0xc5a7.html", null ],
     [ "σ", "functions_func_0xcf83.html", null ]

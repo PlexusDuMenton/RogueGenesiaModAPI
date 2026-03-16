@@ -5,25 +5,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [id="Node000000",label="RogueGenesia.Data.Reward\lInfoClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_reward_info_class.html",tooltip=" "];
-  Node0 -> Node1 [id="edge1067_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node1 [id="Node000001",label="RogueGenesia.Data.Artifact\lReward_InfoClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_artifact_reward___info_class.html",tooltip=" "];
-  Node0 -> Node2 [id="edge1068_Node000000_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node2 [id="Node000002",label="RogueGenesia.Data.Banish\lReward_InfoClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_banish_reward___info_class.html",tooltip=" "];
-  Node0 -> Node3 [id="edge1069_Node000000_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node3 [id="Node000003",label="RogueGenesia.Data.CardSelection\lReward_InfoClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_card_selection_reward___info_class.html",tooltip=" "];
-  Node0 -> Node4 [id="edge1070_Node000000_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node4 [id="Node000004",label="RogueGenesia.Data.Equipment\lReward_InfoClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_equipment_reward___info_class.html",tooltip=" "];
-  Node0 -> Node5 [id="edge1071_Node000000_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node5 [id="Node000005",label="RogueGenesia.Data.ExpReward\l_InfoClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_exp_reward___info_class.html",tooltip=" "];
-  Node0 -> Node6 [id="edge1072_Node000000_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node6 [id="Node000006",label="RogueGenesia.Data.GoldReward\l_InfoClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_gold_reward___info_class.html",tooltip=" "];
-  Node0 -> Node7 [id="edge1073_Node000000_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node7 [id="Node000007",label="RogueGenesia.Data.Material\lReward_InfoClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_material_reward___info_class.html",tooltip=" "];
-  Node0 -> Node8 [id="edge1074_Node000000_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node8 [id="Node000008",label="RogueGenesia.Data.Rarity\lRerollReward_InfoClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_rarity_reroll_reward___info_class.html",tooltip=" "];
-  Node0 -> Node9 [id="edge1075_Node000000_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node9 [id="Node000009",label="RogueGenesia.Data.Reroll\lReward_InfoClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_reroll_reward___info_class.html",tooltip=" "];
-  Node0 -> Node10 [id="edge1076_Node000000_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node10 [id="Node000010",label="RogueGenesia.Data.SoulCard\lReward_InfoClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_soul_card_reward___info_class.html",tooltip=" "];
+  Node0 [id="Node000000",label="RogueGenesia.Data.PetContainer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_pet_container.html",tooltip=" "];
 }

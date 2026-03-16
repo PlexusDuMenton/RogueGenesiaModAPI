@@ -1,0 +1,473 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>RogueGenesiaModAPI: RogueGenesia.Data.EquipmentSO Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RogueGenesiaModAPI
+   </div>
+   <div id="projectbrief">Rogue: Genesia Modding API</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+<div id="theme-selection">
+ <label for="theme-select">Theme:</label>
+ <select id="theme-select">
+  <option value="theme-default">Default</option>
+  <option value="theme-round">Round</option>
+  <option value="theme-robot">Robot</option>
+ </select>
+</div>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_rogue_genesia_1_1_data_1_1_equipment_s_o.html','','class_rogue_genesia_1_1_data_1_1_equipment_s_o-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">RogueGenesia.Data.EquipmentSO Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for RogueGenesia.Data.EquipmentSO:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 --></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a41b82c88e32f4e3c8be6bd621a8887a2" id="r_a41b82c88e32f4e3c8be6bd621a8887a2"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a41b82c88e32f4e3c8be6bd621a8887a2">CanBeEquipedOnAvatar</a> (<a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html">AvatarScriptableObject</a> avatar)</td></tr>
+<tr class="memitem:ac5a0921c640e403f7721a7d12801a157" id="r_ac5a0921c640e403f7721a7d12801a157"><td class="memItemLeft"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac5a0921c640e403f7721a7d12801a157">GenerateEquipment</a> (<a class="el" href="namespace_rogue_genesia_1_1_data.html#a4672bf4cb9055d9a2f5d678cdee4eba6">EDifficulty</a> itemTier, int level=1)</td></tr>
+<tr class="memitem:aee14bc9ba68354faf5b2e973299241c9" id="r_aee14bc9ba68354faf5b2e973299241c9"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#aee14bc9ba68354faf5b2e973299241c9">GetName</a> ()</td></tr>
+<tr class="memitem:acb5582f70a875a38a788baefa82e77f2" id="r_acb5582f70a875a38a788baefa82e77f2"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#acb5582f70a875a38a788baefa82e77f2">GetLinkName</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ae91c88095b14d08a30d7c058c6ece2ed" id="r_ae91c88095b14d08a30d7c058c6ece2ed"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae91c88095b14d08a30d7c058c6ece2ed">DebugItem</a> = false</td></tr>
+<tr class="memitem:aba40fe31f76b54e4fb81e8f5b25cfd8a" id="r_aba40fe31f76b54e4fb81e8f5b25cfd8a"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#aba40fe31f76b54e4fb81e8f5b25cfd8a">GeneralDropChance</a> = 1</td></tr>
+<tr class="memitem:ad9795a01c93ba3115aad8cb354071a2f" id="r_ad9795a01c93ba3115aad8cb354071a2f"><td class="memItemLeft">List&lt; Sprite &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ad9795a01c93ba3115aad8cb354071a2f">possibleSprite</a></td></tr>
+<tr class="memitem:adc73238834b9a1e57a4b2d552ad6f5eb" id="r_adc73238834b9a1e57a4b2d552ad6f5eb"><td class="memItemLeft">WeightedPicker&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment_modifier_s_o___main.html">EquipmentModifierSO_Main</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#adc73238834b9a1e57a4b2d552ad6f5eb">PossibleMainStatsList</a></td></tr>
+<tr class="memitem:a3653dbe967af4950a198d5248352fa70" id="r_a3653dbe967af4950a198d5248352fa70"><td class="memItemLeft">List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment_evolution_s_o.html">EquipmentEvolutionSO</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a3653dbe967af4950a198d5248352fa70">PossibleEvolution</a></td></tr>
+<tr class="memitem:a1537a79aa191d6fde38091c55ee4b2f8" id="r_a1537a79aa191d6fde38091c55ee4b2f8"><td class="memItemLeft">List&lt; <a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment_slot.html">EquipmentSlot</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a1537a79aa191d6fde38091c55ee4b2f8">possibleSlots</a></td></tr>
+<tr class="memitem:a11c372f6e933846756b4ed13309386cc" id="r_a11c372f6e933846756b4ed13309386cc"><td class="memItemLeft"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a4672bf4cb9055d9a2f5d678cdee4eba6">EDifficulty</a>&#160;</td><td class="memItemRight"><a class="el" href="#a11c372f6e933846756b4ed13309386cc">MaxTier</a> = <a class="el" href="namespace_rogue_genesia_1_1_data.html#a4672bf4cb9055d9a2f5d678cdee4eba6a0db45d2a4141101bdfe48e3314cfbca3">EDifficulty.UNDEFINED</a></td></tr>
+<tr class="memitem:a1894ed6d42e1066b1ff5d4ea36021389" id="r_a1894ed6d42e1066b1ff5d4ea36021389"><td class="memItemLeft"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a4672bf4cb9055d9a2f5d678cdee4eba6">EDifficulty</a>&#160;</td><td class="memItemRight"><a class="el" href="#a1894ed6d42e1066b1ff5d4ea36021389">MinTier</a> = <a class="el" href="namespace_rogue_genesia_1_1_data.html#a4672bf4cb9055d9a2f5d678cdee4eba6a0db45d2a4141101bdfe48e3314cfbca3">EDifficulty.UNDEFINED</a></td></tr>
+<tr class="memitem:a5e6e05e41617579ba35e0541c7e2622c" id="r_a5e6e05e41617579ba35e0541c7e2622c"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a5e6e05e41617579ba35e0541c7e2622c">UniqueItem</a> = false</td></tr>
+<tr class="memitem:a8d1a9a20ca1b80aeb578d0d9248b0310" id="r_a8d1a9a20ca1b80aeb578d0d9248b0310"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a8d1a9a20ca1b80aeb578d0d9248b0310">ForcedEquipment</a> = false</td></tr>
+<tr class="memitem:a4d09e1182ae2317ade077da8d780b017" id="r_a4d09e1182ae2317ade077da8d780b017"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a4d09e1182ae2317ade077da8d780b017">vanityVariants</a> = 0</td></tr>
+<tr class="memitem:acc25ea592925991f547859de57021fea" id="r_acc25ea592925991f547859de57021fea"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#acc25ea592925991f547859de57021fea">CannotCraftModifier</a> = false</td></tr>
+<tr class="memitem:a8251ab97ec08bd92fd0663f3f0171a4f" id="r_a8251ab97ec08bd92fd0663f3f0171a4f"><td class="memItemLeft"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment_drop_rule_s_o.html">EquipmentDropRuleSO</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8251ab97ec08bd92fd0663f3f0171a4f">DropRule</a> = null</td></tr>
+</table>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a41b82c88e32f4e3c8be6bd621a8887a2" name="a41b82c88e32f4e3c8be6bd621a8887a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41b82c88e32f4e3c8be6bd621a8887a2">&#9670;&#160;</a></span>CanBeEquipedOnAvatar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.EquipmentSO.CanBeEquipedOnAvatar </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rogue_genesia_1_1_data_1_1_avatar_scriptable_object.html">AvatarScriptableObject</a></td>          <td class="paramname"><span class="paramname"><em>avatar</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac5a0921c640e403f7721a7d12801a157" name="ac5a0921c640e403f7721a7d12801a157"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5a0921c640e403f7721a7d12801a157">&#9670;&#160;</a></span>GenerateEquipment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment.html">Equipment</a> RogueGenesia.Data.EquipmentSO.GenerateEquipment </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a4672bf4cb9055d9a2f5d678cdee4eba6">EDifficulty</a></td>          <td class="paramname"><span class="paramname"><em>itemTier</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>level</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb5582f70a875a38a788baefa82e77f2" name="acb5582f70a875a38a788baefa82e77f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb5582f70a875a38a788baefa82e77f2">&#9670;&#160;</a></span>GetLinkName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RogueGenesia.Data.EquipmentSO.GetLinkName </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aee14bc9ba68354faf5b2e973299241c9" name="aee14bc9ba68354faf5b2e973299241c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee14bc9ba68354faf5b2e973299241c9">&#9670;&#160;</a></span>GetName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RogueGenesia.Data.EquipmentSO.GetName </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="acc25ea592925991f547859de57021fea" name="acc25ea592925991f547859de57021fea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc25ea592925991f547859de57021fea">&#9670;&#160;</a></span>CannotCraftModifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.EquipmentSO.CannotCraftModifier = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae91c88095b14d08a30d7c058c6ece2ed" name="ae91c88095b14d08a30d7c058c6ece2ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae91c88095b14d08a30d7c058c6ece2ed">&#9670;&#160;</a></span>DebugItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.EquipmentSO.DebugItem = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8251ab97ec08bd92fd0663f3f0171a4f" name="a8251ab97ec08bd92fd0663f3f0171a4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8251ab97ec08bd92fd0663f3f0171a4f">&#9670;&#160;</a></span>DropRule</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment_drop_rule_s_o.html">EquipmentDropRuleSO</a> RogueGenesia.Data.EquipmentSO.DropRule = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d1a9a20ca1b80aeb578d0d9248b0310" name="a8d1a9a20ca1b80aeb578d0d9248b0310"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d1a9a20ca1b80aeb578d0d9248b0310">&#9670;&#160;</a></span>ForcedEquipment</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.EquipmentSO.ForcedEquipment = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba40fe31f76b54e4fb81e8f5b25cfd8a" name="aba40fe31f76b54e4fb81e8f5b25cfd8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba40fe31f76b54e4fb81e8f5b25cfd8a">&#9670;&#160;</a></span>GeneralDropChance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float RogueGenesia.Data.EquipmentSO.GeneralDropChance = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a11c372f6e933846756b4ed13309386cc" name="a11c372f6e933846756b4ed13309386cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11c372f6e933846756b4ed13309386cc">&#9670;&#160;</a></span>MaxTier</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a4672bf4cb9055d9a2f5d678cdee4eba6">EDifficulty</a> RogueGenesia.Data.EquipmentSO.MaxTier = <a class="el" href="namespace_rogue_genesia_1_1_data.html#a4672bf4cb9055d9a2f5d678cdee4eba6a0db45d2a4141101bdfe48e3314cfbca3">EDifficulty.UNDEFINED</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1894ed6d42e1066b1ff5d4ea36021389" name="a1894ed6d42e1066b1ff5d4ea36021389"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1894ed6d42e1066b1ff5d4ea36021389">&#9670;&#160;</a></span>MinTier</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_rogue_genesia_1_1_data.html#a4672bf4cb9055d9a2f5d678cdee4eba6">EDifficulty</a> RogueGenesia.Data.EquipmentSO.MinTier = <a class="el" href="namespace_rogue_genesia_1_1_data.html#a4672bf4cb9055d9a2f5d678cdee4eba6a0db45d2a4141101bdfe48e3314cfbca3">EDifficulty.UNDEFINED</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3653dbe967af4950a198d5248352fa70" name="a3653dbe967af4950a198d5248352fa70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3653dbe967af4950a198d5248352fa70">&#9670;&#160;</a></span>PossibleEvolution</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment_evolution_s_o.html">EquipmentEvolutionSO</a>&gt; RogueGenesia.Data.EquipmentSO.PossibleEvolution</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc73238834b9a1e57a4b2d552ad6f5eb" name="adc73238834b9a1e57a4b2d552ad6f5eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc73238834b9a1e57a4b2d552ad6f5eb">&#9670;&#160;</a></span>PossibleMainStatsList</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">WeightedPicker&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment_modifier_s_o___main.html">EquipmentModifierSO_Main</a>&gt; RogueGenesia.Data.EquipmentSO.PossibleMainStatsList</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1537a79aa191d6fde38091c55ee4b2f8" name="a1537a79aa191d6fde38091c55ee4b2f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1537a79aa191d6fde38091c55ee4b2f8">&#9670;&#160;</a></span>possibleSlots</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_rogue_genesia_1_1_data_1_1_equipment_slot.html">EquipmentSlot</a>&gt; RogueGenesia.Data.EquipmentSO.possibleSlots</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad9795a01c93ba3115aad8cb354071a2f" name="ad9795a01c93ba3115aad8cb354071a2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9795a01c93ba3115aad8cb354071a2f">&#9670;&#160;</a></span>possibleSprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;Sprite&gt; RogueGenesia.Data.EquipmentSO.possibleSprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5e6e05e41617579ba35e0541c7e2622c" name="a5e6e05e41617579ba35e0541c7e2622c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e6e05e41617579ba35e0541c7e2622c">&#9670;&#160;</a></span>UniqueItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RogueGenesia.Data.EquipmentSO.UniqueItem = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d09e1182ae2317ade077da8d780b017" name="a4d09e1182ae2317ade077da8d780b017"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d09e1182ae2317ade077da8d780b017">&#9670;&#160;</a></span>vanityVariants</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RogueGenesia.Data.EquipmentSO.vanityVariants = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/IdleWave/Rogue_Genesia_GameProject/RogueGenesia/Assets/Scripts/RogueGenesia/Equipement/<a class="el" href="_equipment_s_o_8cs.html">EquipmentSO.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_rogue_genesia.html">RogueGenesia</a></li><li class="navelem"><a href="namespace_rogue_genesia_1_1_data.html">Data</a></li><li class="navelem"><a href="class_rogue_genesia_1_1_data_1_1_equipment_s_o.html">EquipmentSO</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

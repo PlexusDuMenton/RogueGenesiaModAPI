@@ -5,13 +5,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [id="Node000000",label="RogueGenesia.Data.PetBehaviour",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_pet_behaviour.html",tooltip=" "];
-  Node0 -> Node1 [id="edge1058_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node1 [id="Node000001",label="RogueGenesia.Data.IdlePet\lBehaviour",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_idle_pet_behaviour.html",tooltip=" "];
-  Node1 -> Node2 [id="edge1059_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node2 [id="Node000002",label="RogueGenesia.Data.HandPet\lBehaviour_Idle",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_hand_pet_behaviour___idle.html",tooltip=" "];
-  Node0 -> Node3 [id="edge1060_Node000000_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node3 [id="Node000003",label="RogueGenesia.Data.MoveTo\lADifferentPositionPetBehaviour",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_move_to_a_different_position_pet_behaviour.html",tooltip=" "];
-  Node3 -> Node4 [id="edge1061_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node4 [id="Node000004",label="RogueGenesia.Data.HandPet\lBehaviour_Move",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_hand_pet_behaviour___move.html",tooltip=" "];
+  Node0 [id="Node000000",label="RogueGenesia.Data.Modded\lGameData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rogue_genesia_1_1_data_1_1_modded_game_data.html",tooltip=" "];
 }

@@ -6,7 +6,7 @@ var searchData=
   ['saveandquit_3',['SaveAndQuit',['../namespace_rogue_genesia_1_1_u_i.html#a3b7d104d9fd7455ab401aeaa5ac70361a86ca3050f739d1c40ab74378cc0e9351',1,'RogueGenesia::UI']]],
   ['scattergun_4',['ScatterGun',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390daa8c6fb3ab35d37d8f61e01b70a8f1f98',1,'RogueGenesia::Data']]],
   ['searchability_5',['SearchAbility',['../namespace_rogue_genesia_1_1_actors_1_1_survival.html#a812aa5033e32de6604d74146283fb72ead96e272e80dd1508c4b7e2b9e67025ad',1,'RogueGenesia::Actors::Survival']]],
-  ['secondary_6',['Secondary',['../namespace_rogue_genesia_1_1_environement.html#a911277e2790e2e95d4ed715d1041ca05a0c7d6cf19426e01dcfa32434828ed266',1,'RogueGenesia::Environement']]],
+  ['secondary_6',['Secondary',['../namespace_rogue_genesia_1_1_environement.html#a911277e2790e2e95d4ed715d1041ca05a0c7d6cf19426e01dcfa32434828ed266',1,'RogueGenesia.Environement.Secondary'],['../namespace_rogue_genesia_1_1_data.html#a210cf3dab64c39687269f78c4c3290a2a0c7d6cf19426e01dcfa32434828ed266',1,'RogueGenesia.Data.Secondary']]],
   ['selfdamage_7',['SelfDamage',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390daea955cdcbe9804fefd62edc38088bc89',1,'RogueGenesia::Data']]],
   ['sellhealth_8',['SellHealth',['../namespace_rogue_genesia_1_1_data.html#a07594f4450c18f5242bd926577c95e5ba7ef9982973c8560045136a32f4d8c2c3',1,'RogueGenesia::Data']]],
   ['separator_9',['Separator',['../class_rogue_genesia_1_1_u_i_1_1_tooltip_section.html#aeb73f5f9e459292bb84d3398f75e0eeca04b2e4188d4ef8051e4699da8af01335',1,'RogueGenesia::UI::TooltipSection']]],

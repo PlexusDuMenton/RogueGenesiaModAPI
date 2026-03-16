@@ -2,7 +2,7 @@ var searchData=
 [
   ['necromancerboss_0',['NecromancerBoss',['../namespace_rogue_genesia_1_1_data.html#a92f74f9f28631581f2dfe01506ae4443a97ae19723015e3ae3ba3342748294762',1,'RogueGenesia::Data']]],
   ['necromancersummon_1',['NecromancerSummon',['../namespace_rogue_genesia_1_1_data.html#a8fec1380e4709510c8c5abcb647f390daa4ced12c59e57ddf45619cc428fd6d13',1,'RogueGenesia::Data']]],
-  ['negative_2',['Negative',['../class_rogue_genesia_1_1_data_1_1_custom_challenge_description.html#ae8e8868df173dab4d0aa458dd7585397affb9356ff2b7da85c75c92fa7ea03b8b',1,'RogueGenesia::Data::CustomChallengeDescription']]],
+  ['negative_2',['Negative',['../class_rogue_genesia_1_1_data_1_1_custom_challenge_description.html#ae8e8868df173dab4d0aa458dd7585397affb9356ff2b7da85c75c92fa7ea03b8b',1,'RogueGenesia.Data.CustomChallengeDescription.Negative'],['../namespace_rogue_genesia_1_1_data.html#aaf5442531d8cf26a0f48e87b0d3a1ac0affb9356ff2b7da85c75c92fa7ea03b8b',1,'RogueGenesia.Data.Negative']]],
   ['nera_3',['Nera',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_shrine_entity.html#a39f070bd1b17a2765432f1ee146e3952aa1fbb4f4c99971d47eaf7f831b69f9d3',1,'RogueGenesia::Actors::Survival::ShrineEntity']]],
   ['neutral_4',['Neutral',['../class_rogue_genesia_1_1_data_1_1_custom_challenge_description.html#ae8e8868df173dab4d0aa458dd7585397ae9bb5320b3890b6747c91b5a71ae5a01',1,'RogueGenesia::Data::CustomChallengeDescription']]],
   ['noduration_5',['NoDuration',['../namespace_rogue_genesia_1_1_actors_1_1_survival.html#a33d9641bff7371123fe8d8ebd4abdb8aaf976bae21f614dd63157635c9a9d2074',1,'RogueGenesia::Actors::Survival']]],

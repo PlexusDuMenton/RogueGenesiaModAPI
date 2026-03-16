@@ -13,6 +13,7 @@ digraph "D:/IdleWave/Rogue_Genesia_GameProject/RogueGenesia/Assets/Scripts/Rogue
   dir_ecb4ac82fa6d93c25380f2e01aa3a44b [label="Actors", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_ecb4ac82fa6d93c25380f2e01aa3a44b.html",tooltip=""];
   dir_4f13f349c129ec0825f87a34674cd216 [label="Avatar", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_4f13f349c129ec0825f87a34674cd216.html",tooltip=""];
   dir_a2a94b97a852944a8211a7dfcda865b7 [label="CustomUi", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_a2a94b97a852944a8211a7dfcda865b7.html",tooltip=""];
+  dir_6398aa2c18fe7537bfe91cc40e01db43 [label="Equipement", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_6398aa2c18fe7537bfe91cc40e01db43.html",tooltip=""];
   dir_ed6436d4cda532974b30ae2e57fdf7ea [label="GameManager", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_ed6436d4cda532974b30ae2e57fdf7ea.html",tooltip=""];
   dir_71df23a57650168c1b1196b6e0de7407 [label="ScriptableObjects", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_71df23a57650168c1b1196b6e0de7407.html",tooltip=""];
   dir_3d39b05a738d11f01ae4d4271308f2d8 [label="Survival", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_3d39b05a738d11f01ae4d4271308f2d8.html",tooltip=""];

@@ -60,6 +60,7 @@ var searchData=
   ['projinstantiate_57',['projInstantiate',['../class_rogue_genesia_1_1_pooling_1_1_projectil_pooling.html#a95880f845076e27d59ce5b11f83ee44b',1,'RogueGenesia::Pooling::ProjectilPooling']]],
   ['pseudorandomcheck_58',['PseudoRandomCheck',['../class_rogue_genesia_1_1_data_1_1_game_random.html#a4361fbc5bc7f95fbac25cdd1868781fe',1,'RogueGenesia::Data::GameRandom']]],
   ['pulseai_59',['PulseAI',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_multiplicator_boss.html#af297490f4087cf8fffe61e3204c16374',1,'RogueGenesia::Actors::Survival::MultiplicatorBoss']]],
-  ['purifyingfirebuff_60',['PurifyingFireBuff',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_purifying_fire_buff.html#acf38a5c7bd07d227f9f52fbc14e175d5',1,'RogueGenesia::Actors::Survival::PurifyingFireBuff']]],
-  ['putmonstertospawnqueue_61',['PutMonsterToSpawnQueue',['../class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#addf56430f81d3171929d6e6fe70f9c69',1,'RogueGenesia::GameManager::EnemyManager']]]
+  ['purification_60',['Purification',['../class_rogue_genesia_1_1_data_1_1_e_m___stelar_stone.html#a511dfad5d0ce64a602d7095a08f6e76a',1,'RogueGenesia.Data.EM_StelarStone.Purification()'],['../class_rogue_genesia_1_1_data_1_1_e_m___sun_stone.html#ab3deda74aefd72567cf58429044a7380',1,'RogueGenesia.Data.EM_SunStone.Purification()'],['../class_rogue_genesia_1_1_data_1_1_e_m___solar_stone.html#a7b958abc1d61d508fbe3123624f020d5',1,'RogueGenesia.Data.EM_SolarStone.Purification()']]],
+  ['purifyingfirebuff_61',['PurifyingFireBuff',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_purifying_fire_buff.html#acf38a5c7bd07d227f9f52fbc14e175d5',1,'RogueGenesia::Actors::Survival::PurifyingFireBuff']]],
+  ['putmonstertospawnqueue_62',['PutMonsterToSpawnQueue',['../class_rogue_genesia_1_1_game_manager_1_1_enemy_manager.html#addf56430f81d3171929d6e6fe70f9c69',1,'RogueGenesia::GameManager::EnemyManager']]]
 ];
