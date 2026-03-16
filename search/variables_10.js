@@ -1,9 +1,20 @@
 var searchData=
 [
-  ['qualitydd_0',['QualityDD',['../class_rogue_genesia_1_1_u_i_1_1_option_menu.html#aab7cd04569e98d0e9e7cf25281927304',1,'RogueGenesia::UI::OptionMenu']]],
-  ['queen_1',['Queen',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_vampire_queen_phase.html#a3e45111059b548161672e1b7ab820eac',1,'RogueGenesia::Actors::Survival::VampireQueenPhase']]],
-  ['queenintrofx_2',['QueenIntroFX',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_vampire_queen_boss.html#ae972a498ff7205fdade98cf975f0090c',1,'RogueGenesia::Actors::Survival::VampireQueenBoss']]],
-  ['questobjective_3',['QuestObjective',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_altar_entity.html#a0e5796081dd2700b24756571b628562f',1,'RogueGenesia::Actors::Survival::AltarEntity']]],
-  ['quickgame_4',['quickGame',['../class_rogue_genesia_1_1_save_1_1_game_state_save.html#a0fd086bcab5972be5ddd8089059d728a',1,'RogueGenesia::Save::GameStateSave']]],
-  ['quickmode_5',['QuickMode',['../class_rogue_genesia_1_1_data_1_1_game_data.html#aef76ac610e2b22ab1b3191756023166b',1,'RogueGenesia.Data.GameData.QuickMode()'],['../class_rogue_genesia_1_1_u_i_1_1_start_game_manager.html#a34f0c87794b273de8fb1c942f21fd76b',1,'RogueGenesia.UI.StartGameManager.QuickMode()']]]
+  ['tag_5fachievements_0',['Tag_Achievements',['../class_mod_genesia_1_1_manifest_builder.html#ac55968073ec97fdc972fd8177553480b',1,'ModGenesia::ManifestBuilder']]],
+  ['tag_5favatar_1',['Tag_Avatar',['../class_mod_genesia_1_1_manifest_builder.html#a1338e2c3f5df55effb8466a1dadcbb05',1,'ModGenesia::ManifestBuilder']]],
+  ['tag_5fchallenge_2',['Tag_Challenge',['../class_mod_genesia_1_1_manifest_builder.html#ade60eb39b017b68a5c436e1865f9da20',1,'ModGenesia::ManifestBuilder']]],
+  ['tag_5fgamemode_3',['Tag_GameMode',['../class_mod_genesia_1_1_manifest_builder.html#ae42e5fd805193e01d2e2dfc6b8adb871',1,'ModGenesia::ManifestBuilder']]],
+  ['tag_5fmonster_4',['Tag_Monster',['../class_mod_genesia_1_1_manifest_builder.html#a1016f2d6784d3ab2f7053eef390caf6f',1,'ModGenesia::ManifestBuilder']]],
+  ['tag_5fpet_5',['Tag_Pet',['../class_mod_genesia_1_1_manifest_builder.html#ac4c043b68b9797533894466fbadcdfbd',1,'ModGenesia::ManifestBuilder']]],
+  ['tag_5fsoulcard_6',['Tag_SoulCard',['../class_mod_genesia_1_1_manifest_builder.html#ad68be4057ba69aff19c68c7c24511c90',1,'ModGenesia::ManifestBuilder']]],
+  ['tag_5fstage_7',['Tag_Stage',['../class_mod_genesia_1_1_manifest_builder.html#a648d629a6260adf659dc367af3729efe',1,'ModGenesia::ManifestBuilder']]],
+  ['tag_5fstageobjective_8',['Tag_StageObjective',['../class_mod_genesia_1_1_manifest_builder.html#a90f9deb3645c978722ade48ebfb7fb89',1,'ModGenesia::ManifestBuilder']]],
+  ['tag_5ftalent_9',['Tag_Talent',['../class_mod_genesia_1_1_manifest_builder.html#ae63d359b86741c8044e3e852f50f2887',1,'ModGenesia::ManifestBuilder']]],
+  ['tag_5fvisual_10',['Tag_Visual',['../class_mod_genesia_1_1_manifest_builder.html#a679e8d28ca0f4239ec4585b2e2a58b09',1,'ModGenesia::ManifestBuilder']]],
+  ['tag_5fweapon_11',['Tag_Weapon',['../class_mod_genesia_1_1_manifest_builder.html#a67ba0de5b5e34a4416c64de30c259f75',1,'ModGenesia::ManifestBuilder']]],
+  ['tag_5fzone_12',['Tag_Zone',['../class_mod_genesia_1_1_manifest_builder.html#a595bb824a7f241237b2713afe0b677ec',1,'ModGenesia::ManifestBuilder']]],
+  ['tags_13',['Tags',['../struct_mod_genesia_1_1_soul_card_json_reader.html#a3530c0b83b7bd4b2d3243eb4a871b755',1,'ModGenesia.SoulCardJsonReader.Tags'],['../class_mod_genesia_1_1_soul_card_creation_data.html#aa86dd81b97860fa06f614d26c8a12f29',1,'ModGenesia.SoulCardCreationData.Tags'],['../class_mod_genesia_1_1_mod_info.html#a240ceffff80faedeb77d9912cafe93af',1,'ModGenesia.ModInfo.Tags'],['../class_mod_genesia_1_1_work_shop_information.html#acfcaac6c8eb1309db8995fa26b38eff9',1,'ModGenesia.WorkShopInformation.Tags']]],
+  ['texture_14',['Texture',['../class_mod_genesia_1_1_soul_card_creation_data.html#a0a83d81c119f8a70d159ff13eb0e0ba2',1,'ModGenesia::SoulCardCreationData']]],
+  ['thismoddata_15',['ThisModData',['../class_mod_genesia_1_1_rogue_genesia_mod.html#adf96dfffdf40581b36ccc4b9b335cf4b',1,'ModGenesia::RogueGenesiaMod']]],
+  ['togglebutton_16',['ToggleButton',['../class_mod_button.html#aad4098ec1b2da0cd9baed3c23127b9bd',1,'ModButton']]]
 ];

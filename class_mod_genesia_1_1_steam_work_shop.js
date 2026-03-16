@@ -1,7 +1,7 @@
 var class_mod_genesia_1_1_steam_work_shop =
 [
-    [ "ModInstallInfo", "class_mod_genesia_1_1_steam_work_shop_1_1_mod_install_info.html", "class_mod_genesia_1_1_steam_work_shop_1_1_mod_install_info" ],
     [ "WorkshopDownloadProgress", "class_mod_genesia_1_1_steam_work_shop_1_1_workshop_download_progress.html", "class_mod_genesia_1_1_steam_work_shop_1_1_workshop_download_progress" ],
+    [ "ModInstallInfo", "class_mod_genesia_1_1_steam_work_shop_1_1_mod_install_info.html", "class_mod_genesia_1_1_steam_work_shop_1_1_mod_install_info" ],
     [ "SteamWorkShop", "class_mod_genesia_1_1_steam_work_shop.html#ac1761929b7843f85fa2940a87416e456", null ],
     [ "AddInstalledMods", "class_mod_genesia_1_1_steam_work_shop.html#abf23233ff295bb3f7bac1909b4ee061a", null ],
     [ "CreateWorkShopItem", "class_mod_genesia_1_1_steam_work_shop.html#a6f1fb96d5d7bb6abd47b8f756615372f", null ],

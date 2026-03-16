@@ -1,4 +1,30 @@
 var searchData=
 [
-  ['_5binstance_20initializer_5d_0',['[instance initializer]',['../_mod_creation_utils_8cs.html#a0858c61cc33d543d5e6d451fcee2634c',1,'ModCreationUtils.cs']]]
+  ['activateenabledmods_0',['ActivateEnabledMods',['../class_mod_genesia_1_1_mod_loader.html#a6672408d313428d50dd09c00e5b6ff80',1,'ModGenesia::ModLoader']]],
+  ['activatemod_1',['ActivateMod',['../class_mod_genesia_1_1_mod_loader.html#a215e50d38147cca3adb9cd82d6154e68',1,'ModGenesia::ModLoader']]],
+  ['addartifact_2',['AddArtifact',['../class_mod_genesia_1_1_content_a_p_i.html#a31787bd1355ef486dc06ed305862241e',1,'ModGenesia::ContentAPI']]],
+  ['addavatarskin_3',['AddAvatarSkin',['../class_mod_genesia_1_1_avatar_a_p_i.html#a555f29f74c065fa5a4af95e063a5b21b',1,'ModGenesia::AvatarAPI']]],
+  ['addcustomavatar_4',['AddCustomAvatar',['../class_mod_genesia_1_1_avatar_a_p_i.html#a02aa4bfd7036c900f69a66abf2c53a95',1,'ModGenesia::AvatarAPI']]],
+  ['addcustomcard_5',['AddCustomCard',['../class_mod_genesia_1_1_card_a_p_i.html#aa172b6bf2ed88678dd6c54ea99414a59',1,'ModGenesia::CardAPI']]],
+  ['addcustomchallenge_6',['AddCustomChallenge',['../class_mod_genesia_1_1_challenge_a_p_i.html#a6a17c106ad0af5e22339a31b5adc8437',1,'ModGenesia.ChallengeAPI.AddCustomChallenge(string name, int GameModeID, int DifficultyID, float soulCoinMultiplier, ChallengeModifier challengeModifier, bool isHardMode, List&lt; LocalizationData &gt; localisedName, int order=9, List&lt; CustomChallengeDescription &gt; CustomDescription=null)'],['../class_mod_genesia_1_1_challenge_a_p_i.html#a25b0bf280f4e6ca30a12add0b9101be9',1,'ModGenesia.ChallengeAPI.AddCustomChallenge(string name, string GameModeName, string DifficultyName, float soulCoinMultiplier, ChallengeModifier challengeModifier, bool isHardMode, List&lt; LocalizationData &gt; localisedName, int order=9, List&lt; CustomChallengeDescription &gt; CustomDescription=null)']]],
+  ['addcustomchallengewithoutrefresh_7',['AddCustomChallengeWithoutRefresh',['../class_mod_genesia_1_1_challenge_a_p_i.html#a060af8caa41cc299c601d9fed1d53115',1,'ModGenesia::ChallengeAPI']]],
+  ['addcustomcollectible_8',['AddCustomCollectible',['../class_mod_genesia_1_1_content_a_p_i.html#a35ab07df1bac1ea63524a7acd1561324',1,'ModGenesia.ContentAPI.AddCustomCollectible(string key, System.Type type, Sprite CollectibleSprite, LocalizationDataList localisedName, LocalizationDataList localisedDescription, AudioClip[] pickUpSound)'],['../class_mod_genesia_1_1_content_a_p_i.html#a51e14206e08a5078a98ca28da95f17ed',1,'ModGenesia.ContentAPI.AddCustomCollectible(string key, System.Type type, Sprite CollectibleSprite, AudioClip[] pickUpSound)']]],
+  ['addcustomdamagesource_9',['AddCustomDamageSource',['../class_mod_genesia_1_1_content_a_p_i.html#a7f668689d1b72c361faa9d9baf90be29',1,'ModGenesia::ContentAPI']]],
+  ['addcustomeliteability_10',['AddCustomEliteAbility',['../class_mod_genesia_1_1_content_a_p_i.html#a3df2f332d7cb927ff9ecd67a86d86e80',1,'ModGenesia::ContentAPI']]],
+  ['addcustompet_11',['AddCustomPet',['../class_mod_genesia_1_1_pet_a_p_i.html#a92391d1ff1fa8da589e3afef23cc5374',1,'ModGenesia::PetAPI']]],
+  ['addcustomstat_12',['AddCustomStat',['../class_mod_genesia_1_1_content_a_p_i.html#a66b3548f860582de83b6479abe6225d8',1,'ModGenesia::ContentAPI']]],
+  ['addcustomstatcard_13',['AddCustomStatCard',['../class_mod_genesia_1_1_card_a_p_i.html#ac45c3539eb65a7cff62f9ec07194dd0c',1,'ModGenesia::CardAPI']]],
+  ['addcustomweapon_14',['AddCustomWeapon',['../class_mod_genesia_1_1_card_a_p_i.html#a6d99442e9bc6f33d92d64da6d0662adc',1,'ModGenesia::CardAPI']]],
+  ['addevent_15',['AddEvent',['../class_mod_genesia_1_1_content_a_p_i.html#ad21175f49ad9146b177f81b31c55b991',1,'ModGenesia::ContentAPI']]],
+  ['addinstalledmods_16',['AddInstalledMods',['../class_mod_genesia_1_1_steam_work_shop.html#abf23233ff295bb3f7bac1909b4ee061a',1,'ModGenesia::SteamWorkShop']]],
+  ['addkeybind_17',['AddKeybind',['../class_mod_genesia_1_1_mod_option.html#ab82948697ab24c5419ae69f0f89b03f0',1,'ModGenesia::ModOption']]],
+  ['addmaincustomequipmentmodifier_18',['AddMainCustomEquipmentModifier',['../class_mod_genesia_1_1_equipment_a_p_i.html#ae06d7cc1d09d08705f18de764c86724f',1,'ModGenesia::EquipmentAPI']]],
+  ['addmainstatsequipmentmodifier_19',['AddMainStatsEquipmentModifier',['../class_mod_genesia_1_1_equipment_a_p_i.html#a832f4b4b99832640d5eb04192f0243d7',1,'ModGenesia::EquipmentAPI']]],
+  ['addmodoption_20',['AddModOption',['../class_mod_genesia_1_1_mod_option.html#a92732f87f4bdb5773c3629dbb1b99878',1,'ModGenesia::ModOption']]],
+  ['addshopbuyable_21',['AddShopBuyable',['../class_mod_genesia_1_1_content_a_p_i.html#a3ec310e586c13ff794b74a32aafb514c',1,'ModGenesia::ContentAPI']]],
+  ['addsoulshopupgrade_22',['AddSoulShopUpgrade',['../class_mod_genesia_1_1_content_a_p_i.html#afb30568f60a68d7f3416e3482a9ed50b',1,'ModGenesia::ContentAPI']]],
+  ['addstageobjective_23',['AddStageObjective',['../class_mod_genesia_1_1_stage_a_p_i.html#a3c20089c9b2df65afbaaebb482f57085',1,'ModGenesia::StageAPI']]],
+  ['addstagetype_24',['AddStageType',['../class_mod_genesia_1_1_stage_a_p_i.html#a1c6a4ce130afba8ba95ef9aca6362a3d',1,'ModGenesia::StageAPI']]],
+  ['addtalent_25',['AddTalent',['../class_mod_genesia_1_1_content_a_p_i.html#a442ddb4240c91fd727dc513481e3eed3',1,'ModGenesia::ContentAPI']]],
+  ['assemblypair_26',['AssemblyPair',['../class_mod_genesia_1_1_mod_loader_1_1_assembly_pair.html#a4d13be2fbc444cb3c362c055f2a50546',1,'ModGenesia::ModLoader::AssemblyPair']]]
 ];

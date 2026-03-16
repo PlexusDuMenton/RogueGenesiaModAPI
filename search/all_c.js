@@ -1,10 +1,5 @@
 var searchData=
 [
-  ['jaald_0',['Jaald',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_shrine_entity.html#a39f070bd1b17a2765432f1ee146e3952a6779cdd033f510224a1119febc70b1cc',1,'RogueGenesia::Actors::Survival::ShrineEntity']]],
-  ['jaaldblessing_1',['JaaldBlessing',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_jaald_blessing.html#a728828c9e95fcd4ab4bdca66b9659d6f',1,'RogueGenesia.Actors.Survival.JaaldBlessing.JaaldBlessing()'],['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_jaald_blessing.html',1,'RogueGenesia.Actors.Survival.JaaldBlessing']]],
-  ['jaaldblessing_2ecs_2',['JaaldBlessing.cs',['../_jaald_blessing_8cs.html',1,'']]],
-  ['jaaldpotionartifact_3',['JaaldPotionArtifact',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_jaald_potion_artifact.html',1,'RogueGenesia::Actors::Survival']]],
-  ['jaaldpotionartifact_2ecs_4',['JaaldPotionArtifact.cs',['../_jaald_potion_artifact_8cs.html',1,'']]],
-  ['jaaldtemple_2ecs_5',['JaaldTemple.cs',['../_jaald_temple_8cs.html',1,'']]],
-  ['jaaldtempleevent_6',['JaaldTempleEvent',['../class_rogue_genesia_1_1_data_1_1_jaald_temple_event.html',1,'RogueGenesia::Data']]]
+  ['name_0',['Name',['../class_mod_genesia_1_1_mod_info.html#aba00535af4007842505ce7dcda3719ed',1,'ModGenesia.ModInfo.Name'],['../class_mod_genesia_1_1_manifest_builder.html#aca47dde2bfdaebc730605254c6f793dc',1,'ModGenesia.ManifestBuilder.Name'],['../class_mod_button.html#a6551d61febe304d0cb4ed3397df950c7',1,'ModButton.Name'],['../class_mod_genesia_1_1_work_shop_information.html#a611cd6f7ac6076b63533f60b86304ed6',1,'ModGenesia.WorkShopInformation.Name']]],
+  ['nameoverride_1',['NameOverride',['../struct_mod_genesia_1_1_soul_card_json_reader.html#aec1f5b3f6a09a7d0aea7815b94033827',1,'ModGenesia.SoulCardJsonReader.NameOverride'],['../class_mod_genesia_1_1_soul_card_creation_data.html#a03e2eaefaa9f542d0ab854dd40049bd0',1,'ModGenesia.SoulCardCreationData.NameOverride']]]
 ];

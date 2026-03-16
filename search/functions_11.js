@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['quicksanddebuff_0',['QuickSandDebuff',['../class_rogue_genesia_1_1_actors_1_1_survival_1_1_quick_sand_debuff.html#a27a8b17db19ff5a571ac882fc96d3bcd',1,'RogueGenesia::Actors::Survival::QuickSandDebuff']]]
+  ['validatemanifest_0',['ValidateManifest',['../class_mod_genesia_1_1_manifest_builder.html#a4c1e1787fe84a43ff27996c422f77228',1,'ModGenesia::ManifestBuilder']]]
 ];
